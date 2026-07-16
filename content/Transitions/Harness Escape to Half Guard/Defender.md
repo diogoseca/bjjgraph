@@ -140,6 +140,43 @@ description: "Learn to prevent and counter the Harness Escape to Half Guard from
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harness Escape to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2 Mount Escape Options to Half Guard",
+      "description": "Harness Escape to Half Guard (Defender) film study: 2 Mount Escape Options to Half Guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
+      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Avoiding Mount When Escaping the Back",
+      "description": "Harness Escape to Half Guard (Defender) film study: Avoiding Mount When Escaping the Back, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bhkb4ItZQno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bhkb4ItZQno",
+      "url": "https://www.youtube.com/watch?v=bhkb4ItZQno",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 **Opponent's Starting Position**: [[Positions/Harness]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harness Escape to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cyegyon5hVg)
+
+<p class="clip-credit"><strong>2 Mount Escape Options to Half Guard</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bhkb4ItZQno)
+
+<p class="clip-credit"><strong>Avoiding Mount When Escaping the Back</strong> — taught by Henry Akins · 2:11 · <a href="https://www.youtube.com/watch?v=bhkb4ItZQno" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

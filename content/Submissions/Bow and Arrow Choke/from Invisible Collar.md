@@ -34,6 +34,54 @@ description: "Master the Bow and Arrow Choke from Invisible Collar. Learn concea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Invisible Collar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the cross collar choke",
+      "description": "Bow and Arrow Choke from Invisible Collar film study: Finishing the cross collar choke, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TDBe1SHzHKo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TDBe1SHzHKo",
+      "url": "https://www.youtube.com/watch?v=TDBe1SHzHKo",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bread cutter choke, Roger Gracie style",
+      "description": "Bow and Arrow Choke from Invisible Collar film study: Bread cutter choke, Roger Gracie style, taught by Andy Hagans.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xab75xOnHqk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xab75xOnHqk",
+      "url": "https://www.youtube.com/watch?v=xab75xOnHqk",
+      "creator": { "@type": "Person", "name": "Andy Hagans" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross collar choke \u2014 first hand inside",
+      "description": "Bow and Arrow Choke from Invisible Collar film study: Cross collar choke \u2014 first hand inside, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KE4ulYBSmjY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KE4ulYBSmjY",
+      "url": "https://www.youtube.com/watch?v=KE4ulYBSmjY",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Strategically, this variant serves as a high-percentage finishing option within 
 **Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] · **From**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Invisible Collar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TDBe1SHzHKo)
+
+<p class="clip-credit"><strong>Finishing the cross collar choke</strong> — taught by Henry Akins · 0:51 · <a href="https://www.youtube.com/watch?v=TDBe1SHzHKo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xab75xOnHqk)
+
+<p class="clip-credit"><strong>Bread cutter choke, Roger Gracie style</strong> — taught by Andy Hagans · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KE4ulYBSmjY)
+
+<p class="clip-credit"><strong>Cross collar choke — first hand inside</strong> — taught by Henry Akins · 0:55 · <a href="https://www.youtube.com/watch?v=KE4ulYBSmjY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

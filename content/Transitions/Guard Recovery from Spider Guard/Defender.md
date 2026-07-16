@@ -148,6 +148,54 @@ description: "Prevent guard recovery from Spider Guard as the top player in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Spider Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider guard to toreando pass",
+      "description": "Guard Recovery from Spider Guard (Defender) film study: Spider guard to toreando pass, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IlYYg75ncqY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IlYYg75ncqY",
+      "url": "https://www.youtube.com/watch?v=IlYYg75ncqY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT246S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dealing with spider guard: grip breaks and passing",
+      "description": "Guard Recovery from Spider Guard (Defender) film study: Dealing with spider guard: grip breaks and passing, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qVnPgUvfXl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qVnPgUvfXl0",
+      "url": "https://www.youtube.com/watch?v=qVnPgUvfXl0",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT302S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Spider guard pass with competition footage",
+      "description": "Guard Recovery from Spider Guard (Defender) film study: Spider guard pass with competition footage, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cJJLmy4UChI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cJJLmy4UChI",
+      "url": "https://www.youtube.com/watch?v=cJJLmy4UChI",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT408S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the top player passing spider guard, the bottom player's attempt to close gua
 **Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Spider Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IlYYg75ncqY)
+
+<p class="clip-credit"><strong>Spider guard to toreando pass</strong> — taught by Gordon Ryan · 4:06 · <a href="https://www.youtube.com/watch?v=IlYYg75ncqY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qVnPgUvfXl0)
+
+<p class="clip-credit"><strong>Dealing with spider guard: grip breaks and passing</strong> — taught by Henry Akins · 5:02 · <a href="https://www.youtube.com/watch?v=qVnPgUvfXl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cJJLmy4UChI)
+
+<p class="clip-credit"><strong>Spider guard pass with competition footage</strong> — taught by Jon Thomas · 6:48 · <a href="https://www.youtube.com/watch?v=cJJLmy4UChI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

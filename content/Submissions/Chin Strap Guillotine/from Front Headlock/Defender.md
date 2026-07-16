@@ -158,6 +158,54 @@ description: "How to defend against Chin Strap Guillotine in BJJ. Recognition, e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chin Strap Guillotine from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Master the Guillotine Escape",
+      "description": "Chin Strap Guillotine from Front Headlock (Defender) film study: Master the Guillotine Escape, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dyTKKiajgzQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dyTKKiajgzQ",
+      "url": "https://www.youtube.com/watch?v=dyTKKiajgzQ",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Guillotine Escape",
+      "description": "Chin Strap Guillotine from Front Headlock (Defender) film study: Standing Guillotine Escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front Headlock Choke Defense",
+      "description": "Chin Strap Guillotine from Front Headlock (Defender) film study: Front Headlock Choke Defense, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a7L1JP7_rgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a7L1JP7_rgE",
+      "url": "https://www.youtube.com/watch?v=a7L1JP7_rgE",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ The defensive hierarchy follows three priorities: first, protect the neck by tuc
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chin Strap Guillotine from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dyTKKiajgzQ)
+
+<p class="clip-credit"><strong>Master the Guillotine Escape</strong> — taught by Cobrinha · 0:44 · <a href="https://www.youtube.com/watch?v=dyTKKiajgzQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing Guillotine Escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a7L1JP7_rgE)
+
+<p class="clip-credit"><strong>Front Headlock Choke Defense</strong> — taught by Peter Mettler · 2:33 · <a href="https://www.youtube.com/watch?v=a7L1JP7_rgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

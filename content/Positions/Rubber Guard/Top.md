@@ -147,6 +147,43 @@ description: "Defend Rubber Guard from top with systematic escape protocols. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping and passing the rubber guard",
+      "description": "Rubber Guard (Top) film study: Escaping and passing the rubber guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard passing from the top: posture and pressure",
+      "description": "Rubber Guard (Top) film study: Guard passing from the top: posture and pressure, taught by Mario Sperry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7qHsahtxnDo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7qHsahtxnDo",
+      "url": "https://www.youtube.com/watch?v=7qHsahtxnDo",
+      "creator": { "@type": "Person", "name": "Mario Sperry" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ description: "Defend Rubber Guard from top with systematic escape protocols. Lea
 The Rubber Guard from the top perspective represents one of the most challenging defensive scenarios in modern Brazilian Jiu-Jitsu, particularly for practitioners unfamiliar with the specific defensive protocols required to neutralize its unique control mechanisms. When caught in an opponent's Rubber Guard, the top player faces severe posture compromise, arm isolation, and a systematic progression of submission threats that require precise defensive understanding to escape. The fundamental problem begins when the bottom player succeeds in breaking posture and elevating their leg high across the back, trapping the near-side arm against their chest. This creates a locked configuration that removes one of the top player's primary posting bases while simultaneously pulling them into a compromised position vulnerable to triangles, omoplatas, and various specialized submissions. The top player's immediate priority must be preventing the initial leg elevation by maintaining strong posture, keeping elbows tight to the body, and fighting aggressively to control distance in closed guard. Once the Rubber Guard is established, escape becomes significantly more difficult, requiring systematic understanding of how to address the arm trap, recover posture, and ultimately open the guard or pass to a superior position. The key defensive principles involve creating frames with the free hand, preventing the bottom player from advancing through the positional hierarchy (Mission Control to New York to Invisible Collar), and carefully extracting the trapped arm without creating space for submission entries. Understanding the submission sequences available from Rubber Guard is essential for effective defense, as each position within the system has specific submission threats that dictate appropriate defensive responses. The top player must also manage the energy dynamics carefully, as overly aggressive escape attempts often play into the bottom player's strategy by creating the reactions and movements that facilitate submission entries. Success from top in Rubber Guard requires patience, systematic defensive progression, and the technical knowledge to neutralize the position's control mechanisms while avoiding the submission traps that punish common escape attempts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Escaping and passing the rubber guard</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7qHsahtxnDo)
+
+<p class="clip-credit"><strong>Guard passing from the top: posture and pressure</strong> — taught by Mario Sperry · 2:45 · <a href="https://www.youtube.com/watch?v=7qHsahtxnDo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

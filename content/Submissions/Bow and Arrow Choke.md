@@ -34,6 +34,65 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and Arrow Choke from Back Control",
+      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke from Back Control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
+      "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and Arrow Choke",
+      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke, taught by Helena Crevar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
+      "url": "https://www.youtube.com/watch?v=rc77idEskwo",
+      "creator": { "@type": "Person", "name": "Helena Crevar" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bow and Arrow Choke from the Back",
+      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke from the Back, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vlydEGpl50k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vlydEGpl50k",
+      "url": "https://www.youtube.com/watch?v=vlydEGpl50k",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Bow \u0026 Arrow Choke",
+      "description": "Bow and Arrow Choke film study: Bow \u0026 Arrow Choke, taught by Gracie Barra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R5LFNqtx1ps/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R5LFNqtx1ps",
+      "url": "https://www.youtube.com/watch?v=R5LFNqtx1ps",
+      "creator": { "@type": "Person", "name": "Gracie Barra" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -83,6 +142,50 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 The Bow and Arrow Choke is a highly effective gi-based blood choke executed from back control that combines collar control with leg configuration to create a powerful finishing position. Named for its distinctive shape where the practitioner's body resembles a drawn bow, this submission leverages the opponent's own lapel and pant leg to generate unstoppable pressure on both carotid arteries simultaneously. The technique is particularly valued in gi competition for its reliability once the position is secured, as it requires minimal strength and relies primarily on proper body mechanics and leverage. The bow and arrow creates a unique predicament where the opponent cannot effectively defend both the choking pressure from the collar grip and the stretching tension from the leg control. This submission is especially effective when transitioning from standard back control positions, as opponents often expose the necessary grips while defending against the rear naked choke. The technique represents a fundamental principle in advanced gi grappling: using the opponent's own garments as force multipliers to create inescapable finishing positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke from Back Control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rc77idEskwo)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke</strong> — taught by Helena Crevar · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vlydEGpl50k)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke from the Back</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=vlydEGpl50k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R5LFNqtx1ps)
+
+<p class="clip-credit"><strong>Bow &amp; Arrow Choke</strong> — taught by Gracie Barra · 1:06 · <a href="https://www.youtube.com/watch?v=R5LFNqtx1ps" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

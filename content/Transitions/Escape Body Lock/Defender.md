@@ -140,6 +140,54 @@ description: "Defend against the Escape Body Lock. Recognition cues, counter-str
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Body Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle and Rear Body Lock Escape Counter",
+      "description": "Escape Body Lock (Defender) film study: Turtle and Rear Body Lock Escape Counter, taught by Jamie Clubb.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8e8aOjenAKs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8e8aOjenAKs",
+      "url": "https://www.youtube.com/watch?v=8e8aOjenAKs",
+      "creator": { "@type": "Person", "name": "Jamie Clubb" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body lock pass defense: inside position and elevator sweep",
+      "description": "Escape Body Lock (Defender) film study: Body lock pass defense: inside position and elevator sweep, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YVeeiNy43j4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YVeeiNy43j4",
+      "url": "https://www.youtube.com/watch?v=YVeeiNy43j4",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escape rear body lock with a Granby roll",
+      "description": "Escape Body Lock (Defender) film study: Escape rear body lock with a Granby roll, taught by Nakapan MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_QDpqIbTa1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_QDpqIbTa1k",
+      "url": "https://www.youtube.com/watch?v=_QDpqIbTa1k",
+      "creator": { "@type": "Person", "name": "Nakapan MMA" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Escape Body Lock, your objective is to maintain your
 **Opponent's Starting Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Body Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8e8aOjenAKs)
+
+<p class="clip-credit"><strong>Turtle and Rear Body Lock Escape Counter</strong> — taught by Jamie Clubb · 2:38 · <a href="https://www.youtube.com/watch?v=8e8aOjenAKs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YVeeiNy43j4)
+
+<p class="clip-credit"><strong>Body lock pass defense: inside position and elevator sweep</strong> — taught by Brian Glick · 2:03 · <a href="https://www.youtube.com/watch?v=YVeeiNy43j4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_QDpqIbTa1k)
+
+<p class="clip-credit"><strong>Escape rear body lock with a Granby roll</strong> — taught by Nakapan MMA · 1:05 · <a href="https://www.youtube.com/watch?v=_QDpqIbTa1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

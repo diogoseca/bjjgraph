@@ -34,6 +34,54 @@ description: "Master the Kimura from Diamond Guard in BJJ. Convert overhook cont
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Diamond Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura submission from closed guard",
+      "description": "Kimura from Diamond Guard film study: Kimura submission from closed guard, taught by Ultra Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n-tp8lLTs8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n-tp8lLTs8U",
+      "url": "https://www.youtube.com/watch?v=n-tp8lLTs8U",
+      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura sweep to kimura finish",
+      "description": "Kimura from Diamond Guard film study: Kimura sweep to kimura finish, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IA4laaUMfD8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IA4laaUMfD8",
+      "url": "https://www.youtube.com/watch?v=IA4laaUMfD8",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura sweep from half guard",
+      "description": "Kimura from Diamond Guard film study: Kimura sweep from half guard, taught by Fenrir Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R1DqRqmwDOw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R1DqRqmwDOw",
+      "url": "https://www.youtube.com/watch?v=R1DqRqmwDOw",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The Kimura from Diamond Guard occupies a critical junction in the diamond guard 
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Diamond Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n-tp8lLTs8U)
+
+<p class="clip-credit"><strong>Kimura submission from closed guard</strong> — taught by Ultra Jiu Jitsu Academy · 2:00 · <a href="https://www.youtube.com/watch?v=n-tp8lLTs8U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IA4laaUMfD8)
+
+<p class="clip-credit"><strong>Kimura sweep to kimura finish</strong> — taught by BJJ4Breakfast · 1:10 · <a href="https://www.youtube.com/watch?v=IA4laaUMfD8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R1DqRqmwDOw)
+
+<p class="clip-credit"><strong>Kimura sweep from half guard</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:57 · <a href="https://www.youtube.com/watch?v=R1DqRqmwDOw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

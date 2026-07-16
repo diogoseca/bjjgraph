@@ -174,6 +174,54 @@ description: "How to execute Lapel Triangle Setup in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Triangle Setup (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel triangle choke setup",
+      "description": "Lapel Triangle Setup (Attacker) film study: Lapel triangle choke setup, taught by BJJ After Forty.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W8XDwj8zLcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W8XDwj8zLcU",
+      "url": "https://www.youtube.com/watch?v=W8XDwj8zLcU",
+      "creator": { "@type": "Person", "name": "BJJ After Forty" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle using the lapel",
+      "description": "Lapel Triangle Setup (Attacker) film study: Triangle using the lapel, taught by South Island BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oClbb67K0zE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oClbb67K0zE",
+      "url": "https://www.youtube.com/watch?v=oClbb67K0zE",
+      "creator": { "@type": "Person", "name": "South Island BJJ" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle setup with the lapel",
+      "description": "Lapel Triangle Setup (Attacker) film study: Triangle setup with the lapel, taught by Gracie Ohio Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3aRpzqiIvgs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3aRpzqiIvgs",
+      "url": "https://www.youtube.com/watch?v=3aRpzqiIvgs",
+      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ Strategically, this setup creates a powerful dilemma system. Opponents who postu
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Triangle Setup (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W8XDwj8zLcU)
+
+<p class="clip-credit"><strong>Lapel triangle choke setup</strong> — taught by BJJ After Forty · 0:55 · <a href="https://www.youtube.com/watch?v=W8XDwj8zLcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oClbb67K0zE)
+
+<p class="clip-credit"><strong>Triangle using the lapel</strong> — taught by South Island BJJ · 0:56 · <a href="https://www.youtube.com/watch?v=oClbb67K0zE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3aRpzqiIvgs)
+
+<p class="clip-credit"><strong>Triangle setup with the lapel</strong> — taught by Gracie Ohio Jiu-Jitsu · 2:15 · <a href="https://www.youtube.com/watch?v=3aRpzqiIvgs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

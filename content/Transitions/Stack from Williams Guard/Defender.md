@@ -148,6 +148,54 @@ description: "Defend against the Stack from Williams Guard in BJJ. Learn recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack from Williams Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High closed guard armbar against the stack",
+      "description": "Stack from Williams Guard (Defender) film study: High closed guard armbar against the stack, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/54HhqU5BeHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/54HhqU5BeHE",
+      "url": "https://www.youtube.com/watch?v=54HhqU5BeHE",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Top 5 Guard Retention Mistakes",
+      "description": "Stack from Williams Guard (Defender) film study: Top 5 Guard Retention Mistakes, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iTrQzYeCvHM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iTrQzYeCvHM",
+      "url": "https://www.youtube.com/watch?v=iTrQzYeCvHM",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT436S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Williams Guard Fundamentals",
+      "description": "Stack from Williams Guard (Defender) film study: Williams Guard Fundamentals, taught by Shawn Williams.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IhWlCTSz3As/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IhWlCTSz3As",
+      "url": "https://www.youtube.com/watch?v=IhWlCTSz3As",
+      "creator": { "@type": "Person", "name": "Shawn Williams" },
+      "duration": "PT512S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the Williams Guard bottom player facing a stack pass attempt, your primary ob
 **Opponent's Starting Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack from Williams Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=54HhqU5BeHE)
+
+<p class="clip-credit"><strong>High closed guard armbar against the stack</strong> — taught by Bowerhouse MMA · 0:38 · <a href="https://www.youtube.com/watch?v=54HhqU5BeHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iTrQzYeCvHM)
+
+<p class="clip-credit"><strong>Top 5 Guard Retention Mistakes</strong> — taught by Lachlan Giles · 7:16 · <a href="https://www.youtube.com/watch?v=iTrQzYeCvHM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IhWlCTSz3As)
+
+<p class="clip-credit"><strong>Williams Guard Fundamentals</strong> — taught by Shawn Williams · 8:32 · <a href="https://www.youtube.com/watch?v=IhWlCTSz3As" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

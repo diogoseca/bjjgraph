@@ -34,6 +34,54 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flower Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Flower sweep from closed guard",
+      "description": "Flower Sweep film study: Flower sweep from closed guard, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HptsGRf7PX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HptsGRf7PX0",
+      "url": "https://www.youtube.com/watch?v=HptsGRf7PX0",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Flower sweep basics (pendulum sweep)",
+      "description": "Flower Sweep film study: Flower sweep basics (pendulum sweep), taught by Gorilla BJJ Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VPuRGIFaWz4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VPuRGIFaWz4",
+      "url": "https://www.youtube.com/watch?v=VPuRGIFaWz4",
+      "creator": { "@type": "Person", "name": "Gorilla BJJ Academy" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep flower sweep",
+      "description": "Flower Sweep film study: Deep flower sweep, taught by American Top Team coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/guLR_4msTH4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/guLR_4msTH4",
+      "url": "https://www.youtube.com/watch?v=guLR_4msTH4",
+      "creator": { "@type": "Person", "name": "American Top Team coach" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ Named for the circular, flower-blooming motion of the legs as the sweep unfolds,
 **Success Rate**: 25%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flower Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HptsGRf7PX0)
+
+<p class="clip-credit"><strong>Flower sweep from closed guard</strong> — taught by Alberto Serrano · 1:10 · <a href="https://www.youtube.com/watch?v=HptsGRf7PX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VPuRGIFaWz4)
+
+<p class="clip-credit"><strong>Flower sweep basics (pendulum sweep)</strong> — taught by Gorilla BJJ Academy · 0:50 · <a href="https://www.youtube.com/watch?v=VPuRGIFaWz4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=guLR_4msTH4)
+
+<p class="clip-credit"><strong>Deep flower sweep</strong> — taught by American Top Team coach · 0:29 · <a href="https://www.youtube.com/watch?v=guLR_4msTH4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

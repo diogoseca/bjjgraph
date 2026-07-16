@@ -174,6 +174,54 @@ description: "Complete guide to executing the bridge escape from technical mount
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Technical Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Upa bridge escape from mount",
+      "description": "Bridge from Technical Mount (Attacker) film study: Upa bridge escape from mount, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ye08X4xjiUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ye08X4xjiUk",
+      "url": "https://www.youtube.com/watch?v=Ye08X4xjiUk",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bridge and roll escape from bottom mount",
+      "description": "Bridge from Technical Mount (Attacker) film study: Bridge and roll escape from bottom mount, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2uuP147GoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
+      "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount bridge escape in one minute",
+      "description": "Bridge from Technical Mount (Attacker) film study: Mount bridge escape in one minute, taught by Just a Minute Jiu-jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z4aWuVsRTBs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z4aWuVsRTBs",
+      "url": "https://www.youtube.com/watch?v=Z4aWuVsRTBs",
+      "creator": { "@type": "Person", "name": "Just a Minute Jiu-jitsu" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 **From Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Technical Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ye08X4xjiUk)
+
+<p class="clip-credit"><strong>Upa bridge escape from mount</strong> — taught by Team Daruma Dojo · 0:38 · <a href="https://www.youtube.com/watch?v=Ye08X4xjiUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2uuP147GoBk)
+
+<p class="clip-credit"><strong>Bridge and roll escape from bottom mount</strong> — taught by Academy Jiu Jitsu · 1:02 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z4aWuVsRTBs)
+
+<p class="clip-credit"><strong>Mount bridge escape in one minute</strong> — taught by Just a Minute Jiu-jitsu · 1:06 · <a href="https://www.youtube.com/watch?v=Z4aWuVsRTBs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

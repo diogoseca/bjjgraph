@@ -153,6 +153,54 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic Standing Guard Pass",
+      "description": "Standing Guard (Top) film study: Basic Standing Guard Pass, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RrD643OqTao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RrD643OqTao",
+      "url": "https://www.youtube.com/watch?v=RrD643OqTao",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Guard Pass",
+      "description": "Standing Guard (Top) film study: Standing Guard Pass, taught by 10th Planet Costa Mesa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yXNfYoZszss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yXNfYoZszss",
+      "url": "https://www.youtube.com/watch?v=yXNfYoZszss",
+      "creator": { "@type": "Person", "name": "10th Planet Costa Mesa" },
+      "duration": "PT11S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Easy Guard Passing Tip / Concept",
+      "description": "Standing Guard (Top) film study: Easy Guard Passing Tip / Concept, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o3PZRQSZStQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o3PZRQSZStQ",
+      "url": "https://www.youtube.com/watch?v=o3PZRQSZStQ",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From Standing Guard Top, the practitioner has numerous passing options including
 The position is particularly valuable in competition settings where maintaining an upright posture can prevent guard pulls, facilitate scoring through passing, and create opportunities for both guard passes and takedowns. Modern BJJ has seen an evolution in standing guard passing with increased emphasis on leg-based attacks, dynamic footwork, and combination passing sequences that chain multiple techniques together to overcome sophisticated guard retention systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RrD643OqTao)
+
+<p class="clip-credit"><strong>Basic Standing Guard Pass</strong> — taught by Rickson Gracie · 1:06 · <a href="https://www.youtube.com/watch?v=RrD643OqTao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yXNfYoZszss)
+
+<p class="clip-credit"><strong>Standing Guard Pass</strong> — taught by 10th Planet Costa Mesa · 0:11 · <a href="https://www.youtube.com/watch?v=yXNfYoZszss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o3PZRQSZStQ)
+
+<p class="clip-credit"><strong>Easy Guard Passing Tip / Concept</strong> — taught by Henry Akins · 1:24 · <a href="https://www.youtube.com/watch?v=o3PZRQSZStQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

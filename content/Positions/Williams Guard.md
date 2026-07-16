@@ -34,6 +34,54 @@ description: "Master Williams Guard in BJJ. Innovative shoulder lock guard with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Williams Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Williams Guard details",
+      "description": "Williams Guard film study: Williams Guard details, taught by Puro Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9H9AoNHN8mU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9H9AoNHN8mU",
+      "url": "https://www.youtube.com/watch?v=9H9AoNHN8mU",
+      "creator": { "@type": "Person", "name": "Puro Academy" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Williams Guard sweep variations",
+      "description": "Williams Guard film study: Williams Guard sweep variations, taught by UFAI Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vcO2z_awL5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vcO2z_awL5k",
+      "url": "https://www.youtube.com/watch?v=vcO2z_awL5k",
+      "creator": { "@type": "Person", "name": "UFAI Grappling" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Williams Guard shoulder lock in 60 seconds",
+      "description": "Williams Guard film study: Williams Guard shoulder lock in 60 seconds, taught by Usher BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nDDWcu1JALo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nDDWcu1JALo",
+      "url": "https://www.youtube.com/watch?v=nDDWcu1JALo",
+      "creator": { "@type": "Person", "name": "Usher BJJ" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The position exemplifies the evolution of modern BJJ guard systems by integratin
 From the top perspective, Williams Guard presents significant challenges requiring systematic defensive approach and technical understanding of shoulder lock mechanics. The top practitioner must simultaneously defend submission threats while working to extract their trapped arm and establish guard passing control. Success demands patience, proper joint protection, and recognition of the bottom player's transition triggers. Understanding both perspectives of this position is essential for modern guard players and passers, as Williams Guard has become increasingly common in contemporary competition grappling, particularly in no-gi contexts where traditional grip-based guards are unavailable.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Williams Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9H9AoNHN8mU)
+
+<p class="clip-credit"><strong>Williams Guard details</strong> — taught by Puro Academy · 1:41 · <a href="https://www.youtube.com/watch?v=9H9AoNHN8mU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vcO2z_awL5k)
+
+<p class="clip-credit"><strong>Williams Guard sweep variations</strong> — taught by UFAI Grappling · 0:36 · <a href="https://www.youtube.com/watch?v=vcO2z_awL5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nDDWcu1JALo)
+
+<p class="clip-credit"><strong>Williams Guard shoulder lock in 60 seconds</strong> — taught by Usher BJJ · 0:50 · <a href="https://www.youtube.com/watch?v=nDDWcu1JALo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

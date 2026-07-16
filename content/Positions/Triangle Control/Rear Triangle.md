@@ -34,6 +34,43 @@ description: "Master Rear Triangle position in BJJ. Advanced back control variat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear triangle overview",
+      "description": "Rear Triangle film study: Rear triangle overview, taught by Kaynan Duarte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iFFM0xAnXMQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iFFM0xAnXMQ",
+      "url": "https://www.youtube.com/watch?v=iFFM0xAnXMQ",
+      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back triangle system overview",
+      "description": "Rear Triangle film study: Back triangle system overview, taught by Mint Flow Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BLouv3W29lg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BLouv3W29lg",
+      "url": "https://www.youtube.com/watch?v=BLouv3W29lg",
+      "creator": { "@type": "Person", "name": "Mint Flow Jiu-Jitsu" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ From the bottom perspective, Rear Triangle Bottom represents one of the most com
 The strategic significance of the rear triangle lies in its ability to create submission dilemmas where defensive choices against one threat inevitably expose the opponent to alternative attacks. The position serves as both a control platform and a submission position, exemplifying position-before-submission philosophy while maintaining constant offensive pressure. Mastery of both perspectives—the systematic attack sequences from top and the survival-focused escape mechanics from bottom—is essential for advanced practitioners competing at blue belt level and above.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iFFM0xAnXMQ)
+
+<p class="clip-credit"><strong>Rear triangle overview</strong> — taught by Kaynan Duarte · 1:02 · <a href="https://www.youtube.com/watch?v=iFFM0xAnXMQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BLouv3W29lg)
+
+<p class="clip-credit"><strong>Back triangle system overview</strong> — taught by Mint Flow Jiu-Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=BLouv3W29lg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

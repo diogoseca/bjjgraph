@@ -34,6 +34,54 @@ description: "Master the North-South Choke from Modified Scarf Hold with step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Modified Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified Scarf Hold North/South choke",
+      "description": "North-South Choke from Modified Scarf Hold film study: Modified Scarf Hold North/South choke, taught by Todd Blatchley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LurZB_PfUmA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LurZB_PfUmA",
+      "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
+      "creator": { "@type": "Person", "name": "Todd Blatchley" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia - North South Choke",
+      "description": "North-South Choke from Modified Scarf Hold film study: Marcelo Garcia - North South Choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
+      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm attack options from Scarf Hold",
+      "description": "North-South Choke from Modified Scarf Hold film study: Arm attack options from Scarf Hold, taught by Alexey Olynick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/17m6bnarNdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/17m6bnarNdE",
+      "url": "https://www.youtube.com/watch?v=17m6bnarNdE",
+      "creator": { "@type": "Person", "name": "Alexey Olynick" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 **Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] · **From**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Modified Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LurZB_PfUmA)
+
+<p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> — taught by Todd Blatchley · 2:01 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+
+<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=17m6bnarNdE)
+
+<p class="clip-credit"><strong>Arm attack options from Scarf Hold</strong> — taught by Alexey Olynick · 1:29 · <a href="https://www.youtube.com/watch?v=17m6bnarNdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

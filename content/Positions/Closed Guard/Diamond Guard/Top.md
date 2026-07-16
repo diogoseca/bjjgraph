@@ -141,6 +141,43 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Diamond Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Six Submissions from the Diamond Guard (No-Gi)",
+      "description": "Diamond Guard (Top) film study: Six Submissions from the Diamond Guard (No-Gi), taught by Jordan Hix.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rYqsDLsoqYo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rYqsDLsoqYo",
+      "url": "https://www.youtube.com/watch?v=rYqsDLsoqYo",
+      "creator": { "@type": "Person", "name": "Jordan Hix" },
+      "duration": "PT361S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Weave Pass vs Shin Shield",
+      "description": "Diamond Guard (Top) film study: Leg Weave Pass vs Shin Shield, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aKeWGv9pkKI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aKeWGv9pkKI",
+      "url": "https://www.youtube.com/watch?v=aKeWGv9pkKI",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT320S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +189,34 @@ The position derives its name from the geometric shape formed when the overhook 
 Diamond Guard transforms standard closed guard into an aggressive submission-hunting platform. The overhook eliminates the opponent's ability to post with their trapped arm, while head control prevents posture recovery. Together, these controls create submission chains: releasing head control opens triangle entries, switching to wrist control opens omoplata rotations, and the overhook itself provides the foundation for kimura attacks. The position rewards patience and systematic combination work, with an inherent energy advantage for the guard player since maintaining the frame requires less effort than escaping it.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Diamond Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rYqsDLsoqYo)
+
+<p class="clip-credit"><strong>Six Submissions from the Diamond Guard (No-Gi)</strong> — taught by Jordan Hix · 6:01 · <a href="https://www.youtube.com/watch?v=rYqsDLsoqYo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aKeWGv9pkKI)
+
+<p class="clip-credit"><strong>Leg Weave Pass vs Shin Shield</strong> — taught by Brandon Quick · 5:20 · <a href="https://www.youtube.com/watch?v=aKeWGv9pkKI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against Guillotine Setup in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock defense: farside peek out",
+      "description": "Guillotine Setup (Defender) film study: Front headlock defense: farside peek out, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lV4cgzaVhb8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lV4cgzaVhb8",
+      "url": "https://www.youtube.com/watch?v=lV4cgzaVhb8",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine escape from inside the guard",
+      "description": "Guillotine Setup (Defender) film study: Guillotine escape from inside the guard, taught by Ground Zero MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Qb8gtundzPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Qb8gtundzPg",
+      "url": "https://www.youtube.com/watch?v=Qb8gtundzPg",
+      "creator": { "@type": "Person", "name": "Ground Zero MMA" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Short drag front headlock escape",
+      "description": "Guillotine Setup (Defender) film study: Short drag front headlock escape, taught by Mason Parris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VZe2GY0_UIk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VZe2GY0_UIk",
+      "url": "https://www.youtube.com/watch?v=VZe2GY0_UIk",
+      "creator": { "@type": "Person", "name": "Mason Parris" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the guillotine setup from the front headlock requires immediate, disci
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lV4cgzaVhb8)
+
+<p class="clip-credit"><strong>Front headlock defense: farside peek out</strong> — taught by Procel BJJ · 1:04 · <a href="https://www.youtube.com/watch?v=lV4cgzaVhb8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Qb8gtundzPg)
+
+<p class="clip-credit"><strong>Guillotine escape from inside the guard</strong> — taught by Ground Zero MMA · 0:57 · <a href="https://www.youtube.com/watch?v=Qb8gtundzPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VZe2GY0_UIk)
+
+<p class="clip-credit"><strong>Short drag front headlock escape</strong> — taught by Mason Parris · 2:56 · <a href="https://www.youtube.com/watch?v=VZe2GY0_UIk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Omoplata from Omoplata Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Omoplata, Keenan style",
+      "description": "Rolling Omoplata from Omoplata Control film study: Reverse Omoplata, Keenan style, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TNvcL55uvrE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TNvcL55uvrE",
+      "url": "https://www.youtube.com/watch?v=TNvcL55uvrE",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Teaching the reverse omoplata",
+      "description": "Rolling Omoplata from Omoplata Control film study: Teaching the reverse omoplata, taught by Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zZv3V0b3tqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zZv3V0b3tqg",
+      "url": "https://www.youtube.com/watch?v=zZv3V0b3tqg",
+      "creator": { "@type": "Person", "name": "Bradley" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +113,34 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 **Starting Position**: [[Positions/Omoplata Control]] · **From**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Omoplata from Omoplata Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TNvcL55uvrE)
+
+<p class="clip-credit"><strong>Reverse Omoplata, Keenan style</strong> — taught by Keenan Cornelius · 0:22 · <a href="https://www.youtube.com/watch?v=TNvcL55uvrE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zZv3V0b3tqg)
+
+<p class="clip-credit"><strong>Teaching the reverse omoplata</strong> — taught by Bradley · 1:46 · <a href="https://www.youtube.com/watch?v=zZv3V0b3tqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

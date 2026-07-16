@@ -170,6 +170,54 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Armbar from Closed Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook closed guard to rolling armbar",
+      "description": "Rolling Armbar from Closed Guard (Attacker) film study: Overhook closed guard to rolling armbar, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XVxTzuJ1F60/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XVxTzuJ1F60",
+      "url": "https://www.youtube.com/watch?v=XVxTzuJ1F60",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie armbars",
+      "description": "Rolling Armbar from Closed Guard (Attacker) film study: Roger Gracie armbars, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rolling armbar from closed guard",
+      "description": "Rolling Armbar from Closed Guard (Attacker) film study: Rolling armbar from closed guard, taught by Pure Art BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e995R56aRTU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e995R56aRTU",
+      "url": "https://www.youtube.com/watch?v=e995R56aRTU",
+      "creator": { "@type": "Person", "name": "Pure Art BJJ" },
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Armbar from Closed Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XVxTzuJ1F60)
+
+<p class="clip-credit"><strong>Overhook closed guard to rolling armbar</strong> — taught by BOWERHOUSE MMA · 1:00 · <a href="https://www.youtube.com/watch?v=XVxTzuJ1F60" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e995R56aRTU)
+
+<p class="clip-credit"><strong>Rolling armbar from closed guard</strong> — taught by Pure Art BJJ · 0:19 · <a href="https://www.youtube.com/watch?v=e995R56aRTU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -164,6 +164,54 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "What kuzushi is and how it breaks base",
+      "description": "Base film study: What kuzushi is and how it breaks base, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fy9h-dF6dcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fy9h-dF6dcA",
+      "url": "https://www.youtube.com/watch?v=Fy9h-dF6dcA",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three core principles: base, posture, structure",
+      "description": "Base film study: Three core principles: base, posture, structure, taught by Joel Snape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/azzYS65sqks/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/azzYS65sqks",
+      "url": "https://www.youtube.com/watch?v=azzYS65sqks",
+      "creator": { "@type": "Person", "name": "Joel Snape" },
+      "duration": "PT379S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Base and weight concepts for maintaining mount",
+      "description": "Base film study: Base and weight concepts for maintaining mount, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wy6Si0FuQaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wy6Si0FuQaU",
+      "url": "https://www.youtube.com/watch?v=Wy6Si0FuQaU",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT890S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Base?
@@ -173,6 +221,42 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
 Rooted in the judo concept of a stable foundation, base is among the first principles a beginner is taught and one of the last a competitor fully masters. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ, from standing exchanges to deep submission entanglements. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fy9h-dF6dcA)
+
+<p class="clip-credit"><strong>What kuzushi is and how it breaks base</strong> — taught by Stephan Kesting · 1:01 · <a href="https://www.youtube.com/watch?v=Fy9h-dF6dcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=azzYS65sqks)
+
+<p class="clip-credit"><strong>Three core principles: base, posture, structure</strong> — taught by Joel Snape · 6:19 · <a href="https://www.youtube.com/watch?v=azzYS65sqks" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wy6Si0FuQaU)
+
+<p class="clip-credit"><strong>Base and weight concepts for maintaining mount</strong> — taught by Roger Gracie · 14:50 · <a href="https://www.youtube.com/watch?v=Wy6Si0FuQaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown clinches (MTS 176)",
+      "description": "Lockdown film study: Lockdown clinches (MTS 176), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Understanding the Lockdown",
+      "description": "Lockdown film study: Understanding the Lockdown, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y0D5lpXsf1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y0D5lpXsf1U",
+      "url": "https://www.youtube.com/watch?v=Y0D5lpXsf1U",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT503S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown entries",
+      "description": "Lockdown film study: Lockdown entries, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2ajPv8XKfvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2ajPv8XKfvY",
+      "url": "https://www.youtube.com/watch?v=2ajPv8XKfvY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT115S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half 
 Lockdown is 10th Planet's revolutionary half guard variation that transforms traditional half guard from a defensive holding position into an aggressive attacking platform. This position features a specialized leg entanglement where the bottom player creates a figure-four lock around the opponent's trapped leg, severely restricting their mobility while enabling powerful sweeps, back takes, and submissions. The lockdown mechanism works by using the bottom player's outside leg to hook under the opponent's shin while the inside leg wraps over the thigh, creating tremendous leverage to break posture, manipulate weight distribution, and create angles for offensive attacks. Within the 10th Planet system, Lockdown serves as the foundation for multiple attacking sequences including the Electric Chair, Old School sweep, and various paths to back control. The position is particularly effective in no-gi grappling where traditional gi grips are unavailable, and has become a cornerstone technique in modern BJJ competition. The lockdown's effectiveness lies in its ability to simultaneously neutralize passing attempts while creating offensive opportunities, making it equally important to understand from both bottom and top perspectives.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches (MTS 176)</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y0D5lpXsf1U)
+
+<p class="clip-credit"><strong>Understanding the Lockdown</strong> — taught by Brandon McCaghren · 8:23 · <a href="https://www.youtube.com/watch?v=Y0D5lpXsf1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2ajPv8XKfvY)
+
+<p class="clip-credit"><strong>Lockdown entries</strong> — taught by Eddie Bravo · 1:55 · <a href="https://www.youtube.com/watch?v=2ajPv8XKfvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

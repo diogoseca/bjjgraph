@@ -176,6 +176,54 @@ description: "Step-by-step guide to attacking the triangle choke from Crackhead 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Crackhead Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle / Reverse Triangle from Rubber Guard",
+      "description": "Triangle Choke from Crackhead Control (Attacker) film study: Triangle / Reverse Triangle from Rubber Guard, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ily9GpqMeg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ily9GpqMeg",
+      "url": "https://www.youtube.com/watch?v=_ily9GpqMeg",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mastering the rubber guard and its triangle attacks",
+      "description": "Triangle Choke from Crackhead Control (Attacker) film study: Mastering the rubber guard and its triangle attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
+      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT521S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard to mission control to triangle chain",
+      "description": "Triangle Choke from Crackhead Control (Attacker) film study: Rubber guard to mission control to triangle chain, taught by Abel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EhiPyX_s044/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EhiPyX_s044",
+      "url": "https://www.youtube.com/watch?v=EhiPyX_s044",
+      "creator": { "@type": "Person", "name": "Abel BJJ" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the triangle choke from Crackhead Control leverages the rubber guard s
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Crackhead Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_ily9GpqMeg)
+
+<p class="clip-credit"><strong>Triangle / Reverse Triangle from Rubber Guard</strong> — taught by Brandon Mccaghren · 0:50 · <a href="https://www.youtube.com/watch?v=_ily9GpqMeg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
+
+<p class="clip-credit"><strong>Mastering the rubber guard and its triangle attacks</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EhiPyX_s044)
+
+<p class="clip-credit"><strong>Rubber guard to mission control to triangle chain</strong> — taught by Abel BJJ · 2:12 · <a href="https://www.youtube.com/watch?v=EhiPyX_s044" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

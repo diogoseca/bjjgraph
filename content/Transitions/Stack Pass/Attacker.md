@@ -180,6 +180,43 @@ description: "How to execute Stack Pass in BJJ. Complete attacking guide with se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass to back control",
+      "description": "Stack Pass (Attacker) film study: Stack pass to back control, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_l_u3jIJaY4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_l_u3jIJaY4",
+      "url": "https://www.youtube.com/watch?v=_l_u3jIJaY4",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stack pass from closed guard",
+      "description": "Stack Pass (Attacker) film study: Stack pass from closed guard, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EC4JVnymW3U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EC4JVnymW3U",
+      "url": "https://www.youtube.com/watch?v=EC4JVnymW3U",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 **From Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_l_u3jIJaY4)
+
+<p class="clip-credit"><strong>Stack pass to back control</strong> — taught by Clark Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=_l_u3jIJaY4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EC4JVnymW3U)
+
+<p class="clip-credit"><strong>Stack pass from closed guard</strong> — taught by Procel BJJ · 1:35 · <a href="https://www.youtube.com/watch?v=EC4JVnymW3U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

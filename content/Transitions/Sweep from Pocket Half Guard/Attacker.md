@@ -174,6 +174,54 @@ description: "Execute the Sweep from Pocket Half Guard as the bottom player. Dee
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Pocket Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back pocket sweep from half guard",
+      "description": "Sweep from Pocket Half Guard (Attacker) film study: Back pocket sweep from half guard, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fCqC2CvOKt0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fCqC2CvOKt0",
+      "url": "https://www.youtube.com/watch?v=fCqC2CvOKt0",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi half guard sweep demonstration",
+      "description": "Sweep from Pocket Half Guard (Attacker) film study: No-gi half guard sweep demonstration, taught by Precision Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W80zSgyOIuQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W80zSgyOIuQ",
+      "url": "https://www.youtube.com/watch?v=W80zSgyOIuQ",
+      "creator": { "@type": "Person", "name": "Precision Martial Arts" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Z guard sweep breakdown",
+      "description": "Sweep from Pocket Half Guard (Attacker) film study: Z guard sweep breakdown, taught by Lake Effect Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oRHnXDK-xYE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oRHnXDK-xYE",
+      "url": "https://www.youtube.com/watch?v=oRHnXDK-xYE",
+      "creator": { "@type": "Person", "name": "Lake Effect Martial Arts" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing this sweep, you are the bottom player in pocket half g
 **From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Pocket Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fCqC2CvOKt0)
+
+<p class="clip-credit"><strong>Back pocket sweep from half guard</strong> — taught by Animal · 0:51 · <a href="https://www.youtube.com/watch?v=fCqC2CvOKt0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W80zSgyOIuQ)
+
+<p class="clip-credit"><strong>No-gi half guard sweep demonstration</strong> — taught by Precision Martial Arts · 0:46 · <a href="https://www.youtube.com/watch?v=W80zSgyOIuQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oRHnXDK-xYE)
+
+<p class="clip-credit"><strong>Z guard sweep breakdown</strong> — taught by Lake Effect Martial Arts · 1:19 · <a href="https://www.youtube.com/watch?v=oRHnXDK-xYE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

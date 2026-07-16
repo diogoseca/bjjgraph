@@ -174,6 +174,54 @@ description: "Learn to execute the Strip Lapel from Piranha as the top player. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Strip Lapel from Piranha (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clearing lapel grips to pass lapel guard",
+      "description": "Strip Lapel from Piranha (Attacker) film study: Clearing lapel grips to pass lapel guard, taught by Romulo Barral.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lACga4DakTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lACga4DakTM",
+      "url": "https://www.youtube.com/watch?v=lACga4DakTM",
+      "creator": { "@type": "Person", "name": "Romulo Barral" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Retention: Stopping the Cross Pant Grip Pass",
+      "description": "Strip Lapel from Piranha (Attacker) film study: Guard Retention: Stopping the Cross Pant Grip Pass, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t38qU44iy2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t38qU44iy2s",
+      "url": "https://www.youtube.com/watch?v=t38qU44iy2s",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "6 Jiu-Jitsu Grip Breaks You Need To Know",
+      "description": "Strip Lapel from Piranha (Attacker) film study: 6 Jiu-Jitsu Grip Breaks You Need To Know, taught by Erika Dawn.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_QTNEn4xasI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_QTNEn4xasI",
+      "url": "https://www.youtube.com/watch?v=_QTNEn4xasI",
+      "creator": { "@type": "Person", "name": "Erika Dawn" },
+      "duration": "PT267S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the top player executing the Strip Lapel from Piranha, your primary objective
 **From Position**: [[Positions/Piranha Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Strip Lapel from Piranha (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lACga4DakTM)
+
+<p class="clip-credit"><strong>Clearing lapel grips to pass lapel guard</strong> — taught by Romulo Barral · 2:01 · <a href="https://www.youtube.com/watch?v=lACga4DakTM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t38qU44iy2s)
+
+<p class="clip-credit"><strong>Guard Retention: Stopping the Cross Pant Grip Pass</strong> — taught by Jon Thomas · 3:48 · <a href="https://www.youtube.com/watch?v=t38qU44iy2s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_QTNEn4xasI)
+
+<p class="clip-credit"><strong>6 Jiu-Jitsu Grip Breaks You Need To Know</strong> — taught by Erika Dawn · 4:27 · <a href="https://www.youtube.com/watch?v=_QTNEn4xasI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

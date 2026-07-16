@@ -154,6 +154,43 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side sweep with the belt from DLR",
+      "description": "De La Riva Guard (Bottom) film study: Side sweep with the belt from DLR, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IvzYCJN4H1I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IvzYCJN4H1I",
+      "url": "https://www.youtube.com/watch?v=IvzYCJN4H1I",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Retaining DLR vs heavy pressure",
+      "description": "De La Riva Guard (Bottom) film study: Retaining DLR vs heavy pressure, taught by Chase Namba.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ErsvmCAGxnA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ErsvmCAGxnA",
+      "url": "https://www.youtube.com/watch?v=ErsvmCAGxnA",
+      "creator": { "@type": "Person", "name": "Chase Namba" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -170,6 +207,34 @@ De La Riva Guard Bottom has become fundamental to competitive BJJ, particularly 
 The guard's strategic depth lies in the dilemma structure it creates. When the top player resists being pulled forward, the bottom player transitions underneath to X-Guard or Single Leg X. When they drive forward with pressure, berimbolo and kiss of the dragon entries become available. When they attempt to strip grips, basic sweeps catch them during the transition. This layered threat matrix is what separates intermediate DLR players from advanced ones - the ability to read reactions and flow between attack chains without resetting to neutral.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IvzYCJN4H1I)
+
+<p class="clip-credit"><strong>Side sweep with the belt from DLR</strong> — taught by Mikey Musumeci · 2:44 · <a href="https://www.youtube.com/watch?v=IvzYCJN4H1I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ErsvmCAGxnA)
+
+<p class="clip-credit"><strong>Retaining DLR vs heavy pressure</strong> — taught by Chase Namba · 1:18 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -150,6 +150,43 @@ description: "Defend against the Kimura from Quarter Guard. Learn recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Quarter Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending The Americana/Kimura",
+      "description": "Kimura from Quarter Guard (Defender) film study: Defending The Americana/Kimura, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
+      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter to Rolling Kimura",
+      "description": "Kimura from Quarter Guard (Defender) film study: Counter to Rolling Kimura, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MO0PFxgjuJ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MO0PFxgjuJ4",
+      "url": "https://www.youtube.com/watch?v=MO0PFxgjuJ4",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT155S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Kimura from Quarter Guard demands early recognition and immediate 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Quarter Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FNyL93v5fGs)
+
+<p class="clip-credit"><strong>Defending The Americana/Kimura</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MO0PFxgjuJ4)
+
+<p class="clip-credit"><strong>Counter to Rolling Kimura</strong> — taught by Scott Ryan Chiriboga · 2:35 · <a href="https://www.youtube.com/watch?v=MO0PFxgjuJ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

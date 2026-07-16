@@ -34,6 +34,54 @@ description: "Master the Jailbreak to Turtle escape in BJJ. Step-by-step inversi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak to Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jailbreak escape from side control",
+      "description": "Jailbreak to Turtle film study: Jailbreak escape from side control, taught by CORE MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ij2aFpcJiFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ij2aFpcJiFU",
+      "url": "https://www.youtube.com/watch?v=Ij2aFpcJiFU",
+      "creator": { "@type": "Person", "name": "CORE MMA coach" },
+      "duration": "PT175S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jailbreak to twister roll from bottom side control",
+      "description": "Jailbreak to Turtle film study: Jailbreak to twister roll from bottom side control, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s4X2i2ARVfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s4X2i2ARVfY",
+      "url": "https://www.youtube.com/watch?v=s4X2i2ARVfY",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT184S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Jail breaker to reversal seminar breakdown",
+      "description": "Jailbreak to Turtle film study: Jail breaker to reversal seminar breakdown, taught by Redmond Fit.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FP8les0viVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FP8les0viVU",
+      "url": "https://www.youtube.com/watch?v=FP8les0viVU",
+      "creator": { "@type": "Person", "name": "Redmond Fit" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a game theory perspective, Jailbreak to Turtle creates a strategic dilemma 
 **Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak to Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ij2aFpcJiFU)
+
+<p class="clip-credit"><strong>Jailbreak escape from side control</strong> — taught by CORE MMA coach · 2:55 · <a href="https://www.youtube.com/watch?v=Ij2aFpcJiFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s4X2i2ARVfY)
+
+<p class="clip-credit"><strong>Jailbreak to twister roll from bottom side control</strong> — taught by JitzLive · 3:04 · <a href="https://www.youtube.com/watch?v=s4X2i2ARVfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FP8les0viVU)
+
+<p class="clip-credit"><strong>Jail breaker to reversal seminar breakdown</strong> — taught by Redmond Fit · 2:41 · <a href="https://www.youtube.com/watch?v=FP8les0viVU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

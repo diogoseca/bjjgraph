@@ -34,6 +34,54 @@ description: "Master Body Lock position in BJJ. Complete guide covering standing
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Nicky Rod\u0027s body lock pass concept",
+      "description": "Body Lock film study: Nicky Rod\u0027s body lock pass concept, taught by Professor Buck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sztjmLZYxIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sztjmLZYxIQ",
+      "url": "https://www.youtube.com/watch?v=sztjmLZYxIQ",
+      "creator": { "@type": "Person", "name": "Professor Buck" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Nicky Rod explains the body lock pass",
+      "description": "Body Lock film study: Nicky Rod explains the body lock pass, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/spB8qALp5rA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/spB8qALp5rA",
+      "url": "https://www.youtube.com/watch?v=spB8qALp5rA",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT221S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "4 body lock takedowns",
+      "description": "Body Lock film study: 4 body lock takedowns, taught by CSW Fullerton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2gknwIfTeN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2gknwIfTeN0",
+      "url": "https://www.youtube.com/watch?v=2gknwIfTeN0",
+      "creator": { "@type": "Person", "name": "CSW Fullerton" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The body lock represents one of the highest levels of standing control in both w
 The position is inherently transitional and requires immediate attack execution. Hesitation allows opponents time to establish defenses, break grips, or escape entirely. Modern no-gi competition has elevated the body lock to a primary offensive weapon, with elite competitors using it to consistently secure back control, execute high-amplitude throws, or force opponents into defensive positions that lead to dominant ground control. Mastery requires understanding weight distribution, hip positioning, timing, and the ability to read opponent defensive reactions to capitalize on openings as they appear.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sztjmLZYxIQ)
+
+<p class="clip-credit"><strong>Nicky Rod&#39;s body lock pass concept</strong> — taught by Professor Buck · 0:38 · <a href="https://www.youtube.com/watch?v=sztjmLZYxIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=spB8qALp5rA)
+
+<p class="clip-credit"><strong>Nicky Rod explains the body lock pass</strong> — taught by Nicky Rodriguez · 3:41 · <a href="https://www.youtube.com/watch?v=spB8qALp5rA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2gknwIfTeN0)
+
+<p class="clip-credit"><strong>4 body lock takedowns</strong> — taught by CSW Fullerton · 3:14 · <a href="https://www.youtube.com/watch?v=2gknwIfTeN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -176,6 +176,43 @@ description: "Execute the Kimura from Shoulder of Justice with precision. Step-b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Shoulder of Justice (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from side control",
+      "description": "Kimura from Shoulder of Justice (Attacker) film study: Kimura from side control, taught by Alavanca.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/awNPX8E6bf4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/awNPX8E6bf4",
+      "url": "https://www.youtube.com/watch?v=awNPX8E6bf4",
+      "creator": { "@type": "Person", "name": "Alavanca" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Controlling the elbow in the Kimura",
+      "description": "Kimura from Shoulder of Justice (Attacker) film study: Controlling the elbow in the Kimura, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qbKtgYa_wzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qbKtgYa_wzk",
+      "url": "https://www.youtube.com/watch?v=qbKtgYa_wzk",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ From the Shoulder of Justice, the Kimura becomes available when your intense jaw
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Shoulder of Justice (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=awNPX8E6bf4)
+
+<p class="clip-credit"><strong>Kimura from side control</strong> — taught by Alavanca · 0:16 · <a href="https://www.youtube.com/watch?v=awNPX8E6bf4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qbKtgYa_wzk)
+
+<p class="clip-credit"><strong>Controlling the elbow in the Kimura</strong> — taught by Brandon McCaghren · 1:08 · <a href="https://www.youtube.com/watch?v=qbKtgYa_wzk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

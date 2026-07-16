@@ -140,6 +140,43 @@ description: "Defend against the Roll to Guard escape from Truck top position. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Guard from Truck (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Truck by Flipping It",
+      "description": "Roll to Guard from Truck (Defender) film study: Countering the Truck by Flipping It, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NhxDerwXxSU",
+      "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT640S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Truck Escape",
+      "description": "Roll to Guard from Truck (Defender) film study: Truck Escape, taught by Elevate MMA Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TSUbl6HmLiw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TSUbl6HmLiw",
+      "url": "https://www.youtube.com/watch?v=TSUbl6HmLiw",
+      "creator": { "@type": "Person", "name": "Elevate MMA Academy" },
+      "duration": "PT182S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender in the Roll to Guard from Truck, you are the top player maintain
 **Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Guard from Truck (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+
+<p class="clip-credit"><strong>Countering the Truck by Flipping It</strong> — taught by Brandon McCaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TSUbl6HmLiw)
+
+<p class="clip-credit"><strong>Truck Escape</strong> — taught by Elevate MMA Academy · 3:02 · <a href="https://www.youtube.com/watch?v=TSUbl6HmLiw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

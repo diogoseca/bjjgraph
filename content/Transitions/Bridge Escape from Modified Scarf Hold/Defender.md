@@ -134,6 +134,54 @@ description: "Learn to maintain Modified Scarf Hold against bridge escape attemp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Modified Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Using your body to pin and keep them flat",
+      "description": "Bridge Escape from Modified Scarf Hold (Defender) film study: Using your body to pin and keep them flat, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E1iLCgRjGaY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E1iLCgRjGaY",
+      "url": "https://www.youtube.com/watch?v=E1iLCgRjGaY",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape Kesa Gatame",
+      "description": "Bridge Escape from Modified Scarf Hold (Defender) film study: How to Escape Kesa Gatame, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sEmKk3m8nwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sEmKk3m8nwE",
+      "url": "https://www.youtube.com/watch?v=sEmKk3m8nwE",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT368S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Scarf Hold Escape Series",
+      "description": "Bridge Escape from Modified Scarf Hold (Defender) film study: Scarf Hold Escape Series, taught by Aaron Benzrihem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SuqOOX8hO4c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SuqOOX8hO4c",
+      "url": "https://www.youtube.com/watch?v=SuqOOX8hO4c",
+      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
+      "duration": "PT507S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ Defending against the bridge escape from Modified Scarf Hold requires the top pl
 **Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Modified Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E1iLCgRjGaY)
+
+<p class="clip-credit"><strong>Using your body to pin and keep them flat</strong> — taught by Henry Akins · 1:55 · <a href="https://www.youtube.com/watch?v=E1iLCgRjGaY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sEmKk3m8nwE)
+
+<p class="clip-credit"><strong>How to Escape Kesa Gatame</strong> — taught by Travis Stevens · 6:08 · <a href="https://www.youtube.com/watch?v=sEmKk3m8nwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SuqOOX8hO4c)
+
+<p class="clip-credit"><strong>Scarf Hold Escape Series</strong> — taught by Aaron Benzrihem · 8:27 · <a href="https://www.youtube.com/watch?v=SuqOOX8hO4c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

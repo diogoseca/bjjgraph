@@ -153,6 +153,54 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion",
+      "description": "Open Guard (Top) film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "ADCC 2022 guard pass",
+      "description": "Open Guard (Top) film study: ADCC 2022 guard pass, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9VdMAXqLXHA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9VdMAXqLXHA",
+      "url": "https://www.youtube.com/watch?v=9VdMAXqLXHA",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT154S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hip switch to back take",
+      "description": "Open Guard (Top) film study: Hip switch to back take, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
+      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
 Open Guard Top is the fundamental position where the top player engages with an opponent who is utilizing an open guard (any guard where the legs are not closed around the opponent's waist). The position encompasses a wide range of specific scenarios depending on the bottom player's guard configuration, but generally involves the top player standing or in combat base, working to navigate past the opponent's legs to establish a more dominant position. This position serves as the starting point for all guard passing sequences and represents one of the most complex and dynamic positional battles in BJJ. Success in this position requires understanding grip fighting, distance management, pressure application, and recognizing the specific guard type being employed to select appropriate passing strategies. The top player must balance between maintaining safe posture to avoid sweeps and submissions while simultaneously creating passing opportunities through grip dominance, angle creation, and strategic pressure. Elite performance in open guard top demands rapid pattern recognition to identify the specific guard variation being employed and immediate implementation of the counter-passing strategy - pressure passes for close guards like butterfly and half guard, movement-based passes for distance guards like spider and de la riva, and systematic dismantling of complex guard structures through superior grip fighting and positional control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9VdMAXqLXHA)
+
+<p class="clip-credit"><strong>ADCC 2022 guard pass</strong> — taught by Gordon Ryan · 2:34 · <a href="https://www.youtube.com/watch?v=9VdMAXqLXHA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
+
+<p class="clip-credit"><strong>Hip switch to back take</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

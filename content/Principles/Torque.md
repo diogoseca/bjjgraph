@@ -164,6 +164,32 @@ description: "Master torque and rotational force in BJJ. Learn ratchet mechanics
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Torque \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The physics behind jiu-jitsu leverage",
+      "description": "Torque film study: The physics behind jiu-jitsu leverage, taught by Jan Trauer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ciV2utFcCPw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ciV2utFcCPw",
+      "url": "https://www.youtube.com/watch?v=ciV2utFcCPw",
+      "creator": { "@type": "Person", "name": "Jan Trauer" },
+      "duration": "PT186S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Torque?
@@ -177,6 +203,26 @@ What distinguishes torque from simple pushing or pulling is the rotational axis.
 Torque appears at every level of BJJ, from the white belt's first collar choke (twisting the wrists to tighten the cross collar) to the black belt's leg lock finishing mechanics (precise rotational inputs through complex lever systems). It operates in grip fighting (twisting to break or establish grips), sweeps (rotational off-balancing), passing (rotational hip clearing), and of course submissions (applying rotational force past a joint's limit). Understanding torque as a unifying principle connects techniques that appear unrelated on the surface but share the same underlying rotational mechanics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Torque in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ciV2utFcCPw)
+
+<p class="clip-credit"><strong>The physics behind jiu-jitsu leverage</strong> — taught by Jan Trauer · 3:06 · <a href="https://www.youtube.com/watch?v=ciV2utFcCPw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Peterson Roll escape from turtle in BJJ. Step-by-step e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peterson Roll \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Peterson Roll tutorial",
+      "description": "Peterson Roll film study: Peterson Roll tutorial, taught by WrestlingTournaments.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DZyvEHWuVb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DZyvEHWuVb0",
+      "url": "https://www.youtube.com/watch?v=DZyvEHWuVb0",
+      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Peterson Roll reversal demo",
+      "description": "Peterson Roll film study: Peterson Roll reversal demo, taught by Kirk White.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZSP2fh42fmw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZSP2fh42fmw",
+      "url": "https://www.youtube.com/watch?v=ZSP2fh42fmw",
+      "creator": { "@type": "Person", "name": "Kirk White" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Granby / Peterson roll technique",
+      "description": "Peterson Roll film study: Granby / Peterson roll technique, taught by Maverick Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JZ75_t30GWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JZ75_t30GWI",
+      "url": "https://www.youtube.com/watch?v=JZ75_t30GWI",
+      "creator": { "@type": "Person", "name": "Maverick Wrestling" },
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ Named after Olympic wrestler John Peterson, this turtle-bottom reversal migrated
 **Success Rate**: 34%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peterson Roll in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DZyvEHWuVb0)
+
+<p class="clip-credit"><strong>Peterson Roll tutorial</strong> — taught by WrestlingTournaments.com · 1:25 · <a href="https://www.youtube.com/watch?v=DZyvEHWuVb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZSP2fh42fmw)
+
+<p class="clip-credit"><strong>Peterson Roll reversal demo</strong> — taught by Kirk White · 0:15 · <a href="https://www.youtube.com/watch?v=ZSP2fh42fmw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JZ75_t30GWI)
+
+<p class="clip-credit"><strong>Granby / Peterson roll technique</strong> — taught by Maverick Wrestling · 2:07 · <a href="https://www.youtube.com/watch?v=JZ75_t30GWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Transition to Rodeo Ride from turtle top in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Rodeo Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rodeo ride and choke from turtle top",
+      "description": "Turtle to Rodeo Ride film study: Rodeo ride and choke from turtle top, taught by Ethos Jiu-Jitsu Fullerton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6MhcPYISQDU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6MhcPYISQDU",
+      "url": "https://www.youtube.com/watch?v=6MhcPYISQDU",
+      "creator": { "@type": "Person", "name": "Ethos Jiu-Jitsu Fullerton" },
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rodeo ride vs turtle and prone opponent",
+      "description": "Turtle to Rodeo Ride film study: Rodeo ride vs turtle and prone opponent, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vYD01Vgjy_8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vYD01Vgjy_8",
+      "url": "https://www.youtube.com/watch?v=vYD01Vgjy_8",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT211S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Seated rodeo ride to juji gatame",
+      "description": "Turtle to Rodeo Ride film study: Seated rodeo ride to juji gatame, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BF0dNxRR444/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BF0dNxRR444",
+      "url": "https://www.youtube.com/watch?v=BF0dNxRR444",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT266S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition is particularly valuable because it converts a position with lim
 **Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Rodeo Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6MhcPYISQDU)
+
+<p class="clip-credit"><strong>Rodeo ride and choke from turtle top</strong> — taught by Ethos Jiu-Jitsu Fullerton · 1:25 · <a href="https://www.youtube.com/watch?v=6MhcPYISQDU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vYD01Vgjy_8)
+
+<p class="clip-credit"><strong>Rodeo ride vs turtle and prone opponent</strong> — taught by Steve Scott · 3:31 · <a href="https://www.youtube.com/watch?v=vYD01Vgjy_8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BF0dNxRR444)
+
+<p class="clip-credit"><strong>Seated rodeo ride to juji gatame</strong> — taught by Steve Scott · 4:26 · <a href="https://www.youtube.com/watch?v=BF0dNxRR444" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

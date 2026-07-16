@@ -174,6 +174,43 @@ description: "How to execute Leg Drag to Crucifix in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag to back take pass",
+      "description": "Leg Drag to Crucifix (Attacker) film study: Leg drag to back take pass, taught by Ben.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
+      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
+      "creator": { "@type": "Person", "name": "Ben" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm drag entry to the crucifix",
+      "description": "Leg Drag to Crucifix (Attacker) film study: Arm drag entry to the crucifix, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uQn6tbgVeGA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uQn6tbgVeGA",
+      "url": "https://www.youtube.com/watch?v=uQn6tbgVeGA",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ The technique requires sensitivity to feel when the opponent commits to turning 
 **From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
+
+<p class="clip-credit"><strong>Leg drag to back take pass</strong> — taught by Ben · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uQn6tbgVeGA)
+
+<p class="clip-credit"><strong>Arm drag entry to the crucifix</strong> — taught by Revolution BJJ · 0:57 · <a href="https://www.youtube.com/watch?v=uQn6tbgVeGA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

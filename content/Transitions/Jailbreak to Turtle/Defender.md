@@ -148,6 +148,54 @@ description: "How to defend against Jailbreak to Turtle in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak to Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the turtle down into a hold",
+      "description": "Jailbreak to Turtle (Defender) film study: Breaking the turtle down into a hold, taught by Idris Boussetoua.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ekkQFHyTDwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ekkQFHyTDwE",
+      "url": "https://www.youtube.com/watch?v=ekkQFHyTDwE",
+      "creator": { "@type": "Person", "name": "Idris Boussetoua" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shutting down the roll from turtle",
+      "description": "Jailbreak to Turtle (Defender) film study: Shutting down the roll from turtle, taught by Aaron Benzrihem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WeKW5XTMUxY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WeKW5XTMUxY",
+      "url": "https://www.youtube.com/watch?v=WeKW5XTMUxY",
+      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
+      "duration": "PT223S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Forcing and holding half guard top",
+      "description": "Jailbreak to Turtle (Defender) film study: Forcing and holding half guard top, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WzFwzQzndX4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WzFwzQzndX4",
+      "url": "https://www.youtube.com/watch?v=WzFwzQzndX4",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT445S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Jailbreak to Turtle requires the top player to recognize early war
 **Opponent's Starting Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak to Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ekkQFHyTDwE)
+
+<p class="clip-credit"><strong>Breaking the turtle down into a hold</strong> — taught by Idris Boussetoua · 1:12 · <a href="https://www.youtube.com/watch?v=ekkQFHyTDwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WeKW5XTMUxY)
+
+<p class="clip-credit"><strong>Shutting down the roll from turtle</strong> — taught by Aaron Benzrihem · 3:43 · <a href="https://www.youtube.com/watch?v=WeKW5XTMUxY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WzFwzQzndX4)
+
+<p class="clip-credit"><strong>Forcing and holding half guard top</strong> — taught by Gordon Ryan · 7:25 · <a href="https://www.youtube.com/watch?v=WzFwzQzndX4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

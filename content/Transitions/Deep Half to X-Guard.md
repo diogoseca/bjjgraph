@@ -34,6 +34,54 @@ description: "Master the Deep Half to X-Guard transition in BJJ. Complete guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half to X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Waiter sweep to X-guard from deep half",
+      "description": "Deep Half to X-Guard film study: Waiter sweep to X-guard from deep half, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vOYlq4yK8ns/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vOYlq4yK8ns",
+      "url": "https://www.youtube.com/watch?v=vOYlq4yK8ns",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep half guard to X-guard transition",
+      "description": "Deep Half to X-Guard film study: Deep half guard to X-guard transition, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WWclVTFqucc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WWclVTFqucc",
+      "url": "https://www.youtube.com/watch?v=WWclVTFqucc",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT137S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep half to single X entry",
+      "description": "Deep Half to X-Guard film study: Deep half to single X entry, taught by Strong Hold Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOeuZa7Kc6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOeuZa7Kc6U",
+      "url": "https://www.youtube.com/watch?v=GOeuZa7Kc6U",
+      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
+      "duration": "PT122S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition creates a powerful dilemma for the top player in 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half to X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vOYlq4yK8ns)
+
+<p class="clip-credit"><strong>Waiter sweep to X-guard from deep half</strong> — taught by Revolution BJJ · 0:16 · <a href="https://www.youtube.com/watch?v=vOYlq4yK8ns" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WWclVTFqucc)
+
+<p class="clip-credit"><strong>Deep half guard to X-guard transition</strong> — taught by Revolution BJJ · 2:17 · <a href="https://www.youtube.com/watch?v=WWclVTFqucc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOeuZa7Kc6U)
+
+<p class="clip-credit"><strong>Deep half to single X entry</strong> — taught by Strong Hold Jiu Jitsu · 2:02 · <a href="https://www.youtube.com/watch?v=GOeuZa7Kc6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

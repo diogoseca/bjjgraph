@@ -153,6 +153,43 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chill Dog (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing-up escape from turtle",
+      "description": "Chill Dog (Bottom) film study: Standing-up escape from turtle, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defensive BJJ system: bottom posture basics",
+      "description": "Chill Dog (Bottom) film study: Defensive BJJ system: bottom posture basics, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vHDqBGNTnfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vHDqBGNTnfY",
+      "url": "https://www.youtube.com/watch?v=vHDqBGNTnfY",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT325S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Breathing and mental composure are critical skills for bottom Chill Dog. Newer p
 In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensive positions. Once you successfully escape to guard, you immediately work to establish your preferred attacking position - whether that's rubber guard, lockdown half guard, or one of the specialized 10th Planet guard variations. The position teaches practitioners that defense is not passive survival, but an active process of controlling the situation while setting up your return to offense.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chill Dog (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing-up escape from turtle</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vHDqBGNTnfY)
+
+<p class="clip-credit"><strong>Defensive BJJ system: bottom posture basics</strong> — taught by Priit Mihkelson · 5:25 · <a href="https://www.youtube.com/watch?v=vHDqBGNTnfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

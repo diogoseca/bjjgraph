@@ -180,6 +180,43 @@ description: "Execute the Meathook Entry from Rubber Guard bottom. Master the 10
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meathook Entry from Rubber Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Meathook options from rubber guard",
+      "description": "Meathook Entry from Rubber Guard (Attacker) film study: Meathook options from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KN7ww-OyaxQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KN7ww-OyaxQ",
+      "url": "https://www.youtube.com/watch?v=KN7ww-OyaxQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Troubleshooting the rubber guard meathook",
+      "description": "Meathook Entry from Rubber Guard (Attacker) film study: Troubleshooting the rubber guard meathook, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0w0642zFqWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0w0642zFqWo",
+      "url": "https://www.youtube.com/watch?v=0w0642zFqWo",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ From the attacker's perspective, the Meathook Entry from Rubber Guard is a calcu
 **From Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Meathook Entry from Rubber Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KN7ww-OyaxQ)
+
+<p class="clip-credit"><strong>Meathook options from rubber guard</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=KN7ww-OyaxQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0w0642zFqWo)
+
+<p class="clip-credit"><strong>Troubleshooting the rubber guard meathook</strong> — taught by Brandon McCaghren · 1:01 · <a href="https://www.youtube.com/watch?v=0w0642zFqWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

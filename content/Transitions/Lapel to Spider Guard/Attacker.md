@@ -168,6 +168,43 @@ description: "How to execute Lapel to Spider Transition in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel to Spider Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel guard takedown \u2014 1 minute breakdown",
+      "description": "Lapel to Spider Guard (Attacker) film study: Lapel guard takedown \u2014 1 minute breakdown, taught by Legion AJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
+      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
+      "creator": { "@type": "Person", "name": "Legion AJJ" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Using the lapel to take the back",
+      "description": "Lapel to Spider Guard (Attacker) film study: Using the lapel to take the back, taught by Trapp Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XstupXvIaOk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XstupXvIaOk",
+      "url": "https://www.youtube.com/watch?v=XstupXvIaOk",
+      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ This transition is particularly valuable in competition where opponents train sp
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel to Spider Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
+
+<p class="clip-credit"><strong>Lapel guard takedown — 1 minute breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XstupXvIaOk)
+
+<p class="clip-credit"><strong>Using the lapel to take the back</strong> — taught by Trapp Martial Arts · 1:32 · <a href="https://www.youtube.com/watch?v=XstupXvIaOk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

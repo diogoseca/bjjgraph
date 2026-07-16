@@ -153,6 +153,54 @@ description: "Defend and escape Buggy Choke attacks. Complete defensive guide co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The buggy choke from bottom side control",
+      "description": "Buggy Choke (Bottom) film study: The buggy choke from bottom side control, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
+      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fixing common buggy choke mistakes",
+      "description": "Buggy Choke (Bottom) film study: Fixing common buggy choke mistakes, taught by Yoga for BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
+      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
+      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Buggy choke setups and finishes",
+      "description": "Buggy Choke (Bottom) film study: Buggy choke setups and finishes, taught by Kade Ruotolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U-eR63GzcIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U-eR63GzcIo",
+      "url": "https://www.youtube.com/watch?v=U-eR63GzcIo",
+      "creator": { "@type": "Person", "name": "Kade Ruotolo" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The critical defensive window exists before the attacker's leg clamps the should
 Successful defense requires abandoning the mindset that a dominant pin is automatically safe. Against a competent buggy choke, the defender must prioritize arm extraction and clearing the leg over the shoulder above maintaining position, even if that means temporarily conceding ground to recover safe distance. The position teaches the important principle that pressure without arm awareness can be a liability, and that escaping a deteriorating entanglement quickly is far better than stubbornly holding a position being converted into a submission. Understanding these defensive priorities is essential for preventing high-percentage strangles and developing comprehensive defensive systems against the modern buggy choke.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
+
+<p class="clip-credit"><strong>The buggy choke from bottom side control</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
+
+<p class="clip-credit"><strong>Fixing common buggy choke mistakes</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U-eR63GzcIo)
+
+<p class="clip-credit"><strong>Buggy choke setups and finishes</strong> — taught by Kade Ruotolo · 1:07 · <a href="https://www.youtube.com/watch?v=U-eR63GzcIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

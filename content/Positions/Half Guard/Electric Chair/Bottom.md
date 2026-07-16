@@ -147,6 +147,54 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric Chair from lockdown half guard",
+      "description": "Electric Chair (Bottom) film study: Electric Chair from lockdown half guard, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
+      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Corona lockdown sweep to Electric Chair",
+      "description": "Electric Chair (Bottom) film study: Corona lockdown sweep to Electric Chair, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
+      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Electric Chair sweep breakdown",
+      "description": "Electric Chair (Bottom) film study: Electric Chair sweep breakdown, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CxxyZEd7-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CxxyZEd7-E",
+      "url": "https://www.youtube.com/watch?v=9CxxyZEd7-E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,6 +206,42 @@ The position is characterized by its dual-threat nature: it functions as both a 
 Electric Chair Bottom represents a systematic approach to bottom half guard where the practitioner doesn't merely defend but actively hunts for dominant position reversals and submissions. It exemplifies the 10th Planet philosophy of creating attacking sequences from traditionally defensive positions, forcing opponents to respect submission threats while setting up sweeps and transitions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+
+<p class="clip-credit"><strong>Electric Chair from lockdown half guard</strong> — taught by Brandon McCaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=08cbHHs_NsM)
+
+<p class="clip-credit"><strong>Corona lockdown sweep to Electric Chair</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9CxxyZEd7-E)
+
+<p class="clip-credit"><strong>Electric Chair sweep breakdown</strong> — taught by Asaf Mich · 1:16 · <a href="https://www.youtube.com/watch?v=9CxxyZEd7-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

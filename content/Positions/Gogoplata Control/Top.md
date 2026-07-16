@@ -153,6 +153,43 @@ description: "Master defending and escaping gogoplata control from top position 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do the gogoplata",
+      "description": "Gogoplata Control (Top) film study: How to do the gogoplata, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VbLlhI0aZC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VbLlhI0aZC8",
+      "url": "https://www.youtube.com/watch?v=VbLlhI0aZC8",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gogoplata variations from a high guard",
+      "description": "Gogoplata Control (Top) film study: Gogoplata variations from a high guard, taught by SpringHill BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PqAJraYllQI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PqAJraYllQI",
+      "url": "https://www.youtube.com/watch?v=PqAJraYllQI",
+      "creator": { "@type": "Person", "name": "SpringHill BJJ" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +207,34 @@ Strategically, the top defender must recognize that maintaining calm and avoidin
 The position also provides important lessons about submission defense principles. The gogoplata demonstrates that some submissions cannot be defended through strength or aggression alone. The anatomical configuration creates a mechanical disadvantage that requires technical understanding and precise execution to overcome. This makes it an excellent teaching position for advanced practitioners learning to defend against unconventional attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VbLlhI0aZC8)
+
+<p class="clip-credit"><strong>How to do the gogoplata</strong> — taught by jamielovesmartialarts · 1:08 · <a href="https://www.youtube.com/watch?v=VbLlhI0aZC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PqAJraYllQI)
+
+<p class="clip-credit"><strong>Gogoplata variations from a high guard</strong> — taught by SpringHill BJJ · 1:28 · <a href="https://www.youtube.com/watch?v=PqAJraYllQI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

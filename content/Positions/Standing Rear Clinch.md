@@ -34,6 +34,43 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Rear Clinch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Easy Takedowns from the Rear Clinch",
+      "description": "Standing Rear Clinch film study: Easy Takedowns from the Rear Clinch, taught by Oneonta Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ovl7eZIzBaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ovl7eZIzBaU",
+      "url": "https://www.youtube.com/watch?v=ovl7eZIzBaU",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu Academy" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Nicky Rod\u0027s Body Lock Pass",
+      "description": "Standing Rear Clinch film study: Nicky Rod\u0027s Body Lock Pass, taught by Professor Buck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sztjmLZYxIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sztjmLZYxIQ",
+      "url": "https://www.youtube.com/watch?v=sztjmLZYxIQ",
+      "creator": { "@type": "Person", "name": "Professor Buck" },
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ Strategically, Standing Rear Clinch provides multiple advancement pathways inclu
 The Standing Rear Clinch holds particular importance in no-gi grappling and MMA contexts where wrestling-based positions dominate the standing phase, though it remains highly relevant in gi competition where collar and sleeve grips integrate with traditional bodylock and seatbelt controls. Mastery allows practitioners to neutralize guard pullers, force action in stalling situations, and create scoring opportunities through takedowns and back exposure while maintaining offensive initiative throughout the standing phase.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Rear Clinch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ovl7eZIzBaU)
+
+<p class="clip-credit"><strong>Easy Takedowns from the Rear Clinch</strong> — taught by Oneonta Jiu Jitsu Academy · 0:57 · <a href="https://www.youtube.com/watch?v=ovl7eZIzBaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sztjmLZYxIQ)
+
+<p class="clip-credit"><strong>Nicky Rod&#39;s Body Lock Pass</strong> — taught by Professor Buck · 0:38 · <a href="https://www.youtube.com/watch?v=sztjmLZYxIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

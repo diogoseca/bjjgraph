@@ -141,6 +141,43 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Carni (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top lock clinch for the leglock control",
+      "description": "Carni (Bottom) film study: Top lock clinch for the leglock control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EMyodFAwXZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EMyodFAwXZk",
+      "url": "https://www.youtube.com/watch?v=EMyodFAwXZk",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting to backside 50/50",
+      "description": "Carni (Bottom) film study: Getting to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ What makes the Carni particularly effective from bottom is the energy efficiency
 The technical requirements for effective Carni play from bottom include precise heel control, the ability to maintain inside positioning with the top leg, mobility in the hips to invert or roll as needed, and the situational awareness to recognize which attack path is available based on the opponent's defensive reactions. Advanced practitioners can chain between heel hook threats, saddle transitions, back takes, and kneebar attacks seamlessly, creating a submission system that is extremely difficult to defend against even for elite-level opponents.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Carni (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EMyodFAwXZk)
+
+<p class="clip-credit"><strong>Top lock clinch for the leglock control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=EMyodFAwXZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to backside 50/50</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

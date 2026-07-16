@@ -155,6 +155,43 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Chokes from Mount",
+      "description": "Mount (Top) film study: Cross Collar Chokes from Mount, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Full Mount Top Control Fundamentals",
+      "description": "Mount (Top) film study: Full Mount Top Control Fundamentals, taught by Formidable Combat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SGZ5wD3z73Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SGZ5wD3z73Q",
+      "url": "https://www.youtube.com/watch?v=SGZ5wD3z73Q",
+      "creator": { "@type": "Person", "name": "Formidable Combat" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -174,6 +211,34 @@ The decision to advance through these variations should follow the bottom player
 Mount retention mechanics require constant adjustment. When the bottom player bridges, grapevine the legs and drive hips forward. When they hip escape, slide your knee up and threaten Americana or transition to high mount. When they turn to their side, immediately follow with technical mount hooks. Each defensive pattern has a specific retention response that simultaneously maintains position and advances your offensive campaign.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross Collar Chokes from Mount</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SGZ5wD3z73Q)
+
+<p class="clip-credit"><strong>Full Mount Top Control Fundamentals</strong> — taught by Formidable Combat · 1:46 · <a href="https://www.youtube.com/watch?v=SGZ5wD3z73Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

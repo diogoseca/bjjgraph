@@ -154,6 +154,54 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Closed Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sweep from closed guard",
+      "description": "Closed Guard (Bottom) film study: Sweep from closed guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dMcMblcXhF0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dMcMblcXhF0",
+      "url": "https://www.youtube.com/watch?v=dMcMblcXhF0",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross collar chokes from closed guard",
+      "description": "Closed Guard (Bottom) film study: Cross collar chokes from closed guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbars from closed guard",
+      "description": "Closed Guard (Bottom) film study: Armbars from closed guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +216,42 @@ The power of closed guard bottom lies in its dual nature: it simultaneously prov
 Master practitioners understand that closed guard is not a passive holding position but an active offensive platform. Success requires constant hip movement to create angles, aggressive posture breaking to prevent defensive frames, and systematic combination attacks that create dilemmas where defending one technique opens another. The position rewards technical precision, timing, and strategic planning, allowing smaller practitioners to control and submit larger opponents through superior leverage and technique. Your ability to threaten sweeps and submissions simultaneously while maintaining defensive security makes closed guard bottom one of the most strategically advantageous positions available to the bottom player in BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Closed Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dMcMblcXhF0)
+
+<p class="clip-credit"><strong>Sweep from closed guard</strong> — taught by Roger Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=dMcMblcXhF0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross collar chokes from closed guard</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Armbars from closed guard</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

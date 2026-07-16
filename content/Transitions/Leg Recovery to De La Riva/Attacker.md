@@ -168,6 +168,43 @@ description: "How to execute Leg Recovery to De La Riva in BJJ. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Recovery to De La Riva (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to use reverse de la Riva",
+      "description": "Leg Recovery to De La Riva (Attacker) film study: How to use reverse de la Riva, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
+      "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tips to make your de la Riva guard unpassable",
+      "description": "Leg Recovery to De La Riva (Attacker) film study: Tips to make your de la Riva guard unpassable, taught by Juanjo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wLSe23vSbP0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wLSe23vSbP0",
+      "url": "https://www.youtube.com/watch?v=wLSe23vSbP0",
+      "creator": { "@type": "Person", "name": "Juanjo" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Once the leg is free, the window for re-drag is extremely small—typically unde
 **From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Recovery to De La Riva (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_beJGS2-yIE)
+
+<p class="clip-credit"><strong>How to use reverse de la Riva</strong> — taught by Lachlan Giles · 2:02 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wLSe23vSbP0)
+
+<p class="clip-credit"><strong>Tips to make your de la Riva guard unpassable</strong> — taught by Juanjo · 1:42 · <a href="https://www.youtube.com/watch?v=wLSe23vSbP0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

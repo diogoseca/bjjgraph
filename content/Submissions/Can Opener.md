@@ -34,6 +34,43 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Can Opener \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Do a Can Opener",
+      "description": "Can Opener film study: How to Do a Can Opener, taught by MMA Submissions.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_-NGlUCnHy0",
+      "url": "https://www.youtube.com/watch?v=_-NGlUCnHy0",
+      "creator": { "@type": "Person", "name": "MMA Submissions" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Can Opener Cervical Choke",
+      "description": "Can Opener film study: Can Opener Cervical Choke, taught by Marcus Soares.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FGPGkKnY_Mg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FGPGkKnY_Mg",
+      "url": "https://www.youtube.com/watch?v=FGPGkKnY_Mg",
+      "creator": { "@type": "Person", "name": "Marcus Soares" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +117,34 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 The Can Opener is a neck crank technique applied from within an opponent's closed guard, primarily used as a guard-breaking mechanism rather than a finishing submission. The technique involves interlacing fingers behind the opponent's head and driving the forearms into their neck while pulling the head forward and down, creating intense pressure on the cervical spine and neck muscles. This compression submission is banned in most Brazilian Jiu-Jitsu competitions under IBJJF rules and is considered a controversial technique due to its high injury potential. While it can be effective at forcing an opponent to open their guard to relieve pressure, the Can Opener carries significant risks including neck muscle strains, cervical spine compression injuries, and potential disc damage. Modern BJJ practitioners typically learn this technique primarily for defensive purposes - understanding how to recognize and counter it - rather than as an offensive weapon. The technique's effectiveness comes from the mechanical disadvantage created when the defender's own guard restricts their ability to posture away from the pressure. However, higher-level practitioners develop strong defensive responses including grip fighting, posture control, and guard adjustments that significantly reduce the Can Opener's success rate. Understanding this technique is essential for comprehensive grappling education, but its application should be severely restricted or avoided entirely in training environments.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Can Opener in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_-NGlUCnHy0)
+
+<p class="clip-credit"><strong>How to Do a Can Opener</strong> — taught by MMA Submissions · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FGPGkKnY_Mg)
+
+<p class="clip-credit"><strong>Can Opener Cervical Choke</strong> — taught by Marcus Soares · 1:13 · <a href="https://www.youtube.com/watch?v=FGPGkKnY_Mg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

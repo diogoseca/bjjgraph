@@ -34,6 +34,54 @@ description: "Master the Carni to Gogoplata Setup transition in BJJ. Chain from 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Carni to Gogoplata Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gogoplata from guard",
+      "description": "Carni to Gogoplata Setup film study: Gogoplata from guard, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Opp0j7UmlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Opp0j7UmlU",
+      "url": "https://www.youtube.com/watch?v=4Opp0j7UmlU",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Seven submissions from rubber guard including gogoplata",
+      "description": "Carni to Gogoplata Setup film study: Seven submissions from rubber guard including gogoplata, taught by Felipe Cavalcante.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X73jEbuUaxQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X73jEbuUaxQ",
+      "url": "https://www.youtube.com/watch?v=X73jEbuUaxQ",
+      "creator": { "@type": "Person", "name": "Felipe Cavalcante" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gogoplata from half guard knee shield",
+      "description": "Carni to Gogoplata Setup film study: Gogoplata from half guard knee shield, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VbLlhI0aZC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VbLlhI0aZC8",
+      "url": "https://www.youtube.com/watch?v=VbLlhI0aZC8",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition adds an unexpected dimension to Carni attacks tha
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Carni to Gogoplata Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4Opp0j7UmlU)
+
+<p class="clip-credit"><strong>Gogoplata from guard</strong> — taught by Kinesiology College · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X73jEbuUaxQ)
+
+<p class="clip-credit"><strong>Seven submissions from rubber guard including gogoplata</strong> — taught by Felipe Cavalcante · 0:51 · <a href="https://www.youtube.com/watch?v=X73jEbuUaxQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VbLlhI0aZC8)
+
+<p class="clip-credit"><strong>Gogoplata from half guard knee shield</strong> — taught by Jamie · 1:08 · <a href="https://www.youtube.com/watch?v=VbLlhI0aZC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

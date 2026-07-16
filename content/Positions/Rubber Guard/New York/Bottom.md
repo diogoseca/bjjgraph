@@ -153,6 +153,43 @@ description: "Establish New York control from bottom position with overhook and 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dead Orchard Armbar from Rubber Guard",
+      "description": "New York (Bottom) film study: Dead Orchard Armbar from Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jT4wPY2Dc_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jT4wPY2Dc_U",
+      "url": "https://www.youtube.com/watch?v=jT4wPY2Dc_U",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard Live Drills",
+      "description": "New York (Bottom) film study: Rubber Guard Live Drills, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cllvkg2qg-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cllvkg2qg-w",
+      "url": "https://www.youtube.com/watch?v=Cllvkg2qg-w",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -174,6 +211,34 @@ The position's effectiveness scales dramatically with the practitioner's hip fle
 From a learning progression standpoint, New York Bottom typically requires 40-60 hours of dedicated mat time to achieve basic proficiency, with full mastery of the position's offensive potential requiring 150-200 hours of specific positional training. The position is best learned progressively, starting with static holds, advancing to maintaining the position against moderate resistance, then finally incorporating the full range of attacking transitions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jT4wPY2Dc_U)
+
+<p class="clip-credit"><strong>Dead Orchard Armbar from Rubber Guard</strong> — taught by Eddie Bravo · 1:28 · <a href="https://www.youtube.com/watch?v=jT4wPY2Dc_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cllvkg2qg-w)
+
+<p class="clip-credit"><strong>Rubber Guard Live Drills</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=Cllvkg2qg-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

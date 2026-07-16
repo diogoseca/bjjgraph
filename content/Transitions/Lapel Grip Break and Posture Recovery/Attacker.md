@@ -168,6 +168,43 @@ description: "How to execute Lapel Grip Break and Posture Recovery in BJJ. Attac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Grip Break and Posture Recovery (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking strong lapel grips",
+      "description": "Lapel Grip Break and Posture Recovery (Attacker) film study: Breaking strong lapel grips, taught by Cavalo Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mnjEn6Ayaa0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mnjEn6Ayaa0",
+      "url": "https://www.youtube.com/watch?v=mnjEn6Ayaa0",
+      "creator": { "@type": "Person", "name": "Cavalo Jiu-Jitsu" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel grip break variation",
+      "description": "Lapel Grip Break and Posture Recovery (Attacker) film study: Lapel grip break variation, taught by Robert Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oAH20Vxsn-g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oAH20Vxsn-g",
+      "url": "https://www.youtube.com/watch?v=oAH20Vxsn-g",
+      "creator": { "@type": "Person", "name": "Robert Brown" },
+      "duration": "PT104S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Strategically, this technique serves as the gateway to all other passing options
 **From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Grip Break and Posture Recovery (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mnjEn6Ayaa0)
+
+<p class="clip-credit"><strong>Breaking strong lapel grips</strong> — taught by Cavalo Jiu-Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=mnjEn6Ayaa0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oAH20Vxsn-g)
+
+<p class="clip-credit"><strong>Lapel grip break variation</strong> — taught by Robert Brown · 1:44 · <a href="https://www.youtube.com/watch?v=oAH20Vxsn-g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

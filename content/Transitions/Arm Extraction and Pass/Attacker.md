@@ -168,6 +168,43 @@ description: "How to execute Arm Extraction and Pass in BJJ. Attacking perspecti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Extraction and Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing off the defensive roll",
+      "description": "Arm Extraction and Pass (Attacker) film study: Passing off the defensive roll, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CkX_FzPFw8M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CkX_FzPFw8M",
+      "url": "https://www.youtube.com/watch?v=CkX_FzPFw8M",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross knee pass, preventing the turtle",
+      "description": "Arm Extraction and Pass (Attacker) film study: Cross knee pass, preventing the turtle, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6_4uK_c0-cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6_4uK_c0-cI",
+      "url": "https://www.youtube.com/watch?v=6_4uK_c0-cI",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Strategically, this technique represents a critical bridge between the dynamic t
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Extraction and Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CkX_FzPFw8M)
+
+<p class="clip-credit"><strong>Passing off the defensive roll</strong> — taught by Gordon Ryan · 1:51 · <a href="https://www.youtube.com/watch?v=CkX_FzPFw8M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6_4uK_c0-cI)
+
+<p class="clip-credit"><strong>Cross knee pass, preventing the turtle</strong> — taught by Inverted Gear · 1:19 · <a href="https://www.youtube.com/watch?v=6_4uK_c0-cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

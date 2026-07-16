@@ -174,6 +174,54 @@ description: "Learn to execute the reversal from kneebar control bottom in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reversal from Kneebar Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling kneebar escape",
+      "description": "Reversal from Kneebar Control (Attacker) film study: Rolling kneebar escape, taught by Renegade BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uJi9Pr2xxlI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uJi9Pr2xxlI",
+      "url": "https://www.youtube.com/watch?v=uJi9Pr2xxlI",
+      "creator": { "@type": "Person", "name": "Renegade BJJ" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar escape from half guard",
+      "description": "Reversal from Kneebar Control (Attacker) film study: Kneebar escape from half guard, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_3SLMuTgp54/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_3SLMuTgp54",
+      "url": "https://www.youtube.com/watch?v=_3SLMuTgp54",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar counter into your own kneebar",
+      "description": "Reversal from Kneebar Control (Attacker) film study: Kneebar counter into your own kneebar, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Oa0Ac9ILYu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Oa0Ac9ILYu8",
+      "url": "https://www.youtube.com/watch?v=Oa0Ac9ILYu8",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The reversal from kneebar control requires the bottom player to redirect their l
 **From Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reversal from Kneebar Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uJi9Pr2xxlI)
+
+<p class="clip-credit"><strong>Rolling kneebar escape</strong> — taught by Renegade BJJ · 0:40 · <a href="https://www.youtube.com/watch?v=uJi9Pr2xxlI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_3SLMuTgp54)
+
+<p class="clip-credit"><strong>Kneebar escape from half guard</strong> — taught by Moncaio Brothers · 0:37 · <a href="https://www.youtube.com/watch?v=_3SLMuTgp54" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Oa0Ac9ILYu8)
+
+<p class="clip-credit"><strong>Kneebar counter into your own kneebar</strong> — taught by Gracie Westchase · 0:21 · <a href="https://www.youtube.com/watch?v=Oa0Ac9ILYu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

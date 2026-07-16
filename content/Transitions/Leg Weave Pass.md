@@ -34,6 +34,43 @@ description: "Master the Leg Weave Pass in BJJ. Step-by-step pressure passing te
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Weave Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg pummeling into the weave pass",
+      "description": "Leg Weave Pass film study: Leg pummeling into the weave pass, taught by Michael Wong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kQrTYXOO1To/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kQrTYXOO1To",
+      "url": "https://www.youtube.com/watch?v=kQrTYXOO1To",
+      "creator": { "@type": "Person", "name": "Michael Wong" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg weave pass against the knee shield",
+      "description": "Leg Weave Pass film study: Leg weave pass against the knee shield, taught by BJJ4Breakfast coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
+      "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The leg weave pass represents a systematic approach to passing that prioritizes 
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Weave Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kQrTYXOO1To)
+
+<p class="clip-credit"><strong>Leg pummeling into the weave pass</strong> — taught by Michael Wong · 0:22 · <a href="https://www.youtube.com/watch?v=kQrTYXOO1To" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4LIBFmas-oE)
+
+<p class="clip-credit"><strong>Leg weave pass against the knee shield</strong> — taught by BJJ4Breakfast coach · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

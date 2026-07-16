@@ -148,6 +148,43 @@ description: "Maintain Shoulder of Justice control against escape attempts. Comp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Shoulder of Justice (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining side control shoulder pressure",
+      "description": "Escape Shoulder of Justice (Defender) film study: Maintaining side control shoulder pressure, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaYoAcTeKkk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaYoAcTeKkk",
+      "url": "https://www.youtube.com/watch?v=XaYoAcTeKkk",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Far side underhook pin retention",
+      "description": "Escape Shoulder of Justice (Defender) film study: Far side underhook pin retention, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mWimgVQrsMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mWimgVQrsMU",
+      "url": "https://www.youtube.com/watch?v=mWimgVQrsMU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the top player defending against the Escape from Shoulder of Justice, your ob
 **Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Shoulder of Justice (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XaYoAcTeKkk)
+
+<p class="clip-credit"><strong>Maintaining side control shoulder pressure</strong> — taught by Thunderdome BJJ · 0:32 · <a href="https://www.youtube.com/watch?v=XaYoAcTeKkk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mWimgVQrsMU)
+
+<p class="clip-credit"><strong>Far side underhook pin retention</strong> — taught by Craig Jones · 2:17 · <a href="https://www.youtube.com/watch?v=mWimgVQrsMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

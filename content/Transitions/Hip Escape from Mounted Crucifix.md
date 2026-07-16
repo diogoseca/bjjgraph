@@ -34,6 +34,43 @@ description: "Master the hip escape from mounted crucifix in BJJ. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Mounted Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix escape demonstration",
+      "description": "Hip Escape from Mounted Crucifix film study: Crucifix escape demonstration, taught by Chosen Few BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7wr6klxbC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7wr6klxbC8",
+      "url": "https://www.youtube.com/watch?v=C7wr6klxbC8",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ coach" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix escape mechanics",
+      "description": "Hip Escape from Mounted Crucifix film study: Crucifix escape mechanics, taught by Chosen Few BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m-iTKRTVeeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m-iTKRTVeeo",
+      "url": "https://www.youtube.com/watch?v=m-iTKRTVeeo",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ coach" },
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the hip escape from mounted crucifix represents the first link in
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Mounted Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7wr6klxbC8)
+
+<p class="clip-credit"><strong>Crucifix escape demonstration</strong> — taught by Chosen Few BJJ coach · 1:29 · <a href="https://www.youtube.com/watch?v=C7wr6klxbC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m-iTKRTVeeo)
+
+<p class="clip-credit"><strong>Crucifix escape mechanics</strong> — taught by Chosen Few BJJ coach · 2:40 · <a href="https://www.youtube.com/watch?v=m-iTKRTVeeo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

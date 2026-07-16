@@ -180,6 +180,54 @@ description: "How to execute Rear Naked Choke Setup in BJJ. Attacking perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke Setup (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Details on finishing the rear naked choke",
+      "description": "Rear Naked Choke Setup (Attacker) film study: Details on finishing the rear naked choke, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
+      "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear naked choke from back control",
+      "description": "Rear Naked Choke Setup (Attacker) film study: Rear naked choke from back control, taught by Affinity Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3vCytl_OI-4",
+      "url": "https://www.youtube.com/watch?v=3vCytl_OI-4",
+      "creator": { "@type": "Person", "name": "Affinity Academy" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Takedown to rear naked choke setup",
+      "description": "Rear Naked Choke Setup (Attacker) film study: Takedown to rear naked choke setup, taught by Fit To Fight Republic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FvT_Ffy68OI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FvT_Ffy68OI",
+      "url": "https://www.youtube.com/watch?v=FvT_Ffy68OI",
+      "creator": { "@type": "Person", "name": "Fit To Fight Republic" },
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -193,6 +241,42 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 **From Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke Setup (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tdVE2zgjXw)
+
+<p class="clip-credit"><strong>Details on finishing the rear naked choke</strong> — taught by Craig Jones · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3vCytl_OI-4)
+
+<p class="clip-credit"><strong>Rear naked choke from back control</strong> — taught by Affinity Academy · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FvT_Ffy68OI)
+
+<p class="clip-credit"><strong>Takedown to rear naked choke setup</strong> — taught by Fit To Fight Republic · 0:38 · <a href="https://www.youtube.com/watch?v=FvT_Ffy68OI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

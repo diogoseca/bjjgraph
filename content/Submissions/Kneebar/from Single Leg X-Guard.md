@@ -34,6 +34,43 @@ description: "Master the kneebar from Single Leg X-Guard. Expert guide to this B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Single Leg X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X to Kneebar",
+      "description": "Kneebar from Single Leg X-Guard film study: Single Leg X to Kneebar, taught by Fernaldi Jonatan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fZRfKh1B53o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fZRfKh1B53o",
+      "url": "https://www.youtube.com/watch?v=fZRfKh1B53o",
+      "creator": { "@type": "Person", "name": "Fernaldi Jonatan" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse X to Kneebar",
+      "description": "Kneebar from Single Leg X-Guard film study: Reverse X to Kneebar, taught by Combat by the Minute.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V7ND4cpJ2_c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V7ND4cpJ2_c",
+      "url": "https://www.youtube.com/watch?v=V7ND4cpJ2_c",
+      "creator": { "@type": "Person", "name": "Combat by the Minute" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 **Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] · **From**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Single Leg X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fZRfKh1B53o)
+
+<p class="clip-credit"><strong>Single Leg X to Kneebar</strong> — taught by Fernaldi Jonatan · 1:16 · <a href="https://www.youtube.com/watch?v=fZRfKh1B53o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V7ND4cpJ2_c)
+
+<p class="clip-credit"><strong>Reverse X to Kneebar</strong> — taught by Combat by the Minute · 1:57 · <a href="https://www.youtube.com/watch?v=V7ND4cpJ2_c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

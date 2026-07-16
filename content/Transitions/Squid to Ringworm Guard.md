@@ -34,6 +34,43 @@ description: "Master the Squid to Ringworm Guard transition in BJJ. Learn lapel 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Squid to Ringworm Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel guard examples: worm, reverse de la worm, ringworm",
+      "description": "Squid to Ringworm Guard film study: Lapel guard examples: worm, reverse de la worm, ringworm, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CdPHu-ly6t8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CdPHu-ly6t8",
+      "url": "https://www.youtube.com/watch?v=CdPHu-ly6t8",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT287S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel guard introduction and entries",
+      "description": "Squid to Ringworm Guard film study: Lapel guard introduction and entries, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/541H63KeHD4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/541H63KeHD4",
+      "url": "https://www.youtube.com/watch?v=541H63KeHD4",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT293S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Timing is the critical factor in this reconfiguration. The lapel must be momenta
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Squid to Ringworm Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CdPHu-ly6t8)
+
+<p class="clip-credit"><strong>Lapel guard examples: worm, reverse de la worm, ringworm</strong> — taught by Greg Hamilton · 4:47 · <a href="https://www.youtube.com/watch?v=CdPHu-ly6t8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=541H63KeHD4)
+
+<p class="clip-credit"><strong>Lapel guard introduction and entries</strong> — taught by Keenan Cornelius · 4:53 · <a href="https://www.youtube.com/watch?v=541H63KeHD4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

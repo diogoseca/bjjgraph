@@ -153,6 +153,43 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Break Posture to Triangle, Omoplata \u0026 Sweep",
+      "description": "Double Sleeve Guard (Bottom) film study: Break Posture to Triangle, Omoplata \u0026 Sweep, taught by Pathfinder Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cl5tutvZ2NA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cl5tutvZ2NA",
+      "url": "https://www.youtube.com/watch?v=Cl5tutvZ2NA",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sleeve Guard Arm Drag",
+      "description": "Double Sleeve Guard (Bottom) film study: Sleeve Guard Arm Drag, taught by Angel Halo Lopez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HwB1hGa09OM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HwB1hGa09OM",
+      "url": "https://www.youtube.com/watch?v=HwB1hGa09OM",
+      "creator": { "@type": "Person", "name": "Angel Halo Lopez" },
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
 Double Sleeve Guard Bottom is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This position provides excellent control over the opponent's upper body, preventing them from establishing grips or initiating passing sequences while setting up numerous sweep and transition opportunities. The position is particularly effective in gi jiu-jitsu, where the sleeve grips create a strong connection that can be used to manipulate the opponent's posture and balance. Double Sleeve Guard is characterized by its emphasis on grip fighting dominance and distance management. By controlling both sleeves, the bottom player neutralizes the opponent's ability to grip the pants or control the legs, forcing them into a defensive posture. This guard excels at creating off-balancing opportunities and can transition seamlessly into more specialized guards like Spider Guard, Lasso Guard, or De La Riva Guard. The position requires good hip mobility and grip strength but offers a high return on investment for practitioners who develop proficiency with the fundamental sweeps and transitions available from this control position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cl5tutvZ2NA)
+
+<p class="clip-credit"><strong>Break Posture to Triangle, Omoplata &amp; Sweep</strong> — taught by Pathfinder Jiu-Jitsu Team · 0:50 · <a href="https://www.youtube.com/watch?v=Cl5tutvZ2NA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HwB1hGa09OM)
+
+<p class="clip-credit"><strong>Sleeve Guard Arm Drag</strong> — taught by Angel Halo Lopez · 1:22 · <a href="https://www.youtube.com/watch?v=HwB1hGa09OM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

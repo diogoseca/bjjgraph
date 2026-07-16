@@ -147,6 +147,43 @@ description: "Master finishing the triangle from the attacking guard position in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Escape Position (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the triangle on the wrong side",
+      "description": "Triangle Escape Position (Bottom) film study: Finishing the triangle on the wrong side, taught by Lux.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L5MwbSqlUuA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L5MwbSqlUuA",
+      "url": "https://www.youtube.com/watch?v=L5MwbSqlUuA",
+      "creator": { "@type": "Person", "name": "Lux" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the triangle vs good posture",
+      "description": "Triangle Escape Position (Bottom) film study: Finishing the triangle vs good posture, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M3_VDLm6PoE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M3_VDLm6PoE",
+      "url": "https://www.youtube.com/watch?v=M3_VDLm6PoE",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT142S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,6 +195,34 @@ From this perspective the finisher's power flows entirely from angle and lock in
 Success from this seat means either a direct submission (triangle choke to game-over) or a high-percentage transition into armbar, omoplata, or back control that preserves the dominant attacking chain. The position demands sustained leg and grip endurance, calm recognition of the opponent's defensive reactions, and disciplined refusal to release control prematurely. The greatest risk is allowing the opponent to stack and clear the leg, which collapses the attack back to open or closed guard and hands the initiative to the passer - making angle maintenance and timely chaining the defining skills of the triangle finisher.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Escape Position (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L5MwbSqlUuA)
+
+<p class="clip-credit"><strong>Finishing the triangle on the wrong side</strong> — taught by Lux · 0:27 · <a href="https://www.youtube.com/watch?v=L5MwbSqlUuA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M3_VDLm6PoE)
+
+<p class="clip-credit"><strong>Finishing the triangle vs good posture</strong> — taught by Inverted Gear · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

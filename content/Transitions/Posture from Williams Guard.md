@@ -34,6 +34,54 @@ description: "Master posture recovery from Williams Guard in BJJ. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture from Williams Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering Williams guard with a cartwheel escape",
+      "description": "Posture from Williams Guard film study: Countering Williams guard with a cartwheel escape, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZEf9jXzCYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZEf9jXzCYA",
+      "url": "https://www.youtube.com/watch?v=NZEf9jXzCYA",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Williams Guard part 3 - armbar counter",
+      "description": "Posture from Williams Guard film study: Williams Guard part 3 - armbar counter, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M__MeC_XCIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M__MeC_XCIM",
+      "url": "https://www.youtube.com/watch?v=M__MeC_XCIM",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple (but risky) rubber guard escape",
+      "description": "Posture from Williams Guard film study: Simple (but risky) rubber guard escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success depends on recognizing that the shoulder lock and guard structure are me
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture from Williams Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZEf9jXzCYA)
+
+<p class="clip-credit"><strong>Countering Williams guard with a cartwheel escape</strong> — taught by Sam Wilkinson · 1:20 · <a href="https://www.youtube.com/watch?v=NZEf9jXzCYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M__MeC_XCIM)
+
+<p class="clip-credit"><strong>Williams Guard part 3 - armbar counter</strong> — taught by Sam Wilkinson · 1:06 · <a href="https://www.youtube.com/watch?v=M__MeC_XCIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Simple (but risky) rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

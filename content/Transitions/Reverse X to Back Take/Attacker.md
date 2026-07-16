@@ -168,6 +168,54 @@ description: "How to execute Reverse X to Back Take in BJJ. Attacking perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X to Back Take (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back take from X-guard",
+      "description": "Reverse X to Back Take (Attacker) film study: Back take from X-guard, taught by Gracie Barra Pymble.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ax4eFbP9oqc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ax4eFbP9oqc",
+      "url": "https://www.youtube.com/watch?v=Ax4eFbP9oqc",
+      "creator": { "@type": "Person", "name": "Gracie Barra Pymble" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-guard to berimbolo back take",
+      "description": "Reverse X to Back Take (Attacker) film study: X-guard to berimbolo back take, taught by Battle Gear BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R_4QLjiackA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R_4QLjiackA",
+      "url": "https://www.youtube.com/watch?v=R_4QLjiackA",
+      "creator": { "@type": "Person", "name": "Battle Gear BJJ" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi DLR underhook to X-guard back take",
+      "description": "Reverse X to Back Take (Attacker) film study: No-gi DLR underhook to X-guard back take, taught by Paragon Jiu-Jitsu Austin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2g2gppcyfJA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2g2gppcyfJA",
+      "url": "https://www.youtube.com/watch?v=2g2gppcyfJA",
+      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu Austin" },
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, the Reverse X to Back Take creates a powerful dilemma for the opp
 **From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X to Back Take (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ax4eFbP9oqc)
+
+<p class="clip-credit"><strong>Back take from X-guard</strong> — taught by Gracie Barra Pymble · 0:42 · <a href="https://www.youtube.com/watch?v=Ax4eFbP9oqc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R_4QLjiackA)
+
+<p class="clip-credit"><strong>X-guard to berimbolo back take</strong> — taught by Battle Gear BJJ · 0:17 · <a href="https://www.youtube.com/watch?v=R_4QLjiackA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2g2gppcyfJA)
+
+<p class="clip-credit"><strong>No-gi DLR underhook to X-guard back take</strong> — taught by Paragon Jiu-Jitsu Austin · 2:19 · <a href="https://www.youtube.com/watch?v=2g2gppcyfJA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -174,6 +174,43 @@ description: "Complete guide to executing the Stack Pass from Carni in BJJ. Aggr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Carni (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass breakdown",
+      "description": "Stack Pass from Carni (Attacker) film study: Stack pass breakdown, taught by Kenny Kim.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2KcAEYsaHAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2KcAEYsaHAg",
+      "url": "https://www.youtube.com/watch?v=2KcAEYsaHAg",
+      "creator": { "@type": "Person", "name": "Kenny Kim" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two options to counter the leg entry",
+      "description": "Stack Pass from Carni (Attacker) film study: Two options to counter the leg entry, taught by Ethan Crelinsten.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sbn5IxXXH3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sbn5IxXXH3w",
+      "url": "https://www.youtube.com/watch?v=sbn5IxXXH3w",
+      "creator": { "@type": "Person", "name": "Ethan Crelinsten" },
+      "duration": "PT297S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 **From Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Carni (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2KcAEYsaHAg)
+
+<p class="clip-credit"><strong>Stack pass breakdown</strong> — taught by Kenny Kim · 1:28 · <a href="https://www.youtube.com/watch?v=2KcAEYsaHAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sbn5IxXXH3w)
+
+<p class="clip-credit"><strong>Two options to counter the leg entry</strong> — taught by Ethan Crelinsten · 4:57 · <a href="https://www.youtube.com/watch?v=sbn5IxXXH3w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

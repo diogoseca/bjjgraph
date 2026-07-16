@@ -34,6 +34,43 @@ description: "Master the Explosive Bridge to Turtle escape from Mounted Crucifix
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Explosive Bridge to Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle no-grips escape rolling to guard",
+      "description": "Explosive Bridge to Turtle film study: Turtle no-grips escape rolling to guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
+      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle escape rolling through to reverse scarf hold",
+      "description": "Explosive Bridge to Turtle film study: Turtle escape rolling through to reverse scarf hold, taught by KoF Jiu Jutsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8JaZOxy_0ws/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8JaZOxy_0ws",
+      "url": "https://www.youtube.com/watch?v=8JaZOxy_0ws",
+      "creator": { "@type": "Person", "name": "KoF Jiu Jutsu" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique requires precise timing and total commitment - half-hearted attemp
 **Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Explosive Bridge to Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
+
+<p class="clip-credit"><strong>Turtle no-grips escape rolling to guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8JaZOxy_0ws)
+
+<p class="clip-credit"><strong>Turtle escape rolling through to reverse scarf hold</strong> — taught by KoF Jiu Jutsu · 1:28 · <a href="https://www.youtube.com/watch?v=8JaZOxy_0ws" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

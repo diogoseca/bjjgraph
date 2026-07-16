@@ -144,6 +144,43 @@ description: "Defend the Ezekiel Choke from mount bottom. Recognize sleeve grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke from Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defense to the ezekiel choke",
+      "description": "Ezekiel Choke from Mount (Defender) film study: Defense to the ezekiel choke, taught by Gracie Ohio Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AaZPuF7ppY8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AaZPuF7ppY8",
+      "url": "https://www.youtube.com/watch?v=AaZPuF7ppY8",
+      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu" },
+      "duration": "PT176S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Five ways out of the mount",
+      "description": "Ezekiel Choke from Mount (Defender) film study: Five ways out of the mount, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pw_9ZZLkkNI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pw_9ZZLkkNI",
+      "url": "https://www.youtube.com/watch?v=pw_9ZZLkkNI",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT505S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the Ezekiel Choke from mount bottom compounds the challenge of an alre
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke from Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AaZPuF7ppY8)
+
+<p class="clip-credit"><strong>Defense to the ezekiel choke</strong> — taught by Gracie Ohio Jiu-Jitsu · 2:56 · <a href="https://www.youtube.com/watch?v=AaZPuF7ppY8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pw_9ZZLkkNI)
+
+<p class="clip-credit"><strong>Five ways out of the mount</strong> — taught by Knight Jiu-Jitsu · 8:25 · <a href="https://www.youtube.com/watch?v=pw_9ZZLkkNI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

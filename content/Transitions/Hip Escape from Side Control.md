@@ -34,6 +34,54 @@ description: "Master the hip escape from consolidated side control. Learn shrimp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse hip escape from side control",
+      "description": "Hip Escape from Side Control film study: Reverse hip escape from side control, taught by Fox Den coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4L25UQntnPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4L25UQntnPg",
+      "url": "https://www.youtube.com/watch?v=4L25UQntnPg",
+      "creator": { "@type": "Person", "name": "Fox Den coach" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hip escape to guard recovery",
+      "description": "Hip Escape from Side Control film study: Hip escape to guard recovery, taught by Science of JiuJitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/br0-osUjx7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/br0-osUjx7c",
+      "url": "https://www.youtube.com/watch?v=br0-osUjx7c",
+      "creator": { "@type": "Person", "name": "Science of JiuJitsu coach" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard recovery from bottom side control",
+      "description": "Hip Escape from Side Control film study: Guard recovery from bottom side control, taught by Academy Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QH9-1I5XqO4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QH9-1I5XqO4",
+      "url": "https://www.youtube.com/watch?v=QH9-1I5XqO4",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu coach" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The hip escape from consolidated side control serves as the primary escape pathw
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4L25UQntnPg)
+
+<p class="clip-credit"><strong>Reverse hip escape from side control</strong> — taught by Fox Den coach · 0:25 · <a href="https://www.youtube.com/watch?v=4L25UQntnPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=br0-osUjx7c)
+
+<p class="clip-credit"><strong>Hip escape to guard recovery</strong> — taught by Science of JiuJitsu coach · 0:42 · <a href="https://www.youtube.com/watch?v=br0-osUjx7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QH9-1I5XqO4)
+
+<p class="clip-credit"><strong>Guard recovery from bottom side control</strong> — taught by Academy Jiu Jitsu coach · 1:45 · <a href="https://www.youtube.com/watch?v=QH9-1I5XqO4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

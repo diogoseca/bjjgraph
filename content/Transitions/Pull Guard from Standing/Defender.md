@@ -148,6 +148,43 @@ description: "Defend the guard pull from standing in BJJ. Recognition cues, spra
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pull Guard from Standing (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Intercepting the guard pull",
+      "description": "Pull Guard from Standing (Defender) film study: Intercepting the guard pull, taught by Riccardo Ammendolia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oaOB2XovGYE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oaOB2XovGYE",
+      "url": "https://www.youtube.com/watch?v=oaOB2XovGYE",
+      "creator": { "@type": "Person", "name": "Riccardo Ammendolia" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard pull counter for competition",
+      "description": "Pull Guard from Standing (Defender) film study: Guard pull counter for competition, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cnht4EL_Ato/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cnht4EL_Ato",
+      "url": "https://www.youtube.com/watch?v=Cnht4EL_Ato",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT162S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against a guard pull from standing, your primary objective is to
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pull Guard from Standing (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oaOB2XovGYE)
+
+<p class="clip-credit"><strong>Intercepting the guard pull</strong> — taught by Riccardo Ammendolia · 0:49 · <a href="https://www.youtube.com/watch?v=oaOB2XovGYE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cnht4EL_Ato)
+
+<p class="clip-credit"><strong>Guard pull counter for competition</strong> — taught by Jean Jacques Machado · 2:42 · <a href="https://www.youtube.com/watch?v=Cnht4EL_Ato" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

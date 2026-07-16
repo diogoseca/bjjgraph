@@ -35,6 +35,54 @@ description: "Master back control in BJJ. Complete guide to hooks, harness grip,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Attacks System Overview",
+      "description": "Back Control film study: Back Attacks System Overview, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ovyq_pmaB88/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ovyq_pmaB88",
+      "url": "https://www.youtube.com/watch?v=ovyq_pmaB88",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basics of Back Control \u0026 Rear Strangle",
+      "description": "Back Control film study: Basics of Back Control \u0026 Rear Strangle, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ypTfNWlR5ls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ypTfNWlR5ls",
+      "url": "https://www.youtube.com/watch?v=ypTfNWlR5ls",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT168S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Entries Into Rear Triangle Back Position",
+      "description": "Back Control film study: Entries Into Rear Triangle Back Position, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
+      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT252S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ The position can be established from numerous positions including turtle, mount,
 Back control variations include the standard hooks configuration, body triangle for enhanced hip control and pressure, seatbelt-specific grips for systematic upper body management, and standing back control for takedown sequences. Each variation offers different strategic trade-offs between control stability, submission accessibility, and energy expenditure. The position integrates tightly with the broader submission system through rear naked choke as the primary finishing threat, bow and arrow choke as the premier gi-based attack, armbar transitions when opponents over-defend the neck, and crucifix entries when both arms can be trapped. This interconnected attack web forces opponents into defensive dilemmas where protecting against one threat exposes vulnerability to another.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ovyq_pmaB88)
+
+<p class="clip-credit"><strong>Back Attacks System Overview</strong> — taught by John Danaher · 0:56 · <a href="https://www.youtube.com/watch?v=ovyq_pmaB88" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ypTfNWlR5ls)
+
+<p class="clip-credit"><strong>Basics of Back Control &amp; Rear Strangle</strong> — taught by Robyn Sheehan · 2:48 · <a href="https://www.youtube.com/watch?v=ypTfNWlR5ls" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMabjvtaLk)
+
+<p class="clip-credit"><strong>Entries Into Rear Triangle Back Position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

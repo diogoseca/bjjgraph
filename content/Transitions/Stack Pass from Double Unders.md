@@ -34,6 +34,43 @@ description: "Master the Stack Pass from Double Unders in BJJ. Learn to stack op
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Double Unders \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double unders stack pass",
+      "description": "Stack Pass from Double Unders film study: Double unders stack pass, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
+      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Over under to double under pass transition",
+      "description": "Stack Pass from Double Unders film study: Over under to double under pass transition, taught by Paragon Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C1owQwRAOkw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C1owQwRAOkw",
+      "url": "https://www.youtube.com/watch?v=C1owQwRAOkw",
+      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique fits within the broader pressure passing system as a direct finis
 **Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Double Unders in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4PxPPv98k4)
+
+<p class="clip-credit"><strong>Double unders stack pass</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C1owQwRAOkw)
+
+<p class="clip-credit"><strong>Over under to double under pass transition</strong> — taught by Paragon Jiu-Jitsu · 2:16 · <a href="https://www.youtube.com/watch?v=C1owQwRAOkw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

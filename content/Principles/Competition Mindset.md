@@ -164,6 +164,54 @@ description: "Master psychological preparation and mental skills for peak compet
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Competition Mindset \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overcoming fear of competition, the plank story",
+      "description": "Competition Mindset film study: Overcoming fear of competition, the plank story, taught by MartialMindset.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/itkTbAJhMY4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/itkTbAJhMY4",
+      "url": "https://www.youtube.com/watch?v=itkTbAJhMY4",
+      "creator": { "@type": "Person", "name": "MartialMindset" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mental preparation for matches and tournaments",
+      "description": "Competition Mindset film study: Mental preparation for matches and tournaments, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1MmBdy70dN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1MmBdy70dN0",
+      "url": "https://www.youtube.com/watch?v=1MmBdy70dN0",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT700S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The psychology of competing in jiu-jitsu",
+      "description": "Competition Mindset film study: The psychology of competing in jiu-jitsu, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/93rttFeRh9s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/93rttFeRh9s",
+      "url": "https://www.youtube.com/watch?v=93rttFeRh9s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT766S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Competition Mindset?
@@ -173,6 +221,42 @@ description: "Master psychological preparation and mental skills for peak compet
 Of the three pillars of competitive readiness—technical, physical, and mental—the psychological dimension is the most frequently neglected, yet it is often the deciding factor between athletes whose skills are otherwise evenly matched. Unlike technical knowledge or physical preparation, competition mindset is the mental framework that determines how effectively athletes access their training, make tactical decisions under stress, regulate arousal levels appropriately, and respond to adversity during competition. This concept encompasses the psychological preparation, mental skills training, and strategic approach to cultivating the cognitive and emotional state that maximizes competitive performance. Competition mindset serves as both an enabling factor that allows technical and physical preparation to manifest fully under pressure, and a competitive advantage that compounds as opponents succumb to psychological pressures and performance anxiety. The ability to maintain optimal mental state throughout competitions often determines outcomes when technical and physical preparation levels are similar, making psychological preparation one of the most essential yet frequently neglected elements of competition readiness.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Competition Mindset in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=itkTbAJhMY4)
+
+<p class="clip-credit"><strong>Overcoming fear of competition, the plank story</strong> — taught by MartialMindset · 1:28 · <a href="https://www.youtube.com/watch?v=itkTbAJhMY4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1MmBdy70dN0)
+
+<p class="clip-credit"><strong>Mental preparation for matches and tournaments</strong> — taught by Gordon Ryan · 11:40 · <a href="https://www.youtube.com/watch?v=1MmBdy70dN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=93rttFeRh9s)
+
+<p class="clip-credit"><strong>The psychology of competing in jiu-jitsu</strong> — taught by Craig Jones · 12:46 · <a href="https://www.youtube.com/watch?v=93rttFeRh9s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

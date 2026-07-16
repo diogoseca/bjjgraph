@@ -140,6 +140,43 @@ description: "Defend against Escape from Scarf Hold Position in BJJ. Learn to ma
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Scarf Hold Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm attack options from scarf hold",
+      "description": "Escape Scarf Hold Position (Defender) film study: Arm attack options from scarf hold, taught by Alexey Olynick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/17m6bnarNdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/17m6bnarNdE",
+      "url": "https://www.youtube.com/watch?v=17m6bnarNdE",
+      "creator": { "@type": "Person", "name": "Alexey Olynick" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame: pinning the opponent",
+      "description": "Escape Scarf Hold Position (Defender) film study: Kesa gatame: pinning the opponent, taught by Brent Yamamoto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g2DJyaBI2pk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g2DJyaBI2pk",
+      "url": "https://www.youtube.com/watch?v=g2DJyaBI2pk",
+      "creator": { "@type": "Person", "name": "Brent Yamamoto" },
+      "duration": "PT96S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender maintaining scarf hold against escape attempts, your primary obj
 **Opponent's Starting Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Scarf Hold Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=17m6bnarNdE)
+
+<p class="clip-credit"><strong>Arm attack options from scarf hold</strong> — taught by Alexey Olynick · 1:29 · <a href="https://www.youtube.com/watch?v=17m6bnarNdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g2DJyaBI2pk)
+
+<p class="clip-credit"><strong>Kesa gatame: pinning the opponent</strong> — taught by Brent Yamamoto · 1:36 · <a href="https://www.youtube.com/watch?v=g2DJyaBI2pk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

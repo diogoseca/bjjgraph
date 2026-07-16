@@ -153,6 +153,43 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Kesa-Gatame (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Kesa Leg Submission",
+      "description": "Reverse Kesa-Gatame (Top) film study: Reverse Kesa Leg Submission, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n-kEfODDUPM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n-kEfODDUPM",
+      "url": "https://www.youtube.com/watch?v=n-kEfODDUPM",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT130S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Setup from Reverse Kesa Gatame",
+      "description": "Reverse Kesa-Gatame (Top) film study: Kimura Setup from Reverse Kesa Gatame, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RYo2TWEnOiY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RYo2TWEnOiY",
+      "url": "https://www.youtube.com/watch?v=RYo2TWEnOiY",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT234S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
 Reverse Kesa-Gatame Top is a dominant pinning position where the top practitioner faces away from the opponent's head while maintaining chest-to-chest pressure and controlling the opponent's far arm. This position is particularly effective for shutting down common side control escapes while providing unique submission opportunities and transitions. The reverse orientation creates different mechanical advantages compared to traditional scarf hold positions, specifically eliminating the opponent's ability to frame against your face and neck. From this position, the top player can apply crushing chest pressure, isolate the far arm for submissions, and transition to mount, north-south, or back control. The position is especially valuable against defensive opponents who excel at creating frames from bottom side control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Kesa-Gatame (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n-kEfODDUPM)
+
+<p class="clip-credit"><strong>Reverse Kesa Leg Submission</strong> — taught by dogtownman · 2:10 · <a href="https://www.youtube.com/watch?v=n-kEfODDUPM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RYo2TWEnOiY)
+
+<p class="clip-credit"><strong>Kimura Setup from Reverse Kesa Gatame</strong> — taught by BJJ4Breakfast · 3:54 · <a href="https://www.youtube.com/watch?v=RYo2TWEnOiY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

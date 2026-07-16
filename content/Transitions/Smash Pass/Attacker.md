@@ -168,6 +168,54 @@ description: "How to execute the Smash Pass in BJJ. Attacking perspective with s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the flat half guard",
+      "description": "Smash Pass (Attacker) film study: Passing the flat half guard, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
+      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic no-gi half guard smash pass",
+      "description": "Smash Pass (Attacker) film study: Basic no-gi half guard smash pass, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_XjuF0no1Uw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_XjuF0no1Uw",
+      "url": "https://www.youtube.com/watch?v=_XjuF0no1Uw",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half guard pass to full mount",
+      "description": "Smash Pass (Attacker) film study: Half guard pass to full mount, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YcNppdGtt6c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YcNppdGtt6c",
+      "url": "https://www.youtube.com/watch?v=YcNppdGtt6c",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The Smash Pass is a fundamental pressure-based guard passing technique used to o
 **From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+
+<p class="clip-credit"><strong>Passing the flat half guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_XjuF0no1Uw)
+
+<p class="clip-credit"><strong>Basic no-gi half guard smash pass</strong> — taught by Danny Mitchell · 1:29 · <a href="https://www.youtube.com/watch?v=_XjuF0no1Uw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YcNppdGtt6c)
+
+<p class="clip-credit"><strong>Half guard pass to full mount</strong> — taught by Carlos Machado · 1:32 · <a href="https://www.youtube.com/watch?v=YcNppdGtt6c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

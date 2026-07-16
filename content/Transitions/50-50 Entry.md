@@ -34,6 +34,54 @@ description: "Master the 50-50 Entry from inverted guards. Step-by-step leg thre
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse De La Riva to 50/50 with heel hook",
+      "description": "50-50 Entry film study: Reverse De La Riva to 50/50 with heel hook, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xLrbkcvIdy0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xLrbkcvIdy0",
+      "url": "https://www.youtube.com/watch?v=xLrbkcvIdy0",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 entry from single leg X",
+      "description": "50-50 Entry film study: 50/50 entry from single leg X, taught by Grappling How to.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p0e38zh3Sg4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p0e38zh3Sg4",
+      "url": "https://www.youtube.com/watch?v=p0e38zh3Sg4",
+      "creator": { "@type": "Person", "name": "Grappling How to" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Getting to backside 50/50",
+      "description": "50-50 Entry film study: Getting to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a systematic perspective, the 50-50 Entry functions as a gateway to the ent
 **Success Rate**: 33%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xLrbkcvIdy0)
+
+<p class="clip-credit"><strong>Reverse De La Riva to 50/50 with heel hook</strong> — taught by Revolution BJJ · 1:17 · <a href="https://www.youtube.com/watch?v=xLrbkcvIdy0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p0e38zh3Sg4)
+
+<p class="clip-credit"><strong>50/50 entry from single leg X</strong> — taught by Grappling How to · 1:36 · <a href="https://www.youtube.com/watch?v=p0e38zh3Sg4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to backside 50/50</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

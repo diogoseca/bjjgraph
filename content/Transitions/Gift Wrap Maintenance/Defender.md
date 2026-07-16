@@ -148,6 +148,54 @@ description: "Defend against Gift Wrap Maintenance in BJJ. Learn to recognize co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Maintenance (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple gift wrap escape",
+      "description": "Gift Wrap Maintenance (Defender) film study: Simple gift wrap escape, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j5y349B6Go8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j5y349B6Go8",
+      "url": "https://www.youtube.com/watch?v=j5y349B6Go8",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Super Simple Way to Avoid the Gift Wrap",
+      "description": "Gift Wrap Maintenance (Defender) film study: Super Simple Way to Avoid the Gift Wrap, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q20Bxge55hk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q20Bxge55hk",
+      "url": "https://www.youtube.com/watch?v=q20Bxge55hk",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT719S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back and Choke Escape",
+      "description": "Gift Wrap Maintenance (Defender) film study: Back and Choke Escape, taught by Infinity Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hBdGx59z1TI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hBdGx59z1TI",
+      "url": "https://www.youtube.com/watch?v=hBdGx59z1TI",
+      "creator": { "@type": "Person", "name": "Infinity Martial Arts" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against Gift Wrap Maintenance requires patience, tactical awareness, a
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Maintenance (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j5y349B6Go8)
+
+<p class="clip-credit"><strong>Simple gift wrap escape</strong> — taught by Chewjitsu · 2:40 · <a href="https://www.youtube.com/watch?v=j5y349B6Go8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q20Bxge55hk)
+
+<p class="clip-credit"><strong>Super Simple Way to Avoid the Gift Wrap</strong> — taught by Coach Brian · 11:59 · <a href="https://www.youtube.com/watch?v=q20Bxge55hk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hBdGx59z1TI)
+
+<p class="clip-credit"><strong>Back and Choke Escape</strong> — taught by Infinity Martial Arts · 1:42 · <a href="https://www.youtube.com/watch?v=hBdGx59z1TI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

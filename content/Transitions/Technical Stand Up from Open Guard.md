@@ -34,6 +34,43 @@ description: "Master the Technical Stand Up from Open Guard in BJJ. Complete gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Stand Up from Open Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-guard sweep to technical stand up",
+      "description": "Technical Stand Up from Open Guard film study: X-guard sweep to technical stand up, taught by The Grapple Lab.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ACLeOKAuRug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ACLeOKAuRug",
+      "url": "https://www.youtube.com/watch?v=ACLeOKAuRug",
+      "creator": { "@type": "Person", "name": "The Grapple Lab" },
+      "duration": "PT271S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-guard stand up sweep",
+      "description": "Technical Stand Up from Open Guard film study: X-guard stand up sweep, taught by Bermuda Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wgb4IEjay68/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wgb4IEjay68",
+      "url": "https://www.youtube.com/watch?v=wgb4IEjay68",
+      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
+      "duration": "PT184S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique demands precise timing and awareness of your opponent's distance a
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Stand Up from Open Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ACLeOKAuRug)
+
+<p class="clip-credit"><strong>X-guard sweep to technical stand up</strong> — taught by The Grapple Lab · 4:31 · <a href="https://www.youtube.com/watch?v=ACLeOKAuRug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wgb4IEjay68)
+
+<p class="clip-credit"><strong>X-guard stand up sweep</strong> — taught by Bermuda Martial Arts · 3:04 · <a href="https://www.youtube.com/watch?v=wgb4IEjay68" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

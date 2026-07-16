@@ -148,6 +148,43 @@ description: "Master defending against the hip escape from back control in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping back control as they escape",
+      "description": "Hip Escape from Back Control (Defender) film study: Keeping back control as they escape, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Of8NGELqhfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Of8NGELqhfY",
+      "url": "https://www.youtube.com/watch?v=Of8NGELqhfY",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Using the body triangle to hold the back",
+      "description": "Hip Escape from Back Control (Defender) film study: Using the body triangle to hold the back, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8JwxpgWGsFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8JwxpgWGsFU",
+      "url": "https://www.youtube.com/watch?v=8JwxpgWGsFU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT294S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the back controller defending against the hip escape, your objective is to ma
 **Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Of8NGELqhfY)
+
+<p class="clip-credit"><strong>Keeping back control as they escape</strong> — taught by John Connors · 1:33 · <a href="https://www.youtube.com/watch?v=Of8NGELqhfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8JwxpgWGsFU)
+
+<p class="clip-credit"><strong>Using the body triangle to hold the back</strong> — taught by Gordon Ryan · 4:54 · <a href="https://www.youtube.com/watch?v=8JwxpgWGsFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master inverted lasso guard in BJJ. Strategic guide covering setup
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Lasso Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso Guard Variations Overview",
+      "description": "Inverted Lasso Guard film study: Lasso Guard Variations Overview, taught by Felipe Costa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n4ddjzGemrw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n4ddjzGemrw",
+      "url": "https://www.youtube.com/watch?v=n4ddjzGemrw",
+      "creator": { "@type": "Person", "name": "Felipe Costa" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso Guard vs Top Pressure",
+      "description": "Inverted Lasso Guard film study: Lasso Guard vs Top Pressure, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ErsvmCAGxnA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ErsvmCAGxnA",
+      "url": "https://www.youtube.com/watch?v=ErsvmCAGxnA",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Entering Lasso Guard from Open Guard",
+      "description": "Inverted Lasso Guard film study: Entering Lasso Guard from Open Guard, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
+      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ The position's effectiveness stems from its ability to generate momentum and ang
 Inverted lasso guard fits into broader guard systems as a transitional position rather than a static holding pattern. It connects naturally to spider guard, traditional lasso guard, and de la riva guard, often appearing mid-sequence when opponents attempt to pass standard open guard positions. Modern competitors use it as part of integrated systems where they flow between upright and inverted positions to maintain offensive pressure. The position exemplifies the evolution of sport jiu-jitsu toward more dynamic, movement-based guard systems that prioritize constant attacking over positional stalemates.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Lasso Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n4ddjzGemrw)
+
+<p class="clip-credit"><strong>Lasso Guard Variations Overview</strong> — taught by Felipe Costa · 0:28 · <a href="https://www.youtube.com/watch?v=n4ddjzGemrw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ErsvmCAGxnA)
+
+<p class="clip-credit"><strong>Lasso Guard vs Top Pressure</strong> — taught by Mikey Musumeci · 1:18 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
+
+<p class="clip-credit"><strong>Entering Lasso Guard from Open Guard</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

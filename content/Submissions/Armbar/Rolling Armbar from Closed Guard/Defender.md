@@ -150,6 +150,43 @@ description: "How to defend against Rolling Armbar in BJJ. Recognition, escape p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Armbar from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "My favorite armbar escape",
+      "description": "Rolling Armbar from Closed Guard (Defender) film study: My favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar defense escape",
+      "description": "Rolling Armbar from Closed Guard (Defender) film study: Armbar defense escape, taught by Wesley Chapel MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yWmSp1_dOfI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yWmSp1_dOfI",
+      "url": "https://www.youtube.com/watch?v=yWmSp1_dOfI",
+      "creator": { "@type": "Person", "name": "Wesley Chapel MMA" },
+      "duration": "PT172S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ The defender must understand that the rolling armbar attack typically emerges fr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Armbar from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>My favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yWmSp1_dOfI)
+
+<p class="clip-credit"><strong>Armbar defense escape</strong> — taught by Wesley Chapel MMA · 2:52 · <a href="https://www.youtube.com/watch?v=yWmSp1_dOfI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

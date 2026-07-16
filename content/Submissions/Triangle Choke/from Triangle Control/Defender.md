@@ -144,6 +144,54 @@ description: "Essential guide to defending and escaping the triangle choke from 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Triangle Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape a Triangle Choke",
+      "description": "Triangle Choke from Triangle Control (Defender) film study: How to Escape a Triangle Choke, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle Defense from Closed Guard",
+      "description": "Triangle Choke from Triangle Control (Defender) film study: Triangle Defense from Closed Guard, taught by Andy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YG1S8nMIdjY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YG1S8nMIdjY",
+      "url": "https://www.youtube.com/watch?v=YG1S8nMIdjY",
+      "creator": { "@type": "Person", "name": "Andy" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle Defense",
+      "description": "Triangle Choke from Triangle Control (Defender) film study: Triangle Defense, taught by Renzo Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iFoVuZVus44/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iFoVuZVus44",
+      "url": "https://www.youtube.com/watch?v=iFoVuZVus44",
+      "creator": { "@type": "Person", "name": "Renzo Gracie" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -156,6 +204,42 @@ Systematic defense requires addressing multiple threats simultaneously rather th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Triangle Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to Escape a Triangle Choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YG1S8nMIdjY)
+
+<p class="clip-credit"><strong>Triangle Defense from Closed Guard</strong> — taught by Andy · 1:01 · <a href="https://www.youtube.com/watch?v=YG1S8nMIdjY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iFoVuZVus44)
+
+<p class="clip-credit"><strong>Triangle Defense</strong> — taught by Renzo Gracie · 1:23 · <a href="https://www.youtube.com/watch?v=iFoVuZVus44" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

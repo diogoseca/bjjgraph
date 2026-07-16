@@ -34,6 +34,65 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia - North South Choke",
+      "description": "North-South Choke film study: Marcelo Garcia - North South Choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
+      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North South Choke as a Pinning Tool",
+      "description": "North-South Choke film study: North South Choke as a Pinning Tool, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SPXanCnoBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SPXanCnoBYA",
+      "url": "https://www.youtube.com/watch?v=SPXanCnoBYA",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified Scarf Hold North/South choke",
+      "description": "North-South Choke film study: Modified Scarf Hold North/South choke, taught by Todd Blatchley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LurZB_PfUmA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LurZB_PfUmA",
+      "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
+      "creator": { "@type": "Person", "name": "Todd Blatchley" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Arm attack options from Scarf Hold",
+      "description": "North-South Choke film study: Arm attack options from Scarf Hold, taught by Alexey Olynick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/17m6bnarNdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/17m6bnarNdE",
+      "url": "https://www.youtube.com/watch?v=17m6bnarNdE",
+      "creator": { "@type": "Person", "name": "Alexey Olynick" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -83,6 +142,50 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 Unlike traditional arm chokes that rely on conspicuous limb positioning, the North-South Choke leverages the unique geometry of top control to create an inescapable vise around the neck while looking like nothing more than a heavy pin. Its effectiveness stems from disguise—the opponent often doesn't realize they're being choked until the submission is nearly complete, as the pressure builds gradually through positional consolidation rather than any obvious arm placement. This deceptive quality makes it particularly dangerous in both gi and no-gi contexts, though gi variations offer additional gripping options for enhanced control. As a family of finishes, it can be entered from North-South itself, Kesa Gatame, Side Control, and other top pins, with each entry sharing the same core mechanic of compressing both carotid arteries through the attacker's bicep, shoulder, and body weight. The North-South Choke represents a fundamental example of using superior position and body mechanics to create submissions without complex limb entanglements—accessible to practitioners at all levels while remaining devastatingly effective at the highest levels of competition.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+
+<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SPXanCnoBYA)
+
+<p class="clip-credit"><strong>North South Choke as a Pinning Tool</strong> — taught by Craig Jones · 2:15 · <a href="https://www.youtube.com/watch?v=SPXanCnoBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LurZB_PfUmA)
+
+<p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> — taught by Todd Blatchley · 2:01 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=17m6bnarNdE)
+
+<p class="clip-credit"><strong>Arm attack options from Scarf Hold</strong> — taught by Alexey Olynick · 1:29 · <a href="https://www.youtube.com/watch?v=17m6bnarNdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

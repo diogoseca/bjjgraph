@@ -34,6 +34,43 @@ description: "Master the Crossface from Dogfight in BJJ. Drive shoulder pressure
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crossface from Dogfight \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard dogfight scoop control",
+      "description": "Crossface from Dogfight film study: Quarter guard dogfight scoop control, taught by Christopher Hendrick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jqz8_dbsfM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jqz8_dbsfM",
+      "url": "https://www.youtube.com/watch?v=3Jqz8_dbsfM",
+      "creator": { "@type": "Person", "name": "Christopher Hendrick" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Setting a Crossface: Crucial Skill of Half Guard Passing",
+      "description": "Crossface from Dogfight film study: Setting a Crossface: Crucial Skill of Half Guard Passing, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eA9MZmfVrmA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eA9MZmfVrmA",
+      "url": "https://www.youtube.com/watch?v=eA9MZmfVrmA",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT435S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique is particularly effective because it rewards proper angle, timing,
 **Success Rate**: 41%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crossface from Dogfight in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jqz8_dbsfM)
+
+<p class="clip-credit"><strong>Quarter guard dogfight scoop control</strong> — taught by Christopher Hendrick · 0:45 · <a href="https://www.youtube.com/watch?v=3Jqz8_dbsfM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eA9MZmfVrmA)
+
+<p class="clip-credit"><strong>Setting a Crossface: Crucial Skill of Half Guard Passing</strong> — taught by John Danaher · 7:15 · <a href="https://www.youtube.com/watch?v=eA9MZmfVrmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

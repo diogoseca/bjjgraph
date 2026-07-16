@@ -34,6 +34,54 @@ description: "Master Modified Scarf Hold in BJJ. Complete guide covering control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure Kesa Gatame: Study It",
+      "description": "Modified Scarf Hold film study: Kuzure Kesa Gatame: Study It, taught by Judo Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aTsvuZ1vM48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aTsvuZ1vM48",
+      "url": "https://www.youtube.com/watch?v=aTsvuZ1vM48",
+      "creator": { "@type": "Person", "name": "Judo Life" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kuzure kesa gatame, the modified scarf hold explained",
+      "description": "Modified Scarf Hold film study: Kuzure kesa gatame, the modified scarf hold explained, taught by The Judo Way of Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H00LNHGS9zY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H00LNHGS9zY",
+      "url": "https://www.youtube.com/watch?v=H00LNHGS9zY",
+      "creator": { "@type": "Person", "name": "The Judo Way of Life" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Broken scarf hold fundamentals and control",
+      "description": "Modified Scarf Hold film study: Broken scarf hold fundamentals and control, taught by Still Rolling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yglBukra4Bs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yglBukra4Bs",
+      "url": "https://www.youtube.com/watch?v=yglBukra4Bs",
+      "creator": { "@type": "Person", "name": "Still Rolling" },
+      "duration": "PT295S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The learning curve for Modified Scarf Hold is moderate. Beginners can achieve ba
 Competition applicability is high, particularly in gi competitions where the position scores as side control (3 points in IBJJF) and offers excellent opportunities for submission finishes. The position is equally effective in MMA and self-defense contexts due to its superior control and ground-and-pound potential.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aTsvuZ1vM48)
+
+<p class="clip-credit"><strong>Kuzure Kesa Gatame: Study It</strong> — taught by Judo Life · 0:33 · <a href="https://www.youtube.com/watch?v=aTsvuZ1vM48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H00LNHGS9zY)
+
+<p class="clip-credit"><strong>Kuzure kesa gatame, the modified scarf hold explained</strong> — taught by The Judo Way of Life · 0:51 · <a href="https://www.youtube.com/watch?v=H00LNHGS9zY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yglBukra4Bs)
+
+<p class="clip-credit"><strong>Broken scarf hold fundamentals and control</strong> — taught by Still Rolling · 4:55 · <a href="https://www.youtube.com/watch?v=yglBukra4Bs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

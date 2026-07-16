@@ -34,6 +34,43 @@ description: "Master Double Underhook Pass from Crackhead Control. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Underhook Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi double underhook guard pass",
+      "description": "Double Underhook Pass film study: No-gi double underhook guard pass, taught by Garden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
+      "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
+      "creator": { "@type": "Person", "name": "Garden State BJJ" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double under pass to crucifix",
+      "description": "Double Underhook Pass film study: Double under pass to crucifix, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BuDGLXL8sGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BuDGLXL8sGs",
+      "url": "https://www.youtube.com/watch?v=BuDGLXL8sGs",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT198S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique represents an evolution in turtle passing methodology, moving away
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Underhook Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBZrTpuXV50)
+
+<p class="clip-credit"><strong>No-gi double underhook guard pass</strong> — taught by Garden State BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BuDGLXL8sGs)
+
+<p class="clip-credit"><strong>Double under pass to crucifix</strong> — taught by Marcelo Garcia · 3:18 · <a href="https://www.youtube.com/watch?v=BuDGLXL8sGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

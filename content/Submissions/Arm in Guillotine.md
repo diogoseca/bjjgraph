@@ -34,6 +34,65 @@ description: "Master Arm in Guillotine in BJJ. High-percentage front headlock ch
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm in Guillotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Marcelotine Arm-In Guillotine",
+      "description": "Arm in Guillotine film study: The Marcelotine Arm-In Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
+      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm-in Guillotine (Lapel-assisted)",
+      "description": "Arm in Guillotine film study: Arm-in Guillotine (Lapel-assisted), taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8AGCNn4ElSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8AGCNn4ElSA",
+      "url": "https://www.youtube.com/watch?v=8AGCNn4ElSA",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Marcelo Garcia Marcelotine Guillotine",
+      "description": "Arm in Guillotine film study: Marcelo Garcia Marcelotine Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dg1dvtWkXhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dg1dvtWkXhE",
+      "url": "https://www.youtube.com/watch?v=Dg1dvtWkXhE",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Double Elbow to High Elbow Guillotine",
+      "description": "Arm in Guillotine film study: Double Elbow to High Elbow Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
+      "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT171S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +139,50 @@ description: "Master Arm in Guillotine in BJJ. High-percentage front headlock ch
 The Arm in Guillotine represents a powerful variation of the standard guillotine choke where one of the opponent's arms becomes trapped inside the choking mechanism. This configuration significantly increases the effectiveness of the submission by preventing defensive hand fighting and creating additional pressure on the carotid arteries. Unlike the standard guillotine where both arms remain outside, the arm-in variation capitalizes on the opponent's attempted defensive frames or underhooks, turning their defensive structure into a liability. This submission is particularly effective in scrambles, takedown situations, and transitional moments where the opponent commits an arm to establish position. The arm-in configuration creates a tighter choking circle and eliminates several escape pathways available in the traditional guillotine. While slightly more difficult to finish than a clean high-elbow guillotine, the arm-in variation offers superior control and maintains effectiveness even when jumping guard or pulling to closed guard.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm in Guillotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+
+<p class="clip-credit"><strong>The Marcelotine Arm-In Guillotine</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=8AGCNn4ElSA)
+
+<p class="clip-credit"><strong>Arm-in Guillotine (Lapel-assisted)</strong> — taught by Johnny Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=8AGCNn4ElSA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dg1dvtWkXhE)
+
+<p class="clip-credit"><strong>Marcelo Garcia Marcelotine Guillotine</strong> — taught by Marcelo Garcia · 1:50 · <a href="https://www.youtube.com/watch?v=Dg1dvtWkXhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IvSVZuezQGo)
+
+<p class="clip-credit"><strong>Double Elbow to High Elbow Guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

@@ -150,6 +150,43 @@ description: "How to defend against Kimura from Turtle in BJJ. Recognition, esca
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Up from Turtle",
+      "description": "Kimura from Turtle (Defender) film study: Standing Up from Turtle, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle Counters and Escapes",
+      "description": "Kimura from Turtle (Defender) film study: Turtle Counters and Escapes, taught by BJJ After Forty.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g6yf2oyTix4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g6yf2oyTix4",
+      "url": "https://www.youtube.com/watch?v=g6yf2oyTix4",
+      "creator": { "@type": "Person", "name": "BJJ After Forty" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Kimura from turtle requires immediate recognition and decisive act
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing Up from Turtle</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g6yf2oyTix4)
+
+<p class="clip-credit"><strong>Turtle Counters and Escapes</strong> — taught by BJJ After Forty · 1:02 · <a href="https://www.youtube.com/watch?v=g6yf2oyTix4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

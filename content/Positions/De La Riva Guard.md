@@ -35,6 +35,54 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back take from De La Riva",
+      "description": "De La Riva Guard film study: Back take from De La Riva, taught by Elite MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_V15lSbYA8k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_V15lSbYA8k",
+      "url": "https://www.youtube.com/watch?v=_V15lSbYA8k",
+      "creator": { "@type": "Person", "name": "Elite MMA" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "DLR mantis back take to bow and arrow",
+      "description": "De La Riva Guard film study: DLR mantis back take to bow and arrow, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sktKJVpry0k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sktKJVpry0k",
+      "url": "https://www.youtube.com/watch?v=sktKJVpry0k",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Long De La Riva to back control",
+      "description": "De La Riva Guard film study: Long De La Riva to back control, taught by Jimmy Quinlan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/48WwhEdE0NY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/48WwhEdE0NY",
+      "url": "https://www.youtube.com/watch?v=48WwhEdE0NY",
+      "creator": { "@type": "Person", "name": "Jimmy Quinlan" },
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 The strategic genius of De La Riva Guard lies in its dilemma-based attack structure. Every defensive reaction by the top player opens a different offensive pathway for the guard player. Driving forward exposes the passer to berimbolo and inversion entries. Standing tall with weight back invites under-transitions to X-Guard and Single Leg X. Attempting to strip grips creates timing windows for basic sweeps. This layered threat matrix forces the top player into a reactive posture, constantly defending rather than initiating their own passing sequences. Understanding and exploiting this reaction-based framework is what separates competent DLR players from truly dangerous ones.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_V15lSbYA8k)
+
+<p class="clip-credit"><strong>Back take from De La Riva</strong> — taught by Elite MMA · 1:17 · <a href="https://www.youtube.com/watch?v=_V15lSbYA8k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sktKJVpry0k)
+
+<p class="clip-credit"><strong>DLR mantis back take to bow and arrow</strong> — taught by War Room Jiu Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=sktKJVpry0k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=48WwhEdE0NY)
+
+<p class="clip-credit"><strong>Long De La Riva to back control</strong> — taught by Jimmy Quinlan · 2:36 · <a href="https://www.youtube.com/watch?v=48WwhEdE0NY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

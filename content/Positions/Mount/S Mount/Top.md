@@ -153,6 +153,54 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "S-Mount armbar, kimura \u0026 far-side armbar",
+      "description": "S Mount (Top) film study: S-Mount armbar, kimura \u0026 far-side armbar, taught by GBCostaMesa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
+      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
+      "creator": { "@type": "Person", "name": "GBCostaMesa" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from S-Mount",
+      "description": "S Mount (Top) film study: Armbar from S-Mount, taught by Fenrir Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
+      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Brutal armbar from S-Mount",
+      "description": "S Mount (Top) film study: Brutal armbar from S-Mount, taught by Lux\u0027s Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N-fwXASdMCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N-fwXASdMCQ",
+      "url": "https://www.youtube.com/watch?v=N-fwXASdMCQ",
+      "creator": { "@type": "Person", "name": "Lux\u0027s Jiu Jitsu" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ The transition into S Mount typically occurs from standard mount when you identi
 S Mount appears throughout BJJ history as a signature position of submission specialists. Legendary practitioners like Demian Maia, Roger Gracie, and Rickson Gracie have demonstrated the position's effectiveness at the highest levels of competition, often using it as their primary path to victory. The position exemplifies core BJJ principles: using leverage and technique over strength, establishing dominant control before attacking submissions, and creating mechanical advantages that make submissions nearly inevitable. Modern competitors continue to refine S Mount mechanics, developing increasingly sophisticated control methods and submission chains that showcase the position's evolution in contemporary grappling.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
+
+<p class="clip-credit"><strong>S-Mount armbar, kimura &amp; far-side armbar</strong> — taught by GBCostaMesa · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
+
+<p class="clip-credit"><strong>Armbar from S-Mount</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N-fwXASdMCQ)
+
+<p class="clip-credit"><strong>Brutal armbar from S-Mount</strong> — taught by Lux&#39;s Jiu Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=N-fwXASdMCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

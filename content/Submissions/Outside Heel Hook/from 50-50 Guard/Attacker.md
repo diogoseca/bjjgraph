@@ -176,6 +176,43 @@ description: "Learn to attack with the outside heel hook from 50-50 guard. Step-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from 50-50 Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel Hooks breakdown",
+      "description": "Outside Heel Hook from 50-50 Guard (Attacker) film study: Heel Hooks breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
+      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "ADCC-style 50/50 heel hook",
+      "description": "Outside Heel Hook from 50-50 Guard (Attacker) film study: ADCC-style 50/50 heel hook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5RyU5LDc3C4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5RyU5LDc3C4",
+      "url": "https://www.youtube.com/watch?v=5RyU5LDc3C4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the outside heel hook from 50-50 guard requires establishing insi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from 50-50 Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UuluKZKDt8w)
+
+<p class="clip-credit"><strong>Heel Hooks breakdown</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5RyU5LDc3C4)
+
+<p class="clip-credit"><strong>ADCC-style 50/50 heel hook</strong> — taught by Lachlan Giles · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

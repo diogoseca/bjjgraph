@@ -34,6 +34,54 @@ description: "Master the Clock Choke from Invisible Collar with concealed collar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clock Choke from Invisible Collar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tight Clock Choke",
+      "description": "Clock Choke from Invisible Collar film study: Tight Clock Choke, taught by Satoshi Ishii.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yc4zm2EWi4g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yc4zm2EWi4g",
+      "url": "https://www.youtube.com/watch?v=Yc4zm2EWi4g",
+      "creator": { "@type": "Person", "name": "Satoshi Ishii" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Invisible Choke From Side Control",
+      "description": "Clock Choke from Invisible Collar film study: Invisible Choke From Side Control, taught by Tom Oberhue.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjP4GvxTO6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rjP4GvxTO6s",
+      "url": "https://www.youtube.com/watch?v=rjP4GvxTO6s",
+      "creator": { "@type": "Person", "name": "Tom Oberhue" },
+      "duration": "PT166S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-Gi Clock Choke",
+      "description": "Clock Choke from Invisible Collar film study: No-Gi Clock Choke, taught by Ronster.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rJ1YYOBoXMg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rJ1YYOBoXMg",
+      "url": "https://www.youtube.com/watch?v=rJ1YYOBoXMg",
+      "creator": { "@type": "Person", "name": "Ronster" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 **Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] · **From**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clock Choke from Invisible Collar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yc4zm2EWi4g)
+
+<p class="clip-credit"><strong>Tight Clock Choke</strong> — taught by Satoshi Ishii · 2:18 · <a href="https://www.youtube.com/watch?v=Yc4zm2EWi4g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rjP4GvxTO6s)
+
+<p class="clip-credit"><strong>Invisible Choke From Side Control</strong> — taught by Tom Oberhue · 2:46 · <a href="https://www.youtube.com/watch?v=rjP4GvxTO6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rJ1YYOBoXMg)
+
+<p class="clip-credit"><strong>No-Gi Clock Choke</strong> — taught by Ronster · 0:21 · <a href="https://www.youtube.com/watch?v=rJ1YYOBoXMg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

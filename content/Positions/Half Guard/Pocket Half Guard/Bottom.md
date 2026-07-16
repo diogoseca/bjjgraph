@@ -153,6 +153,43 @@ description: "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pocket Half Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep half guard Faria sweep",
+      "description": "Pocket Half Guard (Bottom) film study: Deep half guard Faria sweep, taught by Masahiro Iwasaki.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
+      "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
+      "creator": { "@type": "Person", "name": "Masahiro Iwasaki" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger windmill half guard sweep",
+      "description": "Pocket Half Guard (Bottom) film study: Roger windmill half guard sweep, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3M6JUqr1Bo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3M6JUqr1Bo",
+      "url": "https://www.youtube.com/watch?v=X3M6JUqr1Bo",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The position gained prominence through the 10th Planet system and has been refin
 Pocket Half Guard Bottom is particularly effective against opponents who favor heavy pressure passing or who attempt to flatten you in half guard. The deep underhook and hip frame prevent them from establishing chest-to-chest pressure, while the leg configuration maintains enough space to generate hip movement and rotational power for sweeps. Advanced practitioners use this position as a launching point for the Old School Sweep, back-takes, and transitions to Deep Half Guard or X-Guard variations.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pocket Half Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
+
+<p class="clip-credit"><strong>Deep half guard Faria sweep</strong> — taught by Masahiro Iwasaki · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
+
+<p class="clip-credit"><strong>Roger windmill half guard sweep</strong> — taught by SBG Australia · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

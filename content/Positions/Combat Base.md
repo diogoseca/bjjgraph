@@ -34,6 +34,43 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Combat Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to get to combat base",
+      "description": "Combat Base film study: How to get to combat base, taught by Myopinionin5.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vp3roMWi0dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vp3roMWi0dc",
+      "url": "https://www.youtube.com/watch?v=vp3roMWi0dc",
+      "creator": { "@type": "Person", "name": "Myopinionin5" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Combat base breakdown",
+      "description": "Combat Base film study: Combat base breakdown, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zCL3UKL1vvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zCL3UKL1vvU",
+      "url": "https://www.youtube.com/watch?v=zCL3UKL1vvU",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the bottom, Combat Base is a contested, time-sensitive position for the gua
 Mastering Combat Base from both sides means understanding this central tension: the same forward weight that powers a pass is the weight a guard player loads to reverse it. Whether maintaining the platform or attacking it, the position rewards dynamic weight management, relentless grip fighting, and the discipline to act during the opponent's transitional moments rather than against a settled, balanced base.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Combat Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vp3roMWi0dc)
+
+<p class="clip-credit"><strong>How to get to combat base</strong> — taught by Myopinionin5 · 2:00 · <a href="https://www.youtube.com/watch?v=vp3roMWi0dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zCL3UKL1vvU)
+
+<p class="clip-credit"><strong>Combat base breakdown</strong> — taught by Chosen Few BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=zCL3UKL1vvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

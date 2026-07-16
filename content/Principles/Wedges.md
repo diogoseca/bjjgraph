@@ -164,6 +164,54 @@ description: "Master wedges in BJJ. Learn to insert knees, elbows, shins, and fo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Wedges \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Near side and far side knee wedges from chest to chest",
+      "description": "Wedges film study: Near side and far side knee wedges from chest to chest, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F0XCE0lFIG8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F0XCE0lFIG8",
+      "url": "https://www.youtube.com/watch?v=F0XCE0lFIG8",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT278S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Angles, wedges and leverage explained",
+      "description": "Wedges film study: Angles, wedges and leverage explained, taught by Josh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lrfCkqXx_-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lrfCkqXx_-c",
+      "url": "https://www.youtube.com/watch?v=lrfCkqXx_-c",
+      "creator": { "@type": "Person", "name": "Josh" },
+      "duration": "PT265S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee wedge in the tailbone to pass full guard",
+      "description": "Wedges film study: Knee wedge in the tailbone to pass full guard, taught by StadiumMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SxzrmECSij8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SxzrmECSij8",
+      "url": "https://www.youtube.com/watch?v=SxzrmECSij8",
+      "creator": { "@type": "Person", "name": "StadiumMMA" },
+      "duration": "PT26S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Wedges?
@@ -177,6 +225,42 @@ What separates a wedge from a simple frame or post is its direction of action. A
 Developing wedge awareness means learning to feel for gaps — the tiny spaces between your body and your opponent's where a knee, shin, elbow, or forearm can be inserted before the opponent closes them. Speed of insertion matters as much as placement, because gaps in grappling are transient. The practitioner who consistently finds and fills these gaps with well-angled wedges controls the geometry of the exchange, dictating where force travels and where space exists.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Wedges in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F0XCE0lFIG8)
+
+<p class="clip-credit"><strong>Near side and far side knee wedges from chest to chest</strong> — taught by John Danaher · 4:38 · <a href="https://www.youtube.com/watch?v=F0XCE0lFIG8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lrfCkqXx_-c)
+
+<p class="clip-credit"><strong>Angles, wedges and leverage explained</strong> — taught by Josh · 4:25 · <a href="https://www.youtube.com/watch?v=lrfCkqXx_-c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SxzrmECSij8)
+
+<p class="clip-credit"><strong>Knee wedge in the tailbone to pass full guard</strong> — taught by StadiumMMA · 0:26 · <a href="https://www.youtube.com/watch?v=SxzrmECSij8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

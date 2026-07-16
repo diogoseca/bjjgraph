@@ -174,6 +174,54 @@ description: "Execute the Sweep from Matrix in BJJ. Technical guide to hip eleva
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Matrix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva sweep into the matrix",
+      "description": "Sweep from Matrix (Attacker) film study: De La Riva sweep into the matrix, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pcOF-B4y09Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pcOF-B4y09Q",
+      "url": "https://www.youtube.com/watch?v=pcOF-B4y09Q",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi matrix back take off the leg drag",
+      "description": "Sweep from Matrix (Attacker) film study: No-gi matrix back take off the leg drag, taught by Langaker BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BWDsJPV7iPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BWDsJPV7iPA",
+      "url": "https://www.youtube.com/watch?v=BWDsJPV7iPA",
+      "creator": { "@type": "Person", "name": "Langaker BJJ coach" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Setting up and finishing the matrix",
+      "description": "Sweep from Matrix (Attacker) film study: Setting up and finishing the matrix, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H0SUb0Eo168/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H0SUb0Eo168",
+      "url": "https://www.youtube.com/watch?v=H0SUb0Eo168",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ From the attacker perspective, the Sweep from Matrix transforms the bottom posit
 **From Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Matrix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pcOF-B4y09Q)
+
+<p class="clip-credit"><strong>De La Riva sweep into the matrix</strong> — taught by Unknown coach · 0:36 · <a href="https://www.youtube.com/watch?v=pcOF-B4y09Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BWDsJPV7iPA)
+
+<p class="clip-credit"><strong>No-gi matrix back take off the leg drag</strong> — taught by Langaker BJJ coach · 1:36 · <a href="https://www.youtube.com/watch?v=BWDsJPV7iPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H0SUb0Eo168)
+
+<p class="clip-credit"><strong>Setting up and finishing the matrix</strong> — taught by Jon Thomas · 2:12 · <a href="https://www.youtube.com/watch?v=H0SUb0Eo168" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

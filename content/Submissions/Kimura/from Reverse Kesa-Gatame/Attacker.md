@@ -170,6 +170,43 @@ description: "Complete attacking guide for the Kimura from Reverse Kesa-Gatame c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Reverse Kesa-Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from Reverse Kesa Gatame",
+      "description": "Kimura from Reverse Kesa-Gatame (Attacker) film study: Kimura from Reverse Kesa Gatame, taught by Raymond Tan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/waWC7ARiESc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/waWC7ARiESc",
+      "url": "https://www.youtube.com/watch?v=waWC7ARiESc",
+      "creator": { "@type": "Person", "name": "Raymond Tan" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura trap from reverse kesa gatame",
+      "description": "Kimura from Reverse Kesa-Gatame (Attacker) film study: Kimura trap from reverse kesa gatame, taught by Smith BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xLCWZaGPW0g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xLCWZaGPW0g",
+      "url": "https://www.youtube.com/watch?v=xLCWZaGPW0g",
+      "creator": { "@type": "Person", "name": "Smith BJJ" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +217,34 @@ Attacking the Kimura from Reverse Kesa-Gatame leverages your dominant chest pres
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Reverse Kesa-Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=waWC7ARiESc)
+
+<p class="clip-credit"><strong>Kimura from Reverse Kesa Gatame</strong> — taught by Raymond Tan · 2:50 · <a href="https://www.youtube.com/watch?v=waWC7ARiESc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xLCWZaGPW0g)
+
+<p class="clip-credit"><strong>Kimura trap from reverse kesa gatame</strong> — taught by Smith BJJ · 2:20 · <a href="https://www.youtube.com/watch?v=xLCWZaGPW0g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

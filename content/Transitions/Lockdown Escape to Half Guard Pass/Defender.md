@@ -148,6 +148,54 @@ description: "How to defend against Lockdown Escape to Half Guard Pass in BJJ. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown Escape to Half Guard Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Advanced lockdown details to stop the escape",
+      "description": "Lockdown Escape to Half Guard Pass (Defender) film study: Advanced lockdown details to stop the escape, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AmOMN0S1v8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AmOMN0S1v8Q",
+      "url": "https://www.youtube.com/watch?v=AmOMN0S1v8Q",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown clinches to keep the passer trapped",
+      "description": "Lockdown Escape to Half Guard Pass (Defender) film study: Lockdown clinches to keep the passer trapped, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown strategies from bottom",
+      "description": "Lockdown Escape to Half Guard Pass (Defender) film study: Lockdown strategies from bottom, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oSQ7BHerIow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oSQ7BHerIow",
+      "url": "https://www.youtube.com/watch?v=oSQ7BHerIow",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Understanding the escape mechanics from the defender's perspective allows you to
 **Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown Escape to Half Guard Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AmOMN0S1v8Q)
+
+<p class="clip-credit"><strong>Advanced lockdown details to stop the escape</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=AmOMN0S1v8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches to keep the passer trapped</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oSQ7BHerIow)
+
+<p class="clip-credit"><strong>Lockdown strategies from bottom</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

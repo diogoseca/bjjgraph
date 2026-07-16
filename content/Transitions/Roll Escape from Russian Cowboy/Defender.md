@@ -134,6 +134,54 @@ description: "Defend against the Roll Escape from Russian Cowboy in BJJ. Learn r
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Escape from Russian Cowboy (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle escape via shoulder roll",
+      "description": "Roll Escape from Russian Cowboy (Defender) film study: Turtle escape via shoulder roll, taught by BJJake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "creator": { "@type": "Person", "name": "BJJake" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the turtle ride by shrugging the hooks",
+      "description": "Roll Escape from Russian Cowboy (Defender) film study: Escaping the turtle ride by shrugging the hooks, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/waVFl1Ip6VU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/waVFl1Ip6VU",
+      "url": "https://www.youtube.com/watch?v=waVFl1Ip6VU",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape against back control",
+      "description": "Roll Escape from Russian Cowboy (Defender) film study: Turtle escape against back control, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bDZntPrcLpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bDZntPrcLpg",
+      "url": "https://www.youtube.com/watch?v=bDZntPrcLpg",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ Defending against the Roll Escape from Russian Cowboy requires the top player to
 **Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Escape from Russian Cowboy (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+
+<p class="clip-credit"><strong>Turtle escape via shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=waVFl1Ip6VU)
+
+<p class="clip-credit"><strong>Escaping the turtle ride by shrugging the hooks</strong> — taught by Andy Tong · 0:33 · <a href="https://www.youtube.com/watch?v=waVFl1Ip6VU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bDZntPrcLpg)
+
+<p class="clip-credit"><strong>Turtle escape against back control</strong> — taught by BJJ101 · 0:37 · <a href="https://www.youtube.com/watch?v=bDZntPrcLpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -140,6 +140,43 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Standing (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop getting your back taken from turtle",
+      "description": "Turtle to Standing (Defender) film study: Stop getting your back taken from turtle, taught by Grappling Education.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nP6nIypaq0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nP6nIypaq0A",
+      "url": "https://www.youtube.com/watch?v=nP6nIypaq0A",
+      "creator": { "@type": "Person", "name": "Grappling Education" },
+      "duration": "PT130S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front headlock to stop the turtle standup",
+      "description": "Turtle to Standing (Defender) film study: Front headlock to stop the turtle standup, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JX0HL0WpYPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JX0HL0WpYPs",
+      "url": "https://www.youtube.com/watch?v=JX0HL0WpYPs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT478S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player in turtle, your objective when the bottom player attempts to s
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Standing (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nP6nIypaq0A)
+
+<p class="clip-credit"><strong>Stop getting your back taken from turtle</strong> — taught by Grappling Education · 2:10 · <a href="https://www.youtube.com/watch?v=nP6nIypaq0A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JX0HL0WpYPs)
+
+<p class="clip-credit"><strong>Front headlock to stop the turtle standup</strong> — taught by Gordon Ryan · 7:58 · <a href="https://www.youtube.com/watch?v=JX0HL0WpYPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

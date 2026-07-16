@@ -140,6 +140,43 @@ description: "Defend against the inversion from reverse half guard top. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Invert from Reverse Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a Full Inversion",
+      "description": "Invert from Reverse Half Guard (Defender) film study: Countering a Full Inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stop Getting Smashed In Half Guard",
+      "description": "Invert from Reverse Half Guard (Defender) film study: Stop Getting Smashed In Half Guard, taught by Grapplers Planet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XqxdMRY2qqk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XqxdMRY2qqk",
+      "url": "https://www.youtube.com/watch?v=XqxdMRY2qqk",
+      "creator": { "@type": "Person", "name": "Grapplers Planet" },
+      "duration": "PT241S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player in reverse half guard, your opponent's inversion attempt repre
 **Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Invert from Reverse Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XqxdMRY2qqk)
+
+<p class="clip-credit"><strong>Stop Getting Smashed In Half Guard</strong> — taught by Grapplers Planet · 4:01 · <a href="https://www.youtube.com/watch?v=XqxdMRY2qqk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

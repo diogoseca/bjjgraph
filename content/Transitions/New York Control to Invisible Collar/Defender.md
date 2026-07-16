@@ -142,6 +142,54 @@ description: "Defend against the New York Control to Invisible Collar transition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Control to Invisible Collar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two rubber guard tips and counters",
+      "description": "New York Control to Invisible Collar (Defender) film study: Two rubber guard tips and counters, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
+      "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Invisible Collar Details",
+      "description": "New York Control to Invisible Collar (Defender) film study: Invisible Collar Details, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
+      "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Invisible Collar Choke from Rubber Guard",
+      "description": "New York Control to Invisible Collar (Defender) film study: Invisible Collar Choke from Rubber Guard, taught by JitsHappens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8wYsegjBqRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8wYsegjBqRA",
+      "url": "https://www.youtube.com/watch?v=8wYsegjBqRA",
+      "creator": { "@type": "Person", "name": "JitsHappens" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Control to Invisible Collar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
+
+<p class="clip-credit"><strong>Two rubber guard tips and counters</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KCyIwacRKu8)
+
+<p class="clip-credit"><strong>Invisible Collar Details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8wYsegjBqRA)
+
+<p class="clip-credit"><strong>Invisible Collar Choke from Rubber Guard</strong> — taught by JitsHappens · 0:57 · <a href="https://www.youtube.com/watch?v=8wYsegjBqRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

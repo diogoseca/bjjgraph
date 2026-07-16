@@ -153,6 +153,54 @@ description: "Master overhook control from top positions. Wrestling-based whizze
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Using an overhook",
+      "description": "Overhook Control (Top) film study: Using an overhook, taught by Patrick Spano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DfUHvTQpzCg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DfUHvTQpzCg",
+      "url": "https://www.youtube.com/watch?v=DfUHvTQpzCg",
+      "creator": { "@type": "Person", "name": "Patrick Spano" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Whizzer from half guard: win the dogfight",
+      "description": "Overhook Control (Top) film study: Whizzer from half guard: win the dogfight, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Russian tie whizzer kick",
+      "description": "Overhook Control (Top) film study: Russian tie whizzer kick, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GgWOa1nEeu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GgWOa1nEeu8",
+      "url": "https://www.youtube.com/watch?v=GgWOa1nEeu8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ Top overhook appears in countless high-level competition scenarios: countering u
 The transitional nature of top overhook distinguishes it from static control positions. High-level practitioners never hold the overhook for extended periods - they immediately begin working toward their next objective within 3-5 seconds of establishing control. This aggressive mindset transforms the overhook from a simple grip into a dynamic attacking platform that creates constant pressure and dilemmas for opponents. Understanding when to maintain the overhook versus when to transition from it represents essential tactical knowledge for competitive success across all skill levels and rule sets.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DfUHvTQpzCg)
+
+<p class="clip-credit"><strong>Using an overhook</strong> — taught by Patrick Spano · 0:40 · <a href="https://www.youtube.com/watch?v=DfUHvTQpzCg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Whizzer from half guard: win the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GgWOa1nEeu8)
+
+<p class="clip-credit"><strong>Russian tie whizzer kick</strong> — taught by Craig Jones · 2:27 · <a href="https://www.youtube.com/watch?v=GgWOa1nEeu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

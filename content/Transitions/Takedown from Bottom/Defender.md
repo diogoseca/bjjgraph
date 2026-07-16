@@ -148,6 +148,54 @@ description: "Defend takedown attempts from standing in BJJ. Complete guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Takedown from Bottom (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sprawl technique to stop the takedown",
+      "description": "Takedown from Bottom (Defender) film study: Sprawl technique to stop the takedown, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LiRrlPGboK8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LiRrlPGboK8",
+      "url": "https://www.youtube.com/watch?v=LiRrlPGboK8",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sprawling to stop the shot and counter",
+      "description": "Takedown from Bottom (Defender) film study: Sprawling to stop the shot and counter, taught by WrestlingTournaments.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RKRfwAAw1Gs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RKRfwAAw1Gs",
+      "url": "https://www.youtube.com/watch?v=RKRfwAAw1Gs",
+      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sprawling on a double leg",
+      "description": "Takedown from Bottom (Defender) film study: Sprawling on a double leg, taught by WrestlingTournaments.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q_jaym269dU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q_jaym269dU",
+      "url": "https://www.youtube.com/watch?v=q_jaym269dU",
+      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending a takedown attempt from a standing opponent requires early recognition
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Takedown from Bottom (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LiRrlPGboK8)
+
+<p class="clip-credit"><strong>Sprawl technique to stop the takedown</strong> — taught by Jordan Burroughs · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RKRfwAAw1Gs)
+
+<p class="clip-credit"><strong>Sprawling to stop the shot and counter</strong> — taught by WrestlingTournaments.com · 1:15 · <a href="https://www.youtube.com/watch?v=RKRfwAAw1Gs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q_jaym269dU)
+
+<p class="clip-credit"><strong>Sprawling on a double leg</strong> — taught by WrestlingTournaments.com · 2:25 · <a href="https://www.youtube.com/watch?v=q_jaym269dU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

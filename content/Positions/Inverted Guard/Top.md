@@ -153,6 +153,54 @@ description: "Master inverted guard from top perspective. Strategic passing appr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a Full Inversion",
+      "description": "Inverted Guard (Top) film study: Countering a Full Inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Pass Inverted Guard",
+      "description": "Inverted Guard (Top) film study: How to Pass Inverted Guard, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M6gK8yjDFGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M6gK8yjDFGE",
+      "url": "https://www.youtube.com/watch?v=M6gK8yjDFGE",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Pass The Inverted Guard",
+      "description": "Inverted Guard (Top) film study: How to Pass The Inverted Guard, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P7JKadlMi_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P7JKadlMi_M",
+      "url": "https://www.youtube.com/watch?v=P7JKadlMi_M",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master inverted guard from top perspective. Strategic passing appr
 From the top perspective, facing an opponent in Inverted Guard requires strategic adjustments to traditional passing approaches. The inverted position creates unconventional angles that make standard pressure passing and distance passing less effective, requiring specific techniques and timing to pass successfully. The top player must recognize the transitional nature of inverted guard and prevent the bottom player from achieving their primary objectives: berimbolo entries, back takes, and leg entanglement positions. Success from the top position involves controlling the opponent's rotation, preventing their hips from achieving optimal angles, and capitalizing on opportunities to apply crushing pressure through smash passes and stack passes. The top player must maintain awareness of the bottom player's grip controls and foot placement, as these determine the available transitions from inverted guard. Modern guard passing systems have developed specific responses to inverted guard, including headquarters positioning, leg weave passes, and strategic pressure application that forces the inverted player to abandon the position. The key strategic principle is recognizing when the opponent begins inverting and immediately attacking with appropriate passing techniques rather than allowing them to establish optimal inverted positioning. Top players must also protect against the berimbolo sequence by controlling distance, maintaining proper base, and preventing the opponent from establishing the grips necessary for back take entries. Training emphasis should focus on recognizing inversion entries early and responding with immediate passing pressure that forces defensive reactions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M6gK8yjDFGE)
+
+<p class="clip-credit"><strong>How to Pass Inverted Guard</strong> — taught by Wim Deputter · 1:31 · <a href="https://www.youtube.com/watch?v=M6gK8yjDFGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P7JKadlMi_M)
+
+<p class="clip-credit"><strong>How to Pass The Inverted Guard</strong> — taught by JiuJitsu.com · 1:37 · <a href="https://www.youtube.com/watch?v=P7JKadlMi_M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

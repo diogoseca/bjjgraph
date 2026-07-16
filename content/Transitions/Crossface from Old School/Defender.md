@@ -140,6 +140,43 @@ description: "Defend against the Crossface from Old School in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crossface from Old School (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard sweep against crossface and underhook",
+      "description": "Crossface from Old School (Defender) film study: Half guard sweep against crossface and underhook, taught by Indrek Reiland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1ZKvfHNiGOQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1ZKvfHNiGOQ",
+      "url": "https://www.youtube.com/watch?v=1ZKvfHNiGOQ",
+      "creator": { "@type": "Person", "name": "Indrek Reiland" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Old school half guard sweep",
+      "description": "Crossface from Old School (Defender) film study: Old school half guard sweep, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Crossface from Old School, you are in Old School Bot
 **Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crossface from Old School (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1ZKvfHNiGOQ)
+
+<p class="clip-credit"><strong>Half guard sweep against crossface and underhook</strong> — taught by Indrek Reiland · 1:38 · <a href="https://www.youtube.com/watch?v=1ZKvfHNiGOQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Old school half guard sweep</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

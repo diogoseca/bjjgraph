@@ -140,6 +140,43 @@ description: "Complete guide to defending against Z-Lock Half Guard passing atte
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Z-Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Z-lock dilemma and lateral kneebar",
+      "description": "Pass Z-Lock (Defender) film study: Z-lock dilemma and lateral kneebar, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mv5hY9YFUdU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mv5hY9YFUdU",
+      "url": "https://www.youtube.com/watch?v=mv5hY9YFUdU",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Z-lock from 50/50",
+      "description": "Pass Z-Lock (Defender) film study: Z-lock from 50/50, taught by Jason Rau.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J9iNUWoAbIk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J9iNUWoAbIk",
+      "url": "https://www.youtube.com/watch?v=J9iNUWoAbIk",
+      "creator": { "@type": "Person", "name": "Jason Rau" },
+      "duration": "PT188S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender in Z-Lock Half Guard, your primary objectives are retaining the 
 **Opponent's Starting Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Z-Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mv5hY9YFUdU)
+
+<p class="clip-credit"><strong>Z-lock dilemma and lateral kneebar</strong> — taught by Jamie · 1:06 · <a href="https://www.youtube.com/watch?v=mv5hY9YFUdU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J9iNUWoAbIk)
+
+<p class="clip-credit"><strong>Z-lock from 50/50</strong> — taught by Jason Rau · 3:08 · <a href="https://www.youtube.com/watch?v=J9iNUWoAbIk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

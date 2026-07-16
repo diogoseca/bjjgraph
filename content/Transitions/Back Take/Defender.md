@@ -148,6 +148,54 @@ description: "How to defend against Back Take in BJJ. Recognition cues, defensiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three ways to defend the back take",
+      "description": "Back Take (Defender) film study: Three ways to defend the back take, taught by Roberto \"Cyborg\" Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
+      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
+      "creator": { "@type": "Person", "name": "Roberto \"Cyborg\" Abreu" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle back escape by shrugging",
+      "description": "Back Take (Defender) film study: Turtle back escape by shrugging, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/waVFl1Ip6VU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/waVFl1Ip6VU",
+      "url": "https://www.youtube.com/watch?v=waVFl1Ip6VU",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape from back control",
+      "description": "Back Take (Defender) film study: Turtle escape from back control, taught by Adnan Sadiq.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dHanNAj6B80/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dHanNAj6B80",
+      "url": "https://www.youtube.com/watch?v=dHanNAj6B80",
+      "creator": { "@type": "Person", "name": "Adnan Sadiq" },
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
+
+<p class="clip-credit"><strong>Three ways to defend the back take</strong> — taught by Roberto &#34;Cyborg&#34; Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=waVFl1Ip6VU)
+
+<p class="clip-credit"><strong>Turtle back escape by shrugging</strong> — taught by Andy Tong · 0:33 · <a href="https://www.youtube.com/watch?v=waVFl1Ip6VU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dHanNAj6B80)
+
+<p class="clip-credit"><strong>Turtle escape from back control</strong> — taught by Adnan Sadiq · 0:38 · <a href="https://www.youtube.com/watch?v=dHanNAj6B80" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -176,6 +176,43 @@ description: "Learn to attack the omoplata from double sleeve guard. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Double Sleeve Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso guard to omoplata",
+      "description": "Omoplata from Double Sleeve Guard (Attacker) film study: Lasso guard to omoplata, taught by Adam Wardzinski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P_Utuxeq7uo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P_Utuxeq7uo",
+      "url": "https://www.youtube.com/watch?v=P_Utuxeq7uo",
+      "creator": { "@type": "Person", "name": "Adam Wardzinski" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata sweep",
+      "description": "Omoplata from Double Sleeve Guard (Attacker) film study: Omoplata sweep, taught by Furo Channel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kKaLqMKJBt0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kKaLqMKJBt0",
+      "url": "https://www.youtube.com/watch?v=kKaLqMKJBt0",
+      "creator": { "@type": "Person", "name": "Furo Channel" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking the omoplata from double sleeve guard leverages your existing bilatera
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Double Sleeve Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P_Utuxeq7uo)
+
+<p class="clip-credit"><strong>Lasso guard to omoplata</strong> — taught by Adam Wardzinski · 0:37 · <a href="https://www.youtube.com/watch?v=P_Utuxeq7uo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kKaLqMKJBt0)
+
+<p class="clip-credit"><strong>Omoplata sweep</strong> — taught by Furo Channel · 1:29 · <a href="https://www.youtube.com/watch?v=kKaLqMKJBt0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -153,6 +153,54 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso Guard Knee Press Pass",
+      "description": "Lasso Guard (Top) film study: Lasso Guard Knee Press Pass, taught by Roll 247.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cx53Xl0SGC4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cx53Xl0SGC4",
+      "url": "https://www.youtube.com/watch?v=Cx53Xl0SGC4",
+      "creator": { "@type": "Person", "name": "Roll 247" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Destroying the Lasso Guard - Pass Details",
+      "description": "Lasso Guard (Top) film study: Destroying the Lasso Guard - Pass Details, taught by Gustavo Batista.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qIESyGHwDgs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qIESyGHwDgs",
+      "url": "https://www.youtube.com/watch?v=qIESyGHwDgs",
+      "creator": { "@type": "Person", "name": "Gustavo Batista" },
+      "duration": "PT257S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Over Under Pass Against Spider Lasso Guard",
+      "description": "Lasso Guard (Top) film study: Over Under Pass Against Spider Lasso Guard, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cwpk8obMtkE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cwpk8obMtkE",
+      "url": "https://www.youtube.com/watch?v=Cwpk8obMtkE",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT286S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -172,6 +220,42 @@ Advanced understanding involves recognizing the relationship between your postur
 Developing competency on top in lasso guard situations builds fundamental skills applicable across many guard passing scenarios: grip fighting under disadvantage, maintaining composure under constant pressure, and systematic problem-solving when faced with mechanical disadvantages. These attributes prove valuable far beyond this specific position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cx53Xl0SGC4)
+
+<p class="clip-credit"><strong>Lasso Guard Knee Press Pass</strong> — taught by Roll 247 · 0:27 · <a href="https://www.youtube.com/watch?v=Cx53Xl0SGC4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qIESyGHwDgs)
+
+<p class="clip-credit"><strong>Destroying the Lasso Guard - Pass Details</strong> — taught by Gustavo Batista · 4:17 · <a href="https://www.youtube.com/watch?v=qIESyGHwDgs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cwpk8obMtkE)
+
+<p class="clip-credit"><strong>Over Under Pass Against Spider Lasso Guard</strong> — taught by Bernardo Faria · 4:46 · <a href="https://www.youtube.com/watch?v=Cwpk8obMtkE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the leg extraction escape from Truck position in BJJ. Compl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Truck \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mastering the Truck \u2014 control and attack breakdown",
+      "description": "Leg Extraction from Truck film study: Mastering the Truck \u2014 control and attack breakdown, taught by 10th Planet Newport.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YqlKl-La88s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YqlKl-La88s",
+      "url": "https://www.youtube.com/watch?v=YqlKl-La88s",
+      "creator": { "@type": "Person", "name": "10th Planet Newport" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the Truck by Flipping It",
+      "description": "Leg Extraction from Truck film study: Countering the Truck by Flipping It, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NhxDerwXxSU",
+      "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT640S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ At advanced levels, the leg extraction functions as both a standalone escape and
 **Success Rate**: 38%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Truck in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YqlKl-La88s)
+
+<p class="clip-credit"><strong>Mastering the Truck — control and attack breakdown</strong> — taught by 10th Planet Newport · 3:36 · <a href="https://www.youtube.com/watch?v=YqlKl-La88s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+
+<p class="clip-credit"><strong>Countering the Truck by Flipping It</strong> — taught by Brandon McCaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

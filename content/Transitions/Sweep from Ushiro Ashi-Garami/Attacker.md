@@ -180,6 +180,54 @@ description: "Execute the sweep from Ushiro Ashi-Garami bottom to achieve mount.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Ushiro Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "V grip from top ushiro transition",
+      "description": "Sweep from Ushiro Ashi-Garami (Attacker) film study: V grip from top ushiro transition, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
+      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly sumi gaeshi to cross ashi inversion",
+      "description": "Sweep from Ushiro Ashi-Garami (Attacker) film study: Butterfly sumi gaeshi to cross ashi inversion, taught by BJJFlowCharts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gc3kDoiiFAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gc3kDoiiFAs",
+      "url": "https://www.youtube.com/watch?v=gc3kDoiiFAs",
+      "creator": { "@type": "Person", "name": "BJJFlowCharts" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Butterfly to reverse X to cross ashi to inside heel hook",
+      "description": "Sweep from Ushiro Ashi-Garami (Attacker) film study: Butterfly to reverse X to cross ashi to inside heel hook, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GqE4UobpkMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GqE4UobpkMs",
+      "url": "https://www.youtube.com/watch?v=GqE4UobpkMs",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit th
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Ushiro Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lTsK9C_a6po)
+
+<p class="clip-credit"><strong>V grip from top ushiro transition</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gc3kDoiiFAs)
+
+<p class="clip-credit"><strong>Butterfly sumi gaeshi to cross ashi inversion</strong> — taught by BJJFlowCharts · 1:23 · <a href="https://www.youtube.com/watch?v=gc3kDoiiFAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GqE4UobpkMs)
+
+<p class="clip-credit"><strong>Butterfly to reverse X to cross ashi to inside heel hook</strong> — taught by Bowerhouse MMA · 1:28 · <a href="https://www.youtube.com/watch?v=GqE4UobpkMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

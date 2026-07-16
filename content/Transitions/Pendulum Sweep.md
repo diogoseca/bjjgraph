@@ -34,6 +34,54 @@ description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pendulum Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pendulum sweep from closed guard",
+      "description": "Pendulum Sweep film study: Pendulum sweep from closed guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dMcMblcXhF0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dMcMblcXhF0",
+      "url": "https://www.youtube.com/watch?v=dMcMblcXhF0",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pendulum sweep demonstration",
+      "description": "Pendulum Sweep film study: Pendulum sweep demonstration, taught by The Forge coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YniHtIW_xbM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YniHtIW_xbM",
+      "url": "https://www.youtube.com/watch?v=YniHtIW_xbM",
+      "creator": { "@type": "Person", "name": "The Forge coach" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Pendulum sweep variations",
+      "description": "Pendulum Sweep film study: Pendulum sweep variations, taught by Peaceful Warrior coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N_VFW8Yd0jI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N_VFW8Yd0jI",
+      "url": "https://www.youtube.com/watch?v=N_VFW8Yd0jI",
+      "creator": { "@type": "Person", "name": "Peaceful Warrior coach" },
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 **Success Rate**: 25%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pendulum Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dMcMblcXhF0)
+
+<p class="clip-credit"><strong>Pendulum sweep from closed guard</strong> — taught by Roger Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=dMcMblcXhF0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YniHtIW_xbM)
+
+<p class="clip-credit"><strong>Pendulum sweep demonstration</strong> — taught by The Forge coach · 0:22 · <a href="https://www.youtube.com/watch?v=YniHtIW_xbM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N_VFW8Yd0jI)
+
+<p class="clip-credit"><strong>Pendulum sweep variations</strong> — taught by Peaceful Warrior coach · 2:07 · <a href="https://www.youtube.com/watch?v=N_VFW8Yd0jI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

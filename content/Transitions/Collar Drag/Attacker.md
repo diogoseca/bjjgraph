@@ -168,6 +168,54 @@ description: "How to execute Collar Drag in BJJ. Attacking perspective with setu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Drag (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm drag takedown demonstration",
+      "description": "Collar Drag (Attacker) film study: Arm drag takedown demonstration, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kp3ABmsn1I0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kp3ABmsn1I0",
+      "url": "https://www.youtube.com/watch?v=Kp3ABmsn1I0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Collar drag / lapel drag from guard",
+      "description": "Collar Drag (Attacker) film study: Collar drag / lapel drag from guard, taught by Louis Armezzani.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mzMJN2lwBbk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mzMJN2lwBbk",
+      "url": "https://www.youtube.com/watch?v=mzMJN2lwBbk",
+      "creator": { "@type": "Person", "name": "Louis Armezzani" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm drag into single leg takedown",
+      "description": "Collar Drag (Attacker) film study: Arm drag into single leg takedown, taught by Grapple Hub.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkCWCSvk7I4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkCWCSvk7I4",
+      "url": "https://www.youtube.com/watch?v=TkCWCSvk7I4",
+      "creator": { "@type": "Person", "name": "Grapple Hub" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The Collar Drag from the attacker's perspective is about converting grip advanta
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Drag (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kp3ABmsn1I0)
+
+<p class="clip-credit"><strong>Arm drag takedown demonstration</strong> — taught by Marcelo Garcia · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mzMJN2lwBbk)
+
+<p class="clip-credit"><strong>Collar drag / lapel drag from guard</strong> — taught by Louis Armezzani · 1:05 · <a href="https://www.youtube.com/watch?v=mzMJN2lwBbk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkCWCSvk7I4)
+
+<p class="clip-credit"><strong>Arm drag into single leg takedown</strong> — taught by Grapple Hub · 1:00 · <a href="https://www.youtube.com/watch?v=TkCWCSvk7I4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

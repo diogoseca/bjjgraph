@@ -34,6 +34,43 @@ description: "Master Reverse Half Guard in BJJ. Strategic guide covering inverte
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse half guard sweep to leg drag",
+      "description": "Reverse Half Guard film study: Reverse half guard sweep to leg drag, taught by Fernando Reis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VsPTkiq_OM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VsPTkiq_OM4",
+      "url": "https://www.youtube.com/watch?v=VsPTkiq_OM4",
+      "creator": { "@type": "Person", "name": "Fernando Reis" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse guard basics",
+      "description": "Reverse Half Guard film study: Reverse guard basics, taught by Krishna Mirjah.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0Cu3rm5TSIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0Cu3rm5TSIw",
+      "url": "https://www.youtube.com/watch?v=0Cu3rm5TSIw",
+      "creator": { "@type": "Person", "name": "Krishna Mirjah" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The reverse orientation fundamentally changes the mechanical dynamics of half gu
 This position appears more frequently in advanced BJJ and no-gi grappling where dynamic movement and scrambling are emphasized. The position serves dual purposes: as a transitional state during scrambles and as a deliberate attacking platform. Understanding both perspectives—bottom and top—is essential for developing complete half guard mastery. While riskier than standard configurations due to back exposure concerns, reverse half guard offers surprising offensive potential when executed with proper timing and technical precision.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VsPTkiq_OM4)
+
+<p class="clip-credit"><strong>Reverse half guard sweep to leg drag</strong> — taught by Fernando Reis · 1:02 · <a href="https://www.youtube.com/watch?v=VsPTkiq_OM4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0Cu3rm5TSIw)
+
+<p class="clip-credit"><strong>Reverse guard basics</strong> — taught by Krishna Mirjah · 1:05 · <a href="https://www.youtube.com/watch?v=0Cu3rm5TSIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

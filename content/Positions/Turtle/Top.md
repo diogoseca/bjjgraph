@@ -153,6 +153,54 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back take from the turtle position",
+      "description": "Turtle (Top) film study: Back take from the turtle position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6ns9XP2BsjQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6ns9XP2BsjQ",
+      "url": "https://www.youtube.com/watch?v=6ns9XP2BsjQ",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gator roll back take from turtle",
+      "description": "Turtle (Top) film study: Gator roll back take from turtle, taught by Gracie Barra Pymble.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o_7f8c64YrY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o_7f8c64YrY",
+      "url": "https://www.youtube.com/watch?v=o_7f8c64YrY",
+      "creator": { "@type": "Person", "name": "Gracie Barra Pymble" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Tight waist tilt to rear head-and-arm",
+      "description": "Turtle (Top) film study: Tight waist tilt to rear head-and-arm, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f0zi7eZEXnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f0zi7eZEXnk",
+      "url": "https://www.youtube.com/watch?v=f0zi7eZEXnk",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
 Turtle Top is an offensive position where the practitioner attacks an opponent who is on their hands and knees with their back exposed. This position offers numerous high-percentage attacking opportunities including back takes, front headlock submissions, crucifix entries, and positional advancements. The turtle top position requires excellent timing, grip control, and understanding of weight distribution to successfully transition before the opponent can escape to guard or standing. Success from turtle top depends on establishing dominant grips quickly, preventing opponent movement through strategic weight placement, and recognizing the optimal attack based on opponent's defensive reactions. The position is worth zero points but offers pathways to 4-point back control or direct submission finishes. Understanding proper attack sequencing, maintaining offensive pressure, and adapting to opponent's escape attempts is essential for maximizing success from turtle top position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6ns9XP2BsjQ)
+
+<p class="clip-credit"><strong>Back take from the turtle position</strong> — taught by Evolve MMA · 1:06 · <a href="https://www.youtube.com/watch?v=6ns9XP2BsjQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o_7f8c64YrY)
+
+<p class="clip-credit"><strong>Gator roll back take from turtle</strong> — taught by Gracie Barra Pymble · 0:37 · <a href="https://www.youtube.com/watch?v=o_7f8c64YrY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f0zi7eZEXnk)
+
+<p class="clip-credit"><strong>Tight waist tilt to rear head-and-arm</strong> — taught by Fox Den Martial Arts · 1:08 · <a href="https://www.youtube.com/watch?v=f0zi7eZEXnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -141,6 +141,43 @@ description: "Defend and escape Meathook from top. Complete defensive guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meathook (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Meathook options from Rubber Guard",
+      "description": "Meathook (Top) film study: Meathook options from Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KN7ww-OyaxQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KN7ww-OyaxQ",
+      "url": "https://www.youtube.com/watch?v=KN7ww-OyaxQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Troubleshooting the Meathook",
+      "description": "Meathook (Top) film study: Troubleshooting the Meathook, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0w0642zFqWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0w0642zFqWo",
+      "url": "https://www.youtube.com/watch?v=0w0642zFqWo",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ The psychological component of Meathook Top cannot be understated. The position 
 Energy management in escape attempts requires strategic consideration. Explosive movements consume significant energy but offer the best chance for arm extraction against tight Meathook control. Top players must choose timing carefully—waiting for the bottom player's grip to loosen slightly or their attention to shift toward submission setup. Premature explosion wastes energy without achieving escape, while delayed response allows submission completion. Reading the bottom player's intentions and timing explosive escape attempts to their transitional moments offers the highest success probability.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Meathook (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KN7ww-OyaxQ)
+
+<p class="clip-credit"><strong>Meathook options from Rubber Guard</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=KN7ww-OyaxQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0w0642zFqWo)
+
+<p class="clip-credit"><strong>Troubleshooting the Meathook</strong> — taught by Brandon Mccaghren · 1:01 · <a href="https://www.youtube.com/watch?v=0w0642zFqWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

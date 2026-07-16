@@ -34,6 +34,43 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking Down the Double Leg",
+      "description": "Standing Position film study: Breaking Down the Double Leg, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qMupz9qrbxc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qMupz9qrbxc",
+      "url": "https://www.youtube.com/watch?v=qMupz9qrbxc",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double Leg Takedown Technique",
+      "description": "Standing Position film study: Double Leg Takedown Technique, taught by Predators MMA and BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dhZgpDHCARw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dhZgpDHCARw",
+      "url": "https://www.youtube.com/watch?v=dhZgpDHCARw",
+      "creator": { "@type": "Person", "name": "Predators MMA and BJJ" },
+      "duration": "PT15S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +99,34 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qMupz9qrbxc)
+
+<p class="clip-credit"><strong>Breaking Down the Double Leg</strong> — taught by Jordan Burroughs · 0:47 · <a href="https://www.youtube.com/watch?v=qMupz9qrbxc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dhZgpDHCARw)
+
+<p class="clip-credit"><strong>Double Leg Takedown Technique</strong> — taught by Predators MMA and BJJ · 0:15 · <a href="https://www.youtube.com/watch?v=dhZgpDHCARw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

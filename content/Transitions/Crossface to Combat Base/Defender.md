@@ -148,6 +148,54 @@ description: "How to defend against Crossface to Combat Base in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crossface to Combat Base (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sweeping the combat base from bottom",
+      "description": "Crossface to Combat Base (Defender) film study: Sweeping the combat base from bottom, taught by Sticks and Stones BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ge4PxqkgVN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ge4PxqkgVN4",
+      "url": "https://www.youtube.com/watch?v=Ge4PxqkgVN4",
+      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half Guard Details You\u0027re Missing: Counter the Crossface",
+      "description": "Crossface to Combat Base (Defender) film study: Half Guard Details You\u0027re Missing: Counter the Crossface, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tJGKvMVFZWc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tJGKvMVFZWc",
+      "url": "https://www.youtube.com/watch?v=tJGKvMVFZWc",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT246S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "2 Half Guard Cross Face and Underhook Counters",
+      "description": "Crossface to Combat Base (Defender) film study: 2 Half Guard Cross Face and Underhook Counters, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ur34e6zRGd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ur34e6zRGd4",
+      "url": "https://www.youtube.com/watch?v=ur34e6zRGd4",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT460S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The most favorable defensive outcome is maintaining half guard with improved pos
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crossface to Combat Base (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ge4PxqkgVN4)
+
+<p class="clip-credit"><strong>Sweeping the combat base from bottom</strong> — taught by Sticks and Stones BJJ · 3:25 · <a href="https://www.youtube.com/watch?v=Ge4PxqkgVN4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tJGKvMVFZWc)
+
+<p class="clip-credit"><strong>Half Guard Details You&#39;re Missing: Counter the Crossface</strong> — taught by Chewjitsu · 4:06 · <a href="https://www.youtube.com/watch?v=tJGKvMVFZWc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ur34e6zRGd4)
+
+<p class="clip-credit"><strong>2 Half Guard Cross Face and Underhook Counters</strong> — taught by MMA Leech · 7:40 · <a href="https://www.youtube.com/watch?v=ur34e6zRGd4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

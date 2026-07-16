@@ -174,6 +174,54 @@ description: "How to execute Knee Shield Retention in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Retention (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting the underhook from knee shield half guard",
+      "description": "Knee Shield Retention (Attacker) film study: Getting the underhook from knee shield half guard, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R0P8BvcJLAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R0P8BvcJLAs",
+      "url": "https://www.youtube.com/watch?v=R0P8BvcJLAs",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to build and hold a perfect knee shield",
+      "description": "Knee Shield Retention (Attacker) film study: How to build and hold a perfect knee shield, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mPDafcPeF7s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mPDafcPeF7s",
+      "url": "https://www.youtube.com/watch?v=mPDafcPeF7s",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT247S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Holding half guard against the switch base",
+      "description": "Knee Shield Retention (Attacker) film study: Holding half guard against the switch base, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
+      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT284S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Knee Shield Retention from the attacker (bottom player) perspective is an active
 **From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Retention (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R0P8BvcJLAs)
+
+<p class="clip-credit"><strong>Getting the underhook from knee shield half guard</strong> — taught by Bowerhouse MMA · 2:11 · <a href="https://www.youtube.com/watch?v=R0P8BvcJLAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mPDafcPeF7s)
+
+<p class="clip-credit"><strong>How to build and hold a perfect knee shield</strong> — taught by Bernardo Faria · 4:07 · <a href="https://www.youtube.com/watch?v=mPDafcPeF7s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+
+<p class="clip-credit"><strong>Holding half guard against the switch base</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

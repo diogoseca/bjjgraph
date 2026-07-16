@@ -34,6 +34,54 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The gift wrap in 2 minutes",
+      "description": "Gift Wrap film study: The gift wrap in 2 minutes, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
+      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT112S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift wrap backtake (intro)",
+      "description": "Gift Wrap film study: Gift wrap backtake (intro), taught by BJJ Lab Zurich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EOv5GYpUYDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EOv5GYpUYDw",
+      "url": "https://www.youtube.com/watch?v=EOv5GYpUYDw",
+      "creator": { "@type": "Person", "name": "BJJ Lab Zurich" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3 back takes from mount using the gift wrap",
+      "description": "Gift Wrap film study: 3 back takes from mount using the gift wrap, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UIWX13Sx-zw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UIWX13Sx-zw",
+      "url": "https://www.youtube.com/watch?v=UIWX13Sx-zw",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT224S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ The position is particularly effective in no-gi grappling where traditional coll
 Understanding the Gift Wrap requires recognizing it as part of a larger back attack system. It connects naturally to other back control variations including the body triangle, truck position, and standard back mount. The ability to flow between these positions while maintaining the Gift Wrap's arm control creates a comprehensive attacking system that is difficult to escape from.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
+
+<p class="clip-credit"><strong>The gift wrap in 2 minutes</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EOv5GYpUYDw)
+
+<p class="clip-credit"><strong>Gift wrap backtake (intro)</strong> — taught by BJJ Lab Zurich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UIWX13Sx-zw)
+
+<p class="clip-credit"><strong>3 back takes from mount using the gift wrap</strong> — taught by MMA Leech · 3:44 · <a href="https://www.youtube.com/watch?v=UIWX13Sx-zw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

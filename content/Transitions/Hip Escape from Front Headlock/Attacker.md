@@ -180,6 +180,54 @@ description: "Execute the hip escape from front headlock to recover guard in BJJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Front Headlock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clearing the front headlock",
+      "description": "Hip Escape from Front Headlock (Attacker) film study: Clearing the front headlock, taught by School of Wrestling coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OZkTT8kT1G8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OZkTT8kT1G8",
+      "url": "https://www.youtube.com/watch?v=OZkTT8kT1G8",
+      "creator": { "@type": "Person", "name": "School of Wrestling coach" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front headlock escape back to the knees",
+      "description": "Hip Escape from Front Headlock (Attacker) film study: Front headlock escape back to the knees, taught by Prodigy MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tv6NE67Zwk0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tv6NE67Zwk0",
+      "url": "https://www.youtube.com/watch?v=tv6NE67Zwk0",
+      "creator": { "@type": "Person", "name": "Prodigy MMA coach" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Short drag front headlock escape",
+      "description": "Hip Escape from Front Headlock (Attacker) film study: Short drag front headlock escape, taught by Mason Parris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VZe2GY0_UIk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VZe2GY0_UIk",
+      "url": "https://www.youtube.com/watch?v=VZe2GY0_UIk",
+      "creator": { "@type": "Person", "name": "Mason Parris" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ The attacker perspective for the hip escape from front headlock focuses on the p
 **From Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Front Headlock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OZkTT8kT1G8)
+
+<p class="clip-credit"><strong>Clearing the front headlock</strong> — taught by School of Wrestling coach · 1:26 · <a href="https://www.youtube.com/watch?v=OZkTT8kT1G8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tv6NE67Zwk0)
+
+<p class="clip-credit"><strong>Front headlock escape back to the knees</strong> — taught by Prodigy MMA coach · 1:47 · <a href="https://www.youtube.com/watch?v=tv6NE67Zwk0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VZe2GY0_UIk)
+
+<p class="clip-credit"><strong>Short drag front headlock escape</strong> — taught by Mason Parris · 2:56 · <a href="https://www.youtube.com/watch?v=VZe2GY0_UIk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

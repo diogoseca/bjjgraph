@@ -148,6 +148,54 @@ description: "How to defend against Rolling Back Take in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sweep from turtle to counter the back take",
+      "description": "Rolling Back Take (Defender) film study: Sweep from turtle to counter the back take, taught by Brian Cusack.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1yvAZJbc3iY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1yvAZJbc3iY",
+      "url": "https://www.youtube.com/watch?v=1yvAZJbc3iY",
+      "creator": { "@type": "Person", "name": "Brian Cusack" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle escape via shoulder roll",
+      "description": "Rolling Back Take (Defender) film study: Turtle escape via shoulder roll, taught by BJJake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "creator": { "@type": "Person", "name": "BJJake" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back defence: trap and roll from turtle",
+      "description": "Rolling Back Take (Defender) film study: Back defence: trap and roll from turtle, taught by Darragh O Conaill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E3Tz7JjQyTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E3Tz7JjQyTw",
+      "url": "https://www.youtube.com/watch?v=E3Tz7JjQyTw",
+      "creator": { "@type": "Person", "name": "Darragh O Conaill" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Rolling Back Take requires early recognition and immediate defensi
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1yvAZJbc3iY)
+
+<p class="clip-credit"><strong>Sweep from turtle to counter the back take</strong> — taught by Brian Cusack · 1:05 · <a href="https://www.youtube.com/watch?v=1yvAZJbc3iY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+
+<p class="clip-credit"><strong>Turtle escape via shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E3Tz7JjQyTw)
+
+<p class="clip-credit"><strong>Back defence: trap and roll from turtle</strong> — taught by Darragh O Conaill · 2:30 · <a href="https://www.youtube.com/watch?v=E3Tz7JjQyTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

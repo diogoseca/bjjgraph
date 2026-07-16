@@ -34,6 +34,54 @@ description: "Complete guide to the straight ankle lock finish from ankle lock c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock from Straight Ankle Lock Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backside Foot Finish Mechanics",
+      "description": "Straight Ankle Lock from Straight Ankle Lock Control film study: Backside Foot Finish Mechanics, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-VpByetjzqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-VpByetjzqs",
+      "url": "https://www.youtube.com/watch?v=-VpByetjzqs",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Ankle Lock",
+      "description": "Straight Ankle Lock from Straight Ankle Lock Control film study: Straight Ankle Lock, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
+      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fast Straight Ankle Lock (No-Gi)",
+      "description": "Straight Ankle Lock from Straight Ankle Lock Control film study: Fast Straight Ankle Lock (No-Gi), taught by Everythingbjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GVwnRuiKk-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GVwnRuiKk-Y",
+      "url": "https://www.youtube.com/watch?v=GVwnRuiKk-Y",
+      "creator": { "@type": "Person", "name": "Everythingbjj" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Strategically, the straight ankle lock from established control serves dual purp
 **Starting Position**: [[Positions/Straight Ankle Lock Control]] · **From**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock from Straight Ankle Lock Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-VpByetjzqs)
+
+<p class="clip-credit"><strong>Backside Foot Finish Mechanics</strong> — taught by Mikey Musumeci · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
+
+<p class="clip-credit"><strong>Straight Ankle Lock</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GVwnRuiKk-Y)
+
+<p class="clip-credit"><strong>Fast Straight Ankle Lock (No-Gi)</strong> — taught by Everythingbjj · 1:04 · <a href="https://www.youtube.com/watch?v=GVwnRuiKk-Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

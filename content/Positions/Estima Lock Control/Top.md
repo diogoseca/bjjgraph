@@ -147,6 +147,54 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima Lock Breaking Mechanics",
+      "description": "Estima Lock Control (Top) film study: Estima Lock Breaking Mechanics, taught by Josh Star-Lord Leduc.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7hajltIw4kI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7hajltIw4kI",
+      "url": "https://www.youtube.com/watch?v=7hajltIw4kI",
+      "creator": { "@type": "Person", "name": "Josh Star-Lord Leduc" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima Lock from 50/50",
+      "description": "Estima Lock Control (Top) film study: Estima Lock from 50/50, taught by The Jiu-Jitsu Foundry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1I7Nlm1IhgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1I7Nlm1IhgQ",
+      "url": "https://www.youtube.com/watch?v=1I7Nlm1IhgQ",
+      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Estima Lock Finish",
+      "description": "Estima Lock Control (Top) film study: Estima Lock Finish, taught by Leandro Dos Santos Flores.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ao0IatSHEi0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ao0IatSHEi0",
+      "url": "https://www.youtube.com/watch?v=Ao0IatSHEi0",
+      "creator": { "@type": "Person", "name": "Leandro Dos Santos Flores" },
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,6 +206,42 @@ This position is most commonly entered from leg entanglement positions like 50-5
 Success from the top position requires precise technical execution including proper figure-four grip configuration around the heel and forefoot, optimal hip positioning against the opponent's lower leg to create the necessary fulcrum, and body angle management that maximizes rotational pressure while preventing counter-attacks. The position integrates seamlessly into comprehensive leg lock systems, offering natural transitions to toe holds, straight ankle locks, and saddle positions when the opponent defends. Understanding the anatomical mechanics of the ankle joint and applying pressure gradually and safely ensures both submission effectiveness and training partner safety during practice and competition application.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7hajltIw4kI)
+
+<p class="clip-credit"><strong>Estima Lock Breaking Mechanics</strong> — taught by Josh Star-Lord Leduc · 1:22 · <a href="https://www.youtube.com/watch?v=7hajltIw4kI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1I7Nlm1IhgQ)
+
+<p class="clip-credit"><strong>Estima Lock from 50/50</strong> — taught by The Jiu-Jitsu Foundry · 0:33 · <a href="https://www.youtube.com/watch?v=1I7Nlm1IhgQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ao0IatSHEi0)
+
+<p class="clip-credit"><strong>Estima Lock Finish</strong> — taught by Leandro Dos Santos Flores · 0:27 · <a href="https://www.youtube.com/watch?v=Ao0IatSHEi0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

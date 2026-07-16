@@ -150,6 +150,54 @@ description: "Learn to defend and escape the arm triangle choke from turtle. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head and Arm Escape from Turtle",
+      "description": "Arm Triangle from Turtle (Defender) film study: Head and Arm Escape from Turtle, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LTGHO-aRBxw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LTGHO-aRBxw",
+      "url": "https://www.youtube.com/watch?v=LTGHO-aRBxw",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Best Arm-Triangle Escape",
+      "description": "Arm Triangle from Turtle (Defender) film study: The Best Arm-Triangle Escape, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n_2zR6BaF8A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n_2zR6BaF8A",
+      "url": "https://www.youtube.com/watch?v=n_2zR6BaF8A",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3 Arm Triangle Choke Defenses",
+      "description": "Arm Triangle from Turtle (Defender) film study: 3 Arm Triangle Choke Defenses, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fx6qjR6a_xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fx6qjR6a_xE",
+      "url": "https://www.youtube.com/watch?v=Fx6qjR6a_xE",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the arm triangle from turtle requires early recognition and immediate 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LTGHO-aRBxw)
+
+<p class="clip-credit"><strong>Head and Arm Escape from Turtle</strong> — taught by Chosen Few BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=LTGHO-aRBxw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n_2zR6BaF8A)
+
+<p class="clip-credit"><strong>The Best Arm-Triangle Escape</strong> — taught by ZombieProofBJJ · 0:58 · <a href="https://www.youtube.com/watch?v=n_2zR6BaF8A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fx6qjR6a_xE)
+
+<p class="clip-credit"><strong>3 Arm Triangle Choke Defenses</strong> — taught by MMA Leech · 4:34 · <a href="https://www.youtube.com/watch?v=Fx6qjR6a_xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

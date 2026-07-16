@@ -148,6 +148,43 @@ description: "How to defend against Single Leg to Back Take in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg to Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three ways to defend the back take",
+      "description": "Single Leg to Back Take (Defender) film study: Three ways to defend the back take, taught by Roberto Cyborg Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
+      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
+      "creator": { "@type": "Person", "name": "Roberto Cyborg Abreu" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the single leg with a false X",
+      "description": "Single Leg to Back Take (Defender) film study: Defending the single leg with a false X, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ikqRbVwQ6eM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ikqRbVwQ6eM",
+      "url": "https://www.youtube.com/watch?v=ikqRbVwQ6eM",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Your defensive priorities follow a clear hierarchy. First, prevent the attacker 
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg to Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
+
+<p class="clip-credit"><strong>Three ways to defend the back take</strong> — taught by Roberto Cyborg Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ikqRbVwQ6eM)
+
+<p class="clip-credit"><strong>Defending the single leg with a false X</strong> — taught by Factory Fresh Jiu Jitsu · 2:07 · <a href="https://www.youtube.com/watch?v=ikqRbVwQ6eM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

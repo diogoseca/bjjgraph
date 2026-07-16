@@ -34,6 +34,43 @@ description: "Master the Leg Drag to Darce Setup transition. Step-by-step execut
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Darce Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm drag to darce choke, no-gi",
+      "description": "Leg Drag to Darce Setup film study: Arm drag to darce choke, no-gi, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EiUXb7SpH_E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EiUXb7SpH_E",
+      "url": "https://www.youtube.com/watch?v=EiUXb7SpH_E",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce choke to guard pass",
+      "description": "Leg Drag to Darce Setup film study: Darce choke to guard pass, taught by Josh Presley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rosmg5rjo_s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rosmg5rjo_s",
+      "url": "https://www.youtube.com/watch?v=Rosmg5rjo_s",
+      "creator": { "@type": "Person", "name": "Josh Presley" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this technique transforms what many consider a neutral exchange (
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Darce Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EiUXb7SpH_E)
+
+<p class="clip-credit"><strong>Arm drag to darce choke, no-gi</strong> — taught by Jean Jacques Machado · 1:13 · <a href="https://www.youtube.com/watch?v=EiUXb7SpH_E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rosmg5rjo_s)
+
+<p class="clip-credit"><strong>Darce choke to guard pass</strong> — taught by Josh Presley · 2:01 · <a href="https://www.youtube.com/watch?v=Rosmg5rjo_s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

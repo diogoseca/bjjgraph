@@ -34,6 +34,43 @@ description: "Master the calf slicer from twister control in BJJ. Learn setup me
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Twister Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister Roll to Calf Slicer",
+      "description": "Calf Slicer from Twister Control film study: Twister Roll to Calf Slicer, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4gzXKLfRlYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4gzXKLfRlYY",
+      "url": "https://www.youtube.com/watch?v=4gzXKLfRlYY",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister Side Attacks",
+      "description": "Calf Slicer from Twister Control film study: Twister Side Attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 **Starting Position**: [[Positions/Twister Control]] · **From**: [[Positions/Twister Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Twister Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4gzXKLfRlYY)
+
+<p class="clip-credit"><strong>Twister Roll to Calf Slicer</strong> — taught by Asaf Mich · 1:22 · <a href="https://www.youtube.com/watch?v=4gzXKLfRlYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister Side Attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

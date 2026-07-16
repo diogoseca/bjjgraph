@@ -140,6 +140,43 @@ description: "Defend against the grip fight escape from your rear triangle top p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Fight Escape from Rear Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Troubleshooting the rear triangle (ushiro sankaku)",
+      "description": "Grip Fight Escape from Rear Triangle (Defender) film study: Troubleshooting the rear triangle (ushiro sankaku), taught by kangchenjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kpUNco4wp0U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kpUNco4wp0U",
+      "url": "https://www.youtube.com/watch?v=kpUNco4wp0U",
+      "creator": { "@type": "Person", "name": "kangchenjj" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Maintaining back control with hooks",
+      "description": "Grip Fight Escape from Rear Triangle (Defender) film study: Maintaining back control with hooks, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
+      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the grip fight escape, you are the practitioner maintain
 **Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Fight Escape from Rear Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kpUNco4wp0U)
+
+<p class="clip-credit"><strong>Troubleshooting the rear triangle (ushiro sankaku)</strong> — taught by kangchenjj · 1:30 · <a href="https://www.youtube.com/watch?v=kpUNco4wp0U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
+
+<p class="clip-credit"><strong>Maintaining back control with hooks</strong> — taught by Gracie Charlottesville · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

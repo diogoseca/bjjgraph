@@ -142,6 +142,43 @@ description: "Defend against the Stack Escape from Triangle in BJJ. Learn to mai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Escape from Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the common triangle defense",
+      "description": "Stack Escape from Triangle (Defender) film study: Countering the common triangle defense, taught by Athlas coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1aiZKV5RmKs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1aiZKV5RmKs",
+      "url": "https://www.youtube.com/watch?v=1aiZKV5RmKs",
+      "creator": { "@type": "Person", "name": "Athlas coach" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the triangle stack into an armbar",
+      "description": "Stack Escape from Triangle (Defender) film study: Defending the triangle stack into an armbar, taught by JJPA Apex coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-QXaB5Sl2VQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-QXaB5Sl2VQ",
+      "url": "https://www.youtube.com/watch?v=-QXaB5Sl2VQ",
+      "creator": { "@type": "Person", "name": "JJPA Apex coach" },
+      "duration": "PT20S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ Defending against the Stack Escape requires the triangle bottom player to mainta
 **Opponent's Starting Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Escape from Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1aiZKV5RmKs)
+
+<p class="clip-credit"><strong>Countering the common triangle defense</strong> — taught by Athlas coach · 2:16 · <a href="https://www.youtube.com/watch?v=1aiZKV5RmKs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-QXaB5Sl2VQ)
+
+<p class="clip-credit"><strong>Defending the triangle stack into an armbar</strong> — taught by JJPA Apex coach · 0:20 · <a href="https://www.youtube.com/watch?v=-QXaB5Sl2VQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

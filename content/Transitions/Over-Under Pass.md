@@ -34,6 +34,54 @@ description: "Master the Over-Under Pass in BJJ. Pressure-based guard pass from 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Over-Under Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Over Under Pass to Kneebar",
+      "description": "Over-Under Pass film study: Over Under Pass to Kneebar, taught by Owen Livesey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mk4c5t8Eqd0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mk4c5t8Eqd0",
+      "url": "https://www.youtube.com/watch?v=mk4c5t8Eqd0",
+      "creator": { "@type": "Person", "name": "Owen Livesey" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Knee Shield from Over Under Position",
+      "description": "Over-Under Pass film study: Passing Knee Shield from Over Under Position, taught by Paragon Jiu-Jitsu Austin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MvsgiCFdQPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MvsgiCFdQPA",
+      "url": "https://www.youtube.com/watch?v=MvsgiCFdQPA",
+      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu Austin" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Over Under Pass from opponent pulling guard",
+      "description": "Over-Under Pass film study: Over Under Pass from opponent pulling guard, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ehau6wbheEU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ehau6wbheEU",
+      "url": "https://www.youtube.com/watch?v=ehau6wbheEU",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT193S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ Within the pressure-passing system, the Over-Under Pass stands as a cornerstone 
 **Success Rate**: 53%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Over-Under Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mk4c5t8Eqd0)
+
+<p class="clip-credit"><strong>Over Under Pass to Kneebar</strong> — taught by Owen Livesey · 1:19 · <a href="https://www.youtube.com/watch?v=mk4c5t8Eqd0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MvsgiCFdQPA)
+
+<p class="clip-credit"><strong>Passing Knee Shield from Over Under Position</strong> — taught by Paragon Jiu-Jitsu Austin · 1:56 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ehau6wbheEU)
+
+<p class="clip-credit"><strong>Over Under Pass from opponent pulling guard</strong> — taught by Bernardo Faria · 3:13 · <a href="https://www.youtube.com/watch?v=ehau6wbheEU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

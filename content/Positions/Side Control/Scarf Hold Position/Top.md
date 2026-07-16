@@ -153,6 +153,54 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scarf Hold Position (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Attacks from scarf hold",
+      "description": "Scarf Hold Position (Top) film study: Attacks from scarf hold, taught by Goulburn Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Y5HdBxqPv8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Y5HdBxqPv8",
+      "url": "https://www.youtube.com/watch?v=2Y5HdBxqPv8",
+      "creator": { "@type": "Person", "name": "Goulburn Martial Arts" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "12 Kesa Gatame attacks",
+      "description": "Scarf Hold Position (Top) film study: 12 Kesa Gatame attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side control to scarf hold position",
+      "description": "Scarf Hold Position (Top) film study: Side control to scarf hold position, taught by TRITAC Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SzLuqtw6lpE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SzLuqtw6lpE",
+      "url": "https://www.youtube.com/watch?v=SzLuqtw6lpE",
+      "creator": { "@type": "Person", "name": "TRITAC Martial Arts" },
+      "duration": "PT104S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
 Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived from Judo where the top practitioner sits perpendicular to the bottom opponent, controlling the head and near arm while sitting with their hips low and weight distributed across the opponent's chest. This position is characterized by the top player's chest-to-chest connection with the opponent, their near arm threading under and controlling the opponent's near arm, and their far arm encircling the opponent's head. The position offers exceptional control through weight distribution and structural positioning, though it has evolved in sport BJJ to be somewhat less dominant than in traditional grappling due to modern escape methodologies. Despite this, Scarf Hold remains a powerful control position when applied with proper technique, offering numerous submission opportunities including Americana, armlocks, and various chokes. The position's effectiveness relies heavily on maintaining tight connection, proper weight distribution through the hips rather than the base, and constant adjustment to the opponent's escape attempts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scarf Hold Position (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2Y5HdBxqPv8)
+
+<p class="clip-credit"><strong>Attacks from scarf hold</strong> — taught by Goulburn Martial Arts · 1:09 · <a href="https://www.youtube.com/watch?v=2Y5HdBxqPv8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SzLuqtw6lpE)
+
+<p class="clip-credit"><strong>Side control to scarf hold position</strong> — taught by TRITAC Martial Arts · 1:44 · <a href="https://www.youtube.com/watch?v=SzLuqtw6lpE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

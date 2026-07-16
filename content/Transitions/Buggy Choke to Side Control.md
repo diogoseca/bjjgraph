@@ -34,6 +34,54 @@ description: "Learn Buggy Choke to Side Control transition in BJJ. Strategic pos
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Buggy choke adjustment (gi)",
+      "description": "Buggy Choke to Side Control film study: Buggy choke adjustment (gi), taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jURfe8vyo8k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jURfe8vyo8k",
+      "url": "https://www.youtube.com/watch?v=jURfe8vyo8k",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ Buggy Choke demonstration",
+      "description": "Buggy Choke to Side Control film study: BJJ Buggy Choke demonstration, taught by Judoka.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jw8PSPrR8-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jw8PSPrR8-E",
+      "url": "https://www.youtube.com/watch?v=Jw8PSPrR8-E",
+      "creator": { "@type": "Person", "name": "Judoka" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North South Buggy Choke breakdown",
+      "description": "Buggy Choke to Side Control film study: North South Buggy Choke breakdown, taught by Blaise Malabre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cMid9XHfnKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cMid9XHfnKg",
+      "url": "https://www.youtube.com/watch?v=cMid9XHfnKg",
+      "creator": { "@type": "Person", "name": "Blaise Malabre" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The transition also serves as a psychological tool—opponents who know you will
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jURfe8vyo8k)
+
+<p class="clip-credit"><strong>Buggy choke adjustment (gi)</strong> — taught by bjj doug · 0:28 · <a href="https://www.youtube.com/watch?v=jURfe8vyo8k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jw8PSPrR8-E)
+
+<p class="clip-credit"><strong>BJJ Buggy Choke demonstration</strong> — taught by Judoka · 0:41 · <a href="https://www.youtube.com/watch?v=Jw8PSPrR8-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cMid9XHfnKg)
+
+<p class="clip-credit"><strong>North South Buggy Choke breakdown</strong> — taught by Blaise Malabre · 0:54 · <a href="https://www.youtube.com/watch?v=cMid9XHfnKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

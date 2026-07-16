@@ -153,6 +153,43 @@ description: "Master Old School Bottom position in BJJ half guard. Classic 10th 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Old school half guard sweep",
+      "description": "Old School (Bottom) film study: Old school half guard sweep, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Godfather sweep from lockdown half guard",
+      "description": "Old School (Bottom) film study: Godfather sweep from lockdown half guard, taught by Coach Paul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tTroLgpLJ1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tTroLgpLJ1k",
+      "url": "https://www.youtube.com/watch?v=tTroLgpLJ1k",
+      "creator": { "@type": "Person", "name": "Coach Paul" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The position represents a fundamental component of the 10th Planet half guard sy
 Old School Bottom is considered a transitional attacking position rather than a static control position. Practitioners typically enter this position with the specific intent of executing the Old School sweep, using the lockdown to prevent the opponent from establishing a strong base while the underhook and head control create the sweeping lever. Success depends on timing the sweep during the opponent's weight shift and maintaining tight connection throughout the rotation.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Old school half guard sweep</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tTroLgpLJ1k)
+
+<p class="clip-credit"><strong>Godfather sweep from lockdown half guard</strong> — taught by Coach Paul · 0:11 · <a href="https://www.youtube.com/watch?v=tTroLgpLJ1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

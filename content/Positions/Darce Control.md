@@ -34,6 +34,54 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce choke details",
+      "description": "Darce Control film study: Darce choke details, taught by Chad Lyman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jeHPHHtBbAo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jeHPHHtBbAo",
+      "url": "https://www.youtube.com/watch?v=jeHPHHtBbAo",
+      "creator": { "@type": "Person", "name": "Chad Lyman" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to north-south darce",
+      "description": "Darce Control film study: Side control to north-south darce, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to do a darce from front headlock",
+      "description": "Darce Control film study: How to do a darce from front headlock, taught by LI MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pc2yhqtRxJA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pc2yhqtRxJA",
+      "url": "https://www.youtube.com/watch?v=Pc2yhqtRxJA",
+      "creator": { "@type": "Person", "name": "LI MMA" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ Darce Control serves as both a submission position and a controlling platform fo
 The effectiveness of Darce Control lies in its ability to create multiple dilemmas for the opponent. Defensive movements that alleviate neck pressure often expose the back or create opportunities for positional advancement, while attempts to improve position typically tighten the choking mechanism. This makes Darce Control particularly valuable in both gi and no-gi grappling, though it sees more frequent application in no-gi contexts where the absence of collar grips makes front headlock positions especially potent. From the bottom perspective, escaping Darce Control requires immediate recognition, systematic defensive sequences, and precise timing to prevent submission while recovering to safer positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jeHPHHtBbAo)
+
+<p class="clip-credit"><strong>Darce choke details</strong> — taught by Chad Lyman · 0:53 · <a href="https://www.youtube.com/watch?v=jeHPHHtBbAo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south darce</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pc2yhqtRxJA)
+
+<p class="clip-credit"><strong>How to do a darce from front headlock</strong> — taught by LI MMA · 2:30 · <a href="https://www.youtube.com/watch?v=Pc2yhqtRxJA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -153,6 +153,54 @@ description: "Control opponents with innovative lapel grips and configurations. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm Guard to Back Choke",
+      "description": "Lapel Guard (Bottom) film study: Worm Guard to Back Choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel Sweep from Bottom (North-South)",
+      "description": "Lapel Guard (Bottom) film study: Lapel Sweep from Bottom (North-South), taught by Edward Anthony.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JgVZpD0yZPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JgVZpD0yZPk",
+      "url": "https://www.youtube.com/watch?v=JgVZpD0yZPk",
+      "creator": { "@type": "Person", "name": "Edward Anthony" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lapel Guard Takedown Breakdown",
+      "description": "Lapel Guard (Bottom) film study: Lapel Guard Takedown Breakdown, taught by Legion AJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
+      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
+      "creator": { "@type": "Person", "name": "Legion AJJ" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ Energy management favors the bottom player significantly once configurations are
 The learning curve for lapel guard is steep but rewarding. Initial sessions focus on reliably establishing basic configurations under resistance. Intermediate development adds sweeps and transitions between lapel variations. Advanced play involves reading opponent's weight distribution and creating submission opportunities from the control positions. The technical complexity creates significant competitive advantage against opponents unfamiliar with the system.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm Guard to Back Choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JgVZpD0yZPk)
+
+<p class="clip-credit"><strong>Lapel Sweep from Bottom (North-South)</strong> — taught by Edward Anthony · 1:22 · <a href="https://www.youtube.com/watch?v=JgVZpD0yZPk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
+
+<p class="clip-credit"><strong>Lapel Guard Takedown Breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

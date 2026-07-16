@@ -168,6 +168,54 @@ description: "How to execute Underhook Sweep from Half in BJJ. Attacking perspec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Sweep from Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Windmill underhook sweep from half guard",
+      "description": "Underhook Sweep from Half (Attacker) film study: Windmill underhook sweep from half guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3M6JUqr1Bo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3M6JUqr1Bo",
+      "url": "https://www.youtube.com/watch?v=X3M6JUqr1Bo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Underhook from knee shield into the sweep",
+      "description": "Underhook Sweep from Half (Attacker) film study: Underhook from knee shield into the sweep, taught by Kaboom BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K7U2uBUfq-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K7U2uBUfq-c",
+      "url": "https://www.youtube.com/watch?v=K7U2uBUfq-c",
+      "creator": { "@type": "Person", "name": "Kaboom BJJ coach" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The underhook sweep from half guard",
+      "description": "Underhook Sweep from Half (Attacker) film study: The underhook sweep from half guard, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sPLKK9xvQ38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sPLKK9xvQ38",
+      "url": "https://www.youtube.com/watch?v=sPLKK9xvQ38",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT276S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The Underhook Sweep from Half Guard is a fundamental attacking technique that ex
 **From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Sweep from Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
+
+<p class="clip-credit"><strong>Windmill underhook sweep from half guard</strong> — taught by Roger Gracie · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K7U2uBUfq-c)
+
+<p class="clip-credit"><strong>Underhook from knee shield into the sweep</strong> — taught by Kaboom BJJ coach · 2:09 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sPLKK9xvQ38)
+
+<p class="clip-credit"><strong>The underhook sweep from half guard</strong> — taught by Brandon Quick · 4:36 · <a href="https://www.youtube.com/watch?v=sPLKK9xvQ38" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

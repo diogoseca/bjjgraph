@@ -153,6 +153,54 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Body Ride (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Get to the far hip and hold it in place",
+      "description": "Cross Body Ride (Top) film study: Get to the far hip and hold it in place, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tQdLbooJjvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tQdLbooJjvI",
+      "url": "https://www.youtube.com/watch?v=tQdLbooJjvI",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross body ride back take vs turtle",
+      "description": "Cross Body Ride (Top) film study: Cross body ride back take vs turtle, taught by Paul McVeigh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aX87dPPVcGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aX87dPPVcGU",
+      "url": "https://www.youtube.com/watch?v=aX87dPPVcGU",
+      "creator": { "@type": "Person", "name": "Paul McVeigh" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shallow cross face detail",
+      "description": "Cross Body Ride (Top) film study: Shallow cross face detail, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
+      "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The Cross Body Ride is a critical transitional position in no-gi grappling and s
 Modern approaches to the Cross Body Ride emphasize dynamic control rather than static holding, with practitioners constantly adjusting weight distribution and grip placement based on the opponent's reactions. This position represents the intersection of technical control and athletic adaptability, requiring practitioners to read and respond to defensive movements while maintaining dominant positioning throughout the engagement.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Body Ride (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tQdLbooJjvI)
+
+<p class="clip-credit"><strong>Get to the far hip and hold it in place</strong> — taught by John Danaher · 0:13 · <a href="https://www.youtube.com/watch?v=tQdLbooJjvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aX87dPPVcGU)
+
+<p class="clip-credit"><strong>Cross body ride back take vs turtle</strong> — taught by Paul McVeigh · 1:47 · <a href="https://www.youtube.com/watch?v=aX87dPPVcGU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
+
+<p class="clip-credit"><strong>Shallow cross face detail</strong> — taught by Craig Jones · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

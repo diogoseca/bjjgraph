@@ -148,6 +148,43 @@ description: "How to counter Hip Rotation Defense in BJJ from ankle lock control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Rotation Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the ankle lock when they roll out",
+      "description": "Hip Rotation Defense (Defender) film study: Finishing the ankle lock when they roll out, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/akB_o9gaNuc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/akB_o9gaNuc",
+      "url": "https://www.youtube.com/watch?v=akB_o9gaNuc",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight ankle lock finishing details",
+      "description": "Hip Rotation Defense (Defender) film study: Straight ankle lock finishing details, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E-xIK4pXoF0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E-xIK4pXoF0",
+      "url": "https://www.youtube.com/watch?v=E-xIK4pXoF0",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The critical defensive skill is reading which direction your opponent will rotat
 **Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Rotation Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=akB_o9gaNuc)
+
+<p class="clip-credit"><strong>Finishing the ankle lock when they roll out</strong> — taught by James O&#39;Connor · 1:01 · <a href="https://www.youtube.com/watch?v=akB_o9gaNuc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E-xIK4pXoF0)
+
+<p class="clip-credit"><strong>Straight ankle lock finishing details</strong> — taught by Matt Arroyo · 1:22 · <a href="https://www.youtube.com/watch?v=E-xIK4pXoF0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

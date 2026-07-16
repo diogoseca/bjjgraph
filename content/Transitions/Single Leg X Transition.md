@@ -34,6 +34,54 @@ description: "Master Single Leg X Transition from Grasshopper Guard in BJJ. Comp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X Transition \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X to X guard transition",
+      "description": "Single Leg X Transition film study: Single leg X to X guard transition, taught by Cate BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ufdgy_flsdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ufdgy_flsdg",
+      "url": "https://www.youtube.com/watch?v=ufdgy_flsdg",
+      "creator": { "@type": "Person", "name": "Cate BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting to backside 50/50 from single leg X",
+      "description": "Single Leg X Transition film study: Getting to backside 50/50 from single leg X, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single leg X transition to X guard sweep",
+      "description": "Single Leg X Transition film study: Single leg X transition to X guard sweep, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aoyScppYR1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aoyScppYR1E",
+      "url": "https://www.youtube.com/watch?v=aoyScppYR1E",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,6 +119,42 @@ The timing window for this transition typically opens when the opponent shifts t
 **Success Rate**: 53%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X Transition in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ufdgy_flsdg)
+
+<p class="clip-credit"><strong>Single leg X to X guard transition</strong> — taught by Cate BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=ufdgy_flsdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to backside 50/50 from single leg X</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aoyScppYR1E)
+
+<p class="clip-credit"><strong>Single leg X transition to X guard sweep</strong> — taught by BJJ4Breakfast · 2:40 · <a href="https://www.youtube.com/watch?v=aoyScppYR1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

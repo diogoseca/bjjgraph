@@ -34,6 +34,43 @@ description: "Master the Stack from Williams Guard in BJJ. Learn to neutralize s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack from Williams Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard stack pass in live rolling",
+      "description": "Stack from Williams Guard film study: Closed guard stack pass in live rolling, taught by Roll 247.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QJQcGbxpR0c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QJQcGbxpR0c",
+      "url": "https://www.youtube.com/watch?v=QJQcGbxpR0c",
+      "creator": { "@type": "Person", "name": "Roll 247" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stack pass variation from open guard",
+      "description": "Stack from Williams Guard film study: Stack pass variation from open guard, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t5nGc9oUeoM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t5nGc9oUeoM",
+      "url": "https://www.youtube.com/watch?v=t5nGc9oUeoM",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique requires precise weight distribution and progressive pressure appl
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack from Williams Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QJQcGbxpR0c)
+
+<p class="clip-credit"><strong>Closed guard stack pass in live rolling</strong> — taught by Roll 247 · 0:45 · <a href="https://www.youtube.com/watch?v=QJQcGbxpR0c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t5nGc9oUeoM)
+
+<p class="clip-credit"><strong>Stack pass variation from open guard</strong> — taught by Scott Ryan Chiriboga · 3:21 · <a href="https://www.youtube.com/watch?v=t5nGc9oUeoM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Saddle Entry from Outside Ashi in BJJ. Advanced counter
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Saddle Entry from Outside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle entries from guard",
+      "description": "Saddle Entry from Outside Ashi film study: Saddle entries from guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
+      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K-guard entry to the saddle at Worlds",
+      "description": "Saddle Entry from Outside Ashi film study: K-guard entry to the saddle at Worlds, taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KBkoWJtMeNA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KBkoWJtMeNA",
+      "url": "https://www.youtube.com/watch?v=KBkoWJtMeNA",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kani basami into cross ashi / saddle entry",
+      "description": "Saddle Entry from Outside Ashi film study: Kani basami into cross ashi / saddle entry, taught by Jack Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pucHycpOJ3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pucHycpOJ3w",
+      "url": "https://www.youtube.com/watch?v=pucHycpOJ3w",
+      "creator": { "@type": "Person", "name": "Jack Brown" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, mastering this counter-entanglement makes you significantly more 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Saddle Entry from Outside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
+
+<p class="clip-credit"><strong>Saddle entries from guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KBkoWJtMeNA)
+
+<p class="clip-credit"><strong>K-guard entry to the saddle at Worlds</strong> — taught by bjj doug · 0:28 · <a href="https://www.youtube.com/watch?v=KBkoWJtMeNA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pucHycpOJ3w)
+
+<p class="clip-credit"><strong>Kani basami into cross ashi / saddle entry</strong> — taught by Jack Brown · 0:31 · <a href="https://www.youtube.com/watch?v=pucHycpOJ3w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

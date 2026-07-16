@@ -152,6 +152,54 @@ description: "Defend against the Peruvian Necktie from front headlock. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peruvian Necktie from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Peruvian Necktie Escape",
+      "description": "Peruvian Necktie from Front Headlock (Defender) film study: Peruvian Necktie Escape, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FuNT7N9X8y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FuNT7N9X8y8",
+      "url": "https://www.youtube.com/watch?v=FuNT7N9X8y8",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT183S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clearing the Front Headlock",
+      "description": "Peruvian Necktie from Front Headlock (Defender) film study: Clearing the Front Headlock, taught by The School of Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OZkTT8kT1G8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OZkTT8kT1G8",
+      "url": "https://www.youtube.com/watch?v=OZkTT8kT1G8",
+      "creator": { "@type": "Person", "name": "The School of Wrestling" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle Escape from the Front Headlock",
+      "description": "Peruvian Necktie from Front Headlock (Defender) film study: Turtle Escape from the Front Headlock, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5rVU51Brvs4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5rVU51Brvs4",
+      "url": "https://www.youtube.com/watch?v=5rVU51Brvs4",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT49S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ Defending the Peruvian Necktie from front headlock demands early recognition and
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peruvian Necktie from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FuNT7N9X8y8)
+
+<p class="clip-credit"><strong>Peruvian Necktie Escape</strong> — taught by Chosen Few BJJ · 3:03 · <a href="https://www.youtube.com/watch?v=FuNT7N9X8y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OZkTT8kT1G8)
+
+<p class="clip-credit"><strong>Clearing the Front Headlock</strong> — taught by The School of Wrestling · 1:26 · <a href="https://www.youtube.com/watch?v=OZkTT8kT1G8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5rVU51Brvs4)
+
+<p class="clip-credit"><strong>Turtle Escape from the Front Headlock</strong> — taught by Jiu Jitsu Five-O · 0:49 · <a href="https://www.youtube.com/watch?v=5rVU51Brvs4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

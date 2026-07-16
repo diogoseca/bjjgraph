@@ -164,6 +164,54 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Position-Over-Submission Approach \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Position before submission",
+      "description": "Position-Over-Submission Approach film study: Position before submission, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HxLJTGnVsMo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HxLJTGnVsMo",
+      "url": "https://www.youtube.com/watch?v=HxLJTGnVsMo",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT159S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Position before submission for beginners",
+      "description": "Position-Over-Submission Approach film study: Position before submission for beginners, taught by Budo Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aJrAulixy9Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aJrAulixy9Y",
+      "url": "https://www.youtube.com/watch?v=aJrAulixy9Y",
+      "creator": { "@type": "Person", "name": "Budo Brothers" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Position before submission explained",
+      "description": "Position-Over-Submission Approach film study: Position before submission explained, taught by Straight Talking Leadership.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MP06_BxtJkU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MP06_BxtJkU",
+      "url": "https://www.youtube.com/watch?v=MP06_BxtJkU",
+      "creator": { "@type": "Person", "name": "Straight Talking Leadership" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Position-Over-Submission Approach?
@@ -177,6 +225,42 @@ This strategic framework guides practitioners to think hierarchically about posi
 The Position Over Submission philosophy extends beyond individual technique execution to encompass overall match strategy, training methodology, and skill development. It teaches practitioners to view grappling exchanges as strategic campaigns rather than isolated submission attempts, building cumulative advantages through positional chess rather than gambling on low-percentage finishing attempts. This approach proves particularly effective in competition, where positional points reward systematic advancement and where submission attempts from poor positions often result in sweeps, reversals, or position loss that negates earlier work.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Position-Over-Submission Approach in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HxLJTGnVsMo)
+
+<p class="clip-credit"><strong>Position before submission</strong> — taught by Marcelo Garcia · 2:39 · <a href="https://www.youtube.com/watch?v=HxLJTGnVsMo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aJrAulixy9Y)
+
+<p class="clip-credit"><strong>Position before submission for beginners</strong> — taught by Budo Brothers · 3:48 · <a href="https://www.youtube.com/watch?v=aJrAulixy9Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=MP06_BxtJkU)
+
+<p class="clip-credit"><strong>Position before submission explained</strong> — taught by Straight Talking Leadership · 1:01 · <a href="https://www.youtube.com/watch?v=MP06_BxtJkU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

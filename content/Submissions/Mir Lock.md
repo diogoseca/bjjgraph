@@ -34,6 +34,43 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mir Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top Side Mir Lock (Shoulder Submission) No-Gi",
+      "description": "Mir Lock film study: Top Side Mir Lock (Shoulder Submission) No-Gi, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6IVQPq5BJZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6IVQPq5BJZ0",
+      "url": "https://www.youtube.com/watch?v=6IVQPq5BJZ0",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Shield Series - Mir Lock",
+      "description": "Mir Lock film study: Knee Shield Series - Mir Lock, taught by TAPS BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8dFph1erRNE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8dFph1erRNE",
+      "url": "https://www.youtube.com/watch?v=8dFph1erRNE",
+      "creator": { "@type": "Person", "name": "TAPS BJJ" },
+      "duration": "PT168S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +117,34 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 The Mir Lock is a powerful shoulder lock submission that targets the glenohumeral joint through hyperextension and rotation. The name pays homage to UFC Hall of Famer Frank Mir, who at UFC 48 secured a kimura grip on Tim Sylvia and finished with a straight armlock that snapped the forearm — a true arm/elbow break rather than a shoulder break, so the namesake honors Mir's signature figure-four arm control rather than this specific shoulder-hyperextension finish. Building on that figure-four grip lineage, this submission represents a devastating variation of the traditional Americana position. The mechanics involve isolating the opponent's arm while applying rotational pressure that combines external rotation with backward leverage against the shoulder's natural range of motion. Unlike the standard Americana which emphasizes figure-four control and lateral rotation, the Mir Lock utilizes a straight-arm position with the attacker's body weight driving the shoulder into dangerous hyperextension. This submission is most commonly applied from top control positions like side control, north-south, or modified mount, where the attacker has superior positioning and can effectively isolate one of the opponent's arms. The technique requires precise understanding of shoulder anatomy and careful application due to its potential for catastrophic injury. The Mir Lock exemplifies the principle that submissions should control the position first, establish the grip structure second, and only then apply finishing pressure with proper safety awareness.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mir Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6IVQPq5BJZ0)
+
+<p class="clip-credit"><strong>Top Side Mir Lock (Shoulder Submission) No-Gi</strong> — taught by ZombieProofBJJ · 1:23 · <a href="https://www.youtube.com/watch?v=6IVQPq5BJZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8dFph1erRNE)
+
+<p class="clip-credit"><strong>Knee Shield Series - Mir Lock</strong> — taught by TAPS BJJ · 2:48 · <a href="https://www.youtube.com/watch?v=8dFph1erRNE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

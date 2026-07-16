@@ -34,6 +34,54 @@ description: "Master the North-South Recovery from Jailbreak in BJJ. Learn weigh
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Recovery from Jailbreak \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Moving to north-south to counter the underhook escape",
+      "description": "North-South Recovery from Jailbreak film study: Moving to north-south to counter the underhook escape, taught by Paul McVeigh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yzd35ezo2OQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yzd35ezo2OQ",
+      "url": "https://www.youtube.com/watch?v=Yzd35ezo2OQ",
+      "creator": { "@type": "Person", "name": "Paul McVeigh" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape north south in jiu jitsu",
+      "description": "North-South Recovery from Jailbreak film study: How to escape north south in jiu jitsu, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rmT52A--V3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rmT52A--V3Q",
+      "url": "https://www.youtube.com/watch?v=rmT52A--V3Q",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT203S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping a tight north south \u2014 two options",
+      "description": "North-South Recovery from Jailbreak film study: Escaping a tight north south \u2014 two options, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A9PAlXwclPI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A9PAlXwclPI",
+      "url": "https://www.youtube.com/watch?v=A9PAlXwclPI",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT305S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The North-South Recovery serves as an important safety valve in the top player's
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Recovery from Jailbreak in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yzd35ezo2OQ)
+
+<p class="clip-credit"><strong>Moving to north-south to counter the underhook escape</strong> — taught by Paul McVeigh · 1:16 · <a href="https://www.youtube.com/watch?v=Yzd35ezo2OQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rmT52A--V3Q)
+
+<p class="clip-credit"><strong>How to escape north south in jiu jitsu</strong> — taught by Jon Thomas · 3:23 · <a href="https://www.youtube.com/watch?v=rmT52A--V3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A9PAlXwclPI)
+
+<p class="clip-credit"><strong>Escaping a tight north south — two options</strong> — taught by Chewjitsu · 5:05 · <a href="https://www.youtube.com/watch?v=A9PAlXwclPI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

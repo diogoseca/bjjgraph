@@ -34,6 +34,54 @@ description: "Master the belly down armbar finish from Kesa Gatame. Learn the st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Kesa Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ude-Gatame",
+      "description": "Belly Down Armbar from Kesa Gatame film study: Ude-Gatame, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mu1TlMqe6KY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mu1TlMqe6KY",
+      "url": "https://www.youtube.com/watch?v=Mu1TlMqe6KY",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "12 Kesa Gatame Attacks",
+      "description": "Belly Down Armbar from Kesa Gatame film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa Gatame to arm bar",
+      "description": "Belly Down Armbar from Kesa Gatame film study: Kesa Gatame to arm bar, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mJQoIUdxnoo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mJQoIUdxnoo",
+      "url": "https://www.youtube.com/watch?v=mJQoIUdxnoo",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT249S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ This technique is particularly effective against opponents who defend the tradit
 **Starting Position**: [[Positions/Side Control/Kesa Gatame]] · **From**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Kesa Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mu1TlMqe6KY)
+
+<p class="clip-credit"><strong>Ude-Gatame</strong> — taught by Travis Stevens · 0:37 · <a href="https://www.youtube.com/watch?v=Mu1TlMqe6KY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mJQoIUdxnoo)
+
+<p class="clip-credit"><strong>Kesa Gatame to arm bar</strong> — taught by dogtownman · 4:09 · <a href="https://www.youtube.com/watch?v=mJQoIUdxnoo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

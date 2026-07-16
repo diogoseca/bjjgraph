@@ -34,6 +34,54 @@ description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crackhead Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Eddie Bravo Explains Rubber Guard",
+      "description": "Crackhead Control film study: Eddie Bravo Explains Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
+      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gag reflex from crackhead control",
+      "description": "Crackhead Control film study: Gag reflex from crackhead control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6grBGUO0fpM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6grBGUO0fpM",
+      "url": "https://www.youtube.com/watch?v=6grBGUO0fpM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT159S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crackhead control position demonstrated",
+      "description": "Crackhead Control film study: Crackhead control position demonstrated, taught by Joe Rogan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nIKiLl3mF0c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nIKiLl3mF0c",
+      "url": "https://www.youtube.com/watch?v=nIKiLl3mF0c",
+      "creator": { "@type": "Person", "name": "Joe Rogan" },
+      "duration": "PT36S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ Energy economics in Crackhead Control favor the bottom player despite the seemin
 The position's integration within the broader 10th Planet system provides multiple entry pathways and exit strategies. Practitioners can enter Crackhead Control from Mission Control, New York, or directly from closed guard when the opponent's posture breaks forward. Exit options include transitioning to Carni for gogoplata setups, moving to standard omoplata control, or releasing to standing positions if back attacks become imminent. This systematic connectivity ensures Crackhead Control functions not as an isolated technique but as a node within a comprehensive guard framework.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crackhead Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
+
+<p class="clip-credit"><strong>Eddie Bravo Explains Rubber Guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6grBGUO0fpM)
+
+<p class="clip-credit"><strong>Gag reflex from crackhead control</strong> — taught by Eddie Bravo · 2:39 · <a href="https://www.youtube.com/watch?v=6grBGUO0fpM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nIKiLl3mF0c)
+
+<p class="clip-credit"><strong>Crackhead control position demonstrated</strong> — taught by Joe Rogan · 0:36 · <a href="https://www.youtube.com/watch?v=nIKiLl3mF0c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

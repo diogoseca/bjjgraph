@@ -34,6 +34,54 @@ description: "Master Truck Position in BJJ with comprehensive bottom and top per
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Focusing on the truck",
+      "description": "Truck film study: Focusing on the truck, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZVAmQ2Sf-Fc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZVAmQ2Sf-Fc",
+      "url": "https://www.youtube.com/watch?v=ZVAmQ2Sf-Fc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The truck in transition",
+      "description": "Truck film study: The truck in transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two entries into the truck",
+      "description": "Truck film study: Two entries into the truck, taught by Geo Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y693ZHlCd2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y693ZHlCd2Q",
+      "url": "https://www.youtube.com/watch?v=Y693ZHlCd2Q",
+      "creator": { "@type": "Person", "name": "Geo Martinez" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ The position exists in two distinct perspectives: from the bottom, it is a high-
 Historically, the truck evolved from wrestling's turk ride, adapted into the 10th Planet system as a submission-hunting platform rather than merely a controlling pin. The figure-four leg configuration distinguishes it from standard back control by immobilizing the opponent's hips independently of hook placement, creating a stable base for attacks that target the spine and legs simultaneously. In competition, the truck has proven effective across rule sets, from submission-only formats where the extended control time allows methodical attack chains, to points-based competitions where the position scores equivalent to back control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZVAmQ2Sf-Fc)
+
+<p class="clip-credit"><strong>Focusing on the truck</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=ZVAmQ2Sf-Fc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The truck in transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y693ZHlCd2Q)
+
+<p class="clip-credit"><strong>Two entries into the truck</strong> — taught by Geo Martinez · 1:40 · <a href="https://www.youtube.com/watch?v=Y693ZHlCd2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

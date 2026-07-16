@@ -34,6 +34,54 @@ description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execut
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Closed Guard to Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard triangle entry",
+      "description": "Closed Guard to Triangle film study: Closed guard triangle entry, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8zbp7hnlWcc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8zbp7hnlWcc",
+      "url": "https://www.youtube.com/watch?v=8zbp7hnlWcc",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle choke from closed guard",
+      "description": "Closed Guard to Triangle film study: Triangle choke from closed guard, taught by Grappling Game Changer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QOWZKuEtXjc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QOWZKuEtXjc",
+      "url": "https://www.youtube.com/watch?v=QOWZKuEtXjc",
+      "creator": { "@type": "Person", "name": "Grappling Game Changer" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle choke setup from guard",
+      "description": "Closed Guard to Triangle film study: Triangle choke setup from guard, taught by Gokor Chivichyan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N-wlZQRxFM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N-wlZQRxFM8",
+      "url": "https://www.youtube.com/watch?v=N-wlZQRxFM8",
+      "creator": { "@type": "Person", "name": "Gokor Chivichyan" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Mastery of this sequence provides a reliable pathway to finish matches while sim
 **Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Closed Guard to Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8zbp7hnlWcc)
+
+<p class="clip-credit"><strong>Closed guard triangle entry</strong> — taught by Clark Gracie · 1:35 · <a href="https://www.youtube.com/watch?v=8zbp7hnlWcc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QOWZKuEtXjc)
+
+<p class="clip-credit"><strong>Triangle choke from closed guard</strong> — taught by Grappling Game Changer · 1:29 · <a href="https://www.youtube.com/watch?v=QOWZKuEtXjc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N-wlZQRxFM8)
+
+<p class="clip-credit"><strong>Triangle choke setup from guard</strong> — taught by Gokor Chivichyan · 1:01 · <a href="https://www.youtube.com/watch?v=N-wlZQRxFM8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

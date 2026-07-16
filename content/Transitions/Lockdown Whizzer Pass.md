@@ -34,6 +34,43 @@ description: "Master the Lockdown Whizzer Pass in BJJ. Use overhook control to c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown Whizzer Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Whizzer choke setup from half guard top",
+      "description": "Lockdown Whizzer Pass film study: Whizzer choke setup from half guard top, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YGwFWamjXKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YGwFWamjXKg",
+      "url": "https://www.youtube.com/watch?v=YGwFWamjXKg",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Whizzer and dogfight sweep mechanics",
+      "description": "Lockdown Whizzer Pass film study: Whizzer and dogfight sweep mechanics, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hotSXTK9oGI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hotSXTK9oGI",
+      "url": "https://www.youtube.com/watch?v=hotSXTK9oGI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Execution requires patience and precise sequencing. The top player must fully co
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown Whizzer Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YGwFWamjXKg)
+
+<p class="clip-credit"><strong>Whizzer choke setup from half guard top</strong> — taught by Coach Brian · 2:21 · <a href="https://www.youtube.com/watch?v=YGwFWamjXKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hotSXTK9oGI)
+
+<p class="clip-credit"><strong>Whizzer and dogfight sweep mechanics</strong> — taught by Brandon McCaghren · 2:49 · <a href="https://www.youtube.com/watch?v=hotSXTK9oGI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against Peterson Roll in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peterson Roll (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the Peterson roll",
+      "description": "Peterson Roll (Defender) film study: Preventing the Peterson roll, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MVR2PubZGn8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MVR2PubZGn8",
+      "url": "https://www.youtube.com/watch?v=MVR2PubZGn8",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT256S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fat man roll defense after you\u0027re late",
+      "description": "Peterson Roll (Defender) film study: Fat man roll defense after you\u0027re late, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/33QXFbKKQt4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/33QXFbKKQt4",
+      "url": "https://www.youtube.com/watch?v=33QXFbKKQt4",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT227S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "First steps to stop the fat man roll",
+      "description": "Peterson Roll (Defender) film study: First steps to stop the fat man roll, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/okQoqbMj-2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/okQoqbMj-2s",
+      "url": "https://www.youtube.com/watch?v=okQoqbMj-2s",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT265S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Peterson Roll requires the turtle top player to recognize the earl
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peterson Roll (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MVR2PubZGn8)
+
+<p class="clip-credit"><strong>Preventing the Peterson roll</strong> — taught by Bernardo Faria · 4:16 · <a href="https://www.youtube.com/watch?v=MVR2PubZGn8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=33QXFbKKQt4)
+
+<p class="clip-credit"><strong>Fat man roll defense after you&#39;re late</strong> — taught by RVV BJJ · 3:47 · <a href="https://www.youtube.com/watch?v=33QXFbKKQt4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=okQoqbMj-2s)
+
+<p class="clip-credit"><strong>First steps to stop the fat man roll</strong> — taught by RVV BJJ · 4:25 · <a href="https://www.youtube.com/watch?v=okQoqbMj-2s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

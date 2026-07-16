@@ -148,6 +148,54 @@ description: "Complete guide to defending and escaping the Hindulotine finish. L
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Finish from Hindulotine (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine defense from inside the guard",
+      "description": "Finish from Hindulotine (Defender) film study: Guillotine defense from inside the guard, taught by Soma Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q6efGUnLu9s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q6efGUnLu9s",
+      "url": "https://www.youtube.com/watch?v=q6efGUnLu9s",
+      "creator": { "@type": "Person", "name": "Soma Academy" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the guillotine from closed guard",
+      "description": "Finish from Hindulotine (Defender) film study: Defending the guillotine from closed guard, taught by Double Phoenix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OI_18KI8_jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OI_18KI8_jg",
+      "url": "https://www.youtube.com/watch?v=OI_18KI8_jg",
+      "creator": { "@type": "Person", "name": "Double Phoenix Jiu Jitsu" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping a guillotine choke from guard",
+      "description": "Finish from Hindulotine (Defender) film study: Escaping a guillotine choke from guard, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ra6bs8YwYGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ra6bs8YwYGc",
+      "url": "https://www.youtube.com/watch?v=ra6bs8YwYGc",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender's strategic priorities are layered: first prevent the finish throug
 **Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Finish from Hindulotine (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q6efGUnLu9s)
+
+<p class="clip-credit"><strong>Guillotine defense from inside the guard</strong> — taught by Soma Academy · 0:52 · <a href="https://www.youtube.com/watch?v=q6efGUnLu9s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OI_18KI8_jg)
+
+<p class="clip-credit"><strong>Defending the guillotine from closed guard</strong> — taught by Double Phoenix Jiu Jitsu · 0:48 · <a href="https://www.youtube.com/watch?v=OI_18KI8_jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ra6bs8YwYGc)
+
+<p class="clip-credit"><strong>Escaping a guillotine choke from guard</strong> — taught by Cosens MMA · 1:28 · <a href="https://www.youtube.com/watch?v=ra6bs8YwYGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

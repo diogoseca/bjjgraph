@@ -174,6 +174,54 @@ description: "How to execute Arm Triangle Setup in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle Setup (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North south arm choke setup",
+      "description": "Arm Triangle Setup (Attacker) film study: North south arm choke setup, taught by BJJ Recap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WzA25kaIqEg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WzA25kaIqEg",
+      "url": "https://www.youtube.com/watch?v=WzA25kaIqEg",
+      "creator": { "@type": "Person", "name": "BJJ Recap" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head and arm choke from north-south",
+      "description": "Arm Triangle Setup (Attacker) film study: Head and arm choke from north-south, taught by Mark Cukro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AtRy0npW6x0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AtRy0npW6x0",
+      "url": "https://www.youtube.com/watch?v=AtRy0npW6x0",
+      "creator": { "@type": "Person", "name": "Mark Cukro" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North south choke, arm in variation",
+      "description": "Arm Triangle Setup (Attacker) film study: North south choke, arm in variation, taught by LEGACY TV.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1o3yaF5MiW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1o3yaF5MiW8",
+      "url": "https://www.youtube.com/watch?v=1o3yaF5MiW8",
+      "creator": { "@type": "Person", "name": "LEGACY TV" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 **From Position**: [[Positions/North-South]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle Setup (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WzA25kaIqEg)
+
+<p class="clip-credit"><strong>North south arm choke setup</strong> — taught by BJJ Recap · 0:46 · <a href="https://www.youtube.com/watch?v=WzA25kaIqEg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AtRy0npW6x0)
+
+<p class="clip-credit"><strong>Head and arm choke from north-south</strong> — taught by Mark Cukro · 1:32 · <a href="https://www.youtube.com/watch?v=AtRy0npW6x0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1o3yaF5MiW8)
+
+<p class="clip-credit"><strong>North south choke, arm in variation</strong> — taught by LEGACY TV · 1:35 · <a href="https://www.youtube.com/watch?v=1o3yaF5MiW8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

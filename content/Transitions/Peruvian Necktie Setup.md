@@ -34,6 +34,54 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peruvian Necktie Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Peruvian Necktie submission demo",
+      "description": "Peruvian Necktie Setup film study: Peruvian Necktie submission demo, taught by BJJ Fanatics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5-Hoy4WV7bI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5-Hoy4WV7bI",
+      "url": "https://www.youtube.com/watch?v=5-Hoy4WV7bI",
+      "creator": { "@type": "Person", "name": "BJJ Fanatics" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi Peruvian Necktie into Anaconda",
+      "description": "Peruvian Necktie Setup film study: No-gi Peruvian Necktie into Anaconda, taught by Amir Allah.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BRS_zC49Kas/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BRS_zC49Kas",
+      "url": "https://www.youtube.com/watch?v=BRS_zC49Kas",
+      "creator": { "@type": "Person", "name": "Amir Allah" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Peruvian Necktie breakdown",
+      "description": "Peruvian Necktie Setup film study: Peruvian Necktie breakdown, taught by Luke Harris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WpQIntujyFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WpQIntujyFU",
+      "url": "https://www.youtube.com/watch?v=WpQIntujyFU",
+      "creator": { "@type": "Person", "name": "Luke Harris" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 **Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peruvian Necktie Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5-Hoy4WV7bI)
+
+<p class="clip-credit"><strong>Peruvian Necktie submission demo</strong> — taught by BJJ Fanatics · 1:08 · <a href="https://www.youtube.com/watch?v=5-Hoy4WV7bI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BRS_zC49Kas)
+
+<p class="clip-credit"><strong>No-gi Peruvian Necktie into Anaconda</strong> — taught by Amir Allah · 0:49 · <a href="https://www.youtube.com/watch?v=BRS_zC49Kas" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WpQIntujyFU)
+
+<p class="clip-credit"><strong>Peruvian Necktie breakdown</strong> — taught by Luke Harris · 1:46 · <a href="https://www.youtube.com/watch?v=WpQIntujyFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

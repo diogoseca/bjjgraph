@@ -153,6 +153,54 @@ description: "Master the attacking perspective of straight ankle lock control. C
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Beat the Boot: Straight Ankle Lock Escape",
+      "description": "Straight Ankle Lock Control (Bottom) film study: Beat the Boot: Straight Ankle Lock Escape, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GCcYYBHUi3c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GCcYYBHUi3c",
+      "url": "https://www.youtube.com/watch?v=GCcYYBHUi3c",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the butterfly ashi straight ankle lock",
+      "description": "Straight Ankle Lock Control (Bottom) film study: Defending the butterfly ashi straight ankle lock, taught by Patrick Louys.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l7u1ce88jqM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l7u1ce88jqM",
+      "url": "https://www.youtube.com/watch?v=l7u1ce88jqM",
+      "creator": { "@type": "Person", "name": "Patrick Louys" },
+      "duration": "PT211S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to stop getting leg locked",
+      "description": "Straight Ankle Lock Control (Bottom) film study: How to stop getting leg locked, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mycu_0dRZg8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mycu_0dRZg8",
+      "url": "https://www.youtube.com/watch?v=mycu_0dRZg8",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT331S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ Modern approach to straight ankle lock control from bottom emphasizes system int
 The technical execution requires precise coordination of grips, leg positioning, and hip movement. The attacking legs must actively prevent the defender from rotating their hip while remaining flexible enough to transition fluidly when the defender attempts escape. The hands must maintain firm ankle control without telegraphing submission attempts, allowing the attacker to threaten finishes while remaining ready to transition based on defensive reactions. This balance of control and mobility distinguishes effective straight ankle lock control from ineffective attempts that allow easy escape.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GCcYYBHUi3c)
+
+<p class="clip-credit"><strong>Beat the Boot: Straight Ankle Lock Escape</strong> — taught by Patrick Donabedian · 0:56 · <a href="https://www.youtube.com/watch?v=GCcYYBHUi3c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l7u1ce88jqM)
+
+<p class="clip-credit"><strong>Defending the butterfly ashi straight ankle lock</strong> — taught by Patrick Louys · 3:31 · <a href="https://www.youtube.com/watch?v=l7u1ce88jqM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mycu_0dRZg8)
+
+<p class="clip-credit"><strong>How to stop getting leg locked</strong> — taught by Brandon Mccaghren · 5:31 · <a href="https://www.youtube.com/watch?v=mycu_0dRZg8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

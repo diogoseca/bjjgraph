@@ -158,6 +158,43 @@ description: "Defend against the Aoki Lock compression from Aoki Lock control. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock from Aoki Lock Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll out counter to the calf slicer",
+      "description": "Aoki Lock from Aoki Lock Control (Defender) film study: Roll out counter to the calf slicer, taught by Charlie Cosens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KOz3WqQJ3Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KOz3WqQJ3Tk",
+      "url": "https://www.youtube.com/watch?v=KOz3WqQJ3Tk",
+      "creator": { "@type": "Person", "name": "Charlie Cosens" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ankle lock counter to calf cutter",
+      "description": "Aoki Lock from Aoki Lock Control (Defender) film study: Ankle lock counter to calf cutter, taught by Pathfinder Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VFM9JGQrLYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VFM9JGQrLYk",
+      "url": "https://www.youtube.com/watch?v=VFM9JGQrLYk",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Defending against the Aoki Lock finish from Aoki Lock control is one of the most
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock from Aoki Lock Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KOz3WqQJ3Tk)
+
+<p class="clip-credit"><strong>Roll out counter to the calf slicer</strong> — taught by Charlie Cosens · 0:55 · <a href="https://www.youtube.com/watch?v=KOz3WqQJ3Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VFM9JGQrLYk)
+
+<p class="clip-credit"><strong>Ankle lock counter to calf cutter</strong> — taught by Pathfinder Jiu-Jitsu · 1:37 · <a href="https://www.youtube.com/watch?v=VFM9JGQrLYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

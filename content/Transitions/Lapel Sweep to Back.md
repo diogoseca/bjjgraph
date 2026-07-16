@@ -34,6 +34,43 @@ description: "Master the Lapel Sweep to Back in BJJ. Step-by-step execution from
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Sweep to Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm guard to back choke",
+      "description": "Lapel Sweep to Back film study: Worm guard to back choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel helicopter sweep",
+      "description": "Lapel Sweep to Back film study: Lapel helicopter sweep, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0IdWwuiQJuI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0IdWwuiQJuI",
+      "url": "https://www.youtube.com/watch?v=0IdWwuiQJuI",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT18S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique requires timing recognition and commitment to the back take pathwa
 **Success Rate**: 10%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Sweep to Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm guard to back choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0IdWwuiQJuI)
+
+<p class="clip-credit"><strong>Lapel helicopter sweep</strong> — taught by bjjtaro · 0:18 · <a href="https://www.youtube.com/watch?v=0IdWwuiQJuI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

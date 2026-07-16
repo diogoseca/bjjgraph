@@ -148,6 +148,54 @@ description: "Complete guide to defending the Z-Guard Pass from bottom position.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Guard Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield half guard recovery vs the pass",
+      "description": "Z-Guard Pass (Defender) film study: Knee shield half guard recovery vs the pass, taught by United Martial Arts KY coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hXAs2HsP9Cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hXAs2HsP9Cg",
+      "url": "https://www.youtube.com/watch?v=hXAs2HsP9Cg",
+      "creator": { "@type": "Person", "name": "United Martial Arts KY coach" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Avoid getting squashed in half guard",
+      "description": "Z-Guard Pass (Defender) film study: Avoid getting squashed in half guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/COMTE898ja8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/COMTE898ja8",
+      "url": "https://www.youtube.com/watch?v=COMTE898ja8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT156S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the knee shield smash pass",
+      "description": "Z-Guard Pass (Defender) film study: Countering the knee shield smash pass, taught by RCBJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OtyqyWjMUwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OtyqyWjMUwk",
+      "url": "https://www.youtube.com/watch?v=OtyqyWjMUwk",
+      "creator": { "@type": "Person", "name": "RCBJJ coach" },
+      "duration": "PT173S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ The Z-Guard Pass defender is the bottom player who must maintain the elevated kn
 **Opponent's Starting Position**: [[Positions/Z-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Guard Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hXAs2HsP9Cg)
+
+<p class="clip-credit"><strong>Knee shield half guard recovery vs the pass</strong> — taught by United Martial Arts KY coach · 2:01 · <a href="https://www.youtube.com/watch?v=hXAs2HsP9Cg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=COMTE898ja8)
+
+<p class="clip-credit"><strong>Avoid getting squashed in half guard</strong> — taught by Craig Jones · 2:36 · <a href="https://www.youtube.com/watch?v=COMTE898ja8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OtyqyWjMUwk)
+
+<p class="clip-credit"><strong>Countering the knee shield smash pass</strong> — taught by RCBJJ coach · 2:53 · <a href="https://www.youtube.com/watch?v=OtyqyWjMUwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

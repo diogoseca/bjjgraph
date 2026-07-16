@@ -153,6 +153,54 @@ description: "Master defensive strategies from 3-4 Mount Bottom. Complete escape
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "3-4 Mount (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount bottom bridge \u0026 roll escape",
+      "description": "3-4 Mount (Bottom) film study: Mount bottom bridge \u0026 roll escape, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2uuP147GoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
+      "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Upa shrimp mount escape",
+      "description": "3-4 Mount (Bottom) film study: Upa shrimp mount escape, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TutAtWW-HWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TutAtWW-HWQ",
+      "url": "https://www.youtube.com/watch?v=TutAtWW-HWQ",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the mount",
+      "description": "3-4 Mount (Bottom) film study: Escaping the mount, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The position occurs when the top player transitions between mount variations or 
 From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensive position requiring immediate defensive action to prevent submissions and create escape opportunities. Success in this position depends on recognizing the specific 3-4 configuration, establishing proper defensive frames, and exploiting the inherent instability in the top player's asymmetric base.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 3-4 Mount (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2uuP147GoBk)
+
+<p class="clip-credit"><strong>Mount bottom bridge &amp; roll escape</strong> — taught by Academy Jiu Jitsu · 1:02 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TutAtWW-HWQ)
+
+<p class="clip-credit"><strong>Upa shrimp mount escape</strong> — taught by Mat Life Training Center · 0:27 · <a href="https://www.youtube.com/watch?v=TutAtWW-HWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>Escaping the mount</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -174,6 +174,54 @@ description: "Learn to execute the K-Guard pass from the attacker perspective. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass K-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K Guard Defense and Pass",
+      "description": "Pass K-Guard (Attacker) film study: K Guard Defense and Pass, taught by Rodrigo Lopes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JxDViUC4xhk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JxDViUC4xhk",
+      "url": "https://www.youtube.com/watch?v=JxDViUC4xhk",
+      "creator": { "@type": "Person", "name": "Rodrigo Lopes" },
+      "duration": "PT289S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing K-guard without getting leglocked",
+      "description": "Pass K-Guard (Attacker) film study: Passing K-guard without getting leglocked, taught by B-Team coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VA_csQEmYXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VA_csQEmYXc",
+      "url": "https://www.youtube.com/watch?v=VA_csQEmYXc",
+      "creator": { "@type": "Person", "name": "B-Team coach" },
+      "duration": "PT357S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kill K-guard with the kick spin",
+      "description": "Pass K-Guard (Attacker) film study: Kill K-guard with the kick spin, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EPfM9pTRivE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EPfM9pTRivE",
+      "url": "https://www.youtube.com/watch?v=EPfM9pTRivE",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT196S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The K-Guard pass from the attacker's perspective demands a systematic, pressure-
 **From Position**: [[Positions/K-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass K-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JxDViUC4xhk)
+
+<p class="clip-credit"><strong>K Guard Defense and Pass</strong> — taught by Rodrigo Lopes · 4:49 · <a href="https://www.youtube.com/watch?v=JxDViUC4xhk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VA_csQEmYXc)
+
+<p class="clip-credit"><strong>Passing K-guard without getting leglocked</strong> — taught by B-Team coach · 5:57 · <a href="https://www.youtube.com/watch?v=VA_csQEmYXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EPfM9pTRivE)
+
+<p class="clip-credit"><strong>Kill K-guard with the kick spin</strong> — taught by Keenan Cornelius · 3:16 · <a href="https://www.youtube.com/watch?v=EPfM9pTRivE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

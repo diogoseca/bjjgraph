@@ -148,6 +148,54 @@ description: "How to defend against Ringworm Guard to Worm Guard in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm Guard to Worm Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Polish worm rider lapel guard",
+      "description": "Ringworm Guard to Worm Guard (Defender) film study: Passing the Polish worm rider lapel guard, taught by Daniel Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
+      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
+      "creator": { "@type": "Person", "name": "Daniel Maira" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm guard counter",
+      "description": "Ringworm Guard to Worm Guard (Defender) film study: Worm guard counter, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4ZpRKQjkFe0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4ZpRKQjkFe0",
+      "url": "https://www.youtube.com/watch?v=4ZpRKQjkFe0",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the worm and lapel guard",
+      "description": "Ringworm Guard to Worm Guard (Defender) film study: Countering the worm and lapel guard, taught by Kevin Nguyen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wB2JljlB1Rg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wB2JljlB1Rg",
+      "url": "https://www.youtube.com/watch?v=wB2JljlB1Rg",
+      "creator": { "@type": "Person", "name": "Kevin Nguyen" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender must understand that allowing the transition to complete puts them 
 **Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm Guard to Worm Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aR0dbddbfQA)
+
+<p class="clip-credit"><strong>Passing the Polish worm rider lapel guard</strong> — taught by Daniel Maira · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4ZpRKQjkFe0)
+
+<p class="clip-credit"><strong>Worm guard counter</strong> — taught by Keenan Cornelius · 2:07 · <a href="https://www.youtube.com/watch?v=4ZpRKQjkFe0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wB2JljlB1Rg)
+
+<p class="clip-credit"><strong>Countering the worm and lapel guard</strong> — taught by Kevin Nguyen · 3:30 · <a href="https://www.youtube.com/watch?v=wB2JljlB1Rg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

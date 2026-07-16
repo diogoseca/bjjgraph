@@ -168,6 +168,43 @@ description: "How to execute Posture Recovery to Closed Guard in BJJ. Systematic
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery to Closed Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle to closed guard recovery",
+      "description": "Posture Recovery to Closed Guard (Attacker) film study: Turtle to closed guard recovery, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8i0nvpE4aAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8i0nvpE4aAI",
+      "url": "https://www.youtube.com/watch?v=8i0nvpE4aAI",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering guard from the turtle position",
+      "description": "Posture Recovery to Closed Guard (Attacker) film study: Recovering guard from the turtle position, taught by Gracie Barra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PYk5Ei2IZBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PYk5Ei2IZBk",
+      "url": "https://www.youtube.com/watch?v=PYk5Ei2IZBk",
+      "creator": { "@type": "Person", "name": "Gracie Barra" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Timing is the decisive factor. The optimal moment to initiate occurs when the op
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery to Closed Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8i0nvpE4aAI)
+
+<p class="clip-credit"><strong>Turtle to closed guard recovery</strong> — taught by Revolution BJJ Ashland · 0:50 · <a href="https://www.youtube.com/watch?v=8i0nvpE4aAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PYk5Ei2IZBk)
+
+<p class="clip-credit"><strong>Recovering guard from the turtle position</strong> — taught by Gracie Barra · 0:53 · <a href="https://www.youtube.com/watch?v=PYk5Ei2IZBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

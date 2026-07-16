@@ -34,6 +34,54 @@ description: "Master Spider Guard in BJJ. Strategic guide covering sleeve contro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spider Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider guard concepts",
+      "description": "Spider Guard film study: Spider guard concepts, taught by Tiago Alves.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e0xe5_BJyJY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e0xe5_BJyJY",
+      "url": "https://www.youtube.com/watch?v=e0xe5_BJyJY",
+      "creator": { "@type": "Person", "name": "Tiago Alves" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider guard mindset",
+      "description": "Spider Guard film study: Spider guard mindset, taught by Romulo Barral.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D-VuUJqNDZc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D-VuUJqNDZc",
+      "url": "https://www.youtube.com/watch?v=D-VuUJqNDZc",
+      "creator": { "@type": "Person", "name": "Romulo Barral" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Spider guard entry drill",
+      "description": "Spider Guard film study: Spider guard entry drill, taught by Paragon Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aXTKuGGfwOs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aXTKuGGfwOs",
+      "url": "https://www.youtube.com/watch?v=aXTKuGGfwOs",
+      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ From the top perspective, facing Spider Guard requires systematic grip breaking,
 The effectiveness of Spider Guard relies heavily on grip strength, hip mobility, and precise foot placement. When executed correctly, it creates a dilemma for the opponent: maintaining upright posture leaves them vulnerable to sweeps, while attempting to address the feet on biceps creates opportunities for transitions to submission positions. This position is fundamental to modern gi jiu-jitsu and serves as a cornerstone of many competition-focused guard systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spider Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e0xe5_BJyJY)
+
+<p class="clip-credit"><strong>Spider guard concepts</strong> — taught by Tiago Alves · 1:01 · <a href="https://www.youtube.com/watch?v=e0xe5_BJyJY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D-VuUJqNDZc)
+
+<p class="clip-credit"><strong>Spider guard mindset</strong> — taught by Romulo Barral · 3:36 · <a href="https://www.youtube.com/watch?v=D-VuUJqNDZc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aXTKuGGfwOs)
+
+<p class="clip-credit"><strong>Spider guard entry drill</strong> — taught by Paragon Jiu-Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=aXTKuGGfwOs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

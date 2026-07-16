@@ -34,6 +34,65 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "True 50/50 heel hook",
+      "description": "Heel Hook film study: True 50/50 heel hook, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U1vlUbJN3sc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U1vlUbJN3sc",
+      "url": "https://www.youtube.com/watch?v=U1vlUbJN3sc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Heel hooks breakdown",
+      "description": "Heel Hook film study: Heel hooks breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
+      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Get the 50/50 heel hook",
+      "description": "Heel Hook film study: Get the 50/50 heel hook, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eb6ujAO09SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eb6ujAO09SY",
+      "url": "https://www.youtube.com/watch?v=eb6ujAO09SY",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Nasty heel hook from outside ashi garami",
+      "description": "Heel Hook film study: Nasty heel hook from outside ashi garami, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -87,6 +146,50 @@ The submission exists in two primary variations: the inside heel hook (rotating 
 Successful heel hook application demands mastery of positional control, understanding of breaking mechanics, and exceptional judgment regarding application speed and pressure. The technique's effectiveness increases dramatically with skill level as practitioners develop better leg entanglement control, hip positioning, and sensitivity to defensive movements. Due to its injury potential, many traditional BJJ academies prohibit heel hooks entirely, while others restrict them to brown and black belts. Competition legality varies significantly by ruleset, with IBJJF prohibiting them at most belt levels while organizations like ADCC and EBI embrace them as fundamental techniques.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U1vlUbJN3sc)
+
+<p class="clip-credit"><strong>True 50/50 heel hook</strong> — taught by John Danaher · 0:34 · <a href="https://www.youtube.com/watch?v=U1vlUbJN3sc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UuluKZKDt8w)
+
+<p class="clip-credit"><strong>Heel hooks breakdown</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eb6ujAO09SY)
+
+<p class="clip-credit"><strong>Get the 50/50 heel hook</strong> — taught by Asaf Mich · 2:03 · <a href="https://www.youtube.com/watch?v=eb6ujAO09SY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+
+<p class="clip-credit"><strong>Nasty heel hook from outside ashi garami</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

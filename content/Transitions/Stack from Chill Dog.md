@@ -34,6 +34,43 @@ description: "Master the Stack from Chill Dog in BJJ. Learn to break compact tur
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack from Chill Dog \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Attacking Turtle and Maintaining the Back",
+      "description": "Stack from Chill Dog film study: Attacking Turtle and Maintaining the Back, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rUgsogdU5I0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rUgsogdU5I0",
+      "url": "https://www.youtube.com/watch?v=rUgsogdU5I0",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT493S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking Turtle: Side Breakdown (No-Gi)",
+      "description": "Stack from Chill Dog film study: Attacking Turtle: Side Breakdown (No-Gi), taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jtUBFTbHMOk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jtUBFTbHMOk",
+      "url": "https://www.youtube.com/watch?v=jtUBFTbHMOk",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT388S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the stack is most effective as part of a broader dilemma-based tu
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack from Chill Dog in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rUgsogdU5I0)
+
+<p class="clip-credit"><strong>Attacking Turtle and Maintaining the Back</strong> — taught by Gordon Ryan · 8:13 · <a href="https://www.youtube.com/watch?v=rUgsogdU5I0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jtUBFTbHMOk)
+
+<p class="clip-credit"><strong>Attacking Turtle: Side Breakdown (No-Gi)</strong> — taught by Brian Glick · 6:28 · <a href="https://www.youtube.com/watch?v=jtUBFTbHMOk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

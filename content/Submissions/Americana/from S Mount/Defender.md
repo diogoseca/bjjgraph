@@ -150,6 +150,54 @@ description: "Defend against the Americana from S Mount. Recognition cues, escap
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from S Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple Americana Armlock Escape",
+      "description": "Americana from S Mount (Defender) film study: Simple Americana Armlock Escape, taught by Eddie Kone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
+      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
+      "creator": { "@type": "Person", "name": "Eddie Kone" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mounted Americana Defenses - Early Escapes",
+      "description": "Americana from S Mount (Defender) film study: Mounted Americana Defenses - Early Escapes, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ny_l7GHApo0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ny_l7GHApo0",
+      "url": "https://www.youtube.com/watch?v=Ny_l7GHApo0",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT200S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Americana Defense to Armbar Finish",
+      "description": "Americana from S Mount (Defender) film study: Americana Defense to Armbar Finish, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x5oNak2YANY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x5oNak2YANY",
+      "url": "https://www.youtube.com/watch?v=x5oNak2YANY",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Americana from S Mount demands immediate recognition of the figure
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from S Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
+
+<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ny_l7GHApo0)
+
+<p class="clip-credit"><strong>Mounted Americana Defenses - Early Escapes</strong> — taught by Força Martial Arts · 3:20 · <a href="https://www.youtube.com/watch?v=Ny_l7GHApo0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x5oNak2YANY)
+
+<p class="clip-credit"><strong>Americana Defense to Armbar Finish</strong> — taught by JiuJitsu.com · 2:57 · <a href="https://www.youtube.com/watch?v=x5oNak2YANY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

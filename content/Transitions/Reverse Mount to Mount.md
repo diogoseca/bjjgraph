@@ -34,6 +34,54 @@ description: "Master the Reverse Mount to Mount transition in BJJ. Complete guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Mount to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse mount in scrambles",
+      "description": "Reverse Mount to Mount film study: Reverse mount in scrambles, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XQ4fwGrXV2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XQ4fwGrXV2Q",
+      "url": "https://www.youtube.com/watch?v=XQ4fwGrXV2Q",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse mount transition drill",
+      "description": "Reverse Mount to Mount film study: Reverse mount transition drill, taught by Joel Bane.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FVuqzWFECAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FVuqzWFECAs",
+      "url": "https://www.youtube.com/watch?v=FVuqzWFECAs",
+      "creator": { "@type": "Person", "name": "Joel Bane" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Best way to control the mount",
+      "description": "Reverse Mount to Mount film study: Best way to control the mount, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kft2AkvKhWU",
+      "url": "https://www.youtube.com/watch?v=kft2AkvKhWU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT538S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition should be executed within the first 3-5 seconds o
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Mount to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XQ4fwGrXV2Q)
+
+<p class="clip-credit"><strong>Reverse mount in scrambles</strong> — taught by jamielovesmartialarts · 0:23 · <a href="https://www.youtube.com/watch?v=XQ4fwGrXV2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FVuqzWFECAs)
+
+<p class="clip-credit"><strong>Reverse mount transition drill</strong> — taught by Joel Bane · 3:13 · <a href="https://www.youtube.com/watch?v=FVuqzWFECAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kft2AkvKhWU)
+
+<p class="clip-credit"><strong>Best way to control the mount</strong> — taught by Gordon Ryan · 8:58 · <a href="https://www.youtube.com/watch?v=kft2AkvKhWU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

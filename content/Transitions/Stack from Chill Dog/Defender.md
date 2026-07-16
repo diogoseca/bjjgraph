@@ -148,6 +148,54 @@ description: "Learn to defend the Stack from Chill Dog as the bottom player. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack from Chill Dog (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder lock defending the double under stack pass",
+      "description": "Stack from Chill Dog (Defender) film study: Shoulder lock defending the double under stack pass, taught by Tony Casarez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dH6Cj-nv3vU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dH6Cj-nv3vU",
+      "url": "https://www.youtube.com/watch?v=dH6Cj-nv3vU",
+      "creator": { "@type": "Person", "name": "Tony Casarez" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle Escape and Back-Exposure System",
+      "description": "Stack from Chill Dog (Defender) film study: Turtle Escape and Back-Exposure System, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front Headlock and Turtle Escapes",
+      "description": "Stack from Chill Dog (Defender) film study: Front Headlock and Turtle Escapes, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JX0HL0WpYPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JX0HL0WpYPs",
+      "url": "https://www.youtube.com/watch?v=JX0HL0WpYPs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT478S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The stack attacks the fundamental structure of your Chill Dog defense by loading
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack from Chill Dog (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dH6Cj-nv3vU)
+
+<p class="clip-credit"><strong>Shoulder lock defending the double under stack pass</strong> — taught by Tony Casarez · 1:02 · <a href="https://www.youtube.com/watch?v=dH6Cj-nv3vU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+
+<p class="clip-credit"><strong>Turtle Escape and Back-Exposure System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JX0HL0WpYPs)
+
+<p class="clip-credit"><strong>Front Headlock and Turtle Escapes</strong> — taught by Gordon Ryan · 7:58 · <a href="https://www.youtube.com/watch?v=JX0HL0WpYPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Clamp Guard in BJJ. Complete guide to trapping opponent's a
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clamp Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straitjacket: trapping the arm",
+      "description": "Clamp Guard film study: Straitjacket: trapping the arm, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KPJJENQtRWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KPJJENQtRWU",
+      "url": "https://www.youtube.com/watch?v=KPJJENQtRWU",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Trap the arm from closed guard (no-gi)",
+      "description": "Clamp Guard film study: Trap the arm from closed guard (no-gi), taught by Mica Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cgMrWs-IXm4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cgMrWs-IXm4",
+      "url": "https://www.youtube.com/watch?v=cgMrWs-IXm4",
+      "creator": { "@type": "Person", "name": "Mica Galvao" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position is particularly effective in no-gi grappling and MMA because it doe
 Clamp Guard operates on the principle of limb isolation. By removing one arm from the opponent's defensive framework, every subsequent attack becomes higher percentage. The position rewards creative guard players who can maintain the clamp under dynamic movement while cycling through submission and sweep threats. From the top player's perspective, the position demands immediate arm extraction because it only deteriorates with time — every second the arm remains trapped allows the guard player to deepen control and set up increasingly dangerous attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clamp Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KPJJENQtRWU)
+
+<p class="clip-credit"><strong>Straitjacket: trapping the arm</strong> — taught by Absolute MMA St Kilda · 2:05 · <a href="https://www.youtube.com/watch?v=KPJJENQtRWU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=cgMrWs-IXm4)
+
+<p class="clip-credit"><strong>Trap the arm from closed guard (no-gi)</strong> — taught by Mica Galvao · 1:01 · <a href="https://www.youtube.com/watch?v=cgMrWs-IXm4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

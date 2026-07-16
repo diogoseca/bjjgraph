@@ -34,6 +34,54 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from back control",
+      "description": "Armbar from Back film study: Armbar from back control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4aQQqz-6Baw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4aQQqz-6Baw",
+      "url": "https://www.youtube.com/watch?v=4aQQqz-6Baw",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling armbar from back mount",
+      "description": "Armbar from Back film study: Rolling armbar from back mount, taught by Hammer Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nsLJ8AiGZ5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nsLJ8AiGZ5A",
+      "url": "https://www.youtube.com/watch?v=nsLJ8AiGZ5A",
+      "creator": { "@type": "Person", "name": "Hammer Jiu-Jitsu" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from the back variation",
+      "description": "Armbar from Back film study: Armbar from the back variation, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jf1kPefTmm0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jf1kPefTmm0",
+      "url": "https://www.youtube.com/watch?v=jf1kPefTmm0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The Armbar from Back Control represents one of the most devastating finishing se
 **Starting Position**: [[Positions/Back Control]] · **From**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4aQQqz-6Baw)
+
+<p class="clip-credit"><strong>Armbar from back control</strong> — taught by Evolve MMA · 0:54 · <a href="https://www.youtube.com/watch?v=4aQQqz-6Baw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nsLJ8AiGZ5A)
+
+<p class="clip-credit"><strong>Rolling armbar from back mount</strong> — taught by Hammer Jiu-Jitsu · 0:40 · <a href="https://www.youtube.com/watch?v=nsLJ8AiGZ5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jf1kPefTmm0)
+
+<p class="clip-credit"><strong>Armbar from the back variation</strong> — taught by Malachy Friedman · 1:20 · <a href="https://www.youtube.com/watch?v=jf1kPefTmm0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

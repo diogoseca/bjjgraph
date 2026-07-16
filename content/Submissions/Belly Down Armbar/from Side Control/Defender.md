@@ -136,6 +136,54 @@ description: "Learn to defend the belly down armbar from side control. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Favorite Armbar Escape",
+      "description": "Belly Down Armbar from Side Control (Defender) film study: Favorite Armbar Escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hitchhiker Armbar Escape",
+      "description": "Belly Down Armbar from Side Control (Defender) film study: Hitchhiker Armbar Escape, taught by Absolute MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3EG4Gfs30V8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3EG4Gfs30V8",
+      "url": "https://www.youtube.com/watch?v=3EG4Gfs30V8",
+      "creator": { "@type": "Person", "name": "Absolute MMA" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar Defense: Stack and Hitchhiker Escape",
+      "description": "Belly Down Armbar from Side Control (Defender) film study: Armbar Defense: Stack and Hitchhiker Escape, taught by Gladiators Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/04LT-fIPlgw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/04LT-fIPlgw",
+      "url": "https://www.youtube.com/watch?v=04LT-fIPlgw",
+      "creator": { "@type": "Person", "name": "Gladiators Academy" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +194,42 @@ Defending the belly down armbar from side control requires recognizing the attac
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Favorite Armbar Escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3EG4Gfs30V8)
+
+<p class="clip-credit"><strong>Hitchhiker Armbar Escape</strong> — taught by Absolute MMA · 0:57 · <a href="https://www.youtube.com/watch?v=3EG4Gfs30V8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=04LT-fIPlgw)
+
+<p class="clip-credit"><strong>Armbar Defense: Stack and Hitchhiker Escape</strong> — taught by Gladiators Academy · 2:00 · <a href="https://www.youtube.com/watch?v=04LT-fIPlgw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

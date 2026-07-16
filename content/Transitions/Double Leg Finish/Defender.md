@@ -148,6 +148,43 @@ description: "How to defend against Double Leg Finish in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Leg Finish (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Powering up the whizzer to stop the finish",
+      "description": "Double Leg Finish (Defender) film study: Powering up the whizzer to stop the finish, taught by Cary Kolat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eaaHsLE3r3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eaaHsLE3r3Q",
+      "url": "https://www.youtube.com/watch?v=eaaHsLE3r3Q",
+      "creator": { "@type": "Person", "name": "Cary Kolat" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Whizzer for takedown defense",
+      "description": "Double Leg Finish (Defender) film study: Whizzer for takedown defense, taught by Kinesiology College coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/92ncNJ_7qAQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/92ncNJ_7qAQ",
+      "url": "https://www.youtube.com/watch?v=92ncNJ_7qAQ",
+      "creator": { "@type": "Person", "name": "Kinesiology College coach" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Advanced defenders develop the ability to counterattack during the finish phase 
 **Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Leg Finish (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eaaHsLE3r3Q)
+
+<p class="clip-credit"><strong>Powering up the whizzer to stop the finish</strong> — taught by Cary Kolat · 1:19 · <a href="https://www.youtube.com/watch?v=eaaHsLE3r3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=92ncNJ_7qAQ)
+
+<p class="clip-credit"><strong>Whizzer for takedown defense</strong> — taught by Kinesiology College coach · 0:39 · <a href="https://www.youtube.com/watch?v=92ncNJ_7qAQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -164,6 +164,43 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Energy Conservation \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why white belts gas out and how to fix it",
+      "description": "Energy Conservation film study: Why white belts gas out and how to fix it, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRLnxkS0N6g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRLnxkS0N6g",
+      "url": "https://www.youtube.com/watch?v=cRLnxkS0N6g",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT351S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The real reason you gas out in competition",
+      "description": "Energy Conservation film study: The real reason you gas out in competition, taught by Josh Saunders.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bhSpo8fYL7U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bhSpo8fYL7U",
+      "url": "https://www.youtube.com/watch?v=bhSpo8fYL7U",
+      "creator": { "@type": "Person", "name": "Josh Saunders" },
+      "duration": "PT407S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Energy Conservation?
@@ -173,6 +210,34 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skilled in the abstract, but by who can still execute clean technique in the final minutes when both athletes are exhausted. Energy Conservation addresses this reality directly: it recognizes that grappling is fundamentally a war of attrition where the practitioner who maintains effective performance while expending less fuel often prevails. It is not about being passive or lazy; rather, it is about being strategically selective with effort expenditure, using efficient movement patterns, and recognizing when to apply force versus when to redirect or yield. Mastery of this principle allows practitioners to maintain technical proficiency deep into matches when opponents are fatigued, creating decisive advantages in the closing exchanges of competition.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Energy Conservation in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRLnxkS0N6g)
+
+<p class="clip-credit"><strong>Why white belts gas out and how to fix it</strong> — taught by Chewjitsu · 5:51 · <a href="https://www.youtube.com/watch?v=cRLnxkS0N6g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bhSpo8fYL7U)
+
+<p class="clip-credit"><strong>The real reason you gas out in competition</strong> — taught by Josh Saunders · 6:47 · <a href="https://www.youtube.com/watch?v=bhSpo8fYL7U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

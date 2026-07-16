@@ -153,6 +153,54 @@ description: "Master leg weave passing from top position. Advanced guard passing
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Weave (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg weave and leg staple passing pins",
+      "description": "Leg Weave (Top) film study: Leg weave and leg staple passing pins, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sNbJLknPgQM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sNbJLknPgQM",
+      "url": "https://www.youtube.com/watch?v=sNbJLknPgQM",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg weave to knee slide pass",
+      "description": "Leg Weave (Top) film study: Leg weave to knee slide pass, taught by Modern BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aN2S7_WAhq4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aN2S7_WAhq4",
+      "url": "https://www.youtube.com/watch?v=aN2S7_WAhq4",
+      "creator": { "@type": "Person", "name": "Modern BJJ" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing knee shield with leg weave",
+      "description": "Leg Weave (Top) film study: Passing knee shield with leg weave, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
+      "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master leg weave passing from top position. Advanced guard passing
 The Leg Weave Top Position is an advanced guard passing control where the top player threads one leg between the bottom player's legs while maintaining upper body control. This position creates a powerful passing platform by neutralizing the bottom player's leg-based guards and frames, particularly effective against opponents who rely heavily on knee shield, butterfly hooks, or other leg-based defensive structures. The leg weave represents a transitional control point in modern BJJ guard passing systems, bridging the gap between initial guard engagement and final passing positions like side control or mount. The position is characterized by the top player's leg creating a weave pattern through the opponent's guard, disrupting their defensive structure while maintaining forward pressure and control. Mastery of the leg weave position requires precise weight distribution, understanding of angles, and the ability to chain multiple passing sequences together. Elite practitioners use this position to create passing dilemmas where the bottom player must choose between defending different passing threats, often leading to successful guard passes with high percentage rates at advanced levels. The position has become increasingly prevalent in modern no-gi grappling where traditional gi grips are unavailable, forcing practitioners to rely more heavily on positional mechanics and weight distribution.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Weave (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sNbJLknPgQM)
+
+<p class="clip-credit"><strong>Leg weave and leg staple passing pins</strong> — taught by Fox Den Martial Arts · 1:48 · <a href="https://www.youtube.com/watch?v=sNbJLknPgQM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aN2S7_WAhq4)
+
+<p class="clip-credit"><strong>Leg weave to knee slide pass</strong> — taught by Modern BJJ · 1:58 · <a href="https://www.youtube.com/watch?v=aN2S7_WAhq4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4LIBFmas-oE)
+
+<p class="clip-credit"><strong>Passing knee shield with leg weave</strong> — taught by BJJ4Breakfast · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

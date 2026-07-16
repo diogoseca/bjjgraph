@@ -148,6 +148,54 @@ description: "How to defend against Stack Pass Over Lapel Barrier in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass Over Lapel Barrier (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backward roll counter to the stack pass",
+      "description": "Stack Pass Over Lapel Barrier (Defender) film study: Backward roll counter to the stack pass, taught by Pacific Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bddWtJxLWKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bddWtJxLWKg",
+      "url": "https://www.youtube.com/watch?v=bddWtJxLWKg",
+      "creator": { "@type": "Person", "name": "Pacific Martial Arts" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention against stack passing",
+      "description": "Stack Pass Over Lapel Barrier (Defender) film study: Guard retention against stack passing, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DMUuThQPX4M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DMUuThQPX4M",
+      "url": "https://www.youtube.com/watch?v=DMUuThQPX4M",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT303S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to avoid getting stacked by bigger opponents",
+      "description": "Stack Pass Over Lapel Barrier (Defender) film study: How to avoid getting stacked by bigger opponents, taught by DVG Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QaAiRq870tY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QaAiRq870tY",
+      "url": "https://www.youtube.com/watch?v=QaAiRq870tY",
+      "creator": { "@type": "Person", "name": "DVG Jiu Jitsu" },
+      "duration": "PT622S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense requires recognizing the stack attempt early through tactile 
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass Over Lapel Barrier (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bddWtJxLWKg)
+
+<p class="clip-credit"><strong>Backward roll counter to the stack pass</strong> — taught by Pacific Martial Arts · 1:01 · <a href="https://www.youtube.com/watch?v=bddWtJxLWKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DMUuThQPX4M)
+
+<p class="clip-credit"><strong>Guard retention against stack passing</strong> — taught by Jon Thomas · 5:03 · <a href="https://www.youtube.com/watch?v=DMUuThQPX4M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QaAiRq870tY)
+
+<p class="clip-credit"><strong>How to avoid getting stacked by bigger opponents</strong> — taught by DVG Jiu Jitsu · 10:22 · <a href="https://www.youtube.com/watch?v=QaAiRq870tY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

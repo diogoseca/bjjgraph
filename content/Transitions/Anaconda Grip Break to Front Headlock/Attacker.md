@@ -174,6 +174,54 @@ description: "Learn to execute the anaconda grip break from bottom position. Sys
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Grip Break to Front Headlock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High wrist guillotine switching to anaconda choke",
+      "description": "Anaconda Grip Break to Front Headlock (Attacker) film study: High wrist guillotine switching to anaconda choke, taught by Mark Cerrone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ebDSf6ao2Yk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ebDSf6ao2Yk",
+      "url": "https://www.youtube.com/watch?v=ebDSf6ao2Yk",
+      "creator": { "@type": "Person", "name": "Mark Cerrone" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chasing the neck: anacondas, guillotines and darce chokes",
+      "description": "Anaconda Grip Break to Front Headlock (Attacker) film study: Chasing the neck: anacondas, guillotines and darce chokes, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l2SXQRMPbKQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l2SXQRMPbKQ",
+      "url": "https://www.youtube.com/watch?v=l2SXQRMPbKQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT614S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The anaconda choke from front headlock",
+      "description": "Anaconda Grip Break to Front Headlock (Attacker) film study: The anaconda choke from front headlock, taught by The B-Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OWVMvV4gmIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OWVMvV4gmIo",
+      "url": "https://www.youtube.com/watch?v=OWVMvV4gmIo",
+      "creator": { "@type": "Person", "name": "The B-Team" },
+      "duration": "PT235S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the anaconda grip break requires calm, systematic hand fighting under 
 **From Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Grip Break to Front Headlock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ebDSf6ao2Yk)
+
+<p class="clip-credit"><strong>High wrist guillotine switching to anaconda choke</strong> — taught by Mark Cerrone · 1:27 · <a href="https://www.youtube.com/watch?v=ebDSf6ao2Yk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l2SXQRMPbKQ)
+
+<p class="clip-credit"><strong>Chasing the neck: anacondas, guillotines and darce chokes</strong> — taught by Lachlan Giles · 10:14 · <a href="https://www.youtube.com/watch?v=l2SXQRMPbKQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OWVMvV4gmIo)
+
+<p class="clip-credit"><strong>The anaconda choke from front headlock</strong> — taught by The B-Team · 3:55 · <a href="https://www.youtube.com/watch?v=OWVMvV4gmIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

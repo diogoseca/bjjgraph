@@ -174,6 +174,43 @@ description: "Master the offensive frame technique from Side Control bottom. Com
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame from Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Babybridge frames from bottom side control",
+      "description": "Frame from Side Control (Attacker) film study: Babybridge frames from bottom side control, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDSd5Qy8Kac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDSd5Qy8Kac",
+      "url": "https://www.youtube.com/watch?v=wDSd5Qy8Kac",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT231S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sticky hands framing from bottom side control",
+      "description": "Frame from Side Control (Attacker) film study: Sticky hands framing from bottom side control, taught by Select Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dlIH3VjvDRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dlIH3VjvDRo",
+      "url": "https://www.youtube.com/watch?v=dlIH3VjvDRo",
+      "creator": { "@type": "Person", "name": "Select Jiu Jitsu Academy" },
+      "duration": "PT220S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing this frame, you are the bottom player trapped under Si
 **From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame from Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDSd5Qy8Kac)
+
+<p class="clip-credit"><strong>Babybridge frames from bottom side control</strong> — taught by Priit Mihkelson · 3:51 · <a href="https://www.youtube.com/watch?v=wDSd5Qy8Kac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dlIH3VjvDRo)
+
+<p class="clip-credit"><strong>Sticky hands framing from bottom side control</strong> — taught by Select Jiu Jitsu Academy · 3:40 · <a href="https://www.youtube.com/watch?v=dlIH3VjvDRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

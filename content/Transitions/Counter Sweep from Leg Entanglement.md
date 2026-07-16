@@ -34,6 +34,54 @@ description: "Master the counter sweep from leg entanglement in BJJ. Complete gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Sweep from Leg Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll-through escape out of the leg entanglement",
+      "description": "Counter Sweep from Leg Entanglement film study: Roll-through escape out of the leg entanglement, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "80/20 to Outside Sankaku When They Block the Reap",
+      "description": "Counter Sweep from Leg Entanglement film study: 80/20 to Outside Sankaku When They Block the Reap, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6fLuhvhUw-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6fLuhvhUw-w",
+      "url": "https://www.youtube.com/watch?v=6fLuhvhUw-w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT179S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Linking Attacks from Single Leg X Guard",
+      "description": "Counter Sweep from Leg Entanglement film study: Linking Attacks from Single Leg X Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SIe3OnvXGz4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SIe3OnvXGz4",
+      "url": "https://www.youtube.com/watch?v=SIe3OnvXGz4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT525S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This technique has become increasingly important in modern no-gi grappling where
 **Success Rate**: 26%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Sweep from Leg Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Roll-through escape out of the leg entanglement</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6fLuhvhUw-w)
+
+<p class="clip-credit"><strong>80/20 to Outside Sankaku When They Block the Reap</strong> — taught by Lachlan Giles · 2:59 · <a href="https://www.youtube.com/watch?v=6fLuhvhUw-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SIe3OnvXGz4)
+
+<p class="clip-credit"><strong>Linking Attacks from Single Leg X Guard</strong> — taught by Lachlan Giles · 8:45 · <a href="https://www.youtube.com/watch?v=SIe3OnvXGz4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

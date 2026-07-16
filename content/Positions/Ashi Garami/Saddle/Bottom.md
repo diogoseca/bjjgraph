@@ -153,6 +153,43 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Saddle (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle escape / leg drag flow",
+      "description": "Saddle (Bottom) film study: Saddle escape / leg drag flow, taught by Travis Anderson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C3bPRoMwGPo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C3bPRoMwGPo",
+      "url": "https://www.youtube.com/watch?v=C3bPRoMwGPo",
+      "creator": { "@type": "Person", "name": "Travis Anderson" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape from the toehold",
+      "description": "Saddle (Bottom) film study: How to escape from the toehold, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
+      "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ The psychological component of bottom Saddle cannot be understated. The position
 Understanding common submission mechanics from Saddle is essential for defensive strategy. The inside heel hook, outside heel hook, straight ankle lock, and kneebar all function differently and require position-specific defensive responses. A defense that successfully prevents inside heel hook mechanics might simultaneously expose the ankle to straight footlock attacks. This complexity demands comprehensive knowledge of submission pathways and their biomechanical requirements, allowing the defender to prioritize threats appropriately and select defensive actions that address multiple attacking options simultaneously.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Saddle (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C3bPRoMwGPo)
+
+<p class="clip-credit"><strong>Saddle escape / leg drag flow</strong> — taught by Travis Anderson · 1:10 · <a href="https://www.youtube.com/watch?v=C3bPRoMwGPo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
+
+<p class="clip-credit"><strong>How to escape from the toehold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

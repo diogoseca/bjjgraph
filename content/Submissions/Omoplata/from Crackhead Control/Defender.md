@@ -136,6 +136,54 @@ description: "Defend against the omoplata from Crackhead Control. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Crackhead Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quick omoplata escape",
+      "description": "Omoplata from Crackhead Control (Defender) film study: Quick omoplata escape, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HszTUEYJ-xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HszTUEYJ-xE",
+      "url": "https://www.youtube.com/watch?v=HszTUEYJ-xE",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Submission escape from the omoplata",
+      "description": "Omoplata from Crackhead Control (Defender) film study: Submission escape from the omoplata, taught by Thiago Stefanutti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqBK1Y2BdSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqBK1Y2BdSg",
+      "url": "https://www.youtube.com/watch?v=xqBK1Y2BdSg",
+      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata escape to front headlock",
+      "description": "Omoplata from Crackhead Control (Defender) film study: Omoplata escape to front headlock, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-SG9igq40E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-SG9igq40E",
+      "url": "https://www.youtube.com/watch?v=0-SG9igq40E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT14S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +194,42 @@ Defending the omoplata from Crackhead Control requires early recognition and pre
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Crackhead Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HszTUEYJ-xE)
+
+<p class="clip-credit"><strong>Quick omoplata escape</strong> — taught by Adam Bradley · 0:36 · <a href="https://www.youtube.com/watch?v=HszTUEYJ-xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqBK1Y2BdSg)
+
+<p class="clip-credit"><strong>Submission escape from the omoplata</strong> — taught by Thiago Stefanutti · 0:17 · <a href="https://www.youtube.com/watch?v=xqBK1Y2BdSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-SG9igq40E)
+
+<p class="clip-credit"><strong>Omoplata escape to front headlock</strong> — taught by Asaf Mich · 0:14 · <a href="https://www.youtube.com/watch?v=0-SG9igq40E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

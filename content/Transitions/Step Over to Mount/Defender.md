@@ -148,6 +148,54 @@ description: "How to defend against Step Over to Mount in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two mount escape options to half guard",
+      "description": "Step Over to Mount (Defender) film study: Two mount escape options to half guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
+      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie\u0027s Best Advice on Escaping Mount",
+      "description": "Step Over to Mount (Defender) film study: Roger Gracie\u0027s Best Advice on Escaping Mount, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r3ryggpYhb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r3ryggpYhb0",
+      "url": "https://www.youtube.com/watch?v=r3ryggpYhb0",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT233S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Folding Technical Mount Escape",
+      "description": "Step Over to Mount (Defender) film study: Folding Technical Mount Escape, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UUfzOO0JouI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UUfzOO0JouI",
+      "url": "https://www.youtube.com/watch?v=UUfzOO0JouI",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ From a systems perspective, your defense against the step over should integrate 
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cyegyon5hVg)
+
+<p class="clip-credit"><strong>Two mount escape options to half guard</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r3ryggpYhb0)
+
+<p class="clip-credit"><strong>Roger Gracie&#39;s Best Advice on Escaping Mount</strong> — taught by Roger Gracie · 3:53 · <a href="https://www.youtube.com/watch?v=r3ryggpYhb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UUfzOO0JouI)
+
+<p class="clip-credit"><strong>Folding Technical Mount Escape</strong> — taught by Inverted Gear · 0:50 · <a href="https://www.youtube.com/watch?v=UUfzOO0JouI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

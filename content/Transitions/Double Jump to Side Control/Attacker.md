@@ -180,6 +180,54 @@ description: "Learn to execute the Double Jump to Side Control transition. Step-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Jump to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle to side control",
+      "description": "Double Jump to Side Control (Attacker) film study: Turtle to side control, taught by Rickson Gracie Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
+      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
+      "creator": { "@type": "Person", "name": "Rickson Gracie Academy" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking turtle into side control",
+      "description": "Double Jump to Side Control (Attacker) film study: Attacking turtle into side control, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IH3RFT307WQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IH3RFT307WQ",
+      "url": "https://www.youtube.com/watch?v=IH3RFT307WQ",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gator roll from turtle to side control",
+      "description": "Double Jump to Side Control (Attacker) film study: Gator roll from turtle to side control, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b25b-PjmgdY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b25b-PjmgdY",
+      "url": "https://www.youtube.com/watch?v=b25b-PjmgdY",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Executing the Double Jump to Side Control transition requires strategic awarenes
 **From Position**: [[Positions/Double Jump]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Jump to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
+
+<p class="clip-credit"><strong>Turtle to side control</strong> — taught by Rickson Gracie Academy · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IH3RFT307WQ)
+
+<p class="clip-credit"><strong>Attacking turtle into side control</strong> — taught by Team Daruma Dojo · 0:46 · <a href="https://www.youtube.com/watch?v=IH3RFT307WQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b25b-PjmgdY)
+
+<p class="clip-credit"><strong>Gator roll from turtle to side control</strong> — taught by Carlos Machado · 1:24 · <a href="https://www.youtube.com/watch?v=b25b-PjmgdY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

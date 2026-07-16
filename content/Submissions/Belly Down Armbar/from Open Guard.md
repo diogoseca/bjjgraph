@@ -34,6 +34,54 @@ description: "Master the belly down armbar finish from open guard in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Open Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Armbar from Guard",
+      "description": "Belly Down Armbar from Open Guard film study: Belly Down Armbar from Guard, taught by Robert Hugus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdYFELAO6B0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdYFELAO6B0",
+      "url": "https://www.youtube.com/watch?v=EdYFELAO6B0",
+      "creator": { "@type": "Person", "name": "Robert Hugus" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Open Guard Armbar",
+      "description": "Belly Down Armbar from Open Guard film study: Open Guard Armbar, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZNhU5mY852E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZNhU5mY852E",
+      "url": "https://www.youtube.com/watch?v=ZNhU5mY852E",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Roger Gracie Armbars",
+      "description": "Belly Down Armbar from Open Guard film study: Roger Gracie Armbars, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ This submission demands precise timing during the transition from guard retentio
 **Starting Position**: [[Positions/Open Guard]] · **From**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Open Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdYFELAO6B0)
+
+<p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> — taught by Robert Hugus · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZNhU5mY852E)
+
+<p class="clip-credit"><strong>Open Guard Armbar</strong> — taught by Rafael Mendes · 0:45 · <a href="https://www.youtube.com/watch?v=ZNhU5mY852E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie Armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

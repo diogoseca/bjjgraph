@@ -34,6 +34,54 @@ description: "Learn to establish collar sleeve guard from open guard bottom. Mas
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Collar Sleeve Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "One-grip guard pull into collar sleeve",
+      "description": "Open Guard to Collar Sleeve Guard film study: One-grip guard pull into collar sleeve, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s1l1pyN6DsE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s1l1pyN6DsE",
+      "url": "https://www.youtube.com/watch?v=s1l1pyN6DsE",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting to inside collar sleeve",
+      "description": "Open Guard to Collar Sleeve Guard film study: Getting to inside collar sleeve, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DOy6y-Z-wK4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DOy6y-Z-wK4",
+      "url": "https://www.youtube.com/watch?v=DOy6y-Z-wK4",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified collar sleeve introduction",
+      "description": "Open Guard to Collar Sleeve Guard film study: Modified collar sleeve introduction, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1piAnOs7xpA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1piAnOs7xpA",
+      "url": "https://www.youtube.com/watch?v=1piAnOs7xpA",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition represents a critical decision point in open guar
 **Success Rate**: 65%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Collar Sleeve Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s1l1pyN6DsE)
+
+<p class="clip-credit"><strong>One-grip guard pull into collar sleeve</strong> — taught by Carpio Jiu Jitsu · 2:19 · <a href="https://www.youtube.com/watch?v=s1l1pyN6DsE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DOy6y-Z-wK4)
+
+<p class="clip-credit"><strong>Getting to inside collar sleeve</strong> — taught by Mikey Musumeci · 2:03 · <a href="https://www.youtube.com/watch?v=DOy6y-Z-wK4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1piAnOs7xpA)
+
+<p class="clip-credit"><strong>Modified collar sleeve introduction</strong> — taught by Mikey Musumeci · 2:38 · <a href="https://www.youtube.com/watch?v=1piAnOs7xpA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

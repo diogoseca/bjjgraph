@@ -144,6 +144,54 @@ description: "Defend the Clock Choke from Invisible Collar with early grip recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clock Choke from Invisible Collar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clock Choke from Turtle Escape",
+      "description": "Clock Choke from Invisible Collar (Defender) film study: Clock Choke from Turtle Escape, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bHIR07WZ8yI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bHIR07WZ8yI",
+      "url": "https://www.youtube.com/watch?v=bHIR07WZ8yI",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clock Choke Counter",
+      "description": "Clock Choke from Invisible Collar (Defender) film study: Clock Choke Counter, taught by Jamie Ridgeway.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RiBLBO9zinA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RiBLBO9zinA",
+      "url": "https://www.youtube.com/watch?v=RiBLBO9zinA",
+      "creator": { "@type": "Person", "name": "Jamie Ridgeway" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clock Choke Escape",
+      "description": "Clock Choke from Invisible Collar (Defender) film study: Clock Choke Escape, taught by Renato Migliaccio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5DnhNOvP66I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5DnhNOvP66I",
+      "url": "https://www.youtube.com/watch?v=5DnhNOvP66I",
+      "creator": { "@type": "Person", "name": "Renato Migliaccio" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -156,6 +204,42 @@ The primary defensive strategy focuses on stripping the collar grip with both ha
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clock Choke from Invisible Collar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bHIR07WZ8yI)
+
+<p class="clip-credit"><strong>Clock Choke from Turtle Escape</strong> — taught by Andy Tong · 0:17 · <a href="https://www.youtube.com/watch?v=bHIR07WZ8yI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RiBLBO9zinA)
+
+<p class="clip-credit"><strong>Clock Choke Counter</strong> — taught by Jamie Ridgeway · 1:19 · <a href="https://www.youtube.com/watch?v=RiBLBO9zinA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5DnhNOvP66I)
+
+<p class="clip-credit"><strong>Clock Choke Escape</strong> — taught by Renato Migliaccio · 0:11 · <a href="https://www.youtube.com/watch?v=5DnhNOvP66I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

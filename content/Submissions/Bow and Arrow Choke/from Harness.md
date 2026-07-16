@@ -34,6 +34,54 @@ description: "Master the Bow and Arrow Choke from Harness position in BJJ. Learn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Harness \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and arrow choke from back control",
+      "description": "Bow and Arrow Choke from Harness film study: Bow and arrow choke from back control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
+      "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and arrow choke",
+      "description": "Bow and Arrow Choke from Harness film study: Bow and arrow choke, taught by Helena Crevar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
+      "url": "https://www.youtube.com/watch?v=rc77idEskwo",
+      "creator": { "@type": "Person", "name": "Helena Crevar" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Finishing the bow \u0026 arrow choke \u2014 key detail",
+      "description": "Bow and Arrow Choke from Harness film study: Finishing the bow \u0026 arrow choke \u2014 key detail, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6yx5No7AKU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6yx5No7AKU0",
+      "url": "https://www.youtube.com/watch?v=6yx5No7AKU0",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Strategically, this submission capitalizes on common defensive reactions to back
 **Starting Position**: [[Positions/Harness]] · **From**: [[Positions/Harness]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Harness in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
+
+<p class="clip-credit"><strong>Bow and arrow choke from back control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rc77idEskwo)
+
+<p class="clip-credit"><strong>Bow and arrow choke</strong> — taught by Helena Crevar · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6yx5No7AKU0)
+
+<p class="clip-credit"><strong>Finishing the bow &amp; arrow choke — key detail</strong> — taught by Henry Akins · 0:42 · <a href="https://www.youtube.com/watch?v=6yx5No7AKU0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

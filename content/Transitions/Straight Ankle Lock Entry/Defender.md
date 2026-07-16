@@ -148,6 +148,54 @@ description: "How to defend against Straight Ankle Lock Entry in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle lock defense",
+      "description": "Straight Ankle Lock Entry (Defender) film study: Ankle lock defense, taught by Full Metal Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MCZVJEU3ujw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MCZVJEU3ujw",
+      "url": "https://www.youtube.com/watch?v=MCZVJEU3ujw",
+      "creator": { "@type": "Person", "name": "Full Metal Jiu Jitsu" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg lock defense basics, no-gi",
+      "description": "Straight Ankle Lock Entry (Defender) film study: Leg lock defense basics, no-gi, taught by Kuwy Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
+      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
+      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Straight ankle lock defence and escapes",
+      "description": "Straight Ankle Lock Entry (Defender) film study: Straight ankle lock defence and escapes, taught by Jiu Jitsu Brotherhood.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vg-Luhls7yE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vg-Luhls7yE",
+      "url": "https://www.youtube.com/watch?v=vg-Luhls7yE",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Brotherhood" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ From the top position facing grasshopper guard, you hold inherent advantages in 
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MCZVJEU3ujw)
+
+<p class="clip-credit"><strong>Ankle lock defense</strong> — taught by Full Metal Jiu Jitsu · 1:42 · <a href="https://www.youtube.com/watch?v=MCZVJEU3ujw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m0NLphEuFoc)
+
+<p class="clip-credit"><strong>Leg lock defense basics, no-gi</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vg-Luhls7yE)
+
+<p class="clip-credit"><strong>Straight ankle lock defence and escapes</strong> — taught by Jiu Jitsu Brotherhood · 2:44 · <a href="https://www.youtube.com/watch?v=vg-Luhls7yE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

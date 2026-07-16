@@ -153,6 +153,43 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Positional Check Against the Guillotine",
+      "description": "Guillotine Control (Bottom) film study: Positional Check Against the Guillotine, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nGpAcI79frk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nGpAcI79frk",
+      "url": "https://www.youtube.com/watch?v=nGpAcI79frk",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worst Case Guillotine Escape",
+      "description": "Guillotine Control (Bottom) film study: Worst Case Guillotine Escape, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PYiD6UjqMTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PYiD6UjqMTw",
+      "url": "https://www.youtube.com/watch?v=PYiD6UjqMTw",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The strategic value of Guillotine Control Bottom lies in its ability to threaten
 From a positional hierarchy perspective, Guillotine Control Bottom represents a high-risk, high-reward position that can quickly transition to either submission victory or positional disadvantage if the opponent successfully defends. The position demands technical precision in grip management, hip positioning, and understanding of multiple finishing variations including arm-in guillotine, high elbow guillotine, and ten-finger variations. Modern guillotine systems emphasize the importance of guard retention and the ability to transition between different guillotine variations based on opponent reactions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nGpAcI79frk)
+
+<p class="clip-credit"><strong>Positional Check Against the Guillotine</strong> — taught by Priit Mihkelson · 1:56 · <a href="https://www.youtube.com/watch?v=nGpAcI79frk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PYiD6UjqMTw)
+
+<p class="clip-credit"><strong>Worst Case Guillotine Escape</strong> — taught by Malachy Friedman · 1:48 · <a href="https://www.youtube.com/watch?v=PYiD6UjqMTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

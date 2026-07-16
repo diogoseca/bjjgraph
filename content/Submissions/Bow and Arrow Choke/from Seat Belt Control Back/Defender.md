@@ -144,6 +144,54 @@ description: "Defend against the Bow and Arrow Choke from Seat Belt back control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Seat Belt Control Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape \u2014 standing up",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back (Defender) film study: Back escape \u2014 standing up, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back escape without the seat belt grip",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back (Defender) film study: Back escape without the seat belt grip, taught by Elements Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cfvNAYrogwQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cfvNAYrogwQ",
+      "url": "https://www.youtube.com/watch?v=cfvNAYrogwQ",
+      "creator": { "@type": "Person", "name": "Elements Martial Arts" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle up defence \u2014 sit out",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back (Defender) film study: Turtle up defence \u2014 sit out, taught by Mj\u00f8lnir Fight Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
+      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
+      "creator": { "@type": "Person", "name": "Mj\u00f8lnir Fight Club" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the Bow and Arrow Choke from Seat Belt Control Back requires early rec
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Seat Belt Control Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Back escape — standing up</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cfvNAYrogwQ)
+
+<p class="clip-credit"><strong>Back escape without the seat belt grip</strong> — taught by Elements Martial Arts · 1:58 · <a href="https://www.youtube.com/watch?v=cfvNAYrogwQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d312j3n9fIw)
+
+<p class="clip-credit"><strong>Turtle up defence — sit out</strong> — taught by Mjølnir Fight Club · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

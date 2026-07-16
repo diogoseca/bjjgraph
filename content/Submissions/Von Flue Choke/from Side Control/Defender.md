@@ -152,6 +152,54 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Von Flue Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Von Flue Choke - Guillotine Counter",
+      "description": "Von Flue Choke from Side Control (Defender) film study: Von Flue Choke - Guillotine Counter, taught by Ramsey Dewey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WSH-gBwPmLs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WSH-gBwPmLs",
+      "url": "https://www.youtube.com/watch?v=WSH-gBwPmLs",
+      "creator": { "@type": "Person", "name": "Ramsey Dewey" },
+      "duration": "PT199S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How NOT to Escape a Guillotine Choke",
+      "description": "Von Flue Choke from Side Control (Defender) film study: How NOT to Escape a Guillotine Choke, taught by Self Defense Mythbuster.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pThmcwxzNBQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pThmcwxzNBQ",
+      "url": "https://www.youtube.com/watch?v=pThmcwxzNBQ",
+      "creator": { "@type": "Person", "name": "Self Defense Mythbuster" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guillotine Counter + Von Flue Choke",
+      "description": "Von Flue Choke from Side Control (Defender) film study: Guillotine Counter + Von Flue Choke, taught by Updawg Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RXoU4lbjelI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RXoU4lbjelI",
+      "url": "https://www.youtube.com/watch?v=RXoU4lbjelI",
+      "creator": { "@type": "Person", "name": "Updawg Jiu-Jitsu" },
+      "duration": "PT133S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ Defending the Von Flue Choke requires understanding a fundamental paradox: the t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Von Flue Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WSH-gBwPmLs)
+
+<p class="clip-credit"><strong>Von Flue Choke - Guillotine Counter</strong> — taught by Ramsey Dewey · 3:19 · <a href="https://www.youtube.com/watch?v=WSH-gBwPmLs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pThmcwxzNBQ)
+
+<p class="clip-credit"><strong>How NOT to Escape a Guillotine Choke</strong> — taught by Self Defense Mythbuster · 1:19 · <a href="https://www.youtube.com/watch?v=pThmcwxzNBQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RXoU4lbjelI)
+
+<p class="clip-credit"><strong>Guillotine Counter + Von Flue Choke</strong> — taught by Updawg Jiu-Jitsu · 2:13 · <a href="https://www.youtube.com/watch?v=RXoU4lbjelI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

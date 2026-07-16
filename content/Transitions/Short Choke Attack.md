@@ -34,6 +34,54 @@ description: "Learn Short Choke Attack from Gift Wrap in BJJ. Step-by-step execu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke Attack \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gift wrap to rear naked choke finish",
+      "description": "Short Choke Attack film study: Gift wrap to rear naked choke finish, taught by Doug Taylor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f24j2L4nYSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f24j2L4nYSU",
+      "url": "https://www.youtube.com/watch?v=f24j2L4nYSU",
+      "creator": { "@type": "Person", "name": "Doug Taylor" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The gift wrap in two minutes, no-gi",
+      "description": "Short Choke Attack film study: The gift wrap in two minutes, no-gi, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
+      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT112S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gift-wrap setup and control for no-gi",
+      "description": "Short Choke Attack film study: Gift-wrap setup and control for no-gi, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g4onw9pd4_s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g4onw9pd4_s",
+      "url": "https://www.youtube.com/watch?v=g4onw9pd4_s",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Short Choke represents the most direct submission threat from
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke Attack in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f24j2L4nYSU)
+
+<p class="clip-credit"><strong>Gift wrap to rear naked choke finish</strong> — taught by Doug Taylor · 1:48 · <a href="https://www.youtube.com/watch?v=f24j2L4nYSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
+
+<p class="clip-credit"><strong>The gift wrap in two minutes, no-gi</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g4onw9pd4_s)
+
+<p class="clip-credit"><strong>Gift-wrap setup and control for no-gi</strong> — taught by Henry Akins · 2:01 · <a href="https://www.youtube.com/watch?v=g4onw9pd4_s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

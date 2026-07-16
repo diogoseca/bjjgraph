@@ -148,6 +148,54 @@ description: "How to defend against Progression to Zombie in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Progression to Zombie (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple rubber guard escape",
+      "description": "Progression to Zombie (Defender) film study: Simple rubber guard escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the rubber guard",
+      "description": "Progression to Zombie (Defender) film study: Passing the rubber guard, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ANxiPpAzACU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ANxiPpAzACU",
+      "url": "https://www.youtube.com/watch?v=ANxiPpAzACU",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT443S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Why your Rubber Guard never works - counters",
+      "description": "Progression to Zombie (Defender) film study: Why your Rubber Guard never works - counters, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5jKZpFnxYbE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5jKZpFnxYbE",
+      "url": "https://www.youtube.com/watch?v=5jKZpFnxYbE",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT307S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Defensive success depends on understanding which element of the control system t
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Progression to Zombie (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Simple rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ANxiPpAzACU)
+
+<p class="clip-credit"><strong>Passing the rubber guard</strong> — taught by Marcelo Garcia · 7:23 · <a href="https://www.youtube.com/watch?v=ANxiPpAzACU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5jKZpFnxYbE)
+
+<p class="clip-credit"><strong>Why your Rubber Guard never works - counters</strong> — taught by Brandon Mccaghren · 5:07 · <a href="https://www.youtube.com/watch?v=5jKZpFnxYbE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

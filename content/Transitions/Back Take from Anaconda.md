@@ -34,6 +34,43 @@ description: "Master the Back Take from Anaconda in BJJ. Learn to convert front 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Anaconda \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sneaky anaconda from back control",
+      "description": "Back Take from Anaconda film study: Sneaky anaconda from back control, taught by Corey Guitard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fysm_zUV3BU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fysm_zUV3BU",
+      "url": "https://www.youtube.com/watch?v=fysm_zUV3BU",
+      "creator": { "@type": "Person", "name": "Corey Guitard" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two main variations of the anaconda strangle",
+      "description": "Back Take from Anaconda film study: Two main variations of the anaconda strangle, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkDYDgUzQXs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkDYDgUzQXs",
+      "url": "https://www.youtube.com/watch?v=TkDYDgUzQXs",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The transition demands precise timing during the grip exchange window—the brie
 **Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Anaconda in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fysm_zUV3BU)
+
+<p class="clip-credit"><strong>Sneaky anaconda from back control</strong> — taught by Corey Guitard · 2:05 · <a href="https://www.youtube.com/watch?v=fysm_zUV3BU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkDYDgUzQXs)
+
+<p class="clip-credit"><strong>Two main variations of the anaconda strangle</strong> — taught by John Danaher · 2:27 · <a href="https://www.youtube.com/watch?v=TkDYDgUzQXs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

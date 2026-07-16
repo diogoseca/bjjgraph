@@ -174,6 +174,43 @@ description: "Master executing the Stack Pass from Clamp Guard in BJJ. Step-by-s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Clamp Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass mechanics and finish",
+      "description": "Stack Pass from Clamp Guard (Attacker) film study: Stack pass mechanics and finish, taught by Kenny Kim.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2KcAEYsaHAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2KcAEYsaHAg",
+      "url": "https://www.youtube.com/watch?v=2KcAEYsaHAg",
+      "creator": { "@type": "Person", "name": "Kenny Kim" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard break into stack pass",
+      "description": "Stack Pass from Clamp Guard (Attacker) film study: Guard break into stack pass, taught by Einar Fri\u00f0geirs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xQIZEMLolpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xQIZEMLolpU",
+      "url": "https://www.youtube.com/watch?v=xQIZEMLolpU",
+      "creator": { "@type": "Person", "name": "Einar Fri\u00f0geirs" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Stack Pass from Clamp Guard is executed by the top player whose arm is trapp
 **From Position**: [[Positions/Clamp Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Clamp Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2KcAEYsaHAg)
+
+<p class="clip-credit"><strong>Stack pass mechanics and finish</strong> — taught by Kenny Kim · 1:28 · <a href="https://www.youtube.com/watch?v=2KcAEYsaHAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xQIZEMLolpU)
+
+<p class="clip-credit"><strong>Guard break into stack pass</strong> — taught by Einar Friðgeirs · 0:21 · <a href="https://www.youtube.com/watch?v=xQIZEMLolpU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

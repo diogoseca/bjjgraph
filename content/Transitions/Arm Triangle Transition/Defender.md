@@ -148,6 +148,54 @@ description: "How to defend against Arm Triangle Transition in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle Transition (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fastest escape out of the arm triangle",
+      "description": "Arm Triangle Transition (Defender) film study: Fastest escape out of the arm triangle, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
+      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm triangle escape",
+      "description": "Arm Triangle Transition (Defender) film study: Arm triangle escape, taught by Hauck Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zaYaAl5x26Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zaYaAl5x26Y",
+      "url": "https://www.youtube.com/watch?v=zaYaAl5x26Y",
+      "creator": { "@type": "Person", "name": "Hauck Jiu-Jitsu" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escape from the standing arm triangle",
+      "description": "Arm Triangle Transition (Defender) film study: Escape from the standing arm triangle, taught by Andrew Hoard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VDPPLiZvvFE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VDPPLiZvvFE",
+      "url": "https://www.youtube.com/watch?v=VDPPLiZvvFE",
+      "creator": { "@type": "Person", "name": "Andrew Hoard" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders learn to navigate the Hindulotine dilemma by using responses 
 **Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle Transition (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+
+<p class="clip-credit"><strong>Fastest escape out of the arm triangle</strong> — taught by Adam Bradley · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zaYaAl5x26Y)
+
+<p class="clip-credit"><strong>Arm triangle escape</strong> — taught by Hauck Jiu-Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=zaYaAl5x26Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VDPPLiZvvFE)
+
+<p class="clip-credit"><strong>Escape from the standing arm triangle</strong> — taught by Andrew Hoard · 1:21 · <a href="https://www.youtube.com/watch?v=VDPPLiZvvFE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

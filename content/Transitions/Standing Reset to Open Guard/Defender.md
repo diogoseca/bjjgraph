@@ -148,6 +148,54 @@ description: "How to defend against Standing Reset to Open Guard in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Reset to Open Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three tricks to stop your guard being passed",
+      "description": "Standing Reset to Open Guard (Defender) film study: Three tricks to stop your guard being passed, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q4e8HHp7avk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q4e8HHp7avk",
+      "url": "https://www.youtube.com/watch?v=q4e8HHp7avk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT147S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The 8 Layers of Guard Retention (Part 1)",
+      "description": "Standing Reset to Open Guard (Defender) film study: The 8 Layers of Guard Retention (Part 1), taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UTaZzbHMr-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UTaZzbHMr-s",
+      "url": "https://www.youtube.com/watch?v=UTaZzbHMr-s",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT598S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard Retention 101 - The Heisenberg Heist",
+      "description": "Standing Reset to Open Guard (Defender) film study: Guard Retention 101 - The Heisenberg Heist, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2x2ySnQlRRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2x2ySnQlRRQ",
+      "url": "https://www.youtube.com/watch?v=2x2ySnQlRRQ",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT459S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Your defensive priorities follow a clear hierarchy: first, prevent the stand by 
 **Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Reset to Open Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q4e8HHp7avk)
+
+<p class="clip-credit"><strong>Three tricks to stop your guard being passed</strong> — taught by Jon Thomas · 2:27 · <a href="https://www.youtube.com/watch?v=q4e8HHp7avk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UTaZzbHMr-s)
+
+<p class="clip-credit"><strong>The 8 Layers of Guard Retention (Part 1)</strong> — taught by Keenan Cornelius · 9:58 · <a href="https://www.youtube.com/watch?v=UTaZzbHMr-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2x2ySnQlRRQ)
+
+<p class="clip-credit"><strong>Guard Retention 101 - The Heisenberg Heist</strong> — taught by Keenan Cornelius · 7:39 · <a href="https://www.youtube.com/watch?v=2x2ySnQlRRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Toe Hold Control position in BJJ. Strategic guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toe Hold control and finish",
+      "description": "Toe Hold Control film study: Toe Hold control and finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe Hold entry from 50/50",
+      "description": "Toe Hold Control film study: Toe Hold entry from 50/50, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
+      "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position's strategic significance lies in its dual nature as both offensive 
 Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly valuable in rulesets where heel hooks face restrictions. The position teaches fundamental principles of joint isolation, progressive pressure application, and the critical relationship between control and submission that applies across all leg entanglement scenarios. Modern practitioners view this position not as an isolated technique but as an integral component of systematic leg attack sequences, where transitions between ankle locks, toe holds, heel hooks, and kneebars flow seamlessly based on defensive reactions. Mastery requires understanding both the immediate mechanical application and the broader strategic context within comprehensive leg lock systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Toe Hold control and finish</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
+
+<p class="clip-credit"><strong>Toe Hold entry from 50/50</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

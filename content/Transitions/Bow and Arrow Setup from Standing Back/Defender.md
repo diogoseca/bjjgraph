@@ -156,6 +156,54 @@ description: "Learn to defend and escape the Bow and Arrow Setup from Standing B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Setup from Standing Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape against collar control",
+      "description": "Bow and Arrow Setup from Standing Back (Defender) film study: Back escape against collar control, taught by Dragons Den MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K1zBxCL_IQ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K1zBxCL_IQ4",
+      "url": "https://www.youtube.com/watch?v=K1zBxCL_IQ4",
+      "creator": { "@type": "Person", "name": "Dragons Den MMA" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mechanics for Escaping Back Control",
+      "description": "Bow and Arrow Setup from Standing Back (Defender) film study: Mechanics for Escaping Back Control, taught by SBG PDX coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pVA_anHnk64/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pVA_anHnk64",
+      "url": "https://www.youtube.com/watch?v=pVA_anHnk64",
+      "creator": { "@type": "Person", "name": "SBG PDX coach" },
+      "duration": "PT376S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Jiu Jitsu Back Escape System",
+      "description": "Bow and Arrow Setup from Standing Back (Defender) film study: Jiu Jitsu Back Escape System, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N6lKNqUOZoY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N6lKNqUOZoY",
+      "url": "https://www.youtube.com/watch?v=N6lKNqUOZoY",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT675S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ Defending the Bow and Arrow Setup from Standing Back Control requires recognizin
 **Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Setup from Standing Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K1zBxCL_IQ4)
+
+<p class="clip-credit"><strong>Back escape against collar control</strong> — taught by Dragons Den MMA · 1:33 · <a href="https://www.youtube.com/watch?v=K1zBxCL_IQ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pVA_anHnk64)
+
+<p class="clip-credit"><strong>Mechanics for Escaping Back Control</strong> — taught by SBG PDX coach · 6:16 · <a href="https://www.youtube.com/watch?v=pVA_anHnk64" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N6lKNqUOZoY)
+
+<p class="clip-credit"><strong>Jiu Jitsu Back Escape System</strong> — taught by Matt Arroyo · 11:15 · <a href="https://www.youtube.com/watch?v=N6lKNqUOZoY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

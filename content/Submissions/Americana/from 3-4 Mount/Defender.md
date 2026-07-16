@@ -150,6 +150,54 @@ description: "Defend the Americana from 3-4 Mount in BJJ. Recognition cues, grip
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from 3-4 Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple Americana Armlock Escape",
+      "description": "Americana from 3-4 Mount (Defender) film study: Simple Americana Armlock Escape, taught by Eddie Kone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
+      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
+      "creator": { "@type": "Person", "name": "Eddie Kone" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the americana",
+      "description": "Americana from 3-4 Mount (Defender) film study: Defending the americana, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
+      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kipping escape: defend the americana into a heel hook",
+      "description": "Americana from 3-4 Mount (Defender) film study: Kipping escape: defend the americana into a heel hook, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ht5OdSQG3BY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ht5OdSQG3BY",
+      "url": "https://www.youtube.com/watch?v=Ht5OdSQG3BY",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT330S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ Keep your elbows tight to your ribs at all times, never allowing your near arm t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from 3-4 Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
+
+<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FNyL93v5fGs)
+
+<p class="clip-credit"><strong>Defending the americana</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ht5OdSQG3BY)
+
+<p class="clip-credit"><strong>Kipping escape: defend the americana into a heel hook</strong> — taught by Brian Glick · 5:30 · <a href="https://www.youtube.com/watch?v=Ht5OdSQG3BY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

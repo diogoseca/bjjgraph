@@ -34,6 +34,43 @@ description: "Learn the Elbow Escape to Guard from Buggy Choke defense in BJJ. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape to Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Defend the Ruotolo Brothers\u0027 Buggy Choke",
+      "description": "Elbow Escape to Guard film study: How to Defend the Ruotolo Brothers\u0027 Buggy Choke, taught by Less Impressed More Involved BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CD1PBfMol-k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CD1PBfMol-k",
+      "url": "https://www.youtube.com/watch?v=CD1PBfMol-k",
+      "creator": { "@type": "Person", "name": "Less Impressed More Involved BJJ" },
+      "duration": "PT253S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Defend Against the Buggy Choke",
+      "description": "Elbow Escape to Guard film study: How to Defend Against the Buggy Choke, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6VmI-HMAQso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6VmI-HMAQso",
+      "url": "https://www.youtube.com/watch?v=6VmI-HMAQso",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT239S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique is particularly valuable because it maintains a defensive posture
 **Success Rate**: 43%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape to Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CD1PBfMol-k)
+
+<p class="clip-credit"><strong>How to Defend the Ruotolo Brothers&#39; Buggy Choke</strong> — taught by Less Impressed More Involved BJJ · 4:13 · <a href="https://www.youtube.com/watch?v=CD1PBfMol-k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6VmI-HMAQso)
+
+<p class="clip-credit"><strong>How to Defend Against the Buggy Choke</strong> — taught by MMA Leech · 3:59 · <a href="https://www.youtube.com/watch?v=6VmI-HMAQso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

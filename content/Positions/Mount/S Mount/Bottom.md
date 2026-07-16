@@ -141,6 +141,43 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S Mount (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee and elbow mount escape",
+      "description": "S Mount (Bottom) film study: Knee and elbow mount escape, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
+      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross-underhook side mount escape",
+      "description": "S Mount (Bottom) film study: Cross-underhook side mount escape, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tx_pVnkCA-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tx_pVnkCA-o",
+      "url": "https://www.youtube.com/watch?v=tx_pVnkCA-o",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -156,6 +193,34 @@ Escape mechanics typically involve creating space through hip movement, establis
 Mental composure under pressure is perhaps the most critical factor in S Mount bottom survival. The position naturally creates claustrophobic pressure and the imminent threat of submission can lead to panic, which invariably results in technical breakdown and submission. Maintaining calm, focusing on defensive principles, and waiting for the correct moment to escape are essential skills for any practitioner facing this position. Understanding S Mount bottom defense is a fundamental component of comprehensive BJJ defensive systems and appears regularly in competition training.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S Mount (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
+
+<p class="clip-credit"><strong>Knee and elbow mount escape</strong> — taught by jamielovesmartialarts · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tx_pVnkCA-o)
+
+<p class="clip-credit"><strong>Cross-underhook side mount escape</strong> — taught by Carlos Machado · 2:10 · <a href="https://www.youtube.com/watch?v=tx_pVnkCA-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

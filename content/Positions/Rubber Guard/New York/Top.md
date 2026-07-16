@@ -153,6 +153,43 @@ description: "Defend and escape New York control from top position. Master postu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why Rubber Guard fails: the top player\u0027s counters",
+      "description": "New York (Top) film study: Why Rubber Guard fails: the top player\u0027s counters, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
+      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT792S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard theory from both sides",
+      "description": "New York (Top) film study: Rubber Guard theory from both sides, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NfR86wov0f8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NfR86wov0f8",
+      "url": "https://www.youtube.com/watch?v=NfR86wov0f8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT264S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -174,6 +211,34 @@ The psychological element of New York Top is significant. Many top players becom
 From a learning progression standpoint, developing effective New York Top defense requires 80-120 hours of specific positional training, significantly more than most guard defense positions. The position's complexity and the variety of submission threats make it one of the more time-intensive defensive skills to master in Brazilian Jiu-Jitsu.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
+
+<p class="clip-credit"><strong>Why Rubber Guard fails: the top player&#39;s counters</strong> — taught by Brandon Mccaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NfR86wov0f8)
+
+<p class="clip-credit"><strong>Rubber Guard theory from both sides</strong> — taught by Eddie Bravo · 4:24 · <a href="https://www.youtube.com/watch?v=NfR86wov0f8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

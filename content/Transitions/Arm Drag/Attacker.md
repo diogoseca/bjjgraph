@@ -168,6 +168,54 @@ description: "How to execute the Arm Drag in BJJ. Attacking perspective with gri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia arm drag takedown",
+      "description": "Arm Drag (Attacker) film study: Marcelo Garcia arm drag takedown, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kp3ABmsn1I0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kp3ABmsn1I0",
+      "url": "https://www.youtube.com/watch?v=Kp3ABmsn1I0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse arm drag from butterfly to back take",
+      "description": "Arm Drag (Attacker) film study: Reverse arm drag from butterfly to back take, taught by Jerry Musquiz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
+      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
+      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breakdown of Marcelo Garcia\u0027s arm drag",
+      "description": "Arm Drag (Attacker) film study: Breakdown of Marcelo Garcia\u0027s arm drag, taught by Riccardo Ammendolia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xnjQbv6y1yo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xnjQbv6y1yo",
+      "url": "https://www.youtube.com/watch?v=xnjQbv6y1yo",
+      "creator": { "@type": "Person", "name": "Riccardo Ammendolia" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Advanced arm drag attacking integrates setups, feints, and chain reactions into 
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kp3ABmsn1I0)
+
+<p class="clip-credit"><strong>Marcelo Garcia arm drag takedown</strong> — taught by Marcelo Garcia · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MFed9IE8afA)
+
+<p class="clip-credit"><strong>Reverse arm drag from butterfly to back take</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xnjQbv6y1yo)
+
+<p class="clip-credit"><strong>Breakdown of Marcelo Garcia&#39;s arm drag</strong> — taught by Riccardo Ammendolia · 1:00 · <a href="https://www.youtube.com/watch?v=xnjQbv6y1yo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

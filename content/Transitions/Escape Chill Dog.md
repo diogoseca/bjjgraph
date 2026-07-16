@@ -34,6 +34,43 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Chill Dog \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown Clinches from 10th Planet Half Guard",
+      "description": "Escape Chill Dog film study: Lockdown Clinches from 10th Planet Half Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Control Escape to Modified Dogfight",
+      "description": "Escape Chill Dog film study: Side Control Escape to Modified Dogfight, taught by Ketchikan Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7_RG40nP5HU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7_RG40nP5HU",
+      "url": "https://www.youtube.com/watch?v=7_RG40nP5HU",
+      "creator": { "@type": "Person", "name": "Ketchikan Jiu-Jitsu" },
+      "duration": "PT122S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this escape is particularly valuable because half guard offers si
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Chill Dog in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown Clinches from 10th Planet Half Guard</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7_RG40nP5HU)
+
+<p class="clip-credit"><strong>Side Control Escape to Modified Dogfight</strong> — taught by Ketchikan Jiu-Jitsu · 2:02 · <a href="https://www.youtube.com/watch?v=7_RG40nP5HU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

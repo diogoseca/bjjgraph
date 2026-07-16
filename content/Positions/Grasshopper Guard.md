@@ -34,6 +34,54 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grasshopper Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse De La Riva guard overview",
+      "description": "Grasshopper Guard film study: Reverse De La Riva guard overview, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
+      "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Grasshopper Guard techniques and entries overview",
+      "description": "Grasshopper Guard film study: Grasshopper Guard techniques and entries overview, taught by Danny Fung.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ts6plGhJ4gI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ts6plGhJ4gI",
+      "url": "https://www.youtube.com/watch?v=ts6plGhJ4gI",
+      "creator": { "@type": "Person", "name": "Danny Fung" },
+      "duration": "PT689S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inverted guard retention fundamentals",
+      "description": "Grasshopper Guard film study: Inverted guard retention fundamentals, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lY8JZMAm1N4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lY8JZMAm1N4",
+      "url": "https://www.youtube.com/watch?v=lY8JZMAm1N4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT369S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The energy dynamics of grasshopper guard differ significantly from traditional g
 Defensively, grasshopper guard can serve as an emergency response when traditional guard retention fails. If an opponent passes around one side, the guard player can invert underneath and use grasshopper mechanics to recover leg contact and reset the engagement. This makes it a valuable skill for modern guard retention systems, where multiple layers of defense are essential against skilled passers.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grasshopper Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_beJGS2-yIE)
+
+<p class="clip-credit"><strong>Reverse De La Riva guard overview</strong> — taught by Lachlan Giles · 2:02 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ts6plGhJ4gI)
+
+<p class="clip-credit"><strong>Grasshopper Guard techniques and entries overview</strong> — taught by Danny Fung · 11:29 · <a href="https://www.youtube.com/watch?v=ts6plGhJ4gI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lY8JZMAm1N4)
+
+<p class="clip-credit"><strong>Inverted guard retention fundamentals</strong> — taught by Lachlan Giles · 6:09 · <a href="https://www.youtube.com/watch?v=lY8JZMAm1N4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -140,6 +140,54 @@ description: "Defend against the Roll Escape from Cross Body Ride in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Escape from Cross Body Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside roll escape from the turtle ride",
+      "description": "Roll Escape from Cross Body Ride (Defender) film study: Inside roll escape from the turtle ride, taught by Kenny Lester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/923eYpD1E58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/923eYpD1E58",
+      "url": "https://www.youtube.com/watch?v=923eYpD1E58",
+      "creator": { "@type": "Person", "name": "Kenny Lester" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Corkscrew roll to escape the cross body ride",
+      "description": "Roll Escape from Cross Body Ride (Defender) film study: Corkscrew roll to escape the cross body ride, taught by Joe Scioli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RiDGyt4U848/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RiDGyt4U848",
+      "url": "https://www.youtube.com/watch?v=RiDGyt4U848",
+      "creator": { "@type": "Person", "name": "Joe Scioli" },
+      "duration": "PT152S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the cross body ride step by step",
+      "description": "Roll Escape from Cross Body Ride (Defender) film study: Escaping the cross body ride step by step, taught by Jake Sueflohn.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l7FuJKfhhug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l7FuJKfhhug",
+      "url": "https://www.youtube.com/watch?v=l7FuJKfhhug",
+      "creator": { "@type": "Person", "name": "Jake Sueflohn" },
+      "duration": "PT191S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against the Roll Escape from Cross Body Ride requires the top player t
 **Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Escape from Cross Body Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=923eYpD1E58)
+
+<p class="clip-credit"><strong>Inside roll escape from the turtle ride</strong> — taught by Kenny Lester · 2:38 · <a href="https://www.youtube.com/watch?v=923eYpD1E58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RiDGyt4U848)
+
+<p class="clip-credit"><strong>Corkscrew roll to escape the cross body ride</strong> — taught by Joe Scioli · 2:32 · <a href="https://www.youtube.com/watch?v=RiDGyt4U848" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l7FuJKfhhug)
+
+<p class="clip-credit"><strong>Escaping the cross body ride step by step</strong> — taught by Jake Sueflohn · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

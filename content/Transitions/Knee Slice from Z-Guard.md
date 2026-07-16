@@ -34,6 +34,43 @@ description: "Master the Knee Slice from Z-Guard in BJJ. Complete guide covering
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Z-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi knee cut pass",
+      "description": "Knee Slice from Z-Guard film study: No-gi knee cut pass, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qjnhpw1lijU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qjnhpw1lijU",
+      "url": "https://www.youtube.com/watch?v=qjnhpw1lijU",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the Z-guard",
+      "description": "Knee Slice from Z-Guard film study: Passing the Z-guard, taught by Zachary Maslany.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bvyNozyr7Ow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bvyNozyr7Ow",
+      "url": "https://www.youtube.com/watch?v=bvyNozyr7Ow",
+      "creator": { "@type": "Person", "name": "Zachary Maslany" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this technique occupies a central role in the top player's half g
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Z-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qjnhpw1lijU)
+
+<p class="clip-credit"><strong>No-gi knee cut pass</strong> — taught by Daniel Frank · 0:44 · <a href="https://www.youtube.com/watch?v=qjnhpw1lijU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bvyNozyr7Ow)
+
+<p class="clip-credit"><strong>Passing the Z-guard</strong> — taught by Zachary Maslany · 2:57 · <a href="https://www.youtube.com/watch?v=bvyNozyr7Ow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

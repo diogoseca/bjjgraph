@@ -140,6 +140,43 @@ description: "How to defend the Transition to Pocket Half Guard from Half Guard 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Pocket Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the underhook in half guard",
+      "description": "Half Guard to Pocket Half Guard (Defender) film study: Countering the underhook in half guard, taught by Revolution Fitness Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h26GaRXjSHo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h26GaRXjSHo",
+      "url": "https://www.youtube.com/watch?v=h26GaRXjSHo",
+      "creator": { "@type": "Person", "name": "Revolution Fitness Center" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping the half guard underhook",
+      "description": "Half Guard to Pocket Half Guard (Defender) film study: Stopping the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Transition to Pocket Half Guard, your primary object
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Pocket Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h26GaRXjSHo)
+
+<p class="clip-credit"><strong>Countering the underhook in half guard</strong> — taught by Revolution Fitness Center · 0:55 · <a href="https://www.youtube.com/watch?v=h26GaRXjSHo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

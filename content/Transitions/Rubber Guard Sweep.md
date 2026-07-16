@@ -34,6 +34,54 @@ description: "Master the Rubber Guard Sweep in BJJ. Complete guide to sweeping f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard sweep demonstration",
+      "description": "Rubber Guard Sweep film study: Rubber guard sweep demonstration, taught by CholoMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mg-kER88CBw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mg-kER88CBw",
+      "url": "https://www.youtube.com/watch?v=mg-kER88CBw",
+      "creator": { "@type": "Person", "name": "CholoMMA" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jersey sweep from rubber guard",
+      "description": "Rubber Guard Sweep film study: Jersey sweep from rubber guard, taught by Richie Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmuBRahwA7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmuBRahwA7c",
+      "url": "https://www.youtube.com/watch?v=CmuBRahwA7c",
+      "creator": { "@type": "Person", "name": "Richie Martinez" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Corona lockdown sweep",
+      "description": "Rubber Guard Sweep film study: Corona lockdown sweep, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
+      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Within the broader rubber guard system, this sweep serves as a critical branch i
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mg-kER88CBw)
+
+<p class="clip-credit"><strong>Rubber guard sweep demonstration</strong> — taught by CholoMMA · 0:50 · <a href="https://www.youtube.com/watch?v=mg-kER88CBw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CmuBRahwA7c)
+
+<p class="clip-credit"><strong>Jersey sweep from rubber guard</strong> — taught by Richie Martinez · 2:05 · <a href="https://www.youtube.com/watch?v=CmuBRahwA7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=08cbHHs_NsM)
+
+<p class="clip-credit"><strong>Corona lockdown sweep</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -156,6 +156,54 @@ description: "How to defend against Knee on Belly in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Escape The Knee On Belly Position",
+      "description": "Knee on Belly (Defender) film study: How To Escape The Knee On Belly Position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "First Principles Escapes: Mount and Knee-on-Belly",
+      "description": "Knee on Belly (Defender) film study: First Principles Escapes: Mount and Knee-on-Belly, taught by 40 Plus BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I9_3u9AcwAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I9_3u9AcwAg",
+      "url": "https://www.youtube.com/watch?v=I9_3u9AcwAg",
+      "creator": { "@type": "Person", "name": "40 Plus BJJ" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee On Belly Escape to Technical Standup, Ankle Pick",
+      "description": "Knee on Belly (Defender) film study: Knee On Belly Escape to Technical Standup, Ankle Pick, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/52LxBaUJdcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/52LxBaUJdcw",
+      "url": "https://www.youtube.com/watch?v=52LxBaUJdcw",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -167,6 +215,42 @@ The defender's primary objective is to remove the knee from the torso through co
 **Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How To Escape The Knee On Belly Position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I9_3u9AcwAg)
+
+<p class="clip-credit"><strong>First Principles Escapes: Mount and Knee-on-Belly</strong> — taught by 40 Plus BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=I9_3u9AcwAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=52LxBaUJdcw)
+
+<p class="clip-credit"><strong>Knee On Belly Escape to Technical Standup, Ankle Pick</strong> — taught by Lucas Lepri · 2:11 · <a href="https://www.youtube.com/watch?v=52LxBaUJdcw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

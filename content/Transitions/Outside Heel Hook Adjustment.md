@@ -34,6 +34,43 @@ description: "Master the Outside Heel Hook Adjustment from Ushiro Ashi-Garami. G
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook Adjustment \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified heel hook grip adjustment",
+      "description": "Outside Heel Hook Adjustment film study: Modified heel hook grip adjustment, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eODg9V29QXU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eODg9V29QXU",
+      "url": "https://www.youtube.com/watch?v=eODg9V29QXU",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "American heel hook finish detail",
+      "description": "Outside Heel Hook Adjustment film study: American heel hook finish detail, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O7Dr2Ymq3PQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O7Dr2Ymq3PQ",
+      "url": "https://www.youtube.com/watch?v=O7Dr2Ymq3PQ",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the Outside Heel Hook Adjustment represents a commitment to finis
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook Adjustment in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eODg9V29QXU)
+
+<p class="clip-credit"><strong>Modified heel hook grip adjustment</strong> — taught by Andre Galvao · 1:23 · <a href="https://www.youtube.com/watch?v=eODg9V29QXU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O7Dr2Ymq3PQ)
+
+<p class="clip-credit"><strong>American heel hook finish detail</strong> — taught by bjjtaro · 0:11 · <a href="https://www.youtube.com/watch?v=O7Dr2Ymq3PQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

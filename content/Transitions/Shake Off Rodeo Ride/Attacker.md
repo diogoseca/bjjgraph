@@ -174,6 +174,43 @@ description: "Execute the Shake Off Rodeo Ride escape in BJJ. Step-by-step explo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shake Off Rodeo Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle bottom: connecting head and shoulder",
+      "description": "Shake Off Rodeo Ride (Attacker) film study: Turtle bottom: connecting head and shoulder, taught by Black Dragon BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F7LWaSTKDPI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F7LWaSTKDPI",
+      "url": "https://www.youtube.com/watch?v=F7LWaSTKDPI",
+      "creator": { "@type": "Person", "name": "Black Dragon BJJ" },
+      "duration": "PT305S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back control tips and riding position details",
+      "description": "Shake Off Rodeo Ride (Attacker) film study: Back control tips and riding position details, taught by Jordan Teaches Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFDVh9EVgPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFDVh9EVgPA",
+      "url": "https://www.youtube.com/watch?v=CFDVh9EVgPA",
+      "creator": { "@type": "Person", "name": "Jordan Teaches Jiujitsu" },
+      "duration": "PT443S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ From the attacker perspective, executing the Shake Off requires generating explo
 **From Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shake Off Rodeo Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F7LWaSTKDPI)
+
+<p class="clip-credit"><strong>Turtle bottom: connecting head and shoulder</strong> — taught by Black Dragon BJJ · 5:05 · <a href="https://www.youtube.com/watch?v=F7LWaSTKDPI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFDVh9EVgPA)
+
+<p class="clip-credit"><strong>Back control tips and riding position details</strong> — taught by Jordan Teaches Jiujitsu · 7:23 · <a href="https://www.youtube.com/watch?v=CFDVh9EVgPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

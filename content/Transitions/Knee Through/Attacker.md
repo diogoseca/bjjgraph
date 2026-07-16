@@ -168,6 +168,43 @@ description: "How to execute the Knee Through pass in BJJ. Complete attacking gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Through (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi shin-to-shin pass with details",
+      "description": "Knee Through (Attacker) film study: No-gi shin-to-shin pass with details, taught by The Base Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v1-B4vyiASU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v1-B4vyiASU",
+      "url": "https://www.youtube.com/watch?v=v1-B4vyiASU",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu coach" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi shin-to-shin pass variation",
+      "description": "Knee Through (Attacker) film study: No-gi shin-to-shin pass variation, taught by The Base Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rRCor6OwhCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rRCor6OwhCo",
+      "url": "https://www.youtube.com/watch?v=rRCor6OwhCo",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu coach" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ The Knee Through pass attacks from half guard top by driving the trapped knee fo
 **From Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Through (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v1-B4vyiASU)
+
+<p class="clip-credit"><strong>No-gi shin-to-shin pass with details</strong> — taught by The Base Jiu Jitsu coach · 0:59 · <a href="https://www.youtube.com/watch?v=v1-B4vyiASU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rRCor6OwhCo)
+
+<p class="clip-credit"><strong>No-gi shin-to-shin pass variation</strong> — taught by The Base Jiu Jitsu coach · 2:16 · <a href="https://www.youtube.com/watch?v=rRCor6OwhCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

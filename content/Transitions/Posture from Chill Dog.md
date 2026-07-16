@@ -34,6 +34,43 @@ description: "Master posture recovery from Chill Dog turtle in BJJ. Break compac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture from Chill Dog \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle to side control transition",
+      "description": "Posture from Chill Dog film study: Turtle to side control transition, taught by Rickson Gracie Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
+      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
+      "creator": { "@type": "Person", "name": "Rickson Gracie Academy" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura trap to attack the turtle guard",
+      "description": "Posture from Chill Dog film study: Kimura trap to attack the turtle guard, taught by Paul Stolyar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rj3LRhRCtCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rj3LRhRCtCA",
+      "url": "https://www.youtube.com/watch?v=rj3LRhRCtCA",
+      "creator": { "@type": "Person", "name": "Paul Stolyar" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This is a lower-priority technique in the Chill Dog top arsenal because the prim
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture from Chill Dog in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
+
+<p class="clip-credit"><strong>Turtle to side control transition</strong> — taught by Rickson Gracie Academy · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rj3LRhRCtCA)
+
+<p class="clip-credit"><strong>Kimura trap to attack the turtle guard</strong> — taught by Paul Stolyar · 0:52 · <a href="https://www.youtube.com/watch?v=rj3LRhRCtCA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

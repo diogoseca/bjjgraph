@@ -34,6 +34,65 @@ description: "Master the Darce Choke in BJJ. Complete guide covering setup requi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Control D\u0027Arce Choke (No Gi)",
+      "description": "Darce Choke film study: Side Control D\u0027Arce Choke (No Gi), taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ukb_hx28qsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ukb_hx28qsM",
+      "url": "https://www.youtube.com/watch?v=ukb_hx28qsM",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to north-south D\u0027Arce",
+      "description": "Darce Choke film study: Side control to north-south D\u0027Arce, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double stack pass to a Darce choke",
+      "description": "Darce Choke film study: Double stack pass to a Darce choke, taught by All Day MMA and Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eEDKC2F3U2k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eEDKC2F3U2k",
+      "url": "https://www.youtube.com/watch?v=eEDKC2F3U2k",
+      "creator": { "@type": "Person", "name": "All Day MMA and Jiu Jitsu" },
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Darce choke to guard pass",
+      "description": "Darce Choke film study: Darce choke to guard pass, taught by Josh Presley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rosmg5rjo_s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rosmg5rjo_s",
+      "url": "https://www.youtube.com/watch?v=Rosmg5rjo_s",
+      "creator": { "@type": "Person", "name": "Josh Presley" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -85,6 +144,50 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 The Darce's effectiveness stems from its applicability across multiple positions—front headlock, turtle, scrambles, and even from bottom positions—making it a cornerstone technique in modern no-gi grappling. Unlike traditional gi chokes that rely on fabric grips, the Darce's body mechanics and leverage make it equally effective with or without the gi, though it's primarily considered a no-gi specialist's weapon. The technique creates a powerful dilemma for defenders: protecting the neck exposes the back, while defending the back creates the arm-neck gap needed for the Darce entry.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ukb_hx28qsM)
+
+<p class="clip-credit"><strong>Side Control D&#39;Arce Choke (No Gi)</strong> — taught by ZombieProofBJJ · 1:14 · <a href="https://www.youtube.com/watch?v=ukb_hx28qsM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south D&#39;Arce</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eEDKC2F3U2k)
+
+<p class="clip-credit"><strong>Double stack pass to a Darce choke</strong> — taught by All Day MMA and Jiu Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=eEDKC2F3U2k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rosmg5rjo_s)
+
+<p class="clip-credit"><strong>Darce choke to guard pass</strong> — taught by Josh Presley · 2:01 · <a href="https://www.youtube.com/watch?v=Rosmg5rjo_s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

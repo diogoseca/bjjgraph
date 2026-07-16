@@ -148,6 +148,43 @@ description: "How to defend against 50-50 Entry in BJJ. Recognition cues, defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter the 50/50 heel hook with a wristlock",
+      "description": "50-50 Entry (Defender) film study: Counter the 50/50 heel hook with a wristlock, taught by Whangarei BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_hyZqLRwsWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_hyZqLRwsWE",
+      "url": "https://www.youtube.com/watch?v=_hyZqLRwsWE",
+      "creator": { "@type": "Person", "name": "Whangarei BJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing pass for 50/50",
+      "description": "50-50 Entry (Defender) film study: Standing pass for 50/50, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q-ZBPkqGOgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q-ZBPkqGOgE",
+      "url": "https://www.youtube.com/watch?v=Q-ZBPkqGOgE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ If prevention fails and the entanglement begins forming, your defensive prioriti
 **Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_hyZqLRwsWE)
+
+<p class="clip-credit"><strong>Counter the 50/50 heel hook with a wristlock</strong> — taught by Whangarei BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=_hyZqLRwsWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q-ZBPkqGOgE)
+
+<p class="clip-credit"><strong>Standing pass for 50/50</strong> — taught by BJJ4Breakfast · 2:15 · <a href="https://www.youtube.com/watch?v=Q-ZBPkqGOgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

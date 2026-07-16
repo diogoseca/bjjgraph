@@ -156,6 +156,43 @@ description: "Defend against the mat return from standing rear clinch. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mat Return from Standing Rear Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stand up and sit out to escape the mat return",
+      "description": "Mat Return from Standing Rear Clinch (Defender) film study: Stand up and sit out to escape the mat return, taught by Cary Kolat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqFoPDd7S9A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqFoPDd7S9A",
+      "url": "https://www.youtube.com/watch?v=xqFoPDd7S9A",
+      "creator": { "@type": "Person", "name": "Cary Kolat" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending standing back control with double unders",
+      "description": "Mat Return from Standing Rear Clinch (Defender) film study: Defending standing back control with double unders, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k-78AJwPYig/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k-78AJwPYig",
+      "url": "https://www.youtube.com/watch?v=k-78AJwPYig",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -167,6 +204,34 @@ The defensive hierarchy follows a strict sequence: first, recognize the mat retu
 **Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mat Return from Standing Rear Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqFoPDd7S9A)
+
+<p class="clip-credit"><strong>Stand up and sit out to escape the mat return</strong> — taught by Cary Kolat · 1:23 · <a href="https://www.youtube.com/watch?v=xqFoPDd7S9A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k-78AJwPYig)
+
+<p class="clip-credit"><strong>Defending standing back control with double unders</strong> — taught by Academy Jiu Jitsu · 1:04 · <a href="https://www.youtube.com/watch?v=k-78AJwPYig" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

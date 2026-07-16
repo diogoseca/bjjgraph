@@ -34,6 +34,43 @@ description: "Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Lock Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Making the Z-lock work: lateral kneebar",
+      "description": "Z-Lock Half Guard film study: Making the Z-lock work: lateral kneebar, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mv5hY9YFUdU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mv5hY9YFUdU",
+      "url": "https://www.youtube.com/watch?v=mv5hY9YFUdU",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Z lock sideways knee bar",
+      "description": "Z-Lock Half Guard film study: Z lock sideways knee bar, taught by Junny Ocasio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pFlYpsbltZw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pFlYpsbltZw",
+      "url": "https://www.youtube.com/watch?v=pFlYpsbltZw",
+      "creator": { "@type": "Person", "name": "Junny Ocasio" },
+      "duration": "PT396S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position is particularly effective in no-gi grappling where traditional grip
 Developed primarily within the 10th Planet system and refined by lockdown specialists, the Z-Lock creates genuine dilemmas for top players who cannot simultaneously defend lockdown-based attacks and butterfly-based threats. The position requires significant technical understanding and hip flexibility but rewards practitioners with dynamic sweep opportunities, back take sequences, and submission paths that keep opponents defensive even from bottom position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Lock Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mv5hY9YFUdU)
+
+<p class="clip-credit"><strong>Making the Z-lock work: lateral kneebar</strong> — taught by jamielovesmartialarts · 1:06 · <a href="https://www.youtube.com/watch?v=mv5hY9YFUdU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pFlYpsbltZw)
+
+<p class="clip-credit"><strong>Z lock sideways knee bar</strong> — taught by Junny Ocasio · 6:36 · <a href="https://www.youtube.com/watch?v=pFlYpsbltZw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

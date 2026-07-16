@@ -150,6 +150,43 @@ description: "Defend and escape the Hindulotine choke from Hindulotine control. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hindulotine from Hindulotine (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the Hand Crossing (Guillotine Defense)",
+      "description": "Hindulotine from Hindulotine (Defender) film study: Preventing the Hand Crossing (Guillotine Defense), taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jDbywpDs3Tw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jDbywpDs3Tw",
+      "url": "https://www.youtube.com/watch?v=jDbywpDs3Tw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front Headlock Escape - Short Drag",
+      "description": "Hindulotine from Hindulotine (Defender) film study: Front Headlock Escape - Short Drag, taught by Mason Parris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VZe2GY0_UIk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VZe2GY0_UIk",
+      "url": "https://www.youtube.com/watch?v=VZe2GY0_UIk",
+      "creator": { "@type": "Person", "name": "Mason Parris" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Hindulotine finish requires early recognition and immediate postur
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hindulotine from Hindulotine (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jDbywpDs3Tw)
+
+<p class="clip-credit"><strong>Preventing the Hand Crossing (Guillotine Defense)</strong> — taught by Lachlan Giles · 2:09 · <a href="https://www.youtube.com/watch?v=jDbywpDs3Tw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VZe2GY0_UIk)
+
+<p class="clip-credit"><strong>Front Headlock Escape - Short Drag</strong> — taught by Mason Parris · 2:56 · <a href="https://www.youtube.com/watch?v=VZe2GY0_UIk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

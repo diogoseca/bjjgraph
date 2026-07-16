@@ -34,6 +34,54 @@ description: "Master Leg Hook position in BJJ. Transitional half guard control u
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Hook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "411 leg entanglement breakdown",
+      "description": "Leg Hook film study: 411 leg entanglement breakdown, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R4K-UU_bUZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R4K-UU_bUZQ",
+      "url": "https://www.youtube.com/watch?v=R4K-UU_bUZQ",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "411 leg entanglement control details",
+      "description": "Leg Hook film study: 411 leg entanglement control details, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iVa-jgMsLUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iVa-jgMsLUk",
+      "url": "https://www.youtube.com/watch?v=iVa-jgMsLUk",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg entanglement control drill",
+      "description": "Leg Hook film study: Leg entanglement control drill, taught by Training Grounds.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2QDZMqBV2kQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2QDZMqBV2kQ",
+      "url": "https://www.youtube.com/watch?v=2QDZMqBV2kQ",
+      "creator": { "@type": "Person", "name": "Training Grounds" },
+      "duration": "PT33S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ The position offers unique advantages in creating off-balancing opportunities, c
 This position requires precise understanding of weight distribution, hip positioning, and leg mechanics to maximize effectiveness while minimizing exposure to passes or reversals. When executed properly, the Leg Hook Position provides excellent retention capabilities from bottom while maintaining offensive threat, and dominant passing progression from top with multiple finishing options.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Hook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R4K-UU_bUZQ)
+
+<p class="clip-credit"><strong>411 leg entanglement breakdown</strong> — taught by 10th Planet Orange Park · 1:15 · <a href="https://www.youtube.com/watch?v=R4K-UU_bUZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iVa-jgMsLUk)
+
+<p class="clip-credit"><strong>411 leg entanglement control details</strong> — taught by Holy Grail BJJ · 2:15 · <a href="https://www.youtube.com/watch?v=iVa-jgMsLUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2QDZMqBV2kQ)
+
+<p class="clip-credit"><strong>Leg entanglement control drill</strong> — taught by Training Grounds · 0:33 · <a href="https://www.youtube.com/watch?v=2QDZMqBV2kQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -153,6 +153,54 @@ description: "Master Invisible Collar from top position with grip concealment ta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Invisible Collar (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Invisible Collar breakdown",
+      "description": "Invisible Collar (Top) film study: Invisible Collar breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
+      "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Invisible Collar choke from Rubber Guard",
+      "description": "Invisible Collar (Top) film study: Invisible Collar choke from Rubber Guard, taught by David Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CHT81JnfD2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CHT81JnfD2Q",
+      "url": "https://www.youtube.com/watch?v=CHT81JnfD2Q",
+      "creator": { "@type": "Person", "name": "David Thomas" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double Invisible Collar cross choke, no-gi",
+      "description": "Invisible Collar (Top) film study: Double Invisible Collar cross choke, no-gi, taught by Denny Prokopos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/km9506KvIJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/km9506KvIJg",
+      "url": "https://www.youtube.com/watch?v=km9506KvIJg",
+      "creator": { "@type": "Person", "name": "Denny Prokopos" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From top position, the practitioner must establish the invisible collar grip gra
 Success in invisible collar top requires coordinating upper body attacks with lower body control, ensuring that hook positioning prevents escape while the collar grip develops. The position demands patience and timing—rushing the grip establishment or applying finishing pressure too early alerts the opponent and allows them to mount effective defense. Advanced practitioners use the invisible collar as part of comprehensive back attack systems where it connects seamlessly with rear naked chokes, armbars, and crucifix positions, creating submission chains that are extremely difficult to defend.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Invisible Collar (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KCyIwacRKu8)
+
+<p class="clip-credit"><strong>Invisible Collar breakdown</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CHT81JnfD2Q)
+
+<p class="clip-credit"><strong>Invisible Collar choke from Rubber Guard</strong> — taught by David Thomas · 0:57 · <a href="https://www.youtube.com/watch?v=CHT81JnfD2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=km9506KvIJg)
+
+<p class="clip-credit"><strong>Double Invisible Collar cross choke, no-gi</strong> — taught by Denny Prokopos · 0:41 · <a href="https://www.youtube.com/watch?v=km9506KvIJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -149,6 +149,43 @@ description: "How to defend against Sumi Gaeshi in BJJ. Recognition cues, defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sumi Gaeshi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering sumi gaeshi with ouchi gari",
+      "description": "Sumi Gaeshi (Defender) film study: Countering sumi gaeshi with ouchi gari, taught by Mick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W_B_eY6Kc1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W_B_eY6Kc1k",
+      "url": "https://www.youtube.com/watch?v=W_B_eY6Kc1k",
+      "creator": { "@type": "Person", "name": "Mick" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Swallow counter concept against sacrifice throws",
+      "description": "Sumi Gaeshi (Defender) film study: Swallow counter concept against sacrifice throws, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FQ3jP6fKlIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FQ3jP6fKlIo",
+      "url": "https://www.youtube.com/watch?v=FQ3jP6fKlIo",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT219S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -165,6 +202,34 @@ Even when the throw is partially completed, defensive options remain available. 
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sumi Gaeshi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W_B_eY6Kc1k)
+
+<p class="clip-credit"><strong>Countering sumi gaeshi with ouchi gari</strong> — taught by Mick · 1:07 · <a href="https://www.youtube.com/watch?v=W_B_eY6Kc1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FQ3jP6fKlIo)
+
+<p class="clip-credit"><strong>Swallow counter concept against sacrifice throws</strong> — taught by Travis Stevens · 3:39 · <a href="https://www.youtube.com/watch?v=FQ3jP6fKlIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Modified Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame to Kimura Transition",
+      "description": "Kimura from Modified Scarf Hold film study: Kesa Gatame to Kimura Transition, taught by Strong Hold Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d7ucks8aHN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d7ucks8aHN0",
+      "url": "https://www.youtube.com/watch?v=d7ucks8aHN0",
+      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modified Scarf Hold Kimura",
+      "description": "Kimura from Modified Scarf Hold film study: Modified Scarf Hold Kimura, taught by 417 Infinity Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hYDvPPyvGUM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hYDvPPyvGUM",
+      "url": "https://www.youtube.com/watch?v=hYDvPPyvGUM",
+      "creator": { "@type": "Person", "name": "417 Infinity Martial Arts" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura from Kesa",
+      "description": "Kimura from Modified Scarf Hold film study: Kimura from Kesa, taught by Vernon Kirk.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-RyLUQSZZ1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-RyLUQSZZ1s",
+      "url": "https://www.youtube.com/watch?v=-RyLUQSZZ1s",
+      "creator": { "@type": "Person", "name": "Vernon Kirk" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 **Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] · **From**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Modified Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d7ucks8aHN0)
+
+<p class="clip-credit"><strong>Kesa Gatame to Kimura Transition</strong> — taught by Strong Hold Jiu Jitsu · 1:11 · <a href="https://www.youtube.com/watch?v=d7ucks8aHN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hYDvPPyvGUM)
+
+<p class="clip-credit"><strong>Modified Scarf Hold Kimura</strong> — taught by 417 Infinity Martial Arts · 1:42 · <a href="https://www.youtube.com/watch?v=hYDvPPyvGUM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-RyLUQSZZ1s)
+
+<p class="clip-credit"><strong>Kimura from Kesa</strong> — taught by Vernon Kirk · 1:32 · <a href="https://www.youtube.com/watch?v=-RyLUQSZZ1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

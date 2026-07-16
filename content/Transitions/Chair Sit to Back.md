@@ -34,6 +34,54 @@ description: "Master the Chair Sit to Back Take in BJJ. Control opponent from tu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chair Sit to Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Chair sit back take from turtle",
+      "description": "Chair Sit to Back film study: Chair sit back take from turtle, taught by New Legacy Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KU5nK5cWZos/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KU5nK5cWZos",
+      "url": "https://www.youtube.com/watch?v=KU5nK5cWZos",
+      "creator": { "@type": "Person", "name": "New Legacy Martial Arts" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back take basics",
+      "description": "Chair Sit to Back film study: Back take basics, taught by Leo Vieira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ApGfiRgL5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ApGfiRgL5k",
+      "url": "https://www.youtube.com/watch?v=_ApGfiRgL5k",
+      "creator": { "@type": "Person", "name": "Leo Vieira" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Saving the chair sit triangle",
+      "description": "Chair Sit to Back film study: Saving the chair sit triangle, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Vs50FHimMKA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Vs50FHimMKA",
+      "url": "https://www.youtube.com/watch?v=Vs50FHimMKA",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT128S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success requires precise hip positioning, weight distribution, and grip sequenci
 **Success Rate**: 68%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chair Sit to Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KU5nK5cWZos)
+
+<p class="clip-credit"><strong>Chair sit back take from turtle</strong> — taught by New Legacy Martial Arts · 2:13 · <a href="https://www.youtube.com/watch?v=KU5nK5cWZos" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_ApGfiRgL5k)
+
+<p class="clip-credit"><strong>Back take basics</strong> — taught by Leo Vieira · 0:54 · <a href="https://www.youtube.com/watch?v=_ApGfiRgL5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Vs50FHimMKA)
+
+<p class="clip-credit"><strong>Saving the chair sit triangle</strong> — taught by Brandon McCaghren · 2:08 · <a href="https://www.youtube.com/watch?v=Vs50FHimMKA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

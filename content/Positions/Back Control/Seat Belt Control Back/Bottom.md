@@ -153,6 +153,43 @@ description: "Master seat belt control escape strategies from bottom back positi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt Control Back (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Up from Back Control",
+      "description": "Seat Belt Control Back (Bottom) film study: Standing Up from Back Control, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Makikomi Roll vs Seat Belt/Harness",
+      "description": "Seat Belt Control Back (Bottom) film study: Makikomi Roll vs Seat Belt/Harness, taught by Corey McWilliams.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_1jEnlqZgS0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_1jEnlqZgS0",
+      "url": "https://www.youtube.com/watch?v=_1jEnlqZgS0",
+      "creator": { "@type": "Person", "name": "Corey McWilliams" },
+      "duration": "PT264S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ From the bottom perspective, survival and escape require systematic defensive pr
 The seat belt grip itself creates a powerful control mechanism that must be systematically dismantled. Bottom players must focus on grip breaking strategies, creating angles to reduce the opponent's leverage, and maintaining defensive frames that protect vulnerable areas. Success in this position correlates directly with technical knowledge, remaining composed under pressure, and executing escape sequences with proper timing and precision.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt Control Back (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing Up from Back Control</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_1jEnlqZgS0)
+
+<p class="clip-credit"><strong>Makikomi Roll vs Seat Belt/Harness</strong> — taught by Corey McWilliams · 4:24 · <a href="https://www.youtube.com/watch?v=_1jEnlqZgS0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

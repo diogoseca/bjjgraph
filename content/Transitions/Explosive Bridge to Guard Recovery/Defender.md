@@ -148,6 +148,54 @@ description: "How to defend against Explosive Bridge to Guard Recovery in BJJ. M
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Explosive Bridge to Guard Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Underhook and crossface pin against the bridge",
+      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Underhook and crossface pin against the bridge, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y1Sxim-5NRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y1Sxim-5NRc",
+      "url": "https://www.youtube.com/watch?v=Y1Sxim-5NRc",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT261S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Linking Four Side Control Escapes",
+      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Linking Four Side Control Escapes, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/swEcP2QWHs8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/swEcP2QWHs8",
+      "url": "https://www.youtube.com/watch?v=swEcP2QWHs8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT565S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three Must-Know Side Control Escapes",
+      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Three Must-Know Side Control Escapes, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/by85KB6wf8A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/by85KB6wf8A",
+      "url": "https://www.youtube.com/watch?v=by85KB6wf8A",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT588S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The critical defensive window occurs during the opponent's bridge itself. Your a
 **Opponent's Starting Position**: [[Positions/North-South]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Explosive Bridge to Guard Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y1Sxim-5NRc)
+
+<p class="clip-credit"><strong>Underhook and crossface pin against the bridge</strong> — taught by Mads H. · 4:21 · <a href="https://www.youtube.com/watch?v=Y1Sxim-5NRc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=swEcP2QWHs8)
+
+<p class="clip-credit"><strong>Linking Four Side Control Escapes</strong> — taught by Lachlan Giles · 9:25 · <a href="https://www.youtube.com/watch?v=swEcP2QWHs8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=by85KB6wf8A)
+
+<p class="clip-credit"><strong>Three Must-Know Side Control Escapes</strong> — taught by Lachlan Giles · 9:48 · <a href="https://www.youtube.com/watch?v=by85KB6wf8A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

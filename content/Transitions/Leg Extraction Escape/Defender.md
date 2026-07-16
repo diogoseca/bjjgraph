@@ -148,6 +148,43 @@ description: "How to defend against Leg Extraction Escape from gogoplata control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining Rubber Guard Leg Control",
+      "description": "Leg Extraction Escape (Defender) film study: Maintaining Rubber Guard Leg Control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
+      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT521S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Posture in escapes: recovering from leg control",
+      "description": "Leg Extraction Escape (Defender) film study: Posture in escapes: recovering from leg control, taught by Ante Dzolic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MvZ3fKl6rtk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MvZ3fKl6rtk",
+      "url": "https://www.youtube.com/watch?v=MvZ3fKl6rtk",
+      "creator": { "@type": "Person", "name": "Ante Dzolic" },
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The fundamental defensive strategy centers on maintaining hip elevation and foot
 **Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
+
+<p class="clip-credit"><strong>Maintaining Rubber Guard Leg Control</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MvZ3fKl6rtk)
+
+<p class="clip-credit"><strong>Posture in escapes: recovering from leg control</strong> — taught by Ante Dzolic · 2:50 · <a href="https://www.youtube.com/watch?v=MvZ3fKl6rtk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

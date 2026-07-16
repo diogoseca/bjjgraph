@@ -158,6 +158,54 @@ description: "Learn to defend the cross collar choke from body triangle. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Body Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Collar Choke Escape",
+      "description": "Cross Collar Choke from Body Triangle (Defender) film study: Back Collar Choke Escape, taught by Beto Vilanova.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kkAVJ3u7THM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kkAVJ3u7THM",
+      "url": "https://www.youtube.com/watch?v=kkAVJ3u7THM",
+      "creator": { "@type": "Person", "name": "Beto Vilanova" },
+      "duration": "PT166S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Defend the Back Choke",
+      "description": "Cross Collar Choke from Body Triangle (Defender) film study: How to Defend the Back Choke, taught by Alpha Urban Krav Maga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SkCjPNSWzRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SkCjPNSWzRM",
+      "url": "https://www.youtube.com/watch?v=SkCjPNSWzRM",
+      "creator": { "@type": "Person", "name": "Alpha Urban Krav Maga" },
+      "duration": "PT132S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross Choke Defense from Guard",
+      "description": "Cross Collar Choke from Body Triangle (Defender) film study: Cross Choke Defense from Guard, taught by Wayne Sniffen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QIRF2B9riAA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QIRF2B9riAA",
+      "url": "https://www.youtube.com/watch?v=QIRF2B9riAA",
+      "creator": { "@type": "Person", "name": "Wayne Sniffen" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ Defending the cross collar choke from body triangle is one of the most demanding
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Body Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kkAVJ3u7THM)
+
+<p class="clip-credit"><strong>Back Collar Choke Escape</strong> — taught by Beto Vilanova · 2:46 · <a href="https://www.youtube.com/watch?v=kkAVJ3u7THM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SkCjPNSWzRM)
+
+<p class="clip-credit"><strong>How to Defend the Back Choke</strong> — taught by Alpha Urban Krav Maga · 2:12 · <a href="https://www.youtube.com/watch?v=SkCjPNSWzRM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QIRF2B9riAA)
+
+<p class="clip-credit"><strong>Cross Choke Defense from Guard</strong> — taught by Wayne Sniffen · 1:45 · <a href="https://www.youtube.com/watch?v=QIRF2B9riAA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

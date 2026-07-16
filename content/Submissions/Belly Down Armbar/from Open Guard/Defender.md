@@ -136,6 +136,54 @@ description: "Learn to defend and escape the belly down armbar finish from open 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Open Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Favorite Armbar Escape",
+      "description": "Belly Down Armbar from Open Guard (Defender) film study: Favorite Armbar Escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from Guard Escape",
+      "description": "Belly Down Armbar from Open Guard (Defender) film study: Armbar from Guard Escape, taught by Thiago Stefanutti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JywwE7-05fU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JywwE7-05fU",
+      "url": "https://www.youtube.com/watch?v=JywwE7-05fU",
+      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Low Effort Armbar Escape via Foot Capture",
+      "description": "Belly Down Armbar from Open Guard (Defender) film study: Low Effort Armbar Escape via Foot Capture, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AfDEN3uK3W0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AfDEN3uK3W0",
+      "url": "https://www.youtube.com/watch?v=AfDEN3uK3W0",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +194,42 @@ Defending the belly down armbar finish from open guard requires recognizing the 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Open Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Favorite Armbar Escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JywwE7-05fU)
+
+<p class="clip-credit"><strong>Armbar from Guard Escape</strong> — taught by Thiago Stefanutti · 1:05 · <a href="https://www.youtube.com/watch?v=JywwE7-05fU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AfDEN3uK3W0)
+
+<p class="clip-credit"><strong>Low Effort Armbar Escape via Foot Capture</strong> — taught by Patrick Donabedian · 0:55 · <a href="https://www.youtube.com/watch?v=AfDEN3uK3W0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -170,6 +170,43 @@ description: "Learn to finish the Neck Crank from Mounted Crucifix. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Neck Crank from Mounted Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Filthy Neck Crank",
+      "description": "Neck Crank from Mounted Crucifix (Attacker) film study: Filthy Neck Crank, taught by Neil Melanson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PWvr1NUFxGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PWvr1NUFxGs",
+      "url": "https://www.youtube.com/watch?v=PWvr1NUFxGs",
+      "creator": { "@type": "Person", "name": "Neil Melanson" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix Neck Crank",
+      "description": "Neck Crank from Mounted Crucifix (Attacker) film study: Crucifix Neck Crank, taught by Bicudo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nw1iXWH7rP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nw1iXWH7rP4",
+      "url": "https://www.youtube.com/watch?v=nw1iXWH7rP4",
+      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
+      "duration": "PT40S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +217,34 @@ Attacking the neck crank from mounted crucifix gives you a finishing option that
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Neck Crank from Mounted Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PWvr1NUFxGs)
+
+<p class="clip-credit"><strong>Filthy Neck Crank</strong> — taught by Neil Melanson · 1:11 · <a href="https://www.youtube.com/watch?v=PWvr1NUFxGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nw1iXWH7rP4)
+
+<p class="clip-credit"><strong>Crucifix Neck Crank</strong> — taught by Bicudo BJJ · 0:40 · <a href="https://www.youtube.com/watch?v=nw1iXWH7rP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

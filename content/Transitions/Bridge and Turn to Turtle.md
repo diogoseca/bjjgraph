@@ -34,6 +34,54 @@ description: "Master the Bridge and Turn to Turtle escape from North-South. Step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge and Turn to Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control escape to turtle transition",
+      "description": "Bridge and Turn to Turtle film study: Side control escape to turtle transition, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/psMJiX4ZIWw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/psMJiX4ZIWw",
+      "url": "https://www.youtube.com/watch?v=psMJiX4ZIWw",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sitting turtle to running man",
+      "description": "Bridge and Turn to Turtle film study: Sitting turtle to running man, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zgvlMKLWxAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zgvlMKLWxAI",
+      "url": "https://www.youtube.com/watch?v=zgvlMKLWxAI",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT224S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Chaining escapes from bottom pin",
+      "description": "Bridge and Turn to Turtle film study: Chaining escapes from bottom pin, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
+      "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technique's effectiveness relies on understanding the relationship between e
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge and Turn to Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=psMJiX4ZIWw)
+
+<p class="clip-credit"><strong>Side control escape to turtle transition</strong> — taught by Kameron Ross · 2:20 · <a href="https://www.youtube.com/watch?v=psMJiX4ZIWw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zgvlMKLWxAI)
+
+<p class="clip-credit"><strong>Sitting turtle to running man</strong> — taught by Priit Mihkelson · 3:44 · <a href="https://www.youtube.com/watch?v=zgvlMKLWxAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PARsvWFmssI)
+
+<p class="clip-credit"><strong>Chaining escapes from bottom pin</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

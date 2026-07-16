@@ -34,6 +34,54 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard overhook sweep",
+      "description": "Overhook Sweep film study: Closed guard overhook sweep, taught by David Morris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QPL5y0hIVV4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QPL5y0hIVV4",
+      "url": "https://www.youtube.com/watch?v=QPL5y0hIVV4",
+      "creator": { "@type": "Person", "name": "David Morris" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed guard overhook scissor sweep",
+      "description": "Overhook Sweep film study: Closed guard overhook scissor sweep, taught by Fight Sports Charlotte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SONTST7yTT8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SONTST7yTT8",
+      "url": "https://www.youtube.com/watch?v=SONTST7yTT8",
+      "creator": { "@type": "Person", "name": "Fight Sports Charlotte" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Closed guard double overhook sweep",
+      "description": "Overhook Sweep film study: Closed guard double overhook sweep, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T_SZtIWwoik/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T_SZtIWwoik",
+      "url": "https://www.youtube.com/watch?v=T_SZtIWwoik",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT162S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This sweep serves as an anchor technique within the closed guard attacking syste
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QPL5y0hIVV4)
+
+<p class="clip-credit"><strong>Closed guard overhook sweep</strong> — taught by David Morris · 0:17 · <a href="https://www.youtube.com/watch?v=QPL5y0hIVV4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SONTST7yTT8)
+
+<p class="clip-credit"><strong>Closed guard overhook scissor sweep</strong> — taught by Fight Sports Charlotte · 1:29 · <a href="https://www.youtube.com/watch?v=SONTST7yTT8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T_SZtIWwoik)
+
+<p class="clip-credit"><strong>Closed guard double overhook sweep</strong> — taught by Jiu Jitsu Five-O · 2:42 · <a href="https://www.youtube.com/watch?v=T_SZtIWwoik" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

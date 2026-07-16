@@ -148,6 +148,54 @@ description: "Complete defensive guide against the Russian Lasso Sweep. Learn re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Lasso Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pressure passing the lasso guard",
+      "description": "Russian Lasso Sweep (Defender) film study: Pressure passing the lasso guard, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdLPqtAm5yQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdLPqtAm5yQ",
+      "url": "https://www.youtube.com/watch?v=EdLPqtAm5yQ",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Lasso Guard Pass Defense Series",
+      "description": "Russian Lasso Sweep (Defender) film study: Leg Lasso Guard Pass Defense Series, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3dB8Ha2Pfb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3dB8Ha2Pfb0",
+      "url": "https://www.youtube.com/watch?v=3dB8Ha2Pfb0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT154S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the Lasso Guard with the Longstep",
+      "description": "Russian Lasso Sweep (Defender) film study: Passing the Lasso Guard with the Longstep, taught by Dom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bnx650_z48I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bnx650_z48I",
+      "url": "https://www.youtube.com/watch?v=Bnx650_z48I",
+      "creator": { "@type": "Person", "name": "Dom" },
+      "duration": "PT223S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Russian Lasso Sweep requires early recognition of the setup condit
 **Opponent's Starting Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Lasso Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdLPqtAm5yQ)
+
+<p class="clip-credit"><strong>Pressure passing the lasso guard</strong> — taught by Alberto Serrano · 2:03 · <a href="https://www.youtube.com/watch?v=EdLPqtAm5yQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3dB8Ha2Pfb0)
+
+<p class="clip-credit"><strong>Leg Lasso Guard Pass Defense Series</strong> — taught by Jean Jacques Machado · 2:34 · <a href="https://www.youtube.com/watch?v=3dB8Ha2Pfb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bnx650_z48I)
+
+<p class="clip-credit"><strong>Passing the Lasso Guard with the Longstep</strong> — taught by Dom · 3:43 · <a href="https://www.youtube.com/watch?v=Bnx650_z48I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

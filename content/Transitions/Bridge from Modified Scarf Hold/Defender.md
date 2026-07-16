@@ -134,6 +134,54 @@ description: "Defend against bridge escapes from Modified Scarf Hold top. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Modified Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding kesa gatame against the bridge escape",
+      "description": "Bridge from Modified Scarf Hold (Defender) film study: Holding kesa gatame against the bridge escape, taught by Harry Grech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M7RJFVturi4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M7RJFVturi4",
+      "url": "https://www.youtube.com/watch?v=M7RJFVturi4",
+      "creator": { "@type": "Person", "name": "Harry Grech" },
+      "duration": "PT244S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping kuzure kesa gatame (modified scarf hold)",
+      "description": "Bridge from Modified Scarf Hold (Defender) film study: Escaping kuzure kesa gatame (modified scarf hold), taught by TRITAC Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dn9FQ5hq200/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dn9FQ5hq200",
+      "url": "https://www.youtube.com/watch?v=Dn9FQ5hq200",
+      "creator": { "@type": "Person", "name": "TRITAC Martial Arts" },
+      "duration": "PT185S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Scarf hold escape principles and concepts",
+      "description": "Bridge from Modified Scarf Hold (Defender) film study: Scarf hold escape principles and concepts, taught by Invisible Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6VvRYgSeGB4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6VvRYgSeGB4",
+      "url": "https://www.youtube.com/watch?v=6VvRYgSeGB4",
+      "creator": { "@type": "Person", "name": "Invisible Jiu Jitsu" },
+      "duration": "PT629S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ As the defender against the Bridge from Modified Scarf Hold, you are the top pla
 **Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Modified Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M7RJFVturi4)
+
+<p class="clip-credit"><strong>Holding kesa gatame against the bridge escape</strong> — taught by Harry Grech · 4:04 · <a href="https://www.youtube.com/watch?v=M7RJFVturi4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dn9FQ5hq200)
+
+<p class="clip-credit"><strong>Escaping kuzure kesa gatame (modified scarf hold)</strong> — taught by TRITAC Martial Arts · 3:05 · <a href="https://www.youtube.com/watch?v=Dn9FQ5hq200" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6VvRYgSeGB4)
+
+<p class="clip-credit"><strong>Scarf hold escape principles and concepts</strong> — taught by Invisible Jiu Jitsu · 10:29 · <a href="https://www.youtube.com/watch?v=6VvRYgSeGB4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

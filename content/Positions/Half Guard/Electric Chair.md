@@ -34,6 +34,54 @@ description: "Master Electric Chair position in BJJ. 10th Planet's lockdown swee
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric Chair quick demo",
+      "description": "Electric Chair film study: Electric Chair quick demo, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8HLek9eCbg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I8HLek9eCbg",
+      "url": "https://www.youtube.com/watch?v=I8HLek9eCbg",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown clinches (MTS 176)",
+      "description": "Electric Chair film study: Lockdown clinches (MTS 176), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two submissions from lockdown half guard",
+      "description": "Electric Chair film study: Two submissions from lockdown half guard, taught by Coach Paul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VcW4GCI5_8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VcW4GCI5_8w",
+      "url": "https://www.youtube.com/watch?v=VcW4GCI5_8w",
+      "creator": { "@type": "Person", "name": "Coach Paul" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ From the top player's perspective, being caught in the Electric Chair demands im
 From a tactical perspective, Electric Chair serves as a cornerstone of the lockdown system, providing a high-percentage pathway to dominant positions or submissions. The position's effectiveness stems from its ability to break down the opponent's base while maintaining tight control throughout the transition. Advanced practitioners can chain the Electric Chair with other lockdown attacks such as the Old School sweep, Truck transitions, and Deep Half entries, creating a comprehensive offensive system that keeps opponents constantly defending. The asymmetry between the bottom player's attacking options and the top player's defensive obligations makes this one of the most strategically rich positions in the lockdown half guard hierarchy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I8HLek9eCbg)
+
+<p class="clip-credit"><strong>Electric Chair quick demo</strong> — taught by bjjtaro · 0:25 · <a href="https://www.youtube.com/watch?v=I8HLek9eCbg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches (MTS 176)</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VcW4GCI5_8w)
+
+<p class="clip-credit"><strong>Two submissions from lockdown half guard</strong> — taught by Coach Paul · 1:27 · <a href="https://www.youtube.com/watch?v=VcW4GCI5_8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

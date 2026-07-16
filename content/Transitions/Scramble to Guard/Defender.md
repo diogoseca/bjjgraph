@@ -142,6 +142,54 @@ description: "How to defend against Scramble to Guard in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scramble to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the turtle escape: circle the reguard",
+      "description": "Scramble to Guard (Defender) film study: Countering the turtle escape: circle the reguard, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A7d7qR0oH8k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A7d7qR0oH8k",
+      "url": "https://www.youtube.com/watch?v=A7d7qR0oH8k",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT147S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three Tricks to Improve Guard Retention",
+      "description": "Scramble to Guard (Defender) film study: Three Tricks to Improve Guard Retention, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T9ckJr1MV7Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T9ckJr1MV7Q",
+      "url": "https://www.youtube.com/watch?v=T9ckJr1MV7Q",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT253S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How To NOT Get Your Guard Passed",
+      "description": "Scramble to Guard (Defender) film study: How To NOT Get Your Guard Passed, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6zJpGBhEvwM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6zJpGBhEvwM",
+      "url": "https://www.youtube.com/watch?v=6zJpGBhEvwM",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT520S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +201,42 @@ The key to shutting down the Scramble to Guard lies in maintaining the two pilla
 **Opponent's Starting Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scramble to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A7d7qR0oH8k)
+
+<p class="clip-credit"><strong>Countering the turtle escape: circle the reguard</strong> — taught by JitzLive · 2:27 · <a href="https://www.youtube.com/watch?v=A7d7qR0oH8k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T9ckJr1MV7Q)
+
+<p class="clip-credit"><strong>Three Tricks to Improve Guard Retention</strong> — taught by Jon Thomas · 4:13 · <a href="https://www.youtube.com/watch?v=T9ckJr1MV7Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6zJpGBhEvwM)
+
+<p class="clip-credit"><strong>How To NOT Get Your Guard Passed</strong> — taught by Jordan Preisinger · 8:40 · <a href="https://www.youtube.com/watch?v=6zJpGBhEvwM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

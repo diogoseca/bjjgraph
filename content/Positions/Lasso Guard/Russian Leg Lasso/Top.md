@@ -153,6 +153,43 @@ description: "Master Russian Leg Lasso Top position. Complete guide for passing 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Leg Lasso (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso Guard Knee Press Pass",
+      "description": "Russian Leg Lasso (Top) film study: Lasso Guard Knee Press Pass, taught by Roll 247.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cx53Xl0SGC4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cx53Xl0SGC4",
+      "url": "https://www.youtube.com/watch?v=Cx53Xl0SGC4",
+      "creator": { "@type": "Person", "name": "Roll 247" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the Lasso with Longstep + Footwork",
+      "description": "Russian Leg Lasso (Top) film study: Passing the Lasso with Longstep + Footwork, taught by Bryce Nie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XSkn8eAmtJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XSkn8eAmtJU",
+      "url": "https://www.youtube.com/watch?v=XSkn8eAmtJU",
+      "creator": { "@type": "Person", "name": "Bryce Nie" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ description: "Master Russian Leg Lasso Top position. Complete guide for passing 
 Russian Leg Lasso Top is the passing position against one of the most complex lasso guard variations in modern BJJ. From top, the practitioner faces an opponent who has established a deep lasso configuration with their leg threaded through the passer's arm, creating significant control and off-balancing potential. Unlike standard lasso guard, the Russian variation incorporates additional control points including collar grips, sleeve grips, and foot positioning that create a web of controls. The top player's primary objective is to systematically dismantle these control points while maintaining base and preventing sweeps. Success requires understanding the mechanical principles of how the lasso works - the opponent uses their leg as a pulley system combined with gi grips to create rotational force. The position demands patience, precise grip fighting, and the ability to create angles that neutralize the lasso's effectiveness. Elite competitors recognize this as a highly technical passing situation where rushing leads to being swept or submitted, while methodical pressure and position adjustment leads to successful guard passage. The sophisticated nature of Russian Leg Lasso means that top players must develop systematic approaches that address multiple defensive layers simultaneously - breaking or controlling key grips, managing the non-lasso leg to prevent combination attacks, maintaining proper distance and posture to negate sweep mechanics, and creating angles that make the lasso configuration untenable for the bottom player. Understanding the biomechanics of how the lasso generates force allows intelligent passers to position themselves in ways that neutralize these mechanics rather than fighting strength against leverage. Modern passing strategies incorporate a range of approaches from dynamic toreando-style passes that work around the lasso, to pressure-based methodical dismantling of controls, to strategic grip fighting that prevents the Russian Leg Lasso from reaching full effectiveness in the first place.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Leg Lasso (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cx53Xl0SGC4)
+
+<p class="clip-credit"><strong>Lasso Guard Knee Press Pass</strong> — taught by Roll 247 · 0:27 · <a href="https://www.youtube.com/watch?v=Cx53Xl0SGC4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XSkn8eAmtJU)
+
+<p class="clip-credit"><strong>Passing the Lasso with Longstep + Footwork</strong> — taught by Bryce Nie · 2:30 · <a href="https://www.youtube.com/watch?v=XSkn8eAmtJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

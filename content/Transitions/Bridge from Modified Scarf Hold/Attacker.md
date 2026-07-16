@@ -180,6 +180,54 @@ description: "Execute the bridge escape from Modified Scarf Hold bottom. Complet
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Modified Scarf Hold (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bridge and roll escape from scarf hold",
+      "description": "Bridge from Modified Scarf Hold (Attacker) film study: Bridge and roll escape from scarf hold, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NBBNLMCFvWM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NBBNLMCFvWM",
+      "url": "https://www.youtube.com/watch?v=NBBNLMCFvWM",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame bridge escape demo",
+      "description": "Bridge from Modified Scarf Hold (Attacker) film study: Kesa gatame bridge escape demo, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kuzure kesa gatame escape variations",
+      "description": "Bridge from Modified Scarf Hold (Attacker) film study: Kuzure kesa gatame escape variations, taught by Utah Shudokan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_HjmunOXVtY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_HjmunOXVtY",
+      "url": "https://www.youtube.com/watch?v=_HjmunOXVtY",
+      "creator": { "@type": "Person", "name": "Utah Shudokan" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the Bridge from Modified Scarf Hold, you are the botto
 **From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Modified Scarf Hold (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NBBNLMCFvWM)
+
+<p class="clip-credit"><strong>Bridge and roll escape from scarf hold</strong> — taught by Satori BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=NBBNLMCFvWM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa gatame bridge escape demo</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_HjmunOXVtY)
+
+<p class="clip-credit"><strong>Kuzure kesa gatame escape variations</strong> — taught by Utah Shudokan · 1:10 · <a href="https://www.youtube.com/watch?v=_HjmunOXVtY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,54 @@ description: "Defend against the standing guard break in closed guard. Learn rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stand Up in Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard sweep when opponent stands up",
+      "description": "Stand Up in Closed Guard (Defender) film study: Closed guard sweep when opponent stands up, taught by Crispim Soares.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/weabtq_uapY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/weabtq_uapY",
+      "url": "https://www.youtube.com/watch?v=weabtq_uapY",
+      "creator": { "@type": "Person", "name": "Crispim Soares" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sweep from closed guard",
+      "description": "Stand Up in Closed Guard (Defender) film study: Sweep from closed guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dMcMblcXhF0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dMcMblcXhF0",
+      "url": "https://www.youtube.com/watch?v=dMcMblcXhF0",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Detail to strengthen your closed guard",
+      "description": "Stand Up in Closed Guard (Defender) film study: Detail to strengthen your closed guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UhYqXfpluYs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UhYqXfpluYs",
+      "url": "https://www.youtube.com/watch?v=UhYqXfpluYs",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the stand up in closed guard, you are the bottom player 
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stand Up in Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=weabtq_uapY)
+
+<p class="clip-credit"><strong>Closed guard sweep when opponent stands up</strong> — taught by Crispim Soares · 0:45 · <a href="https://www.youtube.com/watch?v=weabtq_uapY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dMcMblcXhF0)
+
+<p class="clip-credit"><strong>Sweep from closed guard</strong> — taught by Roger Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=dMcMblcXhF0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UhYqXfpluYs)
+
+<p class="clip-credit"><strong>Detail to strengthen your closed guard</strong> — taught by Jean Jacques Machado · 1:15 · <a href="https://www.youtube.com/watch?v=UhYqXfpluYs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

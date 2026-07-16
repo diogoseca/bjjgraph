@@ -140,6 +140,54 @@ description: "Defend against the Matrix follow-through back take. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Matrix to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Matrix defense from the leg drag",
+      "description": "Matrix to Back Control (Defender) film study: Matrix defense from the leg drag, taught by BJJ Lab Zurich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QCEdvqfWZMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QCEdvqfWZMI",
+      "url": "https://www.youtube.com/watch?v=QCEdvqfWZMI",
+      "creator": { "@type": "Person", "name": "BJJ Lab Zurich" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the Turtle Matrix with the Switch",
+      "description": "Matrix to Back Control (Defender) film study: Defending the Turtle Matrix with the Switch, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G9pLRQU971M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G9pLRQU971M",
+      "url": "https://www.youtube.com/watch?v=G9pLRQU971M",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle Escape and Back-Exposure Defense System",
+      "description": "Matrix to Back Control (Defender) film study: Turtle Escape and Back-Exposure Defense System, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender in this scenario, you are the bottom player whose Matrix rolling
 **Opponent's Starting Position**: [[Positions/Matrix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Matrix to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QCEdvqfWZMI)
+
+<p class="clip-credit"><strong>Matrix defense from the leg drag</strong> — taught by BJJ Lab Zurich · 1:36 · <a href="https://www.youtube.com/watch?v=QCEdvqfWZMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G9pLRQU971M)
+
+<p class="clip-credit"><strong>Defending the Turtle Matrix with the Switch</strong> — taught by Greg Hamilton · 1:54 · <a href="https://www.youtube.com/watch?v=G9pLRQU971M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+
+<p class="clip-credit"><strong>Turtle Escape and Back-Exposure Defense System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -153,6 +153,54 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle back escape by shrugging",
+      "description": "Turtle (Bottom) film study: Turtle back escape by shrugging, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/waVFl1Ip6VU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/waVFl1Ip6VU",
+      "url": "https://www.youtube.com/watch?v=waVFl1Ip6VU",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing up from turtle (defensive BJJ)",
+      "description": "Turtle (Bottom) film study: Standing up from turtle (defensive BJJ), taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Head and arm escape from turtle",
+      "description": "Turtle (Bottom) film study: Head and arm escape from turtle, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LTGHO-aRBxw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LTGHO-aRBxw",
+      "url": "https://www.youtube.com/watch?v=LTGHO-aRBxw",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
 Turtle Bottom is a defensive position where the bottom practitioner is on their hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform. The turtle position serves as a critical transitional state between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats. The key to effective turtle play lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries before the opponent can establish dominant control or take the back. Success in turtle bottom depends on maintaining constant motion, fighting grips aggressively, and recognizing the optimal moment to explode into escape sequences based on opponent's weight commitment and positioning.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=waVFl1Ip6VU)
+
+<p class="clip-credit"><strong>Turtle back escape by shrugging</strong> — taught by Andy Tong · 0:33 · <a href="https://www.youtube.com/watch?v=waVFl1Ip6VU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing up from turtle (defensive BJJ)</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LTGHO-aRBxw)
+
+<p class="clip-credit"><strong>Head and arm escape from turtle</strong> — taught by Chosen Few BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=LTGHO-aRBxw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

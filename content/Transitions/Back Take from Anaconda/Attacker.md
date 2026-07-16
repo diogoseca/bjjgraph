@@ -180,6 +180,43 @@ description: "Master the attacking strategy for Back Take from Anaconda. Learn g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Anaconda (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sneaky anaconda from back control",
+      "description": "Back Take from Anaconda (Attacker) film study: Sneaky anaconda from back control, taught by Corey Guitard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fysm_zUV3BU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fysm_zUV3BU",
+      "url": "https://www.youtube.com/watch?v=fysm_zUV3BU",
+      "creator": { "@type": "Person", "name": "Corey Guitard" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two main variations of the anaconda strangle",
+      "description": "Back Take from Anaconda (Attacker) film study: Two main variations of the anaconda strangle, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkDYDgUzQXs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkDYDgUzQXs",
+      "url": "https://www.youtube.com/watch?v=TkDYDgUzQXs",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ The attacker executing the Back Take from Anaconda must develop the ability to r
 **From Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Anaconda (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fysm_zUV3BU)
+
+<p class="clip-credit"><strong>Sneaky anaconda from back control</strong> — taught by Corey Guitard · 2:05 · <a href="https://www.youtube.com/watch?v=fysm_zUV3BU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkDYDgUzQXs)
+
+<p class="clip-credit"><strong>Two main variations of the anaconda strangle</strong> — taught by John Danaher · 2:27 · <a href="https://www.youtube.com/watch?v=TkDYDgUzQXs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

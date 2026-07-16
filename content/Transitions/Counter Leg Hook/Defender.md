@@ -134,6 +134,43 @@ description: "Learn to defend against the Counter Leg Hook from top position. Ma
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Leg Hook (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg lock escape by rolling through",
+      "description": "Counter Leg Hook (Defender) film study: Leg lock escape by rolling through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending leg hooks from bottom",
+      "description": "Counter Leg Hook (Defender) film study: Defending leg hooks from bottom, taught by Rory van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/auMVOjGIpNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/auMVOjGIpNU",
+      "url": "https://www.youtube.com/watch?v=auMVOjGIpNU",
+      "creator": { "@type": "Person", "name": "Rory van Vliet" },
+      "duration": "PT331S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +180,34 @@ As the defender against the Counter Leg Hook, you are the top player working to 
 **Opponent's Starting Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Leg Hook (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg lock escape by rolling through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=auMVOjGIpNU)
+
+<p class="clip-credit"><strong>Defending leg hooks from bottom</strong> — taught by Rory van Vliet · 5:31 · <a href="https://www.youtube.com/watch?v=auMVOjGIpNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

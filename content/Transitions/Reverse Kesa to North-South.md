@@ -34,6 +34,54 @@ description: "Master the Reverse Kesa to North-South transition in BJJ. Complete
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Kesa to North-South \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Transitioning from failed kesa gatame",
+      "description": "Reverse Kesa to North-South film study: Transitioning from failed kesa gatame, taught by ceedublyew.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2AiDW2rNJxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2AiDW2rNJxg",
+      "url": "https://www.youtube.com/watch?v=2AiDW2rNJxg",
+      "creator": { "@type": "Person", "name": "ceedublyew" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame control",
+      "description": "Reverse Kesa to North-South film study: Reverse kesa gatame control, taught by Alex Kennedy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9WHh3xu6Apo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9WHh3xu6Apo",
+      "url": "https://www.youtube.com/watch?v=9WHh3xu6Apo",
+      "creator": { "@type": "Person", "name": "Alex Kennedy" },
+      "duration": "PT175S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to hold north south",
+      "description": "Reverse Kesa to North-South film study: How to hold north south, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LdjrPT6Wt7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LdjrPT6Wt7c",
+      "url": "https://www.youtube.com/watch?v=LdjrPT6Wt7c",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The critical technical challenge lies in maintaining pressure continuity during 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Kesa to North-South in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2AiDW2rNJxg)
+
+<p class="clip-credit"><strong>Transitioning from failed kesa gatame</strong> — taught by ceedublyew · 0:47 · <a href="https://www.youtube.com/watch?v=2AiDW2rNJxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9WHh3xu6Apo)
+
+<p class="clip-credit"><strong>Reverse kesa gatame control</strong> — taught by Alex Kennedy · 2:55 · <a href="https://www.youtube.com/watch?v=9WHh3xu6Apo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LdjrPT6Wt7c)
+
+<p class="clip-credit"><strong>How to hold north south</strong> — taught by Inverted Gear · 2:01 · <a href="https://www.youtube.com/watch?v=LdjrPT6Wt7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

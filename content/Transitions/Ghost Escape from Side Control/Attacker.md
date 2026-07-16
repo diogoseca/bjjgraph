@@ -174,6 +174,54 @@ description: "Execute the Ghost Escape from Side Control to open guard. Step-by-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ghost Escape from Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ghost Escape Drill from Side Control",
+      "description": "Ghost Escape from Side Control (Attacker) film study: Ghost Escape Drill from Side Control, taught by The Martial Arts Monk.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_4Ahdd-O8FM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_4Ahdd-O8FM",
+      "url": "https://www.youtube.com/watch?v=_4Ahdd-O8FM",
+      "creator": { "@type": "Person", "name": "The Martial Arts Monk" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-Gi Side Control Escape to Ghost",
+      "description": "Ghost Escape from Side Control (Attacker) film study: No-Gi Side Control Escape to Ghost, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjvvLBRxa8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rjvvLBRxa8s",
+      "url": "https://www.youtube.com/watch?v=rjvvLBRxa8s",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Spinning Back Door Escape from Side Control",
+      "description": "Ghost Escape from Side Control (Attacker) film study: Spinning Back Door Escape from Side Control, taught by Science Of JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gawKiLxmZbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gawKiLxmZbc",
+      "url": "https://www.youtube.com/watch?v=gawKiLxmZbc",
+      "creator": { "@type": "Person", "name": "Science Of JiuJitsu" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 **From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ghost Escape from Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_4Ahdd-O8FM)
+
+<p class="clip-credit"><strong>Ghost Escape Drill from Side Control</strong> — taught by The Martial Arts Monk · 0:56 · <a href="https://www.youtube.com/watch?v=_4Ahdd-O8FM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rjvvLBRxa8s)
+
+<p class="clip-credit"><strong>No-Gi Side Control Escape to Ghost</strong> — taught by Pantera Jiujitsu · 1:02 · <a href="https://www.youtube.com/watch?v=rjvvLBRxa8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gawKiLxmZbc)
+
+<p class="clip-credit"><strong>Spinning Back Door Escape from Side Control</strong> — taught by Science Of JiuJitsu · 0:48 · <a href="https://www.youtube.com/watch?v=gawKiLxmZbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

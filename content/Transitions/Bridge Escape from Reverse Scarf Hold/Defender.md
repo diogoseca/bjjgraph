@@ -148,6 +148,54 @@ description: "Learn to defend against the Bridge Escape from Reverse Scarf Hold.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Reverse Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame retention and attacks from the top",
+      "description": "Bridge Escape from Reverse Scarf Hold (Defender) film study: Kesa gatame retention and attacks from the top, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Kesa Gatame Escape",
+      "description": "Bridge Escape from Reverse Scarf Hold (Defender) film study: Reverse Kesa Gatame Escape, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JM9nDge0arQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JM9nDge0arQ",
+      "url": "https://www.youtube.com/watch?v=JM9nDge0arQ",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT238S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping Kuzure Kesa Gatame for Jiu-Jitsu",
+      "description": "Bridge Escape from Reverse Scarf Hold (Defender) film study: Escaping Kuzure Kesa Gatame for Jiu-Jitsu, taught by Takedowns For Jiu-jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqT3Ux04sHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqT3Ux04sHQ",
+      "url": "https://www.youtube.com/watch?v=xqT3Ux04sHQ",
+      "creator": { "@type": "Person", "name": "Takedowns For Jiu-jitsu" },
+      "duration": "PT337S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against the Bridge Escape from Reverse Scarf Hold requires the top pla
 **Opponent's Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Reverse Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>Kesa gatame retention and attacks from the top</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JM9nDge0arQ)
+
+<p class="clip-credit"><strong>Reverse Kesa Gatame Escape</strong> — taught by MMA Leech · 3:58 · <a href="https://www.youtube.com/watch?v=JM9nDge0arQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqT3Ux04sHQ)
+
+<p class="clip-credit"><strong>Escaping Kuzure Kesa Gatame for Jiu-Jitsu</strong> — taught by Takedowns For Jiu-jitsu · 5:37 · <a href="https://www.youtube.com/watch?v=xqT3Ux04sHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

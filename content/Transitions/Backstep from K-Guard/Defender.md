@@ -140,6 +140,43 @@ description: "Learn to defend the Backstep from K-Guard as the bottom player. Re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from K-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kill the K guard with a kick spin maneuver",
+      "description": "Backstep from K-Guard (Defender) film study: Kill the K guard with a kick spin maneuver, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EPfM9pTRivE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EPfM9pTRivE",
+      "url": "https://www.youtube.com/watch?v=EPfM9pTRivE",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT196S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K guard defense",
+      "description": "Backstep from K-Guard (Defender) film study: K guard defense, taught by Rodrigo Lopes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JxDViUC4xhk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JxDViUC4xhk",
+      "url": "https://www.youtube.com/watch?v=JxDViUC4xhk",
+      "creator": { "@type": "Person", "name": "Rodrigo Lopes" },
+      "duration": "PT289S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ The Backstep from K-Guard Defender perspective addresses the bottom player's res
 **Opponent's Starting Position**: [[Positions/K-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from K-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EPfM9pTRivE)
+
+<p class="clip-credit"><strong>Kill the K guard with a kick spin maneuver</strong> — taught by Keenan Cornelius · 3:16 · <a href="https://www.youtube.com/watch?v=EPfM9pTRivE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JxDViUC4xhk)
+
+<p class="clip-credit"><strong>K guard defense</strong> — taught by Rodrigo Lopes · 4:49 · <a href="https://www.youtube.com/watch?v=JxDViUC4xhk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

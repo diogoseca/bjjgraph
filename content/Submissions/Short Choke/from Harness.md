@@ -34,6 +34,54 @@ description: "Learn the Short Choke from Harness in BJJ. Master gi lapel choke m
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Harness \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short choke from the back position",
+      "description": "Short Choke from Harness film study: Short choke from the back position, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three favorite chokes from the back",
+      "description": "Short Choke from Harness film study: Three favorite chokes from the back, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eMbkVDRreIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eMbkVDRreIQ",
+      "url": "https://www.youtube.com/watch?v=eMbkVDRreIQ",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "When and how to apply the short choke from the back",
+      "description": "Short Choke from Harness film study: When and how to apply the short choke from the back, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ld80o7n_DFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ld80o7n_DFU",
+      "url": "https://www.youtube.com/watch?v=ld80o7n_DFU",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 **Starting Position**: [[Positions/Harness]] · **From**: [[Positions/Harness]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Harness in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short choke from the back position</strong> — taught by Cosens MMA · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eMbkVDRreIQ)
+
+<p class="clip-credit"><strong>Three favorite chokes from the back</strong> — taught by Matt Arroyo · 1:27 · <a href="https://www.youtube.com/watch?v=eMbkVDRreIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ld80o7n_DFU)
+
+<p class="clip-credit"><strong>When and how to apply the short choke from the back</strong> — taught by MMA Leech · 2:45 · <a href="https://www.youtube.com/watch?v=ld80o7n_DFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

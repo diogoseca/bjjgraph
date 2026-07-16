@@ -174,6 +174,43 @@ description: "Learn to execute the Frame Escape from High Mount in BJJ. Step-by-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame Escape from High Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping high mount with arms pinned",
+      "description": "Frame Escape from High Mount (Attacker) film study: Escaping high mount with arms pinned, taught by Arashi-Do Sylvan Lake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/koJqUOC3P98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/koJqUOC3P98",
+      "url": "https://www.youtube.com/watch?v=koJqUOC3P98",
+      "creator": { "@type": "Person", "name": "Arashi-Do Sylvan Lake" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape the mount",
+      "description": "Frame Escape from High Mount (Attacker) film study: How to escape the mount, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R21vtm5BHF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R21vtm5BHF4",
+      "url": "https://www.youtube.com/watch?v=R21vtm5BHF4",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the bottom player trapped in high mount, your immediate priority is reducing 
 **From Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame Escape from High Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=koJqUOC3P98)
+
+<p class="clip-credit"><strong>Escaping high mount with arms pinned</strong> — taught by Arashi-Do Sylvan Lake · 0:28 · <a href="https://www.youtube.com/watch?v=koJqUOC3P98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R21vtm5BHF4)
+
+<p class="clip-credit"><strong>How to escape the mount</strong> — taught by Pantera Jiujitsu · 1:20 · <a href="https://www.youtube.com/watch?v=R21vtm5BHF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -154,6 +154,54 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-Guard sweep",
+      "description": "X-Guard (Bottom) film study: X-Guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "One-leg X-Guard sweep",
+      "description": "X-Guard (Bottom) film study: One-leg X-Guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
+      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X-Guard sweep and pass",
+      "description": "X-Guard (Bottom) film study: X-Guard sweep and pass, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7OnjPU1WjH4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7OnjPU1WjH4",
+      "url": "https://www.youtube.com/watch?v=7OnjPU1WjH4",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -164,6 +212,42 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
 X-Guard Bottom is a powerful open guard position where the bottom practitioner controls the opponent using their legs in an X-configuration around one of the opponent's legs. The position is characterized by the inside leg hooking deeply behind the opponent's near knee while the outside leg extends across the opponent's hip line, creating a crossing pattern that gives the position its name. This dual-leg control system provides exceptional off-balancing capability and sweep opportunities that are among the highest-percentage in modern BJJ. The X-Guard emerged as a revolutionary position in contemporary grappling, demonstrated at the highest levels of competition where it proved devastatingly effective against even the best guard passers. The position offers a systematic approach to dealing with standing opponents and is particularly effective as a counter to knee slice passes, toreando attempts, and other pressure-based attacks. Unlike traditional guards that rely on gi grips for retention, X-Guard derives its power entirely from leg positioning and hip mechanics, making it equally effective in gi and no-gi competition. The mechanical advantage of X-Guard stems from three simultaneous forces: the inside hook creates upward elevation that lifts the opponent's base, the outside leg frame maintains distance and prevents forward pressure, and the hand grips control the trapped ankle to prevent backward extraction. These three control points work together to create a system where the opponent cannot effectively address all threats simultaneously. From a strategic standpoint, X-Guard Bottom serves as both a sweeping platform and a transitional hub to leg entanglement positions. When the opponent maintains upright posture, powerful elevation sweeps become available. When they attempt to disengage by sitting back or stepping away, transitions to Single Leg X, ashi garami, and other leg entanglement positions emerge naturally. This dual-threat capability, threatening both sweeps to top position and entries to submission-oriented leg entanglements, makes X-Guard one of the most strategically valuable guard positions available. Advanced practitioners integrate X-Guard into a broader system that includes Butterfly Guard as the primary entry vehicle, Single Leg X as the natural follow-up when hooks become shallow, Reverse X-Guard when the opponent circles to the opposite side, and Deep Half Guard as a recovery option when forward pressure collapses the X-structure. Fluency in transitioning between these interconnected positions creates a guard retention system that is extremely difficult to pass.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>X-Guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AhsXraebbdg)
+
+<p class="clip-credit"><strong>One-leg X-Guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7OnjPU1WjH4)
+
+<p class="clip-credit"><strong>X-Guard sweep and pass</strong> — taught by Marcelo Garcia · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

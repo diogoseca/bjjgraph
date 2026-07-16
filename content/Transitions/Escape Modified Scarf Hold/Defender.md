@@ -132,6 +132,54 @@ description: "Learn to maintain Modified Scarf Hold against frame-and-hip escape
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Modified Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head and arm (scarf hold) escape counter",
+      "description": "Escape Modified Scarf Hold (Defender) film study: Head and arm (scarf hold) escape counter, taught by Josh Barnett.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a0SoDyETz98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a0SoDyETz98",
+      "url": "https://www.youtube.com/watch?v=a0SoDyETz98",
+      "creator": { "@type": "Person", "name": "Josh Barnett" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape kesa gatame",
+      "description": "Escape Modified Scarf Hold (Defender) film study: How to escape kesa gatame, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sEmKk3m8nwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sEmKk3m8nwE",
+      "url": "https://www.youtube.com/watch?v=sEmKk3m8nwE",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT368S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Four different scarf hold escapes",
+      "description": "Escape Modified Scarf Hold (Defender) film study: Four different scarf hold escapes, taught by Grappling Nerds.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bHneNFyONwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bHneNFyONwo",
+      "url": "https://www.youtube.com/watch?v=bHneNFyONwo",
+      "creator": { "@type": "Person", "name": "Grappling Nerds" },
+      "duration": "PT602S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +189,42 @@ Defending against the frame-and-hip escape from Modified Scarf Hold requires the
 **Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Modified Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a0SoDyETz98)
+
+<p class="clip-credit"><strong>Head and arm (scarf hold) escape counter</strong> — taught by Josh Barnett · 2:07 · <a href="https://www.youtube.com/watch?v=a0SoDyETz98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sEmKk3m8nwE)
+
+<p class="clip-credit"><strong>How to escape kesa gatame</strong> — taught by Travis Stevens · 6:08 · <a href="https://www.youtube.com/watch?v=sEmKk3m8nwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bHneNFyONwo)
+
+<p class="clip-credit"><strong>Four different scarf hold escapes</strong> — taught by Grappling Nerds · 10:02 · <a href="https://www.youtube.com/watch?v=bHneNFyONwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

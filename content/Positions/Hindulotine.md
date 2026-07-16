@@ -34,6 +34,43 @@ description: "Master the Hindulotine position in BJJ. High-pressure guillotine v
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hindulotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Eddie Bravo Explains Rubber Guard",
+      "description": "Hindulotine film study: Eddie Bravo Explains Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
+      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hindulotine: Rubber Guard Guillotine",
+      "description": "Hindulotine film study: Hindulotine: Rubber Guard Guillotine, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58q16MnT8pM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58q16MnT8pM",
+      "url": "https://www.youtube.com/watch?v=58q16MnT8pM",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT264S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ The Hindulotine is most commonly entered from front headlock positions, failed t
 The strategic value of the Hindulotine lies in its ability to force defensive reactions that open additional attacking opportunities. Opponents who defend by turning away expose their back for taking. Those who drive forward can be swept or transitioned to mount. This creates a dilemma where all defensive options benefit the attacker, embodying modern submission grappling principles where position and submission threats work synergistically.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hindulotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
+
+<p class="clip-credit"><strong>Eddie Bravo Explains Rubber Guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58q16MnT8pM)
+
+<p class="clip-credit"><strong>Hindulotine: Rubber Guard Guillotine</strong> — taught by Ben Eddy · 4:24 · <a href="https://www.youtube.com/watch?v=58q16MnT8pM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

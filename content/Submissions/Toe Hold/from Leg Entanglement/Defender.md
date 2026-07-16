@@ -144,6 +144,54 @@ description: "Defend against the toe hold from leg entanglement in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Leg Entanglement (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Lock Escape: Roll Through",
+      "description": "Toe Hold from Leg Entanglement (Defender) film study: Leg Lock Escape: Roll Through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defend against toe holds",
+      "description": "Toe Hold from Leg Entanglement (Defender) film study: How to defend against toe holds, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f4OOg_35Xjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f4OOg_35Xjk",
+      "url": "https://www.youtube.com/watch?v=f4OOg_35Xjk",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT203S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Grip for defending heel hooks and leg attacks",
+      "description": "Toe Hold from Leg Entanglement (Defender) film study: Grip for defending heel hooks and leg attacks, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s9rJWyfNdiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s9rJWyfNdiI",
+      "url": "https://www.youtube.com/watch?v=s9rJWyfNdiI",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT357S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the toe hold from leg entanglement begins with early recognition of th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Leg Entanglement (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg Lock Escape: Roll Through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f4OOg_35Xjk)
+
+<p class="clip-credit"><strong>How to defend against toe holds</strong> — taught by The Grappling Academy · 3:23 · <a href="https://www.youtube.com/watch?v=f4OOg_35Xjk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s9rJWyfNdiI)
+
+<p class="clip-credit"><strong>Grip for defending heel hooks and leg attacks</strong> — taught by Craig Jones · 5:57 · <a href="https://www.youtube.com/watch?v=s9rJWyfNdiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

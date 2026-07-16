@@ -174,6 +174,43 @@ description: "Learn to execute the Toe Hold from Estima Lock. Grip transition me
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Estima Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima lock key details and toe hold finish",
+      "description": "Toe Hold from Estima Lock (Attacker) film study: Estima lock key details and toe hold finish, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/enJwT6Ttreo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/enJwT6Ttreo",
+      "url": "https://www.youtube.com/watch?v=enJwT6Ttreo",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT137S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Paper cutter toe hold from 50/50",
+      "description": "Toe Hold from Estima Lock (Attacker) film study: Paper cutter toe hold from 50/50, taught by Garden State BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
+      "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
+      "creator": { "@type": "Person", "name": "Garden State BJJ coach" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Toe Hold from Estima Lock represents a sophisticated chain attack that capit
 **From Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Estima Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=enJwT6Ttreo)
+
+<p class="clip-credit"><strong>Estima lock key details and toe hold finish</strong> — taught by Brandon McCaghren · 2:17 · <a href="https://www.youtube.com/watch?v=enJwT6Ttreo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xwaJm1Ft5lc)
+
+<p class="clip-credit"><strong>Paper cutter toe hold from 50/50</strong> — taught by Garden State BJJ coach · 1:00 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

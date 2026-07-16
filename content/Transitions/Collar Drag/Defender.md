@@ -140,6 +140,54 @@ description: "How to defend against Collar Drag in BJJ. Recognition cues, defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Drag (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to defend the arm drag",
+      "description": "Collar Drag (Defender) film study: How to defend the arm drag, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
+      "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm drag counters and counter-attacks",
+      "description": "Collar Drag (Defender) film study: Arm drag counters and counter-attacks, taught by Zugaj Wrestling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0VFMOfzHLcM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0VFMOfzHLcM",
+      "url": "https://www.youtube.com/watch?v=0VFMOfzHLcM",
+      "creator": { "@type": "Person", "name": "Zugaj Wrestling Academy" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm drag counter with seoi nage",
+      "description": "Collar Drag (Defender) film study: Arm drag counter with seoi nage, taught by Orso BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_w0gGtSirRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_w0gGtSirRI",
+      "url": "https://www.youtube.com/watch?v=_w0gGtSirRI",
+      "creator": { "@type": "Person", "name": "Orso BJJ" },
+      "duration": "PT8S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ Successful collar drag defense operates on three timelines: prevention (denying 
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Drag (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bmCjXADzgo4)
+
+<p class="clip-credit"><strong>How to defend the arm drag</strong> — taught by Matt Arroyo · 1:43 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0VFMOfzHLcM)
+
+<p class="clip-credit"><strong>Arm drag counters and counter-attacks</strong> — taught by Zugaj Wrestling Academy · 0:40 · <a href="https://www.youtube.com/watch?v=0VFMOfzHLcM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_w0gGtSirRI)
+
+<p class="clip-credit"><strong>Arm drag counter with seoi nage</strong> — taught by Orso BJJ · 0:08 · <a href="https://www.youtube.com/watch?v=_w0gGtSirRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

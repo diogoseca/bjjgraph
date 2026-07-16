@@ -142,6 +142,54 @@ description: "How to defend against Pendulum Sweep in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pendulum Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of closed guard sweep defense",
+      "description": "Pendulum Sweep (Defender) film study: Four levels of closed guard sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to posture inside closed guard",
+      "description": "Pendulum Sweep (Defender) film study: How to posture inside closed guard, taught by Absolute MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rp-Xhsu8r_A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rp-Xhsu8r_A",
+      "url": "https://www.youtube.com/watch?v=rp-Xhsu8r_A",
+      "creator": { "@type": "Person", "name": "Absolute MMA coach" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Control and base when opening closed guard",
+      "description": "Pendulum Sweep (Defender) film study: Control and base when opening closed guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_oCY8VRtNNc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_oCY8VRtNNc",
+      "url": "https://www.youtube.com/watch?v=_oCY8VRtNNc",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ Defending the Pendulum Sweep requires understanding its mechanical prerequisites
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pendulum Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of closed guard sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rp-Xhsu8r_A)
+
+<p class="clip-credit"><strong>How to posture inside closed guard</strong> — taught by Absolute MMA coach · 0:57 · <a href="https://www.youtube.com/watch?v=rp-Xhsu8r_A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_oCY8VRtNNc)
+
+<p class="clip-credit"><strong>Control and base when opening closed guard</strong> — taught by Jean Jacques Machado · 2:14 · <a href="https://www.youtube.com/watch?v=_oCY8VRtNNc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

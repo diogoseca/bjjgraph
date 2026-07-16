@@ -153,6 +153,54 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rodeo Ride (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the turtle with the spiral ride",
+      "description": "Rodeo Ride (Top) film study: Breaking the turtle with the spiral ride, taught by Big Guy BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XXnawMQEfKw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XXnawMQEfKw",
+      "url": "https://www.youtube.com/watch?v=XXnawMQEfKw",
+      "creator": { "@type": "Person", "name": "Big Guy BJJ" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee-to-belly to rodeo back take",
+      "description": "Rodeo Ride (Top) film study: Knee-to-belly to rodeo back take, taught by Muny Munoz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUEVUbXEHrs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUEVUbXEHrs",
+      "url": "https://www.youtube.com/watch?v=yUEVUbXEHrs",
+      "creator": { "@type": "Person", "name": "Muny Munoz" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rodeo choke from turtle top",
+      "description": "Rodeo Ride (Top) film study: Rodeo choke from turtle top, taught by Ethos Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6MhcPYISQDU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6MhcPYISQDU",
+      "url": "https://www.youtube.com/watch?v=6MhcPYISQDU",
+      "creator": { "@type": "Person", "name": "Ethos Jiu-Jitsu" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The fundamental mechanics of top Rodeo Ride involve establishing perpendicular o
 Rodeo Ride is particularly valuable in modern competition BJJ because it provides a systematic pathway from initial turtle control to back control or submission. The position has become essential in both gi and no-gi grappling, with variations that emphasize different control mechanisms based on the ruleset and available grips. Advanced practitioners use Rodeo Ride as a testing position: they threaten multiple attacks to read the opponent's defensive priorities, then exploit the openings created by those defensive choices. The position requires significant mat time to develop the sensitivity needed to feel opponent weight shifts and anticipate escape attempts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rodeo Ride (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XXnawMQEfKw)
+
+<p class="clip-credit"><strong>Breaking the turtle with the spiral ride</strong> — taught by Big Guy BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=XXnawMQEfKw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yUEVUbXEHrs)
+
+<p class="clip-credit"><strong>Knee-to-belly to rodeo back take</strong> — taught by Muny Munoz · 0:34 · <a href="https://www.youtube.com/watch?v=yUEVUbXEHrs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6MhcPYISQDU)
+
+<p class="clip-credit"><strong>Rodeo choke from turtle top</strong> — taught by Ethos Jiu-Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=6MhcPYISQDU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

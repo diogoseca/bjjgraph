@@ -34,6 +34,54 @@ description: "Master the toe hold from Backside 50-50 in BJJ. Complete guide cov
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Backside 50-50 \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toe Hold from 50/50",
+      "description": "Toe Hold from Backside 50-50 film study: Toe Hold from 50/50, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
+      "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Paper Cutter Toehold from 50/50",
+      "description": "Toe Hold from Backside 50-50 film study: Paper Cutter Toehold from 50/50, taught by Garden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
+      "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
+      "creator": { "@type": "Person", "name": "Garden State BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fifty-fifty toe hold",
+      "description": "Toe Hold from Backside 50-50 film study: Fifty-fifty toe hold, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BbPdLSszYt8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BbPdLSszYt8",
+      "url": "https://www.youtube.com/watch?v=BbPdLSszYt8",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 **Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] · **From**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Backside 50-50 in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
+
+<p class="clip-credit"><strong>Toe Hold from 50/50</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xwaJm1Ft5lc)
+
+<p class="clip-credit"><strong>Paper Cutter Toehold from 50/50</strong> — taught by Garden State BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BbPdLSszYt8)
+
+<p class="clip-credit"><strong>Fifty-fifty toe hold</strong> — taught by Ninja Pinto · 1:10 · <a href="https://www.youtube.com/watch?v=BbPdLSszYt8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

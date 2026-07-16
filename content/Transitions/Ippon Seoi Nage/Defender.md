@@ -149,6 +149,54 @@ description: "How to defend Ippon Seoi Nage in BJJ. Recognition cues, sprawl def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ippon Seoi Nage (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to counter ippon seoi nage",
+      "description": "Ippon Seoi Nage (Defender) film study: How to counter ippon seoi nage, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-nDnM3ISa4w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-nDnM3ISa4w",
+      "url": "https://www.youtube.com/watch?v=-nDnM3ISa4w",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter seoi nage with a quick foot sweep",
+      "description": "Ippon Seoi Nage (Defender) film study: Counter seoi nage with a quick foot sweep, taught by Judoroland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qEE09xFbu8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qEE09xFbu8I",
+      "url": "https://www.youtube.com/watch?v=qEE09xFbu8I",
+      "creator": { "@type": "Person", "name": "Judoroland" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Judo throw counter-attacks",
+      "description": "Ippon Seoi Nage (Defender) film study: Judo throw counter-attacks, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7HnA1zd5Rs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7HnA1zd5Rs",
+      "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -163,6 +211,42 @@ The defender's primary tools are posture management to resist off-balancing, hip
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ippon Seoi Nage (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-nDnM3ISa4w)
+
+<p class="clip-credit"><strong>How to counter ippon seoi nage</strong> — taught by Brian Glick · 1:11 · <a href="https://www.youtube.com/watch?v=-nDnM3ISa4w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qEE09xFbu8I)
+
+<p class="clip-credit"><strong>Counter seoi nage with a quick foot sweep</strong> — taught by Judoroland · 0:28 · <a href="https://www.youtube.com/watch?v=qEE09xFbu8I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
+
+<p class="clip-credit"><strong>Judo throw counter-attacks</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

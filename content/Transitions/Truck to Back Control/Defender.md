@@ -148,6 +148,43 @@ description: "Defend against the Truck to Back Control transition in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping back control",
+      "description": "Truck to Back Control (Defender) film study: Escaping back control, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I43ALzc733w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I43ALzc733w",
+      "url": "https://www.youtube.com/watch?v=I43ALzc733w",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the rolling back take (Truck roll)",
+      "description": "Truck to Back Control (Defender) film study: Defending the rolling back take (Truck roll), taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender facing the Truck to Back Control transition, you are in one of t
 **Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I43ALzc733w)
+
+<p class="clip-credit"><strong>Escaping back control</strong> — taught by Malachy Friedman · 1:11 · <a href="https://www.youtube.com/watch?v=I43ALzc733w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the rolling back take (Truck roll)</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

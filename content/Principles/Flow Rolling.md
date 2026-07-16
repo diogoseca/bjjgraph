@@ -164,6 +164,43 @@ description: "Master Flow Rolling in BJJ. Learn cooperative training principles,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flow Rolling \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "What flow rolling is and how to do it",
+      "description": "Flow Rolling film study: What flow rolling is and how to do it, taught by Chasen Hill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OGI90-g4pOg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OGI90-g4pOg",
+      "url": "https://www.youtube.com/watch?v=OGI90-g4pOg",
+      "creator": { "@type": "Person", "name": "Chasen Hill" },
+      "duration": "PT332S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Calling your submission: a flow rolling game",
+      "description": "Flow Rolling film study: Calling your submission: a flow rolling game, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yoKvYc7yU30/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yoKvYc7yU30",
+      "url": "https://www.youtube.com/watch?v=yoKvYc7yU30",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT211S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Flow Rolling?
@@ -173,6 +210,34 @@ description: "Master Flow Rolling in BJJ. Learn cooperative training principles,
 As BJJ practitioners accumulate mat hours, the inability to train at high intensity every session becomes the primary limiter on technical growth and longevity, and flow rolling emerged as the answer to that constraint. Where competitive sparring filters every exchange through the question of who wins, flow rolling removes that filter so both partners can prioritize movement education, technical creativity, and injury-free repetition through controlled resistance and mutual cooperation. It encompasses the tempo calibration, resistance modulation, and cooperative principles that transform combative sparring into collaborative technical exploration while preserving realistic movement patterns. Functionally, flow rolling serves two roles at once: a technical development tool enabling high-volume movement repetition without injury risk, and a creative laboratory where innovative solutions and technical variations can be tested free of competitive pressure. The reduced intensity is not a watering-down of the art but a deliberate reallocation of attention away from outcome and toward mechanics, timing, and transition quality. The ability to flow roll effectively often determines training longevity and technical breadth, making it one of the most valuable injury-prevention and skill-expansion methodologies in BJJ. Practitioners who master cooperative intensity calibration can train more frequently, explore more positions, and sustain a longer competitive and recreational career than those who treat every round as a contest.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flow Rolling in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OGI90-g4pOg)
+
+<p class="clip-credit"><strong>What flow rolling is and how to do it</strong> — taught by Chasen Hill · 5:32 · <a href="https://www.youtube.com/watch?v=OGI90-g4pOg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yoKvYc7yU30)
+
+<p class="clip-credit"><strong>Calling your submission: a flow rolling game</strong> — taught by Chewjitsu · 3:31 · <a href="https://www.youtube.com/watch?v=yoKvYc7yU30" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

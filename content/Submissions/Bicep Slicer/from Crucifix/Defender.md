@@ -150,6 +150,54 @@ description: "How to defend against Bicep Slicer in BJJ. Recognition, escape pat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bicep Slicer from Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix escape before the slicer lands",
+      "description": "Bicep Slicer from Crucifix (Defender) film study: Crucifix escape before the slicer lands, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wt2NW_hfTd0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wt2NW_hfTd0",
+      "url": "https://www.youtube.com/watch?v=Wt2NW_hfTd0",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape the crucifix position",
+      "description": "Bicep Slicer from Crucifix (Defender) film study: How to escape the crucifix position, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcXue-cD12Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcXue-cD12Q",
+      "url": "https://www.youtube.com/watch?v=EcXue-cD12Q",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT339S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Chaining escapes from bottom pins",
+      "description": "Bicep Slicer from Crucifix (Defender) film study: Chaining escapes from bottom pins, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
+      "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Bicep Slicer requires early recognition and decisive action, as th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bicep Slicer from Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wt2NW_hfTd0)
+
+<p class="clip-credit"><strong>Crucifix escape before the slicer lands</strong> — taught by Mick Hall · 3:48 · <a href="https://www.youtube.com/watch?v=Wt2NW_hfTd0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcXue-cD12Q)
+
+<p class="clip-credit"><strong>How to escape the crucifix position</strong> — taught by Stephan Kesting · 5:39 · <a href="https://www.youtube.com/watch?v=EcXue-cD12Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PARsvWFmssI)
+
+<p class="clip-credit"><strong>Chaining escapes from bottom pins</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Prevent arm recovery escapes from crucifix in BJJ. Maintain domina
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Recovery from Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Crucifix: Fall Back vs Fall Forward Control",
+      "description": "Arm Recovery from Crucifix (Defender) film study: Back Crucifix: Fall Back vs Fall Forward Control, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/npUrHml3hHk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/npUrHml3hHk",
+      "url": "https://www.youtube.com/watch?v=npUrHml3hHk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Mount to Crucifix and Back Again",
+      "description": "Arm Recovery from Crucifix (Defender) film study: Back Mount to Crucifix and Back Again, taught by Pendergrass Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/56LdXtFc_ek/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/56LdXtFc_ek",
+      "url": "https://www.youtube.com/watch?v=56LdXtFc_ek",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the crucifix top player, your role when the opponent attempts arm recovery is
 **Opponent's Starting Position**: [[Positions/Crucifix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Recovery from Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=npUrHml3hHk)
+
+<p class="clip-credit"><strong>Back Crucifix: Fall Back vs Fall Forward Control</strong> — taught by John Danaher · 3:13 · <a href="https://www.youtube.com/watch?v=npUrHml3hHk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=56LdXtFc_ek)
+
+<p class="clip-credit"><strong>Back Mount to Crucifix and Back Again</strong> — taught by Pendergrass Academy · 2:56 · <a href="https://www.youtube.com/watch?v=56LdXtFc_ek" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

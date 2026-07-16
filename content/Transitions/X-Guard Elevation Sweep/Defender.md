@@ -148,6 +148,54 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard Elevation Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of sweep defense",
+      "description": "X-Guard Elevation Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X sweep defense: prevent the get-up sweep",
+      "description": "X-Guard Elevation Sweep (Defender) film study: Single leg X sweep defense: prevent the get-up sweep, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pnc9alCVShI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pnc9alCVShI",
+      "url": "https://www.youtube.com/watch?v=pnc9alCVShI",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT192S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing single leg X",
+      "description": "X-Guard Elevation Sweep (Defender) film study: Passing single leg X, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XzILYmERAV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XzILYmERAV8",
+      "url": "https://www.youtube.com/watch?v=XzILYmERAV8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT453S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard Elevation Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pnc9alCVShI)
+
+<p class="clip-credit"><strong>Single leg X sweep defense: prevent the get-up sweep</strong> — taught by Lachlan Giles · 3:12 · <a href="https://www.youtube.com/watch?v=pnc9alCVShI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XzILYmERAV8)
+
+<p class="clip-credit"><strong>Passing single leg X</strong> — taught by Lachlan Giles · 7:33 · <a href="https://www.youtube.com/watch?v=XzILYmERAV8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -147,6 +147,54 @@ description: "Defend the Kimura from Butterfly Guard with early recognition, gri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Butterfly Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly hook back take against a kimura",
+      "description": "Kimura from Butterfly Guard (Defender) film study: Butterfly hook back take against a kimura, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9P4zweTSZRE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9P4zweTSZRE",
+      "url": "https://www.youtube.com/watch?v=9P4zweTSZRE",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura defense grip breaks",
+      "description": "Kimura from Butterfly Guard (Defender) film study: Kimura defense grip breaks, taught by Dirtball BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
+      "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura defense",
+      "description": "Kimura from Butterfly Guard (Defender) film study: Kimura defense, taught by Jon Satava.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gvRGrvtKd1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gvRGrvtKd1U",
+      "url": "https://www.youtube.com/watch?v=gvRGrvtKd1U",
+      "creator": { "@type": "Person", "name": "Jon Satava" },
+      "duration": "PT142S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -160,6 +208,42 @@ Defending the Kimura from Butterfly Guard requires early recognition of the grip
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Butterfly Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9P4zweTSZRE)
+
+<p class="clip-credit"><strong>Butterfly hook back take against a kimura</strong> — taught by Procel BJJ · 1:12 · <a href="https://www.youtube.com/watch?v=9P4zweTSZRE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
+
+<p class="clip-credit"><strong>Kimura defense grip breaks</strong> — taught by Dirtball BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gvRGrvtKd1U)
+
+<p class="clip-credit"><strong>Kimura defense</strong> — taught by Jon Satava · 2:22 · <a href="https://www.youtube.com/watch?v=gvRGrvtKd1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

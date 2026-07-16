@@ -134,6 +134,54 @@ description: "Defend against the bridge escape from Reverse Kesa-Gatame. Learn t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Reverse Kesa-Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding reverse kesa gatame and attacking the kimura",
+      "description": "Bridge from Reverse Kesa-Gatame (Defender) film study: Holding reverse kesa gatame and attacking the kimura, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RYo2TWEnOiY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RYo2TWEnOiY",
+      "url": "https://www.youtube.com/watch?v=RYo2TWEnOiY",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT234S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame escape",
+      "description": "Bridge from Reverse Kesa-Gatame (Defender) film study: Reverse kesa gatame escape, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xROpHA3sNlY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xROpHA3sNlY",
+      "url": "https://www.youtube.com/watch?v=xROpHA3sNlY",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escape from reverse kesa gatame",
+      "description": "Bridge from Reverse Kesa-Gatame (Defender) film study: Escape from reverse kesa gatame, taught by JM Modern Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HqtnqTgESUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HqtnqTgESUg",
+      "url": "https://www.youtube.com/watch?v=HqtnqTgESUg",
+      "creator": { "@type": "Person", "name": "JM Modern Jiu Jitsu" },
+      "duration": "PT185S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ Defending against the bridge escape from Reverse Kesa-Gatame requires the top pl
 **Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Reverse Kesa-Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RYo2TWEnOiY)
+
+<p class="clip-credit"><strong>Holding reverse kesa gatame and attacking the kimura</strong> — taught by BJJ4Breakfast · 3:54 · <a href="https://www.youtube.com/watch?v=RYo2TWEnOiY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xROpHA3sNlY)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape</strong> — taught by Inverted Gear · 1:49 · <a href="https://www.youtube.com/watch?v=xROpHA3sNlY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HqtnqTgESUg)
+
+<p class="clip-credit"><strong>Escape from reverse kesa gatame</strong> — taught by JM Modern Jiu Jitsu · 3:05 · <a href="https://www.youtube.com/watch?v=HqtnqTgESUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -140,6 +140,43 @@ description: "Defend against the hip escape from cross body ride in BJJ. Learn t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Cross Body Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the cross body ride to back take",
+      "description": "Hip Escape from Cross Body Ride (Defender) film study: Holding the cross body ride to back take, taught by Paul McVeigh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aX87dPPVcGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aX87dPPVcGU",
+      "url": "https://www.youtube.com/watch?v=aX87dPPVcGU",
+      "creator": { "@type": "Person", "name": "Paul McVeigh" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross body ride control flow",
+      "description": "Hip Escape from Cross Body Ride (Defender) film study: Cross body ride control flow, taught by Efficiency Jiu Jitsu 417.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IYe4qOGMp6Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IYe4qOGMp6Y",
+      "url": "https://www.youtube.com/watch?v=IYe4qOGMp6Y",
+      "creator": { "@type": "Person", "name": "Efficiency Jiu Jitsu 417" },
+      "duration": "PT157S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending against the hip escape from cross body ride requires the top player to
 **Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Cross Body Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aX87dPPVcGU)
+
+<p class="clip-credit"><strong>Holding the cross body ride to back take</strong> — taught by Paul McVeigh · 1:47 · <a href="https://www.youtube.com/watch?v=aX87dPPVcGU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IYe4qOGMp6Y)
+
+<p class="clip-credit"><strong>Cross body ride control flow</strong> — taught by Efficiency Jiu Jitsu 417 · 2:37 · <a href="https://www.youtube.com/watch?v=IYe4qOGMp6Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

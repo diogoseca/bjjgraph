@@ -168,6 +168,54 @@ description: "How to execute Armbar on Free Arm in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar on Free Arm (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gift wrap armbar from mount",
+      "description": "Armbar on Free Arm (Attacker) film study: Gift wrap armbar from mount, taught by Ryan Robinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2YWKQ0q2bCU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2YWKQ0q2bCU",
+      "url": "https://www.youtube.com/watch?v=2YWKQ0q2bCU",
+      "creator": { "@type": "Person", "name": "Ryan Robinson" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Wrap to S-mount armbar",
+      "description": "Armbar on Free Arm (Attacker) film study: Wrap to S-mount armbar, taught by James Clingerman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fU_0UYYJEPc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fU_0UYYJEPc",
+      "url": "https://www.youtube.com/watch?v=fU_0UYYJEPc",
+      "creator": { "@type": "Person", "name": "James Clingerman" },
+      "duration": "PT204S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Americana to gift wrap armbar vs hands-over defense",
+      "description": "Armbar on Free Arm (Attacker) film study: Americana to gift wrap armbar vs hands-over defense, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mKGRSQ0xrv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mKGRSQ0xrv4",
+      "url": "https://www.youtube.com/watch?v=mKGRSQ0xrv4",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT264S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 **From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar on Free Arm (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2YWKQ0q2bCU)
+
+<p class="clip-credit"><strong>Gift wrap armbar from mount</strong> — taught by Ryan Robinson · 3:14 · <a href="https://www.youtube.com/watch?v=2YWKQ0q2bCU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fU_0UYYJEPc)
+
+<p class="clip-credit"><strong>Wrap to S-mount armbar</strong> — taught by James Clingerman · 3:24 · <a href="https://www.youtube.com/watch?v=fU_0UYYJEPc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mKGRSQ0xrv4)
+
+<p class="clip-credit"><strong>Americana to gift wrap armbar vs hands-over defense</strong> — taught by Força Martial Arts · 4:24 · <a href="https://www.youtube.com/watch?v=mKGRSQ0xrv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

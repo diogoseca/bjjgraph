@@ -153,6 +153,54 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Open Guard to Lasso Sweep",
+      "description": "Lasso Guard (Bottom) film study: Open Guard to Lasso Sweep, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
+      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso Guard to Arm Drag Sweep",
+      "description": "Lasso Guard (Bottom) film study: Lasso Guard to Arm Drag Sweep, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K4n_MQnR08c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K4n_MQnR08c",
+      "url": "https://www.youtube.com/watch?v=K4n_MQnR08c",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lasso Guard Arm Drag to the Back",
+      "description": "Lasso Guard (Bottom) film study: Lasso Guard Arm Drag to the Back, taught by OMJJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nHW1Sxvh_rI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nHW1Sxvh_rI",
+      "url": "https://www.youtube.com/watch?v=nHW1Sxvh_rI",
+      "creator": { "@type": "Person", "name": "OMJJJ" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -172,6 +220,42 @@ Defensive awareness remains essential even from this controlling position. Commo
 Training Lasso Guard Bottom develops several fundamental skills that transfer across multiple guard positions: grip endurance, hip mobility, off-balancing timing, and the ability to maintain control while remaining mobile. These attributes make Lasso Guard valuable not just as an isolated position, but as a foundational element in developing comprehensive open guard systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
+
+<p class="clip-credit"><strong>Open Guard to Lasso Sweep</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K4n_MQnR08c)
+
+<p class="clip-credit"><strong>Lasso Guard to Arm Drag Sweep</strong> — taught by Xande Ribeiro · 2:30 · <a href="https://www.youtube.com/watch?v=K4n_MQnR08c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nHW1Sxvh_rI)
+
+<p class="clip-credit"><strong>Lasso Guard Arm Drag to the Back</strong> — taught by OMJJJ · 1:19 · <a href="https://www.youtube.com/watch?v=nHW1Sxvh_rI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

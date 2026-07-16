@@ -154,6 +154,43 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Five passes vs Single Leg X-Guard",
+      "description": "X-Guard (Top) film study: Five passes vs Single Leg X-Guard, taught by Oneonta Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v2thEjJ0ES0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v2thEjJ0ES0",
+      "url": "https://www.youtube.com/watch?v=v2thEjJ0ES0",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter X-Guard: knee pull to heel hook",
+      "description": "X-Guard (Top) film study: Counter X-Guard: knee pull to heel hook, taught by ZeGrapplez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/noPXosvgzA0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/noPXosvgzA0",
+      "url": "https://www.youtube.com/watch?v=noPXosvgzA0",
+      "creator": { "@type": "Person", "name": "ZeGrapplez" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -164,6 +201,34 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
 X-Guard Top represents the top player's position when facing an opponent who has established X-Guard, where the bottom player controls one of your legs with both of theirs in an X-configuration. This is fundamentally a guard passing scenario requiring systematic dismantling of the opponent's leverage-based control system. The primary challenge lies in maintaining balance and posture while preventing the bottom player from generating the hip elevation and angular pressure that powers their sweeps. From the top position, success depends on understanding the structural weaknesses inherent to X-Guard. The bottom player requires both a deep inside hook behind your knee and an active outside leg frame across your hip. Removing either component collapses the entire guard structure. The inside hook is the load-bearing element that creates elevation, while the outside leg maintains distance and prevents forward pressure. Systematically attacking these two control points, rather than attempting to pass around them, is the highest-percentage approach. The top player possesses significant advantages including gravity, downward pressure generation, and the ability to threaten leg entanglement counters. When the bottom player inverts deeply to maintain hooks, they expose themselves to saddle entries, outside ashi transitions, and back step counters. This creates a strategic tension where the bottom player must choose between maintaining strong X-Guard structure and protecting against leg entanglement attacks. Strategic passing options from X-Guard Top include pressure-based approaches like the smash pass and knee slice, which use forward weight commitment to flatten the guard structure. Movement-based approaches like the long step pass and leg weave exploit moments when hooks are shallow. Counter-attacking approaches enter leg entanglements when the bottom player overcommits to sweeping angles. The ability to read the opponent's hook depth, grip strength, and hip position determines which passing strategy offers the highest percentage in each moment. This position appears frequently in modern competition, particularly in no-gi grappling where X-Guard has become a staple of many guard systems. Developing proficiency in navigating X-Guard from the top is essential for any serious competitor who faces guard players with leg entanglement-based games.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v2thEjJ0ES0)
+
+<p class="clip-credit"><strong>Five passes vs Single Leg X-Guard</strong> — taught by Oneonta Jiu Jitsu · 2:01 · <a href="https://www.youtube.com/watch?v=v2thEjJ0ES0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=noPXosvgzA0)
+
+<p class="clip-credit"><strong>Counter X-Guard: knee pull to heel hook</strong> — taught by ZeGrapplez · 1:23 · <a href="https://www.youtube.com/watch?v=noPXosvgzA0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

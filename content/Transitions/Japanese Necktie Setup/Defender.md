@@ -156,6 +156,54 @@ description: "How to defend against Japanese Necktie Setup in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japanese Necktie Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock sit-out reversal",
+      "description": "Japanese Necktie Setup (Defender) film study: Front headlock sit-out reversal, taught by Keith Takada.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t4xBYQ1VauU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t4xBYQ1VauU",
+      "url": "https://www.youtube.com/watch?v=t4xBYQ1VauU",
+      "creator": { "@type": "Person", "name": "Keith Takada" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front head and arm escape via duck under",
+      "description": "Japanese Necktie Setup (Defender) film study: Front head and arm escape via duck under, taught by United Fighter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynXB4QKxzOs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynXB4QKxzOs",
+      "url": "https://www.youtube.com/watch?v=ynXB4QKxzOs",
+      "creator": { "@type": "Person", "name": "United Fighter" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Darce choke defense",
+      "description": "Japanese Necktie Setup (Defender) film study: Darce choke defense, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
+      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -167,6 +215,42 @@ The defender's strategic priority follows a clear hierarchy: first, prevent the 
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Japanese Necktie Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t4xBYQ1VauU)
+
+<p class="clip-credit"><strong>Front headlock sit-out reversal</strong> — taught by Keith Takada · 0:28 · <a href="https://www.youtube.com/watch?v=t4xBYQ1VauU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynXB4QKxzOs)
+
+<p class="clip-credit"><strong>Front head and arm escape via duck under</strong> — taught by United Fighter · 0:58 · <a href="https://www.youtube.com/watch?v=ynXB4QKxzOs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d1YBV8UTKds)
+
+<p class="clip-credit"><strong>Darce choke defense</strong> — taught by Unknown · 0:53 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

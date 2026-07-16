@@ -153,6 +153,43 @@ description: "Dominant back-attack position combining leg entanglement with perp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The truck in transition",
+      "description": "Truck (Top) film study: The truck in transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two entries into the truck",
+      "description": "Truck (Top) film study: Two entries into the truck, taught by Geo Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y693ZHlCd2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y693ZHlCd2Q",
+      "url": "https://www.youtube.com/watch?v=Y693ZHlCd2Q",
+      "creator": { "@type": "Person", "name": "Geo Martinez" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The position's power comes from the dilemma it creates: defending the upper body
 Advanced practitioners use the truck as a transitional position, flowing between leg attacks, spinal locks, and traditional back control based on defensive reactions. The position is particularly effective in no-gi environments where the lack of grips forces opponents to rely on framing and hip movement, both of which can be nullified through proper boot pressure and leg entanglement.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The truck in transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y693ZHlCd2Q)
+
+<p class="clip-credit"><strong>Two entries into the truck</strong> — taught by Geo Martinez · 1:40 · <a href="https://www.youtube.com/watch?v=Y693ZHlCd2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

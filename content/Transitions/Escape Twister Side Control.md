@@ -34,6 +34,54 @@ description: "Master the escape from twister side control in BJJ. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Twister Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side control and how to escape it",
+      "description": "Escape Twister Side Control film study: Twister side control and how to escape it, taught by Robot Dolphin Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AUyR1rmVzo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AUyR1rmVzo4",
+      "url": "https://www.youtube.com/watch?v=AUyR1rmVzo4",
+      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control escape to the Hazlet",
+      "description": "Escape Twister Side Control film study: Side control escape to the Hazlet, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ldL974KL5sg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ldL974KL5sg",
+      "url": "https://www.youtube.com/watch?v=ldL974KL5sg",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse scarf hold escape from twister side control",
+      "description": "Escape Twister Side Control film study: Reverse scarf hold escape from twister side control, taught by Black Dragon BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hXp34AtDjac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hXp34AtDjac",
+      "url": "https://www.youtube.com/watch?v=hXp34AtDjac",
+      "creator": { "@type": "Person", "name": "Black Dragon BJJ" },
+      "duration": "PT291S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ What distinguishes this escape from standard side control escapes is the necessi
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Twister Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AUyR1rmVzo4)
+
+<p class="clip-credit"><strong>Twister side control and how to escape it</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:25 · <a href="https://www.youtube.com/watch?v=AUyR1rmVzo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ldL974KL5sg)
+
+<p class="clip-credit"><strong>Side control escape to the Hazlet</strong> — taught by 10th Planet Orange Park · 0:22 · <a href="https://www.youtube.com/watch?v=ldL974KL5sg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hXp34AtDjac)
+
+<p class="clip-credit"><strong>Reverse scarf hold escape from twister side control</strong> — taught by Black Dragon BJJ · 4:51 · <a href="https://www.youtube.com/watch?v=hXp34AtDjac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Darce Choke from Overhook Control with expert finishing
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Choke from Overhook Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce from the overhook",
+      "description": "Darce Choke from Overhook Control film study: Darce from the overhook, taught by Ashure Elbanna.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pJcwan8Mza4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pJcwan8Mza4",
+      "url": "https://www.youtube.com/watch?v=pJcwan8Mza4",
+      "creator": { "@type": "Person", "name": "Ashure Elbanna" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce attack from inside guard",
+      "description": "Darce Choke from Overhook Control film study: Darce attack from inside guard, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HR6Bk9RY5W4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HR6Bk9RY5W4",
+      "url": "https://www.youtube.com/watch?v=HR6Bk9RY5W4",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Finishing from overhook control requires attention to body angle and hip positio
 **Starting Position**: [[Positions/Overhook Control]] · **From**: [[Positions/Overhook Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Choke from Overhook Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pJcwan8Mza4)
+
+<p class="clip-credit"><strong>Darce from the overhook</strong> — taught by Ashure Elbanna · 1:21 · <a href="https://www.youtube.com/watch?v=pJcwan8Mza4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HR6Bk9RY5W4)
+
+<p class="clip-credit"><strong>Darce attack from inside guard</strong> — taught by Clark Gracie · 1:14 · <a href="https://www.youtube.com/watch?v=HR6Bk9RY5W4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

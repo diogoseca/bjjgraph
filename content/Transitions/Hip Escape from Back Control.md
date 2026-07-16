@@ -34,6 +34,43 @@ description: "Master the hip escape from back control in BJJ. Step-by-step guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape to half guard",
+      "description": "Hip Escape from Back Control film study: Back escape to half guard, taught by Soma Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RR-T-7E7yjo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RR-T-7E7yjo",
+      "url": "https://www.youtube.com/watch?v=RR-T-7E7yjo",
+      "creator": { "@type": "Person", "name": "Soma Academy" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back control escape fundamentals",
+      "description": "Hip Escape from Back Control film study: Back control escape fundamentals, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
+      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The hip escape integrates into the broader back escape system as a medium-risk, 
 **Success Rate**: 34%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RR-T-7E7yjo)
+
+<p class="clip-credit"><strong>Back escape to half guard</strong> — taught by Soma Academy · 1:29 · <a href="https://www.youtube.com/watch?v=RR-T-7E7yjo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jd2llamfl8)
+
+<p class="clip-credit"><strong>Back control escape fundamentals</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

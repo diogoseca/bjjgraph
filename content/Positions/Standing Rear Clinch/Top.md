@@ -153,6 +153,54 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Rear Clinch (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mat Return Drill from Rear Bodylock",
+      "description": "Standing Rear Clinch (Top) film study: Mat Return Drill from Rear Bodylock, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GKrJsIYmycM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GKrJsIYmycM",
+      "url": "https://www.youtube.com/watch?v=GKrJsIYmycM",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bodylock to Back Take",
+      "description": "Standing Rear Clinch (Top) film study: Bodylock to Back Take, taught by Diogo Reis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iPXirj0gvko/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iPXirj0gvko",
+      "url": "https://www.youtube.com/watch?v=iPXirj0gvko",
+      "creator": { "@type": "Person", "name": "Diogo Reis" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg Switch Cutback from Rear Bodylock",
+      "description": "Standing Rear Clinch (Top) film study: Leg Switch Cutback from Rear Bodylock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
+      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ Strategically, Standing Rear Clinch provides multiple advancement pathways inclu
 The Standing Rear Clinch holds particular importance in no-gi grappling and MMA contexts where wrestling-based positions dominate the standing phase, though it remains highly relevant in gi competition where collar and sleeve grips integrate with traditional bodylock and seatbelt controls. Mastery allows practitioners to neutralize guard pullers, force action in stalling situations, and create scoring opportunities through takedowns and back exposure while maintaining offensive initiative throughout the standing phase.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Rear Clinch (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GKrJsIYmycM)
+
+<p class="clip-credit"><strong>Mat Return Drill from Rear Bodylock</strong> — taught by Nicky Rodriguez · 1:24 · <a href="https://www.youtube.com/watch?v=GKrJsIYmycM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iPXirj0gvko)
+
+<p class="clip-credit"><strong>Bodylock to Back Take</strong> — taught by Diogo Reis · 0:36 · <a href="https://www.youtube.com/watch?v=iPXirj0gvko" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2VCyaassiRI)
+
+<p class="clip-credit"><strong>Leg Switch Cutback from Rear Bodylock</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

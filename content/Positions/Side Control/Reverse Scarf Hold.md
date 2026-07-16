@@ -34,6 +34,54 @@ description: "Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ushiro-Kesa-Gatame demonstration",
+      "description": "Reverse Scarf Hold film study: Ushiro-Kesa-Gatame demonstration, taught by Kodokan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SBapox2M2dE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SBapox2M2dE",
+      "url": "https://www.youtube.com/watch?v=SBapox2M2dE",
+      "creator": { "@type": "Person", "name": "Kodokan" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ushiro Kesa Gatame (Kyushin Ryu)",
+      "description": "Reverse Scarf Hold film study: Ushiro Kesa Gatame (Kyushin Ryu), taught by Kyushin Ryu School.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xmjVYNiEz98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xmjVYNiEz98",
+      "url": "https://www.youtube.com/watch?v=xmjVYNiEz98",
+      "creator": { "@type": "Person", "name": "Kyushin Ryu School" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kenji Shibayama: Ushiro Kesa Gatame",
+      "description": "Reverse Scarf Hold film study: Kenji Shibayama: Ushiro Kesa Gatame, taught by Kenji Shibayama.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ipCRN0himVA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ipCRN0himVA",
+      "url": "https://www.youtube.com/watch?v=ipCRN0himVA",
+      "creator": { "@type": "Person", "name": "Kenji Shibayama" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ From the bottom perspective, reverse scarf hold presents a challenging defensive
 Both perspectives require specialized drilling and positional understanding, as the reverse orientation creates unique tactical problems not encountered in standard top-game positions. The position serves as an excellent case study in how orientation changes fundamentally alter grappling dynamics, submission opportunities, and escape mechanics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SBapox2M2dE)
+
+<p class="clip-credit"><strong>Ushiro-Kesa-Gatame demonstration</strong> — taught by Kodokan · 0:54 · <a href="https://www.youtube.com/watch?v=SBapox2M2dE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xmjVYNiEz98)
+
+<p class="clip-credit"><strong>Ushiro Kesa Gatame (Kyushin Ryu)</strong> — taught by Kyushin Ryu School · 1:05 · <a href="https://www.youtube.com/watch?v=xmjVYNiEz98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ipCRN0himVA)
+
+<p class="clip-credit"><strong>Kenji Shibayama: Ushiro Kesa Gatame</strong> — taught by Kenji Shibayama · 1:08 · <a href="https://www.youtube.com/watch?v=ipCRN0himVA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

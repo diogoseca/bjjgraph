@@ -34,6 +34,65 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Arm Bar Finish",
+      "description": "Belly Down Armbar film study: Belly Down Arm Bar Finish, taught by Brandoo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yDxtO6qzOL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yDxtO6qzOL0",
+      "url": "https://www.youtube.com/watch?v=yDxtO6qzOL0",
+      "creator": { "@type": "Person", "name": "Brandoo" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly Down Arm Bar to counter the stack",
+      "description": "Belly Down Armbar film study: Belly Down Arm Bar to counter the stack, taught by The Art of Fighting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9wGAI_8zvBQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9wGAI_8zvBQ",
+      "url": "https://www.youtube.com/watch?v=9wGAI_8zvBQ",
+      "creator": { "@type": "Person", "name": "The Art of Fighting" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Belly Down Armbar from Guard",
+      "description": "Belly Down Armbar film study: Belly Down Armbar from Guard, taught by Robert Hugus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdYFELAO6B0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdYFELAO6B0",
+      "url": "https://www.youtube.com/watch?v=EdYFELAO6B0",
+      "creator": { "@type": "Person", "name": "Robert Hugus" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Ude-Gatame",
+      "description": "Belly Down Armbar film study: Ude-Gatame, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mu1TlMqe6KY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mu1TlMqe6KY",
+      "url": "https://www.youtube.com/watch?v=Mu1TlMqe6KY",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +141,50 @@ Across its position-specific entries, the belly down armbar is fundamentally opp
 The key to success lies in rapid arm isolation, maintaining connection to the opponent's body to prevent them from rolling through the position, and applying controlled hyperextension to the elbow joint. The belly down armbar requires excellent timing and positional awareness, as the opponent has more escape options compared to traditional armbar positions. However, when executed correctly with proper control of the shoulder and hip, this submission becomes a powerful finishing option from positions where traditional submissions may be difficult to secure.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yDxtO6qzOL0)
+
+<p class="clip-credit"><strong>Belly Down Arm Bar Finish</strong> — taught by Brandoo · 0:58 · <a href="https://www.youtube.com/watch?v=yDxtO6qzOL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9wGAI_8zvBQ)
+
+<p class="clip-credit"><strong>Belly Down Arm Bar to counter the stack</strong> — taught by The Art of Fighting · 1:02 · <a href="https://www.youtube.com/watch?v=9wGAI_8zvBQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdYFELAO6B0)
+
+<p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> — taught by Robert Hugus · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mu1TlMqe6KY)
+
+<p class="clip-credit"><strong>Ude-Gatame</strong> — taught by Travis Stevens · 0:37 · <a href="https://www.youtube.com/watch?v=Mu1TlMqe6KY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

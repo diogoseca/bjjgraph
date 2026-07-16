@@ -174,6 +174,54 @@ description: "Master the Transition to Clamp Guard attack. Step-by-step guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Transition to Clamp Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard armbar into clamp guard",
+      "description": "Transition to Clamp Guard (Attacker) film study: Closed guard armbar into clamp guard, taught by Edward Anthony.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1riWAeeqIqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1riWAeeqIqs",
+      "url": "https://www.youtube.com/watch?v=1riWAeeqIqs",
+      "creator": { "@type": "Person", "name": "Edward Anthony" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder cut from hip clamp",
+      "description": "Transition to Clamp Guard (Attacker) film study: Shoulder cut from hip clamp, taught by Warren Brooks.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q8odQwIPzkk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q8odQwIPzkk",
+      "url": "https://www.youtube.com/watch?v=Q8odQwIPzkk",
+      "creator": { "@type": "Person", "name": "Warren Brooks" },
+      "duration": "PT214S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic entries into rubber guard",
+      "description": "Transition to Clamp Guard (Attacker) film study: Basic entries into rubber guard, taught by BJJ4Breakfast coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WliTCjEDA-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WliTCjEDA-8",
+      "url": "https://www.youtube.com/watch?v=WliTCjEDA-8",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Transition to Clamp Guard, your objective is to in
 **From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Transition to Clamp Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1riWAeeqIqs)
+
+<p class="clip-credit"><strong>Closed guard armbar into clamp guard</strong> — taught by Edward Anthony · 1:21 · <a href="https://www.youtube.com/watch?v=1riWAeeqIqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q8odQwIPzkk)
+
+<p class="clip-credit"><strong>Shoulder cut from hip clamp</strong> — taught by Warren Brooks · 3:34 · <a href="https://www.youtube.com/watch?v=Q8odQwIPzkk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WliTCjEDA-8)
+
+<p class="clip-credit"><strong>Basic entries into rubber guard</strong> — taught by BJJ4Breakfast coach · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

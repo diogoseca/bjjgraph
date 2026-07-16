@@ -174,6 +174,43 @@ description: "Complete guide to executing the Suplex from Rear Clinch. Covers gr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Suplex from Rear Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly to belly suplex from the rear body lock",
+      "description": "Suplex from Rear Clinch (Attacker) film study: Belly to belly suplex from the rear body lock, taught by Pat Downey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7wQOgSA4eXE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7wQOgSA4eXE",
+      "url": "https://www.youtube.com/watch?v=7wQOgSA4eXE",
+      "creator": { "@type": "Person", "name": "Pat Downey" },
+      "duration": "PT272S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body lock takedown from the clinch",
+      "description": "Suplex from Rear Clinch (Attacker) film study: Body lock takedown from the clinch, taught by James Johnson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iWYGLiFAiT4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iWYGLiFAiT4",
+      "url": "https://www.youtube.com/watch?v=iWYGLiFAiT4",
+      "creator": { "@type": "Person", "name": "James Johnson" },
+      "duration": "PT162S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 **From Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Suplex from Rear Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7wQOgSA4eXE)
+
+<p class="clip-credit"><strong>Belly to belly suplex from the rear body lock</strong> — taught by Pat Downey · 4:32 · <a href="https://www.youtube.com/watch?v=7wQOgSA4eXE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iWYGLiFAiT4)
+
+<p class="clip-credit"><strong>Body lock takedown from the clinch</strong> — taught by James Johnson · 2:42 · <a href="https://www.youtube.com/watch?v=iWYGLiFAiT4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

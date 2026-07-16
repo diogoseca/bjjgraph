@@ -153,6 +153,54 @@ description: "Execute the Matrix back take from bottom position. Technical guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Matrix (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva wrist control matrix back take",
+      "description": "Matrix (Bottom) film study: De La Riva wrist control matrix back take, taught by Luciana Marcos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DvD3VVl1kDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DvD3VVl1kDk",
+      "url": "https://www.youtube.com/watch?v=DvD3VVl1kDk",
+      "creator": { "@type": "Person", "name": "Luciana Marcos" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The no-gi matrix back take",
+      "description": "Matrix (Bottom) film study: The no-gi matrix back take, taught by LangakerBjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BWDsJPV7iPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BWDsJPV7iPA",
+      "url": "https://www.youtube.com/watch?v=BWDsJPV7iPA",
+      "creator": { "@type": "Person", "name": "LangakerBjj" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Set up and finish the matrix",
+      "description": "Matrix (Bottom) film study: Set up and finish the matrix, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H0SUb0Eo168/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H0SUb0Eo168",
+      "url": "https://www.youtube.com/watch?v=H0SUb0Eo168",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -172,6 +220,42 @@ Physically, the Matrix demands significant core strength, hip flexibility, and r
 Risk management is essential when executing the Matrix. Incomplete rotations can leave practitioners in vulnerable positions—inverted with their back exposed. Therefore, commitment to the movement is critical; hesitation mid-roll creates the highest risk scenarios. Practitioners must develop the confidence to fully commit to the rotation or immediately abort and return to defensive positioning.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Matrix (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DvD3VVl1kDk)
+
+<p class="clip-credit"><strong>De La Riva wrist control matrix back take</strong> — taught by Luciana Marcos · 0:59 · <a href="https://www.youtube.com/watch?v=DvD3VVl1kDk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BWDsJPV7iPA)
+
+<p class="clip-credit"><strong>The no-gi matrix back take</strong> — taught by LangakerBjj · 1:36 · <a href="https://www.youtube.com/watch?v=BWDsJPV7iPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H0SUb0Eo168)
+
+<p class="clip-credit"><strong>Set up and finish the matrix</strong> — taught by Jon Thomas · 2:12 · <a href="https://www.youtube.com/watch?v=H0SUb0Eo168" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

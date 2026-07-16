@@ -148,6 +148,43 @@ description: "How to prevent Half Guard Recovery in BJJ. Top player strategies f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention against the wall",
+      "description": "Half Guard Recovery (Defender) film study: Guard retention against the wall, taught by Barrick BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7jm4N-AODEc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7jm4N-AODEc",
+      "url": "https://www.youtube.com/watch?v=7jm4N-AODEc",
+      "creator": { "@type": "Person", "name": "Barrick BJJ" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm drag back take vs guard recovery",
+      "description": "Half Guard Recovery (Defender) film study: Arm drag back take vs guard recovery, taught by Alliance Jiu Jitsu SJC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xhfjKDfwBY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0xhfjKDfwBY",
+      "url": "https://www.youtube.com/watch?v=0xhfjKDfwBY",
+      "creator": { "@type": "Person", "name": "Alliance Jiu Jitsu SJC" },
+      "duration": "PT104S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The key to shutting down half guard recovery lies in understanding its timing de
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7jm4N-AODEc)
+
+<p class="clip-credit"><strong>Guard retention against the wall</strong> — taught by Barrick BJJ · 0:57 · <a href="https://www.youtube.com/watch?v=7jm4N-AODEc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0xhfjKDfwBY)
+
+<p class="clip-credit"><strong>Arm drag back take vs guard recovery</strong> — taught by Alliance Jiu Jitsu SJC · 1:44 · <a href="https://www.youtube.com/watch?v=0xhfjKDfwBY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

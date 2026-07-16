@@ -154,6 +154,43 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge and Roll (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why your upa mount escape fails",
+      "description": "Bridge and Roll (Defender) film study: Why your upa mount escape fails, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IgYot9fcBh0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IgYot9fcBh0",
+      "url": "https://www.youtube.com/watch?v=IgYot9fcBh0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT310S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie\u0027s best advice on escaping mount",
+      "description": "Bridge and Roll (Defender) film study: Roger Gracie\u0027s best advice on escaping mount, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r3ryggpYhb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r3ryggpYhb0",
+      "url": "https://www.youtube.com/watch?v=r3ryggpYhb0",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT233S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -163,6 +200,34 @@ Defending the Bridge and Roll from the top mount position requires understanding
 **Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge and Roll (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IgYot9fcBh0)
+
+<p class="clip-credit"><strong>Why your upa mount escape fails</strong> — taught by Jean Jacques Machado · 5:10 · <a href="https://www.youtube.com/watch?v=IgYot9fcBh0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r3ryggpYhb0)
+
+<p class="clip-credit"><strong>Roger Gracie&#39;s best advice on escaping mount</strong> — taught by Roger Gracie · 3:53 · <a href="https://www.youtube.com/watch?v=r3ryggpYhb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

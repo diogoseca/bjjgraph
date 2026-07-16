@@ -174,6 +174,43 @@ description: "How to execute Overhook Extraction in BJJ. Attacking perspective w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Extraction (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook Armbar extraction from guard",
+      "description": "Overhook Extraction (Attacker) film study: Overhook Armbar extraction from guard, taught by JiuJitsuEvolutionSeries.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rxnJrGZMDlc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rxnJrGZMDlc",
+      "url": "https://www.youtube.com/watch?v=rxnJrGZMDlc",
+      "creator": { "@type": "Person", "name": "JiuJitsuEvolutionSeries" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Late stage guard retention using the rubber guard",
+      "description": "Overhook Extraction (Attacker) film study: Late stage guard retention using the rubber guard, taught by Robert Diggle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xNc_Cdh9VVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xNc_Cdh9VVg",
+      "url": "https://www.youtube.com/watch?v=xNc_Cdh9VVg",
+      "creator": { "@type": "Person", "name": "Robert Diggle" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ Strategically, overhook extraction should not be attempted in isolation. The seq
 **From Position**: [[Positions/Rubber Guard/New York]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Extraction (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rxnJrGZMDlc)
+
+<p class="clip-credit"><strong>Overhook Armbar extraction from guard</strong> — taught by JiuJitsuEvolutionSeries · 0:50 · <a href="https://www.youtube.com/watch?v=rxnJrGZMDlc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xNc_Cdh9VVg)
+
+<p class="clip-credit"><strong>Late stage guard retention using the rubber guard</strong> — taught by Robert Diggle · 3:09 · <a href="https://www.youtube.com/watch?v=xNc_Cdh9VVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

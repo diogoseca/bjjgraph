@@ -142,6 +142,54 @@ description: "How to defend against Back Take from Top in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Top (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sucker drag escape from the front headlock",
+      "description": "Back Take from Top (Defender) film study: Sucker drag escape from the front headlock, taught by Matt Rogers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLlXgLRx--I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLlXgLRx--I",
+      "url": "https://www.youtube.com/watch?v=dLlXgLRx--I",
+      "creator": { "@type": "Person", "name": "Matt Rogers" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic front headlock defense",
+      "description": "Back Take from Top (Defender) film study: Basic front headlock defense, taught by Askren Wrestling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ry5lH-N7O-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ry5lH-N7O-0",
+      "url": "https://www.youtube.com/watch?v=ry5lH-N7O-0",
+      "creator": { "@type": "Person", "name": "Askren Wrestling Academy" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front headlock escape drill",
+      "description": "Back Take from Top (Defender) film study: Front headlock escape drill, taught by Gracie Barra Charlestown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wxiM5z0NUXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wxiM5z0NUXw",
+      "url": "https://www.youtube.com/watch?v=wxiM5z0NUXw",
+      "creator": { "@type": "Person", "name": "Gracie Barra Charlestown" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -155,6 +203,42 @@ Defensive success depends on controlling the pace of your own turn. Rather than 
 **Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Top (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dLlXgLRx--I)
+
+<p class="clip-credit"><strong>Sucker drag escape from the front headlock</strong> — taught by Matt Rogers · 1:17 · <a href="https://www.youtube.com/watch?v=dLlXgLRx--I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ry5lH-N7O-0)
+
+<p class="clip-credit"><strong>Basic front headlock defense</strong> — taught by Askren Wrestling Academy · 1:48 · <a href="https://www.youtube.com/watch?v=ry5lH-N7O-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wxiM5z0NUXw)
+
+<p class="clip-credit"><strong>Front headlock escape drill</strong> — taught by Gracie Barra Charlestown · 0:29 · <a href="https://www.youtube.com/watch?v=wxiM5z0NUXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,54 @@ description: "Defend against the Shoulder of Justice to Mount transition in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder of Justice to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Iron pillow frame vs side mount",
+      "description": "Shoulder of Justice to Mount (Defender) film study: Iron pillow frame vs side mount, taught by SBG New Braunfels.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O19KhyZBZwg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O19KhyZBZwg",
+      "url": "https://www.youtube.com/watch?v=O19KhyZBZwg",
+      "creator": { "@type": "Person", "name": "SBG New Braunfels" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Control Escape Against Shoulder Pressure",
+      "description": "Shoulder of Justice to Mount (Defender) film study: Side Control Escape Against Shoulder Pressure, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kYcMvSDftVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kYcMvSDftVo",
+      "url": "https://www.youtube.com/watch?v=kYcMvSDftVo",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT187S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Best Side Control Escape for Heavy Pressure",
+      "description": "Shoulder of Justice to Mount (Defender) film study: Best Side Control Escape for Heavy Pressure, taught by Jules Bruchez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CgTZaZkmtTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CgTZaZkmtTo",
+      "url": "https://www.youtube.com/watch?v=CgTZaZkmtTo",
+      "creator": { "@type": "Person", "name": "Jules Bruchez" },
+      "duration": "PT306S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Shoulder of Justice to Mount transition requires recognizing the e
 **Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder of Justice to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O19KhyZBZwg)
+
+<p class="clip-credit"><strong>Iron pillow frame vs side mount</strong> — taught by SBG New Braunfels · 1:22 · <a href="https://www.youtube.com/watch?v=O19KhyZBZwg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kYcMvSDftVo)
+
+<p class="clip-credit"><strong>Side Control Escape Against Shoulder Pressure</strong> — taught by Coach Brian · 3:07 · <a href="https://www.youtube.com/watch?v=kYcMvSDftVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CgTZaZkmtTo)
+
+<p class="clip-credit"><strong>Best Side Control Escape for Heavy Pressure</strong> — taught by Jules Bruchez · 5:06 · <a href="https://www.youtube.com/watch?v=CgTZaZkmtTo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

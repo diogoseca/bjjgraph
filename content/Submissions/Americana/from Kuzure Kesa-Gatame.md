@@ -34,6 +34,43 @@ description: "Master the Americana shoulder lock from Kuzure Kesa-Gatame. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Kuzure Kesa-Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified Americana Grip",
+      "description": "Americana from Kuzure Kesa-Gatame film study: Modified Americana Grip, taught by BJJ After Forty.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SkFE9CBKvsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SkFE9CBKvsA",
+      "url": "https://www.youtube.com/watch?v=SkFE9CBKvsA",
+      "creator": { "@type": "Person", "name": "BJJ After Forty" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "One Handed Americana/Keylock",
+      "description": "Americana from Kuzure Kesa-Gatame film study: One Handed Americana/Keylock, taught by Mastermind Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iGVWSwxKCII/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iGVWSwxKCII",
+      "url": "https://www.youtube.com/watch?v=iGVWSwxKCII",
+      "creator": { "@type": "Person", "name": "Mastermind Martial Arts" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, the Americana from Kuzure Kesa-Gatame anchors a submission chain 
 **Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] · **From**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Kuzure Kesa-Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SkFE9CBKvsA)
+
+<p class="clip-credit"><strong>Modified Americana Grip</strong> — taught by BJJ After Forty · 1:01 · <a href="https://www.youtube.com/watch?v=SkFE9CBKvsA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iGVWSwxKCII)
+
+<p class="clip-credit"><strong>One Handed Americana/Keylock</strong> — taught by Mastermind Martial Arts · 2:21 · <a href="https://www.youtube.com/watch?v=iGVWSwxKCII" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

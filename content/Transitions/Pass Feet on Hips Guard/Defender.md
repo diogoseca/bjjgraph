@@ -154,6 +154,54 @@ description: "Complete defensive guide to retaining feet on hips guard against p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Feet on Hips Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting Feet on Biceps Position Correctly",
+      "description": "Pass Feet on Hips Guard (Defender) film study: Getting Feet on Biceps Position Correctly, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
+      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three tricks to improve guard retention",
+      "description": "Pass Feet on Hips Guard (Defender) film study: Three tricks to improve guard retention, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T9ckJr1MV7Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T9ckJr1MV7Q",
+      "url": "https://www.youtube.com/watch?v=T9ckJr1MV7Q",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT253S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Xande\u0027s guard retention drill",
+      "description": "Pass Feet on Hips Guard (Defender) film study: Xande\u0027s guard retention drill, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/It-74eVqIC0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/It-74eVqIC0",
+      "url": "https://www.youtube.com/watch?v=It-74eVqIC0",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT408S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -163,6 +211,42 @@ The defender in this transition is the guard player working to maintain feet-on-
 **Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Feet on Hips Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
+
+<p class="clip-credit"><strong>Getting Feet on Biceps Position Correctly</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T9ckJr1MV7Q)
+
+<p class="clip-credit"><strong>Three tricks to improve guard retention</strong> — taught by Jon Thomas · 4:13 · <a href="https://www.youtube.com/watch?v=T9ckJr1MV7Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=It-74eVqIC0)
+
+<p class="clip-credit"><strong>Xande&#39;s guard retention drill</strong> — taught by Xande Ribeiro · 6:48 · <a href="https://www.youtube.com/watch?v=It-74eVqIC0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

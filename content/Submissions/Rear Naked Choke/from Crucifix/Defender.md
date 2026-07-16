@@ -142,6 +142,54 @@ description: "Defend the Rear Naked Choke from Crucifix. Recognition cues, defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple Crucifix Escape",
+      "description": "Rear Naked Choke from Crucifix (Defender) film study: Simple Crucifix Escape, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
+      "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix Escape",
+      "description": "Rear Naked Choke from Crucifix (Defender) film study: Crucifix Escape, taught by Left Side Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OO92wSXFFV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OO92wSXFFV8",
+      "url": "https://www.youtube.com/watch?v=OO92wSXFFV8",
+      "creator": { "@type": "Person", "name": "Left Side Jiu-Jitsu" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix Escape",
+      "description": "Rear Naked Choke from Crucifix (Defender) film study: Crucifix Escape, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m-iTKRTVeeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m-iTKRTVeeo",
+      "url": "https://www.youtube.com/watch?v=m-iTKRTVeeo",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +200,42 @@ Defending the Rear Naked Choke from Crucifix demands immediate action within an 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
+
+<p class="clip-credit"><strong>Simple Crucifix Escape</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OO92wSXFFV8)
+
+<p class="clip-credit"><strong>Crucifix Escape</strong> — taught by Left Side Jiu-Jitsu · 2:25 · <a href="https://www.youtube.com/watch?v=OO92wSXFFV8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m-iTKRTVeeo)
+
+<p class="clip-credit"><strong>Crucifix Escape</strong> — taught by Chosen Few BJJ · 2:40 · <a href="https://www.youtube.com/watch?v=m-iTKRTVeeo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

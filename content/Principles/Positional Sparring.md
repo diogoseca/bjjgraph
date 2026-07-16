@@ -164,6 +164,43 @@ description: "Master Positional Sparring in BJJ. Learn structured resistance tra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Positional Sparring \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Positional sparring at Marcelo Garcia Academy",
+      "description": "Positional Sparring film study: Positional sparring at Marcelo Garcia Academy, taught by Jon Satava.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G47Z7h7zVAQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G47Z7h7zVAQ",
+      "url": "https://www.youtube.com/watch?v=G47Z7h7zVAQ",
+      "creator": { "@type": "Person", "name": "Jon Satava" },
+      "duration": "PT441S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The positional sparring training method",
+      "description": "Positional Sparring film study: The positional sparring training method, taught by Alec Baulding.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9mUzVwippH0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9mUzVwippH0",
+      "url": "https://www.youtube.com/watch?v=9mUzVwippH0",
+      "creator": { "@type": "Person", "name": "Alec Baulding" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Positional Sparring?
@@ -173,6 +210,34 @@ description: "Master Positional Sparring in BJJ. Learn structured resistance tra
 Within modern BJJ pedagogy, positional sparring emerged as the critical bridge between cooperative drilling and unstructured live rolling, formalized by competition-focused academies seeking to compress skill acquisition. By constraining where a round begins and what each partner is trying to achieve, it isolates specific scenarios to maximize repetition density and technical problem-solving across targeted positional contexts. This methodology encompasses the pedagogical structure, reset protocols, and objective-setting mechanisms that transform general rolling into focused skill development with measurable progression indicators. Positional sparring serves as both a diagnostic tool that reveals technical gaps in specific positions, and an accelerated learning environment that provides 5-10x more repetitions of target scenarios compared to live sparring. The ability to implement effective positional sparring methodology often determines the efficiency of skill acquisition and competitive preparation, making it one of the most valuable training tools in modern BJJ pedagogy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Positional Sparring in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G47Z7h7zVAQ)
+
+<p class="clip-credit"><strong>Positional sparring at Marcelo Garcia Academy</strong> — taught by Jon Satava · 7:21 · <a href="https://www.youtube.com/watch?v=G47Z7h7zVAQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9mUzVwippH0)
+
+<p class="clip-credit"><strong>The positional sparring training method</strong> — taught by Alec Baulding · 2:01 · <a href="https://www.youtube.com/watch?v=9mUzVwippH0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

@@ -176,6 +176,43 @@ description: "Learn to attack with the Kimura from Crucifix. Step-by-step finish
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix kimura",
+      "description": "Kimura from Crucifix (Attacker) film study: Crucifix kimura, taught by Rob.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e_PO61Eu1G8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e_PO61Eu1G8",
+      "url": "https://www.youtube.com/watch?v=e_PO61Eu1G8",
+      "creator": { "@type": "Person", "name": "Rob" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chokes from T-kimura crucifix control",
+      "description": "Kimura from Crucifix (Attacker) film study: Chokes from T-kimura crucifix control, taught by Mig Mag.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZRW3iwnU8yc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZRW3iwnU8yc",
+      "url": "https://www.youtube.com/watch?v=ZRW3iwnU8yc",
+      "creator": { "@type": "Person", "name": "Mig Mag" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ The Kimura from Crucifix exploits the defining advantage of crucifix position: c
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e_PO61Eu1G8)
+
+<p class="clip-credit"><strong>Crucifix kimura</strong> — taught by Rob · 0:44 · <a href="https://www.youtube.com/watch?v=e_PO61Eu1G8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZRW3iwnU8yc)
+
+<p class="clip-credit"><strong>Chokes from T-kimura crucifix control</strong> — taught by Mig Mag · 2:41 · <a href="https://www.youtube.com/watch?v=ZRW3iwnU8yc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

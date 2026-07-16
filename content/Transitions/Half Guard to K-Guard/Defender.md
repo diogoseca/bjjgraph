@@ -148,6 +148,54 @@ description: "How to defend against the Transition to K-Guard from Half Guard To
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to K-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the K guard",
+      "description": "Half Guard to K-Guard (Defender) film study: Defending the K guard, taught by Rodrigo Lopes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JxDViUC4xhk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JxDViUC4xhk",
+      "url": "https://www.youtube.com/watch?v=JxDViUC4xhk",
+      "creator": { "@type": "Person", "name": "Rodrigo Lopes" },
+      "duration": "PT289S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass K-guard without getting leglocked",
+      "description": "Half Guard to K-Guard (Defender) film study: How to pass K-guard without getting leglocked, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VA_csQEmYXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VA_csQEmYXc",
+      "url": "https://www.youtube.com/watch?v=VA_csQEmYXc",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT357S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clearing the kneeline: leglock entry defense",
+      "description": "Half Guard to K-Guard (Defender) film study: Clearing the kneeline: leglock entry defense, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
+      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Transition to K-Guard requires the top player to recognize the rec
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to K-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JxDViUC4xhk)
+
+<p class="clip-credit"><strong>Defending the K guard</strong> — taught by Rodrigo Lopes · 4:49 · <a href="https://www.youtube.com/watch?v=JxDViUC4xhk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VA_csQEmYXc)
+
+<p class="clip-credit"><strong>How to pass K-guard without getting leglocked</strong> — taught by Craig Jones · 5:57 · <a href="https://www.youtube.com/watch?v=VA_csQEmYXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
+
+<p class="clip-credit"><strong>Clearing the kneeline: leglock entry defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

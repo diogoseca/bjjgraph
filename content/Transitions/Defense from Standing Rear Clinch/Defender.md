@@ -140,6 +140,54 @@ description: "Master maintaining the standing rear clinch against escape attempt
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defense from Standing Rear Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reversing the clinch against the wall",
+      "description": "Defense from Standing Rear Clinch (Defender) film study: Reversing the clinch against the wall, taught by The Academy MN.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nAFyFmMMeEw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nAFyFmMMeEw",
+      "url": "https://www.youtube.com/watch?v=nAFyFmMMeEw",
+      "creator": { "@type": "Person", "name": "The Academy MN" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Rear Body Lock: Counters and Defense",
+      "description": "Defense from Standing Rear Clinch (Defender) film study: Standing Rear Body Lock: Counters and Defense, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT318S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body Lock Clinch Escape",
+      "description": "Defense from Standing Rear Clinch (Defender) film study: Body Lock Clinch Escape, taught by Penny Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iY14-ZWmtAQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iY14-ZWmtAQ",
+      "url": "https://www.youtube.com/watch?v=iY14-ZWmtAQ",
+      "creator": { "@type": "Person", "name": "Penny Thomas" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the person maintaining the standing rear clinch, your role is to shut down th
 **Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defense from Standing Rear Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nAFyFmMMeEw)
+
+<p class="clip-credit"><strong>Reversing the clinch against the wall</strong> — taught by The Academy MN · 0:58 · <a href="https://www.youtube.com/watch?v=nAFyFmMMeEw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
+
+<p class="clip-credit"><strong>Standing Rear Body Lock: Counters and Defense</strong> — taught by Brian Glick · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iY14-ZWmtAQ)
+
+<p class="clip-credit"><strong>Body Lock Clinch Escape</strong> — taught by Penny Thomas · 1:02 · <a href="https://www.youtube.com/watch?v=iY14-ZWmtAQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

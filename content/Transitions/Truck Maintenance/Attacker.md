@@ -180,6 +180,43 @@ description: "Learn to maintain the Truck position in BJJ with boot pressure ret
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck Maintenance (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic Truck entry and control demo",
+      "description": "Truck Maintenance (Attacker) film study: Basic Truck entry and control demo, taught by Georges St-Pierre \u0026 Firas Zahabi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aeD1fb1X6Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aeD1fb1X6Oc",
+      "url": "https://www.youtube.com/watch?v=aeD1fb1X6Oc",
+      "creator": { "@type": "Person", "name": "Georges St-Pierre \u0026 Firas Zahabi" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mastering the Truck position",
+      "description": "Truck Maintenance (Attacker) film study: Mastering the Truck position, taught by 10th Planet Newport.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YqlKl-La88s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YqlKl-La88s",
+      "url": "https://www.youtube.com/watch?v=YqlKl-La88s",
+      "creator": { "@type": "Person", "name": "10th Planet Newport" },
+      "duration": "PT216S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ Maintaining the Truck from the top requires continuous management of three inter
 **From Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck Maintenance (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aeD1fb1X6Oc)
+
+<p class="clip-credit"><strong>Basic Truck entry and control demo</strong> — taught by Georges St-Pierre &amp; Firas Zahabi · 1:33 · <a href="https://www.youtube.com/watch?v=aeD1fb1X6Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YqlKl-La88s)
+
+<p class="clip-credit"><strong>Mastering the Truck position</strong> — taught by 10th Planet Newport · 3:36 · <a href="https://www.youtube.com/watch?v=YqlKl-La88s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -149,6 +149,43 @@ description: "How to defend against Uchi Mata in BJJ. Recognition cues, defensiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Uchi Mata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Over-under counter to uchi mata",
+      "description": "Uchi Mata (Defender) film study: Over-under counter to uchi mata, taught by SBG Australia coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AJZJhBoDOYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AJZJhBoDOYA",
+      "url": "https://www.youtube.com/watch?v=AJZJhBoDOYA",
+      "creator": { "@type": "Person", "name": "SBG Australia coach" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to avoid uchi mata",
+      "description": "Uchi Mata (Defender) film study: How to avoid uchi mata, taught by Aljaz Sedej.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aWyVOnZA3PM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aWyVOnZA3PM",
+      "url": "https://www.youtube.com/watch?v=aWyVOnZA3PM",
+      "creator": { "@type": "Person", "name": "Aljaz Sedej" },
+      "duration": "PT148S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -161,6 +198,34 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 **Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Uchi Mata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AJZJhBoDOYA)
+
+<p class="clip-credit"><strong>Over-under counter to uchi mata</strong> — taught by SBG Australia coach · 0:12 · <a href="https://www.youtube.com/watch?v=AJZJhBoDOYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aWyVOnZA3PM)
+
+<p class="clip-credit"><strong>How to avoid uchi mata</strong> — taught by Aljaz Sedej · 2:28 · <a href="https://www.youtube.com/watch?v=aWyVOnZA3PM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

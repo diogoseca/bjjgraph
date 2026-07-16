@@ -34,6 +34,54 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse/X-Guard to heel hook",
+      "description": "Reverse X-Guard film study: Reverse/X-Guard to heel hook, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
+      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Reverse X-Guard entry",
+      "description": "Reverse X-Guard film study: The Reverse X-Guard entry, taught by Black Flag Submission Company.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dISye8G6dpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dISye8G6dpU",
+      "url": "https://www.youtube.com/watch?v=dISye8G6dpU",
+      "creator": { "@type": "Person", "name": "Black Flag Submission Company" },
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single X to Reverse X to 411",
+      "description": "Reverse X-Guard film study: Single X to Reverse X to 411, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yWF7dsUJOKs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yWF7dsUJOKs",
+      "url": "https://www.youtube.com/watch?v=yWF7dsUJOKs",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT249S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ The position requires significant core strength, flexibility, and timing to exec
 Reverse X-Guard has gained prominence in modern competition BJJ as athletes like Marcelo Garcia and the Miyao brothers demonstrated the effectiveness of X-Guard variations at the highest levels. The position serves as a critical node in the modern guard system, connecting De La Riva entries to leg entanglement attacks and high-amplitude sweeps. Understanding both perspectives is essential for any serious competitor or hobbyist who trains against modern guard systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+
+<p class="clip-credit"><strong>Reverse/X-Guard to heel hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dISye8G6dpU)
+
+<p class="clip-credit"><strong>The Reverse X-Guard entry</strong> — taught by Black Flag Submission Company · 3:11 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yWF7dsUJOKs)
+
+<p class="clip-credit"><strong>Single X to Reverse X to 411</strong> — taught by Factory Fresh Jiu Jitsu · 4:09 · <a href="https://www.youtube.com/watch?v=yWF7dsUJOKs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

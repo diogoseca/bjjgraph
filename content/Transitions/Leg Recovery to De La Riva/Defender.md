@@ -148,6 +148,43 @@ description: "How to defend against Leg Recovery to De La Riva in BJJ. Maintain 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Recovery to De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De la Riva knee bump counter into ashi entry",
+      "description": "Leg Recovery to De La Riva (Defender) film study: De la Riva knee bump counter into ashi entry, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_4jDUxFg7uU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_4jDUxFg7uU",
+      "url": "https://www.youtube.com/watch?v=_4jDUxFg7uU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering a full inversion",
+      "description": "Leg Recovery to De La Riva (Defender) film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The critical defensive window for you is the moment between their leg extraction
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Recovery to De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_4jDUxFg7uU)
+
+<p class="clip-credit"><strong>De la Riva knee bump counter into ashi entry</strong> — taught by Gordon Ryan · 2:45 · <a href="https://www.youtube.com/watch?v=_4jDUxFg7uU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

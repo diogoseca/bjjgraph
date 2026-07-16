@@ -168,6 +168,43 @@ description: "How to execute Estima Lock to Ashi Garami in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock to Ashi Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima lock mechanics",
+      "description": "Estima Lock to Ashi Garami (Attacker) film study: Estima lock mechanics, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
+      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima lock from single leg X and ashi garami",
+      "description": "Estima Lock to Ashi Garami (Attacker) film study: Estima lock from single leg X and ashi garami, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6RllPxhcICY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6RllPxhcICY",
+      "url": "https://www.youtube.com/watch?v=6RllPxhcICY",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT200S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Strategically, this transition embodies the chain-attack philosophy central to e
 **From Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock to Ashi Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
+
+<p class="clip-credit"><strong>Estima lock mechanics</strong> — taught by bjjtaro · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6RllPxhcICY)
+
+<p class="clip-credit"><strong>Estima lock from single leg X and ashi garami</strong> — taught by BJJ101 · 3:20 · <a href="https://www.youtube.com/watch?v=6RllPxhcICY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

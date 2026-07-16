@@ -156,6 +156,54 @@ description: "How to defend against the Arm Drag in BJJ. Recognition cues, grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm drag counter with BJJ application",
+      "description": "Arm Drag (Defender) film study: Arm drag counter with BJJ application, taught by Joe Scioli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JAik-k-lKWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JAik-k-lKWY",
+      "url": "https://www.youtube.com/watch?v=JAik-k-lKWY",
+      "creator": { "@type": "Person", "name": "Joe Scioli" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defend the arm drag",
+      "description": "Arm Drag (Defender) film study: How to defend the arm drag, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
+      "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing arm drag counter",
+      "description": "Arm Drag (Defender) film study: Standing arm drag counter, taught by Gracie Barra HQ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T3ChZk__H9c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T3ChZk__H9c",
+      "url": "https://www.youtube.com/watch?v=T3ChZk__H9c",
+      "creator": { "@type": "Person", "name": "Gracie Barra HQ" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -169,6 +217,42 @@ When prevention fails and the attacker begins circling behind your shoulder line
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JAik-k-lKWY)
+
+<p class="clip-credit"><strong>Arm drag counter with BJJ application</strong> — taught by Joe Scioli · 0:31 · <a href="https://www.youtube.com/watch?v=JAik-k-lKWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bmCjXADzgo4)
+
+<p class="clip-credit"><strong>How to defend the arm drag</strong> — taught by Matt Arroyo · 1:43 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T3ChZk__H9c)
+
+<p class="clip-credit"><strong>Standing arm drag counter</strong> — taught by Gracie Barra HQ · 2:21 · <a href="https://www.youtube.com/watch?v=T3ChZk__H9c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

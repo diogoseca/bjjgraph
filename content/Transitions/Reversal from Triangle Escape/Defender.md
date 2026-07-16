@@ -140,6 +140,54 @@ description: "Complete guide to defending the reversal from triangle escape in B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reversal from Triangle Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the triangle stack escape into armbar",
+      "description": "Reversal from Triangle Escape (Defender) film study: Defending the triangle stack escape into armbar, taught by JJPA APEX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-QXaB5Sl2VQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-QXaB5Sl2VQ",
+      "url": "https://www.youtube.com/watch?v=-QXaB5Sl2VQ",
+      "creator": { "@type": "Person", "name": "JJPA APEX" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle stack counters for posture and pressure",
+      "description": "Reversal from Triangle Escape (Defender) film study: Triangle stack counters for posture and pressure, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ypwHsHoUgw4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ypwHsHoUgw4",
+      "url": "https://www.youtube.com/watch?v=ypwHsHoUgw4",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT368S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to stop being stacked off a triangle choke",
+      "description": "Reversal from Triangle Escape (Defender) film study: How to stop being stacked off a triangle choke, taught by Sergio Vargas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RiVzzip_7ls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RiVzzip_7ls",
+      "url": "https://www.youtube.com/watch?v=RiVzzip_7ls",
+      "creator": { "@type": "Person", "name": "Sergio Vargas" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Reversal from Triangle Escape, you are the triangle 
 **Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reversal from Triangle Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-QXaB5Sl2VQ)
+
+<p class="clip-credit"><strong>Defending the triangle stack escape into armbar</strong> — taught by JJPA APEX · 0:20 · <a href="https://www.youtube.com/watch?v=-QXaB5Sl2VQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ypwHsHoUgw4)
+
+<p class="clip-credit"><strong>Triangle stack counters for posture and pressure</strong> — taught by Knight Jiu-Jitsu · 6:08 · <a href="https://www.youtube.com/watch?v=ypwHsHoUgw4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RiVzzip_7ls)
+
+<p class="clip-credit"><strong>How to stop being stacked off a triangle choke</strong> — taught by Sergio Vargas · 1:50 · <a href="https://www.youtube.com/watch?v=RiVzzip_7ls" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

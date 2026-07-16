@@ -148,6 +148,43 @@ description: "Learn to defend the Dead Orchard to Darce Switch in BJJ. Recognize
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dead Orchard to Darce Switch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the front headlock",
+      "description": "Dead Orchard to Darce Switch (Defender) film study: Escaping the front headlock, taught by Satori BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZCTAYYZMVUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZCTAYYZMVUo",
+      "url": "https://www.youtube.com/watch?v=ZCTAYYZMVUo",
+      "creator": { "@type": "Person", "name": "Satori BJJ coach" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Short drag front headlock escape",
+      "description": "Dead Orchard to Darce Switch (Defender) film study: Short drag front headlock escape, taught by Mason Parris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VZe2GY0_UIk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VZe2GY0_UIk",
+      "url": "https://www.youtube.com/watch?v=VZe2GY0_UIk",
+      "creator": { "@type": "Person", "name": "Mason Parris" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ When your opponent attempts the Dead Orchard to Darce Switch, you face a critica
 **Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dead Orchard to Darce Switch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZCTAYYZMVUo)
+
+<p class="clip-credit"><strong>Escaping the front headlock</strong> — taught by Satori BJJ coach · 0:36 · <a href="https://www.youtube.com/watch?v=ZCTAYYZMVUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VZe2GY0_UIk)
+
+<p class="clip-credit"><strong>Short drag front headlock escape</strong> — taught by Mason Parris · 2:56 · <a href="https://www.youtube.com/watch?v=VZe2GY0_UIk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

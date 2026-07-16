@@ -34,6 +34,54 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lumberjack Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lumberjack sweep to armbar from closed guard",
+      "description": "Lumberjack Sweep film study: Lumberjack sweep to armbar from closed guard, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SY7OdaNhzlE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SY7OdaNhzlE",
+      "url": "https://www.youtube.com/watch?v=SY7OdaNhzlE",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lumberjack sweep breakdown",
+      "description": "Lumberjack Sweep film study: Lumberjack sweep breakdown, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PhpN2ehCPP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PhpN2ehCPP4",
+      "url": "https://www.youtube.com/watch?v=PhpN2ehCPP4",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT329S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lumberjack sweep series",
+      "description": "Lumberjack Sweep film study: Lumberjack sweep series, taught by CVBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NfgvFpvuzkQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NfgvFpvuzkQ",
+      "url": "https://www.youtube.com/watch?v=NfgvFpvuzkQ",
+      "creator": { "@type": "Person", "name": "CVBJJ" },
+      "duration": "PT365S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This sweep integrates seamlessly with other half guard attacks, forming part of 
 **Success Rate**: 29%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lumberjack Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SY7OdaNhzlE)
+
+<p class="clip-credit"><strong>Lumberjack sweep to armbar from closed guard</strong> — taught by Carpio Jiu Jitsu · 2:15 · <a href="https://www.youtube.com/watch?v=SY7OdaNhzlE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PhpN2ehCPP4)
+
+<p class="clip-credit"><strong>Lumberjack sweep breakdown</strong> — taught by Craig Jones · 5:29 · <a href="https://www.youtube.com/watch?v=PhpN2ehCPP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NfgvFpvuzkQ)
+
+<p class="clip-credit"><strong>Lumberjack sweep series</strong> — taught by CVBJJ · 6:05 · <a href="https://www.youtube.com/watch?v=NfgvFpvuzkQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

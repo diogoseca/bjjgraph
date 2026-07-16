@@ -153,6 +153,54 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Vaporizer (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown to Vaporizer",
+      "description": "Vaporizer (Bottom) film study: Lockdown to Vaporizer, taught by Axel Collazo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ZgEL2zU_jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8ZgEL2zU_jg",
+      "url": "https://www.youtube.com/watch?v=8ZgEL2zU_jg",
+      "creator": { "@type": "Person", "name": "Axel Collazo" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Vaporizer \u0026 Toe Hook",
+      "description": "Vaporizer (Bottom) film study: The Vaporizer \u0026 Toe Hook, taught by 10th Planet Salt Lake City.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BUGZwZooq4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BUGZwZooq4Q",
+      "url": "https://www.youtube.com/watch?v=BUGZwZooq4Q",
+      "creator": { "@type": "Person", "name": "10th Planet Salt Lake City" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Vaporizer from Top Stoner Control",
+      "description": "Vaporizer (Bottom) film study: Vaporizer from Top Stoner Control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VopfKnaVSjE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VopfKnaVSjE",
+      "url": "https://www.youtube.com/watch?v=VopfKnaVSjE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT254S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The Vaporizer serves as a gateway position within the 10th Planet methodology, o
 The effectiveness of the Vaporizer lies in its ability to force reactions from opponents. By creating an uncomfortable position with the whip-up motion and lockdown pressure, defenders are compelled to make defensive choices that often expose them to further attacks. Whether transitioning to the Electric Chair, advancing to the Truck position, or sweeping to dominant positions, the Vaporizer exemplifies the systematic approach to position advancement that defines modern no-gi BJJ strategy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Vaporizer (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8ZgEL2zU_jg)
+
+<p class="clip-credit"><strong>Lockdown to Vaporizer</strong> — taught by Axel Collazo · 1:38 · <a href="https://www.youtube.com/watch?v=8ZgEL2zU_jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BUGZwZooq4Q)
+
+<p class="clip-credit"><strong>The Vaporizer &amp; Toe Hook</strong> — taught by 10th Planet Salt Lake City · 1:38 · <a href="https://www.youtube.com/watch?v=BUGZwZooq4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VopfKnaVSjE)
+
+<p class="clip-credit"><strong>Vaporizer from Top Stoner Control</strong> — taught by Eddie Bravo · 4:14 · <a href="https://www.youtube.com/watch?v=VopfKnaVSjE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

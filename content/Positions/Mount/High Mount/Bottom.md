@@ -153,6 +153,54 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Mount (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Trap and roll mount escape",
+      "description": "High Mount (Bottom) film study: Trap and roll mount escape, taught by Auburn Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5EceltPECLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5EceltPECLg",
+      "url": "https://www.youtube.com/watch?v=5EceltPECLg",
+      "creator": { "@type": "Person", "name": "Auburn Jiu Jitsu" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escape from a high full mount",
+      "description": "High Mount (Bottom) film study: Escape from a high full mount, taught by TENZAN.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_05Lwonu0mw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_05Lwonu0mw",
+      "url": "https://www.youtube.com/watch?v=_05Lwonu0mw",
+      "creator": { "@type": "Person", "name": "TENZAN" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Trap and roll mount escape",
+      "description": "High Mount (Bottom) film study: Trap and roll mount escape, taught by Topp Performance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JoKL61nEZl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JoKL61nEZl0",
+      "url": "https://www.youtube.com/watch?v=JoKL61nEZl0",
+      "creator": { "@type": "Person", "name": "Topp Performance" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ Defensive strategy from High Mount Bottom centers on survival first, escape seco
 From a training perspective, High Mount Bottom teaches practitioners to remain calm under extreme pressure and to recognize the subtle opportunities that arise during positional transitions. The position exemplifies the importance of preventive defense—never allowing opponents to establish high mount in the first place. When trapped in high mount, the focus shifts to minimizing damage, protecting vital targets, and waiting for the precise moment when offensive action creates defensive opportunity.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Mount (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5EceltPECLg)
+
+<p class="clip-credit"><strong>Trap and roll mount escape</strong> — taught by Auburn Jiu Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=5EceltPECLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_05Lwonu0mw)
+
+<p class="clip-credit"><strong>Escape from a high full mount</strong> — taught by TENZAN · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JoKL61nEZl0)
+
+<p class="clip-credit"><strong>Trap and roll mount escape</strong> — taught by Topp Performance · 1:17 · <a href="https://www.youtube.com/watch?v=JoKL61nEZl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

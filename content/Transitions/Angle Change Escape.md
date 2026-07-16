@@ -34,6 +34,43 @@ description: "Angle Change Escape from Gogoplata Control. Lateral movement defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Angle Change Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gogoplata from rubber guard",
+      "description": "Angle Change Escape film study: Gogoplata from rubber guard, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wn39-wrfsbs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wn39-wrfsbs",
+      "url": "https://www.youtube.com/watch?v=wn39-wrfsbs",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT420S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Angle change to omoplata from collar sleeve guard",
+      "description": "Angle Change Escape film study: Angle change to omoplata from collar sleeve guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l3RDx45pfm0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l3RDx45pfm0",
+      "url": "https://www.youtube.com/watch?v=l3RDx45pfm0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT599S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 **Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Angle Change Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wn39-wrfsbs)
+
+<p class="clip-credit"><strong>Gogoplata from rubber guard</strong> — taught by Brandon McCaghren · 7:00 · <a href="https://www.youtube.com/watch?v=wn39-wrfsbs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l3RDx45pfm0)
+
+<p class="clip-credit"><strong>Angle change to omoplata from collar sleeve guard</strong> — taught by Lachlan Giles · 9:59 · <a href="https://www.youtube.com/watch?v=l3RDx45pfm0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

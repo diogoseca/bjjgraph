@@ -148,6 +148,54 @@ description: "How to defend against Reverse X to Back Take in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X to Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse X-guard defense into rolling back take",
+      "description": "Reverse X to Back Take (Defender) film study: Reverse X-guard defense into rolling back take, taught by Effortless Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M82CDkEzxlQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M82CDkEzxlQ",
+      "url": "https://www.youtube.com/watch?v=M82CDkEzxlQ",
+      "creator": { "@type": "Person", "name": "Effortless Jiu Jitsu" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the back with attention to leg work",
+      "description": "Reverse X to Back Take (Defender) film study: Escaping the back with attention to leg work, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k-lCzVAzJpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k-lCzVAzJpg",
+      "url": "https://www.youtube.com/watch?v=k-lCzVAzJpg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT421S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to pass X guard",
+      "description": "Reverse X to Back Take (Defender) film study: How to pass X guard, taught by Kaynan Duarte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C1lYVhDXwvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C1lYVhDXwvw",
+      "url": "https://www.youtube.com/watch?v=C1lYVhDXwvw",
+      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender's primary strategy centers on denying the space required for the in
 **Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X to Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M82CDkEzxlQ)
+
+<p class="clip-credit"><strong>Reverse X-guard defense into rolling back take</strong> — taught by Effortless Jiu Jitsu · 2:01 · <a href="https://www.youtube.com/watch?v=M82CDkEzxlQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k-lCzVAzJpg)
+
+<p class="clip-credit"><strong>Escaping the back with attention to leg work</strong> — taught by Lachlan Giles · 7:01 · <a href="https://www.youtube.com/watch?v=k-lCzVAzJpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C1lYVhDXwvw)
+
+<p class="clip-credit"><strong>How to pass X guard</strong> — taught by Kaynan Duarte · 1:56 · <a href="https://www.youtube.com/watch?v=C1lYVhDXwvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -168,6 +168,43 @@ description: "How to execute leg extraction from Leg Knot to Single Leg X-Guard 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Extract leg and establish Single Leg X (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two single leg X entries and sweep",
+      "description": "Extract leg and establish Single Leg X (Attacker) film study: Two single leg X entries and sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y0C8vIeCrc0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y0C8vIeCrc0",
+      "url": "https://www.youtube.com/watch?v=y0C8vIeCrc0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT179S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X to X guard drill",
+      "description": "Extract leg and establish Single Leg X (Attacker) film study: Single leg X to X guard drill, taught by Emily Kwok.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XELDoBTfGpM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XELDoBTfGpM",
+      "url": "https://www.youtube.com/watch?v=XELDoBTfGpM",
+      "creator": { "@type": "Person", "name": "Emily Kwok" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Success in this transition requires precise timing, understanding of when oppone
 **From Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Extract leg and establish Single Leg X (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y0C8vIeCrc0)
+
+<p class="clip-credit"><strong>Two single leg X entries and sweep</strong> — taught by Marcelo Garcia · 2:59 · <a href="https://www.youtube.com/watch?v=y0C8vIeCrc0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XELDoBTfGpM)
+
+<p class="clip-credit"><strong>Single leg X to X guard drill</strong> — taught by Emily Kwok · 2:56 · <a href="https://www.youtube.com/watch?v=XELDoBTfGpM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

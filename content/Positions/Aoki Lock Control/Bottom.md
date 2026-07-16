@@ -153,6 +153,43 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K guard defense vs toe hold and straight foot lock",
+      "description": "Aoki Lock Control (Bottom) film study: K guard defense vs toe hold and straight foot lock, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6-HYU8Pbngg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6-HYU8Pbngg",
+      "url": "https://www.youtube.com/watch?v=6-HYU8Pbngg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT152S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Aoki lock counter from standard ashi and SLX",
+      "description": "Aoki Lock Control (Bottom) film study: Aoki lock counter from standard ashi and SLX, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p7fy3B6AAbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p7fy3B6AAbA",
+      "url": "https://www.youtube.com/watch?v=p7fy3B6AAbA",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT231S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ From bottom, your primary objectives are immediate escape, preventing submission
 This position commonly arises when defending turtle position, during scrambles from guard passing attempts, or when opponent capitalizes on arm isolation during transitions. Understanding the mechanical differences between Aoki Lock and traditional shoulder locks is essential for mounting effective defense and preventing catastrophic shoulder injuries. The leg entanglement component limits traditional escape routes, requiring specific counter-strategies that address both the shoulder pressure and leg control simultaneously.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6-HYU8Pbngg)
+
+<p class="clip-credit"><strong>K guard defense vs toe hold and straight foot lock</strong> — taught by Lachlan Giles · 2:32 · <a href="https://www.youtube.com/watch?v=6-HYU8Pbngg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p7fy3B6AAbA)
+
+<p class="clip-credit"><strong>Aoki lock counter from standard ashi and SLX</strong> — taught by Mads H. · 3:51 · <a href="https://www.youtube.com/watch?v=p7fy3B6AAbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

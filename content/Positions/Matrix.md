@@ -34,6 +34,54 @@ description: "Master the Matrix back take in BJJ. Complete guide to the dynamic 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Matrix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The no-gi matrix back take",
+      "description": "Matrix film study: The no-gi matrix back take, taught by LangakerBjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BWDsJPV7iPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BWDsJPV7iPA",
+      "url": "https://www.youtube.com/watch?v=BWDsJPV7iPA",
+      "creator": { "@type": "Person", "name": "LangakerBjj" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Matrix back take compilation",
+      "description": "Matrix film study: Matrix back take compilation, taught by FreeChannelOpen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lKoEMLwgwMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lKoEMLwgwMc",
+      "url": "https://www.youtube.com/watch?v=lKoEMLwgwMc",
+      "creator": { "@type": "Person", "name": "FreeChannelOpen" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "B-Team matrix back take compilation",
+      "description": "Matrix film study: B-Team matrix back take compilation, taught by FreeChannelOpen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uo8-ZJyba08/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uo8-ZJyba08",
+      "url": "https://www.youtube.com/watch?v=uo8-ZJyba08",
+      "creator": { "@type": "Person", "name": "FreeChannelOpen" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ Strategically, the Matrix creates dilemmas for opponents. Defending against the 
 The position's learning curve is steep, requiring months of dedicated drilling to develop the necessary body awareness, timing, and spatial orientation. However, once mastered, the Matrix becomes one of the highest-percentage back takes available, particularly against opponents with strong turtle defense or those who rely on static defensive postures.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Matrix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BWDsJPV7iPA)
+
+<p class="clip-credit"><strong>The no-gi matrix back take</strong> — taught by LangakerBjj · 1:36 · <a href="https://www.youtube.com/watch?v=BWDsJPV7iPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lKoEMLwgwMc)
+
+<p class="clip-credit"><strong>Matrix back take compilation</strong> — taught by FreeChannelOpen · 1:07 · <a href="https://www.youtube.com/watch?v=lKoEMLwgwMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uo8-ZJyba08)
+
+<p class="clip-credit"><strong>B-Team matrix back take compilation</strong> — taught by FreeChannelOpen · 1:03 · <a href="https://www.youtube.com/watch?v=uo8-ZJyba08" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

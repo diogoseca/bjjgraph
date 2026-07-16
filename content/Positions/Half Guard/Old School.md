@@ -34,6 +34,43 @@ description: "Master Old School position in BJJ half guard. Strategic guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Old school half guard sweep",
+      "description": "Old School film study: Old school half guard sweep, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Old school sweep from half guard",
+      "description": "Old School film study: Old school sweep from half guard, taught by Dave Peters.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_1o_3IT7Yj8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_1o_3IT7Yj8",
+      "url": "https://www.youtube.com/watch?v=_1o_3IT7Yj8",
+      "creator": { "@type": "Person", "name": "Dave Peters" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ From bottom perspective, Old School provides immediate offensive threats through
 From top perspective, Old School demands sophisticated pressure management and positional awareness to neutralize lockdown threats while advancing toward passing positions. The whizzer and crossface create defensive structure that prevents sweeps, but maintaining this structure while working toward passes requires patience and systematic pressure application. Success depends on reading opponent's transition windows and capitalizing on momentary lapses in lockdown tension.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Old school half guard sweep</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_1o_3IT7Yj8)
+
+<p class="clip-credit"><strong>Old school sweep from half guard</strong> — taught by Dave Peters · 1:48 · <a href="https://www.youtube.com/watch?v=_1o_3IT7Yj8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

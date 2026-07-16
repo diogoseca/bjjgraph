@@ -174,6 +174,43 @@ description: "How to execute Roll to Truck in BJJ. Attacking perspective with se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Truck back take against a stubborn turtle",
+      "description": "Roll to Truck (Attacker) film study: Truck back take against a stubborn turtle, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XLvbK52hzqM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XLvbK52hzqM",
+      "url": "https://www.youtube.com/watch?v=XLvbK52hzqM",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The truck in transition",
+      "description": "Roll to Truck (Attacker) film study: The truck in transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Roll to Truck from the attacker's perspective is a reactive transition that 
 **From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XLvbK52hzqM)
+
+<p class="clip-credit"><strong>Truck back take against a stubborn turtle</strong> — taught by Patrick Donabedian · 1:03 · <a href="https://www.youtube.com/watch?v=XLvbK52hzqM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The truck in transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

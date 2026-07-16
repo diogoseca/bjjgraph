@@ -144,6 +144,54 @@ description: "How to defend against the kneebar from Single Leg X-Guard in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Single Leg X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Lock Defense (No-Gi)",
+      "description": "Kneebar from Single Leg X-Guard (Defender) film study: Leg Lock Defense (No-Gi), taught by Kuwy Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
+      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
+      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defend and escape the kneebar",
+      "description": "Kneebar from Single Leg X-Guard (Defender) film study: How to defend and escape the kneebar, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HwU4-0-JBUM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HwU4-0-JBUM",
+      "url": "https://www.youtube.com/watch?v=HwU4-0-JBUM",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT533S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar escapes",
+      "description": "Kneebar from Single Leg X-Guard (Defender) film study: Kneebar escapes, taught by Dean Lister.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eoFrZfJBlvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eoFrZfJBlvw",
+      "url": "https://www.youtube.com/watch?v=eoFrZfJBlvw",
+      "creator": { "@type": "Person", "name": "Dean Lister" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the kneebar from Single Leg X-Guard requires the bottom player to reco
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Single Leg X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m0NLphEuFoc)
+
+<p class="clip-credit"><strong>Leg Lock Defense (No-Gi)</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HwU4-0-JBUM)
+
+<p class="clip-credit"><strong>How to defend and escape the kneebar</strong> — taught by Stephan Kesting · 8:53 · <a href="https://www.youtube.com/watch?v=HwU4-0-JBUM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eoFrZfJBlvw)
+
+<p class="clip-credit"><strong>Kneebar escapes</strong> — taught by Dean Lister · 2:38 · <a href="https://www.youtube.com/watch?v=eoFrZfJBlvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

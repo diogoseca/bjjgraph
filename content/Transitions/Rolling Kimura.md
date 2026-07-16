@@ -34,6 +34,54 @@ description: "Master the Rolling Kimura from Kimura Trap bottom in BJJ. Use the 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Kimura \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling kimura from bottom side control",
+      "description": "Rolling Kimura film study: Rolling kimura from bottom side control, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YvTmqi750wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YvTmqi750wQ",
+      "url": "https://www.youtube.com/watch?v=YvTmqi750wQ",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling kimura lock from bottom turtle",
+      "description": "Rolling Kimura film study: Rolling kimura lock from bottom turtle, taught by Big Boy Friendly Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2lqHT7gaQKQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2lqHT7gaQKQ",
+      "url": "https://www.youtube.com/watch?v=2lqHT7gaQKQ",
+      "creator": { "@type": "Person", "name": "Big Boy Friendly Jiu-Jitsu" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rolling kimura trap for gi and no-gi",
+      "description": "Rolling Kimura film study: Rolling kimura trap for gi and no-gi, taught by Gold BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UymiirWc8EY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UymiirWc8EY",
+      "url": "https://www.youtube.com/watch?v=UymiirWc8EY",
+      "creator": { "@type": "Person", "name": "Gold BJJ" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technique works in both gi and no-gi, though the connection differs. In the 
 **Success Rate**: 38%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Kimura in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YvTmqi750wQ)
+
+<p class="clip-credit"><strong>Rolling kimura from bottom side control</strong> — taught by Mat Life Training Center · 0:31 · <a href="https://www.youtube.com/watch?v=YvTmqi750wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2lqHT7gaQKQ)
+
+<p class="clip-credit"><strong>Rolling kimura lock from bottom turtle</strong> — taught by Big Boy Friendly Jiu-Jitsu · 1:38 · <a href="https://www.youtube.com/watch?v=2lqHT7gaQKQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UymiirWc8EY)
+
+<p class="clip-credit"><strong>Rolling kimura trap for gi and no-gi</strong> — taught by Gold BJJ · 2:49 · <a href="https://www.youtube.com/watch?v=UymiirWc8EY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

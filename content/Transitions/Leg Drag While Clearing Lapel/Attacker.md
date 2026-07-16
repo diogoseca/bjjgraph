@@ -174,6 +174,43 @@ description: "How to execute Leg Drag While Clearing Lapel in BJJ. Attacking per
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag While Clearing Lapel (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard passing breakdown",
+      "description": "Leg Drag While Clearing Lapel (Attacker) film study: Guard passing breakdown, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cr4bYMXDG6k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cr4bYMXDG6k",
+      "url": "https://www.youtube.com/watch?v=cr4bYMXDG6k",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Over-under pass from lapel guard",
+      "description": "Leg Drag While Clearing Lapel (Attacker) film study: Over-under pass from lapel guard, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CWIYY6u-P9Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CWIYY6u-P9Y",
+      "url": "https://www.youtube.com/watch?v=CWIYY6u-P9Y",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ Strategically, this technique excels against opponents who rely heavily on lapel
 **From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag While Clearing Lapel (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cr4bYMXDG6k)
+
+<p class="clip-credit"><strong>Guard passing breakdown</strong> — taught by Andre Galvao · 1:29 · <a href="https://www.youtube.com/watch?v=cr4bYMXDG6k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CWIYY6u-P9Y)
+
+<p class="clip-credit"><strong>Over-under pass from lapel guard</strong> — taught by Carpio Jiu Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=CWIYY6u-P9Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

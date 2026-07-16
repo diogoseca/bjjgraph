@@ -174,6 +174,43 @@ description: "How to execute the Transition to Pocket Half Guard from Half Guard
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Pocket Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip switch to back take from half guard",
+      "description": "Half Guard to Pocket Half Guard (Attacker) film study: Hip switch to back take from half guard, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
+      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the half guard underhook while passing",
+      "description": "Half Guard to Pocket Half Guard (Attacker) film study: Countering the half guard underhook while passing, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zy88ds_RDG4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Zy88ds_RDG4",
+      "url": "https://www.youtube.com/watch?v=Zy88ds_RDG4",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 **From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Pocket Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
+
+<p class="clip-credit"><strong>Hip switch to back take from half guard</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Zy88ds_RDG4)
+
+<p class="clip-credit"><strong>Countering the half guard underhook while passing</strong> — taught by Holy Grail BJJ · 2:06 · <a href="https://www.youtube.com/watch?v=Zy88ds_RDG4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

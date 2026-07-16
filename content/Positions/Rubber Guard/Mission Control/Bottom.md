@@ -153,6 +153,43 @@ description: "Master the bottom of Mission Control with complete control mechani
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mission Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mission Control to Invisible Collar to Armbars",
+      "description": "Mission Control (Bottom) film study: Mission Control to Invisible Collar to Armbars, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
+      "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "10th Planet Rubber Guard Path",
+      "description": "Mission Control (Bottom) film study: 10th Planet Rubber Guard Path, taught by Justin Patten.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d_IuykmUqBA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d_IuykmUqBA",
+      "url": "https://www.youtube.com/watch?v=d_IuykmUqBA",
+      "creator": { "@type": "Person", "name": "Justin Patten" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ The offensive potential from Mission Control bottom is extensive and systematic.
 Success in Mission Control bottom requires specific physical attributes and technical understanding. Hip flexibility is paramount - practitioners must be able to maintain the high guard position without straining, allowing for sustained control and fluid transitions. Grip strength and endurance are critical for maintaining head and arm control against defensive attempts. Technical precision in shoulder isolation mechanics determines whether the position creates genuine submission threats or merely uncomfortable pressure. Most importantly, bottom practitioners must develop the systematic understanding of submission chains that makes Mission Control a true position of dominance rather than just a transitional control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mission Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
+
+<p class="clip-credit"><strong>Mission Control to Invisible Collar to Armbars</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d_IuykmUqBA)
+
+<p class="clip-credit"><strong>10th Planet Rubber Guard Path</strong> — taught by Justin Patten · 0:54 · <a href="https://www.youtube.com/watch?v=d_IuykmUqBA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

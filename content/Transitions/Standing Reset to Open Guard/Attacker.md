@@ -174,6 +174,43 @@ description: "How to execute Standing Reset to Open Guard in BJJ. Attacking pers
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Reset to Open Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking Grips from Standing",
+      "description": "Standing Reset to Open Guard (Attacker) film study: Breaking Grips from Standing, taught by Satoshi Ishii.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tIrzgxvByzI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tIrzgxvByzI",
+      "url": "https://www.youtube.com/watch?v=tIrzgxvByzI",
+      "creator": { "@type": "Person", "name": "Satoshi Ishii" },
+      "duration": "PT208S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gripping Fundamentals",
+      "description": "Standing Reset to Open Guard (Attacker) film study: Gripping Fundamentals, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yquAL8CBldY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yquAL8CBldY",
+      "url": "https://www.youtube.com/watch?v=yquAL8CBldY",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT243S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ This transition is tactically important because it represents the top player acc
 **From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Reset to Open Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tIrzgxvByzI)
+
+<p class="clip-credit"><strong>Breaking Grips from Standing</strong> — taught by Satoshi Ishii · 3:28 · <a href="https://www.youtube.com/watch?v=tIrzgxvByzI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yquAL8CBldY)
+
+<p class="clip-credit"><strong>Gripping Fundamentals</strong> — taught by John Danaher · 4:03 · <a href="https://www.youtube.com/watch?v=yquAL8CBldY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

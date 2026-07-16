@@ -153,6 +153,54 @@ description: "Master Reverse De La Riva Guard Top passing in BJJ. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse De La Riva Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a Full Inversion",
+      "description": "Reverse De La Riva Guard (Top) film study: Countering a Full Inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse De La Riva Guard Pass",
+      "description": "Reverse De La Riva Guard (Top) film study: Reverse De La Riva Guard Pass, taught by Frankie Roberts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cOUEcFxDtL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cOUEcFxDtL8",
+      "url": "https://www.youtube.com/watch?v=cOUEcFxDtL8",
+      "creator": { "@type": "Person", "name": "Frankie Roberts" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing Reverse De La Riva",
+      "description": "Reverse De La Riva Guard (Top) film study: Passing Reverse De La Riva, taught by Ronin Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynFpOlFWdLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynFpOlFWdLw",
+      "url": "https://www.youtube.com/watch?v=ynFpOlFWdLw",
+      "creator": { "@type": "Person", "name": "Ronin Training Center" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ This position requires sophisticated understanding of weight distribution and ba
 The top player must navigate multiple decision points throughout the passing sequence: whether to engage in smash passing protocols that eliminate space, float passing methodologies that maintain distance and mobility, or leg drag systems that address the hook through lateral movement. Each pathway requires different pressure patterns and grip configurations. Understanding the relationship between the reverse De La Riva hook's mechanical advantage and your own base positioning is crucial, as improper weight distribution leads directly to sweeps or scrambles where the bottom player can access back exposure opportunities. The position serves as a critical junction in modern guard passing sequences, particularly in no-gi competition where reverse De La Riva has become a foundational guard retention tool that connects to multiple defensive systems including X-Guard, Single Leg X, and leg entanglement positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse De La Riva Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cOUEcFxDtL8)
+
+<p class="clip-credit"><strong>Reverse De La Riva Guard Pass</strong> — taught by Frankie Roberts · 0:58 · <a href="https://www.youtube.com/watch?v=cOUEcFxDtL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynFpOlFWdLw)
+
+<p class="clip-credit"><strong>Passing Reverse De La Riva</strong> — taught by Ronin Training Center · 1:08 · <a href="https://www.youtube.com/watch?v=ynFpOlFWdLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

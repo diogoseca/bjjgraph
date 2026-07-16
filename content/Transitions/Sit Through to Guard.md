@@ -34,6 +34,54 @@ description: "Master the Sit Through to Guard escape from turtle. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sit Through to Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sit through to guard from bottom turtle",
+      "description": "Sit Through to Guard film study: Sit through to guard from bottom turtle, taught by Coach Brandon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fjCdR_vOBoY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fjCdR_vOBoY",
+      "url": "https://www.youtube.com/watch?v=fjCdR_vOBoY",
+      "creator": { "@type": "Person", "name": "Coach Brandon" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pulling guard from the turtle position",
+      "description": "Sit Through to Guard film study: Pulling guard from the turtle position, taught by Team Daruma Dojo coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c-k3lA-yVhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c-k3lA-yVhU",
+      "url": "https://www.youtube.com/watch?v=c-k3lA-yVhU",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo coach" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle sit out escape",
+      "description": "Sit Through to Guard film study: Turtle sit out escape, taught by Diaz Combat Sports coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7biwctrcRck/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7biwctrcRck",
+      "url": "https://www.youtube.com/watch?v=7biwctrcRck",
+      "creator": { "@type": "Person", "name": "Diaz Combat Sports coach" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ Within the turtle escape system, the sit through occupies the niche of the contr
 **Success Rate**: 38%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sit Through to Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fjCdR_vOBoY)
+
+<p class="clip-credit"><strong>Sit through to guard from bottom turtle</strong> — taught by Coach Brandon · 1:34 · <a href="https://www.youtube.com/watch?v=fjCdR_vOBoY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c-k3lA-yVhU)
+
+<p class="clip-credit"><strong>Pulling guard from the turtle position</strong> — taught by Team Daruma Dojo coach · 0:33 · <a href="https://www.youtube.com/watch?v=c-k3lA-yVhU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7biwctrcRck)
+
+<p class="clip-credit"><strong>Turtle sit out escape</strong> — taught by Diaz Combat Sports coach · 0:48 · <a href="https://www.youtube.com/watch?v=7biwctrcRck" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

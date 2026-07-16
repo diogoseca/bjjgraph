@@ -170,6 +170,54 @@ description: "Complete guide to finishing the Rear Naked Choke from Crucifix. St
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix to Rear Naked Choke",
+      "description": "Rear Naked Choke from Crucifix (Attacker) film study: Crucifix to Rear Naked Choke, taught by Greg Ferguson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3t6j9HT6Mr8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3t6j9HT6Mr8",
+      "url": "https://www.youtube.com/watch?v=3t6j9HT6Mr8",
+      "creator": { "@type": "Person", "name": "Greg Ferguson" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear Naked Choke from Crucifix Position",
+      "description": "Rear Naked Choke from Crucifix (Attacker) film study: Rear Naked Choke from Crucifix Position, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/amVyOvT2yJs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/amVyOvT2yJs",
+      "url": "https://www.youtube.com/watch?v=amVyOvT2yJs",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix from Modified North South",
+      "description": "Rear Naked Choke from Crucifix (Attacker) film study: Crucifix from Modified North South, taught by BJJ Recap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CY6G2j6kHI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CY6G2j6kHI",
+      "url": "https://www.youtube.com/watch?v=9CY6G2j6kHI",
+      "creator": { "@type": "Person", "name": "BJJ Recap" },
+      "duration": "PT69S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Executing the Rear Naked Choke from Crucifix capitalizes on the most advantageou
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3t6j9HT6Mr8)
+
+<p class="clip-credit"><strong>Crucifix to Rear Naked Choke</strong> — taught by Greg Ferguson · 0:43 · <a href="https://www.youtube.com/watch?v=3t6j9HT6Mr8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=amVyOvT2yJs)
+
+<p class="clip-credit"><strong>Rear Naked Choke from Crucifix Position</strong> — taught by Mat Life Training Center · 0:14 · <a href="https://www.youtube.com/watch?v=amVyOvT2yJs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9CY6G2j6kHI)
+
+<p class="clip-credit"><strong>Crucifix from Modified North South</strong> — taught by BJJ Recap · 1:09 · <a href="https://www.youtube.com/watch?v=9CY6G2j6kHI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

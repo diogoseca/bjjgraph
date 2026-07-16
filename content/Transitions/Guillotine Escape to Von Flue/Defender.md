@@ -156,6 +156,54 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Escape to Von Flue (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing guillotine defense into Von Flue choke",
+      "description": "Guillotine Escape to Von Flue (Defender) film study: Standing guillotine defense into Von Flue choke, taught by Chris Savarese.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QUdNNiK-yTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QUdNNiK-yTk",
+      "url": "https://www.youtube.com/watch?v=QUdNNiK-yTk",
+      "creator": { "@type": "Person", "name": "Chris Savarese" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Von Flue shoulder choke off the guillotine",
+      "description": "Guillotine Escape to Von Flue (Defender) film study: Von Flue shoulder choke off the guillotine, taught by Alexandre Marciano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fFIS8fkVXUw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fFIS8fkVXUw",
+      "url": "https://www.youtube.com/watch?v=fFIS8fkVXUw",
+      "creator": { "@type": "Person", "name": "Alexandre Marciano" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse guillotine choke counter",
+      "description": "Guillotine Escape to Von Flue (Defender) film study: Reverse guillotine choke counter, taught by James Lewis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JGjz2E8ZzL4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JGjz2E8ZzL4",
+      "url": "https://www.youtube.com/watch?v=JGjz2E8ZzL4",
+      "creator": { "@type": "Person", "name": "James Lewis" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 **Opponent's Starting Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Escape to Von Flue (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QUdNNiK-yTk)
+
+<p class="clip-credit"><strong>Standing guillotine defense into Von Flue choke</strong> — taught by Chris Savarese · 1:28 · <a href="https://www.youtube.com/watch?v=QUdNNiK-yTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fFIS8fkVXUw)
+
+<p class="clip-credit"><strong>Von Flue shoulder choke off the guillotine</strong> — taught by Alexandre Marciano · 1:02 · <a href="https://www.youtube.com/watch?v=fFIS8fkVXUw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JGjz2E8ZzL4)
+
+<p class="clip-credit"><strong>Reverse guillotine choke counter</strong> — taught by James Lewis · 1:01 · <a href="https://www.youtube.com/watch?v=JGjz2E8ZzL4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

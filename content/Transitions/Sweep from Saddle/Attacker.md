@@ -174,6 +174,54 @@ description: "Learn to execute the sweep from saddle bottom in BJJ. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Saddle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle entries from guard",
+      "description": "Sweep from Saddle (Attacker) film study: Saddle entries from guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
+      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Entering the saddle from elevating butterfly guard",
+      "description": "Sweep from Saddle (Attacker) film study: Entering the saddle from elevating butterfly guard, taught by Foundation Chicago.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xCrW5MBmqig/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xCrW5MBmqig",
+      "url": "https://www.youtube.com/watch?v=xCrW5MBmqig",
+      "creator": { "@type": "Person", "name": "Foundation Chicago" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X-guard to saddle (cross ashi)",
+      "description": "Sweep from Saddle (Attacker) film study: X-guard to saddle (cross ashi), taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HVc2CKdAfN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HVc2CKdAfN0",
+      "url": "https://www.youtube.com/watch?v=HVc2CKdAfN0",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Sweep from Saddle requires the bottom player to transform a defens
 **From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Saddle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
+
+<p class="clip-credit"><strong>Saddle entries from guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xCrW5MBmqig)
+
+<p class="clip-credit"><strong>Entering the saddle from elevating butterfly guard</strong> — taught by Foundation Chicago · 0:44 · <a href="https://www.youtube.com/watch?v=xCrW5MBmqig" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HVc2CKdAfN0)
+
+<p class="clip-credit"><strong>X-guard to saddle (cross ashi)</strong> — taught by Johnny Jitsu · 2:00 · <a href="https://www.youtube.com/watch?v=HVc2CKdAfN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

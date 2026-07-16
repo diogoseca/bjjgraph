@@ -154,6 +154,54 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva knee bump ashi entry",
+      "description": "De La Riva Guard (Top) film study: De La Riva knee bump ashi entry, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_4jDUxFg7uU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_4jDUxFg7uU",
+      "url": "https://www.youtube.com/watch?v=_4jDUxFg7uU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva float pass",
+      "description": "De La Riva Guard (Top) film study: De La Riva float pass, taught by TrickyBJJ Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/py3b0tmTJuU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/py3b0tmTJuU",
+      "url": "https://www.youtube.com/watch?v=py3b0tmTJuU",
+      "creator": { "@type": "Person", "name": "TrickyBJJ Academy" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Destroy the De La Riva pass",
+      "description": "De La Riva Guard (Top) film study: Destroy the De La Riva pass, taught by Augusto Frota.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S5IKZijyNMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S5IKZijyNMc",
+      "url": "https://www.youtube.com/watch?v=S5IKZijyNMc",
+      "creator": { "@type": "Person", "name": "Augusto Frota" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -170,6 +218,42 @@ The fundamental strategic tension for the top player is that DLR operates most e
 The most effective DLR passers develop a systematic approach that addresses each control element in sequence: first strip or neutralize the ankle grip, then address the DLR hook through positioning or backstep, and finally execute the guard pass before the bottom player can re-establish their control structure. This methodical dismantling of the guard's components is far more reliable than attempting to pass directly through an established DLR framework, which plays into the guard player's strengths and exposes the passer to sweeps and back takes.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_4jDUxFg7uU)
+
+<p class="clip-credit"><strong>De La Riva knee bump ashi entry</strong> — taught by Gordon Ryan · 2:45 · <a href="https://www.youtube.com/watch?v=_4jDUxFg7uU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=py3b0tmTJuU)
+
+<p class="clip-credit"><strong>De La Riva float pass</strong> — taught by TrickyBJJ Academy · 0:57 · <a href="https://www.youtube.com/watch?v=py3b0tmTJuU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S5IKZijyNMc)
+
+<p class="clip-credit"><strong>Destroy the De La Riva pass</strong> — taught by Augusto Frota · 0:51 · <a href="https://www.youtube.com/watch?v=S5IKZijyNMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

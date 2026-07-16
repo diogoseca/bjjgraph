@@ -135,6 +135,54 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dogfight Position (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Submissions from the Dog Fight",
+      "description": "Dogfight Position (Top) film study: 3 Submissions from the Dog Fight, taught by Geo Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/InGMvIP5tqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/InGMvIP5tqg",
+      "url": "https://www.youtube.com/watch?v=InGMvIP5tqg",
+      "creator": { "@type": "Person", "name": "Geo Martinez" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dog Bar",
+      "description": "Dogfight Position (Top) film study: Dog Bar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Pass the Dog Fight to Mount",
+      "description": "Dogfight Position (Top) film study: Pass the Dog Fight to Mount, taught by Christian Diaz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4rXi8YQ3o5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4rXi8YQ3o5k",
+      "url": "https://www.youtube.com/watch?v=4rXi8YQ3o5k",
+      "creator": { "@type": "Person", "name": "Christian Diaz" },
+      "duration": "PT241S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +194,42 @@ From a strategic perspective, Dogfight is a neutral-to-slightly-advantageous pos
 The position is favored in modern no-gi grappling and has become a cornerstone of competitive half guard systems at the highest levels. Unlike traditional flat half guard positions, Dogfight rewards aggressive, forward-moving practitioners who can maintain their frames and capitalize on their opponent's balance disruptions. The position's dynamic nature means it rarely remains static for long—both players must be prepared to flow between attacks, defenses, and transitions while reading their opponent's weight distribution and grip commitments. Success in Dogfight requires constant activity, superior grip fighting skills, and the ability to chain multiple techniques together as positions shift rapidly.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dogfight Position (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=InGMvIP5tqg)
+
+<p class="clip-credit"><strong>3 Submissions from the Dog Fight</strong> — taught by Geo Martinez · 1:01 · <a href="https://www.youtube.com/watch?v=InGMvIP5tqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog Bar</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4rXi8YQ3o5k)
+
+<p class="clip-credit"><strong>Pass the Dog Fight to Mount</strong> — taught by Christian Diaz · 4:01 · <a href="https://www.youtube.com/watch?v=4rXi8YQ3o5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

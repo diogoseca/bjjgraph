@@ -150,6 +150,54 @@ description: "Defensive guide for surviving and escaping the rear naked choke fr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Mounted Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "D\u0027arce escape from the crucifix",
+      "description": "Rear Naked Choke from Mounted Crucifix (Defender) film study: D\u0027arce escape from the crucifix, taught by Breylor \"JR\" Grout.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0FP7BLHdArw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0FP7BLHdArw",
+      "url": "https://www.youtube.com/watch?v=0FP7BLHdArw",
+      "creator": { "@type": "Person", "name": "Breylor \"JR\" Grout" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Complete back escape system",
+      "description": "Rear Naked Choke from Mounted Crucifix (Defender) film study: Complete back escape system, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N6lKNqUOZoY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N6lKNqUOZoY",
+      "url": "https://www.youtube.com/watch?v=N6lKNqUOZoY",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT675S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Chaining escapes from bottom pin",
+      "description": "Rear Naked Choke from Mounted Crucifix (Defender) film study: Chaining escapes from bottom pin, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
+      "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the rear naked choke from mounted crucifix is one of the most challeng
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Mounted Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0FP7BLHdArw)
+
+<p class="clip-credit"><strong>D&#39;arce escape from the crucifix</strong> — taught by Breylor &#34;JR&#34; Grout · 1:24 · <a href="https://www.youtube.com/watch?v=0FP7BLHdArw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N6lKNqUOZoY)
+
+<p class="clip-credit"><strong>Complete back escape system</strong> — taught by Matt Arroyo · 11:15 · <a href="https://www.youtube.com/watch?v=N6lKNqUOZoY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PARsvWFmssI)
+
+<p class="clip-credit"><strong>Chaining escapes from bottom pin</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

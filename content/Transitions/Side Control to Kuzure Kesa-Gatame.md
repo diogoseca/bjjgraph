@@ -34,6 +34,54 @@ description: "Master the side control to Kuzure Kesa-Gatame transition in BJJ. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Kuzure Kesa-Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure Kesa Gatame (broken scarf hold) no-gi demo",
+      "description": "Side Control to Kuzure Kesa-Gatame film study: Kuzure Kesa Gatame (broken scarf hold) no-gi demo, taught by Sampson Judo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oXzrusNRq70/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oXzrusNRq70",
+      "url": "https://www.youtube.com/watch?v=oXzrusNRq70",
+      "creator": { "@type": "Person", "name": "Sampson Judo" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kuzure Kesa Gatame study and application",
+      "description": "Side Control to Kuzure Kesa-Gatame film study: Kuzure Kesa Gatame study and application, taught by Judo Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aTsvuZ1vM48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aTsvuZ1vM48",
+      "url": "https://www.youtube.com/watch?v=aTsvuZ1vM48",
+      "creator": { "@type": "Person", "name": "Judo Life" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle attacks from broken scarf hold",
+      "description": "Side Control to Kuzure Kesa-Gatame film study: Triangle attacks from broken scarf hold, taught by Chokes And More.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
+      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
+      "creator": { "@type": "Person", "name": "Chokes And More" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The critical element of this transition is the arm isolation paired with a small
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Kuzure Kesa-Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oXzrusNRq70)
+
+<p class="clip-credit"><strong>Kuzure Kesa Gatame (broken scarf hold) no-gi demo</strong> — taught by Sampson Judo · 0:19 · <a href="https://www.youtube.com/watch?v=oXzrusNRq70" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aTsvuZ1vM48)
+
+<p class="clip-credit"><strong>Kuzure Kesa Gatame study and application</strong> — taught by Judo Life · 0:33 · <a href="https://www.youtube.com/watch?v=aTsvuZ1vM48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tfykooWW-xk)
+
+<p class="clip-credit"><strong>Triangle attacks from broken scarf hold</strong> — taught by Chokes And More · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

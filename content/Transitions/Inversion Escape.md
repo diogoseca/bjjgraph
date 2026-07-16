@@ -34,6 +34,54 @@ description: "Master Inversion Escape from Honey Hole in BJJ. Step-by-step techn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inversion Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Roll Honey Hole",
+      "description": "Inversion Escape film study: Back Roll Honey Hole, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sy3w9iaUsio/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sy3w9iaUsio",
+      "url": "https://www.youtube.com/watch?v=sy3w9iaUsio",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reversing the Honey Hole - Honey Flip",
+      "description": "Inversion Escape film study: Reversing the Honey Hole - Honey Flip, taught by Phill Schwartz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JAJH0x4ss74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JAJH0x4ss74",
+      "url": "https://www.youtube.com/watch?v=JAJH0x4ss74",
+      "creator": { "@type": "Person", "name": "Phill Schwartz" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inside Sankaku Counter - Honey Stick",
+      "description": "Inversion Escape film study: Inside Sankaku Counter - Honey Stick, taught by Combat by the Minute.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bJHew8wUS88/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bJHew8wUS88",
+      "url": "https://www.youtube.com/watch?v=bJHew8wUS88",
+      "creator": { "@type": "Person", "name": "Combat by the Minute" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This technique requires significant hip mobility, spatial awareness while invert
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inversion Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sy3w9iaUsio)
+
+<p class="clip-credit"><strong>Back Roll Honey Hole</strong> — taught by Brandon Quick · 0:58 · <a href="https://www.youtube.com/watch?v=sy3w9iaUsio" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JAJH0x4ss74)
+
+<p class="clip-credit"><strong>Reversing the Honey Hole - Honey Flip</strong> — taught by Phill Schwartz · 1:34 · <a href="https://www.youtube.com/watch?v=JAJH0x4ss74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bJHew8wUS88)
+
+<p class="clip-credit"><strong>Inside Sankaku Counter - Honey Stick</strong> — taught by Combat by the Minute · 1:32 · <a href="https://www.youtube.com/watch?v=bJHew8wUS88" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

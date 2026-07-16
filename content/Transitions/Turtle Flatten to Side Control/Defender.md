@@ -148,6 +148,43 @@ description: "How to defend against Turtle Flatten to Side Control in BJJ. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle Flatten to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "5 ways to recover guard from turtle",
+      "description": "Turtle Flatten to Side Control (Defender) film study: 5 ways to recover guard from turtle, taught by Big Oss Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i08uQgulYmc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i08uQgulYmc",
+      "url": "https://www.youtube.com/watch?v=i08uQgulYmc",
+      "creator": { "@type": "Person", "name": "Big Oss Jiu-Jitsu" },
+      "duration": "PT504S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Posture and framing once flattened under side control",
+      "description": "Turtle Flatten to Side Control (Defender) film study: Posture and framing once flattened under side control, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T-nJLlYiIxE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T-nJLlYiIxE",
+      "url": "https://www.youtube.com/watch?v=T-nJLlYiIxE",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT324S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The most critical defensive window occurs between the attacker establishing thei
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle Flatten to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i08uQgulYmc)
+
+<p class="clip-credit"><strong>5 ways to recover guard from turtle</strong> — taught by Big Oss Jiu-Jitsu · 8:24 · <a href="https://www.youtube.com/watch?v=i08uQgulYmc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T-nJLlYiIxE)
+
+<p class="clip-credit"><strong>Posture and framing once flattened under side control</strong> — taught by Carlos Machado · 5:24 · <a href="https://www.youtube.com/watch?v=T-nJLlYiIxE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

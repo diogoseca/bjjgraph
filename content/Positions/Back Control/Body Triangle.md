@@ -34,6 +34,43 @@ description: "Master body triangle position in BJJ. Powerful leg control from ba
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Properly Use a Body Triangle",
+      "description": "Body Triangle film study: How to Properly Use a Body Triangle, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8JwxpgWGsFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8JwxpgWGsFU",
+      "url": "https://www.youtube.com/watch?v=8JwxpgWGsFU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT294S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body Triangle with Shoulder Lock",
+      "description": "Body Triangle film study: Body Triangle with Shoulder Lock, taught by Demian Maia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t85-T9z_evY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t85-T9z_evY",
+      "url": "https://www.youtube.com/watch?v=t85-T9z_evY",
+      "creator": { "@type": "Person", "name": "Demian Maia" },
+      "duration": "PT195S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position is achieved by crossing one leg over the other and tucking it behin
 From this position, you maintain upper body control with your arms while your legs create immobilizing pressure on the lower body. The breathing restriction creates a psychological urgency that often leads opponents to make defensive mistakes, opening up submission opportunities. Elite practitioners use the body triangle as both a controlling position and a finishing platform, with the constant pressure serving as a force multiplier for choke attacks. The position represents a fundamental shift from dynamic hook-based control to static mechanical dominance, offering superior retention rates and submission percentages across all skill levels.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8JwxpgWGsFU)
+
+<p class="clip-credit"><strong>How to Properly Use a Body Triangle</strong> — taught by Gordon Ryan · 4:54 · <a href="https://www.youtube.com/watch?v=8JwxpgWGsFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t85-T9z_evY)
+
+<p class="clip-credit"><strong>Body Triangle with Shoulder Lock</strong> — taught by Demian Maia · 3:15 · <a href="https://www.youtube.com/watch?v=t85-T9z_evY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

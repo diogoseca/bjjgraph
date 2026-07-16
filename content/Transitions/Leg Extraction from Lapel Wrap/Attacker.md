@@ -174,6 +174,54 @@ description: "How to execute Leg Extraction from Lapel Wrap in BJJ. Systematic g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Lapel Wrap (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stripping a Strong Lapel Grip",
+      "description": "Leg Extraction from Lapel Wrap (Attacker) film study: Stripping a Strong Lapel Grip, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vjgfip220zk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vjgfip220zk",
+      "url": "https://www.youtube.com/watch?v=vjgfip220zk",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT255S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beat Lapel Guards - Stomp the Leg (Lapel Slayer)",
+      "description": "Leg Extraction from Lapel Wrap (Attacker) film study: Beat Lapel Guards - Stomp the Leg (Lapel Slayer), taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFckzHWWJ4c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFckzHWWJ4c",
+      "url": "https://www.youtube.com/watch?v=DFckzHWWJ4c",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT379S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Pass One of the Most Annoying Guards",
+      "description": "Leg Extraction from Lapel Wrap (Attacker) film study: How to Pass One of the Most Annoying Guards, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uvuV9GnMvFQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uvuV9GnMvFQ",
+      "url": "https://www.youtube.com/watch?v=uvuV9GnMvFQ",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT458S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ Strategically, this extraction must be completed before attempting any guard pas
 **From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Lapel Wrap (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vjgfip220zk)
+
+<p class="clip-credit"><strong>Stripping a Strong Lapel Grip</strong> — taught by Stephan Kesting · 4:15 · <a href="https://www.youtube.com/watch?v=vjgfip220zk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DFckzHWWJ4c)
+
+<p class="clip-credit"><strong>Beat Lapel Guards - Stomp the Leg (Lapel Slayer)</strong> — taught by Keenan Cornelius · 6:19 · <a href="https://www.youtube.com/watch?v=DFckzHWWJ4c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uvuV9GnMvFQ)
+
+<p class="clip-credit"><strong>How to Pass One of the Most Annoying Guards</strong> — taught by Jon Thomas · 7:38 · <a href="https://www.youtube.com/watch?v=uvuV9GnMvFQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

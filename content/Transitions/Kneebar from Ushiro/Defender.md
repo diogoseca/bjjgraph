@@ -148,6 +148,43 @@ description: "How to defend against Kneebar from Ushiro in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Ushiro (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg lock defense fundamentals",
+      "description": "Kneebar from Ushiro (Defender) film study: Leg lock defense fundamentals, taught by Kuwy Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
+      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
+      "creator": { "@type": "Person", "name": "Kuwy Jitsu coach" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg lock defense from a knee",
+      "description": "Kneebar from Ushiro (Defender) film study: Leg lock defense from a knee, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sq9jW4ZZrU8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sq9jW4ZZrU8",
+      "url": "https://www.youtube.com/watch?v=sq9jW4ZZrU8",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT99S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The fundamental defensive dilemma is that protecting your heel from heel hook ex
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Ushiro (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m0NLphEuFoc)
+
+<p class="clip-credit"><strong>Leg lock defense fundamentals</strong> — taught by Kuwy Jitsu coach · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sq9jW4ZZrU8)
+
+<p class="clip-credit"><strong>Leg lock defense from a knee</strong> — taught by Gordon Ryan · 1:39 · <a href="https://www.youtube.com/watch?v=sq9jW4ZZrU8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Learn the Fallback to Inside Ashi-Garami from Saddle. Master this 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Fallback to Inside Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back step from the pass into the saddle",
+      "description": "Fallback to Inside Ashi-Garami film study: Back step from the pass into the saddle, taught by Rich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i8nOBcGeXv8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i8nOBcGeXv8",
+      "url": "https://www.youtube.com/watch?v=i8nOBcGeXv8",
+      "creator": { "@type": "Person", "name": "Rich" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee cut back step into the saddle",
+      "description": "Fallback to Inside Ashi-Garami film study: Knee cut back step into the saddle, taught by Thunderdome BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NXvLhnqXUAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NXvLhnqXUAI",
+      "url": "https://www.youtube.com/watch?v=NXvLhnqXUAI",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ coach" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shoulder roll into cross ashi / saddle",
+      "description": "Fallback to Inside Ashi-Garami film study: Shoulder roll into cross ashi / saddle, taught by Doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eRQVlYxFx1Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eRQVlYxFx1Y",
+      "url": "https://www.youtube.com/watch?v=eRQVlYxFx1Y",
+      "creator": { "@type": "Person", "name": "Doug" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a systems perspective, this fallback creates a cyclical dynamic within the 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Fallback to Inside Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i8nOBcGeXv8)
+
+<p class="clip-credit"><strong>Back step from the pass into the saddle</strong> — taught by Rich · 1:10 · <a href="https://www.youtube.com/watch?v=i8nOBcGeXv8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NXvLhnqXUAI)
+
+<p class="clip-credit"><strong>Knee cut back step into the saddle</strong> — taught by Thunderdome BJJ coach · 0:36 · <a href="https://www.youtube.com/watch?v=NXvLhnqXUAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eRQVlYxFx1Y)
+
+<p class="clip-credit"><strong>Shoulder roll into cross ashi / saddle</strong> — taught by Doug · 0:42 · <a href="https://www.youtube.com/watch?v=eRQVlYxFx1Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

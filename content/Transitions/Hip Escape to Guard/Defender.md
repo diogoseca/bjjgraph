@@ -148,6 +148,43 @@ description: "How to prevent the Hip Escape to Guard in BJJ. Recognition cues, r
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gift Wrap Escape made simple",
+      "description": "Hip Escape to Guard (Defender) film study: Gift Wrap Escape made simple, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j5y349B6Go8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j5y349B6Go8",
+      "url": "https://www.youtube.com/watch?v=j5y349B6Go8",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The First 3 Mount Escapes You Need To Know",
+      "description": "Hip Escape to Guard (Defender) film study: The First 3 Mount Escapes You Need To Know, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SYel-mVSMAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SYel-mVSMAI",
+      "url": "https://www.youtube.com/watch?v=SYel-mVSMAI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT285S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Your positional advantage is substantial but requires active maintenance. Static
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j5y349B6Go8)
+
+<p class="clip-credit"><strong>Gift Wrap Escape made simple</strong> — taught by Chewjitsu · 2:40 · <a href="https://www.youtube.com/watch?v=j5y349B6Go8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SYel-mVSMAI)
+
+<p class="clip-credit"><strong>The First 3 Mount Escapes You Need To Know</strong> — taught by Brandon McCaghren · 4:45 · <a href="https://www.youtube.com/watch?v=SYel-mVSMAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

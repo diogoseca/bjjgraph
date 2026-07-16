@@ -34,6 +34,54 @@ description: "Master arm recovery from crucifix in BJJ. Systematic guide to free
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Recovery from Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix Recovery \u2014 freeing the trapped arm",
+      "description": "Arm Recovery from Crucifix film study: Crucifix Recovery \u2014 freeing the trapped arm, taught by Lin H.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/siDGUI_LSlM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/siDGUI_LSlM",
+      "url": "https://www.youtube.com/watch?v=siDGUI_LSlM",
+      "creator": { "@type": "Person", "name": "Lin H" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clock Choke Defense from Turtle",
+      "description": "Arm Recovery from Crucifix film study: Clock Choke Defense from Turtle, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DPgPvAYw5_A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DPgPvAYw5_A",
+      "url": "https://www.youtube.com/watch?v=DPgPvAYw5_A",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT301S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the Trapped Arm",
+      "description": "Arm Recovery from Crucifix film study: Escaping the Trapped Arm, taught by The Fight Centre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8rUCBtcNjtA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8rUCBtcNjtA",
+      "url": "https://www.youtube.com/watch?v=8rUCBtcNjtA",
+      "creator": { "@type": "Person", "name": "The Fight Centre" },
+      "duration": "PT322S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success requires calm, methodical execution under extreme positional pressure. T
 **Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Recovery from Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=siDGUI_LSlM)
+
+<p class="clip-credit"><strong>Crucifix Recovery — freeing the trapped arm</strong> — taught by Lin H · 2:20 · <a href="https://www.youtube.com/watch?v=siDGUI_LSlM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DPgPvAYw5_A)
+
+<p class="clip-credit"><strong>Clock Choke Defense from Turtle</strong> — taught by Priit Mihkelson · 5:01 · <a href="https://www.youtube.com/watch?v=DPgPvAYw5_A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8rUCBtcNjtA)
+
+<p class="clip-credit"><strong>Escaping the Trapped Arm</strong> — taught by The Fight Centre · 5:22 · <a href="https://www.youtube.com/watch?v=8rUCBtcNjtA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

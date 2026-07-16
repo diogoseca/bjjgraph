@@ -34,6 +34,54 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from the Mount",
+      "description": "Armbar from Mount film study: Armbar from the Mount, taught by Relson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R2-h9yOwRdU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R2-h9yOwRdU",
+      "url": "https://www.youtube.com/watch?v=R2-h9yOwRdU",
+      "creator": { "@type": "Person", "name": "Relson Gracie" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar breakdown",
+      "description": "Armbar from Mount film study: Armbar breakdown, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar against a stacking opponent",
+      "description": "Armbar from Mount film study: Armbar against a stacking opponent, taught by Rolles Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4COgR6PfQW0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4COgR6PfQW0",
+      "url": "https://www.youtube.com/watch?v=4COgR6PfQW0",
+      "creator": { "@type": "Person", "name": "Rolles Gracie" },
+      "duration": "PT91S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 **Starting Position**: [[Positions/Mount]] · **From**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
+
+<p class="clip-credit"><strong>Armbar from the Mount</strong> — taught by Relson Gracie · 1:12 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Armbar breakdown</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4COgR6PfQW0)
+
+<p class="clip-credit"><strong>Armbar against a stacking opponent</strong> — taught by Rolles Gracie · 1:31 · <a href="https://www.youtube.com/watch?v=4COgR6PfQW0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

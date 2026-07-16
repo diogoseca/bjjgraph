@@ -153,6 +153,54 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Ashi-Garami (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Ashi Belly-Down Heel Hook",
+      "description": "Cross Ashi-Garami (Top) film study: Cross Ashi Belly-Down Heel Hook, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h_SRARh0B6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h_SRARh0B6U",
+      "url": "https://www.youtube.com/watch?v=h_SRARh0B6U",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross Ashi Garami vs the Counter",
+      "description": "Cross Ashi-Garami (Top) film study: Cross Ashi Garami vs the Counter, taught by Raymond Tan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EzS4k5JXLRY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EzS4k5JXLRY",
+      "url": "https://www.youtube.com/watch?v=EzS4k5JXLRY",
+      "creator": { "@type": "Person", "name": "Raymond Tan" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ashi Garami and Heel Hook",
+      "description": "Cross Ashi-Garami (Top) film study: Ashi Garami and Heel Hook, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
+      "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The mechanical advantage of Cross Ashi-Garami Top comes from the ability to cont
 This position is fundamental to modern leg lock systems and serves as both a powerful finishing position and a transitional hub to other leg entanglements like Saddle (Honey Hole) and Inside Ashi-Garami. The position's effectiveness has made it a staple in high-level no-gi competition, where practitioners must understand both its offensive potential and defensive counters to compete successfully in the contemporary meta-game.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Ashi-Garami (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h_SRARh0B6U)
+
+<p class="clip-credit"><strong>Cross Ashi Belly-Down Heel Hook</strong> — taught by Bowerhouse MMA · 1:08 · <a href="https://www.youtube.com/watch?v=h_SRARh0B6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EzS4k5JXLRY)
+
+<p class="clip-credit"><strong>Cross Ashi Garami vs the Counter</strong> — taught by Raymond Tan · 1:56 · <a href="https://www.youtube.com/watch?v=EzS4k5JXLRY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
+
+<p class="clip-credit"><strong>Ashi Garami and Heel Hook</strong> — taught by The Coop BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

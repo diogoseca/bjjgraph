@@ -34,6 +34,43 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mir Lock from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top Side Mir Lock (Shoulder Submission) No-Gi",
+      "description": "Mir Lock from Side Control film study: Top Side Mir Lock (Shoulder Submission) No-Gi, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6IVQPq5BJZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6IVQPq5BJZ0",
+      "url": "https://www.youtube.com/watch?v=6IVQPq5BJZ0",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Shield Series - Mir Lock",
+      "description": "Mir Lock from Side Control film study: Knee Shield Series - Mir Lock, taught by TAPS BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8dFph1erRNE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8dFph1erRNE",
+      "url": "https://www.youtube.com/watch?v=8dFph1erRNE",
+      "creator": { "@type": "Person", "name": "TAPS BJJ" },
+      "duration": "PT168S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +111,34 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 **Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mir Lock from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6IVQPq5BJZ0)
+
+<p class="clip-credit"><strong>Top Side Mir Lock (Shoulder Submission) No-Gi</strong> — taught by ZombieProofBJJ · 1:23 · <a href="https://www.youtube.com/watch?v=6IVQPq5BJZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8dFph1erRNE)
+
+<p class="clip-credit"><strong>Knee Shield Series - Mir Lock</strong> — taught by TAPS BJJ · 2:48 · <a href="https://www.youtube.com/watch?v=8dFph1erRNE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

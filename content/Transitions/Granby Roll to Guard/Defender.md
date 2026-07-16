@@ -148,6 +148,43 @@ description: "How to defend against Granby Roll to Guard in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Granby Roll to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering an inversion from top north-south",
+      "description": "Granby Roll to Guard (Defender) film study: Countering an inversion from top north-south, taught by Frankie Roberts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3e82Y_MRj_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3e82Y_MRj_o",
+      "url": "https://www.youtube.com/watch?v=3e82Y_MRj_o",
+      "creator": { "@type": "Person", "name": "Frankie Roberts" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Following the roll to take the back",
+      "description": "Granby Roll to Guard (Defender) film study: Following the roll to take the back, taught by Fox Den coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/REf4-Z7jsRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/REf4-Z7jsRo",
+      "url": "https://www.youtube.com/watch?v=REf4-Z7jsRo",
+      "creator": { "@type": "Person", "name": "Fox Den coach" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The most critical defensive window exists in the first fraction of a second when
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Granby Roll to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3e82Y_MRj_o)
+
+<p class="clip-credit"><strong>Countering an inversion from top north-south</strong> — taught by Frankie Roberts · 0:42 · <a href="https://www.youtube.com/watch?v=3e82Y_MRj_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=REf4-Z7jsRo)
+
+<p class="clip-credit"><strong>Following the roll to take the back</strong> — taught by Fox Den coach · 1:46 · <a href="https://www.youtube.com/watch?v=REf4-Z7jsRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

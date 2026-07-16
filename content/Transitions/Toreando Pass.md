@@ -35,6 +35,54 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando straight to side control",
+      "description": "Toreando Pass film study: Toreando straight to side control, taught by Joao Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JZHp3VI-X_g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JZHp3VI-X_g",
+      "url": "https://www.youtube.com/watch?v=JZHp3VI-X_g",
+      "creator": { "@type": "Person", "name": "Joao Mendes" },
+      "duration": "PT237S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toreando pass quick instructional",
+      "description": "Toreando Pass film study: Toreando pass quick instructional, taught by Maverick TV coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wVcOSPR18y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wVcOSPR18y8",
+      "url": "https://www.youtube.com/watch?v=wVcOSPR18y8",
+      "creator": { "@type": "Person", "name": "Maverick TV coach" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Toreando pass complete guide",
+      "description": "Toreando Pass film study: Toreando pass complete guide, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BZCnqNI9CVI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BZCnqNI9CVI",
+      "url": "https://www.youtube.com/watch?v=BZCnqNI9CVI",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT594S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 **Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JZHp3VI-X_g)
+
+<p class="clip-credit"><strong>Toreando straight to side control</strong> — taught by Joao Mendes · 3:57 · <a href="https://www.youtube.com/watch?v=JZHp3VI-X_g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wVcOSPR18y8)
+
+<p class="clip-credit"><strong>Toreando pass quick instructional</strong> — taught by Maverick TV coach · 3:14 · <a href="https://www.youtube.com/watch?v=wVcOSPR18y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BZCnqNI9CVI)
+
+<p class="clip-credit"><strong>Toreando pass complete guide</strong> — taught by Jon Thomas · 9:54 · <a href="https://www.youtube.com/watch?v=BZCnqNI9CVI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

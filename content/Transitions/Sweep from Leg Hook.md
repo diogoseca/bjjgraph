@@ -34,6 +34,54 @@ description: "Master the Sweep from Leg Hook in BJJ. Learn step-by-step executio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Leg Hook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard sweep with the leg hook",
+      "description": "Sweep from Leg Hook film study: Half guard sweep with the leg hook, taught by R. Keller.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ToLW25DrD_k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ToLW25DrD_k",
+      "url": "https://www.youtube.com/watch?v=ToLW25DrD_k",
+      "creator": { "@type": "Person", "name": "R. Keller" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Black X sweep from half guard",
+      "description": "Sweep from Leg Hook film study: Black X sweep from half guard, taught by Bruno Bastos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N_NGkZs9I-M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N_NGkZs9I-M",
+      "url": "https://www.youtube.com/watch?v=N_NGkZs9I-M",
+      "creator": { "@type": "Person", "name": "Bruno Bastos" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse half guard sweep to leg drag",
+      "description": "Sweep from Leg Hook film study: Reverse half guard sweep to leg drag, taught by Fernando Reis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VsPTkiq_OM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VsPTkiq_OM4",
+      "url": "https://www.youtube.com/watch?v=VsPTkiq_OM4",
+      "creator": { "@type": "Person", "name": "Fernando Reis" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this sweep serves as the primary offensive threat from leg hook b
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Leg Hook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ToLW25DrD_k)
+
+<p class="clip-credit"><strong>Half guard sweep with the leg hook</strong> — taught by R. Keller · 0:41 · <a href="https://www.youtube.com/watch?v=ToLW25DrD_k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N_NGkZs9I-M)
+
+<p class="clip-credit"><strong>Black X sweep from half guard</strong> — taught by Bruno Bastos · 1:01 · <a href="https://www.youtube.com/watch?v=N_NGkZs9I-M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VsPTkiq_OM4)
+
+<p class="clip-credit"><strong>Reverse half guard sweep to leg drag</strong> — taught by Fernando Reis · 1:02 · <a href="https://www.youtube.com/watch?v=VsPTkiq_OM4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

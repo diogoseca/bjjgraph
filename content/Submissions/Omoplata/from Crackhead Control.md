@@ -34,6 +34,43 @@ description: "Master the omoplata from Crackhead Control. Complete guide to this
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Crackhead Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "La PataPlata from rubber guard",
+      "description": "Omoplata from Crackhead Control film study: La PataPlata from rubber guard, taught by Richie Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nfkpn4Qup1o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nfkpn4Qup1o",
+      "url": "https://www.youtube.com/watch?v=Nfkpn4Qup1o",
+      "creator": { "@type": "Person", "name": "Richie Martinez" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber guard omoplata to armbar chain",
+      "description": "Omoplata from Crackhead Control film study: Rubber guard omoplata to armbar chain, taught by Christopher Hendrick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EyP4hSdTzVE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EyP4hSdTzVE",
+      "url": "https://www.youtube.com/watch?v=EyP4hSdTzVE",
+      "creator": { "@type": "Person", "name": "Christopher Hendrick" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The finishing mechanics follow established omoplata principles once the perpendi
 **Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] · **From**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Crackhead Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nfkpn4Qup1o)
+
+<p class="clip-credit"><strong>La PataPlata from rubber guard</strong> — taught by Richie Martinez · 0:31 · <a href="https://www.youtube.com/watch?v=Nfkpn4Qup1o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EyP4hSdTzVE)
+
+<p class="clip-credit"><strong>Rubber guard omoplata to armbar chain</strong> — taught by Christopher Hendrick · 0:57 · <a href="https://www.youtube.com/watch?v=EyP4hSdTzVE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

@@ -180,6 +180,54 @@ description: "Master the systematic approach to passing collar sleeve guard. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Collar Sleeve Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two Ways to Pass the Collar and Sleeve Guard",
+      "description": "Pass Collar Sleeve Guard (Attacker) film study: Two Ways to Pass the Collar and Sleeve Guard, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
+      "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Collar Sleeve Guard in Open Guard",
+      "description": "Pass Collar Sleeve Guard (Attacker) film study: Passing Collar Sleeve Guard in Open Guard, taught by Ultra Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WJ25wu9Ioks/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WJ25wu9Ioks",
+      "url": "https://www.youtube.com/watch?v=WJ25wu9Ioks",
+      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Collar Sleeve Pass to Bullfighter and Leg Drag",
+      "description": "Pass Collar Sleeve Guard (Attacker) film study: Collar Sleeve Pass to Bullfighter and Leg Drag, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DMvvqaUfOtw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DMvvqaUfOtw",
+      "url": "https://www.youtube.com/watch?v=DMvvqaUfOtw",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT128S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 **From Position**: [[Positions/Collar Sleeve Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Collar Sleeve Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
+
+<p class="clip-credit"><strong>Two Ways to Pass the Collar and Sleeve Guard</strong> — taught by Carpio Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WJ25wu9Ioks)
+
+<p class="clip-credit"><strong>Passing Collar Sleeve Guard in Open Guard</strong> — taught by Ultra Jiu Jitsu Academy · 1:45 · <a href="https://www.youtube.com/watch?v=WJ25wu9Ioks" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DMvvqaUfOtw)
+
+<p class="clip-credit"><strong>Collar Sleeve Pass to Bullfighter and Leg Drag</strong> — taught by Carpio Jiu Jitsu · 2:08 · <a href="https://www.youtube.com/watch?v=DMvvqaUfOtw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

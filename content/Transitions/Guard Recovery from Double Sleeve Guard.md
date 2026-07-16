@@ -34,6 +34,43 @@ description: "Master guard recovery from Double Sleeve Guard in BJJ. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Double Sleeve Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: recovering through the legs",
+      "description": "Guard Recovery from Double Sleeve Guard film study: Guard retention: recovering through the legs, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fIFM4fzVqC0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fIFM4fzVqC0",
+      "url": "https://www.youtube.com/watch?v=fIFM4fzVqC0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT240S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention: recovering around the legs",
+      "description": "Guard Recovery from Double Sleeve Guard film study: Guard retention: recovering around the legs, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This recovery is a foundational skill for any open guard player, as grip failure
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Double Sleeve Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fIFM4fzVqC0)
+
+<p class="clip-credit"><strong>Guard retention: recovering through the legs</strong> — taught by Lachlan Giles · 4:00 · <a href="https://www.youtube.com/watch?v=fIFM4fzVqC0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Guard retention: recovering around the legs</strong> — taught by Lachlan Giles · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

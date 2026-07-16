@@ -148,6 +148,43 @@ description: "Defend against the Turn to Face from Zombie position in BJJ. Learn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn to Face from Zombie (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard: preventing the pass",
+      "description": "Turn to Face from Zombie (Defender) film study: Rubber guard: preventing the pass, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E3sCfrFKJDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E3sCfrFKJDE",
+      "url": "https://www.youtube.com/watch?v=E3sCfrFKJDE",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi back control principles: denying the turn",
+      "description": "Turn to Face from Zombie (Defender) film study: No-gi back control principles: denying the turn, taught by Corey Guitard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GCq_k6_R63w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GCq_k6_R63w",
+      "url": "https://www.youtube.com/watch?v=GCq_k6_R63w",
+      "creator": { "@type": "Person", "name": "Corey Guitard" },
+      "duration": "PT398S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Turn to Face from Zombie, you are the top player wor
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn to Face from Zombie (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E3sCfrFKJDE)
+
+<p class="clip-credit"><strong>Rubber guard: preventing the pass</strong> — taught by Força Martial Arts · 2:38 · <a href="https://www.youtube.com/watch?v=E3sCfrFKJDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GCq_k6_R63w)
+
+<p class="clip-credit"><strong>No-gi back control principles: denying the turn</strong> — taught by Corey Guitard · 6:38 · <a href="https://www.youtube.com/watch?v=GCq_k6_R63w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

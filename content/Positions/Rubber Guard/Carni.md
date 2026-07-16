@@ -34,6 +34,54 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Carni \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Carni attack chain",
+      "description": "Carni film study: The Carni attack chain, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iRTWyAmw5vQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iRTWyAmw5vQ",
+      "url": "https://www.youtube.com/watch?v=iRTWyAmw5vQ",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Carni from the mount explained",
+      "description": "Carni film study: The Carni from the mount explained, taught by Alder Hampel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/79CUU4afTj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/79CUU4afTj4",
+      "url": "https://www.youtube.com/watch?v=79CUU4afTj4",
+      "creator": { "@type": "Person", "name": "Alder Hampel" },
+      "duration": "PT200S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard overview and core positions",
+      "description": "Carni film study: Rubber guard overview and core positions, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
+      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT521S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ The Carni requires sophisticated understanding of leg entanglement mechanics, ba
 From the attacking perspective (bottom), the Carni offers exceptional offensive opportunities with relatively low energy expenditure. The position allows the bottom player to create constant dilemmas for their opponent while maintaining multiple high-percentage attack paths. From the defensive perspective (top), understanding the Carni is crucial for recognizing escape opportunities and preventing the attacker from establishing dominant control or finishing submissions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Carni in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iRTWyAmw5vQ)
+
+<p class="clip-credit"><strong>The Carni attack chain</strong> — taught by Johnny Jitsu · 2:19 · <a href="https://www.youtube.com/watch?v=iRTWyAmw5vQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=79CUU4afTj4)
+
+<p class="clip-credit"><strong>The Carni from the mount explained</strong> — taught by Alder Hampel · 3:20 · <a href="https://www.youtube.com/watch?v=79CUU4afTj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
+
+<p class="clip-credit"><strong>Rubber guard overview and core positions</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

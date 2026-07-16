@@ -164,6 +164,54 @@ description: "Master transition management in BJJ. Learn timing recognition, ris
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Transition Management \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gordon Ryan\u0027s mount system: transitioning between controls",
+      "description": "Transition Management film study: Gordon Ryan\u0027s mount system: transitioning between controls, taught by Sebastian Brosche.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fd2D5hlHTL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fd2D5hlHTL8",
+      "url": "https://www.youtube.com/watch?v=fd2D5hlHTL8",
+      "creator": { "@type": "Person", "name": "Sebastian Brosche" },
+      "duration": "PT587S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chaining escapes from bottom pins",
+      "description": "Transition Management film study: Chaining escapes from bottom pins, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
+      "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT273S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee cut pass into triangle or armbar",
+      "description": "Transition Management film study: Knee cut pass into triangle or armbar, taught by Southern Scrap Nation.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w-uHMVyJDS8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w-uHMVyJDS8",
+      "url": "https://www.youtube.com/watch?v=w-uHMVyJDS8",
+      "creator": { "@type": "Person", "name": "Southern Scrap Nation" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Transition Management?
@@ -173,6 +221,42 @@ description: "Master transition management in BJJ. Learn timing recognition, ris
 Every competitive exchange in BJJ is, at its core, a continuous chain of position changes, and the practitioner who governs how those changes unfold controls the pace and trajectory of the entire match. Unlike specific techniques, which address singular movements, transition management is a comprehensive strategic framework that determines how practitioners navigate the dynamic flow between positions, balancing offensive opportunity against defensive vulnerability. This concept encompasses the decision-making processes, awareness requirements, and tactical considerations that determine whether transitions advance positional objectives or expose practitioners to counterattacks and reversals. Transition management serves as both an offensive framework for creating progressive position advancement chains and a defensive protocol for minimizing vulnerability during necessary movements. The ability to manage transitions effectively often determines the difference between controlled positional progression and chaotic scrambles, making it one of the most critical strategic elements separating intermediate from advanced practitioners.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Transition Management in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fd2D5hlHTL8)
+
+<p class="clip-credit"><strong>Gordon Ryan&#39;s mount system: transitioning between controls</strong> — taught by Sebastian Brosche · 9:47 · <a href="https://www.youtube.com/watch?v=fd2D5hlHTL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PARsvWFmssI)
+
+<p class="clip-credit"><strong>Chaining escapes from bottom pins</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w-uHMVyJDS8)
+
+<p class="clip-credit"><strong>Knee cut pass into triangle or armbar</strong> — taught by Southern Scrap Nation · 1:01 · <a href="https://www.youtube.com/watch?v=w-uHMVyJDS8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

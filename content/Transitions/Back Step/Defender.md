@@ -148,6 +148,43 @@ description: "How to defend against Back Step in BJJ. Recognition cues, defensiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Step (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering outside ashi by rolling to 50/50",
+      "description": "Back Step (Defender) film study: Countering outside ashi by rolling to 50/50, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/up34T04wt_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/up34T04wt_U",
+      "url": "https://www.youtube.com/watch?v=up34T04wt_U",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping ashi garami: leg lock defense",
+      "description": "Back Step (Defender) film study: Escaping ashi garami: leg lock defense, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the back step requires the bottom player to recognize early that their
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Step (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=up34T04wt_U)
+
+<p class="clip-credit"><strong>Countering outside ashi by rolling to 50/50</strong> — taught by Robyn Sheehan · 1:47 · <a href="https://www.youtube.com/watch?v=up34T04wt_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping ashi garami: leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

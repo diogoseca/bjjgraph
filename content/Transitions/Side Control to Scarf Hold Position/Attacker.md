@@ -174,6 +174,54 @@ description: "Learn how to transition from Side Control to Scarf Hold in BJJ. St
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Scarf Hold Position (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to scarf hold position",
+      "description": "Side Control to Scarf Hold Position (Attacker) film study: Side control to scarf hold position, taught by TRITAC Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SzLuqtw6lpE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SzLuqtw6lpE",
+      "url": "https://www.youtube.com/watch?v=SzLuqtw6lpE",
+      "creator": { "@type": "Person", "name": "TRITAC Martial Arts" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame attack series",
+      "description": "Side Control to Scarf Hold Position (Attacker) film study: Kesa gatame attack series, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kubi nage throw into kesa gatame",
+      "description": "Side Control to Scarf Hold Position (Attacker) film study: Kubi nage throw into kesa gatame, taught by JBBA Judo Education.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JAB5RcnA7ds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JAB5RcnA7ds",
+      "url": "https://www.youtube.com/watch?v=JAB5RcnA7ds",
+      "creator": { "@type": "Person", "name": "JBBA Judo Education" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Transition to Scarf Hold Position requires precise coordination of
 **From Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Scarf Hold Position (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SzLuqtw6lpE)
+
+<p class="clip-credit"><strong>Side control to scarf hold position</strong> — taught by TRITAC Martial Arts · 1:44 · <a href="https://www.youtube.com/watch?v=SzLuqtw6lpE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>Kesa gatame attack series</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JAB5RcnA7ds)
+
+<p class="clip-credit"><strong>Kubi nage throw into kesa gatame</strong> — taught by JBBA Judo Education · 2:17 · <a href="https://www.youtube.com/watch?v=JAB5RcnA7ds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

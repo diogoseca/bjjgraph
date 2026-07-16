@@ -34,6 +34,43 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crotch Ripper from Lockdown \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crotch Ripper finish demonstration",
+      "description": "Crotch Ripper from Lockdown film study: Crotch Ripper finish demonstration, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bsj_vOLnNx4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bsj_vOLnNx4",
+      "url": "https://www.youtube.com/watch?v=Bsj_vOLnNx4",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Crotch Ripper variations",
+      "description": "Crotch Ripper from Lockdown film study: 3 Crotch Ripper variations, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n5BLxIJKuHs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n5BLxIJKuHs",
+      "url": "https://www.youtube.com/watch?v=n5BLxIJKuHs",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +113,34 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 **Starting Position**: [[Positions/Half Guard/Lockdown]] · **From**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crotch Ripper from Lockdown in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bsj_vOLnNx4)
+
+<p class="clip-credit"><strong>Crotch Ripper finish demonstration</strong> — taught by Bowerhouse MMA · 0:59 · <a href="https://www.youtube.com/watch?v=Bsj_vOLnNx4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n5BLxIJKuHs)
+
+<p class="clip-credit"><strong>3 Crotch Ripper variations</strong> — taught by Bowerhouse MMA · 1:01 · <a href="https://www.youtube.com/watch?v=n5BLxIJKuHs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

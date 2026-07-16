@@ -34,6 +34,54 @@ description: "Master the body lock takedown from clinch in BJJ. Complete guide c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock Takedown from Clinch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock takedown from the clinch",
+      "description": "Body Lock Takedown from Clinch film study: Body lock takedown from the clinch, taught by Blue Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOwulE_PIMg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOwulE_PIMg",
+      "url": "https://www.youtube.com/watch?v=GOwulE_PIMg",
+      "creator": { "@type": "Person", "name": "Blue Base Jiu Jitsu" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body lock takedown from the clinch",
+      "description": "Body Lock Takedown from Clinch film study: Body lock takedown from the clinch, taught by Cris Cyborg.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GnJ6_s4x8Ns/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GnJ6_s4x8Ns",
+      "url": "https://www.youtube.com/watch?v=GnJ6_s4x8Ns",
+      "creator": { "@type": "Person", "name": "Cris Cyborg" },
+      "duration": "PT134S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Four body lock takedowns",
+      "description": "Body Lock Takedown from Clinch film study: Four body lock takedowns, taught by CSW Fullerton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2gknwIfTeN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2gknwIfTeN0",
+      "url": "https://www.youtube.com/watch?v=2gknwIfTeN0",
+      "creator": { "@type": "Person", "name": "CSW Fullerton" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ In competition BJJ and no-gi grappling, the body lock takedown has become a stap
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock Takedown from Clinch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOwulE_PIMg)
+
+<p class="clip-credit"><strong>Body lock takedown from the clinch</strong> — taught by Blue Base Jiu Jitsu · 1:14 · <a href="https://www.youtube.com/watch?v=GOwulE_PIMg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GnJ6_s4x8Ns)
+
+<p class="clip-credit"><strong>Body lock takedown from the clinch</strong> — taught by Cris Cyborg · 2:14 · <a href="https://www.youtube.com/watch?v=GnJ6_s4x8Ns" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2gknwIfTeN0)
+
+<p class="clip-credit"><strong>Four body lock takedowns</strong> — taught by CSW Fullerton · 3:14 · <a href="https://www.youtube.com/watch?v=2gknwIfTeN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

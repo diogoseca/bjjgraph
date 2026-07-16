@@ -148,6 +148,54 @@ description: "How to defend against Roll to Truck in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Truck (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Truck back take and escapes",
+      "description": "Roll to Truck (Defender) film study: Truck back take and escapes, taught by Mint Flow Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KQdaDNNGBro/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KQdaDNNGBro",
+      "url": "https://www.youtube.com/watch?v=KQdaDNNGBro",
+      "creator": { "@type": "Person", "name": "Mint Flow Jiu-Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the Truck by Flipping It",
+      "description": "Roll to Truck (Defender) film study: Countering the Truck by Flipping It, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NhxDerwXxSU",
+      "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT640S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Suzuki: Flipping the Truck",
+      "description": "Roll to Truck (Defender) film study: The Suzuki: Flipping the Truck, taught by 10th Planet Rochester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kA0USMhDHjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kA0USMhDHjk",
+      "url": "https://www.youtube.com/watch?v=kA0USMhDHjk",
+      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
+      "duration": "PT334S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Roll to Truck requires understanding that the attacker is exploiti
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Truck (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KQdaDNNGBro)
+
+<p class="clip-credit"><strong>Truck back take and escapes</strong> — taught by Mint Flow Jiu-Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=KQdaDNNGBro" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+
+<p class="clip-credit"><strong>Countering the Truck by Flipping It</strong> — taught by Brandon McCaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kA0USMhDHjk)
+
+<p class="clip-credit"><strong>The Suzuki: Flipping the Truck</strong> — taught by 10th Planet Rochester · 5:34 · <a href="https://www.youtube.com/watch?v=kA0USMhDHjk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

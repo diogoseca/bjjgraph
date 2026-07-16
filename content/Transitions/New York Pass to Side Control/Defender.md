@@ -156,6 +156,54 @@ description: "Complete guide to defending against the New York pass from rubber 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Pass to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard: preventing the pass",
+      "description": "New York Pass to Side Control (Defender) film study: Rubber guard: preventing the pass, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E3sCfrFKJDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E3sCfrFKJDE",
+      "url": "https://www.youtube.com/watch?v=E3sCfrFKJDE",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to prevent side control",
+      "description": "New York Pass to Side Control (Defender) film study: How to prevent side control, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YxHRU7eLp_8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YxHRU7eLp_8",
+      "url": "https://www.youtube.com/watch?v=YxHRU7eLp_8",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT332S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Top 5 guard retention mistakes",
+      "description": "New York Pass to Side Control (Defender) film study: Top 5 guard retention mistakes, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iTrQzYeCvHM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iTrQzYeCvHM",
+      "url": "https://www.youtube.com/watch?v=iTrQzYeCvHM",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT436S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ The defender in the New York Pass to Side Control is the bottom player maintaini
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Pass to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E3sCfrFKJDE)
+
+<p class="clip-credit"><strong>Rubber guard: preventing the pass</strong> — taught by Força Martial Arts · 2:38 · <a href="https://www.youtube.com/watch?v=E3sCfrFKJDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YxHRU7eLp_8)
+
+<p class="clip-credit"><strong>How to prevent side control</strong> — taught by The Grappling Academy · 5:32 · <a href="https://www.youtube.com/watch?v=YxHRU7eLp_8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iTrQzYeCvHM)
+
+<p class="clip-credit"><strong>Top 5 guard retention mistakes</strong> — taught by Lachlan Giles · 7:16 · <a href="https://www.youtube.com/watch?v=iTrQzYeCvHM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

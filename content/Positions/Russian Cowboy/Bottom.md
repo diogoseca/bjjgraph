@@ -153,6 +153,54 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Cowboy (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Deep Hook Submissions from Russian Cowboy",
+      "description": "Russian Cowboy (Bottom) film study: Double Deep Hook Submissions from Russian Cowboy, taught by 10th Planet Rochester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kGoEjQMRp3I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kGoEjQMRp3I",
+      "url": "https://www.youtube.com/watch?v=kGoEjQMRp3I",
+      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter the truck by flipping it",
+      "description": "Russian Cowboy (Bottom) film study: Counter the truck by flipping it, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NhxDerwXxSU",
+      "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT640S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the rolling back take and truck roll",
+      "description": "Russian Cowboy (Bottom) film study: Defending the rolling back take and truck roll, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From the bottom perspective, the Russian Cowboy presents a complex defensive puz
 The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, controlling the hooking leg second, and creating escape opportunities third. Understanding this priority system allows the bottom practitioner to make intelligent defensive decisions under pressure. The position's asymmetric nature actually provides certain escape opportunities not available against traditional back control, particularly the ability to turn into the top player's free leg side if proper frames are established. Advanced defensive players recognize Russian Cowboy as a transitional moment where proactive defense can prevent advancement to more dangerous positions while creating opportunities to return to guard or achieve standing position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Cowboy (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kGoEjQMRp3I)
+
+<p class="clip-credit"><strong>Double Deep Hook Submissions from Russian Cowboy</strong> — taught by 10th Planet Rochester · 3:13 · <a href="https://www.youtube.com/watch?v=kGoEjQMRp3I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+
+<p class="clip-credit"><strong>Counter the truck by flipping it</strong> — taught by Brandon Mccaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the rolling back take and truck roll</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Defend and counter the Twister Side Control to Back Take. Recogniz
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister SC to Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side control and escaping it",
+      "description": "Twister SC to Back Take (Defender) film study: Twister side control and escaping it, taught by Robot Dolphin Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AUyR1rmVzo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AUyR1rmVzo4",
+      "url": "https://www.youtube.com/watch?v=AUyR1rmVzo4",
+      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping twister side control",
+      "description": "Twister SC to Back Take (Defender) film study: Escaping twister side control, taught by Chosen Few BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gL-eAA7EsSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gL-eAA7EsSU",
+      "url": "https://www.youtube.com/watch?v=gL-eAA7EsSU",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ coach" },
+      "duration": "PT199S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Twister Side Control to Back Take requires immediate recognition t
 **Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister SC to Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AUyR1rmVzo4)
+
+<p class="clip-credit"><strong>Twister side control and escaping it</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:25 · <a href="https://www.youtube.com/watch?v=AUyR1rmVzo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gL-eAA7EsSU)
+
+<p class="clip-credit"><strong>Escaping twister side control</strong> — taught by Chosen Few BJJ coach · 3:19 · <a href="https://www.youtube.com/watch?v=gL-eAA7EsSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

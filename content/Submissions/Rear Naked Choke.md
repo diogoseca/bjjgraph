@@ -36,6 +36,65 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear Naked Choke from Back Control",
+      "description": "Rear Naked Choke film study: Rear Naked Choke from Back Control, taught by Affinity Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3vCytl_OI-4",
+      "url": "https://www.youtube.com/watch?v=3vCytl_OI-4",
+      "creator": { "@type": "Person", "name": "Affinity Academy" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear Naked Choke",
+      "description": "Rear Naked Choke film study: Rear Naked Choke, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
+      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rear Naked Choke: It\u0027s in the Squeeze",
+      "description": "Rear Naked Choke film study: Rear Naked Choke: It\u0027s in the Squeeze, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rPRORaAiJAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rPRORaAiJAs",
+      "url": "https://www.youtube.com/watch?v=rPRORaAiJAs",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Attack the Back with a Body Triangle",
+      "description": "Rear Naked Choke film study: Attack the Back with a Body Triangle, taught by Grapple Box.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
+      "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
+      "creator": { "@type": "Person", "name": "Grapple Box" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -85,6 +144,50 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 The Rear Naked Choke (RNC) is widely considered the highest-percentage submission in Brazilian Jiu-Jitsu and mixed martial arts. This blood choke targets the carotid arteries on both sides of the neck, cutting off blood flow to the brain and causing unconsciousness in 6-10 seconds if not released. Unlike air chokes that can take 30+ seconds and cause panic, the RNC is efficient and relatively safe when applied correctly with proper training protocols. The position's effectiveness stems from the back control position itself - the opponent cannot see you, cannot effectively defend with their arms, and must deal with your body weight and control while their breathing and circulation are compromised. The RNC is the most common submission finish in high-level competition, with statistics showing it accounts for approximately 25-30% of all submission victories in professional MMA and 15-20% in gi BJJ competition. The technique's universality across gi and no-gi contexts, combined with its mechanical simplicity and high success rate even against larger opponents, makes it an essential technique for all practitioners regardless of style or body type.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3vCytl_OI-4)
+
+<p class="clip-credit"><strong>Rear Naked Choke from Back Control</strong> — taught by Affinity Academy · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=70jECxFfCSA)
+
+<p class="clip-credit"><strong>Rear Naked Choke</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rPRORaAiJAs)
+
+<p class="clip-credit"><strong>Rear Naked Choke: It&#39;s in the Squeeze</strong> — taught by Henry Akins · 1:35 · <a href="https://www.youtube.com/watch?v=rPRORaAiJAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
+
+<p class="clip-credit"><strong>Attack the Back with a Body Triangle</strong> — taught by Grapple Box · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

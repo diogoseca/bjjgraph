@@ -34,6 +34,43 @@ description: "Master Back Control Maintenance in BJJ. Systematic approach to pre
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control Maintenance \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the seatbelt in back control",
+      "description": "Back Control Maintenance film study: Holding the seatbelt in back control, taught by Kyuzo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y_GjhMb6Qf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y_GjhMb6Qf8",
+      "url": "https://www.youtube.com/watch?v=y_GjhMb6Qf8",
+      "creator": { "@type": "Person", "name": "Kyuzo BJJ" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why you keep losing the back: back control retention",
+      "description": "Back Control Maintenance film study: Why you keep losing the back: back control retention, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lpgcKpIgClw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lpgcKpIgClw",
+      "url": "https://www.youtube.com/watch?v=lpgcKpIgClw",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 **Success Rate**: 59%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control Maintenance in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y_GjhMb6Qf8)
+
+<p class="clip-credit"><strong>Holding the seatbelt in back control</strong> — taught by Kyuzo BJJ · 0:26 · <a href="https://www.youtube.com/watch?v=y_GjhMb6Qf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lpgcKpIgClw)
+
+<p class="clip-credit"><strong>Why you keep losing the back: back control retention</strong> — taught by Brandon McCaghren · 2:23 · <a href="https://www.youtube.com/watch?v=lpgcKpIgClw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

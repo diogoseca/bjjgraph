@@ -148,6 +148,43 @@ description: "How to defend against Posture Recovery to Closed Guard in BJJ. Mai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery to Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape the turtle and get safely back to guard",
+      "description": "Posture Recovery to Closed Guard (Defender) film study: Escape the turtle and get safely back to guard, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o55M0DMesfE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o55M0DMesfE",
+      "url": "https://www.youtube.com/watch?v=o55M0DMesfE",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT173S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering guard from the turtle position",
+      "description": "Posture Recovery to Closed Guard (Defender) film study: Recovering guard from the turtle position, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/61unSJ7vu4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/61unSJ7vu4I",
+      "url": "https://www.youtube.com/watch?v=61unSJ7vu4I",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT413S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The strategic framework centers on a simple principle: deny space and maintain c
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery to Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o55M0DMesfE)
+
+<p class="clip-credit"><strong>Escape the turtle and get safely back to guard</strong> — taught by Stephan Kesting · 2:53 · <a href="https://www.youtube.com/watch?v=o55M0DMesfE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=61unSJ7vu4I)
+
+<p class="clip-credit"><strong>Recovering guard from the turtle position</strong> — taught by Lachlan Giles · 6:53 · <a href="https://www.youtube.com/watch?v=61unSJ7vu4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

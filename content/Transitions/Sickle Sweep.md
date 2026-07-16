@@ -34,6 +34,54 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sickle Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Split sweep from De La Riva",
+      "description": "Sickle Sweep film study: Split sweep from De La Riva, taught by Josef Manuel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q5bXcsqGs3U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q5bXcsqGs3U",
+      "url": "https://www.youtube.com/watch?v=q5bXcsqGs3U",
+      "creator": { "@type": "Person", "name": "Josef Manuel" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva sweep pushing the knee",
+      "description": "Sickle Sweep film study: De La Riva sweep pushing the knee, taught by Kimura BJJ USA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DS0dGhisTW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DS0dGhisTW8",
+      "url": "https://www.youtube.com/watch?v=DS0dGhisTW8",
+      "creator": { "@type": "Person", "name": "Kimura BJJ USA" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple De La Riva sweep",
+      "description": "Sickle Sweep film study: Simple De La Riva sweep, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zveJosx6Np0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zveJosx6Np0",
+      "url": "https://www.youtube.com/watch?v=zveJosx6Np0",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 **Success Rate**: 28%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sickle Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q5bXcsqGs3U)
+
+<p class="clip-credit"><strong>Split sweep from De La Riva</strong> — taught by Josef Manuel · 1:05 · <a href="https://www.youtube.com/watch?v=q5bXcsqGs3U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DS0dGhisTW8)
+
+<p class="clip-credit"><strong>De La Riva sweep pushing the knee</strong> — taught by Kimura BJJ USA · 1:46 · <a href="https://www.youtube.com/watch?v=DS0dGhisTW8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zveJosx6Np0)
+
+<p class="clip-credit"><strong>Simple De La Riva sweep</strong> — taught by Ninja Pinto · 0:37 · <a href="https://www.youtube.com/watch?v=zveJosx6Np0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sneaky Aoki lock from the saddle",
+      "description": "Aoki Lock Control film study: Sneaky Aoki lock from the saddle, taught by Grappling Education.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QDNLTs55V8c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QDNLTs55V8c",
+      "url": "https://www.youtube.com/watch?v=QDNLTs55V8c",
+      "creator": { "@type": "Person", "name": "Grappling Education" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Aoki Lock Explained",
+      "description": "Aoki Lock Control film study: The Aoki Lock Explained, taught by Jeremy Skinner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N9dnzaleHdk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N9dnzaleHdk",
+      "url": "https://www.youtube.com/watch?v=N9dnzaleHdk",
+      "creator": { "@type": "Person", "name": "Jeremy Skinner" },
+      "duration": "PT268S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Get the Aoki Lock Finish Every Time",
+      "description": "Aoki Lock Control film study: Get the Aoki Lock Finish Every Time, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S2DMBU42Yl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S2DMBU42Yl0",
+      "url": "https://www.youtube.com/watch?v=S2DMBU42Yl0",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ From the structural perspective, Aoki Lock control involves isolating the oppone
 This position appears most commonly in no-gi competition, submission-only formats, and MMA contexts where advanced shoulder locks are legal. It requires deep understanding of shoulder anatomy, joint manipulation mechanics, and progressive pressure application protocols. The position carries moderate to high risk for both practitioners - aggressive defense can create scrambles while improper application can cause serious shoulder injuries. Success depends on technical precision, positional awareness, and commitment to safety protocols throughout execution.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QDNLTs55V8c)
+
+<p class="clip-credit"><strong>Sneaky Aoki lock from the saddle</strong> — taught by Grappling Education · 2:01 · <a href="https://www.youtube.com/watch?v=QDNLTs55V8c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N9dnzaleHdk)
+
+<p class="clip-credit"><strong>The Aoki Lock Explained</strong> — taught by Jeremy Skinner · 4:28 · <a href="https://www.youtube.com/watch?v=N9dnzaleHdk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S2DMBU42Yl0)
+
+<p class="clip-credit"><strong>Get the Aoki Lock Finish Every Time</strong> — taught by Brian Glick · 4:33 · <a href="https://www.youtube.com/watch?v=S2DMBU42Yl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

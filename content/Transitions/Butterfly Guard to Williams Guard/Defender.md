@@ -127,6 +127,43 @@ description: "Defend the entry into Williams Guard from Butterfly Guard. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to Williams Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Williams guard armbar",
+      "description": "Butterfly Guard to Williams Guard (Defender) film study: Countering the Williams guard armbar, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M__MeC_XCIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M__MeC_XCIM",
+      "url": "https://www.youtube.com/watch?v=M__MeC_XCIM",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clearing the overhook and removing the angle",
+      "description": "Butterfly Guard to Williams Guard (Defender) film study: Clearing the overhook and removing the angle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ovecwiNyE3k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ovecwiNyE3k",
+      "url": "https://www.youtube.com/watch?v=ovecwiNyE3k",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT386S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -141,6 +178,34 @@ Your highest-percentage defense is prevention. Keep your posture, fight the over
 **Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to Williams Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M__MeC_XCIM)
+
+<p class="clip-credit"><strong>Countering the Williams guard armbar</strong> — taught by Sam Wilkinson · 1:06 · <a href="https://www.youtube.com/watch?v=M__MeC_XCIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ovecwiNyE3k)
+
+<p class="clip-credit"><strong>Clearing the overhook and removing the angle</strong> — taught by Lachlan Giles · 6:26 · <a href="https://www.youtube.com/watch?v=ovecwiNyE3k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

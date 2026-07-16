@@ -174,6 +174,54 @@ description: "How to execute the arm-in guillotine variation from top guillotine
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm in Guillotine Variation (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelotine: Marcelo Garcia\u0027s arm-in guillotine",
+      "description": "Arm in Guillotine Variation (Attacker) film study: Marcelotine: Marcelo Garcia\u0027s arm-in guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
+      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel-assisted arm-in guillotine finish",
+      "description": "Arm in Guillotine Variation (Attacker) film study: Lapel-assisted arm-in guillotine finish, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8AGCNn4ElSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8AGCNn4ElSA",
+      "url": "https://www.youtube.com/watch?v=8AGCNn4ElSA",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Marcelotine guillotine breakdown",
+      "description": "Arm in Guillotine Variation (Attacker) film study: Marcelotine guillotine breakdown, taught by Half The Battle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dg1dvtWkXhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dg1dvtWkXhE",
+      "url": "https://www.youtube.com/watch?v=Dg1dvtWkXhE",
+      "creator": { "@type": "Person", "name": "Half The Battle" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 **From Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm in Guillotine Variation (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+
+<p class="clip-credit"><strong>Marcelotine: Marcelo Garcia&#39;s arm-in guillotine</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=8AGCNn4ElSA)
+
+<p class="clip-credit"><strong>Lapel-assisted arm-in guillotine finish</strong> — taught by Johnny Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=8AGCNn4ElSA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dg1dvtWkXhE)
+
+<p class="clip-credit"><strong>Marcelotine guillotine breakdown</strong> — taught by Half The Battle · 1:50 · <a href="https://www.youtube.com/watch?v=Dg1dvtWkXhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

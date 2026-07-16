@@ -148,6 +148,43 @@ description: "Defend against the RDLR Backstep Counter in BJJ. Learn recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "RDLR Backstep Counter (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the backstep pass to de la riva",
+      "description": "RDLR Backstep Counter (Defender) film study: Defending the backstep pass to de la riva, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
+      "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defense to reverse de la riva and foot lock",
+      "description": "RDLR Backstep Counter (Defender) film study: Defense to reverse de la riva and foot lock, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hdSw-ZmcBRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hdSw-ZmcBRA",
+      "url": "https://www.youtube.com/watch?v=hdSw-ZmcBRA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the RDLR Backstep Counter requires early recognition of the to
 **Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch RDLR Backstep Counter (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a3ModDEKY6s)
+
+<p class="clip-credit"><strong>Defending the backstep pass to de la riva</strong> — taught by Inverted Gear · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hdSw-ZmcBRA)
+
+<p class="clip-credit"><strong>Defense to reverse de la riva and foot lock</strong> — taught by Ninja Pinto · 0:31 · <a href="https://www.youtube.com/watch?v=hdSw-ZmcBRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

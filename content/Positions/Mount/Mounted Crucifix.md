@@ -34,6 +34,54 @@ description: "Master the mounted crucifix in BJJ. Complete guide covering arm is
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix position overview",
+      "description": "Mounted Crucifix film study: Crucifix position overview, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pwyBJLfBbpY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pwyBJLfBbpY",
+      "url": "https://www.youtube.com/watch?v=pwyBJLfBbpY",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi mounted crucifix",
+      "description": "Mounted Crucifix film study: No-gi mounted crucifix, taught by Esteem Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4QlWJFhI7i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4QlWJFhI7i8",
+      "url": "https://www.youtube.com/watch?v=4QlWJFhI7i8",
+      "creator": { "@type": "Person", "name": "Esteem Jiujitsu" },
+      "duration": "PT124S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Isolating the near arm in crucifix",
+      "description": "Mounted Crucifix film study: Isolating the near arm in crucifix, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rh7TUm0ysww/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rh7TUm0ysww",
+      "url": "https://www.youtube.com/watch?v=rh7TUm0ysww",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT151S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ Defensively, escaping the mounted crucifix presents significant challenges. The 
 The mounted crucifix also serves as an excellent teaching position for understanding control principles. It demonstrates how removing defensive tools systematically increases offensive success rates, how positional transitions can compound advantages, and how multiple threats force opponents into tactical dilemmas. These lessons extend beyond this specific position into broader strategic thinking about positional dominance and submission hunting.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pwyBJLfBbpY)
+
+<p class="clip-credit"><strong>Crucifix position overview</strong> — taught by Animal · 0:56 · <a href="https://www.youtube.com/watch?v=pwyBJLfBbpY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4QlWJFhI7i8)
+
+<p class="clip-credit"><strong>No-gi mounted crucifix</strong> — taught by Esteem Jiujitsu · 2:04 · <a href="https://www.youtube.com/watch?v=4QlWJFhI7i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rh7TUm0ysww)
+
+<p class="clip-credit"><strong>Isolating the near arm in crucifix</strong> — taught by Gordon Ryan · 2:31 · <a href="https://www.youtube.com/watch?v=rh7TUm0ysww" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

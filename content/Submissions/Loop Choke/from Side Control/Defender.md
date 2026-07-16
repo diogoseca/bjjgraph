@@ -150,6 +150,54 @@ description: "How to defend the Loop Choke from Side Control in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Loop choke escape",
+      "description": "Loop Choke from Side Control (Defender) film study: Loop choke escape, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pZmJpXSwRTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pZmJpXSwRTk",
+      "url": "https://www.youtube.com/watch?v=pZmJpXSwRTk",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Loop choke escape, second variation",
+      "description": "Loop Choke from Side Control (Defender) film study: Loop choke escape, second variation, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/11PEV0xVadQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/11PEV0xVadQ",
+      "url": "https://www.youtube.com/watch?v=11PEV0xVadQ",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clock choke defense",
+      "description": "Loop Choke from Side Control (Defender) film study: Clock choke defense, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vckXustqtpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vckXustqtpQ",
+      "url": "https://www.youtube.com/watch?v=vckXustqtpQ",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ Successful defense prioritizes early grip prevention over late-stage escape. The
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pZmJpXSwRTk)
+
+<p class="clip-credit"><strong>Loop choke escape</strong> — taught by Ninja Pinto · 1:00 · <a href="https://www.youtube.com/watch?v=pZmJpXSwRTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=11PEV0xVadQ)
+
+<p class="clip-credit"><strong>Loop choke escape, second variation</strong> — taught by Ninja Pinto · 1:39 · <a href="https://www.youtube.com/watch?v=11PEV0xVadQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vckXustqtpQ)
+
+<p class="clip-credit"><strong>Clock choke defense</strong> — taught by Revolution BJJ Ashland · 1:03 · <a href="https://www.youtube.com/watch?v=vckXustqtpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

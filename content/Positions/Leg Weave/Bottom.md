@@ -153,6 +153,43 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Weave (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3-step defense to the weave pass",
+      "description": "Leg Weave (Bottom) film study: 3-step defense to the weave pass, taught by Pendergrass Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9i-U4ivd108/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9i-U4ivd108",
+      "url": "https://www.youtube.com/watch?v=9i-U4ivd108",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slice counter sweep",
+      "description": "Leg Weave (Bottom) film study: Knee slice counter sweep, taught by Steve Haydock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zCsPGrS3ewI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zCsPGrS3ewI",
+      "url": "https://www.youtube.com/watch?v=zCsPGrS3ewI",
+      "creator": { "@type": "Person", "name": "Steve Haydock" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
 Leg Weave Bottom Position represents a challenging defensive scenario in half guard where the top player has threaded their leg through your guard structure, establishing a powerful passing position. This position occurs when the passer has successfully weaved their knee-side leg between your legs while maintaining upper body control, creating significant pressure and limiting your mobility. The bottom player faces immediate threats of guard passes to side control, mount, or back control if defensive frames and hip movement are not properly established. While disadvantageous, this position offers specific defensive pathways and counter-attacks that can recover guard or create scrambles when executed with proper timing and technique. Understanding the mechanics of maintaining frames, creating angles, and preventing the complete pass is essential for survival and eventual escape from this high-pressure position. Success requires constant movement, precise framing against the opponent's pressure points, and recognition of timing windows for transitions to more favorable positions like knee shield, deep half, or dogfight.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Weave (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9i-U4ivd108)
+
+<p class="clip-credit"><strong>3-step defense to the weave pass</strong> — taught by Pendergrass Academy · 1:56 · <a href="https://www.youtube.com/watch?v=9i-U4ivd108" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zCsPGrS3ewI)
+
+<p class="clip-credit"><strong>Knee slice counter sweep</strong> — taught by Steve Haydock · 1:07 · <a href="https://www.youtube.com/watch?v=zCsPGrS3ewI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

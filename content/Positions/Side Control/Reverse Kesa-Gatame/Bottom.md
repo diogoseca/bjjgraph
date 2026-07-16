@@ -153,6 +153,54 @@ description: "Master Reverse Kesa-Gatame Bottom escape techniques. Complete defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Kesa-Gatame (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping Kesa Gatame Position",
+      "description": "Reverse Kesa-Gatame (Bottom) film study: Escaping Kesa Gatame Position, taught by Full Metal Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O9H8V9BL_b0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O9H8V9BL_b0",
+      "url": "https://www.youtube.com/watch?v=O9H8V9BL_b0",
+      "creator": { "@type": "Person", "name": "Full Metal Jiu Jitsu" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Hip Escape from Side Control",
+      "description": "Reverse Kesa-Gatame (Bottom) film study: Reverse Hip Escape from Side Control, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4L25UQntnPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4L25UQntnPg",
+      "url": "https://www.youtube.com/watch?v=4L25UQntnPg",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa Gatame Escape",
+      "description": "Reverse Kesa-Gatame (Bottom) film study: Kesa Gatame Escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The bottom player faces significant challenges in this position as their mobilit
 From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defensive action to prevent the position from consolidating into more dominant pins like North-South or Mount. The bottom player must prioritize hip escape mechanics, frame construction with the free arm, and systematic space creation before attempting to recover guard or transition to a neutral position. Understanding the biomechanics of this pin and the specific vulnerabilities it creates is essential for developing an effective escape system.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Kesa-Gatame (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O9H8V9BL_b0)
+
+<p class="clip-credit"><strong>Escaping Kesa Gatame Position</strong> — taught by Full Metal Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=O9H8V9BL_b0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4L25UQntnPg)
+
+<p class="clip-credit"><strong>Reverse Hip Escape from Side Control</strong> — taught by Fox Den Martial Arts · 0:25 · <a href="https://www.youtube.com/watch?v=4L25UQntnPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa Gatame Escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

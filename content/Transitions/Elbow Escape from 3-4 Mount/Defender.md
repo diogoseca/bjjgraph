@@ -148,6 +148,54 @@ description: "Prevent the Elbow Escape from 3-4 Mount as the top player. Learn t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from 3-4 Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining mount: preventing the elbow escape",
+      "description": "Elbow Escape from 3-4 Mount (Defender) film study: Maintaining mount: preventing the elbow escape, taught by St. Paul Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iS017eyM0eQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iS017eyM0eQ",
+      "url": "https://www.youtube.com/watch?v=iS017eyM0eQ",
+      "creator": { "@type": "Person", "name": "St. Paul Brazilian Jiu Jitsu" },
+      "duration": "PT264S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping Mount No-Gi: Knee Elbow Escape",
+      "description": "Elbow Escape from 3-4 Mount (Defender) film study: Escaping Mount No-Gi: Knee Elbow Escape, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Im-V012Q9v0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Im-V012Q9v0",
+      "url": "https://www.youtube.com/watch?v=Im-V012Q9v0",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT237S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The First 3 Mount Escapes You Need to Know",
+      "description": "Elbow Escape from 3-4 Mount (Defender) film study: The First 3 Mount Escapes You Need to Know, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SYel-mVSMAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SYel-mVSMAI",
+      "url": "https://www.youtube.com/watch?v=SYel-mVSMAI",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT285S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the top player defending against the Elbow Escape from 3-4 Mount, your object
 **Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from 3-4 Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iS017eyM0eQ)
+
+<p class="clip-credit"><strong>Maintaining mount: preventing the elbow escape</strong> — taught by St. Paul Brazilian Jiu Jitsu · 4:24 · <a href="https://www.youtube.com/watch?v=iS017eyM0eQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Im-V012Q9v0)
+
+<p class="clip-credit"><strong>Escaping Mount No-Gi: Knee Elbow Escape</strong> — taught by Brian Glick · 3:57 · <a href="https://www.youtube.com/watch?v=Im-V012Q9v0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SYel-mVSMAI)
+
+<p class="clip-credit"><strong>The First 3 Mount Escapes You Need to Know</strong> — taught by Brandon Mccaghren · 4:45 · <a href="https://www.youtube.com/watch?v=SYel-mVSMAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

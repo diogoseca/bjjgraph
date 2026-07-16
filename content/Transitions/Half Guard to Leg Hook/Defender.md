@@ -148,6 +148,54 @@ description: "Defend against the Transition to Leg Hook from Half Guard Bottom. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Leg Hook (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending leg locks while playing guard",
+      "description": "Half Guard to Leg Hook (Defender) film study: Defending leg locks while playing guard, taught by Mason Fowler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YXT82MndUyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YXT82MndUyo",
+      "url": "https://www.youtube.com/watch?v=YXT82MndUyo",
+      "creator": { "@type": "Person", "name": "Mason Fowler" },
+      "duration": "PT175S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shutting down the knee shield to chest-to-chest control",
+      "description": "Half Guard to Leg Hook (Defender) film study: Shutting down the knee shield to chest-to-chest control, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/97ux-nxiMuE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/97ux-nxiMuE",
+      "url": "https://www.youtube.com/watch?v=97ux-nxiMuE",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT271S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Freeing your foot while passing half guard",
+      "description": "Half Guard to Leg Hook (Defender) film study: Freeing your foot while passing half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Transition to Leg Hook, you are in Half Guard Bottom
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Leg Hook (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YXT82MndUyo)
+
+<p class="clip-credit"><strong>Defending leg locks while playing guard</strong> — taught by Mason Fowler · 2:55 · <a href="https://www.youtube.com/watch?v=YXT82MndUyo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=97ux-nxiMuE)
+
+<p class="clip-credit"><strong>Shutting down the knee shield to chest-to-chest control</strong> — taught by Jozef Chen · 4:31 · <a href="https://www.youtube.com/watch?v=97ux-nxiMuE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Freeing your foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

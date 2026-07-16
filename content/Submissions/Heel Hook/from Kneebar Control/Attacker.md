@@ -176,6 +176,54 @@ description: "Master attacking the heel hook from kneebar control. Grip transiti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Kneebar Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar to Heel Hook Matrix",
+      "description": "Heel Hook from Kneebar Control (Attacker) film study: Kneebar to Heel Hook Matrix, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HQSxxYL1Aew/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HQSxxYL1Aew",
+      "url": "https://www.youtube.com/watch?v=HQSxxYL1Aew",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ankle Lock to Kneebar to Heel Hook Transitions",
+      "description": "Heel Hook from Kneebar Control (Attacker) film study: Ankle Lock to Kneebar to Heel Hook Transitions, taught by Elevate MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B8q8wZx0b74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B8q8wZx0b74",
+      "url": "https://www.youtube.com/watch?v=B8q8wZx0b74",
+      "creator": { "@type": "Person", "name": "Elevate MMA" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Heel Hook Breaking Mechanics",
+      "description": "Heel Hook from Kneebar Control (Attacker) film study: Heel Hook Breaking Mechanics, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
+      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the heel hook from kneebar control requires reading your opponent's de
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Kneebar Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HQSxxYL1Aew)
+
+<p class="clip-credit"><strong>Kneebar to Heel Hook Matrix</strong> — taught by Mikey Musumeci · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B8q8wZx0b74)
+
+<p class="clip-credit"><strong>Ankle Lock to Kneebar to Heel Hook Transitions</strong> — taught by Elevate MMA · 1:34 · <a href="https://www.youtube.com/watch?v=B8q8wZx0b74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+
+<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

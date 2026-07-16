@@ -148,6 +148,54 @@ description: "How to defend against Roll to Turtle in BJJ. Recognition cues, cou
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turning an opponent from turtle into a hold down",
+      "description": "Roll to Turtle (Defender) film study: Turning an opponent from turtle into a hold down, taught by Idris Boussetoua.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ekkQFHyTDwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ekkQFHyTDwE",
+      "url": "https://www.youtube.com/watch?v=ekkQFHyTDwE",
+      "creator": { "@type": "Person", "name": "Idris Boussetoua" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front Headlock and Turtle Escapes",
+      "description": "Roll to Turtle (Defender) film study: Front Headlock and Turtle Escapes, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JX0HL0WpYPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JX0HL0WpYPs",
+      "url": "https://www.youtube.com/watch?v=JX0HL0WpYPs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT478S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle Cheat Code: Shutting Down Back Takes",
+      "description": "Roll to Turtle (Defender) film study: Turtle Cheat Code: Shutting Down Back Takes, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pmz1ID3VgGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pmz1ID3VgGU",
+      "url": "https://www.youtube.com/watch?v=pmz1ID3VgGU",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT327S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The critical defensive window occurs between the moment your opponent initiates 
 **Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ekkQFHyTDwE)
+
+<p class="clip-credit"><strong>Turning an opponent from turtle into a hold down</strong> — taught by Idris Boussetoua · 1:12 · <a href="https://www.youtube.com/watch?v=ekkQFHyTDwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JX0HL0WpYPs)
+
+<p class="clip-credit"><strong>Front Headlock and Turtle Escapes</strong> — taught by Gordon Ryan · 7:58 · <a href="https://www.youtube.com/watch?v=JX0HL0WpYPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pmz1ID3VgGU)
+
+<p class="clip-credit"><strong>Turtle Cheat Code: Shutting Down Back Takes</strong> — taught by Stephan Kesting · 5:27 · <a href="https://www.youtube.com/watch?v=pmz1ID3VgGU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

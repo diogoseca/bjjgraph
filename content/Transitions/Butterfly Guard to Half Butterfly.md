@@ -34,6 +34,54 @@ description: "Master the Transition to Half Butterfly in BJJ. Clear one butterfl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to Half Butterfly \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly hook flip when opponent sprawls",
+      "description": "Butterfly Guard to Half Butterfly film study: Butterfly hook flip when opponent sprawls, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ljSL1k0A0mY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ljSL1k0A0mY",
+      "url": "https://www.youtube.com/watch?v=ljSL1k0A0mY",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Underhook hook flip from butterfly guard",
+      "description": "Butterfly Guard to Half Butterfly film study: Underhook hook flip from butterfly guard, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6I2CrxWMkLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6I2CrxWMkLk",
+      "url": "https://www.youtube.com/watch?v=6I2CrxWMkLk",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee shield to half butterfly to triangle",
+      "description": "Butterfly Guard to Half Butterfly film study: Knee shield to half butterfly to triangle, taught by Grapple Box.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n1mDmuuVgGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n1mDmuuVgGg",
+      "url": "https://www.youtube.com/watch?v=n1mDmuuVgGg",
+      "creator": { "@type": "Person", "name": "Grapple Box" },
+      "duration": "PT13S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The timing of this transition is critical. The optimal window opens when the bot
 **Success Rate**: 65%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to Half Butterfly in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ljSL1k0A0mY)
+
+<p class="clip-credit"><strong>Butterfly hook flip when opponent sprawls</strong> — taught by Carlos Machado · 1:11 · <a href="https://www.youtube.com/watch?v=ljSL1k0A0mY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6I2CrxWMkLk)
+
+<p class="clip-credit"><strong>Underhook hook flip from butterfly guard</strong> — taught by Carlos Machado · 1:47 · <a href="https://www.youtube.com/watch?v=6I2CrxWMkLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n1mDmuuVgGg)
+
+<p class="clip-credit"><strong>Knee shield to half butterfly to triangle</strong> — taught by Grapple Box · 0:13 · <a href="https://www.youtube.com/watch?v=n1mDmuuVgGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

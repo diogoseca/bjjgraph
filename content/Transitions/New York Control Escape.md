@@ -34,6 +34,54 @@ description: "Master New York Control Escape in BJJ. Systematic overhook extract
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Control Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter and escape the overhook clamp from guard",
+      "description": "New York Control Escape film study: Counter and escape the overhook clamp from guard, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber guard: Mission Control setup",
+      "description": "New York Control Escape film study: Rubber guard: Mission Control setup, taught by JitsHappens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hc5zImDLQ7k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hc5zImDLQ7k",
+      "url": "https://www.youtube.com/watch?v=hc5zImDLQ7k",
+      "creator": { "@type": "Person", "name": "JitsHappens" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Eddie Bravo breaks down rubber guard in The Cycle",
+      "description": "New York Control Escape film study: Eddie Bravo breaks down rubber guard in The Cycle, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QR0J42UKoSI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QR0J42UKoSI",
+      "url": "https://www.youtube.com/watch?v=QR0J42UKoSI",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT325S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategic mastery of this escape extends beyond simple positional recovery. Prac
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Control Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Counter and escape the overhook clamp from guard</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hc5zImDLQ7k)
+
+<p class="clip-credit"><strong>Rubber guard: Mission Control setup</strong> — taught by JitsHappens · 0:47 · <a href="https://www.youtube.com/watch?v=hc5zImDLQ7k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QR0J42UKoSI)
+
+<p class="clip-credit"><strong>Eddie Bravo breaks down rubber guard in The Cycle</strong> — taught by Eddie Bravo · 5:25 · <a href="https://www.youtube.com/watch?v=QR0J42UKoSI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

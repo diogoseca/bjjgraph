@@ -164,6 +164,54 @@ description: "Master clamps in BJJ. Learn to use paired limbs for squeezing cont
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clamps \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The clamp position and its attacks",
+      "description": "Clamps film study: The clamp position and its attacks, taught by BJJ Fanatics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gQWXO_L0jbU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gQWXO_L0jbU",
+      "url": "https://www.youtube.com/watch?v=gQWXO_L0jbU",
+      "creator": { "@type": "Person", "name": "BJJ Fanatics" },
+      "duration": "PT223S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed guard fundamentals: clamping the opponent",
+      "description": "Clamps film study: Closed guard fundamentals: clamping the opponent, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ypi3ie6hKTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ypi3ie6hKTI",
+      "url": "https://www.youtube.com/watch?v=ypi3ie6hKTI",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT1103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half guard clamping and control mechanics",
+      "description": "Clamps film study: Half guard clamping and control mechanics, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E8x1Cva8hJ8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E8x1Cva8hJ8",
+      "url": "https://www.youtube.com/watch?v=E8x1Cva8hJ8",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT1664S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Clamps?
@@ -177,6 +225,42 @@ What makes clamps effective is the biomechanical advantage of compression. When 
 Understanding clamp mechanics transforms how you think about both control and submissions. Every guard retention problem is partly a clamping problem — can you maintain squeeze pressure on the opponent's body or limb to prevent them from extracting themselves? Every choke is fundamentally a clamp around the neck. Every joint lock begins with clamping the limb in place before applying the breaking force. Learning to identify where and when to apply clamps, how to tighten them progressively, and how to escape them is a core skill that cuts across every area of BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clamps in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gQWXO_L0jbU)
+
+<p class="clip-credit"><strong>The clamp position and its attacks</strong> — taught by BJJ Fanatics · 3:43 · <a href="https://www.youtube.com/watch?v=gQWXO_L0jbU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ypi3ie6hKTI)
+
+<p class="clip-credit"><strong>Closed guard fundamentals: clamping the opponent</strong> — taught by John Danaher · 18:23 · <a href="https://www.youtube.com/watch?v=ypi3ie6hKTI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E8x1Cva8hJ8)
+
+<p class="clip-credit"><strong>Half guard clamping and control mechanics</strong> — taught by John Danaher · 27:44 · <a href="https://www.youtube.com/watch?v=E8x1Cva8hJ8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

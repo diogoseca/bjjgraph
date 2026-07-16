@@ -148,6 +148,54 @@ description: "How to defend against Back Door Escape in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Door Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the front headlock and darce with a stack",
+      "description": "Back Door Escape (Defender) film study: Defending the front headlock and darce with a stack, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FMAWiNfgp74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FMAWiNfgp74",
+      "url": "https://www.youtube.com/watch?v=FMAWiNfgp74",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce defense: shutting the choke down early",
+      "description": "Back Door Escape (Defender) film study: Darce defense: shutting the choke down early, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rgf9QUebMWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rgf9QUebMWE",
+      "url": "https://www.youtube.com/watch?v=rgf9QUebMWE",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Favorite darce counter from front headlock",
+      "description": "Back Door Escape (Defender) film study: Favorite darce counter from front headlock, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IxZ0re1mxeI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IxZ0re1mxeI",
+      "url": "https://www.youtube.com/watch?v=IxZ0re1mxeI",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The most critical defensive principle is hip positioning. Your hips must remain 
 **Opponent's Starting Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Door Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FMAWiNfgp74)
+
+<p class="clip-credit"><strong>Defending the front headlock and darce with a stack</strong> — taught by BJJ101 · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rgf9QUebMWE)
+
+<p class="clip-credit"><strong>Darce defense: shutting the choke down early</strong> — taught by Malachy Friedman · 1:18 · <a href="https://www.youtube.com/watch?v=rgf9QUebMWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IxZ0re1mxeI)
+
+<p class="clip-credit"><strong>Favorite darce counter from front headlock</strong> — taught by Coach Brian · 2:12 · <a href="https://www.youtube.com/watch?v=IxZ0re1mxeI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

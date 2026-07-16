@@ -174,6 +174,54 @@ description: "Master escaping the standing rear clinch in BJJ. Step-by-step grip
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defense from Standing Rear Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Easy takedowns from the rear clinch",
+      "description": "Defense from Standing Rear Clinch (Attacker) film study: Easy takedowns from the rear clinch, taught by OneontaJiuJitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ovl7eZIzBaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ovl7eZIzBaU",
+      "url": "https://www.youtube.com/watch?v=ovl7eZIzBaU",
+      "creator": { "@type": "Person", "name": "OneontaJiuJitsu Academy" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bear hug defense into rear clinch takedown",
+      "description": "Defense from Standing Rear Clinch (Attacker) film study: Bear hug defense into rear clinch takedown, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fnkewg_4NJ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fnkewg_4NJ4",
+      "url": "https://www.youtube.com/watch?v=fnkewg_4NJ4",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg switch cutback from the rear bodylock",
+      "description": "Defense from Standing Rear Clinch (Attacker) film study: Leg switch cutback from the rear bodylock, taught by Procel Brazilian Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
+      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
+      "creator": { "@type": "Person", "name": "Procel Brazilian Jiu-Jitsu" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the person trapped in the standing rear clinch, your immediate priorities are
 **From Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defense from Standing Rear Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ovl7eZIzBaU)
+
+<p class="clip-credit"><strong>Easy takedowns from the rear clinch</strong> — taught by OneontaJiuJitsu Academy · 0:57 · <a href="https://www.youtube.com/watch?v=ovl7eZIzBaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fnkewg_4NJ4)
+
+<p class="clip-credit"><strong>Bear hug defense into rear clinch takedown</strong> — taught by Jiu Jitsu Five-O · 0:48 · <a href="https://www.youtube.com/watch?v=fnkewg_4NJ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2VCyaassiRI)
+
+<p class="clip-credit"><strong>Leg switch cutback from the rear bodylock</strong> — taught by Procel Brazilian Jiu-Jitsu · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Escape Zombie Control in BJJ with systematic frames and hip escape
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Zombie Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mission Control to Zombie to Invisible Collar",
+      "description": "Escape Zombie Control film study: Mission Control to Zombie to Invisible Collar, taught by 10th Planet Orange Park coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
+      "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park coach" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Truck Position Breakdown",
+      "description": "Escape Zombie Control film study: The Truck Position Breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h6Vt25m4qZg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h6Vt25m4qZg",
+      "url": "https://www.youtube.com/watch?v=h6Vt25m4qZg",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT536S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this escape occupies the last-resort tier within the Zombie botto
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Zombie Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
+
+<p class="clip-credit"><strong>Mission Control to Zombie to Invisible Collar</strong> — taught by 10th Planet Orange Park coach · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h6Vt25m4qZg)
+
+<p class="clip-credit"><strong>The Truck Position Breakdown</strong> — taught by Eddie Bravo · 8:56 · <a href="https://www.youtube.com/watch?v=h6Vt25m4qZg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

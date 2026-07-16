@@ -36,6 +36,43 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North-South choke",
+      "description": "North-South film study: North-South choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
+      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Taking the back from North-South",
+      "description": "North-South film study: Taking the back from North-South, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAitcEHUcRE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAitcEHUcRE",
+      "url": "https://www.youtube.com/watch?v=aAitcEHUcRE",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +113,34 @@ From the bottom perspective, North-South represents a highly disadvantageous pos
 The position demands different strategic approaches based on whether you're establishing control from top or fighting to escape from bottom. Understanding both perspectives is essential for complete positional mastery, as the same structural principles that make North-South effective for control also reveal the pathways for escape when you find yourself underneath.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+
+<p class="clip-credit"><strong>North-South choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAitcEHUcRE)
+
+<p class="clip-credit"><strong>Taking the back from North-South</strong> — taught by Stephan Kesting · 0:53 · <a href="https://www.youtube.com/watch?v=aAitcEHUcRE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

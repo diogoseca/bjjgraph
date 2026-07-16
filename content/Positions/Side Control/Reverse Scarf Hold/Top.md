@@ -153,6 +153,54 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Scarf Hold (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from Reverse Kesa Gatame",
+      "description": "Reverse Scarf Hold (Top) film study: Kimura from Reverse Kesa Gatame, taught by Raymond Tan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/waWC7ARiESc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/waWC7ARiESc",
+      "url": "https://www.youtube.com/watch?v=waWC7ARiESc",
+      "creator": { "@type": "Person", "name": "Raymond Tan" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ushiro-Kesa-Gatame demonstration",
+      "description": "Reverse Scarf Hold (Top) film study: Ushiro-Kesa-Gatame demonstration, taught by Kodokan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SBapox2M2dE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SBapox2M2dE",
+      "url": "https://www.youtube.com/watch?v=SBapox2M2dE",
+      "creator": { "@type": "Person", "name": "Kodokan" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse Kesa arm attack roll-over",
+      "description": "Reverse Scarf Hold (Top) film study: Reverse Kesa arm attack roll-over, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5POG6rDBVLM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5POG6rDBVLM",
+      "url": "https://www.youtube.com/watch?v=5POG6rDBVLM",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ Unlike standard top positions, reverse scarf hold requires you to adapt to facin
 This position is particularly effective against opponents unfamiliar with the configuration, as the unusual orientation disrupts their standard escape patterns. However, it requires precise weight distribution and pressure to prevent explosive bridging escapes. The position serves as an excellent transition hub to north-south, mount, or back control when opponent attempts to escape.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Scarf Hold (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=waWC7ARiESc)
+
+<p class="clip-credit"><strong>Kimura from Reverse Kesa Gatame</strong> — taught by Raymond Tan · 2:50 · <a href="https://www.youtube.com/watch?v=waWC7ARiESc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SBapox2M2dE)
+
+<p class="clip-credit"><strong>Ushiro-Kesa-Gatame demonstration</strong> — taught by Kodokan · 0:54 · <a href="https://www.youtube.com/watch?v=SBapox2M2dE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5POG6rDBVLM)
+
+<p class="clip-credit"><strong>Reverse Kesa arm attack roll-over</strong> — taught by Carlos Machado · 1:53 · <a href="https://www.youtube.com/watch?v=5POG6rDBVLM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

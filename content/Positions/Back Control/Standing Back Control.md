@@ -34,6 +34,43 @@ description: "Master standing back control in BJJ. Strategic guide covering when
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Back Control",
+      "description": "Standing Back Control film study: Standing Back Control, taught by JFLOJUDO.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K2Q1qg-cjTc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K2Q1qg-cjTc",
+      "url": "https://www.youtube.com/watch?v=K2Q1qg-cjTc",
+      "creator": { "@type": "Person", "name": "JFLOJUDO" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mat Return from Standing Back Control",
+      "description": "Standing Back Control film study: Mat Return from Standing Back Control, taught by William Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HWrsepCcaUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HWrsepCcaUk",
+      "url": "https://www.youtube.com/watch?v=HWrsepCcaUk",
+      "creator": { "@type": "Person", "name": "William Abreu" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the bottom perspective, Standing Back Control is one of the most vulnerable
 The position frequently occurs during scrambles, failed takedown attempts, successful back takes from standing positions, or as a transition from other standing clinch positions. Understanding both perspectives is essential for modern BJJ practitioners, as the position appears regularly in both gi and no-gi contexts, across all skill levels and competition formats. The strategic complexity lies in recognizing when to maintain standing control versus when to transition to grounded positions, and for the defensive player, how to survive immediate threats while working systematic escapes that minimize risk of ending in worse positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K2Q1qg-cjTc)
+
+<p class="clip-credit"><strong>Standing Back Control</strong> — taught by JFLOJUDO · 0:58 · <a href="https://www.youtube.com/watch?v=K2Q1qg-cjTc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HWrsepCcaUk)
+
+<p class="clip-credit"><strong>Mat Return from Standing Back Control</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

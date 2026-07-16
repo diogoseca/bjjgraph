@@ -34,6 +34,43 @@ description: "Master the Reverse Mount to Side Control transition in BJJ. Step-b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Mount to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse mount to unorthodox positions and scrambles",
+      "description": "Reverse Mount to Side Control film study: Reverse mount to unorthodox positions and scrambles, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XQ4fwGrXV2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XQ4fwGrXV2Q",
+      "url": "https://www.youtube.com/watch?v=XQ4fwGrXV2Q",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse scarf mount to quick mount",
+      "description": "Reverse Mount to Side Control film study: Reverse scarf mount to quick mount, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TEXQ07nNkss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TEXQ07nNkss",
+      "url": "https://www.youtube.com/watch?v=TEXQ07nNkss",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This transition is strategically chosen when the top player recognizes that side
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Mount to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XQ4fwGrXV2Q)
+
+<p class="clip-credit"><strong>Reverse mount to unorthodox positions and scrambles</strong> — taught by Jamie · 0:23 · <a href="https://www.youtube.com/watch?v=XQ4fwGrXV2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TEXQ07nNkss)
+
+<p class="clip-credit"><strong>Reverse scarf mount to quick mount</strong> — taught by JitzLive · 2:43 · <a href="https://www.youtube.com/watch?v=TEXQ07nNkss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

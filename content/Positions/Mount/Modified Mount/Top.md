@@ -153,6 +153,54 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from modified mount",
+      "description": "Modified Mount (Top) film study: Armbar from modified mount, taught by Black Lotus BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uo5jPElZ6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uo5jPElZ6po",
+      "url": "https://www.youtube.com/watch?v=uo5jPElZ6po",
+      "creator": { "@type": "Person", "name": "Black Lotus BJJ" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross collar chokes from mount",
+      "description": "Modified Mount (Top) film study: Cross collar chokes from mount, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mounted armbar + cross collar double attack",
+      "description": "Modified Mount (Top) film study: Mounted armbar + cross collar double attack, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GCxRluGItWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GCxRluGItWY",
+      "url": "https://www.youtube.com/watch?v=GCxRluGItWY",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
 Modified Mount from the top perspective represents a strategic decision to trade some of the complete control of standard mount for enhanced base stability and direct submission access, particularly to armbars and triangles. The position involves posting one leg out to the side while maintaining the other knee across the opponent's torso, creating an asymmetric structure that functions as both a defensive anchor and an offensive launching point. This configuration emerged from high-level competition as a response to opponents with excellent mount escape mechanics - the posted leg provides a stability base that makes explosive bridge-and-roll escapes nearly impossible while maintaining dominant positioning. Modified Mount often appears as a transitional position when advancing from side control to mount, adjusting within mount variations, or deliberately establishing for specific submission attacks. The posted leg should be understood as a structural pillar that allows aggressive submission attempts without fear of position loss, functioning similarly to a kickstand that maintains balance during dynamic movements. The across-body knee maintains the primary control element, pinning the opponent's torso and limiting their movement options while the posted leg extends the base periphery for stability. From a strategic perspective, Modified Mount sacrifices the ability to apply even weight distribution across both sides in exchange for enhanced stability against specific escape attempts and improved angles for armbar entries. The position's effectiveness depends on understanding when to use it - against opponents with strong bridge-and-roll escapes, Modified Mount provides insurance, while against opponents with excellent hip escape mechanics, standard mount may offer better control. Modern competition increasingly shows Modified Mount as a deliberate attacking position rather than merely transitional, with high-level practitioners using it to set up armbar and triangle combinations that flow naturally from the asymmetric structure. Mastery requires recognizing the position not as inferior to standard mount but as a specialized tool optimized for specific tactical situations and submission setups.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uo5jPElZ6po)
+
+<p class="clip-credit"><strong>Armbar from modified mount</strong> — taught by Black Lotus BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=uo5jPElZ6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross collar chokes from mount</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GCxRluGItWY)
+
+<p class="clip-credit"><strong>Mounted armbar + cross collar double attack</strong> — taught by Henry Akins · 1:35 · <a href="https://www.youtube.com/watch?v=GCxRluGItWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

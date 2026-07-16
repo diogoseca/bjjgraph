@@ -148,6 +148,54 @@ description: "How to defend against Explosive Forward Roll in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Explosive Forward Roll (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion / roll-through",
+      "description": "Explosive Forward Roll (Defender) film study: Countering a full inversion / roll-through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Frame Options With the Outside Arm",
+      "description": "Explosive Forward Roll (Defender) film study: Frame Options With the Outside Arm, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SsllJSWsyJc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SsllJSWsyJc",
+      "url": "https://www.youtube.com/watch?v=SsllJSWsyJc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT217S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back Escape System",
+      "description": "Explosive Forward Roll (Defender) film study: Back Escape System, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N6lKNqUOZoY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N6lKNqUOZoY",
+      "url": "https://www.youtube.com/watch?v=N6lKNqUOZoY",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT675S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The defender's optimal strategy varies based on what stage of the roll you recog
 **Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Explosive Forward Roll (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion / roll-through</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SsllJSWsyJc)
+
+<p class="clip-credit"><strong>Frame Options With the Outside Arm</strong> — taught by John Danaher · 3:37 · <a href="https://www.youtube.com/watch?v=SsllJSWsyJc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N6lKNqUOZoY)
+
+<p class="clip-credit"><strong>Back Escape System</strong> — taught by Matt Arroyo · 11:15 · <a href="https://www.youtube.com/watch?v=N6lKNqUOZoY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

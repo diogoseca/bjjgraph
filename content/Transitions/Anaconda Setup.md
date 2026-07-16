@@ -34,6 +34,54 @@ description: "Master the Anaconda Setup from front headlock. Learn arm threading
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke setup and finish",
+      "description": "Anaconda Setup film study: Anaconda choke setup and finish, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
+      "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke vs d\u0027arce choke setup difference",
+      "description": "Anaconda Setup film study: Anaconda choke vs d\u0027arce choke setup difference, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic anaconda choke setup",
+      "description": "Anaconda Setup film study: Basic anaconda choke setup, taught by Caleb McAllister.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oUib2H2bOMQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oUib2H2bOMQ",
+      "url": "https://www.youtube.com/watch?v=oUib2H2bOMQ",
+      "creator": { "@type": "Person", "name": "Caleb McAllister" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 **Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
+
+<p class="clip-credit"><strong>Anaconda choke setup and finish</strong> — taught by Ninja Pinto · 0:49 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Anaconda choke vs d&#39;arce choke setup difference</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oUib2H2bOMQ)
+
+<p class="clip-credit"><strong>Basic anaconda choke setup</strong> — taught by Caleb McAllister · 1:42 · <a href="https://www.youtube.com/watch?v=oUib2H2bOMQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

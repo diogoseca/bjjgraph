@@ -34,6 +34,54 @@ description: "Master the Escape from Technical Mount to Half Guard in BJJ. Compl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Technical Mount to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two mount escape options into half guard",
+      "description": "Escape Technical Mount to Half Guard film study: Two mount escape options into half guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
+      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape recovering half guard",
+      "description": "Escape Technical Mount to Half Guard film study: Mount escape recovering half guard, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount escape to half guard breakdown",
+      "description": "Escape Technical Mount to Half Guard film study: Mount escape to half guard breakdown, taught by LBJJ TV.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jUnTxeXFsYI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jUnTxeXFsYI",
+      "url": "https://www.youtube.com/watch?v=jUnTxeXFsYI",
+      "creator": { "@type": "Person", "name": "LBJJ TV" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This escape is particularly important because it transforms an extremely dangero
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Technical Mount to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cyegyon5hVg)
+
+<p class="clip-credit"><strong>Two mount escape options into half guard</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>Mount escape recovering half guard</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jUnTxeXFsYI)
+
+<p class="clip-credit"><strong>Mount escape to half guard breakdown</strong> — taught by LBJJ TV · 3:09 · <a href="https://www.youtube.com/watch?v=jUnTxeXFsYI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

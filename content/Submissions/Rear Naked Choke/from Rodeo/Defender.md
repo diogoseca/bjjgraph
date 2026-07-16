@@ -150,6 +150,43 @@ description: "Defend against the Rear Naked Choke from Rodeo Ride. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Rodeo (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crocodile roll escape from rear naked choke",
+      "description": "Rear Naked Choke from Rodeo (Defender) film study: Crocodile roll escape from rear naked choke, taught by Martin Valenzuela.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pKMYriPSD9o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pKMYriPSD9o",
+      "url": "https://www.youtube.com/watch?v=pKMYriPSD9o",
+      "creator": { "@type": "Person", "name": "Martin Valenzuela" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping back mount seatbelt control",
+      "description": "Rear Naked Choke from Rodeo (Defender) film study: Escaping back mount seatbelt control, taught by Julie Bond.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_X1ZpmEswzI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_X1ZpmEswzI",
+      "url": "https://www.youtube.com/watch?v=_X1ZpmEswzI",
+      "creator": { "@type": "Person", "name": "Julie Bond" },
+      "duration": "PT18S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Rear Naked Choke from Rodeo Ride requires immediate recognition of
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Rodeo (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pKMYriPSD9o)
+
+<p class="clip-credit"><strong>Crocodile roll escape from rear naked choke</strong> — taught by Martin Valenzuela · 0:28 · <a href="https://www.youtube.com/watch?v=pKMYriPSD9o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_X1ZpmEswzI)
+
+<p class="clip-credit"><strong>Escaping back mount seatbelt control</strong> — taught by Julie Bond · 0:18 · <a href="https://www.youtube.com/watch?v=_X1ZpmEswzI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

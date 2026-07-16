@@ -34,6 +34,43 @@ description: "Master the Leg Knot reversal to Outside Ashi in BJJ. Transform def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse the entanglement to Outside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside ashi garami control",
+      "description": "Reverse the entanglement to Outside Ashi film study: Outside ashi garami control, taught by Team Strela.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xvx03k3jiWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xvx03k3jiWo",
+      "url": "https://www.youtube.com/watch?v=xvx03k3jiWo",
+      "creator": { "@type": "Person", "name": "Team Strela" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Unorthodox entries into ashi, outside ashi and saddle",
+      "description": "Reverse the entanglement to Outside Ashi film study: Unorthodox entries into ashi, outside ashi and saddle, taught by Huxley Skate Co..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vEQNbapQOLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vEQNbapQOLU",
+      "url": "https://www.youtube.com/watch?v=vEQNbapQOLU",
+      "creator": { "@type": "Person", "name": "Huxley Skate Co." },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 **Success Rate**: 26%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse the entanglement to Outside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xvx03k3jiWo)
+
+<p class="clip-credit"><strong>Outside ashi garami control</strong> — taught by Team Strela · 0:26 · <a href="https://www.youtube.com/watch?v=xvx03k3jiWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vEQNbapQOLU)
+
+<p class="clip-credit"><strong>Unorthodox entries into ashi, outside ashi and saddle</strong> — taught by Huxley Skate Co. · 2:00 · <a href="https://www.youtube.com/watch?v=vEQNbapQOLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle attack overview",
+      "description": "Triangle Control film study: Triangle attack overview, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OC8IOTnsETk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OC8IOTnsETk",
+      "url": "https://www.youtube.com/watch?v=OC8IOTnsETk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle choke for short legs (S-mount)",
+      "description": "Triangle Control film study: Triangle choke for short legs (S-mount), taught by Submission Radio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8-hYlvwOqgU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8-hYlvwOqgU",
+      "url": "https://www.youtube.com/watch?v=8-hYlvwOqgU",
+      "creator": { "@type": "Person", "name": "Submission Radio" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ The biomechanics of triangle control favor the attacking practitioner significan
 The triangle choke has evolved significantly since its popularization in competitive BJJ. Modern practitioners have refined the position's mechanics through systematic study of angle geometry, hip elevation principles, and submission chain sequencing. The position connects directly to the broader guard attack system, functioning as a centerpiece technique around which entire offensive guard games are constructed. The rear triangle variation extends these principles to back control scenarios, demonstrating the versatility of the triangular leg configuration across multiple positional contexts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OC8IOTnsETk)
+
+<p class="clip-credit"><strong>Triangle attack overview</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=OC8IOTnsETk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8-hYlvwOqgU)
+
+<p class="clip-credit"><strong>Triangle choke for short legs (S-mount)</strong> — taught by Submission Radio · 1:45 · <a href="https://www.youtube.com/watch?v=8-hYlvwOqgU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

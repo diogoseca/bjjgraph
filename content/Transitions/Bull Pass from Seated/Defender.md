@@ -148,6 +148,54 @@ description: "Defend the Bull Pass from Seated Guard effectively. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bull Pass from Seated (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to counter sit-up guard",
+      "description": "Bull Pass from Seated (Defender) film study: How to counter sit-up guard, taught by Avant-Garde BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G1PKGe_q9P0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G1PKGe_q9P0",
+      "url": "https://www.youtube.com/watch?v=G1PKGe_q9P0",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit up guard retention, live rolling",
+      "description": "Bull Pass from Seated (Defender) film study: Sit up guard retention, live rolling, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qP9iLxlxgzw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qP9iLxlxgzw",
+      "url": "https://www.youtube.com/watch?v=qP9iLxlxgzw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention: when to sit up escape",
+      "description": "Bull Pass from Seated (Defender) film study: Guard retention: when to sit up escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Bull Pass from Seated Guard requires early recognition of the pass
 **Opponent's Starting Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bull Pass from Seated (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G1PKGe_q9P0)
+
+<p class="clip-credit"><strong>How to counter sit-up guard</strong> — taught by Avant-Garde BJJ · 0:58 · <a href="https://www.youtube.com/watch?v=G1PKGe_q9P0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qP9iLxlxgzw)
+
+<p class="clip-credit"><strong>Sit up guard retention, live rolling</strong> — taught by Lachlan Giles · 2:00 · <a href="https://www.youtube.com/watch?v=qP9iLxlxgzw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

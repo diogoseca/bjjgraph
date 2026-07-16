@@ -34,6 +34,54 @@ description: "Master the High Crotch takedown in BJJ. Complete guide to penetrat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Crotch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High crotch attack breakdown",
+      "description": "High Crotch film study: High crotch attack breakdown, taught by The School of Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NkMeJDR7nN8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NkMeJDR7nN8",
+      "url": "https://www.youtube.com/watch?v=NkMeJDR7nN8",
+      "creator": { "@type": "Person", "name": "The School of Wrestling" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hesitation fake into high crotch",
+      "description": "High Crotch film study: Hesitation fake into high crotch, taught by Ben Honis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4ff7enn34yk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4ff7enn34yk",
+      "url": "https://www.youtube.com/watch?v=4ff7enn34yk",
+      "creator": { "@type": "Person", "name": "Ben Honis" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple post high crotch takedown",
+      "description": "High Crotch film study: Simple post high crotch takedown, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AJzijsw8iWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AJzijsw8iWY",
+      "url": "https://www.youtube.com/watch?v=AJzijsw8iWY",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT171S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Crotch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NkMeJDR7nN8)
+
+<p class="clip-credit"><strong>High crotch attack breakdown</strong> — taught by The School of Wrestling · 1:18 · <a href="https://www.youtube.com/watch?v=NkMeJDR7nN8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4ff7enn34yk)
+
+<p class="clip-credit"><strong>Hesitation fake into high crotch</strong> — taught by Ben Honis · 2:06 · <a href="https://www.youtube.com/watch?v=4ff7enn34yk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AJzijsw8iWY)
+
+<p class="clip-credit"><strong>Simple post high crotch takedown</strong> — taught by Coach Brian · 2:51 · <a href="https://www.youtube.com/watch?v=AJzijsw8iWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -140,6 +140,43 @@ description: "Understand how to overcome the Standing Switch Defense in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Switch Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stand up to switch from bottom",
+      "description": "Standing Switch Defense (Defender) film study: Stand up to switch from bottom, taught by Adam Wheeler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X4IskvtkBY4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X4IskvtkBY4",
+      "url": "https://www.youtube.com/watch?v=X4IskvtkBY4",
+      "creator": { "@type": "Person", "name": "Adam Wheeler" },
+      "duration": "PT11S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Change over from the bottom position",
+      "description": "Standing Switch Defense (Defender) film study: Change over from the bottom position, taught by The School of Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x2MR4OIb0vI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x2MR4OIb0vI",
+      "url": "https://www.youtube.com/watch?v=x2MR4OIb0vI",
+      "creator": { "@type": "Person", "name": "The School of Wrestling" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ When facing the Standing Switch Defense, you are the practitioner attempting to 
 **Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Switch Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X4IskvtkBY4)
+
+<p class="clip-credit"><strong>Stand up to switch from bottom</strong> — taught by Adam Wheeler · 0:11 · <a href="https://www.youtube.com/watch?v=X4IskvtkBY4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x2MR4OIb0vI)
+
+<p class="clip-credit"><strong>Change over from the bottom position</strong> — taught by The School of Wrestling · 1:56 · <a href="https://www.youtube.com/watch?v=x2MR4OIb0vI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

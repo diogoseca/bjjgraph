@@ -176,6 +176,54 @@ description: "Learn to attack the Estima Lock from Honey Hole position. Step-by-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock from Honey Hole (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima Lock from Reverse De La Riva",
+      "description": "Estima Lock from Honey Hole (Attacker) film study: Estima Lock from Reverse De La Riva, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cj9M9qeS0WE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cj9M9qeS0WE",
+      "url": "https://www.youtube.com/watch?v=Cj9M9qeS0WE",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima lock mechanics and finish",
+      "description": "Estima Lock from Honey Hole (Attacker) film study: Estima lock mechanics and finish, taught by Budo Jake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bafAzBYWXmw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bafAzBYWXmw",
+      "url": "https://www.youtube.com/watch?v=bafAzBYWXmw",
+      "creator": { "@type": "Person", "name": "Budo Jake" },
+      "duration": "PT308S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Straight ankle and Aoki lock from the 411",
+      "description": "Estima Lock from Honey Hole (Attacker) film study: Straight ankle and Aoki lock from the 411, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MKpmp9aq4y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MKpmp9aq4y8",
+      "url": "https://www.youtube.com/watch?v=MKpmp9aq4y8",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT162S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the Estima Lock from Honey Hole requires recognizing when heel ho
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock from Honey Hole (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cj9M9qeS0WE)
+
+<p class="clip-credit"><strong>Estima Lock from Reverse De La Riva</strong> — taught by Revolution BJJ · 2:31 · <a href="https://www.youtube.com/watch?v=Cj9M9qeS0WE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bafAzBYWXmw)
+
+<p class="clip-credit"><strong>Estima lock mechanics and finish</strong> — taught by Budo Jake · 5:08 · <a href="https://www.youtube.com/watch?v=bafAzBYWXmw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MKpmp9aq4y8)
+
+<p class="clip-credit"><strong>Straight ankle and Aoki lock from the 411</strong> — taught by Holy Grail BJJ · 2:42 · <a href="https://www.youtube.com/watch?v=MKpmp9aq4y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

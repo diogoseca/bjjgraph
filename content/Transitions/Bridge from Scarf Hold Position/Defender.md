@@ -140,6 +140,54 @@ description: "Defend against the bridge-and-roll reversal from scarf hold top in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Scarf Hold Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping the pin when they bridge",
+      "description": "Bridge from Scarf Hold Position (Defender) film study: Keeping the pin when they bridge, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GBBqXE3VKFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GBBqXE3VKFA",
+      "url": "https://www.youtube.com/watch?v=GBBqXE3VKFA",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT257S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape kesa gatame",
+      "description": "Bridge from Scarf Hold Position (Defender) film study: How to escape kesa gatame, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sEmKk3m8nwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sEmKk3m8nwE",
+      "url": "https://www.youtube.com/watch?v=sEmKk3m8nwE",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT368S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to defend the scarf hold",
+      "description": "Bridge from Scarf Hold Position (Defender) film study: How to defend the scarf hold, taught by Gracie Ohio Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gB7prBZqjsQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gB7prBZqjsQ",
+      "url": "https://www.youtube.com/watch?v=gB7prBZqjsQ",
+      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu Academy" },
+      "duration": "PT282S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against the bridge-and-roll reversal from scarf hold requires the top 
 **Opponent's Starting Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Scarf Hold Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GBBqXE3VKFA)
+
+<p class="clip-credit"><strong>Keeping the pin when they bridge</strong> — taught by Shintaro Higashi · 4:17 · <a href="https://www.youtube.com/watch?v=GBBqXE3VKFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sEmKk3m8nwE)
+
+<p class="clip-credit"><strong>How to escape kesa gatame</strong> — taught by Travis Stevens · 6:08 · <a href="https://www.youtube.com/watch?v=sEmKk3m8nwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gB7prBZqjsQ)
+
+<p class="clip-credit"><strong>How to defend the scarf hold</strong> — taught by Gracie Ohio Jiu-Jitsu Academy · 4:42 · <a href="https://www.youtube.com/watch?v=gB7prBZqjsQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

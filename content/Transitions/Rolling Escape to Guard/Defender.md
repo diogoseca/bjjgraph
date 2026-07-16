@@ -148,6 +148,43 @@ description: "How to counter the Rolling Escape from Aoki Lock top. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Escape to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape the Aoki Lock",
+      "description": "Rolling Escape to Guard (Defender) film study: How to Escape the Aoki Lock, taught by Junny Ocasio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EsLbWW3UFo0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EsLbWW3UFo0",
+      "url": "https://www.youtube.com/watch?v=EsLbWW3UFo0",
+      "creator": { "@type": "Person", "name": "Junny Ocasio" },
+      "duration": "PT208S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Avoiding Leg Lock Shootouts",
+      "description": "Rolling Escape to Guard (Defender) film study: Avoiding Leg Lock Shootouts, taught by Less Impressed More Involved.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cZXj5ME5cbM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cZXj5ME5cbM",
+      "url": "https://www.youtube.com/watch?v=cZXj5ME5cbM",
+      "creator": { "@type": "Person", "name": "Less Impressed More Involved" },
+      "duration": "PT482S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The key defensive insight is that you do not need to completely prevent the roll
 **Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Escape to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EsLbWW3UFo0)
+
+<p class="clip-credit"><strong>How to Escape the Aoki Lock</strong> — taught by Junny Ocasio · 3:28 · <a href="https://www.youtube.com/watch?v=EsLbWW3UFo0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cZXj5ME5cbM)
+
+<p class="clip-credit"><strong>Avoiding Leg Lock Shootouts</strong> — taught by Less Impressed More Involved · 8:02 · <a href="https://www.youtube.com/watch?v=cZXj5ME5cbM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

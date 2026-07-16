@@ -154,6 +154,54 @@ description: "How to defend against Spider Guard Pass in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spider Guard Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider guard retention drill, feet in biceps",
+      "description": "Spider Guard Pass (Defender) film study: Spider guard retention drill, feet in biceps, taught by Denise Houle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P0MjwfaMlFE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P0MjwfaMlFE",
+      "url": "https://www.youtube.com/watch?v=P0MjwfaMlFE",
+      "creator": { "@type": "Person", "name": "Denise Houle" },
+      "duration": "PT185S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Grip chain for guard retention",
+      "description": "Spider Guard Pass (Defender) film study: Grip chain for guard retention, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T_GhZe_MOWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T_GhZe_MOWI",
+      "url": "https://www.youtube.com/watch?v=T_GhZe_MOWI",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention 101: defending the X-pass",
+      "description": "Spider Guard Pass (Defender) film study: Guard retention 101: defending the X-pass, taught by Ostap Manastyrski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rH8oYjlBsZg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rH8oYjlBsZg",
+      "url": "https://www.youtube.com/watch?v=rH8oYjlBsZg",
+      "creator": { "@type": "Person", "name": "Ostap Manastyrski" },
+      "duration": "PT275S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -163,6 +211,42 @@ Defending the Spider Guard Pass means you are the bottom player working to retai
 **Opponent's Starting Position**: [[Positions/Spider Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spider Guard Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P0MjwfaMlFE)
+
+<p class="clip-credit"><strong>Spider guard retention drill, feet in biceps</strong> — taught by Denise Houle · 3:05 · <a href="https://www.youtube.com/watch?v=P0MjwfaMlFE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T_GhZe_MOWI)
+
+<p class="clip-credit"><strong>Grip chain for guard retention</strong> — taught by Xande Ribeiro · 2:54 · <a href="https://www.youtube.com/watch?v=T_GhZe_MOWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rH8oYjlBsZg)
+
+<p class="clip-credit"><strong>Guard retention 101: defending the X-pass</strong> — taught by Ostap Manastyrski · 4:35 · <a href="https://www.youtube.com/watch?v=rH8oYjlBsZg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

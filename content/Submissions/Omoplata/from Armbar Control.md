@@ -34,6 +34,54 @@ description: "Master the omoplata from armbar control in BJJ. Complete guide cov
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Armbar Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata to armbar transition",
+      "description": "Omoplata from Armbar Control film study: Omoplata to armbar transition, taught by Asbury Park Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HtMbIJCiz-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HtMbIJCiz-4",
+      "url": "https://www.youtube.com/watch?v=HtMbIJCiz-4",
+      "creator": { "@type": "Person", "name": "Asbury Park Jiu Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata to armbar",
+      "description": "Omoplata from Armbar Control film study: Omoplata to armbar, taught by Bicudo Maciel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hZMbgWNh7MI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hZMbgWNh7MI",
+      "url": "https://www.youtube.com/watch?v=hZMbgWNh7MI",
+      "creator": { "@type": "Person", "name": "Bicudo Maciel" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata stretch sweep to armbar",
+      "description": "Omoplata from Armbar Control film study: Omoplata stretch sweep to armbar, taught by M-Theory Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q7PbaORwRKo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q7PbaORwRKo",
+      "url": "https://www.youtube.com/watch?v=Q7PbaORwRKo",
+      "creator": { "@type": "Person", "name": "M-Theory Martial Arts" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 **Starting Position**: [[Positions/Armbar Control]] · **From**: [[Positions/Armbar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Armbar Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HtMbIJCiz-4)
+
+<p class="clip-credit"><strong>Omoplata to armbar transition</strong> — taught by Asbury Park Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=HtMbIJCiz-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hZMbgWNh7MI)
+
+<p class="clip-credit"><strong>Omoplata to armbar</strong> — taught by Bicudo Maciel · 0:25 · <a href="https://www.youtube.com/watch?v=hZMbgWNh7MI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q7PbaORwRKo)
+
+<p class="clip-credit"><strong>Omoplata stretch sweep to armbar</strong> — taught by M-Theory Martial Arts · 0:30 · <a href="https://www.youtube.com/watch?v=Q7PbaORwRKo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

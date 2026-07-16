@@ -148,6 +148,43 @@ description: "How to defend against Leg Drag to Mount in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention against the leg drag",
+      "description": "Leg Drag to Mount (Defender) film study: Guard retention against the leg drag, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fFqoFDE2yyw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fFqoFDE2yyw",
+      "url": "https://www.youtube.com/watch?v=fFqoFDE2yyw",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quick mount escape",
+      "description": "Leg Drag to Mount (Defender) film study: Quick mount escape, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uTuPvxQUOo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uTuPvxQUOo4",
+      "url": "https://www.youtube.com/watch?v=uTuPvxQUOo4",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ From a strategic perspective, your best defense against the leg drag to mount ac
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fFqoFDE2yyw)
+
+<p class="clip-credit"><strong>Guard retention against the leg drag</strong> — taught by Brandon Quick · 1:30 · <a href="https://www.youtube.com/watch?v=fFqoFDE2yyw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uTuPvxQUOo4)
+
+<p class="clip-credit"><strong>Quick mount escape</strong> — taught by bjjtaro · 0:23 · <a href="https://www.youtube.com/watch?v=uTuPvxQUOo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

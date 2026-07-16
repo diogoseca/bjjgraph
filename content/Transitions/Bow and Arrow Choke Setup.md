@@ -34,6 +34,54 @@ description: "Master the Bow and Arrow Choke Setup from Gift Wrap in BJJ. Step-b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and arrow choke breakdown",
+      "description": "Bow and Arrow Choke Setup film study: Bow and arrow choke breakdown, taught by Helena Crevar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
+      "url": "https://www.youtube.com/watch?v=rc77idEskwo",
+      "creator": { "@type": "Person", "name": "Helena Crevar" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and arrow choke from back control",
+      "description": "Bow and Arrow Choke Setup film study: Bow and arrow choke from back control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
+      "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Key finishing detail for the bow and arrow choke",
+      "description": "Bow and Arrow Choke Setup film study: Key finishing detail for the bow and arrow choke, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6yx5No7AKU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6yx5No7AKU0",
+      "url": "https://www.youtube.com/watch?v=6yx5No7AKU0",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rc77idEskwo)
+
+<p class="clip-credit"><strong>Bow and arrow choke breakdown</strong> — taught by Helena Crevar · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
+
+<p class="clip-credit"><strong>Bow and arrow choke from back control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6yx5No7AKU0)
+
+<p class="clip-credit"><strong>Key finishing detail for the bow and arrow choke</strong> — taught by Henry Akins · 0:42 · <a href="https://www.youtube.com/watch?v=6yx5No7AKU0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

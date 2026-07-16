@@ -174,6 +174,54 @@ description: "Execute the Deep Half Sweep from deep half guard bottom. Step-by-s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep half sweep \u2014 the Faria sweep",
+      "description": "Deep Half Sweep (Attacker) film study: Deep half sweep \u2014 the Faria sweep, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
+      "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep half guard sweep demonstration",
+      "description": "Deep Half Sweep (Attacker) film study: Deep half guard sweep demonstration, taught by Kyle Dimmitt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
+      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
+      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi deep half guard sweep in one minute",
+      "description": "Deep Half Sweep (Attacker) film study: No-gi deep half guard sweep in one minute, taught by Prism Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v7MopqNBzwY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v7MopqNBzwY",
+      "url": "https://www.youtube.com/watch?v=v7MopqNBzwY",
+      "creator": { "@type": "Person", "name": "Prism Jiu Jitsu" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 **From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
+
+<p class="clip-credit"><strong>Deep half sweep — the Faria sweep</strong> — taught by Team Daruma Dojo · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
+
+<p class="clip-credit"><strong>Deep half guard sweep demonstration</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v7MopqNBzwY)
+
+<p class="clip-credit"><strong>No-gi deep half guard sweep in one minute</strong> — taught by Prism Jiu Jitsu · 0:53 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

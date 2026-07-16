@@ -148,6 +148,54 @@ description: "Learn to defend against the Technical Stand Up from Open Guard in 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Stand Up from Open Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "When they stand up from your guard with sleeve control",
+      "description": "Technical Stand Up from Open Guard (Defender) film study: When they stand up from your guard with sleeve control, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TCinYYTF2BA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TCinYYTF2BA",
+      "url": "https://www.youtube.com/watch?v=TCinYYTF2BA",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "When they don\u0027t let go of your guard retention",
+      "description": "Technical Stand Up from Open Guard (Defender) film study: When they don\u0027t let go of your guard retention, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xj_MVwk2jq0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xj_MVwk2jq0",
+      "url": "https://www.youtube.com/watch?v=Xj_MVwk2jq0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Open guard strikes to stand up",
+      "description": "Technical Stand Up from Open Guard (Defender) film study: Open guard strikes to stand up, taught by Mack Training Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gyeBBx6zozk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gyeBBx6zozk",
+      "url": "https://www.youtube.com/watch?v=gyeBBx6zozk",
+      "creator": { "@type": "Person", "name": "Mack Training Academy" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Technical Stand Up from Open Guard, you are the top 
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Stand Up from Open Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TCinYYTF2BA)
+
+<p class="clip-credit"><strong>When they stand up from your guard with sleeve control</strong> — taught by Jean Jacques Machado · 0:54 · <a href="https://www.youtube.com/watch?v=TCinYYTF2BA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xj_MVwk2jq0)
+
+<p class="clip-credit"><strong>When they don&#39;t let go of your guard retention</strong> — taught by Jean Jacques Machado · 0:46 · <a href="https://www.youtube.com/watch?v=Xj_MVwk2jq0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gyeBBx6zozk)
+
+<p class="clip-credit"><strong>Open guard strikes to stand up</strong> — taught by Mack Training Academy · 1:26 · <a href="https://www.youtube.com/watch?v=gyeBBx6zozk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

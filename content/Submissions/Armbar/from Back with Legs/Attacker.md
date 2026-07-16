@@ -170,6 +170,54 @@ description: "How to execute Armbar from Back with Legs in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Back with Legs (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from back control",
+      "description": "Armbar from Back with Legs (Attacker) film study: Armbar from back control, taught by Cesar Lima.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B01WDrVESIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B01WDrVESIo",
+      "url": "https://www.youtube.com/watch?v=B01WDrVESIo",
+      "creator": { "@type": "Person", "name": "Cesar Lima" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from back mount (Danaher system)",
+      "description": "Armbar from Back with Legs (Attacker) film study: Armbar from back mount (Danaher system), taught by Aaron Milam.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I4PhmMcJn_Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I4PhmMcJn_Y",
+      "url": "https://www.youtube.com/watch?v=I4PhmMcJn_Y",
+      "creator": { "@type": "Person", "name": "Aaron Milam" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from the back variation",
+      "description": "Armbar from Back with Legs (Attacker) film study: Armbar from the back variation, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jf1kPefTmm0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jf1kPefTmm0",
+      "url": "https://www.youtube.com/watch?v=jf1kPefTmm0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Back with Legs (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B01WDrVESIo)
+
+<p class="clip-credit"><strong>Armbar from back control</strong> — taught by Cesar Lima · 1:26 · <a href="https://www.youtube.com/watch?v=B01WDrVESIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I4PhmMcJn_Y)
+
+<p class="clip-credit"><strong>Armbar from back mount (Danaher system)</strong> — taught by Aaron Milam · 2:50 · <a href="https://www.youtube.com/watch?v=I4PhmMcJn_Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jf1kPefTmm0)
+
+<p class="clip-credit"><strong>Armbar from the back variation</strong> — taught by Malachy Friedman · 1:20 · <a href="https://www.youtube.com/watch?v=jf1kPefTmm0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Complete guide to defending the Sweep from Double Unders as the to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Double Unders (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder lock defending the double under stack pass",
+      "description": "Sweep from Double Unders (Defender) film study: Shoulder lock defending the double under stack pass, taught by Tony Casarez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dH6Cj-nv3vU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dH6Cj-nv3vU",
+      "url": "https://www.youtube.com/watch?v=dH6Cj-nv3vU",
+      "creator": { "@type": "Person", "name": "Tony Casarez" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the over under pass with guard retention",
+      "description": "Sweep from Double Unders (Defender) film study: Defending the over under pass with guard retention, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vpxKcZFFM8g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vpxKcZFFM8g",
+      "url": "https://www.youtube.com/watch?v=vpxKcZFFM8g",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT190S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Sweep from Double Unders, you are the top player who
 **Opponent's Starting Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Double Unders (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dH6Cj-nv3vU)
+
+<p class="clip-credit"><strong>Shoulder lock defending the double under stack pass</strong> — taught by Tony Casarez · 1:02 · <a href="https://www.youtube.com/watch?v=dH6Cj-nv3vU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vpxKcZFFM8g)
+
+<p class="clip-credit"><strong>Defending the over under pass with guard retention</strong> — taught by Mikey Musumeci · 3:10 · <a href="https://www.youtube.com/watch?v=vpxKcZFFM8g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

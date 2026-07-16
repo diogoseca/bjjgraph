@@ -153,6 +153,54 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prison guard breakdown from rubber guard",
+      "description": "Rubber Guard (Bottom) film study: Prison guard breakdown from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Meathook options from rubber guard",
+      "description": "Rubber Guard (Bottom) film study: Meathook options from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KN7ww-OyaxQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KN7ww-OyaxQ",
+      "url": "https://www.youtube.com/watch?v=KN7ww-OyaxQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Invisible collar from rubber guard",
+      "description": "Rubber Guard (Bottom) film study: Invisible collar from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
+      "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
 The Rubber Guard from the bottom perspective represents one of the most innovative and systematically developed guard positions in modern Brazilian Jiu-Jitsu. Developed specifically for no-gi grappling and MMA applications, this position fundamentally reimagines closed guard control by incorporating extreme flexibility and systematic progression through named positions. From bottom, the practitioner uses their leg to create a locked configuration that traps the opponent's arm against their own chest while simultaneously controlling posture. This dual-threat control system creates unique submission opportunities unavailable from conventional guard positions. The position begins from closed guard, where the bottom player breaks the opponent's posture and brings one leg high across the opponent's back, securing the shin or foot with the same-side hand to create Mission Control, the foundational Rubber Guard position. From here, systematic progressions lead to New York (omoplata threat), Invisible Collar (choke setups), Zombie (gogoplata position), and numerous other variations, each with specific grip configurations and submission entries. The bottom player's strategy centers on maintaining constant arm isolation while using the opponent's defensive reactions to dictate which submission pathway to pursue. Understanding the Rubber Guard system requires accepting its physical prerequisites—exceptional hip flexibility is non-negotiable—but for practitioners who possess or develop this attribute, the position offers a comprehensive attacking system that creates unique problems for conventionally trained opponents. The energy management aspect is critical: unlike traditional closed guard where pressure can be sustained for extended periods, Rubber Guard's elevated leg position demands intelligent application of pressure in bursts rather than constant maximum tension. The bottom player must also manage the inherent vulnerability to stacking pressure by maintaining proper shoulder positioning and using hip mobility to adjust angles. When executed properly with systematic understanding of the position's nuances, Rubber Guard from bottom provides exceptional control, neutralizes striking in MMA contexts, and creates high-percentage submission opportunities through its unique mechanical configurations.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison guard breakdown from rubber guard</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KN7ww-OyaxQ)
+
+<p class="clip-credit"><strong>Meathook options from rubber guard</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=KN7ww-OyaxQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KCyIwacRKu8)
+
+<p class="clip-credit"><strong>Invisible collar from rubber guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

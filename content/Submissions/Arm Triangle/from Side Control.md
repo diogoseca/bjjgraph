@@ -34,6 +34,54 @@ description: "Master the Arm Triangle from Side Control in BJJ. Complete finishi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Guard to Te Gatame Arm Triangle",
+      "description": "Arm Triangle from Side Control film study: Side Guard to Te Gatame Arm Triangle, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PSgn9TBgwfc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PSgn9TBgwfc",
+      "url": "https://www.youtube.com/watch?v=PSgn9TBgwfc",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Arm Triangle from Side Control",
+      "description": "Arm Triangle from Side Control film study: How to Arm Triangle from Side Control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8An-33URyYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8An-33URyYk",
+      "url": "https://www.youtube.com/watch?v=8An-33URyYk",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm Triangle from Side Control No-Gi",
+      "description": "Arm Triangle from Side Control film study: Arm Triangle from Side Control No-Gi, taught by Ludus Dome.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eid4RdAQ4gI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eid4RdAQ4gI",
+      "url": "https://www.youtube.com/watch?v=eid4RdAQ4gI",
+      "creator": { "@type": "Person", "name": "Ludus Dome" },
+      "duration": "PT36S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ At the highest levels of competition, the arm triangle from side control remains
 **Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PSgn9TBgwfc)
+
+<p class="clip-credit"><strong>Side Guard to Te Gatame Arm Triangle</strong> — taught by Gordon Ryan · 1:17 · <a href="https://www.youtube.com/watch?v=PSgn9TBgwfc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8An-33URyYk)
+
+<p class="clip-credit"><strong>How to Arm Triangle from Side Control</strong> — taught by Evolve MMA · 0:57 · <a href="https://www.youtube.com/watch?v=8An-33URyYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eid4RdAQ4gI)
+
+<p class="clip-credit"><strong>Arm Triangle from Side Control No-Gi</strong> — taught by Ludus Dome · 0:36 · <a href="https://www.youtube.com/watch?v=eid4RdAQ4gI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

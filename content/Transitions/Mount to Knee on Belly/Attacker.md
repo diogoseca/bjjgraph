@@ -174,6 +174,43 @@ description: "Learn to execute the Mount to Knee on Belly transition. Master wei
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount to Knee on Belly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee on Belly to Mount transition breakdown",
+      "description": "Mount to Knee on Belly (Attacker) film study: Knee on Belly to Mount transition breakdown, taught by Great Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hboiOvqegus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hboiOvqegus",
+      "url": "https://www.youtube.com/watch?v=hboiOvqegus",
+      "creator": { "@type": "Person", "name": "Great Grappling" },
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee on Belly transitions to mount and back",
+      "description": "Mount to Knee on Belly (Attacker) film study: Knee on Belly transitions to mount and back, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m1wVnwzqjW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m1wVnwzqjW4",
+      "url": "https://www.youtube.com/watch?v=m1wVnwzqjW4",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT345S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Mount to Knee on Belly transition requires balancing the desire fo
 **From Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount to Knee on Belly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hboiOvqegus)
+
+<p class="clip-credit"><strong>Knee on Belly to Mount transition breakdown</strong> — taught by Great Grappling · 2:41 · <a href="https://www.youtube.com/watch?v=hboiOvqegus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m1wVnwzqjW4)
+
+<p class="clip-credit"><strong>Knee on Belly transitions to mount and back</strong> — taught by MMA Leech · 5:45 · <a href="https://www.youtube.com/watch?v=m1wVnwzqjW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

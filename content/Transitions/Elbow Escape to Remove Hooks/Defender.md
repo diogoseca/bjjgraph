@@ -148,6 +148,54 @@ description: "How to counter the Elbow Escape to Remove Hooks in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape to Remove Hooks (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining back control with the hooks",
+      "description": "Elbow Escape to Remove Hooks (Defender) film study: Maintaining back control with the hooks, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
+      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Control Escape Details",
+      "description": "Elbow Escape to Remove Hooks (Defender) film study: Back Control Escape Details, taught by Nicolas Renier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3lidRO1XZPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3lidRO1XZPk",
+      "url": "https://www.youtube.com/watch?v=3lidRO1XZPk",
+      "creator": { "@type": "Person", "name": "Nicolas Renier" },
+      "duration": "PT317S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Jiu Jitsu Back Escape System",
+      "description": "Elbow Escape to Remove Hooks (Defender) film study: Jiu Jitsu Back Escape System, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N6lKNqUOZoY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N6lKNqUOZoY",
+      "url": "https://www.youtube.com/watch?v=N6lKNqUOZoY",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT675S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders develop sensitivity to the early phases of hook removal attem
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape to Remove Hooks (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
+
+<p class="clip-credit"><strong>Maintaining back control with the hooks</strong> — taught by Gracie Charlottesville · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3lidRO1XZPk)
+
+<p class="clip-credit"><strong>Back Control Escape Details</strong> — taught by Nicolas Renier · 5:17 · <a href="https://www.youtube.com/watch?v=3lidRO1XZPk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N6lKNqUOZoY)
+
+<p class="clip-credit"><strong>Jiu Jitsu Back Escape System</strong> — taught by Matt Arroyo · 11:15 · <a href="https://www.youtube.com/watch?v=N6lKNqUOZoY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

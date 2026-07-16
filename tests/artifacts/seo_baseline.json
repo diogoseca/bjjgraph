@@ -315,19 +315,21 @@
  },
  "Positions/Mount.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount",
-  "content_hash": "1534d191f6604cfb62586900daca21845cfcfd3d5c6b2fa2b4003fbfb9702e5d",
-  "content_len": 14838,
+  "content_hash": "dea8134b6ba350b9de82f28fcd61e59cdf54dc6f552baa9234322d9ca371a51e",
+  "content_len": 15163,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount\", \"name\": \"Mount\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"description\": \"Mount is the dominant top position where you straddle a supine opponent's midsection, worth 4 IBJJF points and prized as jiu-jitsu's best balance of stifling control and high-percentage submission access.\", \"inDefinedTermSet\": \"https://bjjgraph.org/Positions/\", \"name\": \"Mount\"}",
+   "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Roger Gracie\"}, \"description\": \"Mount film study: Roger Gracie Mount Cross Collar Chokes, taught by Roger Gracie.\", \"duration\": \"PT80S\", \"embedUrl\": \"https://www.youtube.com/embed/dfP-Ov8FBUo\", \"name\": \"Roger Gracie Mount Cross Collar Chokes\", \"position\": 1, \"thumbnailUrl\": \"https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=dfP-Ov8FBUo\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"MMA Leech\"}, \"description\": \"Mount film study: Mount Control Fundamentals - Roger Gracie Style, taught by MMA Leech.\", \"duration\": \"PT184S\", \"embedUrl\": \"https://www.youtube.com/embed/5Gxj5VQj8bc\", \"name\": \"Mount Control Fundamentals - Roger Gracie Style\", \"position\": 2, \"thumbnailUrl\": \"https://i.ytimg.com/vi/5Gxj5VQj8bc/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=5Gxj5VQj8bc\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Demian Maia\"}, \"description\": \"Mount film study: Maintaining the Mount Position, taught by Demian Maia.\", \"duration\": \"PT262S\", \"embedUrl\": \"https://www.youtube.com/embed/FO5aipaY0cc\", \"name\": \"Maintaining the Mount Position\", \"position\": 3, \"thumbnailUrl\": \"https://i.ytimg.com/vi/FO5aipaY0cc/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=FO5aipaY0cc\"}], \"name\": \"Mount — Film Study\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Comprehensive Brazilian Jiu-Jitsu knowledge graph and state machine covering 90+ positions, 70+ transitions, and 50+ submissions\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"alternateName\": [\"Full Mount\", \"Tate Shiho Gatame\"], \"dateModified\": \"2026-07-13T22:12:50.180Z\", \"datePublished\": \"2026-06-22T10:43:25.890Z\", \"description\": \"Master the Mount position in BJJ. Complete guide to control, submission chains, escape systems, and mount variations for top and bottom practitioners.\", \"disambiguatingDescription\": \"Often confused with Reverse Mount — Reverse Mount faces away from your opponent, not toward them.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Mount\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
+   "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"alternateName\": [\"Full Mount\", \"Tate Shiho Gatame\"], \"dateModified\": \"2026-07-16T00:11:17.817Z\", \"datePublished\": \"2026-06-22T10:43:25.890Z\", \"description\": \"Master the Mount position in BJJ. Complete guide to control, submission chains, escape systems, and mount variations for top and bottom practitioners.\", \"disambiguatingDescription\": \"Often confused with Reverse Mount — Reverse Mount faces away from your opponent, not toward them.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Mount\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
   ],
   "links": [
    "#available-transitions",
    "#available-transitions-1",
    "#common-mistakes",
    "#common-mistakes-1",
+   "#film-study",
    "#key-principles",
    "#key-principles-1",
    "#key-principles-2",
@@ -391,10 +393,13 @@
    "../../Transitions/Mount-to-Technical-Mount/Attacker",
    "../../Transitions/S-Mount-Transition/Attacker",
    "../../Transitions/Trap-and-Roll-from-Mount/Attacker",
-   "../../Transitions/Upa-Escape/Attacker"
+   "../../Transitions/Upa-Escape/Attacker",
+   "https://www.youtube.com/watch?v=5Gxj5VQj8bc",
+   "https://www.youtube.com/watch?v=FO5aipaY0cc",
+   "https://www.youtube.com/watch?v=dfP-Ov8FBUo"
   ],
   "meta": {
-   "article:modified_time": "2026-07-13T22:12:50.180Z",
+   "article:modified_time": "2026-07-16T00:11:17.817Z",
    "article:published_time": "2026-06-22T10:43:25.890Z",
    "description": "Master the Mount position in BJJ. Complete guide to control, submission chains, escape systems, and mount variations for top and bottom practitioners.",
    "og:description": "Master the Mount position in BJJ. Complete guide to control, submission chains, escape systems, and mount variations for top and bottom practitioners.",
@@ -411,14 +416,15 @@
  },
  "Positions/Mount/Bottom.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount/Bottom",
-  "content_hash": "183844f2192d83366dcde0ca54af447c9d86c6ea3fe555aba2f29c25e2943490",
-  "content_len": 12969,
+  "content_hash": "8662d5c18471c8c9bf6018cc4966d523657f482d05f69933b73fbb29c6164ffe",
+  "content_len": 13299,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount-Bottom\", \"name\": \"Mount Bottom\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Allows opponent to distribute full weight making escape nearly impossible and exposing all submission targets The correct approach is: Immediately establish elbow-knee connection frames and maintain slight angle to prevent flat positioning\"}, \"name\": \"What happens if you lying completely flat on back with no defensive frames or angle established?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent posts free hand easily maintaining base while wasting defender's energy and potentially exposing back The correct approach is: Only bridge explosively after properly trapping same-side arm and foot, or use bridge as setup for hip escape\"}, \"name\": \"What happens if you attempting explosive bridge without first trapping opponent's arm and corresponding leg?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Creates immediate vulnerability for Americana, Kimura, and armbar attacks on the extended limbs The correct approach is: Frame on hips and cross-face area using forearm frames rather than extended arm pushing\"}, \"name\": \"What happens if you pushing directly on opponent's chest or shoulders with extended straight arms?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Gives up back control to opponent who can insert hooks easily into the exposed space The correct approach is: Create space through shrimping first, then turn only when sufficient distance prevents hook insertion\"}, \"name\": \"What happens if you turning to side prematurely without creating sufficient space through hip escape first?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Rapid energy depletion with minimal position improvement as arms fatigue against body weight The correct approach is: Focus on hip escape mechanics and leg drive rather than arm strength for sustainable escape\"}, \"name\": \"What happens if you using only upper body strength for escape attempts without engaging hip escape mechanics?\"}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"HowTo\", \"description\": \"Step-by-step guide to escaping and defending Mount position in BJJ.\", \"name\": \"How to Escape Mount Bottom\", \"step\": [{\"@type\": \"HowToStep\", \"name\": \"Execute Elbow Escape from Mount\", \"position\": 1, \"text\": \"From this position, attempt Elbow Escape from Mount. This technique is attempted in 26% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Upa Escape\", \"position\": 2, \"text\": \"From this position, attempt Upa Escape. This technique is attempted in 20% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Trap and Roll from Mount\", \"position\": 3, \"text\": \"From this position, attempt Trap and Roll from Mount. This technique is attempted in 14% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Heel Drag Escape\", \"position\": 4, \"text\": \"From this position, attempt Heel Drag Escape. This technique is attempted in 14% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Explosive Bridge to Turtle\", \"position\": 5, \"text\": \"From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 9% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Bridge and Roll\", \"position\": 6, \"text\": \"From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.\"}], \"totalTime\": \"PT2M\"}",
+   "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Revolution BJJ\"}, \"description\": \"Mount (Bottom) film study: 2 Mount Escape Options to Half Guard, taught by Revolution BJJ.\", \"duration\": \"PT54S\", \"embedUrl\": \"https://www.youtube.com/embed/cyegyon5hVg\", \"name\": \"2 Mount Escape Options to Half Guard\", \"position\": 1, \"thumbnailUrl\": \"https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=cyegyon5hVg\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Gabriel Gonzaga\"}, \"description\": \"Mount (Bottom) film study: Simple Mount Escape You Should Try, taught by Gabriel Gonzaga.\", \"duration\": \"PT93S\", \"embedUrl\": \"https://www.youtube.com/embed/9252EvCT0q4\", \"name\": \"Simple Mount Escape You Should Try\", \"position\": 2, \"thumbnailUrl\": \"https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=9252EvCT0q4\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Jamie\"}, \"description\": \"Mount (Bottom) film study: Escape the Mount: Knee and Elbow Escape, taught by Jamie.\", \"duration\": \"PT71S\", \"embedUrl\": \"https://www.youtube.com/embed/pUZcLTWHAzk\", \"name\": \"Escape the Mount: Knee and Elbow Escape\", \"position\": 3, \"thumbnailUrl\": \"https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=pUZcLTWHAzk\"}], \"name\": \"Mount (Bottom) — Film Study\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Comprehensive Brazilian Jiu-Jitsu knowledge graph and state machine covering 90+ positions, 70+ transitions, and 50+ submissions\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"alternateName\": [\"Full Mount\", \"Tate Shiho Gatame\"], \"dateModified\": \"2026-07-13T22:12:50.196Z\", \"datePublished\": \"2026-06-22T10:43:25.891Z\", \"description\": \"Master defensive strategies from bottom Mount in BJJ. Learn systematic escape sequences, frame creation, and guard recovery techniques from this position.\", \"disambiguatingDescription\": \"Often confused with Reverse Mount — Reverse Mount faces away from your opponent, not toward them.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Mount Bottom\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
+   "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"alternateName\": [\"Full Mount\", \"Tate Shiho Gatame\"], \"dateModified\": \"2026-07-16T00:11:17.841Z\", \"datePublished\": \"2026-06-22T10:43:25.891Z\", \"description\": \"Master defensive strategies from bottom Mount in BJJ. Learn systematic escape sequences, frame creation, and guard recovery techniques from this position.\", \"disambiguatingDescription\": \"Often confused with Reverse Mount — Reverse Mount faces away from your opponent, not toward them.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Mount Bottom\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
   ],
   "links": [
    "#1-lying-completely-flat-on-back-with-no-defensive-frames-or-angle-established",
@@ -431,6 +437,7 @@
    "#bridge-and-trap-power-development",
    "#common-defensive-mistakes",
    "#decision-making-from-this-position",
+   "#film-study",
    "#key-defensive-principles",
    "#mount-escape-hierarchy-drill",
    "#position-definition",
@@ -471,10 +478,13 @@
    "../../../Transitions/Hip-Escape-to-Turtle/Attacker",
    "../../../Transitions/Trap-and-Roll-from-Mount/Attacker",
    "../../../Transitions/Upa-Escape",
-   "../../../Transitions/Upa-Escape/Attacker"
+   "../../../Transitions/Upa-Escape/Attacker",
+   "https://www.youtube.com/watch?v=9252EvCT0q4",
+   "https://www.youtube.com/watch?v=cyegyon5hVg",
+   "https://www.youtube.com/watch?v=pUZcLTWHAzk"
   ],
   "meta": {
-   "article:modified_time": "2026-07-13T22:12:50.196Z",
+   "article:modified_time": "2026-07-16T00:11:17.841Z",
    "article:published_time": "2026-06-22T10:43:25.891Z",
    "description": "Master defensive strategies from bottom Mount in BJJ. Learn systematic escape sequences, frame creation, and guard recovery techniques from this position.",
    "og:description": "Master defensive strategies from bottom Mount in BJJ. Learn systematic escape sequences, frame creation, and guard recovery techniques from this position.",
@@ -491,14 +501,15 @@
  },
  "Positions/Mount/Top.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount/Top",
-  "content_hash": "69038cbfac4cbf7d2486bf1fcd9e9541934d3dd0dff3a5e6dcb300fded1b44e1",
-  "content_len": 13020,
+  "content_hash": "b39b46ee3e2f15037240793c5643ceef659385c7ea6f5f290d65fbe3a55ca4a3",
+  "content_len": 13258,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount-Top\", \"name\": \"Mount Top\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Vulnerable to explosive upa or bridge escapes resulting in complete position reversal to closed guard The correct approach is: Maintain hips at solar plexus level with wide base until deliberately advancing to high mount with grips established\"}, \"name\": \"What happens if you sitting too high on opponent's chest without establishing proper base control first?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Creates space for opponent's hip escape and knee insertion leading to guard recovery The correct approach is: Keep hands close to opponent's body using tight grips and maintaining chest-to-chest pressure throughout\"}, \"name\": \"What happens if you posting hands too far from opponent's body during submission transitions?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent escapes mount during overcommitted finish attempt, returning to neutral or guard position The correct approach is: Establish dominant grips and verify control before progressing methodically to submission finish\"}, \"name\": \"What happens if you committing to submissions prematurely without establishing dominant grip control?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent builds progressively stronger frames and eventually creates enough space for guard recovery The correct approach is: Immediately advance to high mount or attack the framing arms when frames are established\"}, \"name\": \"What happens if you allowing opponent to establish frames without immediately transitioning or attacking?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Gives opponent time to develop effective defensive strategy and build frames for escape The correct approach is: Constantly threaten submissions or advance position to maintain offensive pressure and defensive uncertainty\"}, \"name\": \"What happens if you remaining static in low mount without threatening submissions or advancing position?\"}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"HowTo\", \"description\": \"Step-by-step guide to attacking and submitting from Mount position in BJJ.\", \"name\": \"How to Attack from Mount Top\", \"step\": [{\"@type\": \"HowToStep\", \"name\": \"Execute Mount to Armbar\", \"position\": 1, \"text\": \"From this position, attempt Mount to Armbar. This technique is attempted in 7% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Cross Collar Choke from Mount\", \"position\": 2, \"text\": \"From this position, attempt Cross Collar Choke from Mount. This technique is attempted in 0% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Gift Wrap to Technical Mount\", \"position\": 3, \"text\": \"From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 9% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute S-Mount Transition\", \"position\": 4, \"text\": \"From this position, attempt S-Mount Transition. This technique is attempted in 6% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Mounted Triangle\", \"position\": 5, \"text\": \"From this position, attempt Mounted Triangle. This technique is attempted in 4% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Consolidate Mount\", \"position\": 6, \"text\": \"From this position, attempt Consolidate Mount. This technique is attempted in 11% of exchanges from this position.\"}], \"totalTime\": \"PT2M\"}",
+   "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Roger Gracie\"}, \"description\": \"Mount (Top) film study: Cross Collar Chokes from Mount, taught by Roger Gracie.\", \"duration\": \"PT80S\", \"embedUrl\": \"https://www.youtube.com/embed/dfP-Ov8FBUo\", \"name\": \"Cross Collar Chokes from Mount\", \"position\": 1, \"thumbnailUrl\": \"https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=dfP-Ov8FBUo\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Formidable Combat\"}, \"description\": \"Mount (Top) film study: Full Mount Top Control Fundamentals, taught by Formidable Combat.\", \"duration\": \"PT106S\", \"embedUrl\": \"https://www.youtube.com/embed/SGZ5wD3z73Q\", \"name\": \"Full Mount Top Control Fundamentals\", \"position\": 2, \"thumbnailUrl\": \"https://i.ytimg.com/vi/SGZ5wD3z73Q/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=SGZ5wD3z73Q\"}], \"name\": \"Mount (Top) — Film Study\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Comprehensive Brazilian Jiu-Jitsu knowledge graph and state machine covering 90+ positions, 70+ transitions, and 50+ submissions\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"alternateName\": [\"Full Mount\", \"Tate Shiho Gatame\"], \"dateModified\": \"2026-07-13T22:12:50.212Z\", \"datePublished\": \"2026-06-22T10:43:25.894Z\", \"description\": \"Master offensive strategies from top Mount in BJJ. Learn control mechanics, submission chains, and systematic positional progression to finish from mount.\", \"disambiguatingDescription\": \"Often confused with Reverse Mount — Reverse Mount faces away from your opponent, not toward them.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Mount Top\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
+   "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"alternateName\": [\"Full Mount\", \"Tate Shiho Gatame\"], \"dateModified\": \"2026-07-16T00:11:17.865Z\", \"datePublished\": \"2026-06-22T10:43:25.894Z\", \"description\": \"Master offensive strategies from top Mount in BJJ. Learn control mechanics, submission chains, and systematic positional progression to finish from mount.\", \"disambiguatingDescription\": \"Often confused with Reverse Mount — Reverse Mount faces away from your opponent, not toward them.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Mount Top\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
   ],
   "links": [
    "#1-sitting-too-high-on-opponents-chest-without-establishing-proper-base-control-first",
@@ -510,6 +521,7 @@
    "#7-ignoring-opponents-turn-to-side-and-missing-the-back-take-opportunity-window",
    "#common-offensive-mistakes",
    "#decision-making-from-this-position",
+   "#film-study",
    "#key-offensive-principles",
    "#mount-maintenance-against-progressive-resistance",
    "#mount-variation-flow-drill",
@@ -559,10 +571,12 @@
    "../../../Transitions/Mount-to-Armbar",
    "../../../Transitions/Mount-to-Armbar/Attacker",
    "../../../Transitions/S-Mount-Transition/Attacker",
-   "../../../game-over"
+   "../../../game-over",
+   "https://www.youtube.com/watch?v=SGZ5wD3z73Q",
+   "https://www.youtube.com/watch?v=dfP-Ov8FBUo"
   ],
   "meta": {
-   "article:modified_time": "2026-07-13T22:12:50.212Z",
+   "article:modified_time": "2026-07-16T00:11:17.865Z",
    "article:published_time": "2026-06-22T10:43:25.894Z",
    "description": "Master offensive strategies from top Mount in BJJ. Learn control mechanics, submission chains, and systematic positional progression to finish from mount.",
    "og:description": "Master offensive strategies from top Mount in BJJ. Learn control mechanics, submission chains, and systematic positional progression to finish from mount.",
@@ -579,16 +593,18 @@
  },
  "Submissions/Rear-Naked-Choke.html": {
   "canonical": "https://bjjgraph.org/Submissions/Rear-Naked-Choke",
-  "content_hash": "4d8922a33d6bdd3d89fbe96cb6a7175f8ca773728c5e8609ca270253be36600c",
-  "content_len": 7545,
+  "content_hash": "912704879c9e97d5f20801e90a2bbe700acc3804d0928fcd3903f422a6bb89da",
+  "content_len": 7946,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/\", \"name\": \"Submissions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/Rear-Naked-Choke\", \"name\": \"Rear Naked Choke\", \"position\": 3}]}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"CollectionPage\", \"alternateName\": [\"Mata Leão\", \"Mata Leao\", \"Hadaka Jime\", \"RNC\", \"Sleeper Hold\"], \"dateModified\": \"2026-07-13T22:14:14.556Z\", \"datePublished\": \"2026-06-22T10:43:26.035Z\", \"description\": \"Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Rear Naked Choke\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"sameAs\": [\"https://en.wikipedia.org/wiki/Rear_naked_choke\", \"https://www.wikidata.org/wiki/Q4845233\"]}",
+   "{\"@context\": \"https://schema.org\", \"@type\": \"CollectionPage\", \"alternateName\": [\"Mata Leão\", \"Mata Leao\", \"Hadaka Jime\", \"RNC\", \"Sleeper Hold\"], \"dateModified\": \"2026-07-16T00:13:13.250Z\", \"datePublished\": \"2026-06-22T10:43:26.035Z\", \"description\": \"Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Rear Naked Choke\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"sameAs\": [\"https://en.wikipedia.org/wiki/Rear_naked_choke\", \"https://www.wikidata.org/wiki/Q4845233\"]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"description\": \"The Rear Naked Choke is a blood choke applied from behind that wraps a forearm across the throat to compress both carotid arteries, cutting blood flow to the brain and forcing a tap or unconsciousness within seconds.\", \"inDefinedTermSet\": \"https://bjjgraph.org/Submissions/\", \"name\": \"Rear Naked Choke\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The Rear Naked Choke is a blood choke applied from behind that wraps a forearm across the throat to compress both carotid arteries, cutting blood flow to the brain and forcing a tap or unconsciousness within seconds.\"}, \"name\": \"What is the Rear Naked Choke?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You can finish the Rear Naked Choke from Back Control, Body Triangle, Crucifix, Gift Wrap, Harness, Rear Triangle, Seat Belt Control Back, Standing Back Control, Invisible Collar, Mounted Crucifix, Rodeo Ride, Russian Cowboy, Standing Rear Clinch.\"}, \"name\": \"What positions can you finish the Rear Naked Choke from?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Rear Naked Choke targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early and release immediately on the tap.\"}, \"name\": \"Is the Rear Naked Choke dangerous?\"}]}",
+   "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Affinity Academy\"}, \"description\": \"Rear Naked Choke film study: Rear Naked Choke from Back Control, taught by Affinity Academy.\", \"duration\": \"PT75S\", \"embedUrl\": \"https://www.youtube.com/embed/3vCytl_OI-4\", \"name\": \"Rear Naked Choke from Back Control\", \"position\": 1, \"thumbnailUrl\": \"https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=3vCytl_OI-4\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Gordon Ryan\"}, \"description\": \"Rear Naked Choke film study: Rear Naked Choke, taught by Gordon Ryan.\", \"duration\": \"PT73S\", \"embedUrl\": \"https://www.youtube.com/embed/70jECxFfCSA\", \"name\": \"Rear Naked Choke\", \"position\": 2, \"thumbnailUrl\": \"https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=70jECxFfCSA\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Henry Akins\"}, \"description\": \"Rear Naked Choke film study: Rear Naked Choke: It's in the Squeeze, taught by Henry Akins.\", \"duration\": \"PT95S\", \"embedUrl\": \"https://www.youtube.com/embed/rPRORaAiJAs\", \"name\": \"Rear Naked Choke: It's in the Squeeze\", \"position\": 3, \"thumbnailUrl\": \"https://i.ytimg.com/vi/rPRORaAiJAs/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=rPRORaAiJAs\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Grapple Box\"}, \"description\": \"Rear Naked Choke film study: Attack the Back with a Body Triangle, taught by Grapple Box.\", \"duration\": \"PT28S\", \"embedUrl\": \"https://www.youtube.com/embed/3OkCuU0B0UE\", \"name\": \"Attack the Back with a Body Triangle\", \"position\": 4, \"thumbnailUrl\": \"https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=3OkCuU0B0UE\"}], \"name\": \"Rear Naked Choke — Film Study\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Comprehensive Brazilian Jiu-Jitsu knowledge graph and state machine covering 90+ positions, 70+ transitions, and 50+ submissions\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
   ],
   "links": [
+   "#film-study",
    "#related",
    "#safety-considerations",
    "#safety-guide",
@@ -650,10 +666,14 @@
    "../../Submissions/Rear-Naked-Choke/from-Standing-Rear-Clinch/Attacker",
    "../../Submissions/Rear-Naked-Choke/from-Standing-Rear-Clinch/Defender",
    "../../Transitions/Armbar-from-Back-Transition",
-   "../../Transitions/Clock-Choke"
+   "../../Transitions/Clock-Choke",
+   "https://www.youtube.com/watch?v=3OkCuU0B0UE",
+   "https://www.youtube.com/watch?v=3vCytl_OI-4",
+   "https://www.youtube.com/watch?v=70jECxFfCSA",
+   "https://www.youtube.com/watch?v=rPRORaAiJAs"
   ],
   "meta": {
-   "article:modified_time": "2026-07-13T22:14:14.556Z",
+   "article:modified_time": "2026-07-16T00:13:13.250Z",
    "article:published_time": "2026-06-22T10:43:26.035Z",
    "description": "Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.",
    "og:description": "Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.",

@@ -34,6 +34,43 @@ description: "Master the transition to Russian Leg Lasso in BJJ. Learn double-le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard to Russian Leg Lasso \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "4 Leg Lasso Techniques",
+      "description": "Lasso Guard to Russian Leg Lasso film study: 4 Leg Lasso Techniques, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8u1c8ZEy0IU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8u1c8ZEy0IU",
+      "url": "https://www.youtube.com/watch?v=8u1c8ZEy0IU",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT258S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Essential Attacks from Lasso Guard",
+      "description": "Lasso Guard to Russian Leg Lasso film study: 3 Essential Attacks from Lasso Guard, taught by BIG OSS Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2DCBkTnHVMg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2DCBkTnHVMg",
+      "url": "https://www.youtube.com/watch?v=2DCBkTnHVMg",
+      "creator": { "@type": "Person", "name": "BIG OSS Jiu-Jitsu" },
+      "duration": "PT498S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this transition serves as an escalation within the lasso guard sy
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard to Russian Leg Lasso in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8u1c8ZEy0IU)
+
+<p class="clip-credit"><strong>4 Leg Lasso Techniques</strong> — taught by The Grappling Academy · 4:18 · <a href="https://www.youtube.com/watch?v=8u1c8ZEy0IU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2DCBkTnHVMg)
+
+<p class="clip-credit"><strong>3 Essential Attacks from Lasso Guard</strong> — taught by BIG OSS Jiu-Jitsu · 8:18 · <a href="https://www.youtube.com/watch?v=2DCBkTnHVMg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

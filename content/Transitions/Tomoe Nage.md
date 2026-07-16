@@ -35,6 +35,54 @@ description: "Learn Tomoe Nage sacrifice throw for BJJ. Master execution from st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tomoe Nage \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mastering tomoe nage",
+      "description": "Tomoe Nage film study: Mastering tomoe nage, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z_wKBxX_BC4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z_wKBxX_BC4",
+      "url": "https://www.youtube.com/watch?v=Z_wKBxX_BC4",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tomoe nage in three directions",
+      "description": "Tomoe Nage film study: Tomoe nage in three directions, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1f2S-JKMbrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1f2S-JKMbrk",
+      "url": "https://www.youtube.com/watch?v=1f2S-JKMbrk",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT124S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Learning tomoe nage safely",
+      "description": "Tomoe Nage film study: Learning tomoe nage safely, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TON-fQk3aTc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TON-fQk3aTc",
+      "url": "https://www.youtube.com/watch?v=TON-fQk3aTc",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,6 +119,42 @@ Modern BJJ has adapted this classical judo throw into a versatile entry system t
 **Success Rate**: 23%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tomoe Nage in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z_wKBxX_BC4)
+
+<p class="clip-credit"><strong>Mastering tomoe nage</strong> — taught by Shintaro Higashi · 1:01 · <a href="https://www.youtube.com/watch?v=Z_wKBxX_BC4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1f2S-JKMbrk)
+
+<p class="clip-credit"><strong>Tomoe nage in three directions</strong> — taught by Shintaro Higashi · 2:04 · <a href="https://www.youtube.com/watch?v=1f2S-JKMbrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TON-fQk3aTc)
+
+<p class="clip-credit"><strong>Learning tomoe nage safely</strong> — taught by Shintaro Higashi · 1:50 · <a href="https://www.youtube.com/watch?v=TON-fQk3aTc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

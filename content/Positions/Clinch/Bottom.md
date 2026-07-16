@@ -153,6 +153,43 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clinch (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Break any collar grip with technique",
+      "description": "Clinch (Bottom) film study: Break any collar grip with technique, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jTk5AaZd1Rc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jTk5AaZd1Rc",
+      "url": "https://www.youtube.com/watch?v=jTk5AaZd1Rc",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Grip break when opponent stiff-arms",
+      "description": "Clinch (Bottom) film study: Grip break when opponent stiff-arms, taught by Kathy Hubble.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KBcwWBEdCUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KBcwWBEdCUQ",
+      "url": "https://www.youtube.com/watch?v=KBcwWBEdCUQ",
+      "creator": { "@type": "Person", "name": "Kathy Hubble" },
+      "duration": "PT107S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ The Clinch Position represents a fundamental standing control scenario where pra
 In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown setups into a sophisticated control system that dictates the terms of engagement. Elite practitioners use the clinch to funnel opponents toward preferred positions, whether that's establishing dominant grips for takedowns or creating advantageous scenarios for guard pulls. The position demands constant grip awareness, precise weight distribution, and the ability to read and counter your opponent's intentions in real-time. Understanding clinch mechanics is essential for any complete BJJ game, as it bridges the gap between standing and ground engagement while offering numerous pathways to establish positional control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clinch (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jTk5AaZd1Rc)
+
+<p class="clip-credit"><strong>Break any collar grip with technique</strong> — taught by Travis Stevens · 1:53 · <a href="https://www.youtube.com/watch?v=jTk5AaZd1Rc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KBcwWBEdCUQ)
+
+<p class="clip-credit"><strong>Grip break when opponent stiff-arms</strong> — taught by Kathy Hubble · 1:47 · <a href="https://www.youtube.com/watch?v=KBcwWBEdCUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

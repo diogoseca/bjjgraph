@@ -148,6 +148,54 @@ description: "How to defend against Triangle Clear to Side in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Clear to Side (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping body triangle from overhook side",
+      "description": "Triangle Clear to Side (Defender) film study: Escaping body triangle from overhook side, taught by Michael Hoffman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KBIfKdRXAuc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KBIfKdRXAuc",
+      "url": "https://www.youtube.com/watch?v=KBIfKdRXAuc",
+      "creator": { "@type": "Person", "name": "Michael Hoffman" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back defense: Home Alone escape",
+      "description": "Triangle Clear to Side (Defender) film study: Back defense: Home Alone escape, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cWrV0wc6jyQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cWrV0wc6jyQ",
+      "url": "https://www.youtube.com/watch?v=cWrV0wc6jyQ",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the body triangle from back control",
+      "description": "Triangle Clear to Side (Defender) film study: Escaping the body triangle from back control, taught by Coach Ben.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dc3sgOZddOg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dc3sgOZddOg",
+      "url": "https://www.youtube.com/watch?v=Dc3sgOZddOg",
+      "creator": { "@type": "Person", "name": "Coach Ben" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense requires understanding when to prioritize re-locking the tria
 **Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Clear to Side (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KBIfKdRXAuc)
+
+<p class="clip-credit"><strong>Escaping body triangle from overhook side</strong> — taught by Michael Hoffman · 1:08 · <a href="https://www.youtube.com/watch?v=KBIfKdRXAuc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cWrV0wc6jyQ)
+
+<p class="clip-credit"><strong>Back defense: Home Alone escape</strong> — taught by Procel BJJ · 1:24 · <a href="https://www.youtube.com/watch?v=cWrV0wc6jyQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dc3sgOZddOg)
+
+<p class="clip-credit"><strong>Escaping the body triangle from back control</strong> — taught by Coach Ben · 2:18 · <a href="https://www.youtube.com/watch?v=Dc3sgOZddOg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

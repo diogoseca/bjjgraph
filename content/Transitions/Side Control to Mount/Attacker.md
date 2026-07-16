@@ -168,6 +168,54 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to mount with head and arm choke",
+      "description": "Side Control to Mount (Attacker) film study: Side control to mount with head and arm choke, taught by Sticks and Stones BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yTQT4hMLZGk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yTQT4hMLZGk",
+      "url": "https://www.youtube.com/watch?v=yTQT4hMLZGk",
+      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ coach" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Control to Mount",
+      "description": "Side Control to Mount (Attacker) film study: Side Control to Mount, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4GwlWU0Avlc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4GwlWU0Avlc",
+      "url": "https://www.youtube.com/watch?v=4GwlWU0Avlc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT342S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side Control to Mount Transition Fundamentals",
+      "description": "Side Control to Mount (Attacker) film study: Side Control to Mount Transition Fundamentals, taught by Danny Fung.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y78snTkc7iI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y78snTkc7iI",
+      "url": "https://www.youtube.com/watch?v=Y78snTkc7iI",
+      "creator": { "@type": "Person", "name": "Danny Fung" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ As the top player, your objective is to convert a stable side control pin into m
 **From Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yTQT4hMLZGk)
+
+<p class="clip-credit"><strong>Side control to mount with head and arm choke</strong> — taught by Sticks and Stones BJJ coach · 2:23 · <a href="https://www.youtube.com/watch?v=yTQT4hMLZGk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4GwlWU0Avlc)
+
+<p class="clip-credit"><strong>Side Control to Mount</strong> — taught by Lachlan Giles · 5:42 · <a href="https://www.youtube.com/watch?v=4GwlWU0Avlc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y78snTkc7iI)
+
+<p class="clip-credit"><strong>Side Control to Mount Transition Fundamentals</strong> — taught by Danny Fung · 2:43 · <a href="https://www.youtube.com/watch?v=Y78snTkc7iI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

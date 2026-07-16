@@ -34,6 +34,54 @@ description: "Master the anaconda grip break to front headlock in BJJ. Complete 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Grip Break to Front Headlock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High wrist guillotine switching to anaconda choke",
+      "description": "Anaconda Grip Break to Front Headlock film study: High wrist guillotine switching to anaconda choke, taught by Mark Cerrone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ebDSf6ao2Yk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ebDSf6ao2Yk",
+      "url": "https://www.youtube.com/watch?v=ebDSf6ao2Yk",
+      "creator": { "@type": "Person", "name": "Mark Cerrone" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chasing the neck: anacondas, guillotines and darce chokes",
+      "description": "Anaconda Grip Break to Front Headlock film study: Chasing the neck: anacondas, guillotines and darce chokes, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l2SXQRMPbKQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l2SXQRMPbKQ",
+      "url": "https://www.youtube.com/watch?v=l2SXQRMPbKQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT614S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The anaconda choke from front headlock",
+      "description": "Anaconda Grip Break to Front Headlock film study: The anaconda choke from front headlock, taught by The B-Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OWVMvV4gmIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OWVMvV4gmIo",
+      "url": "https://www.youtube.com/watch?v=OWVMvV4gmIo",
+      "creator": { "@type": "Person", "name": "The B-Team" },
+      "duration": "PT235S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Successfully breaking the anaconda grip deposits you in front headlock bottom po
 **Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Grip Break to Front Headlock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ebDSf6ao2Yk)
+
+<p class="clip-credit"><strong>High wrist guillotine switching to anaconda choke</strong> — taught by Mark Cerrone · 1:27 · <a href="https://www.youtube.com/watch?v=ebDSf6ao2Yk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l2SXQRMPbKQ)
+
+<p class="clip-credit"><strong>Chasing the neck: anacondas, guillotines and darce chokes</strong> — taught by Lachlan Giles · 10:14 · <a href="https://www.youtube.com/watch?v=l2SXQRMPbKQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OWVMvV4gmIo)
+
+<p class="clip-credit"><strong>The anaconda choke from front headlock</strong> — taught by The B-Team · 3:55 · <a href="https://www.youtube.com/watch?v=OWVMvV4gmIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -140,6 +140,54 @@ description: "Prevent guard recovery from combat base as the top player in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Combat Base (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop Getting Your Guard Passed: 3 Simple Tricks",
+      "description": "Guard Recovery from Combat Base (Defender) film study: Stop Getting Your Guard Passed: 3 Simple Tricks, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q4e8HHp7avk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q4e8HHp7avk",
+      "url": "https://www.youtube.com/watch?v=q4e8HHp7avk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT147S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "7 Basic Guard Recovery Drills",
+      "description": "Guard Recovery from Combat Base (Defender) film study: 7 Basic Guard Recovery Drills, taught by Evolve MMA Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KX1G2RcZ6ro/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KX1G2RcZ6ro",
+      "url": "https://www.youtube.com/watch?v=KX1G2RcZ6ro",
+      "creator": { "@type": "Person", "name": "Evolve MMA Coach" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard Retention 101 for Older Players",
+      "description": "Guard Recovery from Combat Base (Defender) film study: Guard Retention 101 for Older Players, taught by Tokyo Jiujitsu Club Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KIkGz4M2E6E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KIkGz4M2E6E",
+      "url": "https://www.youtube.com/watch?v=KIkGz4M2E6E",
+      "creator": { "@type": "Person", "name": "Tokyo Jiujitsu Club Coach" },
+      "duration": "PT255S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the top player in combat base, your opponent's guard recovery attempt represe
 **Opponent's Starting Position**: [[Positions/Combat Base]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Combat Base (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q4e8HHp7avk)
+
+<p class="clip-credit"><strong>Stop Getting Your Guard Passed: 3 Simple Tricks</strong> — taught by Jon Thomas · 2:27 · <a href="https://www.youtube.com/watch?v=q4e8HHp7avk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KX1G2RcZ6ro)
+
+<p class="clip-credit"><strong>7 Basic Guard Recovery Drills</strong> — taught by Evolve MMA Coach · 1:47 · <a href="https://www.youtube.com/watch?v=KX1G2RcZ6ro" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KIkGz4M2E6E)
+
+<p class="clip-credit"><strong>Guard Retention 101 for Older Players</strong> — taught by Tokyo Jiujitsu Club Coach · 4:15 · <a href="https://www.youtube.com/watch?v=KIkGz4M2E6E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

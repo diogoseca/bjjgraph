@@ -34,6 +34,54 @@ description: "Master Scarf Hold (Kesa Gatame) in BJJ. Traditional judo pinning p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scarf Hold Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure Kesa Gatame demonstration",
+      "description": "Scarf Hold Position film study: Kuzure Kesa Gatame demonstration, taught by Poraka Nova.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZMSfqiFWgiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZMSfqiFWgiI",
+      "url": "https://www.youtube.com/watch?v=ZMSfqiFWgiI",
+      "creator": { "@type": "Person", "name": "Poraka Nova" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "5 basic judo hold downs (osaekomi)",
+      "description": "Scarf Hold Position film study: 5 basic judo hold downs (osaekomi), taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jwArJKRlJ8o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jwArJKRlJ8o",
+      "url": "https://www.youtube.com/watch?v=jwArJKRlJ8o",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT211S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "12 Kesa Gatame attacks",
+      "description": "Scarf Hold Position film study: 12 Kesa Gatame attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The position's effectiveness stems from the perpendicular angle creating force v
 Scarf Hold Position represents a transitional control platform rather than purely a static hold. The top player cycles between submission attempts (americana, kimura, arm triangle) and positional transitions (to mount, north-south, or back control) based on defensive reactions. The bottom player must recognize timing windows when weight shifts occur and exploit the inherent vulnerabilities in the top player's base through systematic escape progressions focused on arm recovery, frame creation, and explosive bridge-and-roll mechanics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scarf Hold Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZMSfqiFWgiI)
+
+<p class="clip-credit"><strong>Kuzure Kesa Gatame demonstration</strong> — taught by Poraka Nova · 0:37 · <a href="https://www.youtube.com/watch?v=ZMSfqiFWgiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jwArJKRlJ8o)
+
+<p class="clip-credit"><strong>5 basic judo hold downs (osaekomi)</strong> — taught by Shintaro Higashi · 3:31 · <a href="https://www.youtube.com/watch?v=jwArJKRlJ8o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

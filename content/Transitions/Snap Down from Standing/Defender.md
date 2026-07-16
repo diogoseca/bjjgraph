@@ -148,6 +148,54 @@ description: "Defend the snap down from standing in BJJ. Recognition cues, postu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Snap Down from Standing (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Catch wrestling standing posture and snap defense",
+      "description": "Snap Down from Standing (Defender) film study: Catch wrestling standing posture and snap defense, taught by Billy Robinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OQ0hQAk_xnA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OQ0hQAk_xnA",
+      "url": "https://www.youtube.com/watch?v=OQ0hQAk_xnA",
+      "creator": { "@type": "Person", "name": "Billy Robinson" },
+      "duration": "PT182S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic front headlock and snap down defense",
+      "description": "Snap Down from Standing (Defender) film study: Basic front headlock and snap down defense, taught by Askren Wrestling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ry5lH-N7O-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ry5lH-N7O-0",
+      "url": "https://www.youtube.com/watch?v=ry5lH-N7O-0",
+      "creator": { "@type": "Person", "name": "Askren Wrestling Academy" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clearing the front headlock after a snap",
+      "description": "Snap Down from Standing (Defender) film study: Clearing the front headlock after a snap, taught by The School of Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OZkTT8kT1G8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OZkTT8kT1G8",
+      "url": "https://www.youtube.com/watch?v=OZkTT8kT1G8",
+      "creator": { "@type": "Person", "name": "The School of Wrestling" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the snap down from standing demands constant postural awareness, activ
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Snap Down from Standing (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OQ0hQAk_xnA)
+
+<p class="clip-credit"><strong>Catch wrestling standing posture and snap defense</strong> — taught by Billy Robinson · 3:02 · <a href="https://www.youtube.com/watch?v=OQ0hQAk_xnA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ry5lH-N7O-0)
+
+<p class="clip-credit"><strong>Basic front headlock and snap down defense</strong> — taught by Askren Wrestling Academy · 1:48 · <a href="https://www.youtube.com/watch?v=ry5lH-N7O-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OZkTT8kT1G8)
+
+<p class="clip-credit"><strong>Clearing the front headlock after a snap</strong> — taught by The School of Wrestling · 1:26 · <a href="https://www.youtube.com/watch?v=OZkTT8kT1G8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

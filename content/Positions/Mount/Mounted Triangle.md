@@ -34,6 +34,43 @@ description: "Master mounted triangle position in BJJ. High-risk, high-reward po
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mounted Triangle overview",
+      "description": "Mounted Triangle film study: Mounted Triangle overview, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vLUua_voKzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vLUua_voKzc",
+      "url": "https://www.youtube.com/watch?v=vLUua_voKzc",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle to mounted triangle entry",
+      "description": "Mounted Triangle film study: Triangle to mounted triangle entry, taught by Ground X Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1qxxbBWo9kw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1qxxbBWo9kw",
+      "url": "https://www.youtube.com/watch?v=1qxxbBWo9kw",
+      "creator": { "@type": "Person", "name": "Ground X Jiu Jitsu" },
+      "duration": "PT155S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +107,34 @@ The position demands precise technical execution - premature commitment can resu
 Success in mounted triangle requires understanding the biomechanical principles of both mount control and triangle mechanics, managing the inherent instability of the position, and recognizing the optimal moments to commit to submissions versus maintaining positional control. The mounted triangle exemplifies modern BJJ's emphasis on dynamic, submission-oriented grappling while maintaining strategic positional awareness.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vLUua_voKzc)
+
+<p class="clip-credit"><strong>Mounted Triangle overview</strong> — taught by Satori BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1qxxbBWo9kw)
+
+<p class="clip-credit"><strong>Triangle to mounted triangle entry</strong> — taught by Ground X Jiu Jitsu · 2:35 · <a href="https://www.youtube.com/watch?v=1qxxbBWo9kw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

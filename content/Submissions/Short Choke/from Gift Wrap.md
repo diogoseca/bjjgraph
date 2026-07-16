@@ -34,6 +34,43 @@ description: "Master the Short Choke from Gift Wrap in BJJ. Complete guide to fi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Gift Wrap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gift Wrap Arm Triangle / Ezekiel Choke",
+      "description": "Short Choke from Gift Wrap film study: Gift Wrap Arm Triangle / Ezekiel Choke, taught by Prosaic Living.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DAUs6oX4jjo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DAUs6oX4jjo",
+      "url": "https://www.youtube.com/watch?v=DAUs6oX4jjo",
+      "creator": { "@type": "Person", "name": "Prosaic Living" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift Wrap Rear Naked Choke",
+      "description": "Short Choke from Gift Wrap film study: Gift Wrap Rear Naked Choke, taught by Doug Taylor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f24j2L4nYSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f24j2L4nYSU",
+      "url": "https://www.youtube.com/watch?v=f24j2L4nYSU",
+      "creator": { "@type": "Person", "name": "Doug Taylor" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 **Starting Position**: [[Positions/Gift Wrap]] · **From**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Gift Wrap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DAUs6oX4jjo)
+
+<p class="clip-credit"><strong>Gift Wrap Arm Triangle / Ezekiel Choke</strong> — taught by Prosaic Living · 0:46 · <a href="https://www.youtube.com/watch?v=DAUs6oX4jjo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f24j2L4nYSU)
+
+<p class="clip-credit"><strong>Gift Wrap Rear Naked Choke</strong> — taught by Doug Taylor · 1:48 · <a href="https://www.youtube.com/watch?v=f24j2L4nYSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Breadcutter Choke from Kuzure Kesa-Gatame with expert c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Breadcutter Choke from Kuzure Kesa-Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bread Cutter Choke, Roger Gracie Style",
+      "description": "Breadcutter Choke from Kuzure Kesa-Gatame film study: Bread Cutter Choke, Roger Gracie Style, taught by Andy Hagans.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xab75xOnHqk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xab75xOnHqk",
+      "url": "https://www.youtube.com/watch?v=xab75xOnHqk",
+      "creator": { "@type": "Person", "name": "Andy Hagans" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Paper Cutter Choke",
+      "description": "Breadcutter Choke from Kuzure Kesa-Gatame film study: Kesa Gatame Paper Cutter Choke, taught by AMAG Fight Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AKfEIInO9Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AKfEIInO9Tk",
+      "url": "https://www.youtube.com/watch?v=AKfEIInO9Tk",
+      "creator": { "@type": "Person", "name": "AMAG Fight Team" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Squeeze the Bread Choke Detail",
+      "description": "Breadcutter Choke from Kuzure Kesa-Gatame film study: Squeeze the Bread Choke Detail, taught by Ray Griffin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gYyapPk-Ib8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gYyapPk-Ib8",
+      "url": "https://www.youtube.com/watch?v=gYyapPk-Ib8",
+      "creator": { "@type": "Person", "name": "Ray Griffin" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 **Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] · **From**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Breadcutter Choke from Kuzure Kesa-Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xab75xOnHqk)
+
+<p class="clip-credit"><strong>Bread Cutter Choke, Roger Gracie Style</strong> — taught by Andy Hagans · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AKfEIInO9Tk)
+
+<p class="clip-credit"><strong>Kesa Gatame Paper Cutter Choke</strong> — taught by AMAG Fight Team · 0:38 · <a href="https://www.youtube.com/watch?v=AKfEIInO9Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gYyapPk-Ib8)
+
+<p class="clip-credit"><strong>Squeeze the Bread Choke Detail</strong> — taught by Ray Griffin · 1:18 · <a href="https://www.youtube.com/watch?v=gYyapPk-Ib8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

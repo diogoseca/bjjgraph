@@ -153,6 +153,43 @@ description: "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pa
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse X-Guard defense into rolling back take",
+      "description": "Reverse X-Guard (Top) film study: Reverse X-Guard defense into rolling back take, taught by Effortless Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M82CDkEzxlQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M82CDkEzxlQ",
+      "url": "https://www.youtube.com/watch?v=M82CDkEzxlQ",
+      "creator": { "@type": "Person", "name": "Effortless Jiu Jitsu" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Single Leg X",
+      "description": "Reverse X-Guard (Top) film study: Passing Single Leg X, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XzILYmERAV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XzILYmERAV8",
+      "url": "https://www.youtube.com/watch?v=XzILYmERAV8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT453S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The top player's primary objectives are to maintain upright posture, prevent the
 Strategically, Reverse X-Guard Top represents a transitional state where the top player must make critical decisions about passing methodology. Pressure-based approaches involve driving weight forward to flatten the opponent, while mobility-based methods focus on creating angles and disengaging hooks. Understanding these options and reading the opponent's reactions determines success rates, with advanced practitioners achieving 60-70% pass rates through systematic application of passing principles.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M82CDkEzxlQ)
+
+<p class="clip-credit"><strong>Reverse X-Guard defense into rolling back take</strong> — taught by Effortless Jiu Jitsu · 2:01 · <a href="https://www.youtube.com/watch?v=M82CDkEzxlQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XzILYmERAV8)
+
+<p class="clip-credit"><strong>Passing Single Leg X</strong> — taught by Lachlan Giles · 7:33 · <a href="https://www.youtube.com/watch?v=XzILYmERAV8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

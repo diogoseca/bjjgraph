@@ -148,6 +148,43 @@ description: "Complete defensive guide against the Transition to Quarter Guard. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Quarter Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Working from quarter guard bottom",
+      "description": "Half Guard to Quarter Guard (Defender) film study: Working from quarter guard bottom, taught by RGA South Herts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S8qzvGaBp74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S8qzvGaBp74",
+      "url": "https://www.youtube.com/watch?v=S8qzvGaBp74",
+      "creator": { "@type": "Person", "name": "RGA South Herts" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slide pass recovery to butterfly guard sweep",
+      "description": "Half Guard to Quarter Guard (Defender) film study: Knee slide pass recovery to butterfly guard sweep, taught by Italiano BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/86KseinKoSY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/86KseinKoSY",
+      "url": "https://www.youtube.com/watch?v=86KseinKoSY",
+      "creator": { "@type": "Person", "name": "Italiano BJJ" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the Transition to Quarter Guard requires recognizing the early
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Quarter Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S8qzvGaBp74)
+
+<p class="clip-credit"><strong>Working from quarter guard bottom</strong> — taught by RGA South Herts · 1:06 · <a href="https://www.youtube.com/watch?v=S8qzvGaBp74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=86KseinKoSY)
+
+<p class="clip-credit"><strong>Knee slide pass recovery to butterfly guard sweep</strong> — taught by Italiano BJJ · 0:37 · <a href="https://www.youtube.com/watch?v=86KseinKoSY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

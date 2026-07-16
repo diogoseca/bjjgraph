@@ -34,6 +34,54 @@ description: "Master the Explosive Bridge to Guard Recovery from North-South bot
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Explosive Bridge to Guard Recovery \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bridge and shrimp side control escape",
+      "description": "Explosive Bridge to Guard Recovery film study: Bridge and shrimp side control escape, taught by White Belt Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/960u_PQy8XM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/960u_PQy8XM",
+      "url": "https://www.youtube.com/watch?v=960u_PQy8XM",
+      "creator": { "@type": "Person", "name": "White Belt Jiu Jitsu" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Solo hip escape drill on your back",
+      "description": "Explosive Bridge to Guard Recovery film study: Solo hip escape drill on your back, taught by Move Well Durham.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D6toRF1vM7s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D6toRF1vM7s",
+      "url": "https://www.youtube.com/watch?v=D6toRF1vM7s",
+      "creator": { "@type": "Person", "name": "Move Well Durham" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three tricks to stop your guard getting passed",
+      "description": "Explosive Bridge to Guard Recovery film study: Three tricks to stop your guard getting passed, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q4e8HHp7avk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q4e8HHp7avk",
+      "url": "https://www.youtube.com/watch?v=q4e8HHp7avk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this escape serves as a reset mechanism when other North-South es
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Explosive Bridge to Guard Recovery in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=960u_PQy8XM)
+
+<p class="clip-credit"><strong>Bridge and shrimp side control escape</strong> — taught by White Belt Jiu Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=960u_PQy8XM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D6toRF1vM7s)
+
+<p class="clip-credit"><strong>Solo hip escape drill on your back</strong> — taught by Move Well Durham · 0:47 · <a href="https://www.youtube.com/watch?v=D6toRF1vM7s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q4e8HHp7avk)
+
+<p class="clip-credit"><strong>Three tricks to stop your guard getting passed</strong> — taught by Jon Thomas · 2:27 · <a href="https://www.youtube.com/watch?v=q4e8HHp7avk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

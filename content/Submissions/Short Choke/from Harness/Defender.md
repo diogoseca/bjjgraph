@@ -142,6 +142,43 @@ description: "Learn to defend and escape the Short Choke from Harness in BJJ. Re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Harness (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 powerful back escapes",
+      "description": "Short Choke from Harness (Defender) film study: 3 powerful back escapes, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/93Bw5abRDiU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/93Bw5abRDiU",
+      "url": "https://www.youtube.com/watch?v=93Bw5abRDiU",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping back control",
+      "description": "Short Choke from Harness (Defender) film study: Escaping back control, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nhca-P5Uj20/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nhca-P5Uj20",
+      "url": "https://www.youtube.com/watch?v=Nhca-P5Uj20",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT482S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +189,34 @@ Defending the Short Choke from Harness requires early recognition and systematic
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Harness (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=93Bw5abRDiU)
+
+<p class="clip-credit"><strong>3 powerful back escapes</strong> — taught by Stephan Kesting · 3:36 · <a href="https://www.youtube.com/watch?v=93Bw5abRDiU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nhca-P5Uj20)
+
+<p class="clip-credit"><strong>Escaping back control</strong> — taught by Absolute MMA St Kilda · 8:02 · <a href="https://www.youtube.com/watch?v=Nhca-P5Uj20" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

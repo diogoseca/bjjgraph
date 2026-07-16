@@ -174,6 +174,43 @@ description: "Execute the Roll from Rodeo Ride escape in BJJ. Step-by-step rolli
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll from Rodeo Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Octopus roll from bottom turtle into side control",
+      "description": "Roll from Rodeo Ride (Attacker) film study: Octopus roll from bottom turtle into side control, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JC6DNIShf78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JC6DNIShf78",
+      "url": "https://www.youtube.com/watch?v=JC6DNIShf78",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside roll escape from turtle (catch wrestling)",
+      "description": "Roll from Rodeo Ride (Attacker) film study: Inside roll escape from turtle (catch wrestling), taught by Kenny Lester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/923eYpD1E58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/923eYpD1E58",
+      "url": "https://www.youtube.com/watch?v=923eYpD1E58",
+      "creator": { "@type": "Person", "name": "Kenny Lester" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ From the attacker perspective, executing the Roll from Rodeo Ride requires readi
 **From Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll from Rodeo Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JC6DNIShf78)
+
+<p class="clip-credit"><strong>Octopus roll from bottom turtle into side control</strong> — taught by Scott Ryan Chiriboga · 1:49 · <a href="https://www.youtube.com/watch?v=JC6DNIShf78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=923eYpD1E58)
+
+<p class="clip-credit"><strong>Inside roll escape from turtle (catch wrestling)</strong> — taught by Kenny Lester · 2:38 · <a href="https://www.youtube.com/watch?v=923eYpD1E58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

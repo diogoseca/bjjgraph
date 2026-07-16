@@ -153,6 +153,54 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Position (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Signature Double Leg",
+      "description": "Standing Position (Top) film study: Signature Double Leg, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wy-a8VfNsVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wy-a8VfNsVo",
+      "url": "https://www.youtube.com/watch?v=Wy-a8VfNsVo",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double Leg Takedown Technique",
+      "description": "Standing Position (Top) film study: Double Leg Takedown Technique, taught by Predators MMA and BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dhZgpDHCARw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dhZgpDHCARw",
+      "url": "https://www.youtube.com/watch?v=dhZgpDHCARw",
+      "creator": { "@type": "Person", "name": "Predators MMA and BJJ" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Favorite Takedowns for BJJ",
+      "description": "Standing Position (Top) film study: Favorite Takedowns for BJJ, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RLU7Yt1jN7s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RLU7Yt1jN7s",
+      "url": "https://www.youtube.com/watch?v=RLU7Yt1jN7s",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Position (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wy-a8VfNsVo)
+
+<p class="clip-credit"><strong>Signature Double Leg</strong> — taught by Jordan Burroughs · 1:13 · <a href="https://www.youtube.com/watch?v=Wy-a8VfNsVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dhZgpDHCARw)
+
+<p class="clip-credit"><strong>Double Leg Takedown Technique</strong> — taught by Predators MMA and BJJ · 0:15 · <a href="https://www.youtube.com/watch?v=dhZgpDHCARw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RLU7Yt1jN7s)
+
+<p class="clip-credit"><strong>Favorite Takedowns for BJJ</strong> — taught by Chewjitsu · 1:01 · <a href="https://www.youtube.com/watch?v=RLU7Yt1jN7s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

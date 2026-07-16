@@ -34,6 +34,43 @@ description: "Master guard recovery from guillotine control in BJJ. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Guillotine Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Elbow to High Elbow Guillotine",
+      "description": "Guard Recovery from Guillotine Control film study: Double Elbow to High Elbow Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
+      "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT171S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sweep From Failed Guillotine In The Guard",
+      "description": "Guard Recovery from Guillotine Control film study: Sweep From Failed Guillotine In The Guard, taught by GrapplingMechanics Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aMzd1nLGvMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aMzd1nLGvMs",
+      "url": "https://www.youtube.com/watch?v=aMzd1nLGvMs",
+      "creator": { "@type": "Person", "name": "GrapplingMechanics Coach" },
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this recovery represents a critical decision point in bottom-game
 **Success Rate**: 47%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Guillotine Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IvSVZuezQGo)
+
+<p class="clip-credit"><strong>Double Elbow to High Elbow Guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aMzd1nLGvMs)
+
+<p class="clip-credit"><strong>Sweep From Failed Guillotine In The Guard</strong> — taught by GrapplingMechanics Coach · 0:56 · <a href="https://www.youtube.com/watch?v=aMzd1nLGvMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

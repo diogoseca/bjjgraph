@@ -153,6 +153,43 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scarf Hold Position (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame pressure defense with framing",
+      "description": "Scarf Hold Position (Bottom) film study: Kesa Gatame pressure defense with framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scarf hold escape (kesa gatame defense)",
+      "description": "Scarf Hold Position (Bottom) film study: Scarf hold escape (kesa gatame defense), taught by Bruce Fowler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2okf5X17jeg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2okf5X17jeg",
+      "url": "https://www.youtube.com/watch?v=2okf5X17jeg",
+      "creator": { "@type": "Person", "name": "Bruce Fowler" },
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The defensive challenge centers on the opponent's ability to crush your chest an
 Scarf Hold Bottom presents both immediate submission dangers through arm locks (particularly americana and kimura) and the risk of transition to more dominant positions like mount or north-south. The bottom player must balance defensive urgency with energy conservation, working systematically through escape progressions rather than burning out through explosive but poorly-timed attempts. Mastery of this position's defenses builds crucial understanding of perpendicular pressure escapes, bridge mechanics, and the mental composure required to escape from severe disadvantage.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scarf Hold Position (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame pressure defense with framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2okf5X17jeg)
+
+<p class="clip-credit"><strong>Scarf hold escape (kesa gatame defense)</strong> — taught by Bruce Fowler · 3:50 · <a href="https://www.youtube.com/watch?v=2okf5X17jeg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

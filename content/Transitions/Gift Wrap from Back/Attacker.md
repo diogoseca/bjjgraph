@@ -174,6 +174,54 @@ description: "Complete attacker guide for the Gift Wrap from Back transition. Le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap from Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gift wrap back take",
+      "description": "Gift Wrap from Back (Attacker) film study: Gift wrap back take, taught by BJJ Lab Z\u00fcrich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EOv5GYpUYDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EOv5GYpUYDw",
+      "url": "https://www.youtube.com/watch?v=EOv5GYpUYDw",
+      "creator": { "@type": "Person", "name": "BJJ Lab Z\u00fcrich" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit back gift wrap to the back",
+      "description": "Gift Wrap from Back (Attacker) film study: Sit back gift wrap to the back, taught by Watauga BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-ypj83J2Ngk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-ypj83J2Ngk",
+      "url": "https://www.youtube.com/watch?v=-ypj83J2Ngk",
+      "creator": { "@type": "Person", "name": "Watauga BJJ" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount to gift wrap to back control",
+      "description": "Gift Wrap from Back (Attacker) film study: Mount to gift wrap to back control, taught by Fight Flow Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wSSzPizlYAo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wSSzPizlYAo",
+      "url": "https://www.youtube.com/watch?v=wSSzPizlYAo",
+      "creator": { "@type": "Person", "name": "Fight Flow Academy" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Gift Wrap from Back, your objective is to upgrade 
 **From Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap from Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EOv5GYpUYDw)
+
+<p class="clip-credit"><strong>Gift wrap back take</strong> — taught by BJJ Lab Zürich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-ypj83J2Ngk)
+
+<p class="clip-credit"><strong>Sit back gift wrap to the back</strong> — taught by Watauga BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=-ypj83J2Ngk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wSSzPizlYAo)
+
+<p class="clip-credit"><strong>Mount to gift wrap to back control</strong> — taught by Fight Flow Academy · 0:30 · <a href="https://www.youtube.com/watch?v=wSSzPizlYAo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

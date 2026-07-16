@@ -34,6 +34,54 @@ description: "Master Rolling Back Take Reversal from body triangle defense. Coun
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Back Take Reversal \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "One-minute back-take setup",
+      "description": "Rolling Back Take Reversal film study: One-minute back-take setup, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C-21-71FDnM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C-21-71FDnM",
+      "url": "https://www.youtube.com/watch?v=C-21-71FDnM",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the Back: Leg Work Details",
+      "description": "Rolling Back Take Reversal film study: Escaping the Back: Leg Work Details, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k-lCzVAzJpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k-lCzVAzJpg",
+      "url": "https://www.youtube.com/watch?v=k-lCzVAzJpg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT421S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Best Way to Escape the Body Triangle",
+      "description": "Rolling Back Take Reversal film study: Best Way to Escape the Body Triangle, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RscLPT0F-DE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RscLPT0F-DE",
+      "url": "https://www.youtube.com/watch?v=RscLPT0F-DE",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT595S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this escape works best against opponents who squeeze aggressively
 **Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Back Take Reversal in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C-21-71FDnM)
+
+<p class="clip-credit"><strong>One-minute back-take setup</strong> — taught by Brandon McCaghren · 0:58 · <a href="https://www.youtube.com/watch?v=C-21-71FDnM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k-lCzVAzJpg)
+
+<p class="clip-credit"><strong>Escaping the Back: Leg Work Details</strong> — taught by Lachlan Giles · 7:01 · <a href="https://www.youtube.com/watch?v=k-lCzVAzJpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RscLPT0F-DE)
+
+<p class="clip-credit"><strong>Best Way to Escape the Body Triangle</strong> — taught by Gordon Ryan · 9:55 · <a href="https://www.youtube.com/watch?v=RscLPT0F-DE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

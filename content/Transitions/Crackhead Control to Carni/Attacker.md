@@ -174,6 +174,54 @@ description: "How to execute Crackhead Control to Carni in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crackhead Control to Carni (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Carne-Val technique from rubber guard",
+      "description": "Crackhead Control to Carni (Attacker) film study: The Carne-Val technique from rubber guard, taught by Richie Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qeOb0Rl1hy4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qeOb0Rl1hy4",
+      "url": "https://www.youtube.com/watch?v=qeOb0Rl1hy4",
+      "creator": { "@type": "Person", "name": "Richie Martinez" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attack chain: The Carni",
+      "description": "Crackhead Control to Carni (Attacker) film study: Attack chain: The Carni, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iRTWyAmw5vQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iRTWyAmw5vQ",
+      "url": "https://www.youtube.com/watch?v=iRTWyAmw5vQ",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Carni sweep from rubber guard",
+      "description": "Crackhead Control to Carni (Attacker) film study: Carni sweep from rubber guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ws8HqIka0x0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ws8HqIka0x0",
+      "url": "https://www.youtube.com/watch?v=Ws8HqIka0x0",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT263S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +233,42 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crackhead Control to Carni (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qeOb0Rl1hy4)
+
+<p class="clip-credit"><strong>The Carne-Val technique from rubber guard</strong> — taught by Richie Martinez · 0:43 · <a href="https://www.youtube.com/watch?v=qeOb0Rl1hy4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iRTWyAmw5vQ)
+
+<p class="clip-credit"><strong>Attack chain: The Carni</strong> — taught by Johnny Jitsu · 2:19 · <a href="https://www.youtube.com/watch?v=iRTWyAmw5vQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ws8HqIka0x0)
+
+<p class="clip-credit"><strong>Carni sweep from rubber guard</strong> — taught by BJJ4Breakfast · 4:23 · <a href="https://www.youtube.com/watch?v=Ws8HqIka0x0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

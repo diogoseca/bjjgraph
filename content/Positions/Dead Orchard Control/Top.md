@@ -153,6 +153,54 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dead Orchard Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dead Orchard Instructional (Part 1)",
+      "description": "Dead Orchard Control (Top) film study: Dead Orchard Instructional (Part 1), taught by Nathan Orchard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XoiB1D2WJwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XoiB1D2WJwE",
+      "url": "https://www.youtube.com/watch?v=XoiB1D2WJwE",
+      "creator": { "@type": "Person", "name": "Nathan Orchard" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hindulotine Breakdown",
+      "description": "Dead Orchard Control (Top) film study: Hindulotine Breakdown, taught by CordesgainsBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i9rAyo8tRZw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i9rAyo8tRZw",
+      "url": "https://www.youtube.com/watch?v=i9rAyo8tRZw",
+      "creator": { "@type": "Person", "name": "CordesgainsBJJ" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hindulotine Finish",
+      "description": "Dead Orchard Control (Top) film study: Hindulotine Finish, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
+      "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 Dead Orchard Control Top is an advanced anaconda choke variation developed within the 10th Planet system, characterized by a specific grip configuration and body positioning that creates exceptional control while maintaining submission threat. This position represents a hybrid control state where the practitioner has secured the anaconda grip but emphasizes positional dominance and control mechanics over immediate submission completion. The nomenclature refers to the trapped, lifeless quality of the opponent's arm position combined with the systematic breakdown of their defensive structure. From top position, the practitioner establishes a deep anaconda-style grip around the opponent's neck and nearside arm while maintaining superior body positioning that prevents escape and creates submission opportunities. Unlike standard anaconda control, dead orchard control incorporates specific grip adjustments and weight distribution principles that allow for extended positional maintenance while gradually increasing submission pressure. This position is particularly effective in no-gi contexts where the practitioner can control timing and gradually advance position or finish the submission based on opponent reactions. The position serves as both a control platform and a submission gateway, allowing the practitioner to maintain dominant position while threatening the finish. Understanding dead orchard control requires mastery of anaconda mechanics, shoulder pressure application, and the ability to read opponent defensive patterns to determine optimal finishing timing.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dead Orchard Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XoiB1D2WJwE)
+
+<p class="clip-credit"><strong>Dead Orchard Instructional (Part 1)</strong> — taught by Nathan Orchard · 1:51 · <a href="https://www.youtube.com/watch?v=XoiB1D2WJwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i9rAyo8tRZw)
+
+<p class="clip-credit"><strong>Hindulotine Breakdown</strong> — taught by CordesgainsBJJ · 1:27 · <a href="https://www.youtube.com/watch?v=i9rAyo8tRZw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6UwoAQt6u6o)
+
+<p class="clip-credit"><strong>Hindulotine Finish</strong> — taught by Ben Eddy · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

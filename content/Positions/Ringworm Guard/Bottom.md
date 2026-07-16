@@ -153,6 +153,54 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm guard to back choke",
+      "description": "Ringworm Guard (Bottom) film study: Worm guard to back choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse omoplata from worm guard",
+      "description": "Ringworm Guard (Bottom) film study: Reverse omoplata from worm guard, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qua4MaF2d98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qua4MaF2d98",
+      "url": "https://www.youtube.com/watch?v=qua4MaF2d98",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Worm guard sweep and berimbolo",
+      "description": "Ringworm Guard (Bottom) film study: Worm guard sweep and berimbolo, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BHwU-bbyvkc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BHwU-bbyvkc",
+      "url": "https://www.youtube.com/watch?v=BHwU-bbyvkc",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ This position represents a highly technical approach to lapel-based guard system
 Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosystem alongside positions like Worm Guard and Squid Guard, sharing similar principles of lapel manipulation and leg entanglement. It provides a pathway to various high-percentage sweeps, back takes, and triangle attacks while offering strong defensive properties against common guard passing sequences. The position requires gi-specific training and is most effective in IBJJF and gi-based competition formats.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm guard to back choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qua4MaF2d98)
+
+<p class="clip-credit"><strong>Reverse omoplata from worm guard</strong> — taught by Keenan Cornelius · 0:49 · <a href="https://www.youtube.com/watch?v=qua4MaF2d98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BHwU-bbyvkc)
+
+<p class="clip-credit"><strong>Worm guard sweep and berimbolo</strong> — taught by jamielovesmartialarts · 1:29 · <a href="https://www.youtube.com/watch?v=BHwU-bbyvkc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

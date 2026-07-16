@@ -34,6 +34,43 @@ description: "Master the Estima Lock Counter Roll in BJJ. Complete guide to esca
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock Counter Roll \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the ankle lock when opponent rolls out",
+      "description": "Estima Lock Counter Roll film study: Finishing the ankle lock when opponent rolls out, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/akB_o9gaNuc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/akB_o9gaNuc",
+      "url": "https://www.youtube.com/watch?v=akB_o9gaNuc",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Foot lock counter and single leg X escapes",
+      "description": "Estima Lock Counter Roll film study: Foot lock counter and single leg X escapes, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JSOM86_1lRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JSOM86_1lRo",
+      "url": "https://www.youtube.com/watch?v=JSOM86_1lRo",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Success with the Estima Lock Counter Roll depends on three factors: early recogn
 **Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock Counter Roll in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=akB_o9gaNuc)
+
+<p class="clip-credit"><strong>Finishing the ankle lock when opponent rolls out</strong> — taught by James O&#39;Connor · 1:01 · <a href="https://www.youtube.com/watch?v=akB_o9gaNuc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JSOM86_1lRo)
+
+<p class="clip-credit"><strong>Foot lock counter and single leg X escapes</strong> — taught by James O&#39;Connor · 1:51 · <a href="https://www.youtube.com/watch?v=JSOM86_1lRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -168,6 +168,54 @@ description: "How to execute Ringworm Guard to Worm Guard in BJJ. Attacking pers
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm Guard to Worm Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel guard examples: worm, reverse De La Worm, ring worm",
+      "description": "Ringworm Guard to Worm Guard (Attacker) film study: Lapel guard examples: worm, reverse De La Worm, ring worm, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CdPHu-ly6t8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CdPHu-ly6t8",
+      "url": "https://www.youtube.com/watch?v=CdPHu-ly6t8",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT287S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm guard back take and ringworm overhead sweeps",
+      "description": "Ringworm Guard to Worm Guard (Attacker) film study: Worm guard back take and ringworm overhead sweeps, taught by Meerkatsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ionS-bmfXxk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ionS-bmfXxk",
+      "url": "https://www.youtube.com/watch?v=ionS-bmfXxk",
+      "creator": { "@type": "Person", "name": "Meerkatsu" },
+      "duration": "PT430S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Worm guard and ringworm guard basic sweeps",
+      "description": "Ringworm Guard to Worm Guard (Attacker) film study: Worm guard and ringworm guard basic sweeps, taught by Meerkatsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/--69GBxx7ig/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/--69GBxx7ig",
+      "url": "https://www.youtube.com/watch?v=--69GBxx7ig",
+      "creator": { "@type": "Person", "name": "Meerkatsu" },
+      "duration": "PT734S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -179,6 +227,42 @@ The attacker must coordinate hip movement with lapel manipulation while maintain
 **From Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm Guard to Worm Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CdPHu-ly6t8)
+
+<p class="clip-credit"><strong>Lapel guard examples: worm, reverse De La Worm, ring worm</strong> — taught by Greg Hamilton · 4:47 · <a href="https://www.youtube.com/watch?v=CdPHu-ly6t8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ionS-bmfXxk)
+
+<p class="clip-credit"><strong>Worm guard back take and ringworm overhead sweeps</strong> — taught by Meerkatsu · 7:10 · <a href="https://www.youtube.com/watch?v=ionS-bmfXxk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=--69GBxx7ig)
+
+<p class="clip-credit"><strong>Worm guard and ringworm guard basic sweeps</strong> — taught by Meerkatsu · 12:14 · <a href="https://www.youtube.com/watch?v=--69GBxx7ig" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

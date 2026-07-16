@@ -180,6 +180,54 @@ description: "How to execute the Inverted Triangle in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted triangle setup",
+      "description": "Inverted Triangle (Attacker) film study: Inverted triangle setup, taught by Doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9Z741GgDWj0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9Z741GgDWj0",
+      "url": "https://www.youtube.com/watch?v=9Z741GgDWj0",
+      "creator": { "@type": "Person", "name": "Doug" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inverted triangle breakdown",
+      "description": "Inverted Triangle (Attacker) film study: Inverted triangle breakdown, taught by Bristol Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xAW3spYg9vE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xAW3spYg9vE",
+      "url": "https://www.youtube.com/watch?v=xAW3spYg9vE",
+      "creator": { "@type": "Person", "name": "Bristol Jiu Jitsu coach" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix to inverted triangle",
+      "description": "Inverted Triangle (Attacker) film study: Crucifix to inverted triangle, taught by Zen Spot coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QPpQnCDw65k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QPpQnCDw65k",
+      "url": "https://www.youtube.com/watch?v=QPpQnCDw65k",
+      "creator": { "@type": "Person", "name": "Zen Spot coach" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -193,6 +241,42 @@ The biomechanics of the inverted triangle differ significantly from the standard
 **From Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9Z741GgDWj0)
+
+<p class="clip-credit"><strong>Inverted triangle setup</strong> — taught by Doug · 0:15 · <a href="https://www.youtube.com/watch?v=9Z741GgDWj0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xAW3spYg9vE)
+
+<p class="clip-credit"><strong>Inverted triangle breakdown</strong> — taught by Bristol Jiu Jitsu coach · 0:51 · <a href="https://www.youtube.com/watch?v=xAW3spYg9vE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QPpQnCDw65k)
+
+<p class="clip-credit"><strong>Crucifix to inverted triangle</strong> — taught by Zen Spot coach · 0:25 · <a href="https://www.youtube.com/watch?v=QPpQnCDw65k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

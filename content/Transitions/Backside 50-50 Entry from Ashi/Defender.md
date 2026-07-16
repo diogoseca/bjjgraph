@@ -140,6 +140,54 @@ description: "Defend against the Backside 50-50 Entry from Inside Ashi Garami. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backside 50-50 Entry from Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 escape for no-gi leg locks",
+      "description": "Backside 50-50 Entry from Ashi (Defender) film study: 50/50 escape for no-gi leg locks, taught by Elite Team Monterey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cYEzCp2l4rQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cYEzCp2l4rQ",
+      "url": "https://www.youtube.com/watch?v=cYEzCp2l4rQ",
+      "creator": { "@type": "Person", "name": "Elite Team Monterey" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter the 50/50 heel hook with a wristlock",
+      "description": "Backside 50-50 Entry from Ashi (Defender) film study: Counter the 50/50 heel hook with a wristlock, taught by Whangarei BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_hyZqLRwsWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_hyZqLRwsWE",
+      "url": "https://www.youtube.com/watch?v=_hyZqLRwsWE",
+      "creator": { "@type": "Person", "name": "Whangarei BJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "50/50 defense: toe and heel slipping",
+      "description": "Backside 50-50 Entry from Ashi (Defender) film study: 50/50 defense: toe and heel slipping, taught by South Boston BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UA1prHHiwPI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UA1prHHiwPI",
+      "url": "https://www.youtube.com/watch?v=UA1prHHiwPI",
+      "creator": { "@type": "Person", "name": "South Boston BJJ" },
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Backside 50-50 Entry, your primary objective is to p
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backside 50-50 Entry from Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cYEzCp2l4rQ)
+
+<p class="clip-credit"><strong>50/50 escape for no-gi leg locks</strong> — taught by Elite Team Monterey · 0:46 · <a href="https://www.youtube.com/watch?v=cYEzCp2l4rQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_hyZqLRwsWE)
+
+<p class="clip-credit"><strong>Counter the 50/50 heel hook with a wristlock</strong> — taught by Whangarei BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=_hyZqLRwsWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UA1prHHiwPI)
+
+<p class="clip-credit"><strong>50/50 defense: toe and heel slipping</strong> — taught by South Boston BJJ · 2:59 · <a href="https://www.youtube.com/watch?v=UA1prHHiwPI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

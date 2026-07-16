@@ -148,6 +148,54 @@ description: "Defend the Knee Pin from X-Guard as the bottom player. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Pin from X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse triangle counter to the leg scoop pass",
+      "description": "Knee Pin from X-Guard (Defender) film study: Reverse triangle counter to the leg scoop pass, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CB0lXglAR2c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CB0lXglAR2c",
+      "url": "https://www.youtube.com/watch?v=CB0lXglAR2c",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the pin and recovering one-legged X",
+      "description": "Knee Pin from X-Guard (Defender) film study: Defending the pin and recovering one-legged X, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nWYqd58rUg4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nWYqd58rUg4",
+      "url": "https://www.youtube.com/watch?v=nWYqd58rUg4",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defeating pressure passing: guard retention study",
+      "description": "Knee Pin from X-Guard (Defender) film study: Defeating pressure passing: guard retention study, taught by Josh Presley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XlRkpElOAVM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XlRkpElOAVM",
+      "url": "https://www.youtube.com/watch?v=XlRkpElOAVM",
+      "creator": { "@type": "Person", "name": "Josh Presley" },
+      "duration": "PT309S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Knee Pin from X-Guard, you are the bottom player in 
 **Opponent's Starting Position**: [[Positions/X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Pin from X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CB0lXglAR2c)
+
+<p class="clip-credit"><strong>Reverse triangle counter to the leg scoop pass</strong> — taught by BJJ4Breakfast · 1:04 · <a href="https://www.youtube.com/watch?v=CB0lXglAR2c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nWYqd58rUg4)
+
+<p class="clip-credit"><strong>Defending the pin and recovering one-legged X</strong> — taught by Andrew Smith · 0:32 · <a href="https://www.youtube.com/watch?v=nWYqd58rUg4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XlRkpElOAVM)
+
+<p class="clip-credit"><strong>Defeating pressure passing: guard retention study</strong> — taught by Josh Presley · 5:09 · <a href="https://www.youtube.com/watch?v=XlRkpElOAVM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

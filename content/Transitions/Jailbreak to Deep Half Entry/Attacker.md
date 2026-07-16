@@ -174,6 +174,54 @@ description: "How to execute Jailbreak to Deep Half Entry in BJJ. Attacking pers
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak to Deep Half Entry (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Entering deep half guard from knee on belly",
+      "description": "Jailbreak to Deep Half Entry (Attacker) film study: Entering deep half guard from knee on belly, taught by Team Daruma Dojo coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dalv3UtxCZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dalv3UtxCZ0",
+      "url": "https://www.youtube.com/watch?v=Dalv3UtxCZ0",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo coach" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Entry to deep half guard",
+      "description": "Jailbreak to Deep Half Entry (Attacker) film study: Entry to deep half guard, taught by Lucas Valle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SShUdtEdPuA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SShUdtEdPuA",
+      "url": "https://www.youtube.com/watch?v=SShUdtEdPuA",
+      "creator": { "@type": "Person", "name": "Lucas Valle" },
+      "duration": "PT195S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep half guard entries and three key options",
+      "description": "Jailbreak to Deep Half Entry (Attacker) film study: Deep half guard entries and three key options, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4qzY740Tyg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4qzY740Tyg",
+      "url": "https://www.youtube.com/watch?v=Y4qzY740Tyg",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT186S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The biomechanical foundation of this entry relies on using your existing underho
 **From Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak to Deep Half Entry (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dalv3UtxCZ0)
+
+<p class="clip-credit"><strong>Entering deep half guard from knee on belly</strong> — taught by Team Daruma Dojo coach · 1:08 · <a href="https://www.youtube.com/watch?v=Dalv3UtxCZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SShUdtEdPuA)
+
+<p class="clip-credit"><strong>Entry to deep half guard</strong> — taught by Lucas Valle · 3:15 · <a href="https://www.youtube.com/watch?v=SShUdtEdPuA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4qzY740Tyg)
+
+<p class="clip-credit"><strong>Deep half guard entries and three key options</strong> — taught by Knight Jiu-Jitsu · 3:06 · <a href="https://www.youtube.com/watch?v=Y4qzY740Tyg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

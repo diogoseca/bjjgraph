@@ -176,6 +176,54 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear Naked Choke from Back Control",
+      "description": "Rear Naked Choke from Back Control (Attacker) film study: Rear Naked Choke from Back Control, taught by Affinity Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3vCytl_OI-4",
+      "url": "https://www.youtube.com/watch?v=3vCytl_OI-4",
+      "creator": { "@type": "Person", "name": "Affinity Academy" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear Naked Choke",
+      "description": "Rear Naked Choke from Back Control (Attacker) film study: Rear Naked Choke, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
+      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rear Naked Choke: It\u0027s in the Squeeze",
+      "description": "Rear Naked Choke from Back Control (Attacker) film study: Rear Naked Choke: It\u0027s in the Squeeze, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rPRORaAiJAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rPRORaAiJAs",
+      "url": "https://www.youtube.com/watch?v=rPRORaAiJAs",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the rear naked choke from back control requires systematic progre
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3vCytl_OI-4)
+
+<p class="clip-credit"><strong>Rear Naked Choke from Back Control</strong> — taught by Affinity Academy · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=70jECxFfCSA)
+
+<p class="clip-credit"><strong>Rear Naked Choke</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rPRORaAiJAs)
+
+<p class="clip-credit"><strong>Rear Naked Choke: It&#39;s in the Squeeze</strong> — taught by Henry Akins · 1:35 · <a href="https://www.youtube.com/watch?v=rPRORaAiJAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

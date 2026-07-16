@@ -35,6 +35,54 @@ description: "Master X-Guard in BJJ with comprehensive analysis covering sweeps,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-Guard sweep and pass overview",
+      "description": "X-Guard film study: X-Guard sweep and pass overview, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7OnjPU1WjH4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7OnjPU1WjH4",
+      "url": "https://www.youtube.com/watch?v=7OnjPU1WjH4",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-Guard sweep",
+      "description": "X-Guard film study: X-Guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-Gi X-Guard sweep",
+      "description": "X-Guard film study: No-Gi X-Guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
+      "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ description: "Master X-Guard in BJJ with comprehensive analysis covering sweeps,
 Few bottom positions reshape a standing exchange as decisively as X-Guard, which turns the bottom player's legs into the strongest control structure on the mat. This position provides exceptional control over the opponent's balance and mobility by eliminating one of their posting bases while creating strong elevating forces. Developed and popularized by Marcelo Garcia, X-Guard has become a fundamental component of modern BJJ guard systems, particularly in no-gi competition where it offers high-percentage sweeps against standing opponents. The position serves as a critical junction point between traditional sweeping guards and modern leg entanglement systems, offering both offensive sweep opportunities and pathways to ashi garami positions. The mechanical advantage stems from creating a fulcrum underneath the opponent's center of gravity while simultaneously removing one of their two posting bases, resulting in a dramatic reduction in their base stability. The X-Guard configuration uses the inside leg to hook deeply behind the opponent's near knee while the outside leg crosses their hip line, forming the characteristic 'X' pattern. This dual-leg control system creates three simultaneous mechanical advantages: elevation through the inside hook, distance management through the outside leg frame, and rotational control through the combined angular pressure of both legs working in opposition. The position fundamentally changes the dynamics of a standing-versus-guard engagement because the bottom player's legs are stronger than any grip-based retention system. Unlike guards that rely on sleeve, collar, or pant grips for control, X-Guard derives its power entirely from structural leg placement and hip positioning. This makes it uniquely resistant to grip-breaking strategies and equally effective in gi and no-gi competition. The guard integrates naturally with Single Leg X-Guard, Reverse X-Guard, and Butterfly Guard, creating an interconnected system where defensive reactions to one variation expose vulnerabilities to another. For advanced practitioners, X-Guard represents more than just a sweeping position. It serves as an entry platform to modern leg entanglement systems including ashi garami, honey hole, and outside ashi positions. When the opponent attempts to sit back or disengage from sweeps, they often expose their legs to entanglement entries that lead directly to heel hooks, kneebars, and other lower body submissions. This dual-threat nature, combining sweeps with leg lock entries, makes X-Guard one of the most strategically valuable open guard positions in contemporary grappling.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7OnjPU1WjH4)
+
+<p class="clip-credit"><strong>X-Guard sweep and pass overview</strong> — taught by Marcelo Garcia · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>X-Guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m-ueyJXiShY)
+
+<p class="clip-credit"><strong>No-Gi X-Guard sweep</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

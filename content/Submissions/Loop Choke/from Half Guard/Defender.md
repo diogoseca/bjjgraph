@@ -150,6 +150,43 @@ description: "How to defend the Loop Choke from Half Guard Bottom in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Loop choke escape",
+      "description": "Loop Choke from Half Guard (Defender) film study: Loop choke escape, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pZmJpXSwRTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pZmJpXSwRTk",
+      "url": "https://www.youtube.com/watch?v=pZmJpXSwRTk",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross collar loop choke defense",
+      "description": "Loop Choke from Half Guard (Defender) film study: Cross collar loop choke defense, taught by Stephen Whittier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iv2YYbzYl-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iv2YYbzYl-s",
+      "url": "https://www.youtube.com/watch?v=iv2YYbzYl-s",
+      "creator": { "@type": "Person", "name": "Stephen Whittier" },
+      "duration": "PT184S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ Once the collar is threaded under the chin and the attacker begins sprawling, th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pZmJpXSwRTk)
+
+<p class="clip-credit"><strong>Loop choke escape</strong> — taught by Ninja Pinto · 1:00 · <a href="https://www.youtube.com/watch?v=pZmJpXSwRTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iv2YYbzYl-s)
+
+<p class="clip-credit"><strong>Cross collar loop choke defense</strong> — taught by Stephen Whittier · 3:04 · <a href="https://www.youtube.com/watch?v=iv2YYbzYl-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

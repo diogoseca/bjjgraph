@@ -34,6 +34,54 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roger Gracie armbars",
+      "description": "Armbar Control film study: Roger Gracie armbars, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight armbar from guard",
+      "description": "Armbar Control film study: Straight armbar from guard, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8f9wkX7n4Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
+      "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Relson Gracie teaches the armbar",
+      "description": "Armbar Control film study: Relson Gracie teaches the armbar, taught by Relson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R2-h9yOwRdU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R2-h9yOwRdU",
+      "url": "https://www.youtube.com/watch?v=R2-h9yOwRdU",
+      "creator": { "@type": "Person", "name": "Relson Gracie" },
+      "duration": "PT72S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ From the top, the practitioner's body functions as a unified machine where the l
 From the bottom, survival depends on understanding the same five-point control system and methodically removing each element. The defender who bends the arm, rotates the thumb upward, controls the leg across the face, stacks the hips, and creates angles has addressed every finishing requirement simultaneously. This is not a position where a single defensive action suffices - the defender must layer multiple defensive principles to create genuine escape opportunities. The urgency of escape is real: armbar control is inherently time-limited for the bottom player because the top player can make incremental adjustments that progressively close escape windows.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I8f9wkX7n4Y)
+
+<p class="clip-credit"><strong>Straight armbar from guard</strong> — taught by Gracie Charlottesville · 0:30 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
+
+<p class="clip-credit"><strong>Relson Gracie teaches the armbar</strong> — taught by Relson Gracie · 1:12 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

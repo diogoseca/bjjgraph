@@ -34,6 +34,54 @@ description: "Master Posture Recovery from Meathook in BJJ. Learn systematic gri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery from Meathook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard near-side meathook armbar",
+      "description": "Posture Recovery from Meathook film study: Rubber guard near-side meathook armbar, taught by 10th Planet Colorado Springs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u9_zJA5NkEE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u9_zJA5NkEE",
+      "url": "https://www.youtube.com/watch?v=u9_zJA5NkEE",
+      "creator": { "@type": "Person", "name": "10th Planet Colorado Springs" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber guard quick fix",
+      "description": "Posture Recovery from Meathook film study: Rubber guard quick fix, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/huzjQNiJu7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/huzjQNiJu7Y",
+      "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Meathook to the stock",
+      "description": "Posture Recovery from Meathook film study: Meathook to the stock, taught by Richie Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6mZOuPs8nA8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6mZOuPs8nA8",
+      "url": "https://www.youtube.com/watch?v=6mZOuPs8nA8",
+      "creator": { "@type": "Person", "name": "Richie Martinez" },
+      "duration": "PT217S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success leads to recovered posture in Closed Guard top, the neutral platform fro
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery from Meathook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u9_zJA5NkEE)
+
+<p class="clip-credit"><strong>Rubber guard near-side meathook armbar</strong> — taught by 10th Planet Colorado Springs · 1:38 · <a href="https://www.youtube.com/watch?v=u9_zJA5NkEE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
+
+<p class="clip-credit"><strong>Rubber guard quick fix</strong> — taught by Brandon Mccaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6mZOuPs8nA8)
+
+<p class="clip-credit"><strong>Meathook to the stock</strong> — taught by Richie Martinez · 3:37 · <a href="https://www.youtube.com/watch?v=6mZOuPs8nA8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -153,6 +153,54 @@ description: "Offensive guide for Modified Scarf Hold top position. Master press
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Scarf Hold (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm Attack Options from Scarf Hold",
+      "description": "Modified Scarf Hold (Top) film study: Arm Attack Options from Scarf Hold, taught by Alexey Olynick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/17m6bnarNdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/17m6bnarNdE",
+      "url": "https://www.youtube.com/watch?v=17m6bnarNdE",
+      "creator": { "@type": "Person", "name": "Alexey Olynick" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scarf Hold Submission Compilation",
+      "description": "Modified Scarf Hold (Top) film study: Scarf Hold Submission Compilation, taught by Timothy Player.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/907qne3Jz7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/907qne3Jz7c",
+      "url": "https://www.youtube.com/watch?v=907qne3Jz7c",
+      "creator": { "@type": "Person", "name": "Timothy Player" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from Kesa Gatame (Scarf Hold)",
+      "description": "Modified Scarf Hold (Top) film study: Armbar from Kesa Gatame (Scarf Hold), taught by Jiu-jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wxD6LV1GARg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wxD6LV1GARg",
+      "url": "https://www.youtube.com/watch?v=wxD6LV1GARg",
+      "creator": { "@type": "Person", "name": "Jiu-jitsu" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ From a submission perspective, Modified Scarf Hold provides multiple attack path
 The learning progression for Modified Scarf Hold top follows predictable stages. Beginners focus on achieving and maintaining basic chest pressure. Intermediate practitioners develop the mobility and weight distribution necessary to counter common escapes. Advanced players master the submission chains and transitional flow that make the position truly dangerous at the highest levels of competition.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Scarf Hold (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=17m6bnarNdE)
+
+<p class="clip-credit"><strong>Arm Attack Options from Scarf Hold</strong> — taught by Alexey Olynick · 1:29 · <a href="https://www.youtube.com/watch?v=17m6bnarNdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=907qne3Jz7c)
+
+<p class="clip-credit"><strong>Scarf Hold Submission Compilation</strong> — taught by Timothy Player · 0:45 · <a href="https://www.youtube.com/watch?v=907qne3Jz7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wxD6LV1GARg)
+
+<p class="clip-credit"><strong>Armbar from Kesa Gatame (Scarf Hold)</strong> — taught by Jiu-jitsu · 1:08 · <a href="https://www.youtube.com/watch?v=wxD6LV1GARg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -140,6 +140,65 @@ description: "Defend against the Sweep from Pocket Half Guard as the top player.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Pocket Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock pass off their half guard underhook",
+      "description": "Sweep from Pocket Half Guard (Defender) film study: Body lock pass off their half guard underhook, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAd6OIq94X0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAd6OIq94X0",
+      "url": "https://www.youtube.com/watch?v=aAd6OIq94X0",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing half guard and shutting down the sweep",
+      "description": "Sweep from Pocket Half Guard (Defender) film study: Passing half guard and shutting down the sweep, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n6W2voDUWAY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n6W2voDUWAY",
+      "url": "https://www.youtube.com/watch?v=n6W2voDUWAY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the underhook when passing half guard",
+      "description": "Sweep from Pocket Half Guard (Defender) film study: Countering the underhook when passing half guard, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zy88ds_RDG4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Zy88ds_RDG4",
+      "url": "https://www.youtube.com/watch?v=Zy88ds_RDG4",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Defending the underhook from half guard top",
+      "description": "Sweep from Pocket Half Guard (Defender) film study: Defending the underhook from half guard top, taught by Great Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PxmQekq5Zow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PxmQekq5Zow",
+      "url": "https://www.youtube.com/watch?v=PxmQekq5Zow",
+      "creator": { "@type": "Person", "name": "Great Grappling" },
+      "duration": "PT598S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +208,50 @@ As the defender against this sweep, you are the top player in pocket half guard 
 **Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Pocket Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAd6OIq94X0)
+
+<p class="clip-credit"><strong>Body lock pass off their half guard underhook</strong> — taught by Gordon Ryan · 3:25 · <a href="https://www.youtube.com/watch?v=aAd6OIq94X0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n6W2voDUWAY)
+
+<p class="clip-credit"><strong>Passing half guard and shutting down the sweep</strong> — taught by Gordon Ryan · 2:44 · <a href="https://www.youtube.com/watch?v=n6W2voDUWAY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Zy88ds_RDG4)
+
+<p class="clip-credit"><strong>Countering the underhook when passing half guard</strong> — taught by Holy Grail BJJ · 2:06 · <a href="https://www.youtube.com/watch?v=Zy88ds_RDG4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PxmQekq5Zow)
+
+<p class="clip-credit"><strong>Defending the underhook from half guard top</strong> — taught by Great Grappling · 9:58 · <a href="https://www.youtube.com/watch?v=PxmQekq5Zow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -180,6 +180,54 @@ description: "Master attacking with the Bow and Arrow Setup from Standing Back C
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Setup from Standing Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing bow and arrow choke setup",
+      "description": "Bow and Arrow Setup from Standing Back (Attacker) film study: Standing bow and arrow choke setup, taught by Edward Anthony.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KUvlEU5m1fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KUvlEU5m1fw",
+      "url": "https://www.youtube.com/watch?v=KUvlEU5m1fw",
+      "creator": { "@type": "Person", "name": "Edward Anthony" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing bow and arrow choke",
+      "description": "Bow and Arrow Setup from Standing Back (Attacker) film study: Standing bow and arrow choke, taught by Turtles Impact.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DQQgYqnCVAA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DQQgYqnCVAA",
+      "url": "https://www.youtube.com/watch?v=DQQgYqnCVAA",
+      "creator": { "@type": "Person", "name": "Turtles Impact" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bow and arrow from standing back control",
+      "description": "Bow and Arrow Setup from Standing Back (Attacker) film study: Bow and arrow from standing back control, taught by Thomas Lisboa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eSsnIKo8gLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eSsnIKo8gLw",
+      "url": "https://www.youtube.com/watch?v=eSsnIKo8gLw",
+      "creator": { "@type": "Person", "name": "Thomas Lisboa" },
+      "duration": "PT133S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ The Bow and Arrow Setup from Standing Back Control represents an advanced gi-spe
 **From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Setup from Standing Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KUvlEU5m1fw)
+
+<p class="clip-credit"><strong>Standing bow and arrow choke setup</strong> — taught by Edward Anthony · 0:45 · <a href="https://www.youtube.com/watch?v=KUvlEU5m1fw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DQQgYqnCVAA)
+
+<p class="clip-credit"><strong>Standing bow and arrow choke</strong> — taught by Turtles Impact · 1:56 · <a href="https://www.youtube.com/watch?v=DQQgYqnCVAA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eSsnIKo8gLw)
+
+<p class="clip-credit"><strong>Bow and arrow from standing back control</strong> — taught by Thomas Lisboa · 2:13 · <a href="https://www.youtube.com/watch?v=eSsnIKo8gLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

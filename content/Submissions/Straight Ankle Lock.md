@@ -34,6 +34,54 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backside Foot Finish Mechanics",
+      "description": "Straight Ankle Lock film study: Backside Foot Finish Mechanics, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-VpByetjzqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-VpByetjzqs",
+      "url": "https://www.youtube.com/watch?v=-VpByetjzqs",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Ankle Lock",
+      "description": "Straight Ankle Lock film study: Straight Ankle Lock, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
+      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fast Straight Ankle Lock (No-Gi)",
+      "description": "Straight Ankle Lock film study: Fast Straight Ankle Lock (No-Gi), taught by Everythingbjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GVwnRuiKk-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GVwnRuiKk-Y",
+      "url": "https://www.youtube.com/watch?v=GVwnRuiKk-Y",
+      "creator": { "@type": "Person", "name": "Everythingbjj" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -83,6 +131,42 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
 The Straight Ankle Lock (also called Straight Footlock) is the most fundamental lower body submission in Brazilian Jiu-Jitsu, targeting the ankle joint through hyperextension while controlling the leg in Ashi Garami or similar entanglement positions. Unlike heel hooks which attack multiple planes, the straight ankle lock creates a single-axis pressure on the ankle, making it the safest entry point for leg lock training and the foundational technique from which all other lower body attacks develop. The submission works by securing the opponent's foot in your armpit, creating a fulcrum point with your forearm across the top of the foot, then extending your hips forward while pulling back on the foot to create hyperextension of the ankle. The straight ankle lock is legal at all belt levels in IBJJF competition (unlike heel hooks and most knee attacks), making it an essential tool for competitors and a critical defensive skill for all practitioners. When properly applied, the submission creates progressive pressure that allows training partners to recognize the danger and tap before injury occurs, though the ankle joint can be compromised rapidly if excessive force is applied. The technique's effectiveness lies in proper leg control, hip positioning, and the relationship between your chest and the opponent's knee line—control these elements and the finish becomes inevitable regardless of the opponent's defensive efforts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-VpByetjzqs)
+
+<p class="clip-credit"><strong>Backside Foot Finish Mechanics</strong> — taught by Mikey Musumeci · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
+
+<p class="clip-credit"><strong>Straight Ankle Lock</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GVwnRuiKk-Y)
+
+<p class="clip-credit"><strong>Fast Straight Ankle Lock (No-Gi)</strong> — taught by Everythingbjj · 1:04 · <a href="https://www.youtube.com/watch?v=GVwnRuiKk-Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

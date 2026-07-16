@@ -153,6 +153,43 @@ description: "Master attacking Chill Dog from top position. Learn to break defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chill Dog (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Taking the back from turtle side ride",
+      "description": "Chill Dog (Top) film study: Taking the back from turtle side ride, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fVp3cJSjOfc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fVp3cJSjOfc",
+      "url": "https://www.youtube.com/watch?v=fVp3cJSjOfc",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT178S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Entries into rear triangle back position",
+      "description": "Chill Dog (Top) film study: Entries into rear triangle back position, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
+      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT252S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ The most effective attacks from Chill Dog Top involve targeting specific vulnera
 In no-gi competition especially, Chill Dog Top tests your ability to maintain positional control without relying on gi grips. You must use body weight, strategic pressure points, and proper weight distribution to maintain control while working for your attacks. This makes timing and technique critical - heavy pressure at the right moments combined with precise grip work determines whether you secure the back or the opponent escapes.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chill Dog (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fVp3cJSjOfc)
+
+<p class="clip-credit"><strong>Taking the back from turtle side ride</strong> — taught by Robyn Sheehan · 2:58 · <a href="https://www.youtube.com/watch?v=fVp3cJSjOfc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMabjvtaLk)
+
+<p class="clip-credit"><strong>Entries into rear triangle back position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

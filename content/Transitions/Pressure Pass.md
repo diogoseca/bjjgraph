@@ -34,6 +34,54 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard passing pressure concept",
+      "description": "Pressure Pass film study: Guard passing pressure concept, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o3PZRQSZStQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o3PZRQSZStQ",
+      "url": "https://www.youtube.com/watch?v=o3PZRQSZStQ",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head position for pressure passing",
+      "description": "Pressure Pass film study: Head position for pressure passing, taught by StrongHouse Performance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pi5EN9ZNmiQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pi5EN9ZNmiQ",
+      "url": "https://www.youtube.com/watch?v=pi5EN9ZNmiQ",
+      "creator": { "@type": "Person", "name": "StrongHouse Performance" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Z guard pressure pass to side control",
+      "description": "Pressure Pass film study: Z guard pressure pass to side control, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hDh0b9Ms54M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hDh0b9Ms54M",
+      "url": "https://www.youtube.com/watch?v=hDh0b9Ms54M",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ The Pressure Pass is a fundamental guard passing technique that relies on contro
 **Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o3PZRQSZStQ)
+
+<p class="clip-credit"><strong>Guard passing pressure concept</strong> — taught by Henry Akins · 1:24 · <a href="https://www.youtube.com/watch?v=o3PZRQSZStQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pi5EN9ZNmiQ)
+
+<p class="clip-credit"><strong>Head position for pressure passing</strong> — taught by StrongHouse Performance · 1:22 · <a href="https://www.youtube.com/watch?v=pi5EN9ZNmiQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hDh0b9Ms54M)
+
+<p class="clip-credit"><strong>Z guard pressure pass to side control</strong> — taught by Revolution BJJ Ashland · 1:33 · <a href="https://www.youtube.com/watch?v=hDh0b9Ms54M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

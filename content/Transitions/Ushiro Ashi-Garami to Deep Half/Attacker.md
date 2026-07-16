@@ -168,6 +168,43 @@ description: "How to execute Ushiro Ashi-Garami to Deep Half in BJJ. Attacking p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ushiro Ashi-Garami to Deep Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep half guard to ashi or single X",
+      "description": "Ushiro Ashi-Garami to Deep Half (Attacker) film study: Deep half guard to ashi or single X, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/17zlty5ttjo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/17zlty5ttjo",
+      "url": "https://www.youtube.com/watch?v=17zlty5ttjo",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT176S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Z guard to backside 50/50 entry",
+      "description": "Ushiro Ashi-Garami to Deep Half (Attacker) film study: Z guard to backside 50/50 entry, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E2eeNrFW-F4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E2eeNrFW-F4",
+      "url": "https://www.youtube.com/watch?v=E2eeNrFW-F4",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT122S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ From ushiro ashi-garami bottom, the player executing this escape treats the reve
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ushiro Ashi-Garami to Deep Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=17zlty5ttjo)
+
+<p class="clip-credit"><strong>Deep half guard to ashi or single X</strong> — taught by Brandon Quick · 2:56 · <a href="https://www.youtube.com/watch?v=17zlty5ttjo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E2eeNrFW-F4)
+
+<p class="clip-credit"><strong>Z guard to backside 50/50 entry</strong> — taught by Revolution BJJ Ashland · 2:02 · <a href="https://www.youtube.com/watch?v=E2eeNrFW-F4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

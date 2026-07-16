@@ -34,6 +34,43 @@ description: "Master the Re-pull Half Guard from Dogfight in BJJ. Learn when to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Re-pull Half Guard from Dogfight \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dogfight to double leg to guard replacement",
+      "description": "Re-pull Half Guard from Dogfight film study: Dogfight to double leg to guard replacement, taught by Kyle Ennis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d4YCOnY0WCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d4YCOnY0WCA",
+      "url": "https://www.youtube.com/watch?v=d4YCOnY0WCA",
+      "creator": { "@type": "Person", "name": "Kyle Ennis" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard roll variation from the dogfight",
+      "description": "Re-pull Half Guard from Dogfight film study: Half guard roll variation from the dogfight, taught by Lucas Leite.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kYUlZ3ldo-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kYUlZ3ldo-Q",
+      "url": "https://www.youtube.com/watch?v=kYUlZ3ldo-Q",
+      "creator": { "@type": "Person", "name": "Lucas Leite" },
+      "duration": "PT133S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the re-pull serves a dual purpose: it preserves energy for future
 **Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Re-pull Half Guard from Dogfight in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d4YCOnY0WCA)
+
+<p class="clip-credit"><strong>Dogfight to double leg to guard replacement</strong> — taught by Kyle Ennis · 0:46 · <a href="https://www.youtube.com/watch?v=d4YCOnY0WCA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kYUlZ3ldo-Q)
+
+<p class="clip-credit"><strong>Half guard roll variation from the dogfight</strong> — taught by Lucas Leite · 2:13 · <a href="https://www.youtube.com/watch?v=kYUlZ3ldo-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

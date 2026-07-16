@@ -34,6 +34,54 @@ description: "Master the Butterfly Sweep with Guillotine from Hindulotine bottom
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Sweep with Guillotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Failed butterfly sweep to guillotine",
+      "description": "Butterfly Sweep with Guillotine film study: Failed butterfly sweep to guillotine, taught by Gracie Westchase coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QVX_1iEBFk4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QVX_1iEBFk4",
+      "url": "https://www.youtube.com/watch?v=QVX_1iEBFk4",
+      "creator": { "@type": "Person", "name": "Gracie Westchase coach" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine from butterfly guard",
+      "description": "Butterfly Sweep with Guillotine film study: Guillotine from butterfly guard, taught by Jake Shields.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SAWvSovVk4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SAWvSovVk4A",
+      "url": "https://www.youtube.com/watch?v=SAWvSovVk4A",
+      "creator": { "@type": "Person", "name": "Jake Shields" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm-in guillotine to butterfly sweep",
+      "description": "Butterfly Sweep with Guillotine film study: Arm-in guillotine to butterfly sweep, taught by Cate BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3lHWHK-ga1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3lHWHK-ga1s",
+      "url": "https://www.youtube.com/watch?v=3lHWHK-ga1s",
+      "creator": { "@type": "Person", "name": "Cate BJJ coach" },
+      "duration": "PT109S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The strategic brilliance of this combination lies in its offensive layering. The
 **Success Rate**: 44%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Sweep with Guillotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QVX_1iEBFk4)
+
+<p class="clip-credit"><strong>Failed butterfly sweep to guillotine</strong> — taught by Gracie Westchase coach · 1:14 · <a href="https://www.youtube.com/watch?v=QVX_1iEBFk4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SAWvSovVk4A)
+
+<p class="clip-credit"><strong>Guillotine from butterfly guard</strong> — taught by Jake Shields · 1:04 · <a href="https://www.youtube.com/watch?v=SAWvSovVk4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3lHWHK-ga1s)
+
+<p class="clip-credit"><strong>Arm-in guillotine to butterfly sweep</strong> — taught by Cate BJJ coach · 1:49 · <a href="https://www.youtube.com/watch?v=3lHWHK-ga1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

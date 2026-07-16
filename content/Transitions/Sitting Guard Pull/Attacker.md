@@ -168,6 +168,43 @@ description: "How to execute Sitting Guard Pull in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sitting Guard Pull (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard pull to X guard sweep setup",
+      "description": "Sitting Guard Pull (Attacker) film study: Guard pull to X guard sweep setup, taught by Jackson Souza.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jAQul3bwCv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jAQul3bwCv4",
+      "url": "https://www.youtube.com/watch?v=jAQul3bwCv4",
+      "creator": { "@type": "Person", "name": "Jackson Souza" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Competition-tested ways to pull guard",
+      "description": "Sitting Guard Pull (Attacker) film study: Competition-tested ways to pull guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B4_5rH7Vae0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B4_5rH7Vae0",
+      "url": "https://www.youtube.com/watch?v=B4_5rH7Vae0",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ The Sitting Guard Pull from the attacker's perspective is about controlling the 
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sitting Guard Pull (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jAQul3bwCv4)
+
+<p class="clip-credit"><strong>Guard pull to X guard sweep setup</strong> — taught by Jackson Souza · 0:17 · <a href="https://www.youtube.com/watch?v=jAQul3bwCv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B4_5rH7Vae0)
+
+<p class="clip-credit"><strong>Competition-tested ways to pull guard</strong> — taught by Jon Thomas · 3:27 · <a href="https://www.youtube.com/watch?v=B4_5rH7Vae0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

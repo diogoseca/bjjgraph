@@ -34,6 +34,54 @@ description: "Master the Ten Finger Guillotine from Guillotine Control in BJJ. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine from Guillotine Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine Finishing Mechanics",
+      "description": "Ten Finger Guillotine from Guillotine Control film study: Guillotine Finishing Mechanics, taught by John Combs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k_j0NLNwKDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k_j0NLNwKDA",
+      "url": "https://www.youtube.com/watch?v=k_j0NLNwKDA",
+      "creator": { "@type": "Person", "name": "John Combs" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "10 Finger Grip Guillotine choke",
+      "description": "Ten Finger Guillotine from Guillotine Control film study: 10 Finger Grip Guillotine choke, taught by Big Dan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rYKci9GFisg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rYKci9GFisg",
+      "url": "https://www.youtube.com/watch?v=rYKci9GFisg",
+      "creator": { "@type": "Person", "name": "Big Dan" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Do a 10-Finger Guillotine",
+      "description": "Ten Finger Guillotine from Guillotine Control film study: How to Do a 10-Finger Guillotine, taught by Howcast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tsofKYcYqaA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tsofKYcYqaA",
+      "url": "https://www.youtube.com/watch?v=tsofKYcYqaA",
+      "creator": { "@type": "Person", "name": "Howcast" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Strategically, this submission chains naturally with the broader guillotine cont
 **Starting Position**: [[Positions/Guillotine Control]] · **From**: [[Positions/Guillotine Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine from Guillotine Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k_j0NLNwKDA)
+
+<p class="clip-credit"><strong>Guillotine Finishing Mechanics</strong> — taught by John Combs · 1:11 · <a href="https://www.youtube.com/watch?v=k_j0NLNwKDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rYKci9GFisg)
+
+<p class="clip-credit"><strong>10 Finger Grip Guillotine choke</strong> — taught by Big Dan · 0:20 · <a href="https://www.youtube.com/watch?v=rYKci9GFisg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tsofKYcYqaA)
+
+<p class="clip-credit"><strong>How to Do a 10-Finger Guillotine</strong> — taught by Howcast · 1:53 · <a href="https://www.youtube.com/watch?v=tsofKYcYqaA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

@@ -176,6 +176,54 @@ description: "Learn how to attack with the cross collar choke from knee on belly
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Knee on Belly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross choke from knee on belly",
+      "description": "Cross Collar Choke from Knee on Belly (Attacker) film study: Cross choke from knee on belly, taught by TEAM BERT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hfwzbS9va6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hfwzbS9va6M",
+      "url": "https://www.youtube.com/watch?v=hfwzbS9va6M",
+      "creator": { "@type": "Person", "name": "TEAM BERT" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Far lapel cross collar choke from knee on belly",
+      "description": "Cross Collar Choke from Knee on Belly (Attacker) film study: Far lapel cross collar choke from knee on belly, taught by Martial Arts Institute.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7N0smA14MFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7N0smA14MFU",
+      "url": "https://www.youtube.com/watch?v=7N0smA14MFU",
+      "creator": { "@type": "Person", "name": "Martial Arts Institute" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross collar choke from knee on belly",
+      "description": "Cross Collar Choke from Knee on Belly (Attacker) film study: Cross collar choke from knee on belly, taught by Evan Cutts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bnHem44kqeA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bnHem44kqeA",
+      "url": "https://www.youtube.com/watch?v=bnHem44kqeA",
+      "creator": { "@type": "Person", "name": "Evan Cutts" },
+      "duration": "PT157S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the cross collar choke from knee on belly requires precise coordi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Knee on Belly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hfwzbS9va6M)
+
+<p class="clip-credit"><strong>Cross choke from knee on belly</strong> — taught by TEAM BERT · 0:47 · <a href="https://www.youtube.com/watch?v=hfwzbS9va6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7N0smA14MFU)
+
+<p class="clip-credit"><strong>Far lapel cross collar choke from knee on belly</strong> — taught by Martial Arts Institute · 2:20 · <a href="https://www.youtube.com/watch?v=7N0smA14MFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bnHem44kqeA)
+
+<p class="clip-credit"><strong>Cross collar choke from knee on belly</strong> — taught by Evan Cutts · 2:37 · <a href="https://www.youtube.com/watch?v=bnHem44kqeA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

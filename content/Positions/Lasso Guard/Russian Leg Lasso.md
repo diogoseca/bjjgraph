@@ -34,6 +34,54 @@ description: "Master Russian Leg Lasso position in BJJ. Strategic guide covering
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Leg Lasso \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso Guard Variations Overview",
+      "description": "Russian Leg Lasso film study: Lasso Guard Variations Overview, taught by Felipe Costa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n4ddjzGemrw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n4ddjzGemrw",
+      "url": "https://www.youtube.com/watch?v=n4ddjzGemrw",
+      "creator": { "@type": "Person", "name": "Felipe Costa" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso Guard vs Top Pressure",
+      "description": "Russian Leg Lasso film study: Lasso Guard vs Top Pressure, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ErsvmCAGxnA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ErsvmCAGxnA",
+      "url": "https://www.youtube.com/watch?v=ErsvmCAGxnA",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Entering Lasso Guard from Open Guard",
+      "description": "Russian Leg Lasso film study: Entering Lasso Guard from Open Guard, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
+      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master Russian Leg Lasso position in BJJ. Strategic guide covering
 Emerging from the competitive evolution of the traditional lasso guard, the Russian variation layers additional control mechanisms onto an already powerful structure to defeat increasingly sophisticated passing games. It distinguishes itself from standard lasso guard through its deeper lasso configuration, strategic collar and sleeve grip combinations, and the ability to create multiple offensive threats simultaneously. The Russian variation emerged from the evolution of modern competition jiu-jitsu, where practitioners sought ways to enhance the already effective lasso guard with additional control mechanisms that would work against increasingly sophisticated guard passing strategies. From the bottom perspective, this guard offers exceptional control over the opponent's posture and base, creating opportunities for sweeps, submissions, and transitions that are difficult to defend when properly executed. The lasso itself functions as a mechanical pulley system, with the guard player's leg threaded through the opponent's arm creating a binding effect that can be amplified through proper grip configurations and hip positioning. From the top perspective, Russian Leg Lasso presents a complex passing puzzle that requires systematic dismantling of multiple control points, excellent base and posture maintenance, and the patience to work through defensive layers without rushing into sweep traps. The position demands high-level technical understanding from both practitioners - the bottom player must coordinate multiple grips and pressure points while managing distance and angles, while the top player must methodically address each control mechanism without creating openings for the guard player's offensive arsenal. Understanding both perspectives provides comprehensive insight into one of modern BJJ's most sophisticated guard systems, revealing the strategic depth that makes this position effective at the highest levels of competition.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Leg Lasso in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n4ddjzGemrw)
+
+<p class="clip-credit"><strong>Lasso Guard Variations Overview</strong> — taught by Felipe Costa · 0:28 · <a href="https://www.youtube.com/watch?v=n4ddjzGemrw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ErsvmCAGxnA)
+
+<p class="clip-credit"><strong>Lasso Guard vs Top Pressure</strong> — taught by Mikey Musumeci · 1:18 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
+
+<p class="clip-credit"><strong>Entering Lasso Guard from Open Guard</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

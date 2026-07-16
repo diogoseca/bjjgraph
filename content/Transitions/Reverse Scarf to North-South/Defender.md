@@ -148,6 +148,54 @@ description: "Defend against the Reverse Scarf to North-South transition in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Scarf to North-South (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quick north-south escape",
+      "description": "Reverse Scarf to North-South (Defender) film study: Quick north-south escape, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2EZfzJb_-tA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2EZfzJb_-tA",
+      "url": "https://www.youtube.com/watch?v=2EZfzJb_-tA",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame escape to back take",
+      "description": "Reverse Scarf to North-South (Defender) film study: Reverse kesa gatame escape to back take, taught by Gymnanigains.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse kesa gatame side control escape",
+      "description": "Reverse Scarf to North-South (Defender) film study: Reverse kesa gatame side control escape, taught by Coach Paul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzegNgUUfZs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzegNgUUfZs",
+      "url": "https://www.youtube.com/watch?v=QzegNgUUfZs",
+      "creator": { "@type": "Person", "name": "Coach Paul" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Reverse Scarf to North-South transition, your object
 **Opponent's Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Scarf to North-South (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2EZfzJb_-tA)
+
+<p class="clip-credit"><strong>Quick north-south escape</strong> — taught by Moncaio Brothers · 0:24 · <a href="https://www.youtube.com/watch?v=2EZfzJb_-tA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape to back take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzegNgUUfZs)
+
+<p class="clip-credit"><strong>Reverse kesa gatame side control escape</strong> — taught by Coach Paul · 1:21 · <a href="https://www.youtube.com/watch?v=QzegNgUUfZs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

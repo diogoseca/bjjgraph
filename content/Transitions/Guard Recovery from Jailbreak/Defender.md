@@ -142,6 +142,54 @@ description: "Prevent guard recovery from Jailbreak as the top player in BJJ. Gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Jailbreak (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shutting down guard recovery with the side guard",
+      "description": "Guard Recovery from Jailbreak (Defender) film study: Shutting down guard recovery with the side guard, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H1mYd49sUfE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H1mYd49sUfE",
+      "url": "https://www.youtube.com/watch?v=H1mYd49sUfE",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Most Common Guard Retention Problem",
+      "description": "Guard Recovery from Jailbreak (Defender) film study: Most Common Guard Retention Problem, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_K4ydd1ofgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_K4ydd1ofgI",
+      "url": "https://www.youtube.com/watch?v=_K4ydd1ofgI",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT220S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard Retention Technique That Changes Your Guard",
+      "description": "Guard Recovery from Jailbreak (Defender) film study: Guard Retention Technique That Changes Your Guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nv3qyfhEUcs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nv3qyfhEUcs",
+      "url": "https://www.youtube.com/watch?v=Nv3qyfhEUcs",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT339S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ As the top player after defending a Jailbreak attempt, you are in a strong posit
 **Opponent's Starting Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Jailbreak (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H1mYd49sUfE)
+
+<p class="clip-credit"><strong>Shutting down guard recovery with the side guard</strong> — taught by John Connors · 1:36 · <a href="https://www.youtube.com/watch?v=H1mYd49sUfE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_K4ydd1ofgI)
+
+<p class="clip-credit"><strong>Most Common Guard Retention Problem</strong> — taught by Jon Thomas · 3:40 · <a href="https://www.youtube.com/watch?v=_K4ydd1ofgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nv3qyfhEUcs)
+
+<p class="clip-credit"><strong>Guard Retention Technique That Changes Your Guard</strong> — taught by Jon Thomas · 5:39 · <a href="https://www.youtube.com/watch?v=Nv3qyfhEUcs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,65 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel Hooks breakdown",
+      "description": "Outside Heel Hook film study: Heel Hooks breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
+      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "ADCC-style 50/50 heel hook",
+      "description": "Outside Heel Hook film study: ADCC-style 50/50 heel hook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5RyU5LDc3C4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5RyU5LDc3C4",
+      "url": "https://www.youtube.com/watch?v=5RyU5LDc3C4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Backside 50/50 heel hook finish",
+      "description": "Outside Heel Hook film study: Backside 50/50 heel hook finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Backside 50/50 to outside heel hook",
+      "description": "Outside Heel Hook film study: Backside 50/50 to outside heel hook, taught by Marshall Stamper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7I0Lj1aSon4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7I0Lj1aSon4",
+      "url": "https://www.youtube.com/watch?v=7I0Lj1aSon4",
+      "creator": { "@type": "Person", "name": "Marshall Stamper" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -87,6 +146,50 @@ The outside heel hook gained prominence in modern no-gi competition through the 
 The position demands systematic control before any finishing attempt: hip control with the inside leg prevents defensive rotation, hip extension removes slack from the system, and a deep heel cup provides the rotational lever. Only when all three control elements are established should the practitioner begin slow, progressive rotation. This submission represents the ultimate test of a grappler's responsibility, as the margin between a clean tap and a catastrophic injury is razor-thin.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UuluKZKDt8w)
+
+<p class="clip-credit"><strong>Heel Hooks breakdown</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5RyU5LDc3C4)
+
+<p class="clip-credit"><strong>ADCC-style 50/50 heel hook</strong> — taught by Lachlan Giles · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Backside 50/50 heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7I0Lj1aSon4)
+
+<p class="clip-credit"><strong>Backside 50/50 to outside heel hook</strong> — taught by Marshall Stamper · 0:47 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

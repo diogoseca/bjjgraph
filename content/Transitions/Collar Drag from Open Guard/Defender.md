@@ -148,6 +148,43 @@ description: "Defend and counter the collar drag from open guard. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Drag from Open Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Best way to defend the arm drag in jiu jitsu",
+      "description": "Collar Drag from Open Guard (Defender) film study: Best way to defend the arm drag in jiu jitsu, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
+      "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Collar sleeve defense with overhead sweep counter",
+      "description": "Collar Drag from Open Guard (Defender) film study: Collar sleeve defense with overhead sweep counter, taught by Luciana Marcos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wdvJF6S68TI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wdvJF6S68TI",
+      "url": "https://www.youtube.com/watch?v=wdvJF6S68TI",
+      "creator": { "@type": "Person", "name": "Luciana Marcos" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Successful defense against the collar drag requires understanding that the techn
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Drag from Open Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bmCjXADzgo4)
+
+<p class="clip-credit"><strong>Best way to defend the arm drag in jiu jitsu</strong> — taught by Matt Arroyo · 1:43 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wdvJF6S68TI)
+
+<p class="clip-credit"><strong>Collar sleeve defense with overhead sweep counter</strong> — taught by Luciana Marcos · 1:08 · <a href="https://www.youtube.com/watch?v=wdvJF6S68TI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

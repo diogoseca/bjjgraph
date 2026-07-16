@@ -148,6 +148,54 @@ description: "How to defend against Shin Shield Recovery in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin Shield Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee cut pass against the knee shield",
+      "description": "Shin Shield Recovery (Defender) film study: Knee cut pass against the knee shield, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee shield half guard pass",
+      "description": "Shin Shield Recovery (Defender) film study: Knee shield half guard pass, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o-7m6AtG44U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o-7m6AtG44U",
+      "url": "https://www.youtube.com/watch?v=o-7m6AtG44U",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing knee shield, z guard and shin shield",
+      "description": "Shin Shield Recovery (Defender) film study: Passing knee shield, z guard and shin shield, taught by Professor Buck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/65UBMQgTL-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/65UBMQgTL-s",
+      "url": "https://www.youtube.com/watch?v=65UBMQgTL-s",
+      "creator": { "@type": "Person", "name": "Professor Buck" },
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The most effective approach combines relentless forward pressure with strategic 
 **Opponent's Starting Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin Shield Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
+
+<p class="clip-credit"><strong>Knee cut pass against the knee shield</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o-7m6AtG44U)
+
+<p class="clip-credit"><strong>Knee shield half guard pass</strong> — taught by Bowerhouse MMA · 0:50 · <a href="https://www.youtube.com/watch?v=o-7m6AtG44U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=65UBMQgTL-s)
+
+<p class="clip-credit"><strong>Passing knee shield, z guard and shin shield</strong> — taught by Professor Buck · 2:14 · <a href="https://www.youtube.com/watch?v=65UBMQgTL-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master turning into your opponent from back control in BJJ. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn into Opponent from Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape: clearing the arm to turn in",
+      "description": "Turn into Opponent from Back film study: Back escape: clearing the arm to turn in, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8XBJboAGzRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8XBJboAGzRk",
+      "url": "https://www.youtube.com/watch?v=8XBJboAGzRk",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT260S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 powerful back escapes turning into the opponent",
+      "description": "Turn into Opponent from Back film study: 3 powerful back escapes turning into the opponent, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/93Bw5abRDiU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/93Bw5abRDiU",
+      "url": "https://www.youtube.com/watch?v=93Bw5abRDiU",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back control escape explained simply",
+      "description": "Turn into Opponent from Back film study: Back control escape explained simply, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
+      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ At the competition level, this escape is most effective when combined with other
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn into Opponent from Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8XBJboAGzRk)
+
+<p class="clip-credit"><strong>Back escape: clearing the arm to turn in</strong> — taught by Lachlan Giles · 4:20 · <a href="https://www.youtube.com/watch?v=8XBJboAGzRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=93Bw5abRDiU)
+
+<p class="clip-credit"><strong>3 powerful back escapes turning into the opponent</strong> — taught by Stephan Kesting · 3:36 · <a href="https://www.youtube.com/watch?v=93Bw5abRDiU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jd2llamfl8)
+
+<p class="clip-credit"><strong>Back control escape explained simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

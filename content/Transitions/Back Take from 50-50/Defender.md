@@ -148,6 +148,54 @@ description: "How to defend against Back Take from 50-50 in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from 50-50 (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the back take from 50/50",
+      "description": "Back Take from 50-50 (Defender) film study: Countering the back take from 50/50, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3rTUggUmhBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3rTUggUmhBk",
+      "url": "https://www.youtube.com/watch?v=3rTUggUmhBk",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the back take: circling and backing away",
+      "description": "Back Take from 50-50 (Defender) film study: Defending the back take: circling and backing away, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cc1xxX186lg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cc1xxX186lg",
+      "url": "https://www.youtube.com/watch?v=cc1xxX186lg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT171S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "50/50 defense: protecting your leg",
+      "description": "Back Take from 50-50 (Defender) film study: 50/50 defense: protecting your leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
+      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defense integrates counter-attacking into the defensive sequence. Rathe
 **Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from 50-50 (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3rTUggUmhBk)
+
+<p class="clip-credit"><strong>Countering the back take from 50/50</strong> — taught by Revolution BJJ Ashland · 1:11 · <a href="https://www.youtube.com/watch?v=3rTUggUmhBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cc1xxX186lg)
+
+<p class="clip-credit"><strong>Defending the back take: circling and backing away</strong> — taught by Lachlan Giles · 2:51 · <a href="https://www.youtube.com/watch?v=cc1xxX186lg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+
+<p class="clip-credit"><strong>50/50 defense: protecting your leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

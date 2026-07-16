@@ -168,6 +168,54 @@ description: "How to execute Harai Goshi in BJJ. Attacking perspective with setu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harai Goshi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi harai goshi throw",
+      "description": "Harai Goshi (Attacker) film study: No-gi harai goshi throw, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J23ai6yIaIE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J23ai6yIaIE",
+      "url": "https://www.youtube.com/watch?v=J23ai6yIaIE",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Harai goshi for wrestlers",
+      "description": "Harai Goshi (Attacker) film study: Harai goshi for wrestlers, taught by Victoria Anthony.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hj1wTW5poro/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hj1wTW5poro",
+      "url": "https://www.youtube.com/watch?v=hj1wTW5poro",
+      "creator": { "@type": "Person", "name": "Victoria Anthony" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three variations of harai goshi",
+      "description": "Harai Goshi (Attacker) film study: Three variations of harai goshi, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aWPnGn9dthM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aWPnGn9dthM",
+      "url": "https://www.youtube.com/watch?v=aWPnGn9dthM",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT174S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harai Goshi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J23ai6yIaIE)
+
+<p class="clip-credit"><strong>No-gi harai goshi throw</strong> — taught by Shintaro Higashi · 1:31 · <a href="https://www.youtube.com/watch?v=J23ai6yIaIE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hj1wTW5poro)
+
+<p class="clip-credit"><strong>Harai goshi for wrestlers</strong> — taught by Victoria Anthony · 0:23 · <a href="https://www.youtube.com/watch?v=hj1wTW5poro" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aWPnGn9dthM)
+
+<p class="clip-credit"><strong>Three variations of harai goshi</strong> — taught by Shintaro Higashi · 2:54 · <a href="https://www.youtube.com/watch?v=aWPnGn9dthM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

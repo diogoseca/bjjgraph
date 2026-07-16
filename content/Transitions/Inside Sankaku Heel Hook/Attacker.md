@@ -180,6 +180,54 @@ description: "Complete attacker guide for the Inside Sankaku Heel Hook. Step-by-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Sankaku Heel Hook (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside heel hook breakdown",
+      "description": "Inside Sankaku Heel Hook (Attacker) film study: Inside heel hook breakdown, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjMVCd6n1TA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rjMVCd6n1TA",
+      "url": "https://www.youtube.com/watch?v=rjMVCd6n1TA",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Heel hook breaking mechanics",
+      "description": "Inside Sankaku Heel Hook (Attacker) film study: Heel hook breaking mechanics, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
+      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inside heel hook from butterfly guard",
+      "description": "Inside Sankaku Heel Hook (Attacker) film study: Inside heel hook from butterfly guard, taught by Mike Palladino.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RDZrtByKcNI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RDZrtByKcNI",
+      "url": "https://www.youtube.com/watch?v=RDZrtByKcNI",
+      "creator": { "@type": "Person", "name": "Mike Palladino" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 **From Position**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Sankaku Heel Hook (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rjMVCd6n1TA)
+
+<p class="clip-credit"><strong>Inside heel hook breakdown</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=rjMVCd6n1TA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+
+<p class="clip-credit"><strong>Heel hook breaking mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RDZrtByKcNI)
+
+<p class="clip-credit"><strong>Inside heel hook from butterfly guard</strong> — taught by Mike Palladino · 1:00 · <a href="https://www.youtube.com/watch?v=RDZrtByKcNI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

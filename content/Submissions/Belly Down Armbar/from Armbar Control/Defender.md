@@ -144,6 +144,54 @@ description: "Defend against the belly down armbar finish from armbar control. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Armbar Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "My favorite armbar escape",
+      "description": "Belly Down Armbar from Armbar Control (Defender) film study: My favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Low effort armbar escape via foot capture",
+      "description": "Belly Down Armbar from Armbar Control (Defender) film study: Low effort armbar escape via foot capture, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AfDEN3uK3W0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AfDEN3uK3W0",
+      "url": "https://www.youtube.com/watch?v=AfDEN3uK3W0",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Boogie Man Arm Bar Defense \u0026 Escape",
+      "description": "Belly Down Armbar from Armbar Control (Defender) film study: Boogie Man Arm Bar Defense \u0026 Escape, taught by grpplng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eO6dA9Cq6aY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eO6dA9Cq6aY",
+      "url": "https://www.youtube.com/watch?v=eO6dA9Cq6aY",
+      "creator": { "@type": "Person", "name": "grpplng" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the belly down armbar from armbar control demands early recognition of
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Armbar Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>My favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AfDEN3uK3W0)
+
+<p class="clip-credit"><strong>Low effort armbar escape via foot capture</strong> — taught by Patrick Donabedian · 0:55 · <a href="https://www.youtube.com/watch?v=AfDEN3uK3W0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eO6dA9Cq6aY)
+
+<p class="clip-credit"><strong>Boogie Man Arm Bar Defense &amp; Escape</strong> — taught by grpplng · 1:10 · <a href="https://www.youtube.com/watch?v=eO6dA9Cq6aY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -140,6 +140,54 @@ description: "Defend against the Strip Lapel from Piranha as the bottom player. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Strip Lapel from Piranha (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking double lapel grips",
+      "description": "Strip Lapel from Piranha (Defender) film study: Breaking double lapel grips, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5dwCJOzItDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5dwCJOzItDE",
+      "url": "https://www.youtube.com/watch?v=5dwCJOzItDE",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Valid grip breaking from lapel",
+      "description": "Strip Lapel from Piranha (Defender) film study: Valid grip breaking from lapel, taught by Neil Adams.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gUI1GeUga-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gUI1GeUga-w",
+      "url": "https://www.youtube.com/watch?v=gUI1GeUga-w",
+      "creator": { "@type": "Person", "name": "Neil Adams" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix grip break",
+      "description": "Strip Lapel from Piranha (Defender) film study: Crucifix grip break, taught by Gabe Tuttle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OnmLBMNZ44A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OnmLBMNZ44A",
+      "url": "https://www.youtube.com/watch?v=OnmLBMNZ44A",
+      "creator": { "@type": "Person", "name": "Gabe Tuttle" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the bottom player defending against the Strip Lapel from Piranha, your goal i
 **Opponent's Starting Position**: [[Positions/Piranha Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Strip Lapel from Piranha (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5dwCJOzItDE)
+
+<p class="clip-credit"><strong>Breaking double lapel grips</strong> — taught by Jean Jacques Machado · 0:56 · <a href="https://www.youtube.com/watch?v=5dwCJOzItDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gUI1GeUga-w)
+
+<p class="clip-credit"><strong>Valid grip breaking from lapel</strong> — taught by Neil Adams · 0:21 · <a href="https://www.youtube.com/watch?v=gUI1GeUga-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OnmLBMNZ44A)
+
+<p class="clip-credit"><strong>Crucifix grip break</strong> — taught by Gabe Tuttle · 1:26 · <a href="https://www.youtube.com/watch?v=OnmLBMNZ44A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

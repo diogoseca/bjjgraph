@@ -153,6 +153,54 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backside 50-50 (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backside 50/50 Inside Heel Hook Finish",
+      "description": "Backside 50-50 (Top) film study: Backside 50/50 Inside Heel Hook Finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Footlock Finish from Backside 50/50",
+      "description": "Backside 50-50 (Top) film study: Straight Footlock Finish from Backside 50/50, taught by Mitch Oley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hll_k_6QiI0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hll_k_6QiI0",
+      "url": "https://www.youtube.com/watch?v=hll_k_6QiI0",
+      "creator": { "@type": "Person", "name": "Mitch Oley" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Backside 50/50 from Knee on Belly",
+      "description": "Backside 50-50 (Top) film study: Backside 50/50 from Knee on Belly, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LTPdSfUqeFc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LTPdSfUqeFc",
+      "url": "https://www.youtube.com/watch?v=LTPdSfUqeFc",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From the top position in backside 50-50, you can see your opponent's legs more c
 Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused training environments, appearing from successful leg entanglement entries, countered leg attacks, or as a transitional position during scrambles. The position rewards technical leg lock knowledge and the ability to manage multiple attacking options simultaneously while maintaining dominant positional control. Success requires balancing pressure application to control opponent's movement with strategic decision-making about when to commit to leg lock finishes versus when to advance to superior positions like back control or saddle.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backside 50-50 (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Backside 50/50 Inside Heel Hook Finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hll_k_6QiI0)
+
+<p class="clip-credit"><strong>Straight Footlock Finish from Backside 50/50</strong> — taught by Mitch Oley · 0:54 · <a href="https://www.youtube.com/watch?v=hll_k_6QiI0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LTPdSfUqeFc)
+
+<p class="clip-credit"><strong>Backside 50/50 from Knee on Belly</strong> — taught by Thunderdome BJJ · 0:19 · <a href="https://www.youtube.com/watch?v=LTPdSfUqeFc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

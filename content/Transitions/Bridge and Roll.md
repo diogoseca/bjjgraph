@@ -34,6 +34,54 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge and Roll \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount bottom bridge and roll escape",
+      "description": "Bridge and Roll film study: Mount bottom bridge and roll escape, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2uuP147GoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
+      "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to do a bridge and roll mount escape",
+      "description": "Bridge and Roll film study: How to do a bridge and roll mount escape, taught by Diaz Combat Sports.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q2YZ0oiVMYo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q2YZ0oiVMYo",
+      "url": "https://www.youtube.com/watch?v=Q2YZ0oiVMYo",
+      "creator": { "@type": "Person", "name": "Diaz Combat Sports" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Upa mount escape beating shadow hooks",
+      "description": "Bridge and Roll film study: Upa mount escape beating shadow hooks, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MgF9kZdPnDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MgF9kZdPnDE",
+      "url": "https://www.youtube.com/watch?v=MgF9kZdPnDE",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT104S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technique demonstrates fundamental BJJ principles including the use of frame
 **Success Rate**: 31%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge and Roll in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2uuP147GoBk)
+
+<p class="clip-credit"><strong>Mount bottom bridge and roll escape</strong> — taught by Academy Jiu Jitsu · 1:02 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q2YZ0oiVMYo)
+
+<p class="clip-credit"><strong>How to do a bridge and roll mount escape</strong> — taught by Diaz Combat Sports · 1:27 · <a href="https://www.youtube.com/watch?v=Q2YZ0oiVMYo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MgF9kZdPnDE)
+
+<p class="clip-credit"><strong>Upa mount escape beating shadow hooks</strong> — taught by SBG PDX · 1:44 · <a href="https://www.youtube.com/watch?v=MgF9kZdPnDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

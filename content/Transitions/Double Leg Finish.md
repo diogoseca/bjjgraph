@@ -34,6 +34,54 @@ description: "Master the Double Leg Finish in BJJ. Complete guide from penetrati
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Leg Finish \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double leg head drive finish",
+      "description": "Double Leg Finish film study: Double leg head drive finish, taught by Cary Kolat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vFvl1tdr8l4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vFvl1tdr8l4",
+      "url": "https://www.youtube.com/watch?v=vFvl1tdr8l4",
+      "creator": { "@type": "Person", "name": "Cary Kolat" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Driving through to finish the double leg",
+      "description": "Double Leg Finish film study: Driving through to finish the double leg, taught by Physiohealth coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yqyCo-skPvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yqyCo-skPvA",
+      "url": "https://www.youtube.com/watch?v=yqyCo-skPvA",
+      "creator": { "@type": "Person", "name": "Physiohealth coach" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Blast double finish breakdown",
+      "description": "Double Leg Finish film study: Blast double finish breakdown, taught by Josh Dziewa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7LHzjdOADBs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7LHzjdOADBs",
+      "url": "https://www.youtube.com/watch?v=7LHzjdOADBs",
+      "creator": { "@type": "Person", "name": "Josh Dziewa" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Mastery of the double leg finish is essential for any grappler's takedown game, 
 **Success Rate**: 82%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Leg Finish in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vFvl1tdr8l4)
+
+<p class="clip-credit"><strong>Double leg head drive finish</strong> — taught by Cary Kolat · 0:47 · <a href="https://www.youtube.com/watch?v=vFvl1tdr8l4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yqyCo-skPvA)
+
+<p class="clip-credit"><strong>Driving through to finish the double leg</strong> — taught by Physiohealth coach · 0:28 · <a href="https://www.youtube.com/watch?v=yqyCo-skPvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7LHzjdOADBs)
+
+<p class="clip-credit"><strong>Blast double finish breakdown</strong> — taught by Josh Dziewa · 0:54 · <a href="https://www.youtube.com/watch?v=7LHzjdOADBs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

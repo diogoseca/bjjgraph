@@ -34,6 +34,43 @@ description: "Master the Lapel Strip from Worm Guard in BJJ. Systematic guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Strip from Worm Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm Guard Sweep from Deep Half Guard",
+      "description": "Lapel Strip from Worm Guard film study: Worm Guard Sweep from Deep Half Guard, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/adbXsY1gPL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/adbXsY1gPL8",
+      "url": "https://www.youtube.com/watch?v=adbXsY1gPL8",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT254S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm Guard 101",
+      "description": "Lapel Strip from Worm Guard film study: Worm Guard 101, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lLvkMU0xdHw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lLvkMU0xdHw",
+      "url": "https://www.youtube.com/watch?v=lLvkMU0xdHw",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT427S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Understanding the lapel strip within the broader worm guard passing context is c
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Strip from Worm Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=adbXsY1gPL8)
+
+<p class="clip-credit"><strong>Worm Guard Sweep from Deep Half Guard</strong> — taught by Keenan Cornelius · 4:14 · <a href="https://www.youtube.com/watch?v=adbXsY1gPL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lLvkMU0xdHw)
+
+<p class="clip-credit"><strong>Worm Guard 101</strong> — taught by Keenan Cornelius · 7:07 · <a href="https://www.youtube.com/watch?v=lLvkMU0xdHw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -180,6 +180,43 @@ description: "Complete guide to executing the Leg Extraction Pass. Learn to syst
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backstep from primary leg extraction",
+      "description": "Leg Extraction Pass (Attacker) film study: Backstep from primary leg extraction, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KcA6VYd8J2c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KcA6VYd8J2c",
+      "url": "https://www.youtube.com/watch?v=KcA6VYd8J2c",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ashi garami defense and counter pass",
+      "description": "Leg Extraction Pass (Attacker) film study: Ashi garami defense and counter pass, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZp355NAIYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZp355NAIYk",
+      "url": "https://www.youtube.com/watch?v=mZp355NAIYk",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the attacker executing the Leg Extraction Pass, your objective is to dismantl
 **From Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KcA6VYd8J2c)
+
+<p class="clip-credit"><strong>Backstep from primary leg extraction</strong> — taught by Gordon Ryan · 1:55 · <a href="https://www.youtube.com/watch?v=KcA6VYd8J2c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mZp355NAIYk)
+
+<p class="clip-credit"><strong>Ashi garami defense and counter pass</strong> — taught by The Grappling Bloke · 1:51 · <a href="https://www.youtube.com/watch?v=mZp355NAIYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

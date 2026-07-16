@@ -174,6 +174,54 @@ description: "How to execute Stack Defense in BJJ. Attacking perspective with se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Defense (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass guard recovery into triangle",
+      "description": "Stack Defense (Attacker) film study: Stack pass guard recovery into triangle, taught by Revolution BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YZkWd9yDOjg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YZkWd9yDOjg",
+      "url": "https://www.youtube.com/watch?v=YZkWd9yDOjg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard recovery trick when getting smashed",
+      "description": "Stack Defense (Attacker) film study: Guard recovery trick when getting smashed, taught by Finesse Jiujitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
+      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
+      "creator": { "@type": "Person", "name": "Finesse Jiujitsu coach" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the stack pass in no-gi",
+      "description": "Stack Defense (Attacker) film study: Defending the stack pass in no-gi, taught by Matt Serra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y6R29wW_KrU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y6R29wW_KrU",
+      "url": "https://www.youtube.com/watch?v=Y6R29wW_KrU",
+      "creator": { "@type": "Person", "name": "Matt Serra" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the guard player executing stack defense, your objective is to prevent the to
 **From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Defense (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YZkWd9yDOjg)
+
+<p class="clip-credit"><strong>Stack pass guard recovery into triangle</strong> — taught by Revolution BJJ coach · 1:01 · <a href="https://www.youtube.com/watch?v=YZkWd9yDOjg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhNZGloJ56c)
+
+<p class="clip-credit"><strong>Guard recovery trick when getting smashed</strong> — taught by Finesse Jiujitsu coach · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y6R29wW_KrU)
+
+<p class="clip-credit"><strong>Defending the stack pass in no-gi</strong> — taught by Matt Serra · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

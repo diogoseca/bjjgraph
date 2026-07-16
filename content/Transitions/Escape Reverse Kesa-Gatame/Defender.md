@@ -140,6 +140,54 @@ description: "Defend against the hip escape from Reverse Kesa-Gatame. Learn to r
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Reverse Kesa-Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding and attacking from kesa gatame",
+      "description": "Escape Reverse Kesa-Gatame (Defender) film study: Holding and attacking from kesa gatame, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nKITSItbeyM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nKITSItbeyM",
+      "url": "https://www.youtube.com/watch?v=nKITSItbeyM",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT220S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame escape",
+      "description": "Escape Reverse Kesa-Gatame (Defender) film study: Reverse kesa gatame escape, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JM9nDge0arQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JM9nDge0arQ",
+      "url": "https://www.youtube.com/watch?v=JM9nDge0arQ",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT238S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape the reverse kesa gatame",
+      "description": "Escape Reverse Kesa-Gatame (Defender) film study: How to escape the reverse kesa gatame, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZLckWCp-If0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZLckWCp-If0",
+      "url": "https://www.youtube.com/watch?v=ZLckWCp-If0",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT198S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against the hip escape from Reverse Kesa-Gatame requires the top playe
 **Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Reverse Kesa-Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nKITSItbeyM)
+
+<p class="clip-credit"><strong>Holding and attacking from kesa gatame</strong> — taught by Stephan Kesting · 3:40 · <a href="https://www.youtube.com/watch?v=nKITSItbeyM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JM9nDge0arQ)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape</strong> — taught by MMA Leech · 3:58 · <a href="https://www.youtube.com/watch?v=JM9nDge0arQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZLckWCp-If0)
+
+<p class="clip-credit"><strong>How to escape the reverse kesa gatame</strong> — taught by The Grappling Academy · 3:18 · <a href="https://www.youtube.com/watch?v=ZLckWCp-If0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

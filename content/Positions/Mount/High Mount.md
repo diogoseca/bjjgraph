@@ -34,6 +34,43 @@ description: "Master High Mount in BJJ. Strategic guide covering advanced mount 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High mount submission basics",
+      "description": "High Mount film study: High mount submission basics, taught by John Joseph Tabang.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2MIuCN0fnxs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2MIuCN0fnxs",
+      "url": "https://www.youtube.com/watch?v=2MIuCN0fnxs",
+      "creator": { "@type": "Person", "name": "John Joseph Tabang" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross collar chokes from mount",
+      "description": "High Mount film study: Cross collar chokes from mount, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +107,34 @@ From the bottom perspective, High Mount represents one of the most desperate def
 In competition contexts, High Mount represents the culmination of successful passing sequences and mount consolidation. The position typically precedes advancement to S-Mount or Technical Mount when opponents attempt escapes, creating a web of interconnected dominant positions that progressively narrow defensive options. Understanding High Mount mechanics from both perspectives is essential for developing high-percentage finishing sequences and effective survival strategies.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2MIuCN0fnxs)
+
+<p class="clip-credit"><strong>High mount submission basics</strong> — taught by John Joseph Tabang · 2:13 · <a href="https://www.youtube.com/watch?v=2MIuCN0fnxs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross collar chokes from mount</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

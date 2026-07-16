@@ -34,6 +34,43 @@ description: "Master the Darce Choke from Twister Side Control with detailed fin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Choke from Twister Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister Side to Darce (quick tip)",
+      "description": "Darce Choke from Twister Side Control film study: Twister Side to Darce (quick tip), taught by Underground Alliance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EW9QdDZBmrU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EW9QdDZBmrU",
+      "url": "https://www.youtube.com/watch?v=EW9QdDZBmrU",
+      "creator": { "@type": "Person", "name": "Underground Alliance" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister Side Control setup",
+      "description": "Darce Choke from Twister Side Control film study: Twister Side Control setup, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ In competition, this variant carries a higher finishing rate than standard Darce
 **Starting Position**: [[Positions/Twister Control/Twister Side Control]] · **From**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Choke from Twister Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EW9QdDZBmrU)
+
+<p class="clip-credit"><strong>Twister Side to Darce (quick tip)</strong> — taught by Underground Alliance · 1:04 · <a href="https://www.youtube.com/watch?v=EW9QdDZBmrU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Twister Side Control setup</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

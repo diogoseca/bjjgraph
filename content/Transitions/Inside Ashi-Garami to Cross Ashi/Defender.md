@@ -148,6 +148,54 @@ description: "How to defend against Inside Ashi-Garami to Cross Ashi in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami to Cross Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic escape from the saddle (cross ashi)",
+      "description": "Inside Ashi-Garami to Cross Ashi (Defender) film study: Basic escape from the saddle (cross ashi), taught by Travis Anderson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0T4T2so40C4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0T4T2so40C4",
+      "url": "https://www.youtube.com/watch?v=0T4T2so40C4",
+      "creator": { "@type": "Person", "name": "Travis Anderson" },
+      "duration": "PT171S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross ashi entry and wedge berimbolo counter to back",
+      "description": "Inside Ashi-Garami to Cross Ashi (Defender) film study: Cross ashi entry and wedge berimbolo counter to back, taught by BJJ Doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N2weatRR_V4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N2weatRR_V4",
+      "url": "https://www.youtube.com/watch?v=N2weatRR_V4",
+      "creator": { "@type": "Person", "name": "BJJ Doug" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross ashi back take drill: when they slip the heel",
+      "description": "Inside Ashi-Garami to Cross Ashi (Defender) film study: Cross ashi back take drill: when they slip the heel, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cNpVTxV0WGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cNpVTxV0WGs",
+      "url": "https://www.youtube.com/watch?v=cNpVTxV0WGs",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT20S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense relies on three pillars: early recognition of the transition 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami to Cross Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0T4T2so40C4)
+
+<p class="clip-credit"><strong>Basic escape from the saddle (cross ashi)</strong> — taught by Travis Anderson · 2:51 · <a href="https://www.youtube.com/watch?v=0T4T2so40C4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N2weatRR_V4)
+
+<p class="clip-credit"><strong>Cross ashi entry and wedge berimbolo counter to back</strong> — taught by BJJ Doug · 0:28 · <a href="https://www.youtube.com/watch?v=N2weatRR_V4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cNpVTxV0WGs)
+
+<p class="clip-credit"><strong>Cross ashi back take drill: when they slip the heel</strong> — taught by Factory Fresh Jiu Jitsu · 0:20 · <a href="https://www.youtube.com/watch?v=cNpVTxV0WGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

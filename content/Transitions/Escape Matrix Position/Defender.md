@@ -148,6 +148,54 @@ description: "Prevent the Matrix escape and capitalize on your opponent's stalle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Matrix Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why You Keep Losing the Back: Retaining Back Control",
+      "description": "Escape Matrix Position (Defender) film study: Why You Keep Losing the Back: Retaining Back Control, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lpgcKpIgClw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lpgcKpIgClw",
+      "url": "https://www.youtube.com/watch?v=lpgcKpIgClw",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle escape and back-exposure defense system",
+      "description": "Escape Matrix Position (Defender) film study: Turtle escape and back-exposure defense system, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sitting back to guard from turtle",
+      "description": "Escape Matrix Position (Defender) film study: Sitting back to guard from turtle, taught by Mark Mullen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cd6QGWceb7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cd6QGWceb7c",
+      "url": "https://www.youtube.com/watch?v=cd6QGWceb7c",
+      "creator": { "@type": "Person", "name": "Mark Mullen" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ From the defender perspective, preventing the Matrix escape represents a critica
 **Opponent's Starting Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Matrix Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lpgcKpIgClw)
+
+<p class="clip-credit"><strong>Why You Keep Losing the Back: Retaining Back Control</strong> — taught by Brandon McCaghren · 2:23 · <a href="https://www.youtube.com/watch?v=lpgcKpIgClw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+
+<p class="clip-credit"><strong>Turtle escape and back-exposure defense system</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cd6QGWceb7c)
+
+<p class="clip-credit"><strong>Sitting back to guard from turtle</strong> — taught by Mark Mullen · 1:24 · <a href="https://www.youtube.com/watch?v=cd6QGWceb7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

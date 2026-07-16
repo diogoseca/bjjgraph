@@ -34,6 +34,54 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Paper Cutter Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame to Paper Cutter Choke",
+      "description": "Paper Cutter Choke film study: Kesa Gatame to Paper Cutter Choke, taught by AMAGFightTeam.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AKfEIInO9Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AKfEIInO9Tk",
+      "url": "https://www.youtube.com/watch?v=AKfEIInO9Tk",
+      "creator": { "@type": "Person", "name": "AMAGFightTeam" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa to Paper Cutter Choke",
+      "description": "Paper Cutter Choke film study: Kesa to Paper Cutter Choke, taught by Global MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5z7hF2YJxeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5z7hF2YJxeo",
+      "url": "https://www.youtube.com/watch?v=5z7hF2YJxeo",
+      "creator": { "@type": "Person", "name": "Global MMA" },
+      "duration": "PT112S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Paper Cutter Choke with Lapel",
+      "description": "Paper Cutter Choke film study: Paper Cutter Choke with Lapel, taught by Robert Hugus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vhFpxC1vCag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vhFpxC1vCag",
+      "url": "https://www.youtube.com/watch?v=vhFpxC1vCag",
+      "creator": { "@type": "Person", "name": "Robert Hugus" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +128,42 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 The Paper Cutter Choke is a highly effective blood choke executed primarily from side control, though it can also be applied from various transitional positions including north-south and turtle. The technique derives its name from the cutting motion of the choking arm across the opponent's neck, similar to how paper is cut with a blade. This submission targets both carotid arteries simultaneously through a combination of the gi collar and the attacker's forearm, creating a powerful constriction that leads to rapid unconsciousness if not defended. The Paper Cutter Choke is particularly dangerous because it can be applied with relatively little warning and often catches opponents by surprise during position transitions. The technique is valued for its mechanical efficiency—once the grip is secured and the angle is correct, very little strength is required to finish. This makes it an excellent submission for practitioners of all sizes and is especially effective against larger, stronger opponents who might resist other collar chokes. The choke is frequently taught as part of side control attack sequences and integrates seamlessly with other submissions like the cross collar choke and arm triangle.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Paper Cutter Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AKfEIInO9Tk)
+
+<p class="clip-credit"><strong>Kesa Gatame to Paper Cutter Choke</strong> — taught by AMAGFightTeam · 0:38 · <a href="https://www.youtube.com/watch?v=AKfEIInO9Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5z7hF2YJxeo)
+
+<p class="clip-credit"><strong>Kesa to Paper Cutter Choke</strong> — taught by Global MMA · 1:52 · <a href="https://www.youtube.com/watch?v=5z7hF2YJxeo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vhFpxC1vCag)
+
+<p class="clip-credit"><strong>Paper Cutter Choke with Lapel</strong> — taught by Robert Hugus · 0:42 · <a href="https://www.youtube.com/watch?v=vhFpxC1vCag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

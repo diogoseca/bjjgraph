@@ -140,6 +140,54 @@ description: "Complete guide to preventing clinch breaks in BJJ. Learn grip main
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Break Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining the body lock clinch",
+      "description": "Break Clinch (Defender) film study: Maintaining the body lock clinch, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhFDcDU7oX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhFDcDU7oX0",
+      "url": "https://www.youtube.com/watch?v=BhFDcDU7oX0",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attack Standing by Breaking Grips",
+      "description": "Break Clinch (Defender) film study: Attack Standing by Breaking Grips, taught by SBG PDX coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2KA_wmRn_nw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2KA_wmRn_nw",
+      "url": "https://www.youtube.com/watch?v=2KA_wmRn_nw",
+      "creator": { "@type": "Person", "name": "SBG PDX coach" },
+      "duration": "PT321S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Break Any Collar Grip with Technique Not Strength",
+      "description": "Break Clinch (Defender) film study: Break Any Collar Grip with Technique Not Strength, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jTk5AaZd1Rc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jTk5AaZd1Rc",
+      "url": "https://www.youtube.com/watch?v=jTk5AaZd1Rc",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against the clinch break means maintaining your clinch control when yo
 **Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Break Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhFDcDU7oX0)
+
+<p class="clip-credit"><strong>Maintaining the body lock clinch</strong> — taught by Nicky Ryan · 2:03 · <a href="https://www.youtube.com/watch?v=BhFDcDU7oX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2KA_wmRn_nw)
+
+<p class="clip-credit"><strong>Attack Standing by Breaking Grips</strong> — taught by SBG PDX coach · 5:21 · <a href="https://www.youtube.com/watch?v=2KA_wmRn_nw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jTk5AaZd1Rc)
+
+<p class="clip-credit"><strong>Break Any Collar Grip with Technique Not Strength</strong> — taught by Travis Stevens · 1:53 · <a href="https://www.youtube.com/watch?v=jTk5AaZd1Rc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

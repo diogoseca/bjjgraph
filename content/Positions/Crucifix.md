@@ -34,6 +34,43 @@ description: "Master Crucifix position in BJJ. Dominant arm-trapping control wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short arm drag to crucifix armlock",
+      "description": "Crucifix film study: Short arm drag to crucifix armlock, taught by John Gutta.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qq1LScm50Ow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qq1LScm50Ow",
+      "url": "https://www.youtube.com/watch?v=qq1LScm50Ow",
+      "creator": { "@type": "Person", "name": "John Gutta" },
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix grip break",
+      "description": "Crucifix film study: Crucifix grip break, taught by Gabe Tuttle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OnmLBMNZ44A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OnmLBMNZ44A",
+      "url": "https://www.youtube.com/watch?v=OnmLBMNZ44A",
+      "creator": { "@type": "Person", "name": "Gabe Tuttle" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ The position can be entered from multiple contexts including back control, turtl
 Mastery of the Crucifix from both perspectives—understanding how to establish and maintain control from top, and how to survive and escape from bottom—represents advanced technical knowledge in Brazilian Jiu-Jitsu. The position teaches critical lessons about arm positioning awareness, the importance of preventing compound control structures, and the systematic approach required for both attacking and defending in high-stakes positional scenarios.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qq1LScm50Ow)
+
+<p class="clip-credit"><strong>Short arm drag to crucifix armlock</strong> — taught by John Gutta · 2:31 · <a href="https://www.youtube.com/watch?v=qq1LScm50Ow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OnmLBMNZ44A)
+
+<p class="clip-credit"><strong>Crucifix grip break</strong> — taught by Gabe Tuttle · 1:26 · <a href="https://www.youtube.com/watch?v=OnmLBMNZ44A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

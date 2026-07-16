@@ -148,6 +148,43 @@ description: "How to defend against Rotate to Carni in BJJ. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rotate to Carni (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata escape to front headlock",
+      "description": "Rotate to Carni (Defender) film study: Omoplata escape to front headlock, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-SG9igq40E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-SG9igq40E",
+      "url": "https://www.youtube.com/watch?v=0-SG9igq40E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata defense and counter",
+      "description": "Rotate to Carni (Defender) film study: Omoplata defense and counter, taught by Off the Wall Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Lo4xGcHQcbI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Lo4xGcHQcbI",
+      "url": "https://www.youtube.com/watch?v=Lo4xGcHQcbI",
+      "creator": { "@type": "Person", "name": "Off the Wall Jiu Jitsu" },
+      "duration": "PT125S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rotate to Carni (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-SG9igq40E)
+
+<p class="clip-credit"><strong>Omoplata escape to front headlock</strong> — taught by Asaf Mich · 0:14 · <a href="https://www.youtube.com/watch?v=0-SG9igq40E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Lo4xGcHQcbI)
+
+<p class="clip-credit"><strong>Omoplata defense and counter</strong> — taught by Off the Wall Jiu Jitsu · 2:05 · <a href="https://www.youtube.com/watch?v=Lo4xGcHQcbI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

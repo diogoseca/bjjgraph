@@ -148,6 +148,54 @@ description: "How to defend against the Step Over Escape from Darce Control in B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the darce against a bigger defender",
+      "description": "Step Over Escape (Defender) film study: Finishing the darce against a bigger defender, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Idnp8DpSHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Idnp8DpSHU",
+      "url": "https://www.youtube.com/watch?v=8Idnp8DpSHU",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Dagestani Darce Choke Explained",
+      "description": "Step Over Escape (Defender) film study: The Dagestani Darce Choke Explained, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UkJVsXqO7LM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UkJVsXqO7LM",
+      "url": "https://www.youtube.com/watch?v=UkJVsXqO7LM",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT571S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Darce System: Entry, Finish and 2 Escapes",
+      "description": "Step Over Escape (Defender) film study: Darce System: Entry, Finish and 2 Escapes, taught by 10th Planet Colorado Springs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KkQemR09v4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KkQemR09v4I",
+      "url": "https://www.youtube.com/watch?v=KkQemR09v4I",
+      "creator": { "@type": "Person", "name": "10th Planet Colorado Springs" },
+      "duration": "PT539S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The core defensive challenge is that the step over exploits the moment when your
 **Opponent's Starting Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8Idnp8DpSHU)
+
+<p class="clip-credit"><strong>Finishing the darce against a bigger defender</strong> — taught by Rener &amp; Ryron Gracie · 2:31 · <a href="https://www.youtube.com/watch?v=8Idnp8DpSHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UkJVsXqO7LM)
+
+<p class="clip-credit"><strong>The Dagestani Darce Choke Explained</strong> — taught by Craig Jones · 9:31 · <a href="https://www.youtube.com/watch?v=UkJVsXqO7LM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KkQemR09v4I)
+
+<p class="clip-credit"><strong>Darce System: Entry, Finish and 2 Escapes</strong> — taught by 10th Planet Colorado Springs · 8:59 · <a href="https://www.youtube.com/watch?v=KkQemR09v4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Snap Down to Front Headlock in BJJ. Complete guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Snap Down to Front Headlock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic snap-down to front headlock",
+      "description": "Snap Down to Front Headlock film study: Basic snap-down to front headlock, taught by WrestlingTournaments.com coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O0Wz6fbOV1I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O0Wz6fbOV1I",
+      "url": "https://www.youtube.com/watch?v=O0Wz6fbOV1I",
+      "creator": { "@type": "Person", "name": "WrestlingTournaments.com coach" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Snap down to front headlock",
+      "description": "Snap Down to Front Headlock film study: Snap down to front headlock, taught by Training Grounds coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6MG6bloYM0k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6MG6bloYM0k",
+      "url": "https://www.youtube.com/watch?v=6MG6bloYM0k",
+      "creator": { "@type": "Person", "name": "Training Grounds coach" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to do a snap down",
+      "description": "Snap Down to Front Headlock film study: How to do a snap down, taught by Grapple Hub coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CnaxvdhToyM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CnaxvdhToyM",
+      "url": "https://www.youtube.com/watch?v=CnaxvdhToyM",
+      "creator": { "@type": "Person", "name": "Grapple Hub coach" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The snap down's effectiveness lies in its ability to bypass traditional takedown
 **Success Rate**: 51%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Snap Down to Front Headlock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O0Wz6fbOV1I)
+
+<p class="clip-credit"><strong>Basic snap-down to front headlock</strong> — taught by WrestlingTournaments.com coach · 0:32 · <a href="https://www.youtube.com/watch?v=O0Wz6fbOV1I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6MG6bloYM0k)
+
+<p class="clip-credit"><strong>Snap down to front headlock</strong> — taught by Training Grounds coach · 0:36 · <a href="https://www.youtube.com/watch?v=6MG6bloYM0k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CnaxvdhToyM)
+
+<p class="clip-credit"><strong>How to do a snap down</strong> — taught by Grapple Hub coach · 1:00 · <a href="https://www.youtube.com/watch?v=CnaxvdhToyM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

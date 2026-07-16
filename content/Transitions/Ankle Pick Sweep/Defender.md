@@ -148,6 +148,54 @@ description: "How to defend against Ankle Pick Sweep in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ankle Pick Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter to the double ankle sweep",
+      "description": "Ankle Pick Sweep (Defender) film study: Counter to the double ankle sweep, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nsDT5YZgU-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nsDT5YZgU-4",
+      "url": "https://www.youtube.com/watch?v=nsDT5YZgU-4",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit up guard live breakdown",
+      "description": "Ankle Pick Sweep (Defender) film study: Sit up guard live breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qP9iLxlxgzw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qP9iLxlxgzw",
+      "url": "https://www.youtube.com/watch?v=qP9iLxlxgzw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Ankle Pick Sweep (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The most critical defensive window is the moment between your opponent establish
 **Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ankle Pick Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nsDT5YZgU-4)
+
+<p class="clip-credit"><strong>Counter to the double ankle sweep</strong> — taught by Kohbukan Sisu · 1:35 · <a href="https://www.youtube.com/watch?v=nsDT5YZgU-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qP9iLxlxgzw)
+
+<p class="clip-credit"><strong>Sit up guard live breakdown</strong> — taught by Lachlan Giles · 2:00 · <a href="https://www.youtube.com/watch?v=qP9iLxlxgzw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

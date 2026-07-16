@@ -148,6 +148,54 @@ description: "Learn to defend against the reversal from kneebar control in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reversal from Kneebar Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Go-behind kneebar: keeping the leg when they turn",
+      "description": "Reversal from Kneebar Control (Defender) film study: Go-behind kneebar: keeping the leg when they turn, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebars from back-step and 50/50: keeping control",
+      "description": "Reversal from Kneebar Control (Defender) film study: Kneebars from back-step and 50/50: keeping control, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dIt0EnHvHJA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dIt0EnHvHJA",
+      "url": "https://www.youtube.com/watch?v=dIt0EnHvHJA",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT586S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Approaching and holding the kneebar",
+      "description": "Reversal from Kneebar Control (Defender) film study: Approaching and holding the kneebar, taught by Kristian Popov.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zN1kDZnJfAY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zN1kDZnJfAY",
+      "url": "https://www.youtube.com/watch?v=zN1kDZnJfAY",
+      "creator": { "@type": "Person", "name": "Kristian Popov" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the reversal from kneebar control requires the top player to recognize
 **Opponent's Starting Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reversal from Kneebar Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go-behind kneebar: keeping the leg when they turn</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dIt0EnHvHJA)
+
+<p class="clip-credit"><strong>Kneebars from back-step and 50/50: keeping control</strong> — taught by Lachlan Giles · 9:46 · <a href="https://www.youtube.com/watch?v=dIt0EnHvHJA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zN1kDZnJfAY)
+
+<p class="clip-credit"><strong>Approaching and holding the kneebar</strong> — taught by Kristian Popov · 3:29 · <a href="https://www.youtube.com/watch?v=zN1kDZnJfAY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

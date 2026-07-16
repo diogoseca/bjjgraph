@@ -176,6 +176,54 @@ description: "Learn to attack with the Rear Naked Choke from Russian Cowboy. Set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Russian Cowboy (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double deep hook submissions from Russian Cowboy",
+      "description": "Rear Naked Choke from Russian Cowboy (Attacker) film study: Double deep hook submissions from Russian Cowboy, taught by 10th Planet Rochester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kGoEjQMRp3I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kGoEjQMRp3I",
+      "url": "https://www.youtube.com/watch?v=kGoEjQMRp3I",
+      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing a mandible rear naked choke",
+      "description": "Rear Naked Choke from Russian Cowboy (Attacker) film study: Finishing a mandible rear naked choke, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FpJTnOEkqYI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FpJTnOEkqYI",
+      "url": "https://www.youtube.com/watch?v=FpJTnOEkqYI",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT172S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "2-on-1 Russian Cowboy position explained",
+      "description": "Rear Naked Choke from Russian Cowboy (Attacker) film study: 2-on-1 Russian Cowboy position explained, taught by DanTheWolfman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FGdSXlIxEhk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FGdSXlIxEhk",
+      "url": "https://www.youtube.com/watch?v=FGdSXlIxEhk",
+      "creator": { "@type": "Person", "name": "DanTheWolfman" },
+      "duration": "PT178S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ The Rear Naked Choke from Russian Cowboy demands precise grip management during 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Russian Cowboy (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kGoEjQMRp3I)
+
+<p class="clip-credit"><strong>Double deep hook submissions from Russian Cowboy</strong> — taught by 10th Planet Rochester · 3:13 · <a href="https://www.youtube.com/watch?v=kGoEjQMRp3I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FpJTnOEkqYI)
+
+<p class="clip-credit"><strong>Finishing a mandible rear naked choke</strong> — taught by Craig Jones · 2:52 · <a href="https://www.youtube.com/watch?v=FpJTnOEkqYI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FGdSXlIxEhk)
+
+<p class="clip-credit"><strong>2-on-1 Russian Cowboy position explained</strong> — taught by DanTheWolfman · 2:58 · <a href="https://www.youtube.com/watch?v=FGdSXlIxEhk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

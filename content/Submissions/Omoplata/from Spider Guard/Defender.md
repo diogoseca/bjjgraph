@@ -142,6 +142,54 @@ description: "Learn to defend and escape the Omoplata from Spider Guard. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Spider Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Best Way to Escape the Omoplata Shoulder Lock",
+      "description": "Omoplata from Spider Guard (Defender) film study: Best Way to Escape the Omoplata Shoulder Lock, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Preventing the Hand Moving to the Other Side",
+      "description": "Omoplata from Spider Guard (Defender) film study: Preventing the Hand Moving to the Other Side, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jDbywpDs3Tw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jDbywpDs3Tw",
+      "url": "https://www.youtube.com/watch?v=jDbywpDs3Tw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata Escape Jump Over",
+      "description": "Omoplata from Spider Guard (Defender) film study: Omoplata Escape Jump Over, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nL460qY51vs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nL460qY51vs",
+      "url": "https://www.youtube.com/watch?v=nL460qY51vs",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT101S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +200,42 @@ Defending the Omoplata from Spider Guard requires understanding both early preve
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Spider Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>Best Way to Escape the Omoplata Shoulder Lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jDbywpDs3Tw)
+
+<p class="clip-credit"><strong>Preventing the Hand Moving to the Other Side</strong> — taught by Lachlan Giles · 2:09 · <a href="https://www.youtube.com/watch?v=jDbywpDs3Tw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nL460qY51vs)
+
+<p class="clip-credit"><strong>Omoplata Escape Jump Over</strong> — taught by Chosen Few BJJ · 1:41 · <a href="https://www.youtube.com/watch?v=nL460qY51vs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

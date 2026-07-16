@@ -174,6 +174,43 @@ description: "Master executing the Toreando Pass from Seated Guard. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando Pass from Seated Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando passing against seated guard",
+      "description": "Toreando Pass from Seated Guard (Attacker) film study: Toreando passing against seated guard, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mrnOBANY1JE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mrnOBANY1JE",
+      "url": "https://www.youtube.com/watch?v=mrnOBANY1JE",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing seated guard with underhooks",
+      "description": "Toreando Pass from Seated Guard (Attacker) film study: Passing seated guard with underhooks, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zT3JjOR838w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zT3JjOR838w",
+      "url": "https://www.youtube.com/watch?v=zT3JjOR838w",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Toreando Pass from Seated Guard, your objective is
 **From Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando Pass from Seated Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mrnOBANY1JE)
+
+<p class="clip-credit"><strong>Toreando passing against seated guard</strong> — taught by Unknown · 1:37 · <a href="https://www.youtube.com/watch?v=mrnOBANY1JE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zT3JjOR838w)
+
+<p class="clip-credit"><strong>Passing seated guard with underhooks</strong> — taught by John Danaher · 2:23 · <a href="https://www.youtube.com/watch?v=zT3JjOR838w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

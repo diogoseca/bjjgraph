@@ -164,6 +164,54 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Center of Gravity \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Weight distribution for movement in grappling",
+      "description": "Center of Gravity film study: Weight distribution for movement in grappling, taught by 12 Gauge MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/chuU8FWlF4o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/chuU8FWlF4o",
+      "url": "https://www.youtube.com/watch?v=chuU8FWlF4o",
+      "creator": { "@type": "Person", "name": "12 Gauge MMA" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Center of gravity and pressure explained",
+      "description": "Center of Gravity film study: Center of gravity and pressure explained, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QtN_TQNFXlI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QtN_TQNFXlI",
+      "url": "https://www.youtube.com/watch?v=QtN_TQNFXlI",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT283S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Principles of pressure passing",
+      "description": "Center of Gravity film study: Principles of pressure passing, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eU2MKcq5we0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eU2MKcq5we0",
+      "url": "https://www.youtube.com/watch?v=eU2MKcq5we0",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT353S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Center of Gravity?
@@ -173,6 +221,42 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
 In top-position control the practitioner who dominates is rarely the heaviest, but the one who organizes weight most intelligently, and that organization is precisely the domain Center of Gravity governs. Unlike simple heavy pressure, weight distribution is a sophisticated conceptual framework encompassing the biomechanical principles of leverage and balance, strategic decisions about where to concentrate or disperse weight, dynamic adjustment of distribution based on opponent responses, and the integration of weight allocation with technical objectives. This concept recognizes that effective top control depends not on maximum weight application but on intelligent weight distribution that simultaneously achieves multiple objectives: preventing escapes, enabling technique execution, maintaining base integrity, and conserving energy. Weight distribution serves as both a control mechanism that pins opponent effectively and a strategic tool that creates specific reactions enabling technical advancement. The ability to distribute weight intelligently often determines whether a practitioner can maintain dominant positions against resistance or loses control through predictable, rigid pressure patterns, making it one of the most essential conceptual elements in top game development.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Center of Gravity in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=chuU8FWlF4o)
+
+<p class="clip-credit"><strong>Weight distribution for movement in grappling</strong> — taught by 12 Gauge MMA · 1:13 · <a href="https://www.youtube.com/watch?v=chuU8FWlF4o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QtN_TQNFXlI)
+
+<p class="clip-credit"><strong>Center of gravity and pressure explained</strong> — taught by RVV BJJ · 4:43 · <a href="https://www.youtube.com/watch?v=QtN_TQNFXlI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eU2MKcq5we0)
+
+<p class="clip-credit"><strong>Principles of pressure passing</strong> — taught by Bernardo Faria · 5:53 · <a href="https://www.youtube.com/watch?v=eU2MKcq5we0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

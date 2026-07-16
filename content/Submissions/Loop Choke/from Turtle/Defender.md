@@ -150,6 +150,54 @@ description: "How to defend the Loop Choke from Turtle in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clock choke counter from turtle",
+      "description": "Loop Choke from Turtle (Defender) film study: Clock choke counter from turtle, taught by Jamie Ridgeway.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RiBLBO9zinA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RiBLBO9zinA",
+      "url": "https://www.youtube.com/watch?v=RiBLBO9zinA",
+      "creator": { "@type": "Person", "name": "Jamie Ridgeway" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Loop Choke Defense: Countering After Legs Come Around",
+      "description": "Loop Choke from Turtle (Defender) film study: Loop Choke Defense: Countering After Legs Come Around, taught by Maxum BJJ Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eAQ7cCGdVXk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eAQ7cCGdVXk",
+      "url": "https://www.youtube.com/watch?v=eAQ7cCGdVXk",
+      "creator": { "@type": "Person", "name": "Maxum BJJ Coach" },
+      "duration": "PT224S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending Chokes from Turtle and Front Headlock",
+      "description": "Loop Choke from Turtle (Defender) film study: Defending Chokes from Turtle and Front Headlock, taught by The Forge BJJ Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L8ZJxyCGD5U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L8ZJxyCGD5U",
+      "url": "https://www.youtube.com/watch?v=L8ZJxyCGD5U",
+      "creator": { "@type": "Person", "name": "The Forge BJJ Coach" },
+      "duration": "PT375S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the loop choke from turtle requires immediate recognition and proactiv
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RiBLBO9zinA)
+
+<p class="clip-credit"><strong>Clock choke counter from turtle</strong> — taught by Jamie Ridgeway · 1:19 · <a href="https://www.youtube.com/watch?v=RiBLBO9zinA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eAQ7cCGdVXk)
+
+<p class="clip-credit"><strong>Loop Choke Defense: Countering After Legs Come Around</strong> — taught by Maxum BJJ Coach · 3:44 · <a href="https://www.youtube.com/watch?v=eAQ7cCGdVXk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L8ZJxyCGD5U)
+
+<p class="clip-credit"><strong>Defending Chokes from Turtle and Front Headlock</strong> — taught by The Forge BJJ Coach · 6:15 · <a href="https://www.youtube.com/watch?v=L8ZJxyCGD5U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -153,6 +153,43 @@ description: "Master defensive strategies from Twister Control Bottom. Learn esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape and counter the twister",
+      "description": "Twister Control (Bottom) film study: Escape and counter the twister, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
+      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Battle-testing a twister counter",
+      "description": "Twister Control (Bottom) film study: Battle-testing a twister counter, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qQYdPx_KoXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qQYdPx_KoXo",
+      "url": "https://www.youtube.com/watch?v=qQYdPx_KoXo",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT238S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +207,34 @@ One critical aspect is understanding the mechanics of how the position creates s
 The energy dynamics of being stuck in Twister Control Bottom are particularly challenging. The twisted position restricts breathing, making it difficult to maintain composure and work systematically through escape sequences. The longer you remain in the position, the more your defensive options deteriorate as fatigue sets in and the top player adjusts their controls. This creates urgency to escape quickly while simultaneously requiring the composure to not panic and make the position worse through poorly executed escape attempts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
+
+<p class="clip-credit"><strong>Escape and counter the twister</strong> — taught by Matrix Jiu Jitsu · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qQYdPx_KoXo)
+
+<p class="clip-credit"><strong>Battle-testing a twister counter</strong> — taught by Coach Brian · 3:58 · <a href="https://www.youtube.com/watch?v=qQYdPx_KoXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

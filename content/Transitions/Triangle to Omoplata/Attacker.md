@@ -174,6 +174,43 @@ description: "How to execute Triangle to Omoplata in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle to Omoplata (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Chaining Together Triangle and Omoplata",
+      "description": "Triangle to Omoplata (Attacker) film study: Chaining Together Triangle and Omoplata, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OGq21nmoG1g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OGq21nmoG1g",
+      "url": "https://www.youtube.com/watch?v=OGq21nmoG1g",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the Triangle or Switching to Omoplata",
+      "description": "Triangle to Omoplata (Attacker) film study: Finishing the Triangle or Switching to Omoplata, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ELRgwbUyZ1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ELRgwbUyZ1U",
+      "url": "https://www.youtube.com/watch?v=ELRgwbUyZ1U",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT155S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Triangle to Omoplata transition exploits the opponent's defensive reactions 
 **From Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle to Omoplata (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OGq21nmoG1g)
+
+<p class="clip-credit"><strong>Chaining Together Triangle and Omoplata</strong> — taught by Mikey Musumeci · 2:07 · <a href="https://www.youtube.com/watch?v=OGq21nmoG1g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ELRgwbUyZ1U)
+
+<p class="clip-credit"><strong>Finishing the Triangle or Switching to Omoplata</strong> — taught by Inverted Gear · 2:35 · <a href="https://www.youtube.com/watch?v=ELRgwbUyZ1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

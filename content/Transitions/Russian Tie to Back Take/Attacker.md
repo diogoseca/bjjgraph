@@ -168,6 +168,43 @@ description: "How to execute Russian Tie to Back Take in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Tie to Back Take (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2-on-1 drag behind to the back",
+      "description": "Russian Tie to Back Take (Attacker) film study: 2-on-1 drag behind to the back, taught by Alec Pantaleo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iE9Ap8vUYWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iE9Ap8vUYWQ",
+      "url": "https://www.youtube.com/watch?v=iE9Ap8vUYWQ",
+      "creator": { "@type": "Person", "name": "Alec Pantaleo" },
+      "duration": "PT169S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Russian 2-on-1 mechanics and common errors",
+      "description": "Russian Tie to Back Take (Attacker) film study: Russian 2-on-1 mechanics and common errors, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RtJPzUBgCIs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RtJPzUBgCIs",
+      "url": "https://www.youtube.com/watch?v=RtJPzUBgCIs",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Tie to Back Take (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iE9Ap8vUYWQ)
+
+<p class="clip-credit"><strong>2-on-1 drag behind to the back</strong> — taught by Alec Pantaleo · 2:49 · <a href="https://www.youtube.com/watch?v=iE9Ap8vUYWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RtJPzUBgCIs)
+
+<p class="clip-credit"><strong>Russian 2-on-1 mechanics and common errors</strong> — taught by Shintaro Higashi · 2:57 · <a href="https://www.youtube.com/watch?v=RtJPzUBgCIs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

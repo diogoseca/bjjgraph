@@ -174,6 +174,54 @@ description: "How to execute Leg Extraction to Combat Base in BJJ. Attacking per
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction to Combat Base (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Free your trapped foot while passing half guard",
+      "description": "Leg Extraction to Combat Base (Attacker) film study: Free your trapped foot while passing half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Base switch half guard pass",
+      "description": "Leg Extraction to Combat Base (Attacker) film study: Base switch half guard pass, taught by The Jiu-Jitsu Foundry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FFy_b1-lPg0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FFy_b1-lPg0",
+      "url": "https://www.youtube.com/watch?v=FFy_b1-lPg0",
+      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the half guard lockdown",
+      "description": "Leg Extraction to Combat Base (Attacker) film study: Passing the half guard lockdown, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4eC_7dtzOA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4eC_7dtzOA",
+      "url": "https://www.youtube.com/watch?v=Y4eC_7dtzOA",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 **From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction to Combat Base (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Free your trapped foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FFy_b1-lPg0)
+
+<p class="clip-credit"><strong>Base switch half guard pass</strong> — taught by The Jiu-Jitsu Foundry · 0:30 · <a href="https://www.youtube.com/watch?v=FFy_b1-lPg0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4eC_7dtzOA)
+
+<p class="clip-credit"><strong>Passing the half guard lockdown</strong> — taught by Peter Mettler · 1:13 · <a href="https://www.youtube.com/watch?v=Y4eC_7dtzOA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Armbar from Back Transition in BJJ. Step-by-step guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Back Transition \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling armbar from back mount",
+      "description": "Armbar from Back Transition film study: Rolling armbar from back mount, taught by Hammer Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nsLJ8AiGZ5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nsLJ8AiGZ5A",
+      "url": "https://www.youtube.com/watch?v=nsLJ8AiGZ5A",
+      "creator": { "@type": "Person", "name": "Hammer Jiu-Jitsu" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from the back variation",
+      "description": "Armbar from Back Transition film study: Armbar from the back variation, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jf1kPefTmm0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jf1kPefTmm0",
+      "url": "https://www.youtube.com/watch?v=jf1kPefTmm0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from the back off the RNC threat",
+      "description": "Armbar from Back Transition film study: Armbar from the back off the RNC threat, taught by CholoMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fPV5aCm4uIE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fPV5aCm4uIE",
+      "url": "https://www.youtube.com/watch?v=fPV5aCm4uIE",
+      "creator": { "@type": "Person", "name": "CholoMMA" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The key to success lies in recognizing the correct timing window: when the oppon
 **Success Rate**: 30%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Back Transition in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nsLJ8AiGZ5A)
+
+<p class="clip-credit"><strong>Rolling armbar from back mount</strong> — taught by Hammer Jiu-Jitsu · 0:40 · <a href="https://www.youtube.com/watch?v=nsLJ8AiGZ5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jf1kPefTmm0)
+
+<p class="clip-credit"><strong>Armbar from the back variation</strong> — taught by Malachy Friedman · 1:20 · <a href="https://www.youtube.com/watch?v=jf1kPefTmm0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fPV5aCm4uIE)
+
+<p class="clip-credit"><strong>Armbar from the back off the RNC threat</strong> — taught by CholoMMA · 0:39 · <a href="https://www.youtube.com/watch?v=fPV5aCm4uIE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

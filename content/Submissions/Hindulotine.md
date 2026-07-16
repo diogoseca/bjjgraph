@@ -34,6 +34,54 @@ description: "Learn the Hindulotine choke, an advanced guillotine variation usin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hindulotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hindulotine Breakdown",
+      "description": "Hindulotine film study: Hindulotine Breakdown, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YbOV4vESByc",
+      "url": "https://www.youtube.com/watch?v=YbOV4vESByc",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hindulotine Finish",
+      "description": "Hindulotine film study: Hindulotine Finish, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
+      "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Easy Hindulotine Variation",
+      "description": "Hindulotine film study: Easy Hindulotine Variation, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/99Mq930QVfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/99Mq930QVfY",
+      "url": "https://www.youtube.com/watch?v=99Mq930QVfY",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,6 +132,42 @@ What separates the Hindulotine from conventional guillotine attacks is the mecha
 Strategically, the Hindulotine serves as both a primary finishing technique and a gateway to other front headlock attacks. When the opponent defends by turning their chin or attempting to posture, the attacker can transition to an anaconda choke, darce choke, or arm-in guillotine variation. This creates a submission chain that forces the defender to address multiple threats simultaneously, increasing the overall finishing rate of the front headlock position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hindulotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YbOV4vESByc)
+
+<p class="clip-credit"><strong>Hindulotine Breakdown</strong> — taught by Ben Eddy · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6UwoAQt6u6o)
+
+<p class="clip-credit"><strong>Hindulotine Finish</strong> — taught by Ben Eddy · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=99Mq930QVfY)
+
+<p class="clip-credit"><strong>Easy Hindulotine Variation</strong> — taught by Danny Mitchell · 2:39 · <a href="https://www.youtube.com/watch?v=99Mq930QVfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

@@ -140,6 +140,54 @@ description: "Defend against the Feet on Hips Tripod Sweep with recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Feet on Hips Tripod Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of sweep defense from open guard",
+      "description": "Feet on Hips Tripod Sweep (Defender) film study: Four levels of sweep defense from open guard, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering Sweeps from X Guard",
+      "description": "Feet on Hips Tripod Sweep (Defender) film study: Countering Sweeps from X Guard, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8xOq1cUJyDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8xOq1cUJyDw",
+      "url": "https://www.youtube.com/watch?v=8xOq1cUJyDw",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT254S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering a Full Inversion",
+      "description": "Feet on Hips Tripod Sweep (Defender) film study: Countering a Full Inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ When facing the tripod sweep from feet-on-hips guard, the defender must recogniz
 **Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Feet on Hips Tripod Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense from open guard</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8xOq1cUJyDw)
+
+<p class="clip-credit"><strong>Countering Sweeps from X Guard</strong> — taught by Andre Galvao · 4:14 · <a href="https://www.youtube.com/watch?v=8xOq1cUJyDw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

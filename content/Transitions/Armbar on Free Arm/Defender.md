@@ -148,6 +148,43 @@ description: "How to defend against Armbar on Free Arm in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar on Free Arm (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straight armlock defense from mount: hitchhiker",
+      "description": "Armbar on Free Arm (Defender) film study: Straight armlock defense from mount: hitchhiker, taught by Soma Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9209zGsCnvg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9209zGsCnvg",
+      "url": "https://www.youtube.com/watch?v=9209zGsCnvg",
+      "creator": { "@type": "Person", "name": "Soma Academy" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar escape fundamentals",
+      "description": "Armbar on Free Arm (Defender) film study: Armbar escape fundamentals, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ From a strategic perspective, the best defense begins before the armbar is attem
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar on Free Arm (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9209zGsCnvg)
+
+<p class="clip-credit"><strong>Straight armlock defense from mount: hitchhiker</strong> — taught by Soma Academy · 1:04 · <a href="https://www.youtube.com/watch?v=9209zGsCnvg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Armbar escape fundamentals</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

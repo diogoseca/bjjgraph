@@ -148,6 +148,43 @@ description: "Defend against the Rear Triangle to Armbar transition in BJJ. Lear
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle to Armbar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the armbar from the back",
+      "description": "Rear Triangle to Armbar (Defender) film study: Escaping the armbar from the back, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
+      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "RNC armbar escape",
+      "description": "Rear Triangle to Armbar (Defender) film study: RNC armbar escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0bla3AHdQuM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0bla3AHdQuM",
+      "url": "https://www.youtube.com/watch?v=0bla3AHdQuM",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender caught in the rear triangle when the attacker begins transitioni
 **Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle to Armbar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
+
+<p class="clip-credit"><strong>Escaping the armbar from the back</strong> — taught by ZombieProofBJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0bla3AHdQuM)
+
+<p class="clip-credit"><strong>RNC armbar escape</strong> — taught by BJJ4Breakfast · 1:14 · <a href="https://www.youtube.com/watch?v=0bla3AHdQuM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

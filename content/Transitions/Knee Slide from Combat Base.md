@@ -34,6 +34,43 @@ description: "Master the Knee Slide from Combat Base in BJJ. High-percentage gua
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slide from Combat Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee slice guard pass from combat base",
+      "description": "Knee Slide from Combat Base film study: Knee slice guard pass from combat base, taught by 5th Element BJJ/MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yPxcNpuyr0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yPxcNpuyr0w",
+      "url": "https://www.youtube.com/watch?v=yPxcNpuyr0w",
+      "creator": { "@type": "Person", "name": "5th Element BJJ/MMA coach" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X pass into knee slice finish",
+      "description": "Knee Slide from Combat Base film study: X pass into knee slice finish, taught by Aidan Sericolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zJkr3PfYDMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zJkr3PfYDMI",
+      "url": "https://www.youtube.com/watch?v=zJkr3PfYDMI",
+      "creator": { "@type": "Person", "name": "Aidan Sericolo" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The knee slide integrates seamlessly into broader passing systems. When opponent
 **Success Rate**: 53%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slide from Combat Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yPxcNpuyr0w)
+
+<p class="clip-credit"><strong>Knee slice guard pass from combat base</strong> — taught by 5th Element BJJ/MMA coach · 2:23 · <a href="https://www.youtube.com/watch?v=yPxcNpuyr0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zJkr3PfYDMI)
+
+<p class="clip-credit"><strong>X pass into knee slice finish</strong> — taught by Aidan Sericolo · 1:33 · <a href="https://www.youtube.com/watch?v=zJkr3PfYDMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

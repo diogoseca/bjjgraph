@@ -34,6 +34,54 @@ description: "Learn Arm Drag Escape from front headlock in BJJ. Use arm drag mec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front Headlock Arm Drag Escape",
+      "description": "Arm Drag Escape film study: Front Headlock Arm Drag Escape, taught by BJ Futrell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/muHh8bDzdSw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/muHh8bDzdSw",
+      "url": "https://www.youtube.com/watch?v=muHh8bDzdSw",
+      "creator": { "@type": "Person", "name": "BJ Futrell" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the Front Headlock",
+      "description": "Arm Drag Escape film study: Escaping the Front Headlock, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZCTAYYZMVUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZCTAYYZMVUo",
+      "url": "https://www.youtube.com/watch?v=ZCTAYYZMVUo",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quick Method to Escape the Front Headlock",
+      "description": "Arm Drag Escape film study: Quick Method to Escape the Front Headlock, taught by Grapplezilla.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BGSH5P5Mv9o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BGSH5P5Mv9o",
+      "url": "https://www.youtube.com/watch?v=BGSH5P5Mv9o",
+      "creator": { "@type": "Person", "name": "Grapplezilla" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the arm drag escape is most effective when your opponent commits 
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=muHh8bDzdSw)
+
+<p class="clip-credit"><strong>Front Headlock Arm Drag Escape</strong> — taught by BJ Futrell · 1:17 · <a href="https://www.youtube.com/watch?v=muHh8bDzdSw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZCTAYYZMVUo)
+
+<p class="clip-credit"><strong>Escaping the Front Headlock</strong> — taught by Satori BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=ZCTAYYZMVUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BGSH5P5Mv9o)
+
+<p class="clip-credit"><strong>Quick Method to Escape the Front Headlock</strong> — taught by Grapplezilla · 1:53 · <a href="https://www.youtube.com/watch?v=BGSH5P5Mv9o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

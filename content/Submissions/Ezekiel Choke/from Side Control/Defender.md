@@ -144,6 +144,43 @@ description: "Defend the Ezekiel Choke from side control bottom. Recognize cross
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two-Hand Choke Defense with Hip Throw",
+      "description": "Ezekiel Choke from Side Control (Defender) film study: Two-Hand Choke Defense with Hip Throw, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9QA0L4aOOKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9QA0L4aOOKk",
+      "url": "https://www.youtube.com/watch?v=9QA0L4aOOKk",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Babybridge Side Control Escape",
+      "description": "Ezekiel Choke from Side Control (Defender) film study: Babybridge Side Control Escape, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDSd5Qy8Kac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDSd5Qy8Kac",
+      "url": "https://www.youtube.com/watch?v=wDSd5Qy8Kac",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT231S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the Ezekiel Choke from side control bottom requires recognizing that t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9QA0L4aOOKk)
+
+<p class="clip-credit"><strong>Two-Hand Choke Defense with Hip Throw</strong> — taught by Gracie Charlottesville · 0:23 · <a href="https://www.youtube.com/watch?v=9QA0L4aOOKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDSd5Qy8Kac)
+
+<p class="clip-credit"><strong>Babybridge Side Control Escape</strong> — taught by Priit Mihkelson · 3:51 · <a href="https://www.youtube.com/watch?v=wDSd5Qy8Kac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

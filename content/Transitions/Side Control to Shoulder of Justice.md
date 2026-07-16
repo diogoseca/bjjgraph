@@ -34,6 +34,43 @@ description: "Master the transition from Side Control to Shoulder of Justice in 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Shoulder of Justice \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder pressure from side control",
+      "description": "Side Control to Shoulder of Justice film study: Shoulder pressure from side control, taught by Roy Dean.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BjeDX3WupdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BjeDX3WupdA",
+      "url": "https://www.youtube.com/watch?v=BjeDX3WupdA",
+      "creator": { "@type": "Person", "name": "Roy Dean" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crossface shoulder crunch fundamentals",
+      "description": "Side Control to Shoulder of Justice film study: Crossface shoulder crunch fundamentals, taught by CORE MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pyfc2SjiXVM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pyfc2SjiXVM",
+      "url": "https://www.youtube.com/watch?v=pyfc2SjiXVM",
+      "creator": { "@type": "Person", "name": "CORE MMA coach" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this transition serves as a force multiplier for your entire top-
 **Success Rate**: 70%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Shoulder of Justice in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BjeDX3WupdA)
+
+<p class="clip-credit"><strong>Shoulder pressure from side control</strong> — taught by Roy Dean · 0:39 · <a href="https://www.youtube.com/watch?v=BjeDX3WupdA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pyfc2SjiXVM)
+
+<p class="clip-credit"><strong>Crossface shoulder crunch fundamentals</strong> — taught by CORE MMA coach · 2:23 · <a href="https://www.youtube.com/watch?v=pyfc2SjiXVM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

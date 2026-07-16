@@ -34,6 +34,54 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Squid Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keenan\u0027s new lapel guard",
+      "description": "Squid Guard film study: Keenan\u0027s new lapel guard, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z14Nz40c52s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z14Nz40c52s",
+      "url": "https://www.youtube.com/watch?v=Z14Nz40c52s",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Enter the Galaxy: lapel guard",
+      "description": "Squid Guard film study: Enter the Galaxy: lapel guard, taught by Bradley Hill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4W-dStVHCIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4W-dStVHCIQ",
+      "url": "https://www.youtube.com/watch?v=4W-dStVHCIQ",
+      "creator": { "@type": "Person", "name": "Bradley Hill" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lapel guard overview",
+      "description": "Squid Guard film study: Lapel guard overview, taught by BJJ Highlights.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OO2IqO3M8f8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OO2IqO3M8f8",
+      "url": "https://www.youtube.com/watch?v=OO2IqO3M8f8",
+      "creator": { "@type": "Person", "name": "BJJ Highlights" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The position derives its name from the tentacle-like control created by the lape
 While Squid Guard is primarily used in gi grappling due to its reliance on lapel grips, the concepts of hook placement and angle creation translate to no-gi variations using overhooks or body positioning. This guard is particularly effective against opponents who rely on heavy pressure or static passing, as the lapel control disrupts their base and the hook placement prevents forward pressure. Advanced practitioners use Squid Guard as a transition hub, moving fluidly to other open guards, sweeps, or back attacks based on the opponent's defensive reactions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Squid Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z14Nz40c52s)
+
+<p class="clip-credit"><strong>Keenan&#39;s new lapel guard</strong> — taught by Keenan Cornelius · 3:11 · <a href="https://www.youtube.com/watch?v=Z14Nz40c52s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4W-dStVHCIQ)
+
+<p class="clip-credit"><strong>Enter the Galaxy: lapel guard</strong> — taught by Bradley Hill · 1:30 · <a href="https://www.youtube.com/watch?v=4W-dStVHCIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OO2IqO3M8f8)
+
+<p class="clip-credit"><strong>Lapel guard overview</strong> — taught by BJJ Highlights · 0:52 · <a href="https://www.youtube.com/watch?v=OO2IqO3M8f8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

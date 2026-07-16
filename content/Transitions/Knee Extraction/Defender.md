@@ -148,6 +148,54 @@ description: "How to prevent Knee Extraction in BJJ. Maintain ankle lock control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Extraction (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backstep counter to primary leg extraction",
+      "description": "Knee Extraction (Defender) film study: Backstep counter to primary leg extraction, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KcA6VYd8J2c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KcA6VYd8J2c",
+      "url": "https://www.youtube.com/watch?v=KcA6VYd8J2c",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Keeping the entanglement when they block the reap",
+      "description": "Knee Extraction (Defender) film study: Keeping the entanglement when they block the reap, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6fLuhvhUw-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6fLuhvhUw-w",
+      "url": "https://www.youtube.com/watch?v=6fLuhvhUw-w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT179S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fixing your heel hook grip to hold the leg",
+      "description": "Knee Extraction (Defender) film study: Fixing your heel hook grip to hold the leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0RZnPM25lKo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0RZnPM25lKo",
+      "url": "https://www.youtube.com/watch?v=0RZnPM25lKo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT211S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ From the defender's perspective (the person maintaining ankle lock control), the
 **Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Extraction (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KcA6VYd8J2c)
+
+<p class="clip-credit"><strong>Backstep counter to primary leg extraction</strong> — taught by Gordon Ryan · 1:55 · <a href="https://www.youtube.com/watch?v=KcA6VYd8J2c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6fLuhvhUw-w)
+
+<p class="clip-credit"><strong>Keeping the entanglement when they block the reap</strong> — taught by Lachlan Giles · 2:59 · <a href="https://www.youtube.com/watch?v=6fLuhvhUw-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0RZnPM25lKo)
+
+<p class="clip-credit"><strong>Fixing your heel hook grip to hold the leg</strong> — taught by Lachlan Giles · 3:31 · <a href="https://www.youtube.com/watch?v=0RZnPM25lKo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

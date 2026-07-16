@@ -34,6 +34,43 @@ description: "Master the transition from Anaconda Control to Dead Orchard Contro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Control to Dead Orchard Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The front headlock position explained",
+      "description": "Anaconda Control to Dead Orchard Control film study: The front headlock position explained, taught by DCS - Diaz Combat Sports.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O22YyheqB-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O22YyheqB-Q",
+      "url": "https://www.youtube.com/watch?v=O22YyheqB-Q",
+      "creator": { "@type": "Person", "name": "DCS - Diaz Combat Sports" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chin strap front headlock to anaconda and d\u0027arce",
+      "description": "Anaconda Control to Dead Orchard Control film study: Chin strap front headlock to anaconda and d\u0027arce, taught by ChokeArtist.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cy5vDkj8fDQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cy5vDkj8fDQ",
+      "url": "https://www.youtube.com/watch?v=Cy5vDkj8fDQ",
+      "creator": { "@type": "Person", "name": "ChokeArtist" },
+      "duration": "PT261S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The transition is particularly valuable against opponents with strong neck defen
 **Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Control to Dead Orchard Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O22YyheqB-Q)
+
+<p class="clip-credit"><strong>The front headlock position explained</strong> — taught by DCS - Diaz Combat Sports · 1:45 · <a href="https://www.youtube.com/watch?v=O22YyheqB-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cy5vDkj8fDQ)
+
+<p class="clip-credit"><strong>Chin strap front headlock to anaconda and d&#39;arce</strong> — taught by ChokeArtist · 4:21 · <a href="https://www.youtube.com/watch?v=Cy5vDkj8fDQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

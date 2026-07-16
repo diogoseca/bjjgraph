@@ -140,6 +140,43 @@ description: "Complete guide to defending against the Overhook Guard pass from b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Overhook Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook guard retention tip",
+      "description": "Pass Overhook Guard (Defender) film study: Overhook guard retention tip, taught by Fight Authority.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iyRrNoMn2Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iyRrNoMn2Tk",
+      "url": "https://www.youtube.com/watch?v=iyRrNoMn2Tk",
+      "creator": { "@type": "Person", "name": "Fight Authority" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Whizzer from half guard to win the dogfight",
+      "description": "Pass Overhook Guard (Defender) film study: Whizzer from half guard to win the dogfight, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender in the Overhook Guard, your primary objective is to maintain you
 **Opponent's Starting Position**: [[Positions/Overhook Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Overhook Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iyRrNoMn2Tk)
+
+<p class="clip-credit"><strong>Overhook guard retention tip</strong> — taught by Fight Authority · 1:07 · <a href="https://www.youtube.com/watch?v=iyRrNoMn2Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Whizzer from half guard to win the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

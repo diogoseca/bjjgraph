@@ -148,6 +148,54 @@ description: "Complete defensive guide for resisting the kneebar to ashi-garami 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar to Ashi Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back hug defense against the kneebar",
+      "description": "Kneebar to Ashi Garami (Defender) film study: Back hug defense against the kneebar, taught by Valente Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CyLeFNjcq0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CyLeFNjcq0A",
+      "url": "https://www.youtube.com/watch?v=CyLeFNjcq0A",
+      "creator": { "@type": "Person", "name": "Valente Brothers" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg lock escape: roll through",
+      "description": "Kneebar to Ashi Garami (Defender) film study: Leg lock escape: roll through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic kneebar escape",
+      "description": "Kneebar to Ashi Garami (Defender) film study: Basic kneebar escape, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f1oV7mGImQU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f1oV7mGImQU",
+      "url": "https://www.youtube.com/watch?v=f1oV7mGImQU",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Kneebar to Ashi Garami transition, you are in a crit
 **Opponent's Starting Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar to Ashi Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CyLeFNjcq0A)
+
+<p class="clip-credit"><strong>Back hug defense against the kneebar</strong> — taught by Valente Brothers · 1:00 · <a href="https://www.youtube.com/watch?v=CyLeFNjcq0A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg lock escape: roll through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f1oV7mGImQU)
+
+<p class="clip-credit"><strong>Basic kneebar escape</strong> — taught by Scott Ryan Chiriboga · 1:51 · <a href="https://www.youtube.com/watch?v=f1oV7mGImQU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

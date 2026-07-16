@@ -34,6 +34,54 @@ description: "Master Inside Ashi-Garami in BJJ. Foundational leg entanglement fo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mikey lock entries from closed guard",
+      "description": "Inside Ashi-Garami film study: Mikey lock entries from closed guard, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rNDEm73luBM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rNDEm73luBM",
+      "url": "https://www.youtube.com/watch?v=rNDEm73luBM",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Honey hole entry from Single Leg X",
+      "description": "Inside Ashi-Garami film study: Honey hole entry from Single Leg X, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VmxgqU-ScTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VmxgqU-ScTM",
+      "url": "https://www.youtube.com/watch?v=VmxgqU-ScTM",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Backside foot finish mechanics",
+      "description": "Inside Ashi-Garami film study: Backside foot finish mechanics, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-VpByetjzqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-VpByetjzqs",
+      "url": "https://www.youtube.com/watch?v=-VpByetjzqs",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The "inside" designation refers to the positioning of the controlling leg closes
 Inside Ashi-Garami has become essential in modern competition grappling, particularly in submission-only and ADCC rule sets where leg attacks are unrestricted. The position requires technical precision and systematic training progression, with practitioners typically mastering straight ankle locks before advancing to heel hook attacks. Understanding Inside Ashi-Garami from both bottom and top perspectives is crucial for developing a comprehensive leg lock game while maintaining safety and control throughout all engagements.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rNDEm73luBM)
+
+<p class="clip-credit"><strong>Mikey lock entries from closed guard</strong> — taught by Mikey Musumeci · 1:08 · <a href="https://www.youtube.com/watch?v=rNDEm73luBM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VmxgqU-ScTM)
+
+<p class="clip-credit"><strong>Honey hole entry from Single Leg X</strong> — taught by Danny Mitchell · 0:34 · <a href="https://www.youtube.com/watch?v=VmxgqU-ScTM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-VpByetjzqs)
+
+<p class="clip-credit"><strong>Backside foot finish mechanics</strong> — taught by Mikey Musumeci · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

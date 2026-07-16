@@ -35,6 +35,65 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Omoplata, Keenan style",
+      "description": "Omoplata film study: Reverse Omoplata, Keenan style, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TNvcL55uvrE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TNvcL55uvrE",
+      "url": "https://www.youtube.com/watch?v=TNvcL55uvrE",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Teaching the reverse omoplata",
+      "description": "Omoplata film study: Teaching the reverse omoplata, taught by Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zZv3V0b3tqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zZv3V0b3tqg",
+      "url": "https://www.youtube.com/watch?v=zZv3V0b3tqg",
+      "creator": { "@type": "Person", "name": "Bradley" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata to armbar transition",
+      "description": "Omoplata film study: Omoplata to armbar transition, taught by Asbury Park Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HtMbIJCiz-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HtMbIJCiz-4",
+      "url": "https://www.youtube.com/watch?v=HtMbIJCiz-4",
+      "creator": { "@type": "Person", "name": "Asbury Park Jiu Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Omoplata to armbar",
+      "description": "Omoplata film study: Omoplata to armbar, taught by Bicudo Maciel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hZMbgWNh7MI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hZMbgWNh7MI",
+      "url": "https://www.youtube.com/watch?v=hZMbgWNh7MI",
+      "creator": { "@type": "Person", "name": "Bicudo Maciel" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -88,6 +147,50 @@ The technique is particularly effective from guard positions, where the bottom p
 Modern competition has elevated the Omoplata from a low-percentage novelty to a high-level control position that creates multiple offensive dilemmas for the opponent. When the finish is defended, the position naturally feeds into sweeps to top position, back takes from the opponent's roll escape, and transitions to triangle or armbar when posture is recovered. This versatility makes the omoplata a cornerstone technique in any guard player's arsenal.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TNvcL55uvrE)
+
+<p class="clip-credit"><strong>Reverse Omoplata, Keenan style</strong> — taught by Keenan Cornelius · 0:22 · <a href="https://www.youtube.com/watch?v=TNvcL55uvrE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zZv3V0b3tqg)
+
+<p class="clip-credit"><strong>Teaching the reverse omoplata</strong> — taught by Bradley · 1:46 · <a href="https://www.youtube.com/watch?v=zZv3V0b3tqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HtMbIJCiz-4)
+
+<p class="clip-credit"><strong>Omoplata to armbar transition</strong> — taught by Asbury Park Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=HtMbIJCiz-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hZMbgWNh7MI)
+
+<p class="clip-credit"><strong>Omoplata to armbar</strong> — taught by Bicudo Maciel · 0:25 · <a href="https://www.youtube.com/watch?v=hZMbgWNh7MI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

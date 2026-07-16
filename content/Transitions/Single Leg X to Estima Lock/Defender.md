@@ -127,6 +127,43 @@ description: "How to defend the Estima Lock entry from Single Leg X-Guard in BJJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X to Estima Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Foot lock and single leg X guard escapes",
+      "description": "Single Leg X to Estima Lock (Defender) film study: Foot lock and single leg X guard escapes, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JSOM86_1lRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JSOM86_1lRo",
+      "url": "https://www.youtube.com/watch?v=JSOM86_1lRo",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Advanced footlock defense details",
+      "description": "Single Leg X to Estima Lock (Defender) film study: Advanced footlock defense details, taught by Scott Clawson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0CUWEdcIMlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0CUWEdcIMlU",
+      "url": "https://www.youtube.com/watch?v=0CUWEdcIMlU",
+      "creator": { "@type": "Person", "name": "Scott Clawson" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -141,6 +178,34 @@ The two highest-value defenses are early foot extraction - boot the foot free be
 **Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X to Estima Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JSOM86_1lRo)
+
+<p class="clip-credit"><strong>Foot lock and single leg X guard escapes</strong> — taught by James O&#39;Connor · 1:51 · <a href="https://www.youtube.com/watch?v=JSOM86_1lRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0CUWEdcIMlU)
+
+<p class="clip-credit"><strong>Advanced footlock defense details</strong> — taught by Scott Clawson · 1:08 · <a href="https://www.youtube.com/watch?v=0CUWEdcIMlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -140,6 +140,54 @@ description: "How to prevent the triangle escape position transition in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Triangle Escape Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the mounted triangle",
+      "description": "Half Guard to Triangle Escape Position (Defender) film study: Preventing the mounted triangle, taught by Justen Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l-HhOV9UjJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l-HhOV9UjJU",
+      "url": "https://www.youtube.com/watch?v=l-HhOV9UjJU",
+      "creator": { "@type": "Person", "name": "Justen Hamilton" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Six triangle choke escapes, early to very late",
+      "description": "Half Guard to Triangle Escape Position (Defender) film study: Six triangle choke escapes, early to very late, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XvsneDpJ18Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XvsneDpJ18Y",
+      "url": "https://www.youtube.com/watch?v=XvsneDpJ18Y",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT418S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Avoiding and defending the triangle choke",
+      "description": "Half Guard to Triangle Escape Position (Defender) film study: Avoiding and defending the triangle choke, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ss49jnCob0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ss49jnCob0w",
+      "url": "https://www.youtube.com/watch?v=Ss49jnCob0w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT775S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Triangle Escape Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l-HhOV9UjJU)
+
+<p class="clip-credit"><strong>Preventing the mounted triangle</strong> — taught by Justen Hamilton · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XvsneDpJ18Y)
+
+<p class="clip-credit"><strong>Six triangle choke escapes, early to very late</strong> — taught by Knight Jiu-Jitsu · 6:58 · <a href="https://www.youtube.com/watch?v=XvsneDpJ18Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ss49jnCob0w)
+
+<p class="clip-credit"><strong>Avoiding and defending the triangle choke</strong> — taught by Lachlan Giles · 12:55 · <a href="https://www.youtube.com/watch?v=Ss49jnCob0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

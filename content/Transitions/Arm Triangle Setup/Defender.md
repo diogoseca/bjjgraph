@@ -148,6 +148,54 @@ description: "How to defend against Arm Triangle Setup in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fastest escape out of the arm triangle",
+      "description": "Arm Triangle Setup (Defender) film study: Fastest escape out of the arm triangle, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
+      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Best arm triangle escape",
+      "description": "Arm Triangle Setup (Defender) film study: Best arm triangle escape, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n_2zR6BaF8A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n_2zR6BaF8A",
+      "url": "https://www.youtube.com/watch?v=n_2zR6BaF8A",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm triangle escape",
+      "description": "Arm Triangle Setup (Defender) film study: Arm triangle escape, taught by Hauck Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zaYaAl5x26Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zaYaAl5x26Y",
+      "url": "https://www.youtube.com/watch?v=zaYaAl5x26Y",
+      "creator": { "@type": "Person", "name": "Hauck Jiu-Jitsu" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders recognize that the arm triangle setup from North-South create
 **Opponent's Starting Position**: [[Positions/North-South]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+
+<p class="clip-credit"><strong>Fastest escape out of the arm triangle</strong> — taught by Adam Bradley · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n_2zR6BaF8A)
+
+<p class="clip-credit"><strong>Best arm triangle escape</strong> — taught by ZombieProofBJJ · 0:58 · <a href="https://www.youtube.com/watch?v=n_2zR6BaF8A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zaYaAl5x26Y)
+
+<p class="clip-credit"><strong>Arm triangle escape</strong> — taught by Hauck Jiu-Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=zaYaAl5x26Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -180,6 +180,54 @@ description: "Execute the Takedown from Standing Guard in BJJ. Level changes, pe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Takedown from Standing Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Leg Lift to Standing Inside Trip",
+      "description": "Takedown from Standing Guard (Attacker) film study: Double Leg Lift to Standing Inside Trip, taught by Cary Kolat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mq7Kdd7r8ro/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mq7Kdd7r8ro",
+      "url": "https://www.youtube.com/watch?v=mq7Kdd7r8ro",
+      "creator": { "@type": "Person", "name": "Cary Kolat" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Snatch double leg takedown",
+      "description": "Takedown from Standing Guard (Attacker) film study: Snatch double leg takedown, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G98oKGgneQ8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G98oKGgneQ8",
+      "url": "https://www.youtube.com/watch?v=G98oKGgneQ8",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double Leg Takedown technique",
+      "description": "Takedown from Standing Guard (Attacker) film study: Double Leg Takedown technique, taught by Predators MMA Manchester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dhZgpDHCARw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dhZgpDHCARw",
+      "url": "https://www.youtube.com/watch?v=dhZgpDHCARw",
+      "creator": { "@type": "Person", "name": "Predators MMA Manchester" },
+      "duration": "PT15S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the Takedown from Standing Guard, your primary objecti
 **From Position**: [[Positions/Standing Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Takedown from Standing Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mq7Kdd7r8ro)
+
+<p class="clip-credit"><strong>Double Leg Lift to Standing Inside Trip</strong> — taught by Cary Kolat · 0:58 · <a href="https://www.youtube.com/watch?v=mq7Kdd7r8ro" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G98oKGgneQ8)
+
+<p class="clip-credit"><strong>Snatch double leg takedown</strong> — taught by Unknown · 0:31 · <a href="https://www.youtube.com/watch?v=G98oKGgneQ8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dhZgpDHCARw)
+
+<p class="clip-credit"><strong>Double Leg Takedown technique</strong> — taught by Predators MMA Manchester · 0:15 · <a href="https://www.youtube.com/watch?v=dhZgpDHCARw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

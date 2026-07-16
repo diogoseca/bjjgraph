@@ -34,6 +34,54 @@ description: "Master Triangle Escape in BJJ. Defensive strategies to escape tria
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Posture up escape from the triangle choke",
+      "description": "Triangle Escape film study: Posture up escape from the triangle choke, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
+      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the triangle when you posture up",
+      "description": "Triangle Escape film study: Beating the triangle when you posture up, taught by Simple JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wuu5WWcNfY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wuu5WWcNfY0",
+      "url": "https://www.youtube.com/watch?v=wuu5WWcNfY0",
+      "creator": { "@type": "Person", "name": "Simple JiuJitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle choke escape: knee in butt",
+      "description": "Triangle Escape film study: Triangle choke escape: knee in butt, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MdsD3i8l3ao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MdsD3i8l3ao",
+      "url": "https://www.youtube.com/watch?v=MdsD3i8l3ao",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ As one of the highest-percentage submissions in Brazilian Jiu-Jitsu, the triangl
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
+
+<p class="clip-credit"><strong>Posture up escape from the triangle choke</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wuu5WWcNfY0)
+
+<p class="clip-credit"><strong>Beating the triangle when you posture up</strong> — taught by Simple JiuJitsu · 1:28 · <a href="https://www.youtube.com/watch?v=wuu5WWcNfY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MdsD3i8l3ao)
+
+<p class="clip-credit"><strong>Triangle choke escape: knee in butt</strong> — taught by Mat Life Training Center · 0:16 · <a href="https://www.youtube.com/watch?v=MdsD3i8l3ao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

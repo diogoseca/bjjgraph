@@ -140,6 +140,43 @@ description: "Learn to defend and capitalize on the Body Lock to Standing transi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock to Standing (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear body lock kimura counter to sweep",
+      "description": "Body Lock to Standing (Defender) film study: Rear body lock kimura counter to sweep, taught by SBG Australia coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8l-W5VTZC3E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8l-W5VTZC3E",
+      "url": "https://www.youtube.com/watch?v=8l-W5VTZC3E",
+      "creator": { "@type": "Person", "name": "SBG Australia coach" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body lock counter and submission breakdown",
+      "description": "Body Lock to Standing (Defender) film study: Body lock counter and submission breakdown, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZGgfRpUJvHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZGgfRpUJvHU",
+      "url": "https://www.youtube.com/watch?v=ZGgfRpUJvHU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ From the defender's perspective, the opponent's decision to release body lock co
 **Opponent's Starting Position**: [[Positions/Body Lock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock to Standing (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8l-W5VTZC3E)
+
+<p class="clip-credit"><strong>Rear body lock kimura counter to sweep</strong> — taught by SBG Australia coach · 0:21 · <a href="https://www.youtube.com/watch?v=8l-W5VTZC3E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZGgfRpUJvHU)
+
+<p class="clip-credit"><strong>Body lock counter and submission breakdown</strong> — taught by Craig Jones · 1:54 · <a href="https://www.youtube.com/watch?v=ZGgfRpUJvHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

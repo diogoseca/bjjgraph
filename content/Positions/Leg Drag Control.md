@@ -34,6 +34,54 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Drag \u0026 Passing Concepts",
+      "description": "Leg Drag Control film study: Leg Drag \u0026 Passing Concepts, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cmKlGZ3Oe2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cmKlGZ3Oe2Q",
+      "url": "https://www.youtube.com/watch?v=cmKlGZ3Oe2Q",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Drag Overview - Passing Approaches",
+      "description": "Leg Drag Control film study: Leg Drag Overview - Passing Approaches, taught by Aaron Benzrihem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YYbKWhrbbbM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YYbKWhrbbbM",
+      "url": "https://www.youtube.com/watch?v=YYbKWhrbbbM",
+      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg Drag Transitions When Opponent Defends",
+      "description": "Leg Drag Control film study: Leg Drag Transitions When Opponent Defends, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CkRlTtnYOk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CkRlTtnYOk",
+      "url": "https://www.youtube.com/watch?v=9CkRlTtnYOk",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT597S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ The strategic significance of leg drag control lies in its position as a nexus p
 Modern competitive grappling has elevated leg drag control from a transitional moment to a studied position with its own principles and techniques. High-level competitors spend significant time developing both their leg drag passing systems and their defensive responses to this specific control. The position exemplifies the evolution of guard passing beyond simple over-under or stack passes, representing a more dynamic, flow-based approach that emphasizes angles and momentum over pure pressure.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cmKlGZ3Oe2Q)
+
+<p class="clip-credit"><strong>Leg Drag &amp; Passing Concepts</strong> — taught by Andre Galvao · 1:51 · <a href="https://www.youtube.com/watch?v=cmKlGZ3Oe2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YYbKWhrbbbM)
+
+<p class="clip-credit"><strong>Leg Drag Overview - Passing Approaches</strong> — taught by Aaron Benzrihem · 2:45 · <a href="https://www.youtube.com/watch?v=YYbKWhrbbbM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9CkRlTtnYOk)
+
+<p class="clip-credit"><strong>Leg Drag Transitions When Opponent Defends</strong> — taught by Rafael Mendes · 9:57 · <a href="https://www.youtube.com/watch?v=9CkRlTtnYOk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

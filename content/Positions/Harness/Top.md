@@ -154,6 +154,54 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harness (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Seatbelt Grip Quick Fix",
+      "description": "Harness (Top) film study: Seatbelt Grip Quick Fix, taught by Ben Kool.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
+      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
+      "creator": { "@type": "Person", "name": "Ben Kool" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Seatbelt Takedown to Back",
+      "description": "Harness (Top) film study: Seatbelt Takedown to Back, taught by Progressive FORCE Concepts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F6bTABR5b1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F6bTABR5b1U",
+      "url": "https://www.youtube.com/watch?v=F6bTABR5b1U",
+      "creator": { "@type": "Person", "name": "Progressive FORCE Concepts" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Entries Into Rear Triangle Back Position",
+      "description": "Harness (Top) film study: Entries Into Rear Triangle Back Position, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
+      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT252S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +216,42 @@ The position derives its name from the seat belt-like configuration of the arms,
 Strategically, Harness Top Position is considered a premium scoring position (4 points in IBJJF competition) and offers the highest percentage submissions in BJJ, particularly the rear naked choke. The position allows the top player to control the opponent's upper body completely while using the hooks to prevent hip escape and control the lower body. Advanced practitioners can maintain this position almost indefinitely against lower-skilled opponents while methodically working toward submissions. The harness grip creates a dilemma for the defender - defending the choke typically opens armbar opportunities, while defending armbars often exposes the neck. This makes Harness Top Position not just a controlling position, but a true submission platform where elite competitors regularly finish matches.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harness (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MwxnveKrlxU)
+
+<p class="clip-credit"><strong>Seatbelt Grip Quick Fix</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F6bTABR5b1U)
+
+<p class="clip-credit"><strong>Seatbelt Takedown to Back</strong> — taught by Progressive FORCE Concepts · 1:54 · <a href="https://www.youtube.com/watch?v=F6bTABR5b1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMabjvtaLk)
+
+<p class="clip-credit"><strong>Entries Into Rear Triangle Back Position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

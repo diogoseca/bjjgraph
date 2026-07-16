@@ -153,6 +153,43 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kesa Gatame (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "12 Kesa Gatame Attacks",
+      "description": "Kesa Gatame (Top) film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from Kesa Gatame (Scarf Hold)",
+      "description": "Kesa Gatame (Top) film study: Armbar from Kesa Gatame (Scarf Hold), taught by Jiu-jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wxD6LV1GARg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wxD6LV1GARg",
+      "url": "https://www.youtube.com/watch?v=wxD6LV1GARg",
+      "creator": { "@type": "Person", "name": "Jiu-jitsu" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +203,34 @@ The position requires careful attention to weight distribution and hip positioni
 From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in IBJJF) and serves as both a controlling position and a launching pad for higher-value positions like mount. The transition from Kesa Gatame to mount is particularly natural when the bottom player turns into the top player, making their escape attempt the catalyst for positional advancement.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kesa Gatame (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wxD6LV1GARg)
+
+<p class="clip-credit"><strong>Armbar from Kesa Gatame (Scarf Hold)</strong> — taught by Jiu-jitsu · 1:08 · <a href="https://www.youtube.com/watch?v=wxD6LV1GARg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

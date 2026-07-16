@@ -153,6 +153,43 @@ description: "Master defensive strategies and systematic escapes from Reverse Sc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Scarf Hold (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Kesa escape to back take \u0026 choke",
+      "description": "Reverse Scarf Hold (Bottom) film study: Reverse Kesa escape to back take \u0026 choke, taught by Gymnanigains.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse scarf hold escape (twister side control)",
+      "description": "Reverse Scarf Hold (Bottom) film study: Reverse scarf hold escape (twister side control), taught by Black Dragon BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hXp34AtDjac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hXp34AtDjac",
+      "url": "https://www.youtube.com/watch?v=hXp34AtDjac",
+      "creator": { "@type": "Person", "name": "Black Dragon BJJ" },
+      "duration": "PT291S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The bottom player in reverse scarf hold faces several interconnected problems: r
 Success in this position requires prioritizing survival first, then creating frames and space, and finally executing technical escapes to better positions such as guard recovery or reversal to top position. The defensive strategy emphasizes breath control under pressure, maintaining composure, and exploiting the top player's positional weaknesses when they attempt to advance or submit. While challenging, systematic approach to this position can transform it from a desperate situation into an opportunity for calculated escape and potential reversal.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Scarf Hold (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse Kesa escape to back take &amp; choke</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hXp34AtDjac)
+
+<p class="clip-credit"><strong>Reverse scarf hold escape (twister side control)</strong> — taught by Black Dragon BJJ · 4:51 · <a href="https://www.youtube.com/watch?v=hXp34AtDjac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

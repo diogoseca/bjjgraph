@@ -153,6 +153,54 @@ description: "Master top butterfly half guard defense and passing. Learn to coun
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Half Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing Half Butterfly Guard",
+      "description": "Butterfly Half Guard (Top) film study: Passing Half Butterfly Guard, taught by Morto BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LIITsrlsAaI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LIITsrlsAaI",
+      "url": "https://www.youtube.com/watch?v=LIITsrlsAaI",
+      "creator": { "@type": "Person", "name": "Morto BJJ" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Effective Half Butterfly Guard Pass (No Gi)",
+      "description": "Butterfly Half Guard (Top) film study: Effective Half Butterfly Guard Pass (No Gi), taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
+      "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Pass the Butterfly Guard",
+      "description": "Butterfly Half Guard (Top) film study: How to Pass the Butterfly Guard, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BkT2cQdqqgU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BkT2cQdqqgU",
+      "url": "https://www.youtube.com/watch?v=BkT2cQdqqgU",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From the top perspective, butterfly half guard presents a complex problem-solvin
 The strategic approach from top butterfly half guard involves several key considerations: controlling the bottom player's upper body to prevent them from establishing the upright posture necessary for effective sweeps, managing the butterfly hook by controlling its elevation potential through hip positioning and weight distribution, systematically working to free the trapped leg while defending against sweep attempts, and recognizing optimal timing to transition between different passing strategies. The position demands constant vigilance as the bottom player has multiple high-percentage sweeping options and seamless transitions to related guard systems, making it essential for the top player to maintain proactive pressure and strategic positioning rather than reactive defense.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Half Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LIITsrlsAaI)
+
+<p class="clip-credit"><strong>Passing Half Butterfly Guard</strong> — taught by Morto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
+
+<p class="clip-credit"><strong>Effective Half Butterfly Guard Pass (No Gi)</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BkT2cQdqqgU)
+
+<p class="clip-credit"><strong>How to Pass the Butterfly Guard</strong> — taught by Brandon McCaghren · 1:57 · <a href="https://www.youtube.com/watch?v=BkT2cQdqqgU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

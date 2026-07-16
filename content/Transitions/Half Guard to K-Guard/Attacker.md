@@ -180,6 +180,43 @@ description: "How to execute the Transition to K-Guard from Half Guard Bottom. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to K-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shallow K guard entry",
+      "description": "Half Guard to K-Guard (Attacker) film study: Shallow K guard entry, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fQ1z2RLYz4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fQ1z2RLYz4Q",
+      "url": "https://www.youtube.com/watch?v=fQ1z2RLYz4Q",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K guard entry basics",
+      "description": "Half Guard to K-Guard (Attacker) film study: K guard entry basics, taught by SIMA BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1pGIOJnpBsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1pGIOJnpBsw",
+      "url": "https://www.youtube.com/watch?v=1pGIOJnpBsw",
+      "creator": { "@type": "Person", "name": "SIMA BJJ coach" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ From the attacker's perspective, the Transition to K-Guard is about converting y
 **From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to K-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fQ1z2RLYz4Q)
+
+<p class="clip-credit"><strong>Shallow K guard entry</strong> — taught by Lachlan Giles · 0:42 · <a href="https://www.youtube.com/watch?v=fQ1z2RLYz4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1pGIOJnpBsw)
+
+<p class="clip-credit"><strong>K guard entry basics</strong> — taught by SIMA BJJ coach · 1:40 · <a href="https://www.youtube.com/watch?v=1pGIOJnpBsw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

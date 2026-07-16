@@ -34,6 +34,65 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke from Back Position",
+      "description": "Short Choke film study: Short Choke from Back Position, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shirt Choke From Back Mount",
+      "description": "Short Choke film study: Shirt Choke From Back Mount, taught by Defender Combatives.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E_M4Y0_hxsk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E_M4Y0_hxsk",
+      "url": "https://www.youtube.com/watch?v=E_M4Y0_hxsk",
+      "creator": { "@type": "Person", "name": "Defender Combatives" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Short Choke to Rear Naked Choke",
+      "description": "Short Choke film study: Short Choke to Rear Naked Choke, taught by Mako BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EJaBa7Q3qVI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EJaBa7Q3qVI",
+      "url": "https://www.youtube.com/watch?v=EJaBa7Q3qVI",
+      "creator": { "@type": "Person", "name": "Mako BJJ" },
+      "duration": "PT188S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Gift Wrap Arm Triangle / Ezekiel Choke",
+      "description": "Short Choke film study: Gift Wrap Arm Triangle / Ezekiel Choke, taught by Prosaic Living.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DAUs6oX4jjo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DAUs6oX4jjo",
+      "url": "https://www.youtube.com/watch?v=DAUs6oX4jjo",
+      "creator": { "@type": "Person", "name": "Prosaic Living" },
+      "duration": "PT46S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,6 +143,50 @@ This choke is particularly effective when opponents defend aggressively against 
 Advanced practitioners use the Short Choke as both a primary finish and a setup for transitioning to mount or taking the back when opponents attempt to escape. The choke creates a powerful dilemma: defending the lapel threading exposes the arms to joint locks, while protecting the arms leaves the neck vulnerable to the choke.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short Choke from Back Position</strong> — taught by Cosens MMA · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E_M4Y0_hxsk)
+
+<p class="clip-credit"><strong>Shirt Choke From Back Mount</strong> — taught by Defender Combatives · 0:14 · <a href="https://www.youtube.com/watch?v=E_M4Y0_hxsk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EJaBa7Q3qVI)
+
+<p class="clip-credit"><strong>Short Choke to Rear Naked Choke</strong> — taught by Mako BJJ · 3:08 · <a href="https://www.youtube.com/watch?v=EJaBa7Q3qVI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DAUs6oX4jjo)
+
+<p class="clip-credit"><strong>Gift Wrap Arm Triangle / Ezekiel Choke</strong> — taught by Prosaic Living · 0:46 · <a href="https://www.youtube.com/watch?v=DAUs6oX4jjo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

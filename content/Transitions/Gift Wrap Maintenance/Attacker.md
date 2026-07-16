@@ -174,6 +174,54 @@ description: "Learn Gift Wrap Maintenance attacking techniques in BJJ. Master ar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Maintenance (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting and maintaining gift wrap control",
+      "description": "Gift Wrap Maintenance (Attacker) film study: Getting and maintaining gift wrap control, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g4onw9pd4_s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g4onw9pd4_s",
+      "url": "https://www.youtube.com/watch?v=g4onw9pd4_s",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Holding the gift wrap to take the back",
+      "description": "Gift Wrap Maintenance (Attacker) film study: Holding the gift wrap to take the back, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eKTd-9SkrVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eKTd-9SkrVk",
+      "url": "https://www.youtube.com/watch?v=eKTd-9SkrVk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gift wrap control position details",
+      "description": "Gift Wrap Maintenance (Attacker) film study: Gift wrap control position details, taught by Ronin Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TqKNr2lC7B0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TqKNr2lC7B0",
+      "url": "https://www.youtube.com/watch?v=TqKNr2lC7B0",
+      "creator": { "@type": "Person", "name": "Ronin Dojo" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Maintaining the Gift Wrap from top demands continuous micro-adjustments rather t
 **From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Maintenance (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g4onw9pd4_s)
+
+<p class="clip-credit"><strong>Getting and maintaining gift wrap control</strong> — taught by Henry Akins · 2:01 · <a href="https://www.youtube.com/watch?v=g4onw9pd4_s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eKTd-9SkrVk)
+
+<p class="clip-credit"><strong>Holding the gift wrap to take the back</strong> — taught by Henry Akins · 1:21 · <a href="https://www.youtube.com/watch?v=eKTd-9SkrVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TqKNr2lC7B0)
+
+<p class="clip-credit"><strong>Gift wrap control position details</strong> — taught by Ronin Dojo · 1:54 · <a href="https://www.youtube.com/watch?v=TqKNr2lC7B0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

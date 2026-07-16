@@ -34,6 +34,54 @@ description: "Master the Smash from Knee Shield pass in BJJ. Complete guide to c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash from Knee Shield \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the knee shield with an inside knee cut",
+      "description": "Smash from Knee Shield film study: Passing the knee shield with an inside knee cut, taught by War Room BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "creator": { "@type": "Person", "name": "War Room BJJ coach" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee shield smash pass",
+      "description": "Smash from Knee Shield film study: Knee shield smash pass, taught by Adam Metcalf.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y815hmtzGZA",
+      "url": "https://www.youtube.com/watch?v=Y815hmtzGZA",
+      "creator": { "@type": "Person", "name": "Adam Metcalf" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Smashing knee shield pass",
+      "description": "Smash from Knee Shield film study: Smashing knee shield pass, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DmFX5HGf7Xw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DmFX5HGf7Xw",
+      "url": "https://www.youtube.com/watch?v=DmFX5HGf7Xw",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the smash from knee shield occupies a critical role in the guard 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash from Knee Shield in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
+
+<p class="clip-credit"><strong>Passing the knee shield with an inside knee cut</strong> — taught by War Room BJJ coach · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y815hmtzGZA)
+
+<p class="clip-credit"><strong>Knee shield smash pass</strong> — taught by Adam Metcalf · 0:30 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DmFX5HGf7Xw)
+
+<p class="clip-credit"><strong>Smashing knee shield pass</strong> — taught by Gabriel Gonzaga · 2:39 · <a href="https://www.youtube.com/watch?v=DmFX5HGf7Xw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

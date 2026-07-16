@@ -174,6 +174,54 @@ description: "How to execute Counter Roll to Top reversal from Gift Wrap Bottom 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Roll to Top (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reversal to top from the shell position",
+      "description": "Counter Roll to Top (Attacker) film study: Reversal to top from the shell position, taught by Elite Team Monterey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8RZlIiPVkis/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8RZlIiPVkis",
+      "url": "https://www.youtube.com/watch?v=8RZlIiPVkis",
+      "creator": { "@type": "Person", "name": "Elite Team Monterey" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling Side Control Reversal to Top",
+      "description": "Counter Roll to Top (Attacker) film study: Rolling Side Control Reversal to Top, taught by Toro BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rVinpp8dtw4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rVinpp8dtw4",
+      "url": "https://www.youtube.com/watch?v=rVinpp8dtw4",
+      "creator": { "@type": "Person", "name": "Toro BJJ" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North-South Reversal from Side Control Bottom",
+      "description": "Counter Roll to Top (Attacker) film study: North-South Reversal from Side Control Bottom, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CTqxs0354OM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CTqxs0354OM",
+      "url": "https://www.youtube.com/watch?v=CTqxs0354OM",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The mechanical chain requires coordinated action across your entire body: feet d
 **From Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Roll to Top (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8RZlIiPVkis)
+
+<p class="clip-credit"><strong>Reversal to top from the shell position</strong> — taught by Elite Team Monterey · 2:09 · <a href="https://www.youtube.com/watch?v=8RZlIiPVkis" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rVinpp8dtw4)
+
+<p class="clip-credit"><strong>Rolling Side Control Reversal to Top</strong> — taught by Toro BJJ · 2:00 · <a href="https://www.youtube.com/watch?v=rVinpp8dtw4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CTqxs0354OM)
+
+<p class="clip-credit"><strong>North-South Reversal from Side Control Bottom</strong> — taught by Academy Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=CTqxs0354OM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

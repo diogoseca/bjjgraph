@@ -34,6 +34,54 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg triangle setup from closed guard",
+      "description": "Triangle Setup film study: Leg triangle setup from closed guard, taught by Penny Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6eK-y5_KWIk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6eK-y5_KWIk",
+      "url": "https://www.youtube.com/watch?v=6eK-y5_KWIk",
+      "creator": { "@type": "Person", "name": "Penny Thomas" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle choke setup and finish details",
+      "description": "Triangle Setup film study: Triangle choke setup and finish details, taught by Ryan Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QvQ79IB4ySw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QvQ79IB4ySw",
+      "url": "https://www.youtube.com/watch?v=QvQ79IB4ySw",
+      "creator": { "@type": "Person", "name": "Ryan Hall" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quick closed guard triangle entry",
+      "description": "Triangle Setup film study: Quick closed guard triangle entry, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2k02hOOclCc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2k02hOOclCc",
+      "url": "https://www.youtube.com/watch?v=2k02hOOclCc",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT7S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This technique serves as a gateway to multiple attacking options including the t
 **Success Rate**: 28%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6eK-y5_KWIk)
+
+<p class="clip-credit"><strong>Leg triangle setup from closed guard</strong> — taught by Penny Thomas · 1:09 · <a href="https://www.youtube.com/watch?v=6eK-y5_KWIk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QvQ79IB4ySw)
+
+<p class="clip-credit"><strong>Triangle choke setup and finish details</strong> — taught by Ryan Hall · 2:42 · <a href="https://www.youtube.com/watch?v=QvQ79IB4ySw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2k02hOOclCc)
+
+<p class="clip-credit"><strong>Quick closed guard triangle entry</strong> — taught by Ritchie Yip · 0:07 · <a href="https://www.youtube.com/watch?v=2k02hOOclCc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

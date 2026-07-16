@@ -34,6 +34,43 @@ description: "Master the kneebar from inside ashi-garami. Learn hip positioning,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Inside Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X to Kneebar",
+      "description": "Kneebar from Inside Ashi-Garami film study: Single Leg X to Kneebar, taught by Fernaldi Jonatan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fZRfKh1B53o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fZRfKh1B53o",
+      "url": "https://www.youtube.com/watch?v=fZRfKh1B53o",
+      "creator": { "@type": "Person", "name": "Fernaldi Jonatan" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "2 Ways to Attack a Kneebar from Cross Ashi",
+      "description": "Kneebar from Inside Ashi-Garami film study: 2 Ways to Attack a Kneebar from Cross Ashi, taught by King Kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0wHq6PZVGfI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0wHq6PZVGfI",
+      "url": "https://www.youtube.com/watch?v=0wHq6PZVGfI",
+      "creator": { "@type": "Person", "name": "King Kneebar" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Competition data shows the kneebar from inside ashi-garami succeeds at approxima
 **Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Inside Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fZRfKh1B53o)
+
+<p class="clip-credit"><strong>Single Leg X to Kneebar</strong> — taught by Fernaldi Jonatan · 1:16 · <a href="https://www.youtube.com/watch?v=fZRfKh1B53o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0wHq6PZVGfI)
+
+<p class="clip-credit"><strong>2 Ways to Attack a Kneebar from Cross Ashi</strong> — taught by King Kneebar · 2:20 · <a href="https://www.youtube.com/watch?v=0wHq6PZVGfI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

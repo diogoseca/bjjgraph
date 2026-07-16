@@ -140,6 +140,54 @@ description: "How to defend against Butterfly Pass in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly guard framing and retention concepts",
+      "description": "Butterfly Pass (Defender) film study: Butterfly guard framing and retention concepts, taught by ZeGrapplez coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ADwKEjvhX-U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ADwKEjvhX-U",
+      "url": "https://www.youtube.com/watch?v=ADwKEjvhX-U",
+      "creator": { "@type": "Person", "name": "ZeGrapplez coach" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slide pass recovery back to butterfly",
+      "description": "Butterfly Pass (Defender) film study: Knee slide pass recovery back to butterfly, taught by Italiano BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/86KseinKoSY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/86KseinKoSY",
+      "url": "https://www.youtube.com/watch?v=86KseinKoSY",
+      "creator": { "@type": "Person", "name": "Italiano BJJ coach" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Around the legs guard retention",
+      "description": "Butterfly Pass (Defender) film study: Around the legs guard retention, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the butterfly pass requires understanding the passer's sequential pres
 **Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ADwKEjvhX-U)
+
+<p class="clip-credit"><strong>Butterfly guard framing and retention concepts</strong> — taught by ZeGrapplez coach · 1:02 · <a href="https://www.youtube.com/watch?v=ADwKEjvhX-U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=86KseinKoSY)
+
+<p class="clip-credit"><strong>Knee slide pass recovery back to butterfly</strong> — taught by Italiano BJJ coach · 0:37 · <a href="https://www.youtube.com/watch?v=86KseinKoSY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Around the legs guard retention</strong> — taught by Lachlan Giles · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

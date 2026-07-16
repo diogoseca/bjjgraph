@@ -34,6 +34,43 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Trap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Trap Flow: control, invert, take back",
+      "description": "Kimura Trap film study: Kimura Trap Flow: control, invert, take back, taught by Mr. NogiJiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MGotqppgD0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MGotqppgD0w",
+      "url": "https://www.youtube.com/watch?v=MGotqppgD0w",
+      "creator": { "@type": "Person", "name": "Mr. NogiJiujitsu" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura concept",
+      "description": "Kimura Trap film study: Kimura concept, taught by Harry Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wIqmHRtIDjs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wIqmHRtIDjs",
+      "url": "https://www.youtube.com/watch?v=wIqmHRtIDjs",
+      "creator": { "@type": "Person", "name": "Harry Kimura" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +107,34 @@ The Kimura Trap system includes a comprehensive framework of entries, controls, 
 Strategically, the Kimura Trap excels at creating dilemmas where opponents must choose between defending multiple threats simultaneously. From bottom, the practitioner forces the top player to defend sweeps, back takes, and submissions all stemming from the same grip. From top, the practitioner can advance position, finish the Kimura, or transition to other submissions based on defensive reactions. This multi-threat approach embodies modern BJJ's emphasis on systematic attacks that flow seamlessly between techniques rather than relying on single isolated moves.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Trap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MGotqppgD0w)
+
+<p class="clip-credit"><strong>Kimura Trap Flow: control, invert, take back</strong> — taught by Mr. NogiJiujitsu · 0:59 · <a href="https://www.youtube.com/watch?v=MGotqppgD0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wIqmHRtIDjs)
+
+<p class="clip-credit"><strong>Kimura concept</strong> — taught by Harry Kimura · 0:28 · <a href="https://www.youtube.com/watch?v=wIqmHRtIDjs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

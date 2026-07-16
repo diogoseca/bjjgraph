@@ -153,6 +153,43 @@ description: "Defend Invisible Collar position from bottom with grip removal tac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Invisible Collar (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Invisible Collar Choke from Rubber Guard",
+      "description": "Invisible Collar (Bottom) film study: Invisible Collar Choke from Rubber Guard, taught by David Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CHT81JnfD2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CHT81JnfD2Q",
+      "url": "https://www.youtube.com/watch?v=CHT81JnfD2Q",
+      "creator": { "@type": "Person", "name": "David Thomas" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard Double Invisible Collar Choke",
+      "description": "Invisible Collar (Bottom) film study: Rubber Guard Double Invisible Collar Choke, taught by Denny Prokopos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/km9506KvIJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/km9506KvIJg",
+      "url": "https://www.youtube.com/watch?v=km9506KvIJg",
+      "creator": { "@type": "Person", "name": "Denny Prokopos" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The primary defensive challenge lies in the grip's concealed nature—many pract
 Successful escape from invisible collar bottom involves systematic approach to neutralizing the grip, protecting the neck, and recovering to safer positions. This requires coordinating hand fighting with hip movement, maintaining defensive posture to limit choking angles, and exploiting moments when the attacker commits to finishing attempts. The defender must also understand the submission chain logic the attacker employs, recognizing that purely defensive reactions often lead to alternative submissions rather than genuine escape opportunities.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Invisible Collar (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CHT81JnfD2Q)
+
+<p class="clip-credit"><strong>Invisible Collar Choke from Rubber Guard</strong> — taught by David Thomas · 0:57 · <a href="https://www.youtube.com/watch?v=CHT81JnfD2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=km9506KvIJg)
+
+<p class="clip-credit"><strong>Rubber Guard Double Invisible Collar Choke</strong> — taught by Denny Prokopos · 0:41 · <a href="https://www.youtube.com/watch?v=km9506KvIJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

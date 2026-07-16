@@ -148,6 +148,54 @@ description: "How to defend against Crackhead Control to Mission Control in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crackhead Control to Mission Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple rubber guard escape",
+      "description": "Crackhead Control to Mission Control (Defender) film study: Simple rubber guard escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Over/under control against rubber guard",
+      "description": "Crackhead Control to Mission Control (Defender) film study: Over/under control against rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fp5Nh_9jE4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fp5Nh_9jE4",
+      "url": "https://www.youtube.com/watch?v=5fp5Nh_9jE4",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard passing to mount walkthrough",
+      "description": "Crackhead Control to Mission Control (Defender) film study: Rubber guard passing to mount walkthrough, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c2BJaM0gd6g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c2BJaM0gd6g",
+      "url": "https://www.youtube.com/watch?v=c2BJaM0gd6g",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT344S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense requires understanding the mechanical sequence the bottom pla
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crackhead Control to Mission Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Simple rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fp5Nh_9jE4)
+
+<p class="clip-credit"><strong>Over/under control against rubber guard</strong> — taught by Eddie Bravo · 3:36 · <a href="https://www.youtube.com/watch?v=5fp5Nh_9jE4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c2BJaM0gd6g)
+
+<p class="clip-credit"><strong>Rubber guard passing to mount walkthrough</strong> — taught by Eddie Bravo · 5:44 · <a href="https://www.youtube.com/watch?v=c2BJaM0gd6g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

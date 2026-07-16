@@ -34,6 +34,54 @@ description: "Master the X-Guard to Single Leg X transition in BJJ. Learn leg re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard to Single Leg X \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X, X-Guard and Reverse X options",
+      "description": "X-Guard to Single Leg X film study: Single Leg X, X-Guard and Reverse X options, taught by Steven Kaloustian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia single leg X guard sweep",
+      "description": "X-Guard to Single Leg X film study: Marcelo Garcia single leg X guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
+      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single Leg X transition to X-Guard sweep",
+      "description": "X-Guard to Single Leg X film study: Single Leg X transition to X-Guard sweep, taught by BJJ4Breakfast coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aoyScppYR1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aoyScppYR1E",
+      "url": "https://www.youtube.com/watch?v=aoyScppYR1E",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The mechanical key to success is maintaining continuous control of the opponent'
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard to Single Leg X in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Single Leg X, X-Guard and Reverse X options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AhsXraebbdg)
+
+<p class="clip-credit"><strong>Marcelo Garcia single leg X guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aoyScppYR1E)
+
+<p class="clip-credit"><strong>Single Leg X transition to X-Guard sweep</strong> — taught by BJJ4Breakfast coach · 2:40 · <a href="https://www.youtube.com/watch?v=aoyScppYR1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

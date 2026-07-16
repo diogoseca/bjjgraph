@@ -180,6 +180,54 @@ description: "How to execute Triangle from Mount in BJJ. Attacking perspective w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mounted Triangle Extra Details",
+      "description": "Triangle from Mount (Attacker) film study: Mounted Triangle Extra Details, taught by FightClubJiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_tzcSlkSRKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_tzcSlkSRKY",
+      "url": "https://www.youtube.com/watch?v=_tzcSlkSRKY",
+      "creator": { "@type": "Person", "name": "FightClubJiuJitsu" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mounted Triangle Demonstration",
+      "description": "Triangle from Mount (Attacker) film study: Mounted Triangle Demonstration, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vLUua_voKzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vLUua_voKzc",
+      "url": "https://www.youtube.com/watch?v=vLUua_voKzc",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Finishing the Mounted Triangle",
+      "description": "Triangle from Mount (Attacker) film study: Finishing the Mounted Triangle, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1hjapzU7lQg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1hjapzU7lQg",
+      "url": "https://www.youtube.com/watch?v=1hjapzU7lQg",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -193,6 +241,42 @@ At competition level, the mounted triangle is devastating because it combines po
 **From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_tzcSlkSRKY)
+
+<p class="clip-credit"><strong>Mounted Triangle Extra Details</strong> — taught by FightClubJiuJitsu · 0:57 · <a href="https://www.youtube.com/watch?v=_tzcSlkSRKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vLUua_voKzc)
+
+<p class="clip-credit"><strong>Mounted Triangle Demonstration</strong> — taught by Satori BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1hjapzU7lQg)
+
+<p class="clip-credit"><strong>Finishing the Mounted Triangle</strong> — taught by Brandon Mccaghren · 2:57 · <a href="https://www.youtube.com/watch?v=1hjapzU7lQg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Mission Control in BJJ: the dominant rubber guard control p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mission Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Eddie Bravo Explains Rubber Guard",
+      "description": "Mission Control film study: Eddie Bravo Explains Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
+      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard: Mission Control position breakdown",
+      "description": "Mission Control film study: Rubber Guard: Mission Control position breakdown, taught by JitsHappens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hc5zImDLQ7k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hc5zImDLQ7k",
+      "url": "https://www.youtube.com/watch?v=hc5zImDLQ7k",
+      "creator": { "@type": "Person", "name": "JitsHappens" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mastering the Rubber Guard concepts and entries",
+      "description": "Mission Control film study: Mastering the Rubber Guard concepts and entries, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
+      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT521S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ The energy dynamics of Mission Control favor the bottom practitioner significant
 Mission Control serves as the central hub of the rubber guard system, connecting to numerous offensive variations and submission paths. Advanced practitioners use Mission Control as a platform to flow between New York, Carni, Invisible Collar, and other rubber guard controls, creating submission chains that force opponents into defensive dilemmas. The position's effectiveness has been proven extensively in competition, particularly in no-gi grappling where the absence of gi grips makes traditional closed guard attacks more challenging. Understanding Mission Control is essential for any practitioner looking to develop a comprehensive bottom game that emphasizes submission hunting over positional advancement.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mission Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
+
+<p class="clip-credit"><strong>Eddie Bravo Explains Rubber Guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hc5zImDLQ7k)
+
+<p class="clip-credit"><strong>Rubber Guard: Mission Control position breakdown</strong> — taught by JitsHappens · 0:47 · <a href="https://www.youtube.com/watch?v=hc5zImDLQ7k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
+
+<p class="clip-credit"><strong>Mastering the Rubber Guard concepts and entries</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

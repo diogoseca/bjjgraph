@@ -34,6 +34,54 @@ description: "Master the Butterfly Guard Pull in BJJ. Step-by-step guide to grip
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard Pull \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia arm drag takedown entry",
+      "description": "Butterfly Guard Pull film study: Marcelo Garcia arm drag takedown entry, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kp3ABmsn1I0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kp3ABmsn1I0",
+      "url": "https://www.youtube.com/watch?v=Kp3ABmsn1I0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia butterfly guard sweep demo",
+      "description": "Butterfly Guard Pull film study: Marcelo Garcia butterfly guard sweep demo, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
+      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Belt grab guard pull",
+      "description": "Butterfly Guard Pull film study: Belt grab guard pull, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L8JpDuYczgk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L8JpDuYczgk",
+      "url": "https://www.youtube.com/watch?v=L8JpDuYczgk",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the butterfly guard pull is especially effective against aggressi
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard Pull in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kp3ABmsn1I0)
+
+<p class="clip-credit"><strong>Marcelo Garcia arm drag takedown entry</strong> — taught by Marcelo Garcia · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+
+<p class="clip-credit"><strong>Marcelo Garcia butterfly guard sweep demo</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L8JpDuYczgk)
+
+<p class="clip-credit"><strong>Belt grab guard pull</strong> — taught by Mick Hall · 1:38 · <a href="https://www.youtube.com/watch?v=L8JpDuYczgk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

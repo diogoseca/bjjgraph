@@ -34,6 +34,43 @@ description: "Master the toe hold from Outside Ashi-Garami in BJJ. Complete guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Outside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Slide into Ashi to Straight Toe Hold",
+      "description": "Toe Hold from Outside Ashi film study: Slide into Ashi to Straight Toe Hold, taught by Josh Star-Lord Leduc.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tUKGafnOlJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tUKGafnOlJo",
+      "url": "https://www.youtube.com/watch?v=tUKGafnOlJo",
+      "creator": { "@type": "Person", "name": "Josh Star-Lord Leduc" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking the Toe Hold from Outside Ashi",
+      "description": "Toe Hold from Outside Ashi film study: Attacking the Toe Hold from Outside Ashi, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zsnGef5-N2g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zsnGef5-N2g",
+      "url": "https://www.youtube.com/watch?v=zsnGef5-N2g",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT202S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 **Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Outside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tUKGafnOlJo)
+
+<p class="clip-credit"><strong>Slide into Ashi to Straight Toe Hold</strong> — taught by Josh Star-Lord Leduc · 0:58 · <a href="https://www.youtube.com/watch?v=tUKGafnOlJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zsnGef5-N2g)
+
+<p class="clip-credit"><strong>Attacking the Toe Hold from Outside Ashi</strong> — taught by Brian Glick · 3:22 · <a href="https://www.youtube.com/watch?v=zsnGef5-N2g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

@@ -153,6 +153,54 @@ description: "Master offensive strategies for standing back control top position
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Back Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Back Control",
+      "description": "Standing Back Control (Top) film study: Standing Back Control, taught by JFLOJUDO.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K2Q1qg-cjTc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K2Q1qg-cjTc",
+      "url": "https://www.youtube.com/watch?v=K2Q1qg-cjTc",
+      "creator": { "@type": "Person", "name": "JFLOJUDO" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hip Switch to Back Take",
+      "description": "Standing Back Control (Top) film study: Hip Switch to Back Take, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
+      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mat Return from Standing Back Control",
+      "description": "Standing Back Control (Top) film study: Mat Return from Standing Back Control, taught by William Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HWrsepCcaUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HWrsepCcaUk",
+      "url": "https://www.youtube.com/watch?v=HWrsepCcaUk",
+      "creator": { "@type": "Person", "name": "William Abreu" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From a strategic perspective, Standing Back Control Top presents you with multip
 Success from Standing Back Control Top requires understanding several key mechanical principles. First, establishing and maintaining the harness or seat belt grip is paramount - without secure upper body control, the position collapses rapidly. Second, you must decide when to pursue submissions versus when to take the opponent down, a decision based on their defensive reactions, your skill level, and the match context. Third, you need to manage hooks and body positioning to prevent your opponent from turning into you or establishing defensive frames. Advanced practitioners excel at using this position dynamically, flowing between submission attempts, takedowns, and transitions to other dominant positions based on opponent reactions, while beginners often struggle with the instability and allow opponents to escape through hesitation or poor grip management.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Back Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K2Q1qg-cjTc)
+
+<p class="clip-credit"><strong>Standing Back Control</strong> — taught by JFLOJUDO · 0:58 · <a href="https://www.youtube.com/watch?v=K2Q1qg-cjTc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
+
+<p class="clip-credit"><strong>Hip Switch to Back Take</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HWrsepCcaUk)
+
+<p class="clip-credit"><strong>Mat Return from Standing Back Control</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

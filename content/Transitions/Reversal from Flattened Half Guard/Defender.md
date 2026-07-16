@@ -140,6 +140,43 @@ description: "Learn to defend and prevent the reversal from flattened half guard
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reversal from Flattened Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping the flat half and passing it",
+      "description": "Reversal from Flattened Half Guard (Defender) film study: Keeping the flat half and passing it, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
+      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Staying on top of half guard",
+      "description": "Reversal from Flattened Half Guard (Defender) film study: Staying on top of half guard, taught by Trapp Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WMcD-_R-To0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WMcD-_R-To0",
+      "url": "https://www.youtube.com/watch?v=WMcD-_R-To0",
+      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against this reversal, you are the top player in flattened half 
 **Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reversal from Flattened Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+
+<p class="clip-credit"><strong>Keeping the flat half and passing it</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WMcD-_R-To0)
+
+<p class="clip-credit"><strong>Staying on top of half guard</strong> — taught by Trapp Martial Arts · 0:35 · <a href="https://www.youtube.com/watch?v=WMcD-_R-To0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

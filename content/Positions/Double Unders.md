@@ -34,6 +34,43 @@ description: "Master Double Unders position in BJJ. Strategic guide covering whe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Unders \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double unders pass concept and mechanics",
+      "description": "Double Unders film study: Double unders pass concept and mechanics, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
+      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi double under guard pass walkthrough",
+      "description": "Double Unders film study: No-gi double under guard pass walkthrough, taught by Garden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
+      "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
+      "creator": { "@type": "Person", "name": "Garden State BJJ" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position exists as a transitional state in the guard passing hierarchy, typi
 Understanding double unders from both perspectives is essential for developing complete guard passing and retention skills. Top players must learn to maintain the position under resistance, read defensive reactions, and choose optimal passing pathways. Bottom players must develop immediate escape reflexes, frame creation skills, and strategic acceptance of position when necessary. The position typically resolves within 15-45 seconds as the bottom player either escapes to a better guard position or accepts the pass to a more stable defensive position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Unders in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4PxPPv98k4)
+
+<p class="clip-credit"><strong>Double unders pass concept and mechanics</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBZrTpuXV50)
+
+<p class="clip-credit"><strong>No-gi double under guard pass walkthrough</strong> — taught by Garden State BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

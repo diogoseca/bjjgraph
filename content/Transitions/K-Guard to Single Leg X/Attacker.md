@@ -180,6 +180,43 @@ description: "Master the K-Guard to Single Leg X transition as the attacking gua
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard to Single Leg X (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K guard attacks including single leg X entry",
+      "description": "K-Guard to Single Leg X (Attacker) film study: K guard attacks including single leg X entry, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ELOhLjq6fUs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ELOhLjq6fUs",
+      "url": "https://www.youtube.com/watch?v=ELOhLjq6fUs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Entering single leg X from shin to shin",
+      "description": "K-Guard to Single Leg X (Attacker) film study: Entering single leg X from shin to shin, taught by TurboNinjaKilla.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BWuZVvfHrNw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BWuZVvfHrNw",
+      "url": "https://www.youtube.com/watch?v=BWuZVvfHrNw",
+      "creator": { "@type": "Person", "name": "TurboNinjaKilla" },
+      "duration": "PT133S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the K-Guard bottom player transitioning to Single Leg X, your primary objecti
 **From Position**: [[Positions/K-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard to Single Leg X (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ELOhLjq6fUs)
+
+<p class="clip-credit"><strong>K guard attacks including single leg X entry</strong> — taught by Lachlan Giles · 1:21 · <a href="https://www.youtube.com/watch?v=ELOhLjq6fUs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BWuZVvfHrNw)
+
+<p class="clip-credit"><strong>Entering single leg X from shin to shin</strong> — taught by TurboNinjaKilla · 2:13 · <a href="https://www.youtube.com/watch?v=BWuZVvfHrNw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

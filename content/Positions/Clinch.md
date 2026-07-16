@@ -34,6 +34,54 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clinch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "5 basic judo throws everyone should know",
+      "description": "Clinch film study: 5 basic judo throws everyone should know, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KFhiz7dcEkM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KFhiz7dcEkM",
+      "url": "https://www.youtube.com/watch?v=KFhiz7dcEkM",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "First 3 judo throws to learn for BJJ",
+      "description": "Clinch film study: First 3 judo throws to learn for BJJ, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FWocYMtjDgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FWocYMtjDgI",
+      "url": "https://www.youtube.com/watch?v=FWocYMtjDgI",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3 massive no-gi judo throws",
+      "description": "Clinch film study: 3 massive no-gi judo throws, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BRuZgVW3SGQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BRuZgVW3SGQ",
+      "url": "https://www.youtube.com/watch?v=BRuZgVW3SGQ",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -64,6 +112,42 @@ The Clinch Position represents a fundamental standing control scenario where pra
 In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown setups into a sophisticated control system that dictates the terms of engagement. Elite practitioners use the clinch to funnel opponents toward preferred positions, whether that's establishing dominant grips for takedowns or creating advantageous scenarios for guard pulls. The position demands constant grip awareness, precise weight distribution, and the ability to read and counter your opponent's intentions in real-time. Understanding clinch mechanics is essential for any complete BJJ game, as it bridges the gap between standing and ground engagement while offering numerous pathways to establish positional control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clinch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KFhiz7dcEkM)
+
+<p class="clip-credit"><strong>5 basic judo throws everyone should know</strong> — taught by Shintaro Higashi · 2:40 · <a href="https://www.youtube.com/watch?v=KFhiz7dcEkM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FWocYMtjDgI)
+
+<p class="clip-credit"><strong>First 3 judo throws to learn for BJJ</strong> — taught by Shintaro Higashi · 3:36 · <a href="https://www.youtube.com/watch?v=FWocYMtjDgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BRuZgVW3SGQ)
+
+<p class="clip-credit"><strong>3 massive no-gi judo throws</strong> — taught by Shintaro Higashi · 2:15 · <a href="https://www.youtube.com/watch?v=BRuZgVW3SGQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

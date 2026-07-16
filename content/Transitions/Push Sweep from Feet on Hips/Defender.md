@@ -140,6 +140,43 @@ description: "Defend against the push sweep from feet on hips guard in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Push Sweep from Feet on Hips (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Best Way to Pass Any Guard: Beating Feet on Hips",
+      "description": "Push Sweep from Feet on Hips (Defender) film study: Best Way to Pass Any Guard: Beating Feet on Hips, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GbWF9YVFTNw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GbWF9YVFTNw",
+      "url": "https://www.youtube.com/watch?v=GbWF9YVFTNw",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT464S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pressure Passing Concepts vs Open Guard Frames",
+      "description": "Push Sweep from Feet on Hips (Defender) film study: Pressure Passing Concepts vs Open Guard Frames, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k812PHP8VlI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k812PHP8VlI",
+      "url": "https://www.youtube.com/watch?v=k812PHP8VlI",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT481S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the push sweep from feet on hips guard requires the top player to mana
 **Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Push Sweep from Feet on Hips (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GbWF9YVFTNw)
+
+<p class="clip-credit"><strong>Best Way to Pass Any Guard: Beating Feet on Hips</strong> — taught by Andre Galvao · 7:44 · <a href="https://www.youtube.com/watch?v=GbWF9YVFTNw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k812PHP8VlI)
+
+<p class="clip-credit"><strong>Pressure Passing Concepts vs Open Guard Frames</strong> — taught by Andre Galvao · 8:01 · <a href="https://www.youtube.com/watch?v=k812PHP8VlI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

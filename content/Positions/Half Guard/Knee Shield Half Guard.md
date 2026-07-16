@@ -34,6 +34,43 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield to scissor/push sweep",
+      "description": "Knee Shield Half Guard film study: Knee shield to scissor/push sweep, taught by Strong Hold Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CLBRo3Jef54/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CLBRo3Jef54",
+      "url": "https://www.youtube.com/watch?v=CLBRo3Jef54",
+      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bottom half guard attacks basics",
+      "description": "Knee Shield Half Guard film study: Bottom half guard attacks basics, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZqsGp9fWi3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZqsGp9fWi3Y",
+      "url": "https://www.youtube.com/watch?v=ZqsGp9fWi3Y",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the top perspective, passing the knee shield presents a strategic challenge
 The knee shield half guard has become essential in modern competitive BJJ, with world-class practitioners demonstrating its effectiveness at the highest levels. Understanding both perspectives of this position is critical for developing a complete guard game and passing system.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CLBRo3Jef54)
+
+<p class="clip-credit"><strong>Knee shield to scissor/push sweep</strong> — taught by Strong Hold Jiu Jitsu · 0:52 · <a href="https://www.youtube.com/watch?v=CLBRo3Jef54" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZqsGp9fWi3Y)
+
+<p class="clip-credit"><strong>Bottom half guard attacks basics</strong> — taught by Cobrinha · 3:25 · <a href="https://www.youtube.com/watch?v=ZqsGp9fWi3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

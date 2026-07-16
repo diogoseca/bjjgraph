@@ -148,6 +148,54 @@ description: "How to defend the Harness to Body Lock transition in BJJ. Grip fig
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harness to Body Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body Lock Defense",
+      "description": "Harness to Body Lock (Defender) film study: Body Lock Defense, taught by Peerless Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Di-fJ06DSq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Di-fJ06DSq8",
+      "url": "https://www.youtube.com/watch?v=Di-fJ06DSq8",
+      "creator": { "@type": "Person", "name": "Peerless Jiu Jitsu Academy" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking the Body Lock into a Kimura",
+      "description": "Harness to Body Lock (Defender) film study: Breaking the Body Lock into a Kimura, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fxpu62evbwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fxpu62evbwk",
+      "url": "https://www.youtube.com/watch?v=Fxpu62evbwk",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body Lock Counter and Submission",
+      "description": "Harness to Body Lock (Defender) film study: Body Lock Counter and Submission, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZGgfRpUJvHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZGgfRpUJvHU",
+      "url": "https://www.youtube.com/watch?v=ZGgfRpUJvHU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Transition to Body Lock requires recognizing the moment your oppon
 **Opponent's Starting Position**: [[Positions/Harness]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harness to Body Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Di-fJ06DSq8)
+
+<p class="clip-credit"><strong>Body Lock Defense</strong> — taught by Peerless Jiu Jitsu Academy · 1:19 · <a href="https://www.youtube.com/watch?v=Di-fJ06DSq8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fxpu62evbwk)
+
+<p class="clip-credit"><strong>Breaking the Body Lock into a Kimura</strong> — taught by SBG Australia · 0:44 · <a href="https://www.youtube.com/watch?v=Fxpu62evbwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZGgfRpUJvHU)
+
+<p class="clip-credit"><strong>Body Lock Counter and Submission</strong> — taught by Craig Jones · 1:54 · <a href="https://www.youtube.com/watch?v=ZGgfRpUJvHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

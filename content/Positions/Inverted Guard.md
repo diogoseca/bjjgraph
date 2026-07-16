@@ -34,6 +34,54 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jiu Jitsu Inversion Mechanics",
+      "description": "Inverted Guard film study: Jiu Jitsu Inversion Mechanics, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KNz5AkZ4jrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KNz5AkZ4jrg",
+      "url": "https://www.youtube.com/watch?v=KNz5AkZ4jrg",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic inversion guard maintenance drill",
+      "description": "Inverted Guard film study: Basic inversion guard maintenance drill, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ez4LvZ2PtRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ez4LvZ2PtRk",
+      "url": "https://www.youtube.com/watch?v=Ez4LvZ2PtRk",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing Alternative to Circle Hand",
+      "description": "Inverted Guard film study: Standing Alternative to Circle Hand, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SCfmkmD4PYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SCfmkmD4PYA",
+      "url": "https://www.youtube.com/watch?v=SCfmkmD4PYA",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rotation: by turning beneath the passer, the practitioner trades a brief moment of vulnerability for direct access to the back and to leg entanglements. This position creates unique angles for controlling the opponent's movement and setting up sweeps, leg entanglements, and back takes. While physically demanding and technically complex, Inverted Guard offers exceptional defensive capabilities through its mobility and creates offensive opportunities that are difficult to counter using traditional passing approaches. This position has become increasingly prominent in modern BJJ competition, particularly in the context of berimbolo sequences and leg entanglement entries. The inverted position is typically transitional rather than static, serving as a critical link between guard retention sequences and more dominant attacking positions. The position's strategic value lies in creating unconventional angles that disrupt traditional passing mechanics while simultaneously establishing pathways to back control and leg attacks. Inverted guard requires significant hip and spine flexibility combined with spatial awareness while upside-down. The position emerged prominently in the early 2000s through competition innovations by the Mendes brothers and has since evolved into a comprehensive system with multiple entry methods and transition pathways. Modern practitioners integrate inversion throughout their guard retention systems, using it defensively against pressure passing while maintaining offensive threats. The position's effectiveness stems from forcing opponents to navigate unfamiliar angles and grips while the inverted practitioner maintains superior mobility and transition options.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KNz5AkZ4jrg)
+
+<p class="clip-credit"><strong>Jiu Jitsu Inversion Mechanics</strong> — taught by Mikey Musumeci · 1:12 · <a href="https://www.youtube.com/watch?v=KNz5AkZ4jrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ez4LvZ2PtRk)
+
+<p class="clip-credit"><strong>Basic inversion guard maintenance drill</strong> — taught by Revolution BJJ · 0:17 · <a href="https://www.youtube.com/watch?v=Ez4LvZ2PtRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SCfmkmD4PYA)
+
+<p class="clip-credit"><strong>Standing Alternative to Circle Hand</strong> — taught by Mikey Musumeci · 1:59 · <a href="https://www.youtube.com/watch?v=SCfmkmD4PYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

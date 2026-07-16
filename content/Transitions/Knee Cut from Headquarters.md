@@ -34,6 +34,54 @@ description: "Master the Knee Cut from Headquarters in BJJ. A high-percentage gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Cut from Headquarters \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield pass from headquarters, no-gi",
+      "description": "Knee Cut from Headquarters film study: Knee shield pass from headquarters, no-gi, taught by Jiu Jitsu Curriculum.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k4pZYVOwmbI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k4pZYVOwmbI",
+      "url": "https://www.youtube.com/watch?v=k4pZYVOwmbI",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Curriculum" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Smash into knee cut pass in competition",
+      "description": "Knee Cut from Headquarters film study: Smash into knee cut pass in competition, taught by Ross Nicholls.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3r093piKEr4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3r093piKEr4",
+      "url": "https://www.youtube.com/watch?v=3r093piKEr4",
+      "creator": { "@type": "Person", "name": "Ross Nicholls" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee side smash passes in 90 seconds",
+      "description": "Knee Cut from Headquarters film study: Knee side smash passes in 90 seconds, taught by The ROL Radio Podcast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1FG1o31-mMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1FG1o31-mMc",
+      "url": "https://www.youtube.com/watch?v=1FG1o31-mMc",
+      "creator": { "@type": "Person", "name": "The ROL Radio Podcast" },
+      "duration": "PT91S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technique's effectiveness at all levels stems from its direct biomechanical 
 **Success Rate**: 54%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Cut from Headquarters in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k4pZYVOwmbI)
+
+<p class="clip-credit"><strong>Knee shield pass from headquarters, no-gi</strong> — taught by Jiu Jitsu Curriculum · 1:57 · <a href="https://www.youtube.com/watch?v=k4pZYVOwmbI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3r093piKEr4)
+
+<p class="clip-credit"><strong>Smash into knee cut pass in competition</strong> — taught by Ross Nicholls · 1:56 · <a href="https://www.youtube.com/watch?v=3r093piKEr4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1FG1o31-mMc)
+
+<p class="clip-credit"><strong>Knee side smash passes in 90 seconds</strong> — taught by The ROL Radio Podcast · 1:31 · <a href="https://www.youtube.com/watch?v=1FG1o31-mMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

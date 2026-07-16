@@ -34,6 +34,43 @@ description: "Learn the Estima Lock from Saddle position with expert finishing m
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock from Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima Lock",
+      "description": "Estima Lock from Saddle film study: Estima Lock, taught by Blacklist MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kZL3SjFwZNw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kZL3SjFwZNw",
+      "url": "https://www.youtube.com/watch?v=kZL3SjFwZNw",
+      "creator": { "@type": "Person", "name": "Blacklist MMA" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 Estima Lock",
+      "description": "Estima Lock from Saddle film study: 50/50 Estima Lock, taught by Coach Ninos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I-Jb4qHOFZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I-Jb4qHOFZA",
+      "url": "https://www.youtube.com/watch?v=I-Jb4qHOFZA",
+      "creator": { "@type": "Person", "name": "Coach Ninos" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 **Starting Position**: [[Positions/Ashi Garami/Saddle]] · **From**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock from Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kZL3SjFwZNw)
+
+<p class="clip-credit"><strong>Estima Lock</strong> — taught by Blacklist MMA · 0:38 · <a href="https://www.youtube.com/watch?v=kZL3SjFwZNw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I-Jb4qHOFZA)
+
+<p class="clip-credit"><strong>50/50 Estima Lock</strong> — taught by Coach Ninos · 1:26 · <a href="https://www.youtube.com/watch?v=I-Jb4qHOFZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

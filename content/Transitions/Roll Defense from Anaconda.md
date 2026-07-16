@@ -34,6 +34,43 @@ description: "Master the Roll Defense from Anaconda in BJJ. Counter the anaconda
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Defense from Anaconda \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fixing Your Anaconda Choke Mechanics",
+      "description": "Roll Defense from Anaconda film study: Fixing Your Anaconda Choke Mechanics, taught by Lycan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1e2GPOUYR-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1e2GPOUYR-o",
+      "url": "https://www.youtube.com/watch?v=1e2GPOUYR-o",
+      "creator": { "@type": "Person", "name": "Lycan" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gator Roll to Anaconda Choke Turnover",
+      "description": "Roll Defense from Anaconda film study: Gator Roll to Anaconda Choke Turnover, taught by RoninFit Judo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GtMO5BkjpgA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GtMO5BkjpgA",
+      "url": "https://www.youtube.com/watch?v=GtMO5BkjpgA",
+      "creator": { "@type": "Person", "name": "RoninFit Judo" },
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategic awareness is essential because this defense exists within a narrow tim
 **Success Rate**: 33%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Defense from Anaconda in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1e2GPOUYR-o)
+
+<p class="clip-credit"><strong>Fixing Your Anaconda Choke Mechanics</strong> — taught by Lycan · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GtMO5BkjpgA)
+
+<p class="clip-credit"><strong>Gator Roll to Anaconda Choke Turnover</strong> — taught by RoninFit Judo · 2:40 · <a href="https://www.youtube.com/watch?v=GtMO5BkjpgA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

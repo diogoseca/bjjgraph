@@ -148,6 +148,54 @@ description: "How to maintain invisible collar grip against hand fighting defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fighting to Remove Collar Grip (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the cross collar choke without pulling in",
+      "description": "Hand Fighting to Remove Collar Grip (Defender) film study: Finishing the cross collar choke without pulling in, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TDBe1SHzHKo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TDBe1SHzHKo",
+      "url": "https://www.youtube.com/watch?v=TDBe1SHzHKo",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Collar choke from back control",
+      "description": "Hand Fighting to Remove Collar Grip (Defender) film study: Collar choke from back control, taught by Team Daruma Dojo coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZHjfYIXgNpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZHjfYIXgNpg",
+      "url": "https://www.youtube.com/watch?v=ZHjfYIXgNpg",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo coach" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The detail that makes the cross collar choke work",
+      "description": "Hand Fighting to Remove Collar Grip (Defender) film study: The detail that makes the cross collar choke work, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X93MdMlmrUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X93MdMlmrUg",
+      "url": "https://www.youtube.com/watch?v=X93MdMlmrUg",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Your grip retention strategy should combine active resistance to the strip with 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fighting to Remove Collar Grip (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TDBe1SHzHKo)
+
+<p class="clip-credit"><strong>Finishing the cross collar choke without pulling in</strong> — taught by Henry Akins · 0:51 · <a href="https://www.youtube.com/watch?v=TDBe1SHzHKo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZHjfYIXgNpg)
+
+<p class="clip-credit"><strong>Collar choke from back control</strong> — taught by Team Daruma Dojo coach · 0:45 · <a href="https://www.youtube.com/watch?v=ZHjfYIXgNpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X93MdMlmrUg)
+
+<p class="clip-credit"><strong>The detail that makes the cross collar choke work</strong> — taught by Henry Akins · 1:17 · <a href="https://www.youtube.com/watch?v=X93MdMlmrUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

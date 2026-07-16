@@ -34,6 +34,54 @@ description: "Master the turtle turn escape from side control bottom in BJJ. Com
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle from Side Control Bottom \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control escape to turtle transition",
+      "description": "Turtle from Side Control Bottom film study: Side control escape to turtle transition, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/psMJiX4ZIWw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/psMJiX4ZIWw",
+      "url": "https://www.youtube.com/watch?v=psMJiX4ZIWw",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control escape by turning away to turtle",
+      "description": "Turtle from Side Control Bottom film study: Side control escape by turning away to turtle, taught by Honu BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FUtwSNi-3MM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FUtwSNi-3MM",
+      "url": "https://www.youtube.com/watch?v=FUtwSNi-3MM",
+      "creator": { "@type": "Person", "name": "Honu BJJ" },
+      "duration": "PT471S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sitting turtle to running man",
+      "description": "Turtle from Side Control Bottom film study: Sitting turtle to running man, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zgvlMKLWxAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zgvlMKLWxAI",
+      "url": "https://www.youtube.com/watch?v=zgvlMKLWxAI",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT224S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition occupies a key strategic role in the escape hierarchy. When trad
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle from Side Control Bottom in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=psMJiX4ZIWw)
+
+<p class="clip-credit"><strong>Side control escape to turtle transition</strong> — taught by Kameron Ross · 2:20 · <a href="https://www.youtube.com/watch?v=psMJiX4ZIWw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FUtwSNi-3MM)
+
+<p class="clip-credit"><strong>Side control escape by turning away to turtle</strong> — taught by Honu BJJ · 7:51 · <a href="https://www.youtube.com/watch?v=FUtwSNi-3MM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zgvlMKLWxAI)
+
+<p class="clip-credit"><strong>Sitting turtle to running man</strong> — taught by Priit Mihkelson · 3:44 · <a href="https://www.youtube.com/watch?v=zgvlMKLWxAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

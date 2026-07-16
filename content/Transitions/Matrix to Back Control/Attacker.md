@@ -174,6 +174,54 @@ description: "Execute the Matrix to Back Control counter from top position. Step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Matrix to Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva wrist control to matrix back take",
+      "description": "Matrix to Back Control (Attacker) film study: De La Riva wrist control to matrix back take, taught by Marcos Luciana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DvD3VVl1kDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DvD3VVl1kDk",
+      "url": "https://www.youtube.com/watch?v=DvD3VVl1kDk",
+      "creator": { "@type": "Person", "name": "Marcos Luciana" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The no-gi matrix back take",
+      "description": "Matrix to Back Control (Attacker) film study: The no-gi matrix back take, taught by Eivind Langaker.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BWDsJPV7iPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BWDsJPV7iPA",
+      "url": "https://www.youtube.com/watch?v=BWDsJPV7iPA",
+      "creator": { "@type": "Person", "name": "Eivind Langaker" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Setting up and finishing the matrix back take",
+      "description": "Matrix to Back Control (Attacker) film study: Setting up and finishing the matrix back take, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H0SUb0Eo168/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H0SUb0Eo168",
+      "url": "https://www.youtube.com/watch?v=H0SUb0Eo168",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing this counter, you are the top player who recognizes th
 **From Position**: [[Positions/Matrix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Matrix to Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DvD3VVl1kDk)
+
+<p class="clip-credit"><strong>De La Riva wrist control to matrix back take</strong> — taught by Marcos Luciana · 0:59 · <a href="https://www.youtube.com/watch?v=DvD3VVl1kDk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BWDsJPV7iPA)
+
+<p class="clip-credit"><strong>The no-gi matrix back take</strong> — taught by Eivind Langaker · 1:36 · <a href="https://www.youtube.com/watch?v=BWDsJPV7iPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H0SUb0Eo168)
+
+<p class="clip-credit"><strong>Setting up and finishing the matrix back take</strong> — taught by Jon Thomas · 2:12 · <a href="https://www.youtube.com/watch?v=H0SUb0Eo168" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

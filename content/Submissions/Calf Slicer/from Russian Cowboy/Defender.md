@@ -142,6 +142,43 @@ description: "Defend against the calf slicer from Russian Cowboy in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Russian Cowboy (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel Hook Roll Out Counter to Calf Slicer",
+      "description": "Calf Slicer from Russian Cowboy (Defender) film study: Heel Hook Roll Out Counter to Calf Slicer, taught by Charlie Cosens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KOz3WqQJ3Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KOz3WqQJ3Tk",
+      "url": "https://www.youtube.com/watch?v=KOz3WqQJ3Tk",
+      "creator": { "@type": "Person", "name": "Charlie Cosens" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ankle Lock Counter to Calf Cutter",
+      "description": "Calf Slicer from Russian Cowboy (Defender) film study: Ankle Lock Counter to Calf Cutter, taught by Pathfinder Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VFM9JGQrLYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VFM9JGQrLYk",
+      "url": "https://www.youtube.com/watch?v=VFM9JGQrLYk",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ The critical defensive window is narrow — once the attacker has their shin ful
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Russian Cowboy (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KOz3WqQJ3Tk)
+
+<p class="clip-credit"><strong>Heel Hook Roll Out Counter to Calf Slicer</strong> — taught by Charlie Cosens · 0:55 · <a href="https://www.youtube.com/watch?v=KOz3WqQJ3Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VFM9JGQrLYk)
+
+<p class="clip-credit"><strong>Ankle Lock Counter to Calf Cutter</strong> — taught by Pathfinder Jiu-Jitsu · 1:37 · <a href="https://www.youtube.com/watch?v=VFM9JGQrLYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

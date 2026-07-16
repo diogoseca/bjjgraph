@@ -34,6 +34,43 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock to Guillotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Snapdown to Guillotine",
+      "description": "Front Headlock to Guillotine film study: Snapdown to Guillotine, taught by Alec Hooben.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V8mEHRoiX1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V8mEHRoiX1U",
+      "url": "https://www.youtube.com/watch?v=V8mEHRoiX1U",
+      "creator": { "@type": "Person", "name": "Alec Hooben" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine from the Front Headlock",
+      "description": "Front Headlock to Guillotine film study: Guillotine from the Front Headlock, taught by Chris Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GgXRLKAm9pY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GgXRLKAm9pY",
+      "url": "https://www.youtube.com/watch?v=GgXRLKAm9pY",
+      "creator": { "@type": "Person", "name": "Chris Jones" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 **Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock to Guillotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V8mEHRoiX1U)
+
+<p class="clip-credit"><strong>Snapdown to Guillotine</strong> — taught by Alec Hooben · 1:08 · <a href="https://www.youtube.com/watch?v=V8mEHRoiX1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GgXRLKAm9pY)
+
+<p class="clip-credit"><strong>Guillotine from the Front Headlock</strong> — taught by Chris Jones · 1:37 · <a href="https://www.youtube.com/watch?v=GgXRLKAm9pY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

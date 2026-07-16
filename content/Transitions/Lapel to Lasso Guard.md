@@ -34,6 +34,43 @@ description: "Master the Lapel to Lasso Transition in BJJ. Convert lapel guard t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel to Lasso Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic entry into lasso from closed guard",
+      "description": "Lapel to Lasso Guard film study: Basic entry into lasso from closed guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ExK0QCCpvd8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ExK0QCCpvd8",
+      "url": "https://www.youtube.com/watch?v=ExK0QCCpvd8",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT130S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso entry and sweep from open guard",
+      "description": "Lapel to Lasso Guard film study: Lasso entry and sweep from open guard, taught by Felipe Simplicio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uyNWqN84L9o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uyNWqN84L9o",
+      "url": "https://www.youtube.com/watch?v=uyNWqN84L9o",
+      "creator": { "@type": "Person", "name": "Felipe Simplicio" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The transition also serves as intelligent position management within gi-based gu
 **Success Rate**: 10%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel to Lasso Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ExK0QCCpvd8)
+
+<p class="clip-credit"><strong>Basic entry into lasso from closed guard</strong> — taught by BJJ4Breakfast · 2:10 · <a href="https://www.youtube.com/watch?v=ExK0QCCpvd8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uyNWqN84L9o)
+
+<p class="clip-credit"><strong>Lasso entry and sweep from open guard</strong> — taught by Felipe Simplicio · 2:18 · <a href="https://www.youtube.com/watch?v=uyNWqN84L9o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

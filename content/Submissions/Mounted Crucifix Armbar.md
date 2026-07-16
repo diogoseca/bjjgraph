@@ -34,6 +34,54 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix Armbar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straight Armbar From Inverted Crucifix",
+      "description": "Mounted Crucifix Armbar film study: Straight Armbar From Inverted Crucifix, taught by Laura Sanko.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hISwyzfmQr0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hISwyzfmQr0",
+      "url": "https://www.youtube.com/watch?v=hISwyzfmQr0",
+      "creator": { "@type": "Person", "name": "Laura Sanko" },
+      "duration": "PT281S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix Attacks: Armbar and Rolling Reverse Omoplata",
+      "description": "Mounted Crucifix Armbar film study: Crucifix Attacks: Armbar and Rolling Reverse Omoplata, taught by Legion Jiu Jitsu Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VL8WcZaILow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VL8WcZaILow",
+      "url": "https://www.youtube.com/watch?v=VL8WcZaILow",
+      "creator": { "@type": "Person", "name": "Legion Jiu Jitsu Coach" },
+      "duration": "PT441S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix Redeemer Armbar",
+      "description": "Mounted Crucifix Armbar film study: Crucifix Redeemer Armbar, taught by Ayrshire Grappler Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uT8ryCrN3Q8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uT8ryCrN3Q8",
+      "url": "https://www.youtube.com/watch?v=uT8ryCrN3Q8",
+      "creator": { "@type": "Person", "name": "Ayrshire Grappler Coach" },
+      "duration": "PT107S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,6 +132,42 @@ The submission's tactical value lies in its complementary relationship with chok
 Mechanically, the armbar requires the attacker to pivot their hips toward the target arm while maintaining crucifix control, then extend the arm against the hip line with the elbow joint positioned for hyperextension pressure. The key distinction from a standard mount armbar is that the initial arm isolation is already established by the leg-based crucifix control, eliminating the most difficult phase of the armbar setup. This pre-existing control transforms the armbar from a multi-step sequence requiring significant positional transitions into a direct finishing technique with minimal setup time.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix Armbar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hISwyzfmQr0)
+
+<p class="clip-credit"><strong>Straight Armbar From Inverted Crucifix</strong> — taught by Laura Sanko · 4:41 · <a href="https://www.youtube.com/watch?v=hISwyzfmQr0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VL8WcZaILow)
+
+<p class="clip-credit"><strong>Crucifix Attacks: Armbar and Rolling Reverse Omoplata</strong> — taught by Legion Jiu Jitsu Coach · 7:21 · <a href="https://www.youtube.com/watch?v=VL8WcZaILow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uT8ryCrN3Q8)
+
+<p class="clip-credit"><strong>Crucifix Redeemer Armbar</strong> — taught by Ayrshire Grappler Coach · 1:47 · <a href="https://www.youtube.com/watch?v=uT8ryCrN3Q8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

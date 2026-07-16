@@ -34,6 +34,43 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japanese Necktie \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock to necktie choke",
+      "description": "Japanese Necktie film study: Front headlock to necktie choke, taught by Gile23.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4ob2ZrEH3Yc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4ob2ZrEH3Yc",
+      "url": "https://www.youtube.com/watch?v=4ob2ZrEH3Yc",
+      "creator": { "@type": "Person", "name": "Gile23" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Schultz choke from front headlock",
+      "description": "Japanese Necktie film study: Schultz choke from front headlock, taught by Sonny Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hfifEH_SNVc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hfifEH_SNVc",
+      "url": "https://www.youtube.com/watch?v=hfifEH_SNVc",
+      "creator": { "@type": "Person", "name": "Sonny Brown" },
+      "duration": "PT187S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +117,34 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 The Japanese Necktie is a sophisticated blood choke that attacks from front headlock or turtle positions, creating a powerful stranglehold using the opponent's own shoulder and arm as part of the choking mechanism. Unlike traditional guillotines that rely purely on your arms, the Japanese Necktie leverages bodyweight, rotational pressure, and the opponent's trapped arm to create an inescapable compression of the carotid arteries. This submission is particularly effective in scramble situations where opponents attempt to escape turtle or when transitioning from failed takedown attempts. The technique gained prominence in modern no-gi competition but works equally well in the gi, offering multiple entry points from common positions. The Japanese Necktie creates a unique predicament where the opponent's defensive frames actually tighten the choke, making it a high-percentage finish once proper positioning is established. The submission requires precise understanding of angle creation, shoulder pressure mechanics, and the critical importance of hip positioning relative to the opponent's head. When executed correctly, the Japanese Necktie produces rapid unconsciousness due to bilateral carotid compression, making tap awareness and controlled application essential safety considerations during training.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Japanese Necktie in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4ob2ZrEH3Yc)
+
+<p class="clip-credit"><strong>Front headlock to necktie choke</strong> — taught by Gile23 · 1:53 · <a href="https://www.youtube.com/watch?v=4ob2ZrEH3Yc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hfifEH_SNVc)
+
+<p class="clip-credit"><strong>Schultz choke from front headlock</strong> — taught by Sonny Brown · 3:07 · <a href="https://www.youtube.com/watch?v=hfifEH_SNVc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

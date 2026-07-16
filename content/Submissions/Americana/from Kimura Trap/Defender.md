@@ -144,6 +144,54 @@ description: "Complete defense guide against the Americana from Kimura Trap. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Kimura Trap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Trap Counter",
+      "description": "Americana from Kimura Trap (Defender) film study: Kimura Trap Counter, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CJx9mZimwQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CJx9mZimwQ",
+      "url": "https://www.youtube.com/watch?v=9CJx9mZimwQ",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT300S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Easy kimura trap escapes",
+      "description": "Americana from Kimura Trap (Defender) film study: Easy kimura trap escapes, taught by Jeff Glover.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5EEDT4A_Kbk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5EEDT4A_Kbk",
+      "url": "https://www.youtube.com/watch?v=5EEDT4A_Kbk",
+      "creator": { "@type": "Person", "name": "Jeff Glover" },
+      "duration": "PT398S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape the kimura trap",
+      "description": "Americana from Kimura Trap (Defender) film study: How to escape the kimura trap, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZmxCd-zmc_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZmxCd-zmc_w",
+      "url": "https://www.youtube.com/watch?v=ZmxCd-zmc_w",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the Americana from Kimura Trap requires recognizing the moment your op
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Kimura Trap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9CJx9mZimwQ)
+
+<p class="clip-credit"><strong>Kimura Trap Counter</strong> — taught by Marcelo Garcia · 5:00 · <a href="https://www.youtube.com/watch?v=9CJx9mZimwQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5EEDT4A_Kbk)
+
+<p class="clip-credit"><strong>Easy kimura trap escapes</strong> — taught by Jeff Glover · 6:38 · <a href="https://www.youtube.com/watch?v=5EEDT4A_Kbk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZmxCd-zmc_w)
+
+<p class="clip-credit"><strong>How to escape the kimura trap</strong> — taught by MMA Leech · 2:12 · <a href="https://www.youtube.com/watch?v=ZmxCd-zmc_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

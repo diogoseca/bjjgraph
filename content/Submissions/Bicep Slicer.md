@@ -35,6 +35,54 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bicep Slicer \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix to bicep slicer finish",
+      "description": "Bicep Slicer film study: Crucifix to bicep slicer finish, taught by Ashraf Shishani.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u9bpAwBgPVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u9bpAwBgPVo",
+      "url": "https://www.youtube.com/watch?v=u9bpAwBgPVo",
+      "creator": { "@type": "Person", "name": "Ashraf Shishani" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sneaky bicep slicer from side control",
+      "description": "Bicep Slicer film study: Sneaky bicep slicer from side control, taught by Prism Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1BwmKjHGaPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1BwmKjHGaPg",
+      "url": "https://www.youtube.com/watch?v=1BwmKjHGaPg",
+      "creator": { "@type": "Person", "name": "Prism Jiu Jitsu" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bicep slicer from top side control",
+      "description": "Bicep Slicer film study: Bicep slicer from top side control, taught by VOW BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WhRSftl4jlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WhRSftl4jlU",
+      "url": "https://www.youtube.com/watch?v=WhRSftl4jlU",
+      "creator": { "@type": "Person", "name": "VOW BJJ" },
+      "duration": "PT218S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,6 +132,42 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 Among the most overlooked finishes in grappling, the Bicep Slicer earns its keep as a high-percentage backup the moment an opponent surrenders an arm to defend a choke or a more obvious joint lock. This advanced submission works by trapping the opponent's arm between your shin and forearm, creating a lever that compresses the bicep against the humerus bone while simultaneously hyperextending the elbow. Most commonly applied from the crucifix, truck, or modified mount positions, the bicep slicer is a technical submission that requires precise positioning and control. The compression creates intense pain in the bicep muscle belly, while the hyperextension threatens the elbow joint, creating a two-fold attack that is difficult to defend. This submission is particularly effective in no-gi grappling where the opponent cannot use gi grips to defend, and it serves as an excellent backup when traditional chokes or arm locks are unavailable. The bicep slicer's effectiveness comes from its ability to attack an area that most grapplers do not regularly condition or defend, making it a high-percentage finish when the proper positioning is achieved. Understanding the mechanical advantage required and the precise angles needed separates successful application from ineffective attempts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bicep Slicer in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u9bpAwBgPVo)
+
+<p class="clip-credit"><strong>Crucifix to bicep slicer finish</strong> — taught by Ashraf Shishani · 1:10 · <a href="https://www.youtube.com/watch?v=u9bpAwBgPVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1BwmKjHGaPg)
+
+<p class="clip-credit"><strong>Sneaky bicep slicer from side control</strong> — taught by Prism Jiu Jitsu · 1:14 · <a href="https://www.youtube.com/watch?v=1BwmKjHGaPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WhRSftl4jlU)
+
+<p class="clip-credit"><strong>Bicep slicer from top side control</strong> — taught by VOW BJJ · 3:38 · <a href="https://www.youtube.com/watch?v=WhRSftl4jlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

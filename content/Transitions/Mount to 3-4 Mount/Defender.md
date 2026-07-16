@@ -132,6 +132,54 @@ description: "Complete defensive guide against the Transition to 3-4 Mount. Lear
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount to 3-4 Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount escape out the back",
+      "description": "Mount to 3-4 Mount (Defender) film study: Technical mount escape out the back, taught by smallmanbjj coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NHrpJdU8wCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NHrpJdU8wCQ",
+      "url": "https://www.youtube.com/watch?v=NHrpJdU8wCQ",
+      "creator": { "@type": "Person", "name": "smallmanbjj coach" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the mount, part 1",
+      "description": "Mount to 3-4 Mount (Defender) film study: Escaping the mount, part 1, taught by 10th Planet West LA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PnBb1hxjCkw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PnBb1hxjCkw",
+      "url": "https://www.youtube.com/watch?v=PnBb1hxjCkw",
+      "creator": { "@type": "Person", "name": "10th Planet West LA coach" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stiff arm escape from full mount",
+      "description": "Mount to 3-4 Mount (Defender) film study: Stiff arm escape from full mount, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hyQouCv4tDs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hyQouCv4tDs",
+      "url": "https://www.youtube.com/watch?v=hyQouCv4tDs",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT13S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +189,42 @@ Defending the Transition to 3-4 Mount requires recognizing the setup cues before
 **Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount to 3-4 Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NHrpJdU8wCQ)
+
+<p class="clip-credit"><strong>Technical mount escape out the back</strong> — taught by smallmanbjj coach · 0:58 · <a href="https://www.youtube.com/watch?v=NHrpJdU8wCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PnBb1hxjCkw)
+
+<p class="clip-credit"><strong>Escaping the mount, part 1</strong> — taught by 10th Planet West LA coach · 1:34 · <a href="https://www.youtube.com/watch?v=PnBb1hxjCkw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hyQouCv4tDs)
+
+<p class="clip-credit"><strong>Stiff arm escape from full mount</strong> — taught by Andy Tong · 0:13 · <a href="https://www.youtube.com/watch?v=hyQouCv4tDs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

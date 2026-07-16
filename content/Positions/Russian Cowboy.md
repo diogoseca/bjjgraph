@@ -34,6 +34,54 @@ description: "Master Russian Cowboy position in BJJ. Complete guide covering bac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Cowboy \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double deep hook submissions from Russian Cowboy",
+      "description": "Russian Cowboy film study: Double deep hook submissions from Russian Cowboy, taught by 10th Planet Rochester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kGoEjQMRp3I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kGoEjQMRp3I",
+      "url": "https://www.youtube.com/watch?v=kGoEjQMRp3I",
+      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Truck entries and submissions overview",
+      "description": "Russian Cowboy film study: Truck entries and submissions overview, taught by Energia Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IY0CbahJG2A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IY0CbahJG2A",
+      "url": "https://www.youtube.com/watch?v=IY0CbahJG2A",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
+      "duration": "PT667S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Setting up twister side control",
+      "description": "Russian Cowboy film study: Setting up twister side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gZXaEZozto/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gZXaEZozto",
+      "url": "https://www.youtube.com/watch?v=6gZXaEZozto",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ From a tactical perspective, the Russian Cowboy represents a transitional state 
 The Russian Cowboy is particularly effective because it combines elements of back attack systems with leg entanglement control, forcing the opponent to defend multiple threats simultaneously. Unlike pure back control where both hooks are in, or pure truck where both legs are controlled, the Russian Cowboy's asymmetric structure creates unique mechanical advantages that make it difficult for the opponent to distribute their defensive resources effectively. This position requires strong positional awareness and the ability to transition fluidly between related control positions. The single-hook configuration allows for rapid transitions to truck position while maintaining the dominant back control foundation, making it a cornerstone position in modern no-gi grappling systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Cowboy in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kGoEjQMRp3I)
+
+<p class="clip-credit"><strong>Double deep hook submissions from Russian Cowboy</strong> — taught by 10th Planet Rochester · 3:13 · <a href="https://www.youtube.com/watch?v=kGoEjQMRp3I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IY0CbahJG2A)
+
+<p class="clip-credit"><strong>Truck entries and submissions overview</strong> — taught by Energia Martial Arts · 11:07 · <a href="https://www.youtube.com/watch?v=IY0CbahJG2A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gZXaEZozto)
+
+<p class="clip-credit"><strong>Setting up twister side control</strong> — taught by Eddie Bravo · 1:32 · <a href="https://www.youtube.com/watch?v=6gZXaEZozto" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

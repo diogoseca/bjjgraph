@@ -148,6 +148,54 @@ description: "Prevent posture recovery against your triangle choke in BJJ. Maint
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture in Triangle Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the triangle against good posture",
+      "description": "Posture in Triangle Escape (Defender) film study: Finishing the triangle against good posture, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M3_VDLm6PoE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M3_VDLm6PoE",
+      "url": "https://www.youtube.com/watch?v=M3_VDLm6PoE",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "5 counters to your opponent standing in your triangle",
+      "description": "Posture in Triangle Escape (Defender) film study: 5 counters to your opponent standing in your triangle, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0BQpXYOU4FI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0BQpXYOU4FI",
+      "url": "https://www.youtube.com/watch?v=0BQpXYOU4FI",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT310S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle stack counters for posture and pressure",
+      "description": "Posture in Triangle Escape (Defender) film study: Triangle stack counters for posture and pressure, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ypwHsHoUgw4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ypwHsHoUgw4",
+      "url": "https://www.youtube.com/watch?v=ypwHsHoUgw4",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT368S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the triangle holder, your primary defensive objective against the posture rec
 **Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture in Triangle Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M3_VDLm6PoE)
+
+<p class="clip-credit"><strong>Finishing the triangle against good posture</strong> — taught by Inverted Gear · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0BQpXYOU4FI)
+
+<p class="clip-credit"><strong>5 counters to your opponent standing in your triangle</strong> — taught by Stephan Kesting · 5:10 · <a href="https://www.youtube.com/watch?v=0BQpXYOU4FI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ypwHsHoUgw4)
+
+<p class="clip-credit"><strong>Triangle stack counters for posture and pressure</strong> — taught by Knight Jiu-Jitsu · 6:08 · <a href="https://www.youtube.com/watch?v=ypwHsHoUgw4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the transition to leg entanglement from Ashi Garami top pos
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami to Leg Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside ashi leg entanglement",
+      "description": "Ashi Garami to Leg Entanglement film study: Outside ashi leg entanglement, taught by Team Strela.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xvx03k3jiWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xvx03k3jiWo",
+      "url": "https://www.youtube.com/watch?v=xvx03k3jiWo",
+      "creator": { "@type": "Person", "name": "Team Strela" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Saddle Entries From Guard",
+      "description": "Ashi Garami to Leg Entanglement film study: Saddle Entries From Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
+      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "80/20 to Outside Sankaku When They Block the Reap",
+      "description": "Ashi Garami to Leg Entanglement film study: 80/20 to Outside Sankaku When They Block the Reap, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6fLuhvhUw-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6fLuhvhUw-w",
+      "url": "https://www.youtube.com/watch?v=6fLuhvhUw-w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition requires precise timing and mechanical understanding. Initiating
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami to Leg Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xvx03k3jiWo)
+
+<p class="clip-credit"><strong>Outside ashi leg entanglement</strong> — taught by Team Strela · 0:26 · <a href="https://www.youtube.com/watch?v=xvx03k3jiWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
+
+<p class="clip-credit"><strong>Saddle Entries From Guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6fLuhvhUw-w)
+
+<p class="clip-credit"><strong>80/20 to Outside Sankaku When They Block the Reap</strong> — taught by Lachlan Giles · 2:59 · <a href="https://www.youtube.com/watch?v=6fLuhvhUw-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

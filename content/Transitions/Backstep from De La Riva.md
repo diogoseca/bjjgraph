@@ -34,6 +34,43 @@ description: "Master the backstep from De La Riva Guard. Learn to clear the DLR 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from De La Riva \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva to Leg Drag pass",
+      "description": "Backstep from De La Riva film study: De La Riva to Leg Drag pass, taught by Alavanca.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H9hckrLXcRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H9hckrLXcRQ",
+      "url": "https://www.youtube.com/watch?v=H9hckrLXcRQ",
+      "creator": { "@type": "Person", "name": "Alavanca" },
+      "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Long step pass against De La Riva guard",
+      "description": "Backstep from De La Riva film study: Long step pass against De La Riva guard, taught by Greg Hernandez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZaIgVPdXIFE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZaIgVPdXIFE",
+      "url": "https://www.youtube.com/watch?v=ZaIgVPdXIFE",
+      "creator": { "@type": "Person", "name": "Greg Hernandez" },
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ However, the backstep carries inherent risk that distinguishes it from safer pas
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from De La Riva in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H9hckrLXcRQ)
+
+<p class="clip-credit"><strong>De La Riva to Leg Drag pass</strong> — taught by Alavanca · 0:29 · <a href="https://www.youtube.com/watch?v=H9hckrLXcRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZaIgVPdXIFE)
+
+<p class="clip-credit"><strong>Long step pass against De La Riva guard</strong> — taught by Greg Hernandez · 2:10 · <a href="https://www.youtube.com/watch?v=ZaIgVPdXIFE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

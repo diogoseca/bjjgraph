@@ -148,6 +148,54 @@ description: "Defend your inverted lasso guard against passing attempts. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Inverted Lasso Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Grip Chain for Guard Retention",
+      "description": "Pass Inverted Lasso Guard (Defender) film study: Grip Chain for Guard Retention, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T_GhZe_MOWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T_GhZe_MOWI",
+      "url": "https://www.youtube.com/watch?v=T_GhZe_MOWI",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inversions for guard retention",
+      "description": "Pass Inverted Lasso Guard (Defender) film study: Inversions for guard retention, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/keVYjjfqzl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/keVYjjfqzl8",
+      "url": "https://www.youtube.com/watch?v=keVYjjfqzl8",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT250S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lasso guard retention essentials",
+      "description": "Pass Inverted Lasso Guard (Defender) film study: Lasso guard retention essentials, taught by Yoshi Tamaki.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Uzzep4NbOcI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Uzzep4NbOcI",
+      "url": "https://www.youtube.com/watch?v=Uzzep4NbOcI",
+      "creator": { "@type": "Person", "name": "Yoshi Tamaki" },
+      "duration": "PT732S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending your inverted lasso guard against a skilled passer requires maintainin
 **Opponent's Starting Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Inverted Lasso Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T_GhZe_MOWI)
+
+<p class="clip-credit"><strong>Grip Chain for Guard Retention</strong> — taught by Xande Ribeiro · 2:54 · <a href="https://www.youtube.com/watch?v=T_GhZe_MOWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=keVYjjfqzl8)
+
+<p class="clip-credit"><strong>Inversions for guard retention</strong> — taught by Brian Glick · 4:10 · <a href="https://www.youtube.com/watch?v=keVYjjfqzl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Uzzep4NbOcI)
+
+<p class="clip-credit"><strong>Lasso guard retention essentials</strong> — taught by Yoshi Tamaki · 12:12 · <a href="https://www.youtube.com/watch?v=Uzzep4NbOcI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

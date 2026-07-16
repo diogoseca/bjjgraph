@@ -34,6 +34,43 @@ description: "Master the Combat Base to Headquarters transition in BJJ. Systemat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Combat Base to Headquarters \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee slice pass from combat base",
+      "description": "Combat Base to Headquarters film study: Knee slice pass from combat base, taught by 5th Element BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yPxcNpuyr0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yPxcNpuyr0w",
+      "url": "https://www.youtube.com/watch?v=yPxcNpuyr0w",
+      "creator": { "@type": "Person", "name": "5th Element BJJ" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic headquarters passing in the gi",
+      "description": "Combat Base to Headquarters film study: Basic headquarters passing in the gi, taught by Courage Training Centre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/te88wU3Wo6E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/te88wU3Wo6E",
+      "url": "https://www.youtube.com/watch?v=te88wU3Wo6E",
+      "creator": { "@type": "Person", "name": "Courage Training Centre" },
+      "duration": "PT192S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This positional improvement serves as the gateway to systematic guard passing. O
 **Success Rate**: 54%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Combat Base to Headquarters in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yPxcNpuyr0w)
+
+<p class="clip-credit"><strong>Knee slice pass from combat base</strong> — taught by 5th Element BJJ · 2:23 · <a href="https://www.youtube.com/watch?v=yPxcNpuyr0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=te88wU3Wo6E)
+
+<p class="clip-credit"><strong>Basic headquarters passing in the gi</strong> — taught by Courage Training Centre · 3:12 · <a href="https://www.youtube.com/watch?v=te88wU3Wo6E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

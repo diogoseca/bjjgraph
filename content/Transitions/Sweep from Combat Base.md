@@ -34,6 +34,43 @@ description: "Master sweeps against Combat Base in BJJ. Complete guide to exploi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Combat Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sitting guard sweep against combat base",
+      "description": "Sweep from Combat Base film study: Sitting guard sweep against combat base, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z-3izL3cyTQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z-3izL3cyTQ",
+      "url": "https://www.youtube.com/watch?v=z-3izL3cyTQ",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sweeping the combat base",
+      "description": "Sweep from Combat Base film study: Sweeping the combat base, taught by Sticks and Stones BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ge4PxqkgVN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ge4PxqkgVN4",
+      "url": "https://www.youtube.com/watch?v=Ge4PxqkgVN4",
+      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ" },
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This sweep family is essential for any guard player facing a disciplined passer 
 **Success Rate**: 24%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Combat Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z-3izL3cyTQ)
+
+<p class="clip-credit"><strong>Sitting guard sweep against combat base</strong> — taught by Jean Jacques Machado · 1:54 · <a href="https://www.youtube.com/watch?v=z-3izL3cyTQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ge4PxqkgVN4)
+
+<p class="clip-credit"><strong>Sweeping the combat base</strong> — taught by Sticks and Stones BJJ · 3:25 · <a href="https://www.youtube.com/watch?v=Ge4PxqkgVN4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -153,6 +153,43 @@ description: "Master escaping the triangle from top position. Complete guide cov
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Escape Position (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle defense and escape",
+      "description": "Triangle Escape Position (Top) film study: Triangle defense and escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
+      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed guard triangle escape",
+      "description": "Triangle Escape Position (Top) film study: Closed guard triangle escape, taught by Vagabond-Ares BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/51J5IsX_Ss4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/51J5IsX_Ss4",
+      "url": "https://www.youtube.com/watch?v=51J5IsX_Ss4",
+      "creator": { "@type": "Person", "name": "Vagabond-Ares BJJ" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ From this perspective, the defender faces the unique challenge of being position
 The position demands sophisticated decision-making about when to prioritize survival over positional advancement, how to convert defensive frames into offensive passing opportunities, and how to recognize the optimal moments to execute escape techniques based on the opponent's triangle depth and angle optimization. Unlike bottom perspective escapes that can rely primarily on stacking mechanics, top perspective escapes often require more nuanced posture management and tactical awareness of the opponent's submission chain threats including armbars, omoplatas, and various sweep attempts that can reverse positional hierarchy entirely.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Escape Position (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
+
+<p class="clip-credit"><strong>Triangle defense and escape</strong> — taught by Daniel Frank · 0:24 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=51J5IsX_Ss4)
+
+<p class="clip-credit"><strong>Closed guard triangle escape</strong> — taught by Vagabond-Ares BJJ · 1:27 · <a href="https://www.youtube.com/watch?v=51J5IsX_Ss4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

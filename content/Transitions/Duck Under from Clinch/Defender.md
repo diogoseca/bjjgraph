@@ -156,6 +156,54 @@ description: "Learn to defend the Duck Under from Clinch in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Duck Under from Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stopping the opponent\u0027s first move (duck under defense)",
+      "description": "Duck Under from Clinch (Defender) film study: Stopping the opponent\u0027s first move (duck under defense), taught by Wrestling coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WibJetQ_YeM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WibJetQ_YeM",
+      "url": "https://www.youtube.com/watch?v=WibJetQ_YeM",
+      "creator": { "@type": "Person", "name": "Wrestling coach" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defense and Counter Offense from the Tie-Up",
+      "description": "Duck Under from Clinch (Defender) film study: Defense and Counter Offense from the Tie-Up, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lDucv2EJ1gM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lDucv2EJ1gM",
+      "url": "https://www.youtube.com/watch?v=lDucv2EJ1gM",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT260S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breaking Away from the Over-Under Clinch",
+      "description": "Duck Under from Clinch (Defender) film study: Breaking Away from the Over-Under Clinch, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uIQJxBOoBoo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uIQJxBOoBoo",
+      "url": "https://www.youtube.com/watch?v=uIQJxBOoBoo",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT237S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -167,6 +215,42 @@ The defender who masters duck under recognition can convert successful defenses 
 **Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Duck Under from Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WibJetQ_YeM)
+
+<p class="clip-credit"><strong>Stopping the opponent&#39;s first move (duck under defense)</strong> — taught by Wrestling coach · 1:43 · <a href="https://www.youtube.com/watch?v=WibJetQ_YeM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lDucv2EJ1gM)
+
+<p class="clip-credit"><strong>Defense and Counter Offense from the Tie-Up</strong> — taught by Jordan Burroughs · 4:20 · <a href="https://www.youtube.com/watch?v=lDucv2EJ1gM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uIQJxBOoBoo)
+
+<p class="clip-credit"><strong>Breaking Away from the Over-Under Clinch</strong> — taught by Danny Mitchell · 3:57 · <a href="https://www.youtube.com/watch?v=uIQJxBOoBoo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

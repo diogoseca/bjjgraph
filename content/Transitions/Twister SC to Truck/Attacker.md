@@ -174,6 +174,43 @@ description: "Execute the Twister Side Control to Truck transition with systemat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister SC to Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Truck options from twister side control",
+      "description": "Twister SC to Truck (Attacker) film study: Truck options from twister side control, taught by Jeremiah Vance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/im8KbQUyxLY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/im8KbQUyxLY",
+      "url": "https://www.youtube.com/watch?v=im8KbQUyxLY",
+      "creator": { "@type": "Person", "name": "Jeremiah Vance" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side control attacks",
+      "description": "Twister SC to Truck (Attacker) film study: Twister side control attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ From the attacker's perspective, the Twister Side Control to Truck transition is
 **From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister SC to Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=im8KbQUyxLY)
+
+<p class="clip-credit"><strong>Truck options from twister side control</strong> — taught by Jeremiah Vance · 0:42 · <a href="https://www.youtube.com/watch?v=im8KbQUyxLY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister side control attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

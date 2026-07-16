@@ -153,6 +153,54 @@ description: "Master Quarter Guard Top in BJJ. Complete guide covering passing s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Quarter Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing half guard",
+      "description": "Quarter Guard (Top) film study: Passing half guard, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zo6aygjOgcQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Zo6aygjOgcQ",
+      "url": "https://www.youtube.com/watch?v=Zo6aygjOgcQ",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT188S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Cut to Quarter Mount Pass",
+      "description": "Quarter Guard (Top) film study: Knee Cut to Quarter Mount Pass, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcUgqt4Lvvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcUgqt4Lvvw",
+      "url": "https://www.youtube.com/watch?v=EcUgqt4Lvvw",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT207S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee Slice to Quarter Traditional Pass",
+      "description": "Quarter Guard (Top) film study: Knee Slice to Quarter Traditional Pass, taught by Brian Marvin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rwk1iPbjnKc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rwk1iPbjnKc",
+      "url": "https://www.youtube.com/watch?v=rwk1iPbjnKc",
+      "creator": { "@type": "Person", "name": "Brian Marvin" },
+      "duration": "PT214S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ Quarter Guard Top is characterized by asymmetric control where the passer has es
 The key distinction from half guard top is that the bottom player's defensive capability is severely compromised—they cannot generate effective sweeps with sufficient leverage, their frames are breaking down under pressure, and they are one or two movements away from being completely passed. This makes quarter guard top a high-percentage position that should be capitalized on immediately rather than maintained statically. The position should be viewed as the final checkpoint before passing completion, where proper technique execution leads to dominant positions within five to ten seconds.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Quarter Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Zo6aygjOgcQ)
+
+<p class="clip-credit"><strong>Passing half guard</strong> — taught by Gordon Ryan · 3:08 · <a href="https://www.youtube.com/watch?v=Zo6aygjOgcQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcUgqt4Lvvw)
+
+<p class="clip-credit"><strong>Knee Cut to Quarter Mount Pass</strong> — taught by Greg Hamilton · 3:27 · <a href="https://www.youtube.com/watch?v=EcUgqt4Lvvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rwk1iPbjnKc)
+
+<p class="clip-credit"><strong>Knee Slice to Quarter Traditional Pass</strong> — taught by Brian Marvin · 3:34 · <a href="https://www.youtube.com/watch?v=rwk1iPbjnKc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

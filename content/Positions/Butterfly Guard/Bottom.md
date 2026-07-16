@@ -153,6 +153,54 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2-on-1 lift to back from butterfly",
+      "description": "Butterfly Guard (Bottom) film study: 2-on-1 lift to back from butterfly, taught by Lorenz Sadychow.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sJfkAL95S9k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sJfkAL95S9k",
+      "url": "https://www.youtube.com/watch?v=sJfkAL95S9k",
+      "creator": { "@type": "Person", "name": "Lorenz Sadychow" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly sweep to crucifix",
+      "description": "Butterfly Guard (Bottom) film study: Butterfly sweep to crucifix, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_wEmnFzwFl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_wEmnFzwFl0",
+      "url": "https://www.youtube.com/watch?v=_wEmnFzwFl0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Marcelo Garcia push sweep at ADCC",
+      "description": "Butterfly Guard (Bottom) film study: Marcelo Garcia push sweep at ADCC, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ml2YppHVvj0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ml2YppHVvj0",
+      "url": "https://www.youtube.com/watch?v=Ml2YppHVvj0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ From a tactical perspective, butterfly guard bottom serves as a central hub in m
 The learning curve for butterfly guard involves developing several interconnected skills: maintaining upright posture under pressure, generating constant elevator pressure through hooks, establishing and maintaining dominant grips, timing sweeps with opponent weight shifts, and smoothly transitioning to alternative positions when primary attacks are defended. Success requires coordination between upper and lower body, understanding of leverage mechanics, and ability to read opponent's defensive reactions. When mastered, butterfly guard bottom becomes one of the most versatile and high-percentage positions in competitive Brazilian Jiu-Jitsu.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=sJfkAL95S9k)
+
+<p class="clip-credit"><strong>2-on-1 lift to back from butterfly</strong> — taught by Lorenz Sadychow · 1:01 · <a href="https://www.youtube.com/watch?v=sJfkAL95S9k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_wEmnFzwFl0)
+
+<p class="clip-credit"><strong>Butterfly sweep to crucifix</strong> — taught by Jean Jacques Machado · 0:56 · <a href="https://www.youtube.com/watch?v=_wEmnFzwFl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ml2YppHVvj0)
+
+<p class="clip-credit"><strong>Marcelo Garcia push sweep at ADCC</strong> — taught by Marcelo Garcia · 0:11 · <a href="https://www.youtube.com/watch?v=Ml2YppHVvj0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -136,6 +136,54 @@ description: "Master defending the armbar from knee on belly. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the Knee on Belly position",
+      "description": "Armbar from Knee on Belly (Defender) film study: How to escape the Knee on Belly position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "First principles escapes: Knee-on-Belly",
+      "description": "Armbar from Knee on Belly (Defender) film study: First principles escapes: Knee-on-Belly, taught by 40 Plus BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I9_3u9AcwAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I9_3u9AcwAg",
+      "url": "https://www.youtube.com/watch?v=I9_3u9AcwAg",
+      "creator": { "@type": "Person", "name": "40 Plus BJJ" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sneaky knee on belly escape (gi and no gi)",
+      "description": "Armbar from Knee on Belly (Defender) film study: Sneaky knee on belly escape (gi and no gi), taught by Zebulon Miller.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WIYwi1fKisU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WIYwi1fKisU",
+      "url": "https://www.youtube.com/watch?v=WIYwi1fKisU",
+      "creator": { "@type": "Person", "name": "Zebulon Miller" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +194,42 @@ Defending the armbar from knee on belly requires understanding the attack's trig
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How to escape the Knee on Belly position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I9_3u9AcwAg)
+
+<p class="clip-credit"><strong>First principles escapes: Knee-on-Belly</strong> — taught by 40 Plus BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=I9_3u9AcwAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WIYwi1fKisU)
+
+<p class="clip-credit"><strong>Sneaky knee on belly escape (gi and no gi)</strong> — taught by Zebulon Miller · 1:18 · <a href="https://www.youtube.com/watch?v=WIYwi1fKisU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

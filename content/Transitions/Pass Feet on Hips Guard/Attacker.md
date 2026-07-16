@@ -180,6 +180,43 @@ description: "Complete attacking guide to passing feet on hips guard in BJJ. Gri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Feet on Hips Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Monitoring the Feet While Passing Guard",
+      "description": "Pass Feet on Hips Guard (Attacker) film study: Monitoring the Feet While Passing Guard, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YLPNsyHtREs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YLPNsyHtREs",
+      "url": "https://www.youtube.com/watch?v=YLPNsyHtREs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Footwork Passing vs the Supine Guard: 3 Zones",
+      "description": "Pass Feet on Hips Guard (Attacker) film study: Footwork Passing vs the Supine Guard: 3 Zones, taught by Doederlein JJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7lBIkzah1gg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7lBIkzah1gg",
+      "url": "https://www.youtube.com/watch?v=7lBIkzah1gg",
+      "creator": { "@type": "Person", "name": "Doederlein JJ" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ The attacker in this transition is the top player working to dismantle the guard
 **From Position**: [[Positions/Feet on Hips Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Feet on Hips Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YLPNsyHtREs)
+
+<p class="clip-credit"><strong>Monitoring the Feet While Passing Guard</strong> — taught by Gordon Ryan · 0:50 · <a href="https://www.youtube.com/watch?v=YLPNsyHtREs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7lBIkzah1gg)
+
+<p class="clip-credit"><strong>Footwork Passing vs the Supine Guard: 3 Zones</strong> — taught by Doederlein JJ · 2:09 · <a href="https://www.youtube.com/watch?v=7lBIkzah1gg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

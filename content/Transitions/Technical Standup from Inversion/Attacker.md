@@ -174,6 +174,43 @@ description: "How to execute Technical Standup from Inversion in BJJ. Attacking 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Standup from Inversion (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical stand up solo drill",
+      "description": "Technical Standup from Inversion (Attacker) film study: Technical stand up solo drill, taught by Alexandre Bueno.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4rvYP8PPO54/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4rvYP8PPO54",
+      "url": "https://www.youtube.com/watch?v=4rvYP8PPO54",
+      "creator": { "@type": "Person", "name": "Alexandre Bueno" },
+      "duration": "PT10S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kick through to technical stand up from bottom",
+      "description": "Technical Standup from Inversion (Attacker) film study: Kick through to technical stand up from bottom, taught by Steve Haydock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LXTH9mOWCww/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LXTH9mOWCww",
+      "url": "https://www.youtube.com/watch?v=LXTH9mOWCww",
+      "creator": { "@type": "Person", "name": "Steve Haydock" },
+      "duration": "PT162S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 **From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Standup from Inversion (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4rvYP8PPO54)
+
+<p class="clip-credit"><strong>Technical stand up solo drill</strong> — taught by Alexandre Bueno · 0:10 · <a href="https://www.youtube.com/watch?v=4rvYP8PPO54" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LXTH9mOWCww)
+
+<p class="clip-credit"><strong>Kick through to technical stand up from bottom</strong> — taught by Steve Haydock · 2:42 · <a href="https://www.youtube.com/watch?v=LXTH9mOWCww" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

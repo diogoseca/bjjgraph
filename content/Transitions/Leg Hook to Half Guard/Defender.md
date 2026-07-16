@@ -140,6 +140,54 @@ description: "Learn to defend and counter the Leg Hook to Half Guard consolidati
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Hook to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the half guard leg hook",
+      "description": "Leg Hook to Half Guard (Defender) film study: Breaking the half guard leg hook, taught by Superhero Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
+      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing half guard even against the underhook",
+      "description": "Leg Hook to Half Guard (Defender) film study: Passing half guard even against the underhook, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hBsDFnfwieY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hBsDFnfwieY",
+      "url": "https://www.youtube.com/watch?v=hBsDFnfwieY",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT246S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to pass half guard fundamentals",
+      "description": "Leg Hook to Half Guard (Defender) film study: How to pass half guard fundamentals, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GYq1cv9mCdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GYq1cv9mCdg",
+      "url": "https://www.youtube.com/watch?v=GYq1cv9mCdg",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT426S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the bottom player, your opponent's attempt to consolidate from Leg Hook to Ha
 **Opponent's Starting Position**: [[Positions/Leg Hook]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Hook to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-49CypLW9aM)
+
+<p class="clip-credit"><strong>Breaking the half guard leg hook</strong> — taught by Superhero Jiu Jitsu Academy · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hBsDFnfwieY)
+
+<p class="clip-credit"><strong>Passing half guard even against the underhook</strong> — taught by Jon Thomas · 4:06 · <a href="https://www.youtube.com/watch?v=hBsDFnfwieY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GYq1cv9mCdg)
+
+<p class="clip-credit"><strong>How to pass half guard fundamentals</strong> — taught by Jordan Preisinger · 7:06 · <a href="https://www.youtube.com/watch?v=GYq1cv9mCdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

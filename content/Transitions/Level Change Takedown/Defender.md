@@ -140,6 +140,54 @@ description: "Master defending the level change takedown in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Level Change Takedown (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to sprawl against the double leg",
+      "description": "Level Change Takedown (Defender) film study: How to sprawl against the double leg, taught by A-Team BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Io79xaXZx_c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Io79xaXZx_c",
+      "url": "https://www.youtube.com/watch?v=Io79xaXZx_c",
+      "creator": { "@type": "Person", "name": "A-Team BJJ coach" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fixing common double leg defense errors",
+      "description": "Level Change Takedown (Defender) film study: Fixing common double leg defense errors, taught by Travis Rutt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QhpRyI_HjcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QhpRyI_HjcU",
+      "url": "https://www.youtube.com/watch?v=QhpRyI_HjcU",
+      "creator": { "@type": "Person", "name": "Travis Rutt" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Beginner takedown defense fundamentals",
+      "description": "Level Change Takedown (Defender) film study: Beginner takedown defense fundamentals, taught by Brandon Reed.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OcI8litaRQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OcI8litaRQ0",
+      "url": "https://www.youtube.com/watch?v=OcI8litaRQ0",
+      "creator": { "@type": "Person", "name": "Brandon Reed" },
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the level change takedown requires early recognition of the attack fol
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Level Change Takedown (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Io79xaXZx_c)
+
+<p class="clip-credit"><strong>How to sprawl against the double leg</strong> — taught by A-Team BJJ coach · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QhpRyI_HjcU)
+
+<p class="clip-credit"><strong>Fixing common double leg defense errors</strong> — taught by Travis Rutt · 1:19 · <a href="https://www.youtube.com/watch?v=QhpRyI_HjcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OcI8litaRQ0)
+
+<p class="clip-credit"><strong>Beginner takedown defense fundamentals</strong> — taught by Brandon Reed · 1:22 · <a href="https://www.youtube.com/watch?v=OcI8litaRQ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

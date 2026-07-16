@@ -34,6 +34,43 @@ description: "Master Base Attack to Sweep from Aoki Lock bottom. Destabilize opp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Base Attack to Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder Crunch Sweep Drill to Armbar",
+      "description": "Base Attack to Sweep film study: Shoulder Crunch Sweep Drill to Armbar, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LQ6KvabLLik/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LQ6KvabLLik",
+      "url": "https://www.youtube.com/watch?v=LQ6KvabLLik",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder Clamp Guard Sweep and Submissions",
+      "description": "Base Attack to Sweep film study: Shoulder Clamp Guard Sweep and Submissions, taught by theincafox.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BE_5LYzydJ8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BE_5LYzydJ8",
+      "url": "https://www.youtube.com/watch?v=BE_5LYzydJ8",
+      "creator": { "@type": "Person", "name": "theincafox" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The base attack is particularly effective because it addresses both survival and
 **Success Rate**: 17%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Base Attack to Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LQ6KvabLLik)
+
+<p class="clip-credit"><strong>Shoulder Crunch Sweep Drill to Armbar</strong> — taught by Factory Fresh Jiu Jitsu · 0:17 · <a href="https://www.youtube.com/watch?v=LQ6KvabLLik" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BE_5LYzydJ8)
+
+<p class="clip-credit"><strong>Shoulder Clamp Guard Sweep and Submissions</strong> — taught by theincafox · 0:53 · <a href="https://www.youtube.com/watch?v=BE_5LYzydJ8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

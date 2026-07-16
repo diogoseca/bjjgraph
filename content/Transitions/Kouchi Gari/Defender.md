@@ -149,6 +149,54 @@ description: "How to defend against Kouchi Gari in BJJ. Recognition cues, defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kouchi Gari (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg block to stop inside trip attacks",
+      "description": "Kouchi Gari (Defender) film study: Leg block to stop inside trip attacks, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NBj5D2KHdvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NBj5D2KHdvw",
+      "url": "https://www.youtube.com/watch?v=NBj5D2KHdvw",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering judo throw attempts",
+      "description": "Kouchi Gari (Defender) film study: Countering judo throw attempts, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7HnA1zd5Rs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7HnA1zd5Rs",
+      "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cut back ouchi counter from losing position",
+      "description": "Kouchi Gari (Defender) film study: Cut back ouchi counter from losing position, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HWg7hUhRbW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HWg7hUhRbW8",
+      "url": "https://www.youtube.com/watch?v=HWg7hUhRbW8",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT175S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -161,6 +209,42 @@ Defending Kouchi Gari requires understanding that the throw's power comes primar
 **Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kouchi Gari (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NBj5D2KHdvw)
+
+<p class="clip-credit"><strong>Leg block to stop inside trip attacks</strong> — taught by Shintaro Higashi · 2:20 · <a href="https://www.youtube.com/watch?v=NBj5D2KHdvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
+
+<p class="clip-credit"><strong>Countering judo throw attempts</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HWg7hUhRbW8)
+
+<p class="clip-credit"><strong>Cut back ouchi counter from losing position</strong> — taught by Shintaro Higashi · 2:55 · <a href="https://www.youtube.com/watch?v=HWg7hUhRbW8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

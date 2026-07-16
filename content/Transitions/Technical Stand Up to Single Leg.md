@@ -34,6 +34,54 @@ description: "Master the Technical Stand Up to Single Leg in BJJ. Chain defensiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Stand Up to Single Leg \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Craig Jones single leg takedown breakdown",
+      "description": "Technical Stand Up to Single Leg film study: Craig Jones single leg takedown breakdown, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8pqe0j3B974/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8pqe0j3B974",
+      "url": "https://www.youtube.com/watch?v=8pqe0j3B974",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg takedown mechanics",
+      "description": "Technical Stand Up to Single Leg film study: Single leg takedown mechanics, taught by Shane Griffith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DZS9yJI1Mzw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DZS9yJI1Mzw",
+      "url": "https://www.youtube.com/watch?v=DZS9yJI1Mzw",
+      "creator": { "@type": "Person", "name": "Shane Griffith" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Snatch single leg takedown",
+      "description": "Technical Stand Up to Single Leg film study: Snatch single leg takedown, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eDXHY0mzt04/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eDXHY0mzt04",
+      "url": "https://www.youtube.com/watch?v=eDXHY0mzt04",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The chain from standup to single leg is effective because it exploits a timing w
 **Success Rate**: 52%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Stand Up to Single Leg in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8pqe0j3B974)
+
+<p class="clip-credit"><strong>Craig Jones single leg takedown breakdown</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=8pqe0j3B974" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DZS9yJI1Mzw)
+
+<p class="clip-credit"><strong>Single leg takedown mechanics</strong> — taught by Shane Griffith · 2:15 · <a href="https://www.youtube.com/watch?v=DZS9yJI1Mzw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eDXHY0mzt04)
+
+<p class="clip-credit"><strong>Snatch single leg takedown</strong> — taught by Coach Brian · 2:38 · <a href="https://www.youtube.com/watch?v=eDXHY0mzt04" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

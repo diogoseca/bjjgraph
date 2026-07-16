@@ -168,6 +168,43 @@ description: "How to execute Distance Creation to Reset in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Distance Creation to Reset (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Grip Stripping: How to Break Grips for BJJ",
+      "description": "Distance Creation to Reset (Attacker) film study: Grip Stripping: How to Break Grips for BJJ, taught by rflxtraining.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oCiaKS1psd8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oCiaKS1psd8",
+      "url": "https://www.youtube.com/watch?v=oCiaKS1psd8",
+      "creator": { "@type": "Person", "name": "rflxtraining" },
+      "duration": "PT190S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Grip Fighting Rule Every White Belt Should Know",
+      "description": "Distance Creation to Reset (Attacker) film study: Grip Fighting Rule Every White Belt Should Know, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/86SrcnnJ6BY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/86SrcnnJ6BY",
+      "url": "https://www.youtube.com/watch?v=86SrcnnJ6BY",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT294S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 **From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Distance Creation to Reset (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oCiaKS1psd8)
+
+<p class="clip-credit"><strong>Grip Stripping: How to Break Grips for BJJ</strong> — taught by rflxtraining · 3:10 · <a href="https://www.youtube.com/watch?v=oCiaKS1psd8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=86SrcnnJ6BY)
+
+<p class="clip-credit"><strong>Grip Fighting Rule Every White Belt Should Know</strong> — taught by Chewjitsu · 4:54 · <a href="https://www.youtube.com/watch?v=86SrcnnJ6BY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against Gift Wrap in BJJ. Recognition cues, defensiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the gift wrap",
+      "description": "Gift Wrap (Defender) film study: Escaping the gift wrap, taught by The Jiu Jitsu Pedia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
+      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
+      "creator": { "@type": "Person", "name": "The Jiu Jitsu Pedia" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Simple gift wrap escape",
+      "description": "Gift Wrap (Defender) film study: Simple gift wrap escape, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j5y349B6Go8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j5y349B6Go8",
+      "url": "https://www.youtube.com/watch?v=j5y349B6Go8",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the modified mount",
+      "description": "Gift Wrap (Defender) film study: Escaping the modified mount, taught by Fenrir Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dKsWGZXo3Zw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dKsWGZXo3Zw",
+      "url": "https://www.youtube.com/watch?v=dKsWGZXo3Zw",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
+      "duration": "PT133S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The defender must also recognize that the Gift Wrap is a gateway position—the 
 **Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
+
+<p class="clip-credit"><strong>Escaping the gift wrap</strong> — taught by The Jiu Jitsu Pedia · 0:48 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j5y349B6Go8)
+
+<p class="clip-credit"><strong>Simple gift wrap escape</strong> — taught by Chewjitsu · 2:40 · <a href="https://www.youtube.com/watch?v=j5y349B6Go8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dKsWGZXo3Zw)
+
+<p class="clip-credit"><strong>Escaping the modified mount</strong> — taught by Fenrir Jiu-Jitsu Academy · 2:13 · <a href="https://www.youtube.com/watch?v=dKsWGZXo3Zw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

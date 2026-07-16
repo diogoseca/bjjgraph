@@ -34,6 +34,43 @@ description: "Learn Posture Recovery to Closed Guard in BJJ. Systematic guard re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery to Closed Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle to closed guard recovery",
+      "description": "Posture Recovery to Closed Guard film study: Turtle to closed guard recovery, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8i0nvpE4aAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8i0nvpE4aAI",
+      "url": "https://www.youtube.com/watch?v=8i0nvpE4aAI",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering guard from the turtle position",
+      "description": "Posture Recovery to Closed Guard film study: Recovering guard from the turtle position, taught by Gracie Barra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PYk5Ei2IZBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PYk5Ei2IZBk",
+      "url": "https://www.youtube.com/watch?v=PYk5Ei2IZBk",
+      "creator": { "@type": "Person", "name": "Gracie Barra" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this transition is essential because it transforms a position whe
 **Success Rate**: 26%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery to Closed Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8i0nvpE4aAI)
+
+<p class="clip-credit"><strong>Turtle to closed guard recovery</strong> — taught by Revolution BJJ Ashland · 0:50 · <a href="https://www.youtube.com/watch?v=8i0nvpE4aAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PYk5Ei2IZBk)
+
+<p class="clip-credit"><strong>Recovering guard from the turtle position</strong> — taught by Gracie Barra · 0:53 · <a href="https://www.youtube.com/watch?v=PYk5Ei2IZBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

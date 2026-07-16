@@ -34,6 +34,54 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Headquarters Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Headquarters Position to Knee-Cut Pass",
+      "description": "Headquarters Pass film study: Headquarters Position to Knee-Cut Pass, taught by Tony Casarez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IUvwQc_Y6RA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IUvwQc_Y6RA",
+      "url": "https://www.youtube.com/watch?v=IUvwQc_Y6RA",
+      "creator": { "@type": "Person", "name": "Tony Casarez" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount Pass from Headquarters",
+      "description": "Headquarters Pass film study: Mount Pass from Headquarters, taught by Reding Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YNmgTjIxtNQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YNmgTjIxtNQ",
+      "url": "https://www.youtube.com/watch?v=YNmgTjIxtNQ",
+      "creator": { "@type": "Person", "name": "Reding Martial Arts" },
+      "duration": "PT159S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Headquarters Smash Pass",
+      "description": "Headquarters Pass film study: Headquarters Smash Pass, taught by OMJJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VDsDFK-ntLE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VDsDFK-ntLE",
+      "url": "https://www.youtube.com/watch?v=VDsDFK-ntLE",
+      "creator": { "@type": "Person", "name": "OMJJJ" },
+      "duration": "PT195S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ Drawn from modern systematic guard passing, the Headquarters Pass converts the h
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Headquarters Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IUvwQc_Y6RA)
+
+<p class="clip-credit"><strong>Headquarters Position to Knee-Cut Pass</strong> — taught by Tony Casarez · 1:49 · <a href="https://www.youtube.com/watch?v=IUvwQc_Y6RA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YNmgTjIxtNQ)
+
+<p class="clip-credit"><strong>Mount Pass from Headquarters</strong> — taught by Reding Martial Arts · 2:39 · <a href="https://www.youtube.com/watch?v=YNmgTjIxtNQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VDsDFK-ntLE)
+
+<p class="clip-credit"><strong>Headquarters Smash Pass</strong> — taught by OMJJJ · 3:15 · <a href="https://www.youtube.com/watch?v=VDsDFK-ntLE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

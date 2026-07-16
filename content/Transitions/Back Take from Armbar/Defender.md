@@ -156,6 +156,43 @@ description: "Learn to defend the back take from armbar position in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Armbar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Failed armbar to back take",
+      "description": "Back Take from Armbar (Defender) film study: Failed armbar to back take, taught by Alliance Coral Springs coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s7Nrm5czeOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s7Nrm5czeOU",
+      "url": "https://www.youtube.com/watch?v=s7Nrm5czeOU",
+      "creator": { "@type": "Person", "name": "Alliance Coral Springs coach" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar escape before the back take",
+      "description": "Back Take from Armbar (Defender) film study: Armbar escape before the back take, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -167,6 +204,34 @@ The transition window between armbar control and back control represents a brief
 **Opponent's Starting Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Armbar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s7Nrm5czeOU)
+
+<p class="clip-credit"><strong>Failed armbar to back take</strong> — taught by Alliance Coral Springs coach · 1:07 · <a href="https://www.youtube.com/watch?v=s7Nrm5czeOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Armbar escape before the back take</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

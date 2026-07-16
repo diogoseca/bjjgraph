@@ -34,6 +34,54 @@ description: "Master the transition to Double Sleeve Guard in BJJ. Learn grip se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Double Sleeve Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard double sleeve sweep",
+      "description": "Open Guard to Double Sleeve Guard film study: Closed guard double sleeve sweep, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_PmAwfEXEss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_PmAwfEXEss",
+      "url": "https://www.youtube.com/watch?v=_PmAwfEXEss",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "2-on-1 sleeve grip attacks",
+      "description": "Open Guard to Double Sleeve Guard film study: 2-on-1 sleeve grip attacks, taught by Kenneth Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nnE8rPGGIto/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nnE8rPGGIto",
+      "url": "https://www.youtube.com/watch?v=nnE8rPGGIto",
+      "creator": { "@type": "Person", "name": "Kenneth Brown" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Butterfly guard double sleeve hook flip",
+      "description": "Open Guard to Double Sleeve Guard film study: Butterfly guard double sleeve hook flip, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7xYsEyYxF_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7xYsEyYxF_U",
+      "url": "https://www.youtube.com/watch?v=7xYsEyYxF_U",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition is most effective against opponents who maintain 
 **Success Rate**: 65%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Double Sleeve Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_PmAwfEXEss)
+
+<p class="clip-credit"><strong>Closed guard double sleeve sweep</strong> — taught by Revolution BJJ · 1:42 · <a href="https://www.youtube.com/watch?v=_PmAwfEXEss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nnE8rPGGIto)
+
+<p class="clip-credit"><strong>2-on-1 sleeve grip attacks</strong> — taught by Kenneth Brown · 1:51 · <a href="https://www.youtube.com/watch?v=nnE8rPGGIto" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7xYsEyYxF_U)
+
+<p class="clip-credit"><strong>Butterfly guard double sleeve hook flip</strong> — taught by Carlos Machado · 1:45 · <a href="https://www.youtube.com/watch?v=7xYsEyYxF_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

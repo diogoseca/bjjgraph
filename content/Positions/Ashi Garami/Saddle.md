@@ -34,6 +34,54 @@ description: "Master saddle position mechanics with systematic entries, control 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Honey hole from Single Leg X",
+      "description": "Saddle film study: Honey hole from Single Leg X, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VmxgqU-ScTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VmxgqU-ScTM",
+      "url": "https://www.youtube.com/watch?v=VmxgqU-ScTM",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single Leg X to honey hole drill",
+      "description": "Saddle film study: Single Leg X to honey hole drill, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IFuZ5o48t8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IFuZ5o48t8I",
+      "url": "https://www.youtube.com/watch?v=IFuZ5o48t8I",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shoulder roll to cross ashi (saddle)",
+      "description": "Saddle film study: Shoulder roll to cross ashi (saddle), taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eRQVlYxFx1Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eRQVlYxFx1Y",
+      "url": "https://www.youtube.com/watch?v=eRQVlYxFx1Y",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ The modern Saddle game emphasizes control before submission, contrary to earlier
 Understanding the Saddle requires knowledge of both the offensive and defensive perspectives. From bottom, practitioners must recognize the catastrophic danger of this position and employ systematic escape protocols that prioritize protecting the heel, clearing the hip line, and creating space for leg extraction. From top, practitioners must understand the nuanced details that separate a loose leg entanglement from a dominant Saddle—factors including hip pressure, shoulder positioning, grip selection, and maintaining perpendicular alignment to the opponent's body.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VmxgqU-ScTM)
+
+<p class="clip-credit"><strong>Honey hole from Single Leg X</strong> — taught by Danny Mitchell · 0:34 · <a href="https://www.youtube.com/watch?v=VmxgqU-ScTM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IFuZ5o48t8I)
+
+<p class="clip-credit"><strong>Single Leg X to honey hole drill</strong> — taught by Gracie Westchase · 1:10 · <a href="https://www.youtube.com/watch?v=IFuZ5o48t8I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eRQVlYxFx1Y)
+
+<p class="clip-credit"><strong>Shoulder roll to cross ashi (saddle)</strong> — taught by bjj doug · 0:42 · <a href="https://www.youtube.com/watch?v=eRQVlYxFx1Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

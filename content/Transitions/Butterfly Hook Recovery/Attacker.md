@@ -168,6 +168,43 @@ description: "How to execute Butterfly Hook Recovery in BJJ. Attacking perspecti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Hook Recovery (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Butterfly Hook Recovery (Attacker) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard recovery variation",
+      "description": "Butterfly Hook Recovery (Attacker) film study: Guard recovery variation, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SMTORT8NDGw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SMTORT8NDGw",
+      "url": "https://www.youtube.com/watch?v=SMTORT8NDGw",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT185S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Timing is the critical factor that separates successful butterfly hook recoverie
 **From Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Hook Recovery (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SMTORT8NDGw)
+
+<p class="clip-credit"><strong>Guard recovery variation</strong> — taught by Marcelo Garcia · 3:05 · <a href="https://www.youtube.com/watch?v=SMTORT8NDGw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

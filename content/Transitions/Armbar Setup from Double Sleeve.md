@@ -34,6 +34,43 @@ description: "Master the armbar setup from double sleeve guard in BJJ. Complete 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar Setup from Double Sleeve \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rafa Mendes open guard armbar",
+      "description": "Armbar Setup from Double Sleeve film study: Rafa Mendes open guard armbar, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZNhU5mY852E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZNhU5mY852E",
+      "url": "https://www.youtube.com/watch?v=ZNhU5mY852E",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rafael Mendes armlock from guard",
+      "description": "Armbar Setup from Double Sleeve film study: Rafael Mendes armlock from guard, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N6qdp3-I8bY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N6qdp3-I8bY",
+      "url": "https://www.youtube.com/watch?v=N6qdp3-I8bY",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique integrates seamlessly into the double sleeve guard's broader offe
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar Setup from Double Sleeve in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZNhU5mY852E)
+
+<p class="clip-credit"><strong>Rafa Mendes open guard armbar</strong> — taught by Rafael Mendes · 0:45 · <a href="https://www.youtube.com/watch?v=ZNhU5mY852E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N6qdp3-I8bY)
+
+<p class="clip-credit"><strong>Rafael Mendes armlock from guard</strong> — taught by Rafael Mendes · 2:17 · <a href="https://www.youtube.com/watch?v=N6qdp3-I8bY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

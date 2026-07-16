@@ -168,6 +168,43 @@ description: "How to execute Arm Extraction in BJJ. Attacking perspective with s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Extraction (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Limp arm escape from side control",
+      "description": "Arm Extraction (Attacker) film study: Limp arm escape from side control, taught by United BJJ Hawaii.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YhkVpXhiAho/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YhkVpXhiAho",
+      "url": "https://www.youtube.com/watch?v=YhkVpXhiAho",
+      "creator": { "@type": "Person", "name": "United BJJ Hawaii" },
+      "duration": "PT128S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to free the trapped arm",
+      "description": "Arm Extraction (Attacker) film study: How to free the trapped arm, taught by The Fight Centre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aw_eTRRuDz8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aw_eTRRuDz8",
+      "url": "https://www.youtube.com/watch?v=aw_eTRRuDz8",
+      "creator": { "@type": "Person", "name": "The Fight Centre" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ This escape is particularly effective against pressure-based top players who pri
 **From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Extraction (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YhkVpXhiAho)
+
+<p class="clip-credit"><strong>Limp arm escape from side control</strong> — taught by United BJJ Hawaii · 2:08 · <a href="https://www.youtube.com/watch?v=YhkVpXhiAho" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aw_eTRRuDz8)
+
+<p class="clip-credit"><strong>How to free the trapped arm</strong> — taught by The Fight Centre · 3:27 · <a href="https://www.youtube.com/watch?v=aw_eTRRuDz8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

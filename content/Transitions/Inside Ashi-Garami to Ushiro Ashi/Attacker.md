@@ -180,6 +180,43 @@ description: "Learn to execute Inside Ashi-Garami to Ushiro Ashi as the attacker
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami to Ushiro Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "V grip from top ushiro transition",
+      "description": "Inside Ashi-Garami to Ushiro Ashi (Attacker) film study: V grip from top ushiro transition, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
+      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Outside ashi garami leg lock series",
+      "description": "Inside Ashi-Garami to Ushiro Ashi (Attacker) film study: Outside ashi garami leg lock series, taught by 10th Planet Torrance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WvUalQ3yOpY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WvUalQ3yOpY",
+      "url": "https://www.youtube.com/watch?v=WvUalQ3yOpY",
+      "creator": { "@type": "Person", "name": "10th Planet Torrance" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ The attacker in the Inside Ashi-Garami to Ushiro Ashi transition must convert th
 **From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami to Ushiro Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lTsK9C_a6po)
+
+<p class="clip-credit"><strong>V grip from top ushiro transition</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WvUalQ3yOpY)
+
+<p class="clip-credit"><strong>Outside ashi garami leg lock series</strong> — taught by 10th Planet Torrance · 1:13 · <a href="https://www.youtube.com/watch?v=WvUalQ3yOpY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

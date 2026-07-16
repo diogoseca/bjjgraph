@@ -34,6 +34,54 @@ description: "Master Butterfly Hook Control in BJJ. Strategic guide covering hoo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Hook Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly guard highlights",
+      "description": "Butterfly Hook Control film study: Butterfly guard highlights, taught by Forge Forward.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OQCEokRYP4c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OQCEokRYP4c",
+      "url": "https://www.youtube.com/watch?v=OQCEokRYP4c",
+      "creator": { "@type": "Person", "name": "Forge Forward" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly sweep on hip, one hook",
+      "description": "Butterfly Hook Control film study: Butterfly sweep on hip, one hook, taught by Nine Nine Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ywB6TEyjyRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ywB6TEyjyRM",
+      "url": "https://www.youtube.com/watch?v=ywB6TEyjyRM",
+      "creator": { "@type": "Person", "name": "Nine Nine Jiu Jitsu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Marcelo Garcia butterfly sweep",
+      "description": "Butterfly Hook Control film study: Marcelo Garcia butterfly sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
+      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ From the top perspective, butterfly hook control presents a unique passing puzzl
 The position serves as a crucial gateway in modern BJJ, connecting standing positions to ground-based guards and providing seamless transitions to leg entanglement systems, back attacks, and traditional top positions. Mastery of butterfly hook control—from both perspectives—is essential for developing well-rounded grappling skills and understanding the flow of positional chess that defines high-level competition.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Hook Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OQCEokRYP4c)
+
+<p class="clip-credit"><strong>Butterfly guard highlights</strong> — taught by Forge Forward · 1:18 · <a href="https://www.youtube.com/watch?v=OQCEokRYP4c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ywB6TEyjyRM)
+
+<p class="clip-credit"><strong>Butterfly sweep on hip, one hook</strong> — taught by Nine Nine Jiu Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=ywB6TEyjyRM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+
+<p class="clip-credit"><strong>Marcelo Garcia butterfly sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

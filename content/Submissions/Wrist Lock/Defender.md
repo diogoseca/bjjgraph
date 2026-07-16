@@ -145,6 +145,43 @@ description: "Defend the Wrist Lock (mão de vaca): recognize the flexion attack
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Wrist Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape a Painful Armlock",
+      "description": "Wrist Lock (Defender) film study: How to Escape a Painful Armlock, taught by Full Circle Fighting System.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w9YMlr_ru7I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w9YMlr_ru7I",
+      "url": "https://www.youtube.com/watch?v=w9YMlr_ru7I",
+      "creator": { "@type": "Person", "name": "Full Circle Fighting System" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defend Any Wrist Lock Attack",
+      "description": "Wrist Lock (Defender) film study: Defend Any Wrist Lock Attack, taught by Kevin Goat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H4O_WHpAxvQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H4O_WHpAxvQ",
+      "url": "https://www.youtube.com/watch?v=H4O_WHpAxvQ",
+      "creator": { "@type": "Person", "name": "Kevin Goat" },
+      "duration": "PT219S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -158,6 +195,34 @@ As the defender, you are usually the top player posturing inside closed guard wi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Wrist Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w9YMlr_ru7I)
+
+<p class="clip-credit"><strong>How to Escape a Painful Armlock</strong> — taught by Full Circle Fighting System · 1:07 · <a href="https://www.youtube.com/watch?v=w9YMlr_ru7I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H4O_WHpAxvQ)
+
+<p class="clip-credit"><strong>Defend Any Wrist Lock Attack</strong> — taught by Kevin Goat · 3:39 · <a href="https://www.youtube.com/watch?v=H4O_WHpAxvQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

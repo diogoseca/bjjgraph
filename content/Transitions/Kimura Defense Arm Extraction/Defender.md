@@ -140,6 +140,54 @@ description: "Master the defender perspective against Kimura Defense Arm Extract
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Defense Arm Extraction (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two kimura finishes when hands stay locked",
+      "description": "Kimura Defense Arm Extraction (Defender) film study: Two kimura finishes when hands stay locked, taught by Ryan Scialoia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8dHXG7x-l_k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8dHXG7x-l_k",
+      "url": "https://www.youtube.com/watch?v=8dHXG7x-l_k",
+      "creator": { "@type": "Person", "name": "Ryan Scialoia" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura part three grip retention details",
+      "description": "Kimura Defense Arm Extraction (Defender) film study: Kimura part three grip retention details, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/39oJgyK1iz0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/39oJgyK1iz0",
+      "url": "https://www.youtube.com/watch?v=39oJgyK1iz0",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT185S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering kimuras from half guard top with one grip",
+      "description": "Kimura Defense Arm Extraction (Defender) film study: Countering kimuras from half guard top with one grip, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FoAYceaEPLc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FoAYceaEPLc",
+      "url": "https://www.youtube.com/watch?v=FoAYceaEPLc",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT277S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Kimura Defense Arm Extraction, you are the Kimura gr
 **Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Defense Arm Extraction (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8dHXG7x-l_k)
+
+<p class="clip-credit"><strong>Two kimura finishes when hands stay locked</strong> — taught by Ryan Scialoia · 1:54 · <a href="https://www.youtube.com/watch?v=8dHXG7x-l_k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=39oJgyK1iz0)
+
+<p class="clip-credit"><strong>Kimura part three grip retention details</strong> — taught by John Danaher · 3:05 · <a href="https://www.youtube.com/watch?v=39oJgyK1iz0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FoAYceaEPLc)
+
+<p class="clip-credit"><strong>Countering kimuras from half guard top with one grip</strong> — taught by Chewjitsu · 4:37 · <a href="https://www.youtube.com/watch?v=FoAYceaEPLc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

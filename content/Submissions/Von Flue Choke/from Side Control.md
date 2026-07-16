@@ -34,6 +34,54 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Von Flue Choke from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Control to Von Flue Choke",
+      "description": "Von Flue Choke from Side Control film study: Side Control to Von Flue Choke, taught by Fenrir Thorvaldsen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0Iv9WUpKb4E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0Iv9WUpKb4E",
+      "url": "https://www.youtube.com/watch?v=0Iv9WUpKb4E",
+      "creator": { "@type": "Person", "name": "Fenrir Thorvaldsen" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Von Flue Choke",
+      "description": "Von Flue Choke from Side Control film study: The Von Flue Choke, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ExQHrRPcvLM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ExQHrRPcvLM",
+      "url": "https://www.youtube.com/watch?v=ExQHrRPcvLM",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Von Flue Pressure Choke",
+      "description": "Von Flue Choke from Side Control film study: Von Flue Pressure Choke, taught by Stafford MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xpWNlOoalKs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xpWNlOoalKs",
+      "url": "https://www.youtube.com/watch?v=xpWNlOoalKs",
+      "creator": { "@type": "Person", "name": "Stafford MMA" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 **Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Von Flue Choke from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0Iv9WUpKb4E)
+
+<p class="clip-credit"><strong>Side Control to Von Flue Choke</strong> — taught by Fenrir Thorvaldsen · 1:28 · <a href="https://www.youtube.com/watch?v=0Iv9WUpKb4E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ExQHrRPcvLM)
+
+<p class="clip-credit"><strong>The Von Flue Choke</strong> — taught by Coach Brian · 1:28 · <a href="https://www.youtube.com/watch?v=ExQHrRPcvLM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xpWNlOoalKs)
+
+<p class="clip-credit"><strong>Von Flue Pressure Choke</strong> — taught by Stafford MMA · 1:59 · <a href="https://www.youtube.com/watch?v=xpWNlOoalKs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

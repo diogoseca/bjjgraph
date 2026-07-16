@@ -34,6 +34,54 @@ description: "Master Truck Entry in BJJ. Step-by-step guide to transitioning fro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Truck in transition from turtle",
+      "description": "Truck Entry film study: The Truck in transition from turtle, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two entries into the Truck",
+      "description": "Truck Entry film study: Two entries into the Truck, taught by Geo Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y693ZHlCd2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y693ZHlCd2Q",
+      "url": "https://www.youtube.com/watch?v=Y693ZHlCd2Q",
+      "creator": { "@type": "Person", "name": "Geo Martinez" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle series: Truck entry",
+      "description": "Truck Entry film study: Turtle series: Truck entry, taught by Courage Training Centre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yGkKdnPksik/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yGkKdnPksik",
+      "url": "https://www.youtube.com/watch?v=yGkKdnPksik",
+      "creator": { "@type": "Person", "name": "Courage Training Centre" },
+      "duration": "PT109S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +115,42 @@ The Truck Entry capitalizes on the turtle position's inherent vulnerability: whi
 **Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The Truck in transition from turtle</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y693ZHlCd2Q)
+
+<p class="clip-credit"><strong>Two entries into the Truck</strong> — taught by Geo Martinez · 1:40 · <a href="https://www.youtube.com/watch?v=Y693ZHlCd2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yGkKdnPksik)
+
+<p class="clip-credit"><strong>Turtle series: Truck entry</strong> — taught by Courage Training Centre · 1:49 · <a href="https://www.youtube.com/watch?v=yGkKdnPksik" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

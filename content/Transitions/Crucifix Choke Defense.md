@@ -34,6 +34,43 @@ description: "Defend chokes from crucifix bottom in BJJ. Complete guide to grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix Choke Defense \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple crucifix escape",
+      "description": "Crucifix Choke Defense film study: Simple crucifix escape, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
+      "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix escape with a back roll",
+      "description": "Crucifix Choke Defense film study: Crucifix escape with a back roll, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6vb_D-aobfg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6vb_D-aobfg",
+      "url": "https://www.youtube.com/watch?v=6vb_D-aobfg",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a strategic perspective, the Crucifix Choke Defense serves as a gateway tec
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix Choke Defense in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
+
+<p class="clip-credit"><strong>Simple crucifix escape</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6vb_D-aobfg)
+
+<p class="clip-credit"><strong>Crucifix escape with a back roll</strong> — taught by Adam Bradley · 3:09 · <a href="https://www.youtube.com/watch?v=6vb_D-aobfg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

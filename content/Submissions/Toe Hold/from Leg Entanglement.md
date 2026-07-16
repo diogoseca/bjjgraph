@@ -34,6 +34,54 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Leg Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crossover toe hold",
+      "description": "Toe Hold from Leg Entanglement film study: Crossover toe hold, taught by Bence Romanek.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Bence Romanek" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking the toe hold from outside ashi garami",
+      "description": "Toe Hold from Leg Entanglement film study: Attacking the toe hold from outside ashi garami, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zsnGef5-N2g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zsnGef5-N2g",
+      "url": "https://www.youtube.com/watch?v=zsnGef5-N2g",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT202S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "80/20, 50/50, and the power toe hold",
+      "description": "Toe Hold from Leg Entanglement film study: 80/20, 50/50, and the power toe hold, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r0P10HUFRV4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r0P10HUFRV4",
+      "url": "https://www.youtube.com/watch?v=r0P10HUFRV4",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT178S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +124,42 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 **Starting Position**: [[Positions/Leg Entanglement]] · **From**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Leg Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Crossover toe hold</strong> — taught by Bence Romanek · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zsnGef5-N2g)
+
+<p class="clip-credit"><strong>Attacking the toe hold from outside ashi garami</strong> — taught by Brian Glick · 3:22 · <a href="https://www.youtube.com/watch?v=zsnGef5-N2g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r0P10HUFRV4)
+
+<p class="clip-credit"><strong>80/20, 50/50, and the power toe hold</strong> — taught by Revolution BJJ · 2:58 · <a href="https://www.youtube.com/watch?v=r0P10HUFRV4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

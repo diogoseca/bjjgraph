@@ -35,6 +35,54 @@ description: "Master the Knee Slice Pass in BJJ. High-percentage guard passing t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside knee cut pass through the knee shield",
+      "description": "Knee Slice Pass film study: Inside knee cut pass through the knee shield, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double collar grip to knee slice pass",
+      "description": "Knee Slice Pass film study: Double collar grip to knee slice pass, taught by Clube De Lutas Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TIsH40L5AVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TIsH40L5AVQ",
+      "url": "https://www.youtube.com/watch?v=TIsH40L5AVQ",
+      "creator": { "@type": "Person", "name": "Clube De Lutas Australia" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee cut pass into saddle entry",
+      "description": "Knee Slice Pass film study: Knee cut pass into saddle entry, taught by thejiujitsupedia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p40WssWwJoY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p40WssWwJoY",
+      "url": "https://www.youtube.com/watch?v=p40WssWwJoY",
+      "creator": { "@type": "Person", "name": "thejiujitsupedia" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -73,6 +121,42 @@ Understanding the knee slice is essential for developing a complete passing game
 **Success Rate**: 54%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
+
+<p class="clip-credit"><strong>Inside knee cut pass through the knee shield</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TIsH40L5AVQ)
+
+<p class="clip-credit"><strong>Double collar grip to knee slice pass</strong> — taught by Clube De Lutas Australia · 0:47 · <a href="https://www.youtube.com/watch?v=TIsH40L5AVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p40WssWwJoY)
+
+<p class="clip-credit"><strong>Knee cut pass into saddle entry</strong> — taught by thejiujitsupedia · 0:48 · <a href="https://www.youtube.com/watch?v=p40WssWwJoY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

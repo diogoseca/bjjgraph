@@ -154,6 +154,54 @@ description: "How to defend against Harai Goshi in BJJ. Recognition cues, defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harai Goshi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi counter to harai goshi",
+      "description": "Harai Goshi (Defender) film study: No-gi counter to harai goshi, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Lpx5dn3D9uI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Lpx5dn3D9uI",
+      "url": "https://www.youtube.com/watch?v=Lpx5dn3D9uI",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT248S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Utsuri-goshi counter against turn throws",
+      "description": "Harai Goshi (Defender) film study: Utsuri-goshi counter against turn throws, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pyzYfHXivs4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pyzYfHXivs4",
+      "url": "https://www.youtube.com/watch?v=pyzYfHXivs4",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT233S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Judo throw counter-attacks",
+      "description": "Harai Goshi (Defender) film study: Judo throw counter-attacks, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7HnA1zd5Rs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7HnA1zd5Rs",
+      "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -163,6 +211,42 @@ Defending Harai Goshi requires understanding the throw's sequential mechanics so
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harai Goshi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Lpx5dn3D9uI)
+
+<p class="clip-credit"><strong>No-gi counter to harai goshi</strong> — taught by Andrew Smith · 4:08 · <a href="https://www.youtube.com/watch?v=Lpx5dn3D9uI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pyzYfHXivs4)
+
+<p class="clip-credit"><strong>Utsuri-goshi counter against turn throws</strong> — taught by Shintaro Higashi · 3:53 · <a href="https://www.youtube.com/watch?v=pyzYfHXivs4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
+
+<p class="clip-credit"><strong>Judo throw counter-attacks</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

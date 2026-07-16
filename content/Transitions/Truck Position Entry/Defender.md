@@ -148,6 +148,54 @@ description: "How to defend against Truck Position Entry in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck Position Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Truck back take and escapes",
+      "description": "Truck Position Entry (Defender) film study: Truck back take and escapes, taught by Mint Flow Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KQdaDNNGBro/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KQdaDNNGBro",
+      "url": "https://www.youtube.com/watch?v=KQdaDNNGBro",
+      "creator": { "@type": "Person", "name": "Mint Flow Jiu-Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Truck back take vs babybridge and hawkins defenses",
+      "description": "Truck Position Entry (Defender) film study: Truck back take vs babybridge and hawkins defenses, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LA-AdwNMGvc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LA-AdwNMGvc",
+      "url": "https://www.youtube.com/watch?v=LA-AdwNMGvc",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the rolling back take (Truck roll)",
+      "description": "Truck Position Entry (Defender) film study: Defending the rolling back take (Truck roll), taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders integrate awareness of the Truck entry threat into their over
 **Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck Position Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KQdaDNNGBro)
+
+<p class="clip-credit"><strong>Truck back take and escapes</strong> — taught by Mint Flow Jiu-Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=KQdaDNNGBro" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LA-AdwNMGvc)
+
+<p class="clip-credit"><strong>Truck back take vs babybridge and hawkins defenses</strong> — taught by Wim Deputter · 2:42 · <a href="https://www.youtube.com/watch?v=LA-AdwNMGvc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the rolling back take (Truck roll)</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

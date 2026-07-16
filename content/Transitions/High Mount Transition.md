@@ -34,6 +34,54 @@ description: "Master the High Mount Transition from Gogoplata Control. Learn to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Mount Transition \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber Guard Highlight - transitions to mount",
+      "description": "High Mount Transition film study: Rubber Guard Highlight - transitions to mount, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sbEYWj8spgg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sbEYWj8spgg",
+      "url": "https://www.youtube.com/watch?v=sbEYWj8spgg",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT199S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic attacks from the Rubber Guard",
+      "description": "High Mount Transition film study: Basic attacks from the Rubber Guard, taught by Submissions101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_8d4U011yLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_8d4U011yLU",
+      "url": "https://www.youtube.com/watch?v=_8d4U011yLU",
+      "creator": { "@type": "Person", "name": "Submissions101" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gogoplata from Rubber Guard",
+      "description": "High Mount Transition film study: Gogoplata from Rubber Guard, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wn39-wrfsbs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wn39-wrfsbs",
+      "url": "https://www.youtube.com/watch?v=wn39-wrfsbs",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT420S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Mount Transition in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sbEYWj8spgg)
+
+<p class="clip-credit"><strong>Rubber Guard Highlight - transitions to mount</strong> — taught by Brandon McCaghren · 3:19 · <a href="https://www.youtube.com/watch?v=sbEYWj8spgg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_8d4U011yLU)
+
+<p class="clip-credit"><strong>Basic attacks from the Rubber Guard</strong> — taught by Submissions101 · 1:02 · <a href="https://www.youtube.com/watch?v=_8d4U011yLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wn39-wrfsbs)
+
+<p class="clip-credit"><strong>Gogoplata from Rubber Guard</strong> — taught by Brandon McCaghren · 7:00 · <a href="https://www.youtube.com/watch?v=wn39-wrfsbs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

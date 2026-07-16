@@ -34,6 +34,54 @@ description: "Master twister side control in BJJ. Complete strategic guide cover
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side control",
+      "description": "Twister Side Control film study: Twister side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side attacks",
+      "description": "Twister Side Control film study: Twister side attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Smash side control",
+      "description": "Twister Side Control film study: Smash side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oBya4BEW_XU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oBya4BEW_XU",
+      "url": "https://www.youtube.com/watch?v=oBya4BEW_XU",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +124,42 @@ From a game theory perspective, Twister Side Control exemplifies the dilemma-cre
 The learning curve for Twister Side Control is significant, requiring practitioners to develop specialized skills including leg entanglement maintenance, torque application, and submission chains. Beginners often struggle with the position's unconventional mechanics and the coordination required to maintain control while pursuing submissions. Intermediate practitioners develop better positional understanding and can maintain the position under pressure, though finishing rates remain moderate. Advanced practitioners integrate Twister Side Control seamlessly into their overall game, using it as both a finishing position and a transitional platform to other dominant positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister side attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oBya4BEW_XU)
+
+<p class="clip-credit"><strong>Smash side control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oBya4BEW_XU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against Lasso Guard Pass in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prevent the leg weave with lasso",
+      "description": "Lasso Guard Pass (Defender) film study: Prevent the leg weave with lasso, taught by Grand Union Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tO5rPtjfsGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tO5rPtjfsGE",
+      "url": "https://www.youtube.com/watch?v=tO5rPtjfsGE",
+      "creator": { "@type": "Person", "name": "Grand Union Jiu Jitsu" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Short lasso guard retention",
+      "description": "Lasso Guard Pass (Defender) film study: Short lasso guard retention, taught by Dean Lewis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QT_3oCZJ-3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QT_3oCZJ-3Y",
+      "url": "https://www.youtube.com/watch?v=QT_3oCZJ-3Y",
+      "creator": { "@type": "Person", "name": "Dean Lewis" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Why your lasso guard is easy to pass",
+      "description": "Lasso Guard Pass (Defender) film study: Why your lasso guard is easy to pass, taught by Darin Conner DeAngelis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gRz_Kv4HUN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gRz_Kv4HUN4",
+      "url": "https://www.youtube.com/watch?v=gRz_Kv4HUN4",
+      "creator": { "@type": "Person", "name": "Darin Conner DeAngelis" },
+      "duration": "PT239S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Lasso Guard Pass means you are the lasso guard player whose guard 
 **Opponent's Starting Position**: [[Positions/Lasso Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tO5rPtjfsGE)
+
+<p class="clip-credit"><strong>Prevent the leg weave with lasso</strong> — taught by Grand Union Jiu Jitsu · 0:54 · <a href="https://www.youtube.com/watch?v=tO5rPtjfsGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QT_3oCZJ-3Y)
+
+<p class="clip-credit"><strong>Short lasso guard retention</strong> — taught by Dean Lewis · 3:14 · <a href="https://www.youtube.com/watch?v=QT_3oCZJ-3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gRz_Kv4HUN4)
+
+<p class="clip-credit"><strong>Why your lasso guard is easy to pass</strong> — taught by Darin Conner DeAngelis · 3:59 · <a href="https://www.youtube.com/watch?v=gRz_Kv4HUN4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

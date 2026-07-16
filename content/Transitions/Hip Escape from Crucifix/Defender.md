@@ -140,6 +140,43 @@ description: "Learn to counter the hip escape from crucifix in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bulldog choke to punish the crucifix escape",
+      "description": "Hip Escape from Crucifix (Defender) film study: Bulldog choke to punish the crucifix escape, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wt2NW_hfTd0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wt2NW_hfTd0",
+      "url": "https://www.youtube.com/watch?v=Wt2NW_hfTd0",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Holding the crucifix to the mata leao finish",
+      "description": "Hip Escape from Crucifix (Defender) film study: Holding the crucifix to the mata leao finish, taught by Modesto Grappling Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iSMGZRoSaPM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iSMGZRoSaPM",
+      "url": "https://www.youtube.com/watch?v=iSMGZRoSaPM",
+      "creator": { "@type": "Person", "name": "Modesto Grappling Club" },
+      "duration": "PT306S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the crucifix controller defending against the hip escape, your objective is t
 **Opponent's Starting Position**: [[Positions/Crucifix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wt2NW_hfTd0)
+
+<p class="clip-credit"><strong>Bulldog choke to punish the crucifix escape</strong> — taught by Mick Hall · 3:48 · <a href="https://www.youtube.com/watch?v=Wt2NW_hfTd0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iSMGZRoSaPM)
+
+<p class="clip-credit"><strong>Holding the crucifix to the mata leao finish</strong> — taught by Modesto Grappling Club · 5:06 · <a href="https://www.youtube.com/watch?v=iSMGZRoSaPM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

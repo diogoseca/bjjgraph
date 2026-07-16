@@ -34,6 +34,43 @@ description: "Master the Back Door Escape from Darce Control in BJJ. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Door Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle escape rolling out to guard",
+      "description": "Back Door Escape film study: Turtle escape rolling out to guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
+      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping out the back into a darce",
+      "description": "Back Door Escape film study: Escaping out the back into a darce, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pdkUm3nuK34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pdkUm3nuK34",
+      "url": "https://www.youtube.com/watch?v=pdkUm3nuK34",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the Back Door Escape represents a last-resort option when arm ext
 **Success Rate**: 20%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Door Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
+
+<p class="clip-credit"><strong>Turtle escape rolling out to guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pdkUm3nuK34)
+
+<p class="clip-credit"><strong>Escaping out the back into a darce</strong> — taught by Thunderdome BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=pdkUm3nuK34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

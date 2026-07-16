@@ -174,6 +174,43 @@ description: "Master executing the Pocket Half Pass in BJJ. Step-by-step guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pocket Half Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Smash passing half guard by controlling the hip pocket",
+      "description": "Pocket Half Pass (Attacker) film study: Smash passing half guard by controlling the hip pocket, taught by Mike Jaramillo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HSXC1cbGxxY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HSXC1cbGxxY",
+      "url": "https://www.youtube.com/watch?v=HSXC1cbGxxY",
+      "creator": { "@type": "Person", "name": "Mike Jaramillo" },
+      "duration": "PT278S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the knee shield in half guard",
+      "description": "Pocket Half Pass (Attacker) film study: Passing the knee shield in half guard, taught by Sticks and Stones BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OsAvmhwQqCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OsAvmhwQqCo",
+      "url": "https://www.youtube.com/watch?v=OsAvmhwQqCo",
+      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ" },
+      "duration": "PT211S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Pocket Half Pass attacker has already won the critical underhook battle and 
 **From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pocket Half Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HSXC1cbGxxY)
+
+<p class="clip-credit"><strong>Smash passing half guard by controlling the hip pocket</strong> — taught by Mike Jaramillo · 4:38 · <a href="https://www.youtube.com/watch?v=HSXC1cbGxxY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OsAvmhwQqCo)
+
+<p class="clip-credit"><strong>Passing the knee shield in half guard</strong> — taught by Sticks and Stones BJJ · 3:31 · <a href="https://www.youtube.com/watch?v=OsAvmhwQqCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

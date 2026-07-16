@@ -153,6 +153,54 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 attacks from collar \u0026 sleeve guard",
+      "description": "Collar Sleeve Guard (Bottom) film study: 3 attacks from collar \u0026 sleeve guard, taught by Giancarlo Bodoni.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SehIaBibwYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SehIaBibwYY",
+      "url": "https://www.youtube.com/watch?v=SehIaBibwYY",
+      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Five sweeps from collar \u0026 sleeve guard",
+      "description": "Collar Sleeve Guard (Bottom) film study: Five sweeps from collar \u0026 sleeve guard, taught by OneontaJiuJitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I2xn1bMaBdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I2xn1bMaBdg",
+      "url": "https://www.youtube.com/watch?v=I2xn1bMaBdg",
+      "creator": { "@type": "Person", "name": "OneontaJiuJitsu Academy" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Collar sleeve over-head sweep",
+      "description": "Collar Sleeve Guard (Bottom) film study: Collar sleeve over-head sweep, taught by luciana MARCOS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wdvJF6S68TI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wdvJF6S68TI",
+      "url": "https://www.youtube.com/watch?v=wdvJF6S68TI",
+      "creator": { "@type": "Person", "name": "luciana MARCOS" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -174,6 +222,42 @@ Energy management in collar sleeve guard bottom requires balancing active moveme
 Transitioning out of collar sleeve guard bottom occurs through successful sweeps, submission attempts, or strategic position changes. Sweeps typically target moments when the opponent's base is compromised by your off-balancing forces. Submission attempts flow naturally from collar sleeve structure, particularly triangles when opponents defend sweeps by posting. Position changes to more advanced guards occur when opponents establish dangerous counter-grips or begin successful passing sequences.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SehIaBibwYY)
+
+<p class="clip-credit"><strong>3 attacks from collar &amp; sleeve guard</strong> — taught by Giancarlo Bodoni · 0:16 · <a href="https://www.youtube.com/watch?v=SehIaBibwYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I2xn1bMaBdg)
+
+<p class="clip-credit"><strong>Five sweeps from collar &amp; sleeve guard</strong> — taught by OneontaJiuJitsu Academy · 1:43 · <a href="https://www.youtube.com/watch?v=I2xn1bMaBdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wdvJF6S68TI)
+
+<p class="clip-credit"><strong>Collar sleeve over-head sweep</strong> — taught by luciana MARCOS · 1:08 · <a href="https://www.youtube.com/watch?v=wdvJF6S68TI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

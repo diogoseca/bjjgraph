@@ -34,6 +34,43 @@ description: "Master the Transition to Leg Hook from Half Guard Top in BJJ. Lear
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Leg Hook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg entanglement entry against the knee shield",
+      "description": "Half Guard to Leg Hook film study: Leg entanglement entry against the knee shield, taught by Grappling Mastery coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kh-rcVO8xgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kh-rcVO8xgE",
+      "url": "https://www.youtube.com/watch?v=kh-rcVO8xgE",
+      "creator": { "@type": "Person", "name": "Grappling Mastery coach" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg lock entry from knee shield half guard",
+      "description": "Half Guard to Leg Hook film study: Leg lock entry from knee shield half guard, taught by Hellfish MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5abrviYxKU8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5abrviYxKU8",
+      "url": "https://www.youtube.com/watch?v=5abrviYxKU8",
+      "creator": { "@type": "Person", "name": "Hellfish MMA coach" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this transition is most effective when combined with strong upper
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Leg Hook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kh-rcVO8xgE)
+
+<p class="clip-credit"><strong>Leg entanglement entry against the knee shield</strong> — taught by Grappling Mastery coach · 0:27 · <a href="https://www.youtube.com/watch?v=kh-rcVO8xgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5abrviYxKU8)
+
+<p class="clip-credit"><strong>Leg lock entry from knee shield half guard</strong> — taught by Hellfish MMA coach · 2:27 · <a href="https://www.youtube.com/watch?v=5abrviYxKU8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

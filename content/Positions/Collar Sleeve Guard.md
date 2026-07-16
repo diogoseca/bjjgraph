@@ -34,6 +34,43 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Intro to the collar \u0026 sleeve guard",
+      "description": "Collar Sleeve Guard film study: Intro to the collar \u0026 sleeve guard, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1piAnOs7xpA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1piAnOs7xpA",
+      "url": "https://www.youtube.com/watch?v=1piAnOs7xpA",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 attacks from collar \u0026 sleeve guard",
+      "description": "Collar Sleeve Guard film study: 3 attacks from collar \u0026 sleeve guard, taught by Giancarlo Bodoni.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SehIaBibwYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SehIaBibwYY",
+      "url": "https://www.youtube.com/watch?v=SehIaBibwYY",
+      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +109,34 @@ In competition contexts, collar sleeve guard appears frequently in gi-based rule
 The position demands active hip movement and constant angle adjustment to remain effective. Static collar sleeve guard allows opponents to establish counter-grips and initiate guard passing sequences. Effective practitioners constantly shift angles, use their legs to create frames and off-balancing forces, and threaten multiple attacks to keep opponents defensive and reactive rather than offensive and controlling.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1piAnOs7xpA)
+
+<p class="clip-credit"><strong>Intro to the collar &amp; sleeve guard</strong> — taught by Mikey Musumeci · 2:38 · <a href="https://www.youtube.com/watch?v=1piAnOs7xpA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SehIaBibwYY)
+
+<p class="clip-credit"><strong>3 attacks from collar &amp; sleeve guard</strong> — taught by Giancarlo Bodoni · 0:16 · <a href="https://www.youtube.com/watch?v=SehIaBibwYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

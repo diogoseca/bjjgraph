@@ -148,6 +148,54 @@ description: "Learn to defend the Sweep from Inverted Guard. Recognition cues, b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Inverted Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion",
+      "description": "Sweep from Inverted Guard (Defender) film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter to the inverted kick sweep",
+      "description": "Sweep from Inverted Guard (Defender) film study: Counter to the inverted kick sweep, taught by Mitsuyoshi Hayakawa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORVVk4OJl5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORVVk4OJl5w",
+      "url": "https://www.youtube.com/watch?v=ORVVk4OJl5w",
+      "creator": { "@type": "Person", "name": "Mitsuyoshi Hayakawa" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering an inversion from top north south",
+      "description": "Sweep from Inverted Guard (Defender) film study: Countering an inversion from top north south, taught by Frankie Roberts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3e82Y_MRj_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3e82Y_MRj_o",
+      "url": "https://www.youtube.com/watch?v=3e82Y_MRj_o",
+      "creator": { "@type": "Person", "name": "Frankie Roberts" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the top player defending against the Sweep from Inverted Guard, your primary 
 **Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Inverted Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORVVk4OJl5w)
+
+<p class="clip-credit"><strong>Counter to the inverted kick sweep</strong> — taught by Mitsuyoshi Hayakawa · 0:16 · <a href="https://www.youtube.com/watch?v=ORVVk4OJl5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3e82Y_MRj_o)
+
+<p class="clip-credit"><strong>Countering an inversion from top north south</strong> — taught by Frankie Roberts · 0:42 · <a href="https://www.youtube.com/watch?v=3e82Y_MRj_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Stack Pass from Inversion in BJJ. Defeat inverted guard
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Inversion \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion",
+      "description": "Stack Pass from Inversion film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass the inverted guard",
+      "description": "Stack Pass from Inversion film study: How to pass the inverted guard, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M6gK8yjDFGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M6gK8yjDFGE",
+      "url": "https://www.youtube.com/watch?v=M6gK8yjDFGE",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the inverted guard",
+      "description": "Stack Pass from Inversion film study: Passing the inverted guard, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P7JKadlMi_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P7JKadlMi_M",
+      "url": "https://www.youtube.com/watch?v=P7JKadlMi_M",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Inversion in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M6gK8yjDFGE)
+
+<p class="clip-credit"><strong>How to pass the inverted guard</strong> — taught by Wim Deputter · 1:31 · <a href="https://www.youtube.com/watch?v=M6gK8yjDFGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P7JKadlMi_M)
+
+<p class="clip-credit"><strong>Passing the inverted guard</strong> — taught by JiuJitsu.com · 1:37 · <a href="https://www.youtube.com/watch?v=P7JKadlMi_M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

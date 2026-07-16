@@ -140,6 +140,43 @@ description: "Defend the Butterfly Guard Pull in BJJ. Recognize pull initiation 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard Pull (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the no-gi 2-on-1 guard pull",
+      "description": "Butterfly Guard Pull (Defender) film study: Countering the no-gi 2-on-1 guard pull, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HC0O_1S2r9g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HC0O_1S2r9g",
+      "url": "https://www.youtube.com/watch?v=HC0O_1S2r9g",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT169S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sprawl defense against a level change",
+      "description": "Butterfly Guard Pull (Defender) film study: Sprawl defense against a level change, taught by WrestlingTournaments.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RKRfwAAw1Gs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RKRfwAAw1Gs",
+      "url": "https://www.youtube.com/watch?v=RKRfwAAw1Gs",
+      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender facing a Butterfly Guard Pull, your primary objective is to prev
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard Pull (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HC0O_1S2r9g)
+
+<p class="clip-credit"><strong>Countering the no-gi 2-on-1 guard pull</strong> — taught by BJJ4Breakfast · 2:49 · <a href="https://www.youtube.com/watch?v=HC0O_1S2r9g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RKRfwAAw1Gs)
+
+<p class="clip-credit"><strong>Sprawl defense against a level change</strong> — taught by WrestlingTournaments.com · 1:15 · <a href="https://www.youtube.com/watch?v=RKRfwAAw1Gs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

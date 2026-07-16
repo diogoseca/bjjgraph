@@ -148,6 +148,54 @@ description: "How to defend against Half Guard to Back Take in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the back take from top deep half guard",
+      "description": "Half Guard to Back Take (Defender) film study: Countering the back take from top deep half guard, taught by JiuJitsu.com coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
+      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com coach" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Detail to shut down the bottom half guard",
+      "description": "Half Guard to Back Take (Defender) film study: Detail to shut down the bottom half guard, taught by Mason Fowler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rk9ZxNBphTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rk9ZxNBphTk",
+      "url": "https://www.youtube.com/watch?v=rk9ZxNBphTk",
+      "creator": { "@type": "Person", "name": "Mason Fowler" },
+      "duration": "PT376S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three ways to defend your back in no-gi",
+      "description": "Half Guard to Back Take (Defender) film study: Three ways to defend your back in no-gi, taught by Matheus Diniz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y113xweZTWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y113xweZTWo",
+      "url": "https://www.youtube.com/watch?v=Y113xweZTWo",
+      "creator": { "@type": "Person", "name": "Matheus Diniz" },
+      "duration": "PT430S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the half guard to back take requires the top player to recognize early
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
+
+<p class="clip-credit"><strong>Countering the back take from top deep half guard</strong> — taught by JiuJitsu.com coach · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rk9ZxNBphTk)
+
+<p class="clip-credit"><strong>Detail to shut down the bottom half guard</strong> — taught by Mason Fowler · 6:16 · <a href="https://www.youtube.com/watch?v=rk9ZxNBphTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y113xweZTWo)
+
+<p class="clip-credit"><strong>Three ways to defend your back in no-gi</strong> — taught by Matheus Diniz · 7:10 · <a href="https://www.youtube.com/watch?v=Y113xweZTWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

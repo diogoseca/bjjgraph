@@ -148,6 +148,43 @@ description: "Defend against the Butterfly Smash in BJJ. Recognition cues, defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash from Butterfly Hook Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head frame to prevent the hug smash pass",
+      "description": "Smash from Butterfly Hook Control (Defender) film study: Head frame to prevent the hug smash pass, taught by Revolution BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/06-ZO93fJak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/06-ZO93fJak",
+      "url": "https://www.youtube.com/watch?v=06-ZO93fJak",
+      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly guard against strong aggressive smashers",
+      "description": "Smash from Butterfly Hook Control (Defender) film study: Butterfly guard against strong aggressive smashers, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RmqIAXU9TWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RmqIAXU9TWE",
+      "url": "https://www.youtube.com/watch?v=RmqIAXU9TWE",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT300S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Butterfly Smash requires the bottom player to recognize early indi
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash from Butterfly Hook Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=06-ZO93fJak)
+
+<p class="clip-credit"><strong>Head frame to prevent the hug smash pass</strong> — taught by Revolution BJJ coach · 1:30 · <a href="https://www.youtube.com/watch?v=06-ZO93fJak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RmqIAXU9TWE)
+
+<p class="clip-credit"><strong>Butterfly guard against strong aggressive smashers</strong> — taught by Marcelo Garcia · 5:00 · <a href="https://www.youtube.com/watch?v=RmqIAXU9TWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Master defending the kneebar to 50-50 transition in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar to 50-50 Transition (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leglock defense from 50/50",
+      "description": "Kneebar to 50-50 Transition (Defender) film study: Leglock defense from 50/50, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
+      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT163S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 counter to taking the back",
+      "description": "Kneebar to 50-50 Transition (Defender) film study: 50/50 counter to taking the back, taught by Thunderdome BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4V3sDIXGfJs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4V3sDIXGfJs",
+      "url": "https://www.youtube.com/watch?v=4V3sDIXGfJs",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ coach" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ From the defender's perspective, the kneebar to 50-50 transition presents both d
 **Opponent's Starting Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar to 50-50 Transition (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+
+<p class="clip-credit"><strong>Leglock defense from 50/50</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4V3sDIXGfJs)
+
+<p class="clip-credit"><strong>50/50 counter to taking the back</strong> — taught by Thunderdome BJJ coach · 0:24 · <a href="https://www.youtube.com/watch?v=4V3sDIXGfJs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

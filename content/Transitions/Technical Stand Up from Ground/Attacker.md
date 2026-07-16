@@ -174,6 +174,54 @@ description: "Learn to execute the Technical Stand Up from Ground. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Stand Up from Ground (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do the technical standup",
+      "description": "Technical Stand Up from Ground (Attacker) film study: How to do the technical standup, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4yc0Swz_El0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4yc0Swz_El0",
+      "url": "https://www.youtube.com/watch?v=4yc0Swz_El0",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Technical stand up drill",
+      "description": "Technical Stand Up from Ground (Attacker) film study: Technical stand up drill, taught by The Jiu-jitsu Ronin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MFm_-kqmE8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MFm_-kqmE8U",
+      "url": "https://www.youtube.com/watch?v=MFm_-kqmE8U",
+      "creator": { "@type": "Person", "name": "The Jiu-jitsu Ronin" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Technical stand up movement breakdown",
+      "description": "Technical Stand Up from Ground (Attacker) film study: Technical stand up movement breakdown, taught by Stasis Jiu Jitsu \u0026 Yoga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bRMQRElVLho/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bRMQRElVLho",
+      "url": "https://www.youtube.com/watch?v=bRMQRElVLho",
+      "creator": { "@type": "Person", "name": "Stasis Jiu Jitsu \u0026 Yoga" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 **From Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Stand Up from Ground (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4yc0Swz_El0)
+
+<p class="clip-credit"><strong>How to do the technical standup</strong> — taught by Ritchie Yip · 0:40 · <a href="https://www.youtube.com/watch?v=4yc0Swz_El0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MFm_-kqmE8U)
+
+<p class="clip-credit"><strong>Technical stand up drill</strong> — taught by The Jiu-jitsu Ronin · 0:31 · <a href="https://www.youtube.com/watch?v=MFm_-kqmE8U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bRMQRElVLho)
+
+<p class="clip-credit"><strong>Technical stand up movement breakdown</strong> — taught by Stasis Jiu Jitsu &amp; Yoga · 1:48 · <a href="https://www.youtube.com/watch?v=bRMQRElVLho" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

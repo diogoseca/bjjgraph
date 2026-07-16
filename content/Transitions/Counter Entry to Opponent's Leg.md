@@ -34,6 +34,54 @@ description: "Learn Counter Entry to Opponent's Leg in BJJ. Neutralize ankle loc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Entry to Opponent\u0027s Leg \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter 50/50 heel hooks with your own leg attack",
+      "description": "Counter Entry to Opponent\u0027s Leg film study: Counter 50/50 heel hooks with your own leg attack, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gpg88DFH9D4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gpg88DFH9D4",
+      "url": "https://www.youtube.com/watch?v=gpg88DFH9D4",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 split into straight foot lock",
+      "description": "Counter Entry to Opponent\u0027s Leg film study: 50/50 split into straight foot lock, taught by Eoghan O\u0027Flanagan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iaLflmlThgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iaLflmlThgE",
+      "url": "https://www.youtube.com/watch?v=iaLflmlThgE",
+      "creator": { "@type": "Person", "name": "Eoghan O\u0027Flanagan" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crossover toe hold counter",
+      "description": "Counter Entry to Opponent\u0027s Leg film study: Crossover toe hold counter, taught by Bence Romanek.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Bence Romanek" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The strategic value extends beyond mere survival. Entering 50-50 from a defensiv
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Entry to Opponent's Leg in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gpg88DFH9D4)
+
+<p class="clip-credit"><strong>Counter 50/50 heel hooks with your own leg attack</strong> — taught by Revolution BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=gpg88DFH9D4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iaLflmlThgE)
+
+<p class="clip-credit"><strong>50/50 split into straight foot lock</strong> — taught by Eoghan O&#39;Flanagan · 1:22 · <a href="https://www.youtube.com/watch?v=iaLflmlThgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Crossover toe hold counter</strong> — taught by Bence Romanek · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

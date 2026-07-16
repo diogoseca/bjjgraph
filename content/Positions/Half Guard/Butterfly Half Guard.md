@@ -34,6 +34,54 @@ description: "Master Butterfly Half Guard in BJJ - a powerful hybrid position co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Armdrag to Back Take (Marcelo style)",
+      "description": "Butterfly Half Guard film study: Reverse Armdrag to Back Take (Marcelo style), taught by Jerry Musquiz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
+      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
+      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rafael Lovato Jr Half Guard Sweep Breakdown",
+      "description": "Butterfly Half Guard film study: Rafael Lovato Jr Half Guard Sweep Breakdown, taught by Rafael Lovato Jr.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-fnzNp6TWQo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-fnzNp6TWQo",
+      "url": "https://www.youtube.com/watch?v=-fnzNp6TWQo",
+      "creator": { "@type": "Person", "name": "Rafael Lovato Jr" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No Gi Butterfly Guard Explained Simply",
+      "description": "Butterfly Half Guard film study: No Gi Butterfly Guard Explained Simply, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wVWtFcfAbgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wVWtFcfAbgE",
+      "url": "https://www.youtube.com/watch?v=wVWtFcfAbgE",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ From a strategic perspective, butterfly half guard excels in situations where ma
 Both bottom and top perspectives of butterfly half guard require distinct strategic approaches. The bottom player focuses on maintaining the butterfly hook's upward pressure, controlling posture through underhooks or collar ties, and recognizing optimal timing for sweep execution. The top player must balance between shutting down the butterfly hook's elevation potential, freeing the trapped leg, and advancing position without overcommitting to movements that expose the back or create scramble opportunities favoring the guard player.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MFed9IE8afA)
+
+<p class="clip-credit"><strong>Reverse Armdrag to Back Take (Marcelo style)</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-fnzNp6TWQo)
+
+<p class="clip-credit"><strong>Rafael Lovato Jr Half Guard Sweep Breakdown</strong> — taught by Rafael Lovato Jr · 1:28 · <a href="https://www.youtube.com/watch?v=-fnzNp6TWQo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wVWtFcfAbgE)
+
+<p class="clip-credit"><strong>No Gi Butterfly Guard Explained Simply</strong> — taught by Jean Jacques Machado · 2:57 · <a href="https://www.youtube.com/watch?v=wVWtFcfAbgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -174,6 +174,54 @@ description: "Master the toreando pass execution against inverted guard. Step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando from Inverted (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Speed passing drill session",
+      "description": "Toreando from Inverted (Attacker) film study: Speed passing drill session, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Qu_9Lcdrh_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Qu_9Lcdrh_w",
+      "url": "https://www.youtube.com/watch?v=Qu_9Lcdrh_w",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT156S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toreando pass with leg drag",
+      "description": "Toreando from Inverted (Attacker) film study: Toreando pass with leg drag, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1l5WTjjtrF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1l5WTjjtrF4",
+      "url": "https://www.youtube.com/watch?v=1l5WTjjtrF4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT452S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three variations of the toreando pass",
+      "description": "Toreando from Inverted (Attacker) film study: Three variations of the toreando pass, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LGwa2fQwWYc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LGwa2fQwWYc",
+      "url": "https://www.youtube.com/watch?v=LGwa2fQwWYc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT713S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the passer facing inverted guard, the toreando provides a speed-based passing
 **From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando from Inverted (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Qu_9Lcdrh_w)
+
+<p class="clip-credit"><strong>Speed passing drill session</strong> — taught by Rafael Mendes · 2:36 · <a href="https://www.youtube.com/watch?v=Qu_9Lcdrh_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1l5WTjjtrF4)
+
+<p class="clip-credit"><strong>Toreando pass with leg drag</strong> — taught by Lachlan Giles · 7:32 · <a href="https://www.youtube.com/watch?v=1l5WTjjtrF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LGwa2fQwWYc)
+
+<p class="clip-credit"><strong>Three variations of the toreando pass</strong> — taught by Lachlan Giles · 11:53 · <a href="https://www.youtube.com/watch?v=LGwa2fQwWYc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

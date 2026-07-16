@@ -153,6 +153,54 @@ description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Worm Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm Guard to back choke",
+      "description": "Worm Guard (Bottom) film study: Worm Guard to back choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm Guard reverse omoplata",
+      "description": "Worm Guard (Bottom) film study: Worm Guard reverse omoplata, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qua4MaF2d98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qua4MaF2d98",
+      "url": "https://www.youtube.com/watch?v=qua4MaF2d98",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Worm Guard attacks: sweep \u0026 berimbolo",
+      "description": "Worm Guard (Bottom) film study: Worm Guard attacks: sweep \u0026 berimbolo, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BHwU-bbyvkc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BHwU-bbyvkc",
+      "url": "https://www.youtube.com/watch?v=BHwU-bbyvkc",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with 
 Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan Cornelius that uses the opponent's gi lapel woven through their own legs to create unique control and attack opportunities. The position combines lapel control with precise leg placement to create a control system that is extremely difficult to pass when executed correctly, while offering powerful sweeps and back take opportunities. The guard is established by extracting the opponent's lapel (typically the same-side lapel), feeding it under their leg, and wrapping it around your own shin or foot to create a tight connection. This lapel weave creates a mechanical control that restricts the opponent's movement and posture in ways that traditional guard systems cannot replicate. The position is heavily dependent on gi grips and cannot be applied in no-gi contexts. Worm guard excels against opponents who are unfamiliar with the system, as the control mechanisms and attack patterns are highly unusual compared to traditional guards. The position requires significant technical knowledge and practice to execute effectively, but rewards dedicated study with a guard system that can shut down even expert passers.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Worm Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm Guard to back choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qua4MaF2d98)
+
+<p class="clip-credit"><strong>Worm Guard reverse omoplata</strong> — taught by Keenan Cornelius · 0:49 · <a href="https://www.youtube.com/watch?v=qua4MaF2d98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BHwU-bbyvkc)
+
+<p class="clip-credit"><strong>Worm Guard attacks: sweep &amp; berimbolo</strong> — taught by jamielovesmartialarts · 1:29 · <a href="https://www.youtube.com/watch?v=BHwU-bbyvkc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

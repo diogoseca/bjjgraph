@@ -148,6 +148,54 @@ description: "How to defend against Triangle from Mount in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the Mounted Triangle",
+      "description": "Triangle from Mount (Defender) film study: Preventing the Mounted Triangle, taught by Justen Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l-HhOV9UjJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l-HhOV9UjJU",
+      "url": "https://www.youtube.com/watch?v=l-HhOV9UjJU",
+      "creator": { "@type": "Person", "name": "Justen Hamilton" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defend the mounted triangle",
+      "description": "Triangle from Mount (Defender) film study: How to defend the mounted triangle, taught by RVV BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/djm7BIQksOQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/djm7BIQksOQ",
+      "url": "https://www.youtube.com/watch?v=djm7BIQksOQ",
+      "creator": { "@type": "Person", "name": "RVV BJJ coach" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front triangle late escape",
+      "description": "Triangle from Mount (Defender) film study: Front triangle late escape, taught by Garry Tonon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/od-lcD_34f8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/od-lcD_34f8",
+      "url": "https://www.youtube.com/watch?v=od-lcD_34f8",
+      "creator": { "@type": "Person", "name": "Garry Tonon" },
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ At competition level, defending the mounted triangle demands composure under ext
 **Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l-HhOV9UjJU)
+
+<p class="clip-credit"><strong>Preventing the Mounted Triangle</strong> — taught by Justen Hamilton · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=djm7BIQksOQ)
+
+<p class="clip-credit"><strong>How to defend the mounted triangle</strong> — taught by RVV BJJ coach · 3:14 · <a href="https://www.youtube.com/watch?v=djm7BIQksOQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=od-lcD_34f8)
+
+<p class="clip-credit"><strong>Front triangle late escape</strong> — taught by Garry Tonon · 3:50 · <a href="https://www.youtube.com/watch?v=od-lcD_34f8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

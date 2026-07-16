@@ -180,6 +180,54 @@ description: "Execute the Roll Escape from Cross Body Ride in BJJ. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Escape from Cross Body Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Five Crossbody Escape Drills",
+      "description": "Roll Escape from Cross Body Ride (Attacker) film study: Five Crossbody Escape Drills, taught by Clinch Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S2-UjM43Luk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S2-UjM43Luk",
+      "url": "https://www.youtube.com/watch?v=S2-UjM43Luk",
+      "creator": { "@type": "Person", "name": "Clinch Academy" },
+      "duration": "PT152S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Ride Escape",
+      "description": "Roll Escape from Cross Body Ride (Attacker) film study: Leg Ride Escape, taught by Steve Weismann.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F6reAeYmhoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F6reAeYmhoU",
+      "url": "https://www.youtube.com/watch?v=F6reAeYmhoU",
+      "creator": { "@type": "Person", "name": "Steve Weismann" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the Cross Body Ride",
+      "description": "Roll Escape from Cross Body Ride (Attacker) film study: Escaping the Cross Body Ride, taught by Jake Sueflohn.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l7FuJKfhhug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l7FuJKfhhug",
+      "url": "https://www.youtube.com/watch?v=l7FuJKfhhug",
+      "creator": { "@type": "Person", "name": "Jake Sueflohn" },
+      "duration": "PT191S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Executing the Roll Escape from Cross Body Ride demands precise timing, full comm
 **From Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Escape from Cross Body Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S2-UjM43Luk)
+
+<p class="clip-credit"><strong>Five Crossbody Escape Drills</strong> — taught by Clinch Academy · 2:32 · <a href="https://www.youtube.com/watch?v=S2-UjM43Luk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F6reAeYmhoU)
+
+<p class="clip-credit"><strong>Leg Ride Escape</strong> — taught by Steve Weismann · 0:14 · <a href="https://www.youtube.com/watch?v=F6reAeYmhoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l7FuJKfhhug)
+
+<p class="clip-credit"><strong>Escaping the Cross Body Ride</strong> — taught by Jake Sueflohn · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

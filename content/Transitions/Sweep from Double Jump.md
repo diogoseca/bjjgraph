@@ -34,6 +34,43 @@ description: "Master the Sweep from Double Jump in BJJ. Explosive technique conv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Double Jump \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X guard sweep",
+      "description": "Sweep from Double Jump film study: X guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "2-on-1 hook sweep from butterfly guard",
+      "description": "Sweep from Double Jump film study: 2-on-1 hook sweep from butterfly guard, taught by grpplng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/is7gMf-wYuA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/is7gMf-wYuA",
+      "url": "https://www.youtube.com/watch?v=is7gMf-wYuA",
+      "creator": { "@type": "Person", "name": "grpplng" },
+      "duration": "PT14S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategic context places this sweep as a high-reward terminal option within the 
 **Success Rate**: 43%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Double Jump in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>X guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=is7gMf-wYuA)
+
+<p class="clip-credit"><strong>2-on-1 hook sweep from butterfly guard</strong> — taught by grpplng · 0:14 · <a href="https://www.youtube.com/watch?v=is7gMf-wYuA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

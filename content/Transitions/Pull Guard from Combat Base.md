@@ -34,6 +34,43 @@ description: "Learn to pull closed guard from combat base bottom in BJJ. Complet
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pull Guard from Combat Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pulling closed guard",
+      "description": "Pull Guard from Combat Base film study: Pulling closed guard, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CI1w02grvCs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CI1w02grvCs",
+      "url": "https://www.youtube.com/watch?v=CI1w02grvCs",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hip pinch closed guard break",
+      "description": "Pull Guard from Combat Base film study: Hip pinch closed guard break, taught by CU Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9zdcAWV35IE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9zdcAWV35IE",
+      "url": "https://www.youtube.com/watch?v=9zdcAWV35IE",
+      "creator": { "@type": "Person", "name": "CU Jiu Jitsu" },
+      "duration": "PT69S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Success requires a systematic approach: establishing controlling grips to compro
 **Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pull Guard from Combat Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CI1w02grvCs)
+
+<p class="clip-credit"><strong>Pulling closed guard</strong> — taught by Team Daruma Dojo · 0:44 · <a href="https://www.youtube.com/watch?v=CI1w02grvCs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9zdcAWV35IE)
+
+<p class="clip-credit"><strong>Hip pinch closed guard break</strong> — taught by CU Jiu Jitsu · 1:09 · <a href="https://www.youtube.com/watch?v=9zdcAWV35IE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

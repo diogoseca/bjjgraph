@@ -126,6 +126,43 @@ description: "Learn to prevent and counter the Turn In escape from Reverse Kesa-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn In from Reverse Kesa (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping yoko shiho gatame pins",
+      "description": "Turn In from Reverse Kesa (Defender) film study: Escaping yoko shiho gatame pins, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lOMiYZzvH-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lOMiYZzvH-s",
+      "url": "https://www.youtube.com/watch?v=lOMiYZzvH-s",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quick kesa gatame escape",
+      "description": "Turn In from Reverse Kesa (Defender) film study: Quick kesa gatame escape, taught by Taylorjiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5atT-Q9-CVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5atT-Q9-CVw",
+      "url": "https://www.youtube.com/watch?v=5atT-Q9-CVw",
+      "creator": { "@type": "Person", "name": "Taylorjiujitsu" },
+      "duration": "PT14S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -135,6 +172,34 @@ As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to pr
 **Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn In from Reverse Kesa (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lOMiYZzvH-s)
+
+<p class="clip-credit"><strong>Escaping yoko shiho gatame pins</strong> — taught by Travis Stevens · 2:41 · <a href="https://www.youtube.com/watch?v=lOMiYZzvH-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5atT-Q9-CVw)
+
+<p class="clip-credit"><strong>Quick kesa gatame escape</strong> — taught by Taylorjiujitsu · 0:14 · <a href="https://www.youtube.com/watch?v=5atT-Q9-CVw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

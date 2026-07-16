@@ -142,6 +142,43 @@ description: "Learn to recognize and defend the Cross Collar Choke from Modified
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Modified Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross choke defense: two quick tips",
+      "description": "Cross Collar Choke from Modified Mount (Defender) film study: Cross choke defense: two quick tips, taught by Wayne Sniffen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QIRF2B9riAA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QIRF2B9riAA",
+      "url": "https://www.youtube.com/watch?v=QIRF2B9riAA",
+      "creator": { "@type": "Person", "name": "Wayne Sniffen" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the mount cross choke",
+      "description": "Cross Collar Choke from Modified Mount (Defender) film study: Defending the mount cross choke, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j2qf5q7PChY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j2qf5q7PChY",
+      "url": "https://www.youtube.com/watch?v=j2qf5q7PChY",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +189,34 @@ Defending the Cross Collar Choke from Modified Mount requires early recognition 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Modified Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QIRF2B9riAA)
+
+<p class="clip-credit"><strong>Cross choke defense: two quick tips</strong> — taught by Wayne Sniffen · 1:45 · <a href="https://www.youtube.com/watch?v=QIRF2B9riAA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j2qf5q7PChY)
+
+<p class="clip-credit"><strong>Defending the mount cross choke</strong> — taught by Ninja Pinto · 0:23 · <a href="https://www.youtube.com/watch?v=j2qf5q7PChY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

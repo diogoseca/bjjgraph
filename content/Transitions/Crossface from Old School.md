@@ -34,6 +34,43 @@ description: "Master the Crossface from Old School in BJJ. Flatten your opponent
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crossface from Old School \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross face half guard pass",
+      "description": "Crossface from Old School film study: Cross face half guard pass, taught by GB Neto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oHHWw-nySzA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oHHWw-nySzA",
+      "url": "https://www.youtube.com/watch?v=oHHWw-nySzA",
+      "creator": { "@type": "Person", "name": "GB Neto" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard top cross body pass",
+      "description": "Crossface from Old School film study: Half guard top cross body pass, taught by SBG New Braunfels.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qqaMVmLxklI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qqaMVmLxklI",
+      "url": "https://www.youtube.com/watch?v=qqaMVmLxklI",
+      "creator": { "@type": "Person", "name": "SBG New Braunfels" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategic application demands patience and incrementally increasing pressure rat
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crossface from Old School in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oHHWw-nySzA)
+
+<p class="clip-credit"><strong>Cross face half guard pass</strong> — taught by GB Neto · 1:18 · <a href="https://www.youtube.com/watch?v=oHHWw-nySzA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qqaMVmLxklI)
+
+<p class="clip-credit"><strong>Half guard top cross body pass</strong> — taught by SBG New Braunfels · 2:01 · <a href="https://www.youtube.com/watch?v=qqaMVmLxklI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

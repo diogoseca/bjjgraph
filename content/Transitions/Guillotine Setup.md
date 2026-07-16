@@ -34,6 +34,54 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine choke setup from turtle",
+      "description": "Guillotine Setup film study: Guillotine choke setup from turtle, taught by Cavalo Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mw5qLLzjay4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mw5qLLzjay4",
+      "url": "https://www.youtube.com/watch?v=Mw5qLLzjay4",
+      "creator": { "@type": "Person", "name": "Cavalo Jiu-Jitsu" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "High elbow guillotine from front turtle",
+      "description": "Guillotine Setup film study: High elbow guillotine from front turtle, taught by Michael Hoffman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6mHJ8Mh6fDs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6mHJ8Mh6fDs",
+      "url": "https://www.youtube.com/watch?v=6mHJ8Mh6fDs",
+      "creator": { "@type": "Person", "name": "Michael Hoffman" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Snap down setup off the single leg",
+      "description": "Guillotine Setup film study: Snap down setup off the single leg, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QMKv_AlTie8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QMKv_AlTie8",
+      "url": "https://www.youtube.com/watch?v=QMKv_AlTie8",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +115,42 @@ What makes this setup particularly valuable is its versatility across multiple c
 **Success Rate**: 37%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mw5qLLzjay4)
+
+<p class="clip-credit"><strong>Guillotine choke setup from turtle</strong> — taught by Cavalo Jiu-Jitsu · 0:49 · <a href="https://www.youtube.com/watch?v=Mw5qLLzjay4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6mHJ8Mh6fDs)
+
+<p class="clip-credit"><strong>High elbow guillotine from front turtle</strong> — taught by Michael Hoffman · 0:22 · <a href="https://www.youtube.com/watch?v=6mHJ8Mh6fDs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QMKv_AlTie8)
+
+<p class="clip-credit"><strong>Snap down setup off the single leg</strong> — taught by Marcelo Garcia · 2:14 · <a href="https://www.youtube.com/watch?v=QMKv_AlTie8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

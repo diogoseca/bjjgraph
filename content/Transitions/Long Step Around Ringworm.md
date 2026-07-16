@@ -34,6 +34,43 @@ description: "Master Long Step Around Ringworm pass in BJJ. Navigate complex lap
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Long Step Around Ringworm \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Long step pass drill: roll hips and tripod back",
+      "description": "Long Step Around Ringworm film study: Long step pass drill: roll hips and tripod back, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lDTUXbOu4os/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lDTUXbOu4os",
+      "url": "https://www.youtube.com/watch?v=lDTUXbOu4os",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Long step guard pass body mechanics",
+      "description": "Long Step Around Ringworm film study: Long step guard pass body mechanics, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l9xDCQv0TgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l9xDCQv0TgQ",
+      "url": "https://www.youtube.com/watch?v=l9xDCQv0TgQ",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this pass is most effective when you recognize that direct cleari
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Long Step Around Ringworm in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lDTUXbOu4os)
+
+<p class="clip-credit"><strong>Long step pass drill: roll hips and tripod back</strong> — taught by Greg Hamilton · 1:43 · <a href="https://www.youtube.com/watch?v=lDTUXbOu4os" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l9xDCQv0TgQ)
+
+<p class="clip-credit"><strong>Long step guard pass body mechanics</strong> — taught by Greg Hamilton · 1:56 · <a href="https://www.youtube.com/watch?v=l9xDCQv0TgQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

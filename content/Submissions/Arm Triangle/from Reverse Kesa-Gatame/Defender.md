@@ -150,6 +150,54 @@ description: "Learn to defend the Arm Triangle from Reverse Kesa-Gatame. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Reverse Kesa-Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Fastest Escape Out of the Arm Triangle",
+      "description": "Arm Triangle from Reverse Kesa-Gatame (Defender) film study: The Fastest Escape Out of the Arm Triangle, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
+      "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Triangle Escape",
+      "description": "Arm Triangle from Reverse Kesa-Gatame (Defender) film study: Arm Triangle Escape, taught by Crucifix Mike.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nspz2EAIQ_k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nspz2EAIQ_k",
+      "url": "https://www.youtube.com/watch?v=Nspz2EAIQ_k",
+      "creator": { "@type": "Person", "name": "Crucifix Mike" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two Arm Triangle (Kata Gatame) Escapes",
+      "description": "Arm Triangle from Reverse Kesa-Gatame (Defender) film study: Two Arm Triangle (Kata Gatame) Escapes, taught by Adam Urbanski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
+      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
+      "creator": { "@type": "Person", "name": "Adam Urbanski" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Arm Triangle from Reverse Kesa-Gatame requires proactive managemen
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Reverse Kesa-Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2vkZGTD78I)
+
+<p class="clip-credit"><strong>The Fastest Escape Out of the Arm Triangle</strong> — taught by Adam Bradley · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nspz2EAIQ_k)
+
+<p class="clip-credit"><strong>Arm Triangle Escape</strong> — taught by Crucifix Mike · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CmXniIPFMhU)
+
+<p class="clip-credit"><strong>Two Arm Triangle (Kata Gatame) Escapes</strong> — taught by Adam Urbanski · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

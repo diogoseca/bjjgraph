@@ -140,6 +140,54 @@ description: "Defend the Sweep from New York in BJJ. Learn recognition cues, bas
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from New York (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Elbow position to shut down rubber guard attacks",
+      "description": "Sweep from New York (Defender) film study: Elbow position to shut down rubber guard attacks, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzT5BsOqrMk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzT5BsOqrMk",
+      "url": "https://www.youtube.com/watch?v=QzT5BsOqrMk",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why rubber guard doesn\u0027t work \u2014 beating the position",
+      "description": "Sweep from New York (Defender) film study: Why rubber guard doesn\u0027t work \u2014 beating the position, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
+      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT792S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Pillory counter used against rubber guard",
+      "description": "Sweep from New York (Defender) film study: Pillory counter used against rubber guard, taught by Gabriel Raindog.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yct0FnRjGP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yct0FnRjGP8",
+      "url": "https://www.youtube.com/watch?v=Yct0FnRjGP8",
+      "creator": { "@type": "Person", "name": "Gabriel Raindog" },
+      "duration": "PT133S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Sweep from New York requires the top player to address a fundament
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from New York (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzT5BsOqrMk)
+
+<p class="clip-credit"><strong>Elbow position to shut down rubber guard attacks</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=QzT5BsOqrMk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
+
+<p class="clip-credit"><strong>Why rubber guard doesn&#39;t work — beating the position</strong> — taught by Brandon Mccaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yct0FnRjGP8)
+
+<p class="clip-credit"><strong>Pillory counter used against rubber guard</strong> — taught by Gabriel Raindog · 2:13 · <a href="https://www.youtube.com/watch?v=Yct0FnRjGP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Open Guard film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Open guard warm-up fundamentals",
+      "description": "Open Guard film study: Open guard warm-up fundamentals, taught by Jiu Jitsu Vintage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
+      "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Y-guard: an open guard secret weapon",
+      "description": "Open Guard film study: The Y-guard: an open guard secret weapon, taught by Felipe Costa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZzAtxR7p_YE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZzAtxR7p_YE",
+      "url": "https://www.youtube.com/watch?v=ZzAtxR7p_YE",
+      "creator": { "@type": "Person", "name": "Felipe Costa" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ Open guard requires constant movement and active management - it's a dynamic rat
 From the top perspective, Open Guard Top represents the fundamental challenge of navigating past an opponent's dynamic leg frames while managing grip battles, maintaining base against sweeps, and creating passing opportunities. Success requires reading the specific guard variation being employed and selecting appropriate passing strategies - pressure passing against close guards, movement passing against distance guards, and systematic dismantling of complex guard structures through grip dominance and angle creation.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aYknDsVN5aM)
+
+<p class="clip-credit"><strong>Open guard warm-up fundamentals</strong> — taught by Jiu Jitsu Vintage · 1:47 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZzAtxR7p_YE)
+
+<p class="clip-credit"><strong>The Y-guard: an open guard secret weapon</strong> — taught by Felipe Costa · 1:01 · <a href="https://www.youtube.com/watch?v=ZzAtxR7p_YE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

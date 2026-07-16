@@ -34,6 +34,43 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Opening Sequence \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking and opening the closed guard",
+      "description": "Guard Opening Sequence film study: Breaking and opening the closed guard, taught by Gracie Barra Online.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6mxOyJDMgdM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6mxOyJDMgdM",
+      "url": "https://www.youtube.com/watch?v=6mxOyJDMgdM",
+      "creator": { "@type": "Person", "name": "Gracie Barra Online" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee in the middle guard opener",
+      "description": "Guard Opening Sequence film study: Knee in the middle guard opener, taught by Fabiano Scherner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j5cx0q6BYiM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j5cx0q6BYiM",
+      "url": "https://www.youtube.com/watch?v=j5cx0q6BYiM",
+      "creator": { "@type": "Person", "name": "Fabiano Scherner" },
+      "duration": "PT186S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ At the competitive level, guard opening efficiency separates effective passers f
 **Success Rate**: 56%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Opening Sequence in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6mxOyJDMgdM)
+
+<p class="clip-credit"><strong>Breaking and opening the closed guard</strong> — taught by Gracie Barra Online · 1:48 · <a href="https://www.youtube.com/watch?v=6mxOyJDMgdM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j5cx0q6BYiM)
+
+<p class="clip-credit"><strong>Knee in the middle guard opener</strong> — taught by Fabiano Scherner · 3:06 · <a href="https://www.youtube.com/watch?v=j5cx0q6BYiM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

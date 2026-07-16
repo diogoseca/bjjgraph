@@ -34,6 +34,43 @@ description: "Master the Bow and Arrow Choke from Truck. Learn collar grip setup
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Truck \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mastering the Truck",
+      "description": "Bow and Arrow Choke from Truck film study: Mastering the Truck, taught by 10th Planet Newport.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YqlKl-La88s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YqlKl-La88s",
+      "url": "https://www.youtube.com/watch?v=YqlKl-La88s",
+      "creator": { "@type": "Person", "name": "10th Planet Newport" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear Naked Choke Series (MTS 194)",
+      "description": "Bow and Arrow Choke from Truck film study: Rear Naked Choke Series (MTS 194), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vsrzIeye0uw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vsrzIeye0uw",
+      "url": "https://www.youtube.com/watch?v=vsrzIeye0uw",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The mechanical key to the bow and arrow is that its far-leg vector comes from a 
 **Starting Position**: [[Positions/Twister Control/Truck]] · **From**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Truck in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YqlKl-La88s)
+
+<p class="clip-credit"><strong>Mastering the Truck</strong> — taught by 10th Planet Newport · 3:36 · <a href="https://www.youtube.com/watch?v=YqlKl-La88s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vsrzIeye0uw)
+
+<p class="clip-credit"><strong>Rear Naked Choke Series (MTS 194)</strong> — taught by Eddie Bravo · 0:57 · <a href="https://www.youtube.com/watch?v=vsrzIeye0uw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

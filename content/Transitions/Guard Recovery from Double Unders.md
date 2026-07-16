@@ -34,6 +34,54 @@ description: "Master guard recovery from double unders in BJJ. Learn frame creat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Double Unders \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass guard recovery to triangle",
+      "description": "Guard Recovery from Double Unders film study: Stack pass guard recovery to triangle, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YZkWd9yDOjg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YZkWd9yDOjg",
+      "url": "https://www.youtube.com/watch?v=YZkWd9yDOjg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double under stack pass counter to triangle",
+      "description": "Guard Recovery from Double Unders film study: Double under stack pass counter to triangle, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1UOj60dc540/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1UOj60dc540",
+      "url": "https://www.youtube.com/watch?v=1UOj60dc540",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double under guard pass counter",
+      "description": "Guard Recovery from Double Unders film study: Double under guard pass counter, taught by Legacy Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PlvedjiTZ3U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PlvedjiTZ3U",
+      "url": "https://www.youtube.com/watch?v=PlvedjiTZ3U",
+      "creator": { "@type": "Person", "name": "Legacy Jiu-Jitsu Academy" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategic timing is paramount in this recovery. Attempting guard recovery too ea
 **Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Double Unders in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YZkWd9yDOjg)
+
+<p class="clip-credit"><strong>Stack pass guard recovery to triangle</strong> — taught by Revolution BJJ Ashland · 1:01 · <a href="https://www.youtube.com/watch?v=YZkWd9yDOjg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1UOj60dc540)
+
+<p class="clip-credit"><strong>Double under stack pass counter to triangle</strong> — taught by Adam Bradley · 1:09 · <a href="https://www.youtube.com/watch?v=1UOj60dc540" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PlvedjiTZ3U)
+
+<p class="clip-credit"><strong>Double under guard pass counter</strong> — taught by Legacy Jiu-Jitsu Academy · 1:15 · <a href="https://www.youtube.com/watch?v=PlvedjiTZ3U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

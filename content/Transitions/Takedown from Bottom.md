@@ -34,6 +34,54 @@ description: "Master takedown techniques from disadvantaged standing positions i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Takedown from Bottom \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Takedown from bottom position",
+      "description": "Takedown from Bottom film study: Takedown from bottom position, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1Rb48sPwpqY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1Rb48sPwpqY",
+      "url": "https://www.youtube.com/watch?v=1Rb48sPwpqY",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Wrestle Up from guard",
+      "description": "Takedown from Bottom film study: Wrestle Up from guard, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sq8osxjmpr8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sq8osxjmpr8",
+      "url": "https://www.youtube.com/watch?v=sq8osxjmpr8",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Steer the Bus to set up takedowns",
+      "description": "Takedown from Bottom film study: Steer the Bus to set up takedowns, taught by Ryan Deakin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s6ml_dZDWow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s6ml_dZDWow",
+      "url": "https://www.youtube.com/watch?v=s6ml_dZDWow",
+      "creator": { "@type": "Person", "name": "Ryan Deakin" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition serves as the cornerstone of a standing game plan
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Takedown from Bottom in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1Rb48sPwpqY)
+
+<p class="clip-credit"><strong>Takedown from bottom position</strong> — taught by Nicky Rodriguez · 1:28 · <a href="https://www.youtube.com/watch?v=1Rb48sPwpqY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sq8osxjmpr8)
+
+<p class="clip-credit"><strong>Wrestle Up from guard</strong> — taught by Nicky Ryan · 0:22 · <a href="https://www.youtube.com/watch?v=sq8osxjmpr8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s6ml_dZDWow)
+
+<p class="clip-credit"><strong>Steer the Bus to set up takedowns</strong> — taught by Ryan Deakin · 1:27 · <a href="https://www.youtube.com/watch?v=s6ml_dZDWow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

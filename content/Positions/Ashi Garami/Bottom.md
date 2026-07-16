@@ -153,6 +153,54 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Irimi ashi garami counter",
+      "description": "Ashi Garami (Bottom) film study: Irimi ashi garami counter, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stop Getting Leg Locked: Ashi Garami Defense Tips",
+      "description": "Ashi Garami (Bottom) film study: Stop Getting Leg Locked: Ashi Garami Defense Tips, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mycu_0dRZg8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mycu_0dRZg8",
+      "url": "https://www.youtube.com/watch?v=mycu_0dRZg8",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT331S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "50/50 Defense: Protecting Your Leg",
+      "description": "Ashi Garami (Bottom) film study: 50/50 Defense: Protecting Your Leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
+      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ Defensive considerations from bottom Ashi Garami involve protecting your own hee
 Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics including hip positioning for angle creation, inside space control through knee-inside pressure, hook placement for both control and advancement, and transitional movements between variations that maintain connection throughout. Competition application demands strategic decision-making about when to pursue leg entanglements versus alternative guard retention or sweeping options, understanding that premature leg lock attempts from inferior hierarchy positions waste energy and expose you to counter-attacks. The position family's technical depth and strategic complexity make it a complete system worthy of dedicated study and progressive training rather than supplementary technique collection.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mycu_0dRZg8)
+
+<p class="clip-credit"><strong>Stop Getting Leg Locked: Ashi Garami Defense Tips</strong> — taught by Brandon Mccaghren · 5:31 · <a href="https://www.youtube.com/watch?v=mycu_0dRZg8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+
+<p class="clip-credit"><strong>50/50 Defense: Protecting Your Leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

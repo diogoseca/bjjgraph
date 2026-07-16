@@ -148,6 +148,43 @@ description: "How to defend against Gogoplata in BJJ. Recognition cues, defensiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Gogoplata Defense",
+      "description": "Gogoplata (Defender) film study: The Gogoplata Defense, taught by RedBeltJiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ROgt8e30a3s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ROgt8e30a3s",
+      "url": "https://www.youtube.com/watch?v=ROgt8e30a3s",
+      "creator": { "@type": "Person", "name": "RedBeltJiuJitsu" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why Your Rubber Guard Never Works",
+      "description": "Gogoplata (Defender) film study: Why Your Rubber Guard Never Works, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5jKZpFnxYbE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5jKZpFnxYbE",
+      "url": "https://www.youtube.com/watch?v=5jKZpFnxYbE",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT307S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Strategically, the best Gogoplata defense happens before the position is fully e
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ROgt8e30a3s)
+
+<p class="clip-credit"><strong>The Gogoplata Defense</strong> — taught by RedBeltJiuJitsu · 0:42 · <a href="https://www.youtube.com/watch?v=ROgt8e30a3s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5jKZpFnxYbE)
+
+<p class="clip-credit"><strong>Why Your Rubber Guard Never Works</strong> — taught by Brandon McCaghren · 5:07 · <a href="https://www.youtube.com/watch?v=5jKZpFnxYbE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

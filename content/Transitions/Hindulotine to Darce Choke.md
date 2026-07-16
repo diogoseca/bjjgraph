@@ -34,6 +34,54 @@ description: "Learn the Hindulotine to Darce Choke transition in BJJ. Convert gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hindulotine to Darce Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce choke from the front headlock",
+      "description": "Hindulotine to Darce Choke film study: Darce choke from the front headlock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
+      "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three darce choke finishes",
+      "description": "Hindulotine to Darce Choke film study: Three darce choke finishes, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pnLk6jW0qeI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pnLk6jW0qeI",
+      "url": "https://www.youtube.com/watch?v=pnLk6jW0qeI",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple darce choke from front headlock",
+      "description": "Hindulotine to Darce Choke film study: Simple darce choke from front headlock, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/itnE4HweT8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/itnE4HweT8I",
+      "url": "https://www.youtube.com/watch?v=itnE4HweT8I",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition exemplifies the modern submission hunting approac
 **Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hindulotine to Darce Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
+
+<p class="clip-credit"><strong>Darce choke from the front headlock</strong> — taught by Procel BJJ · 1:41 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pnLk6jW0qeI)
+
+<p class="clip-credit"><strong>Three darce choke finishes</strong> — taught by Bowerhouse MMA · 0:15 · <a href="https://www.youtube.com/watch?v=pnLk6jW0qeI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=itnE4HweT8I)
+
+<p class="clip-credit"><strong>Simple darce choke from front headlock</strong> — taught by Hellfish MMA · 2:23 · <a href="https://www.youtube.com/watch?v=itnE4HweT8I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

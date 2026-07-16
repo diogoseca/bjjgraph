@@ -140,6 +140,43 @@ description: "Defend against the Roll from Rodeo Ride in BJJ. Learn recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll from Rodeo Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining back control with the hooks",
+      "description": "Roll from Rodeo Ride (Defender) film study: Maintaining back control with the hooks, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
+      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stop losing the back when they roll",
+      "description": "Roll from Rodeo Ride (Defender) film study: Stop losing the back when they roll, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BkDQTbGNUrI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BkDQTbGNUrI",
+      "url": "https://www.youtube.com/watch?v=BkDQTbGNUrI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT214S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending against the Roll from Rodeo Ride requires the top player to maintain a
 **Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll from Rodeo Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
+
+<p class="clip-credit"><strong>Maintaining back control with the hooks</strong> — taught by Gracie Charlottesville · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BkDQTbGNUrI)
+
+<p class="clip-credit"><strong>Stop losing the back when they roll</strong> — taught by Brandon McCaghren · 3:34 · <a href="https://www.youtube.com/watch?v=BkDQTbGNUrI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

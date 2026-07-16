@@ -174,6 +174,43 @@ description: "Learn to execute the Sweep from Diamond Guard in BJJ. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Diamond Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard overhook sweep",
+      "description": "Sweep from Diamond Guard (Attacker) film study: Closed guard overhook sweep, taught by David Morris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QPL5y0hIVV4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QPL5y0hIVV4",
+      "url": "https://www.youtube.com/watch?v=QPL5y0hIVV4",
+      "creator": { "@type": "Person", "name": "David Morris" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Overhook scissor sweep from closed guard",
+      "description": "Sweep from Diamond Guard (Attacker) film study: Overhook scissor sweep from closed guard, taught by Fight Sports Charlotte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SONTST7yTT8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SONTST7yTT8",
+      "url": "https://www.youtube.com/watch?v=SONTST7yTT8",
+      "creator": { "@type": "Person", "name": "Fight Sports Charlotte" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up t
 **From Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Diamond Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QPL5y0hIVV4)
+
+<p class="clip-credit"><strong>Closed guard overhook sweep</strong> — taught by David Morris · 0:17 · <a href="https://www.youtube.com/watch?v=QPL5y0hIVV4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SONTST7yTT8)
+
+<p class="clip-credit"><strong>Overhook scissor sweep from closed guard</strong> — taught by Fight Sports Charlotte · 1:29 · <a href="https://www.youtube.com/watch?v=SONTST7yTT8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

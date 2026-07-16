@@ -34,6 +34,43 @@ description: "Master the Knee on Belly to Mount transition in BJJ. Learn weight 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "KOB to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee on belly to mount transition",
+      "description": "KOB to Mount film study: Knee on belly to mount transition, taught by Tom Dinklage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HNo-y8SJlgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HNo-y8SJlgY",
+      "url": "https://www.youtube.com/watch?v=HNo-y8SJlgY",
+      "creator": { "@type": "Person", "name": "Tom Dinklage" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee on belly transition drill",
+      "description": "KOB to Mount film study: Knee on belly transition drill, taught by 301 MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yhqs-dPzjN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yhqs-dPzjN0",
+      "url": "https://www.youtube.com/watch?v=yhqs-dPzjN0",
+      "creator": { "@type": "Person", "name": "301 MMA" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The transition requires coordinated grip management, hip control, and base aware
 **Success Rate**: 54%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch KOB to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HNo-y8SJlgY)
+
+<p class="clip-credit"><strong>Knee on belly to mount transition</strong> — taught by Tom Dinklage · 2:13 · <a href="https://www.youtube.com/watch?v=HNo-y8SJlgY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yhqs-dPzjN0)
+
+<p class="clip-credit"><strong>Knee on belly transition drill</strong> — taught by 301 MMA · 0:55 · <a href="https://www.youtube.com/watch?v=yhqs-dPzjN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

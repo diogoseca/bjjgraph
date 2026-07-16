@@ -34,6 +34,54 @@ description: "Master Modified Mount in BJJ. Strategic position trading some cont
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Positional control from the mount",
+      "description": "Modified Mount film study: Positional control from the mount, taught by Northwoods Combat Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-mVdsoKMXhc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-mVdsoKMXhc",
+      "url": "https://www.youtube.com/watch?v=-mVdsoKMXhc",
+      "creator": { "@type": "Person", "name": "Northwoods Combat Arts" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Technical mount attacks",
+      "description": "Modified Mount film study: Technical mount attacks, taught by Soma Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pa4Aj431Yds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pa4Aj431Yds",
+      "url": "https://www.youtube.com/watch?v=pa4Aj431Yds",
+      "creator": { "@type": "Person", "name": "Soma Academy" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from modified mount",
+      "description": "Modified Mount film study: Armbar from modified mount, taught by Black Lotus BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uo5jPElZ6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uo5jPElZ6po",
+      "url": "https://www.youtube.com/watch?v=uo5jPElZ6po",
+      "creator": { "@type": "Person", "name": "Black Lotus BJJ" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master Modified Mount in BJJ. Strategic position trading some cont
 Modified Mount represents a strategic adaptation of the traditional mount position where the top practitioner posts one leg out to the side while maintaining the other knee across the opponent's body. This asymmetric configuration sacrifices some of the pure control of standard mount in exchange for significantly enhanced base stability and specific submission setups, particularly for armbars and triangles. The position emerged from competitive necessity when facing opponents with excellent mount escape mechanics, as the posted leg provides a structural brace against explosive bridge-and-roll attempts while maintaining dominant positioning. Modified Mount serves as both a transitional position when moving between mount variations and a deliberate control choice when the opponent demonstrates strong escape ability from traditional mount. The posted leg functions as a stability anchor, allowing the top practitioner to maintain balance while reaching for grips or transitioning to submissions without fear of being reversed. From the bottom perspective, Modified Mount presents unique escape opportunities because the asymmetric weight distribution creates directional vulnerabilities, particularly toward the posted leg side. However, the position also limits certain escape paths because the posted leg blocks some hip escape angles while the across-body knee maintains significant control. Understanding Modified Mount from both perspectives requires recognizing the position as a calculated trade-off between control security and submission accessibility, with each practitioner attempting to exploit the inherent advantages while minimizing the structural weaknesses of this asymmetric configuration.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-mVdsoKMXhc)
+
+<p class="clip-credit"><strong>Positional control from the mount</strong> — taught by Northwoods Combat Arts · 1:42 · <a href="https://www.youtube.com/watch?v=-mVdsoKMXhc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pa4Aj431Yds)
+
+<p class="clip-credit"><strong>Technical mount attacks</strong> — taught by Soma Academy · 1:50 · <a href="https://www.youtube.com/watch?v=pa4Aj431Yds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uo5jPElZ6po)
+
+<p class="clip-credit"><strong>Armbar from modified mount</strong> — taught by Black Lotus BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=uo5jPElZ6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -176,6 +176,54 @@ description: "Learn to execute the North-South Choke from Shoulder of Justice. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Shoulder of Justice (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Teaching shoulder pressure choke",
+      "description": "North-South Choke from Shoulder of Justice (Attacker) film study: Teaching shoulder pressure choke, taught by Phil Dunlap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gU-njOOuKh4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gU-njOOuKh4",
+      "url": "https://www.youtube.com/watch?v=gU-njOOuKh4",
+      "creator": { "@type": "Person", "name": "Phil Dunlap" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North South pressure choke",
+      "description": "North-South Choke from Shoulder of Justice (Attacker) film study: North South pressure choke, taught by Nick Unander.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fdq-j0AUVtc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fdq-j0AUVtc",
+      "url": "https://www.youtube.com/watch?v=Fdq-j0AUVtc",
+      "creator": { "@type": "Person", "name": "Nick Unander" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Marcelo Garcia - North South Choke",
+      "description": "North-South Choke from Shoulder of Justice (Attacker) film study: Marcelo Garcia - North South Choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
+      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT20S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Executing the North-South Choke from Shoulder of Justice requires precise timing
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Shoulder of Justice (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gU-njOOuKh4)
+
+<p class="clip-credit"><strong>Teaching shoulder pressure choke</strong> — taught by Phil Dunlap · 0:36 · <a href="https://www.youtube.com/watch?v=gU-njOOuKh4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fdq-j0AUVtc)
+
+<p class="clip-credit"><strong>North South pressure choke</strong> — taught by Nick Unander · 1:39 · <a href="https://www.youtube.com/watch?v=Fdq-j0AUVtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+
+<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

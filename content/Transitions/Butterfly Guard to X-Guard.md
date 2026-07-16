@@ -34,6 +34,54 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia X-guard sweep",
+      "description": "Butterfly Guard to X-Guard film study: Marcelo Garcia X-guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia single leg X-guard sweep",
+      "description": "Butterfly Guard to X-Guard film study: Marcelo Garcia single leg X-guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
+      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X-guard entry from butterfly in 60 seconds",
+      "description": "Butterfly Guard to X-Guard film study: X-guard entry from butterfly in 60 seconds, taught by Aces Jiu Jitsu Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gxyHU7nPA0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gxyHU7nPA0A",
+      "url": "https://www.youtube.com/watch?v=gxyHU7nPA0A",
+      "creator": { "@type": "Person", "name": "Aces Jiu Jitsu Club" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a systems perspective, the butterfly to X-Guard pathway is the most natural
 **Success Rate**: 47%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>Marcelo Garcia X-guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AhsXraebbdg)
+
+<p class="clip-credit"><strong>Marcelo Garcia single leg X-guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gxyHU7nPA0A)
+
+<p class="clip-credit"><strong>X-guard entry from butterfly in 60 seconds</strong> — taught by Aces Jiu Jitsu Club · 1:01 · <a href="https://www.youtube.com/watch?v=gxyHU7nPA0A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

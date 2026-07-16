@@ -34,6 +34,54 @@ description: "Master the Frame and Shrimp escape from S Mount in BJJ. Essential 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Shrimp from S Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fundamental movement for escaping the mount",
+      "description": "Frame and Shrimp from S Mount film study: Fundamental movement for escaping the mount, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mg1UN7a6saE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mg1UN7a6saE",
+      "url": "https://www.youtube.com/watch?v=mg1UN7a6saE",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two mount escapes to half guard",
+      "description": "Frame and Shrimp from S Mount film study: Two mount escapes to half guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
+      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Power shrimp escape from bottom mount",
+      "description": "Frame and Shrimp from S Mount film study: Power shrimp escape from bottom mount, taught by SBG Bend.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/snftmG4LDQU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/snftmG4LDQU",
+      "url": "https://www.youtube.com/watch?v=snftmG4LDQU",
+      "creator": { "@type": "Person", "name": "SBG Bend" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The Frame and Shrimp integrates into the broader mount escape system as the go-t
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Shrimp from S Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mg1UN7a6saE)
+
+<p class="clip-credit"><strong>Fundamental movement for escaping the mount</strong> — taught by Jean Jacques Machado · 0:58 · <a href="https://www.youtube.com/watch?v=mg1UN7a6saE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cyegyon5hVg)
+
+<p class="clip-credit"><strong>Two mount escapes to half guard</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=snftmG4LDQU)
+
+<p class="clip-credit"><strong>Power shrimp escape from bottom mount</strong> — taught by SBG Bend · 2:27 · <a href="https://www.youtube.com/watch?v=snftmG4LDQU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

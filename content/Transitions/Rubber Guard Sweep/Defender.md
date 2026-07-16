@@ -140,6 +140,43 @@ description: "Learn to defend the Rubber Guard Sweep from top position. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple rubber guard escape from the top",
+      "description": "Rubber Guard Sweep (Defender) film study: Simple rubber guard escape from the top, taught by BJJ for Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ for Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Posture Concept to Avoid Getting Crushed",
+      "description": "Rubber Guard Sweep (Defender) film study: Posture Concept to Avoid Getting Crushed, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/onODo5EQkrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/onODo5EQkrk",
+      "url": "https://www.youtube.com/watch?v=onODo5EQkrk",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT359S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Rubber Guard Sweep from top position requires understanding the sw
 **Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Simple rubber guard escape from the top</strong> — taught by BJJ for Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=onODo5EQkrk)
+
+<p class="clip-credit"><strong>Posture Concept to Avoid Getting Crushed</strong> — taught by Brandon McCaghren · 5:59 · <a href="https://www.youtube.com/watch?v=onODo5EQkrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

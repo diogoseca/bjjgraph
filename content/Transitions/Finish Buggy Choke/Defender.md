@@ -148,6 +148,54 @@ description: "How to defend against Finish Buggy Choke in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Finish Buggy Choke (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to never get buggy choked again",
+      "description": "Finish Buggy Choke (Defender) film study: How to never get buggy choked again, taught by azigarami.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58hzbrAvNK8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58hzbrAvNK8",
+      "url": "https://www.youtube.com/watch?v=58hzbrAvNK8",
+      "creator": { "@type": "Person", "name": "azigarami" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Defend the Buggy Choke",
+      "description": "Finish Buggy Choke (Defender) film study: How to Defend the Buggy Choke, taught by Less Impressed More Involved BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CD1PBfMol-k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CD1PBfMol-k",
+      "url": "https://www.youtube.com/watch?v=CD1PBfMol-k",
+      "creator": { "@type": "Person", "name": "Less Impressed More Involved BJJ" },
+      "duration": "PT253S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending Against the Buggy Choke",
+      "description": "Finish Buggy Choke (Defender) film study: Defending Against the Buggy Choke, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6VmI-HMAQso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6VmI-HMAQso",
+      "url": "https://www.youtube.com/watch?v=6VmI-HMAQso",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT239S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender's primary strategic goal is to prevent the finish from reaching ful
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Finish Buggy Choke (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58hzbrAvNK8)
+
+<p class="clip-credit"><strong>How to never get buggy choked again</strong> — taught by azigarami · 0:57 · <a href="https://www.youtube.com/watch?v=58hzbrAvNK8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CD1PBfMol-k)
+
+<p class="clip-credit"><strong>How to Defend the Buggy Choke</strong> — taught by Less Impressed More Involved BJJ · 4:13 · <a href="https://www.youtube.com/watch?v=CD1PBfMol-k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6VmI-HMAQso)
+
+<p class="clip-credit"><strong>Defending Against the Buggy Choke</strong> — taught by MMA Leech · 3:59 · <a href="https://www.youtube.com/watch?v=6VmI-HMAQso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

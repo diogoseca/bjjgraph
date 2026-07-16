@@ -34,6 +34,54 @@ description: "Master Shin Shield Recovery in BJJ. Essential defensive framing fr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin Shield Recovery \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield guard offense and retention",
+      "description": "Shin Shield Recovery film study: Knee shield guard offense and retention, taught by Kyle Sleeman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fj94nBfvtRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fj94nBfvtRI",
+      "url": "https://www.youtube.com/watch?v=Fj94nBfvtRI",
+      "creator": { "@type": "Person", "name": "Kyle Sleeman" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Recovery with Shin Shield",
+      "description": "Shin Shield Recovery film study: Guard Recovery with Shin Shield, taught by Gracie Technics Portland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xu5o307GmRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xu5o307GmRk",
+      "url": "https://www.youtube.com/watch?v=Xu5o307GmRk",
+      "creator": { "@type": "Person", "name": "Gracie Technics Portland" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dealing with the Switch Base from Half Guard",
+      "description": "Shin Shield Recovery film study: Dealing with the Switch Base from Half Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
+      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT284S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 **Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin Shield Recovery in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fj94nBfvtRI)
+
+<p class="clip-credit"><strong>Knee shield guard offense and retention</strong> — taught by Kyle Sleeman · 1:01 · <a href="https://www.youtube.com/watch?v=Fj94nBfvtRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xu5o307GmRk)
+
+<p class="clip-credit"><strong>Guard Recovery with Shin Shield</strong> — taught by Gracie Technics Portland · 1:27 · <a href="https://www.youtube.com/watch?v=Xu5o307GmRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+
+<p class="clip-credit"><strong>Dealing with the Switch Base from Half Guard</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

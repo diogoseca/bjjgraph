@@ -34,6 +34,54 @@ description: "Master Pass to Side Control from 50-50 Guard in BJJ. Extract legs 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing out of 50/50 to side control",
+      "description": "Pass to Side Control film study: Passing out of 50/50 to side control, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g-_fhSdPli8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g-_fhSdPli8",
+      "url": "https://www.youtube.com/watch?v=g-_fhSdPli8",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing pass from 50/50",
+      "description": "Pass to Side Control film study: Standing pass from 50/50, taught by BJJ4Breakfast coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q-ZBPkqGOgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q-ZBPkqGOgE",
+      "url": "https://www.youtube.com/watch?v=Q-ZBPkqGOgE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "50/50 rodeo pass to top side",
+      "description": "Pass to Side Control film study: 50/50 rodeo pass to top side, taught by Still Rolling coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V_VQZzdporc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V_VQZzdporc",
+      "url": "https://www.youtube.com/watch?v=V_VQZzdporc",
+      "creator": { "@type": "Person", "name": "Still Rolling coach" },
+      "duration": "PT125S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition exemplifies the principle that positional dominance sometimes ou
 **Success Rate**: 49%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g-_fhSdPli8)
+
+<p class="clip-credit"><strong>Passing out of 50/50 to side control</strong> — taught by Jon Thomas · 1:55 · <a href="https://www.youtube.com/watch?v=g-_fhSdPli8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q-ZBPkqGOgE)
+
+<p class="clip-credit"><strong>Standing pass from 50/50</strong> — taught by BJJ4Breakfast coach · 2:15 · <a href="https://www.youtube.com/watch?v=Q-ZBPkqGOgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V_VQZzdporc)
+
+<p class="clip-credit"><strong>50/50 rodeo pass to top side</strong> — taught by Still Rolling coach · 2:05 · <a href="https://www.youtube.com/watch?v=V_VQZzdporc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -140,6 +140,54 @@ description: "Defend against sweeps from saddle top position in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Berimbolo counter to the saddle",
+      "description": "Sweep from Saddle (Defender) film study: Berimbolo counter to the saddle, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/myVCvQJ08RM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/myVCvQJ08RM",
+      "url": "https://www.youtube.com/watch?v=myVCvQJ08RM",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending and escaping the saddle",
+      "description": "Sweep from Saddle (Defender) film study: Defending and escaping the saddle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
+      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT383S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three ways to escape the saddle",
+      "description": "Sweep from Saddle (Defender) film study: Three ways to escape the saddle, taught by Drew Weatherhead.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cu3cDBeOxsg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cu3cDBeOxsg",
+      "url": "https://www.youtube.com/watch?v=Cu3cDBeOxsg",
+      "creator": { "@type": "Person", "name": "Drew Weatherhead" },
+      "duration": "PT354S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against sweeps from saddle requires the top player to maintain base aw
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=myVCvQJ08RM)
+
+<p class="clip-credit"><strong>Berimbolo counter to the saddle</strong> — taught by Thunderdome BJJ · 0:25 · <a href="https://www.youtube.com/watch?v=myVCvQJ08RM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFTLb8iywJg)
+
+<p class="clip-credit"><strong>Defending and escaping the saddle</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cu3cDBeOxsg)
+
+<p class="clip-credit"><strong>Three ways to escape the saddle</strong> — taught by Drew Weatherhead · 5:54 · <a href="https://www.youtube.com/watch?v=Cu3cDBeOxsg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

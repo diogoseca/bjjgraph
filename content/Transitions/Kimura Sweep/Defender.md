@@ -148,6 +148,54 @@ description: "How to defend against Kimura Sweep in BJJ. Recognition cues, defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura defense from guard",
+      "description": "Kimura Sweep (Defender) film study: Kimura defense from guard, taught by Jiu-Jitsu Channel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a6vbWASwse8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a6vbWASwse8",
+      "url": "https://www.youtube.com/watch?v=a6vbWASwse8",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Channel" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the kimura from closed guard",
+      "description": "Kimura Sweep (Defender) film study: Defending the kimura from closed guard, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2DYXS2feaF8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2DYXS2feaF8",
+      "url": "https://www.youtube.com/watch?v=2DYXS2feaF8",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending a kimura from closed guard top",
+      "description": "Kimura Sweep (Defender) film study: Defending a kimura from closed guard top, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mkaClwou3JM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mkaClwou3JM",
+      "url": "https://www.youtube.com/watch?v=mkaClwou3JM",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ At higher levels, skilled defenders learn to use the opponent's commitment to th
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a6vbWASwse8)
+
+<p class="clip-credit"><strong>Kimura defense from guard</strong> — taught by Jiu-Jitsu Channel · 1:07 · <a href="https://www.youtube.com/watch?v=a6vbWASwse8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2DYXS2feaF8)
+
+<p class="clip-credit"><strong>Defending the kimura from closed guard</strong> — taught by Ritchie Yip · 1:56 · <a href="https://www.youtube.com/watch?v=2DYXS2feaF8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mkaClwou3JM)
+
+<p class="clip-credit"><strong>Defending a kimura from closed guard top</strong> — taught by Revolution BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=mkaClwou3JM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,54 @@ description: "Learn to defend the Spider Sweep in BJJ. Recognition cues, base ad
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spider Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stacking pass to shut down spider guard",
+      "description": "Spider Sweep (Defender) film study: Stacking pass to shut down spider guard, taught by Chris Haueter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v9Fyn7YEddk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v9Fyn7YEddk",
+      "url": "https://www.youtube.com/watch?v=v9Fyn7YEddk",
+      "creator": { "@type": "Person", "name": "Chris Haueter" },
+      "duration": "PT231S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider guard pass details",
+      "description": "Spider Sweep (Defender) film study: Spider guard pass details, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sRfuKY6t2Cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sRfuKY6t2Cg",
+      "url": "https://www.youtube.com/watch?v=sRfuKY6t2Cg",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT571S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Tarantula guard pass vs spider guard",
+      "description": "Spider Sweep (Defender) film study: Tarantula guard pass vs spider guard, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y94276HeHss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y94276HeHss",
+      "url": "https://www.youtube.com/watch?v=y94276HeHss",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT832S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Spider Sweep requires the top player to recognize the setup early,
 **Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spider Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v9Fyn7YEddk)
+
+<p class="clip-credit"><strong>Stacking pass to shut down spider guard</strong> — taught by Chris Haueter · 3:51 · <a href="https://www.youtube.com/watch?v=v9Fyn7YEddk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sRfuKY6t2Cg)
+
+<p class="clip-credit"><strong>Spider guard pass details</strong> — taught by Andre Galvao · 9:31 · <a href="https://www.youtube.com/watch?v=sRfuKY6t2Cg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y94276HeHss)
+
+<p class="clip-credit"><strong>Tarantula guard pass vs spider guard</strong> — taught by Andre Galvao · 13:52 · <a href="https://www.youtube.com/watch?v=y94276HeHss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

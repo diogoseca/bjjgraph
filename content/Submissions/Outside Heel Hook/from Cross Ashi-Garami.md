@@ -34,6 +34,43 @@ description: "Master the outside heel hook from cross ashi-garami. Learn grip me
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Cross Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross ashi belly-down heel hook",
+      "description": "Outside Heel Hook from Cross Ashi-Garami film study: Cross ashi belly-down heel hook, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h_SRARh0B6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h_SRARh0B6U",
+      "url": "https://www.youtube.com/watch?v=h_SRARh0B6U",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Piano string finishing trick",
+      "description": "Outside Heel Hook from Cross Ashi-Garami film study: Piano string finishing trick, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F-FTqEsE7v0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F-FTqEsE7v0",
+      "url": "https://www.youtube.com/watch?v=F-FTqEsE7v0",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT46S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ From a defensive standpoint, the cross ashi heel hook demands immediate recognit
 **Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Cross Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h_SRARh0B6U)
+
+<p class="clip-credit"><strong>Cross ashi belly-down heel hook</strong> — taught by BOWERHOUSE MMA · 1:08 · <a href="https://www.youtube.com/watch?v=h_SRARh0B6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F-FTqEsE7v0)
+
+<p class="clip-credit"><strong>Piano string finishing trick</strong> — taught by John Danaher · 0:46 · <a href="https://www.youtube.com/watch?v=F-FTqEsE7v0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

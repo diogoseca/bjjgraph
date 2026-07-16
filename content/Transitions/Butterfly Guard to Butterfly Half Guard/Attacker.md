@@ -174,6 +174,54 @@ description: "Master the top player's technique for clearing butterfly hooks to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to Butterfly Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder crunch sweep from butterfly guard",
+      "description": "Butterfly Guard to Butterfly Half Guard (Attacker) film study: Shoulder crunch sweep from butterfly guard, taught by Coach Ben.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KLwqvzhW3A8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KLwqvzhW3A8",
+      "url": "https://www.youtube.com/watch?v=KLwqvzhW3A8",
+      "creator": { "@type": "Person", "name": "Coach Ben" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard sit-up to butterfly sweep",
+      "description": "Butterfly Guard to Butterfly Half Guard (Attacker) film study: Half guard sit-up to butterfly sweep, taught by Bjj Picanha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hTQ29eG4cqY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hTQ29eG4cqY",
+      "url": "https://www.youtube.com/watch?v=hTQ29eG4cqY",
+      "creator": { "@type": "Person", "name": "Bjj Picanha" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Butterfly sweep from half guard",
+      "description": "Butterfly Guard to Butterfly Half Guard (Attacker) film study: Butterfly sweep from half guard, taught by William Metts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F403VM7eBSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F403VM7eBSM",
+      "url": "https://www.youtube.com/watch?v=F403VM7eBSM",
+      "creator": { "@type": "Person", "name": "William Metts" },
+      "duration": "PT49S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +233,42 @@ The key insight is that you are not simply removing a hook but replacing it with
 **From Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to Butterfly Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KLwqvzhW3A8)
+
+<p class="clip-credit"><strong>Shoulder crunch sweep from butterfly guard</strong> — taught by Coach Ben · 0:19 · <a href="https://www.youtube.com/watch?v=KLwqvzhW3A8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hTQ29eG4cqY)
+
+<p class="clip-credit"><strong>Half guard sit-up to butterfly sweep</strong> — taught by Bjj Picanha · 0:38 · <a href="https://www.youtube.com/watch?v=hTQ29eG4cqY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F403VM7eBSM)
+
+<p class="clip-credit"><strong>Butterfly sweep from half guard</strong> — taught by William Metts · 0:49 · <a href="https://www.youtube.com/watch?v=F403VM7eBSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -150,6 +150,54 @@ description: "How to defend and escape the North-South Choke from Kesa Gatame. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North South inverted spin escape",
+      "description": "North-South Choke from Kesa Gatame (Defender) film study: North South inverted spin escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
+      "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North South lapel sweep from bottom",
+      "description": "North-South Choke from Kesa Gatame (Defender) film study: North South lapel sweep from bottom, taught by Edward Anthony.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JgVZpD0yZPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JgVZpD0yZPk",
+      "url": "https://www.youtube.com/watch?v=JgVZpD0yZPk",
+      "creator": { "@type": "Person", "name": "Edward Anthony" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape North South",
+      "description": "North-South Choke from Kesa Gatame (Defender) film study: How to escape North South, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rmT52A--V3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rmT52A--V3Q",
+      "url": "https://www.youtube.com/watch?v=rmT52A--V3Q",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT203S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ The defender must prioritize keeping their chin tucked to limit arm threading de
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XaLBmGnHm78)
+
+<p class="clip-credit"><strong>North South inverted spin escape</strong> — taught by SBG Australia · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JgVZpD0yZPk)
+
+<p class="clip-credit"><strong>North South lapel sweep from bottom</strong> — taught by Edward Anthony · 1:22 · <a href="https://www.youtube.com/watch?v=JgVZpD0yZPk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rmT52A--V3Q)
+
+<p class="clip-credit"><strong>How to escape North South</strong> — taught by Jon Thomas · 3:23 · <a href="https://www.youtube.com/watch?v=rmT52A--V3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

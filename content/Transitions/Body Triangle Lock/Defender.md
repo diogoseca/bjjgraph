@@ -142,6 +142,54 @@ description: "How to defend against Body Triangle Lock in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the body triangle",
+      "description": "Body Triangle Lock (Defender) film study: Escaping the body triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
+      "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body triangle ankle trap escape",
+      "description": "Body Triangle Lock (Defender) film study: Body triangle ankle trap escape, taught by Garry Tonon and Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VYef5MPcNZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VYef5MPcNZA",
+      "url": "https://www.youtube.com/watch?v=VYef5MPcNZA",
+      "creator": { "@type": "Person", "name": "Garry Tonon and Gordon Ryan" },
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the body triangle from back control",
+      "description": "Body Triangle Lock (Defender) film study: Escaping the body triangle from back control, taught by Coach Ben.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dc3sgOZddOg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dc3sgOZddOg",
+      "url": "https://www.youtube.com/watch?v=Dc3sgOZddOg",
+      "creator": { "@type": "Person", "name": "Coach Ben" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -155,6 +203,42 @@ The defender must prioritize preventing the lock from completing while maintaini
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hgaULMND3ag)
+
+<p class="clip-credit"><strong>Escaping the body triangle</strong> — taught by Coach Brian · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VYef5MPcNZA)
+
+<p class="clip-credit"><strong>Body triangle ankle trap escape</strong> — taught by Garry Tonon and Gordon Ryan · 2:24 · <a href="https://www.youtube.com/watch?v=VYef5MPcNZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dc3sgOZddOg)
+
+<p class="clip-credit"><strong>Escaping the body triangle from back control</strong> — taught by Coach Ben · 2:18 · <a href="https://www.youtube.com/watch?v=Dc3sgOZddOg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

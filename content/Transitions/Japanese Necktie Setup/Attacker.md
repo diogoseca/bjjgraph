@@ -168,6 +168,43 @@ description: "How to execute Japanese Necktie Setup in BJJ. Attacking perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japanese Necktie Setup (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do a Japanese necktie",
+      "description": "Japanese Necktie Setup (Attacker) film study: How to do a Japanese necktie, taught by Budo Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GhsOYl-GXUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GhsOYl-GXUk",
+      "url": "https://www.youtube.com/watch?v=GhsOYl-GXUk",
+      "creator": { "@type": "Person", "name": "Budo Brothers" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce to Japanese necktie chain",
+      "description": "Japanese Necktie Setup (Attacker) film study: Darce to Japanese necktie chain, taught by Drew Darce.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8vCEZKqCALw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8vCEZKqCALw",
+      "url": "https://www.youtube.com/watch?v=8vCEZKqCALw",
+      "creator": { "@type": "Person", "name": "Drew Darce" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 **From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Japanese Necktie Setup (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GhsOYl-GXUk)
+
+<p class="clip-credit"><strong>How to do a Japanese necktie</strong> — taught by Budo Brothers · 1:22 · <a href="https://www.youtube.com/watch?v=GhsOYl-GXUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8vCEZKqCALw)
+
+<p class="clip-credit"><strong>Darce to Japanese necktie chain</strong> — taught by Drew Darce · 0:53 · <a href="https://www.youtube.com/watch?v=8vCEZKqCALw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

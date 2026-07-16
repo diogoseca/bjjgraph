@@ -153,6 +153,54 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Lasso Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Lasso with Longstep + Footwork",
+      "description": "Inverted Lasso Guard (Top) film study: Passing the Lasso with Longstep + Footwork, taught by Bryce Nie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XSkn8eAmtJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XSkn8eAmtJU",
+      "url": "https://www.youtube.com/watch?v=XSkn8eAmtJU",
+      "creator": { "@type": "Person", "name": "Bryce Nie" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the Lasso-Half Guard",
+      "description": "Inverted Lasso Guard (Top) film study: Passing the Lasso-Half Guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Q3S5alr1j4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Q3S5alr1j4",
+      "url": "https://www.youtube.com/watch?v=3Q3S5alr1j4",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Xande\u0027s Guard Retention Drill Explained",
+      "description": "Inverted Lasso Guard (Top) film study: Xande\u0027s Guard Retention Drill Explained, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/It-74eVqIC0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/It-74eVqIC0",
+      "url": "https://www.youtube.com/watch?v=It-74eVqIC0",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT408S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ Three primary defensive strategies exist: arm extraction (removing the lassoed l
 Advanced top players learn to create dilemmas in reverse - making the inverted position itself uncomfortable enough that bottom players must abandon it or risk exhaustion. This involves strategic pressure application on the inverted shoulders, controlling the hips to prevent rotation, and threatening submissions or passes that force a return to upright guard. The goal is making inverted lasso untenable as a holding position, converting it from an offensive threat to a desperate defensive attempt.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Lasso Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XSkn8eAmtJU)
+
+<p class="clip-credit"><strong>Passing the Lasso with Longstep + Footwork</strong> — taught by Bryce Nie · 2:30 · <a href="https://www.youtube.com/watch?v=XSkn8eAmtJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Q3S5alr1j4)
+
+<p class="clip-credit"><strong>Passing the Lasso-Half Guard</strong> — taught by Roger Gracie · 2:42 · <a href="https://www.youtube.com/watch?v=3Q3S5alr1j4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=It-74eVqIC0)
+
+<p class="clip-credit"><strong>Xande&#39;s Guard Retention Drill Explained</strong> — taught by Xande Ribeiro · 6:48 · <a href="https://www.youtube.com/watch?v=It-74eVqIC0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

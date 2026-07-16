@@ -148,6 +148,43 @@ description: "How to defend against Leg Extraction to Guard in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Re-entangling with cross ashi when they post the leg",
+      "description": "Leg Extraction to Guard (Defender) film study: Re-entangling with cross ashi when they post the leg, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WqJnBWij11E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WqJnBWij11E",
+      "url": "https://www.youtube.com/watch?v=WqJnBWij11E",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the irimi ashi garami escape",
+      "description": "Leg Extraction to Guard (Defender) film study: Countering the irimi ashi garami escape, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The most effective defenders treat leg extraction attempts as offensive opportun
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WqJnBWij11E)
+
+<p class="clip-credit"><strong>Re-entangling with cross ashi when they post the leg</strong> — taught by John Danaher · 2:13 · <a href="https://www.youtube.com/watch?v=WqJnBWij11E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Countering the irimi ashi garami escape</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

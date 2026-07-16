@@ -34,6 +34,43 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Kimura \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Kimura Throw to Submission",
+      "description": "Reverse Kimura film study: Reverse Kimura Throw to Submission, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tW1t_KO1T4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tW1t_KO1T4",
+      "url": "https://www.youtube.com/watch?v=8tW1t_KO1T4",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Kimura Arm Drag to Back",
+      "description": "Reverse Kimura film study: Reverse Kimura Arm Drag to Back, taught by Grappling with Insanity.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dw9YtuvroXI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dw9YtuvroXI",
+      "url": "https://www.youtube.com/watch?v=dw9YtuvroXI",
+      "creator": { "@type": "Person", "name": "Grappling with Insanity" },
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +117,34 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 Within the broader Kimura shoulder-lock system, the Reverse Kimura occupies the niche of dynamic, scramble-heavy exchanges where the traditional figure-four grip behind the arm is unavailable. Instead of the standard figure-four grip with your hand grabbing your own wrist behind the opponent's arm, the Reverse Kimura involves gripping your wrist in front of the opponent's arm, creating a different leverage angle and control pattern. This submission is particularly effective from standing positions, front headlocks, and scrambles where traditional Kimura grips may not be accessible. The Reverse Kimura shares the same target area and injury mechanism as the standard Kimura—the shoulder joint and rotator cuff—but the reversed grip often provides superior control in dynamic situations and allows for unique transitions to back takes and other submissions. The technique is highly valued in wrestling-based grappling and no-gi contexts where grip fighting and hand fighting create opportunities for unconventional entries. Understanding both the standard and reverse Kimura variations creates a more complete shoulder lock system that adapts to different gripping scenarios.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Kimura in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tW1t_KO1T4)
+
+<p class="clip-credit"><strong>Reverse Kimura Throw to Submission</strong> — taught by Coach Brian · 1:09 · <a href="https://www.youtube.com/watch?v=8tW1t_KO1T4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dw9YtuvroXI)
+
+<p class="clip-credit"><strong>Reverse Kimura Arm Drag to Back</strong> — taught by Grappling with Insanity · 0:27 · <a href="https://www.youtube.com/watch?v=dw9YtuvroXI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

@@ -140,6 +140,54 @@ description: "Defend against the Backstep from Worm Guard. Recognition cues, tim
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Worm Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse De La Worm defense against the smash pass",
+      "description": "Backstep from Worm Guard (Defender) film study: Reverse De La Worm defense against the smash pass, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U-d9fLP9eAo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U-d9fLP9eAo",
+      "url": "https://www.youtube.com/watch?v=U-d9fLP9eAo",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backwards roll counter to the worm guard backstep",
+      "description": "Backstep from Worm Guard (Defender) film study: Backwards roll counter to the worm guard backstep, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d8xnLb5JyLc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d8xnLb5JyLc",
+      "url": "https://www.youtube.com/watch?v=d8xnLb5JyLc",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT254S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Maintaining lapel guard control to prevent the pass",
+      "description": "Backstep from Worm Guard (Defender) film study: Maintaining lapel guard control to prevent the pass, taught by Lucas Wilhan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6DGnxOUdwdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6DGnxOUdwdg",
+      "url": "https://www.youtube.com/watch?v=6DGnxOUdwdg",
+      "creator": { "@type": "Person", "name": "Lucas Wilhan" },
+      "duration": "PT186S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the bottom player in worm guard defending against the backstep, your primary 
 **Opponent's Starting Position**: [[Positions/Worm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Worm Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U-d9fLP9eAo)
+
+<p class="clip-credit"><strong>Reverse De La Worm defense against the smash pass</strong> — taught by Satori BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=U-d9fLP9eAo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d8xnLb5JyLc)
+
+<p class="clip-credit"><strong>Backwards roll counter to the worm guard backstep</strong> — taught by Lucas Lepri · 4:14 · <a href="https://www.youtube.com/watch?v=d8xnLb5JyLc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6DGnxOUdwdg)
+
+<p class="clip-credit"><strong>Maintaining lapel guard control to prevent the pass</strong> — taught by Lucas Wilhan · 3:06 · <a href="https://www.youtube.com/watch?v=6DGnxOUdwdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

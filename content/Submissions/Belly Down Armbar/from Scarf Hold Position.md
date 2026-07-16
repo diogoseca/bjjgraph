@@ -34,6 +34,43 @@ description: "Master the belly down armbar finish from scarf hold position. Lear
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Scarf Hold Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ude-Gatame Straight Armlock",
+      "description": "Belly Down Armbar from Scarf Hold Position film study: Ude-Gatame Straight Armlock, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mu1TlMqe6KY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mu1TlMqe6KY",
+      "url": "https://www.youtube.com/watch?v=Mu1TlMqe6KY",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "12 Kesa Gatame Attacks",
+      "description": "Belly Down Armbar from Scarf Hold Position film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The transition from scarf hold to belly down armbar represents a critical commit
 **Starting Position**: [[Positions/Side Control/Scarf Hold Position]] · **From**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Scarf Hold Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mu1TlMqe6KY)
+
+<p class="clip-credit"><strong>Ude-Gatame Straight Armlock</strong> — taught by Travis Stevens · 0:37 · <a href="https://www.youtube.com/watch?v=Mu1TlMqe6KY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Diamond Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Diamond Guard: setup + 2 attacks",
+      "description": "Diamond Guard film study: Diamond Guard: setup + 2 attacks, taught by Caron Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oqR6MLjUrd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oqR6MLjUrd4",
+      "url": "https://www.youtube.com/watch?v=oqR6MLjUrd4",
+      "creator": { "@type": "Person", "name": "Caron Jiu Jitsu" },
+      "duration": "PT252S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Choke from the diamond/knee-shield guard",
+      "description": "Diamond Guard film study: Choke from the diamond/knee-shield guard, taught by DS Team Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fjRWdwc1KjA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fjRWdwc1KjA",
+      "url": "https://www.youtube.com/watch?v=fjRWdwc1KjA",
+      "creator": { "@type": "Person", "name": "DS Team Jiu Jitsu" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position derives its name from the geometric shape formed when the overhook 
 Diamond Guard transforms standard closed guard into an aggressive submission-hunting platform. The overhook eliminates the opponent's ability to post with their trapped arm, while head control prevents posture recovery. Together, these controls create submission chains: releasing head control opens triangle entries, switching to wrist control opens omoplata rotations, and the overhook itself provides the foundation for kimura attacks. The position rewards patience and systematic combination work, with an inherent energy advantage for the guard player since maintaining the frame requires less effort than escaping it.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Diamond Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oqR6MLjUrd4)
+
+<p class="clip-credit"><strong>Diamond Guard: setup + 2 attacks</strong> — taught by Caron Jiu Jitsu · 4:12 · <a href="https://www.youtube.com/watch?v=oqR6MLjUrd4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fjRWdwc1KjA)
+
+<p class="clip-credit"><strong>Choke from the diamond/knee-shield guard</strong> — taught by DS Team Jiu Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=fjRWdwc1KjA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Standing Guard Pass with Distance Creation from Ringwor
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard Pass with Distance Creation \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing guard pass with distance and posture",
+      "description": "Standing Guard Pass with Distance Creation film study: Standing guard pass with distance and posture, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RrD643OqTao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RrD643OqTao",
+      "url": "https://www.youtube.com/watch?v=RrD643OqTao",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing armpit pin guard pass",
+      "description": "Standing Guard Pass with Distance Creation film study: Standing armpit pin guard pass, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ltkYEliFZqo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ltkYEliFZqo",
+      "url": "https://www.youtube.com/watch?v=ltkYEliFZqo",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT101S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard Pass with Distance Creation in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RrD643OqTao)
+
+<p class="clip-credit"><strong>Standing guard pass with distance and posture</strong> — taught by Rickson Gracie · 1:06 · <a href="https://www.youtube.com/watch?v=RrD643OqTao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ltkYEliFZqo)
+
+<p class="clip-credit"><strong>Standing armpit pin guard pass</strong> — taught by BJJ4Breakfast · 1:41 · <a href="https://www.youtube.com/watch?v=ltkYEliFZqo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

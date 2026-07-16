@@ -148,6 +148,43 @@ description: "Defend against the Smash Pass from Knee Shield in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pass from Knee Shield (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the double over smash pass",
+      "description": "Smash Pass from Knee Shield (Defender) film study: Countering the double over smash pass, taught by BJJ \u0026 Submission Grappling coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YxAYfWINeQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YxAYfWINeQ",
+      "url": "https://www.youtube.com/watch?v=8YxAYfWINeQ",
+      "creator": { "@type": "Person", "name": "BJJ \u0026 Submission Grappling coach" },
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Smash Pass from Knee Shield (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Smash Pass from Knee Shield, your objective is to pr
 **Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pass from Knee Shield (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YxAYfWINeQ)
+
+<p class="clip-credit"><strong>Countering the double over smash pass</strong> — taught by BJJ &amp; Submission Grappling coach · 2:44 · <a href="https://www.youtube.com/watch?v=8YxAYfWINeQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

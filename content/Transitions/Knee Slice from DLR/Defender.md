@@ -148,6 +148,43 @@ description: "Defend against the Knee Slice from De La Riva Guard. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from DLR (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee slice defense counter",
+      "description": "Knee Slice from DLR (Defender) film study: Knee slice defense counter, taught by A Day In A Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Da5PAZooedU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Da5PAZooedU",
+      "url": "https://www.youtube.com/watch?v=Da5PAZooedU",
+      "creator": { "@type": "Person", "name": "A Day In A Life" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Details to make your De La Riva unpassable",
+      "description": "Knee Slice from DLR (Defender) film study: Details to make your De La Riva unpassable, taught by Juanjo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wLSe23vSbP0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wLSe23vSbP0",
+      "url": "https://www.youtube.com/watch?v=wLSe23vSbP0",
+      "creator": { "@type": "Person", "name": "Juanjo BJJ" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Knee Slice from DLR requires proactive disruption of the passer's 
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from DLR (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Da5PAZooedU)
+
+<p class="clip-credit"><strong>Knee slice defense counter</strong> — taught by A Day In A Life · 1:26 · <a href="https://www.youtube.com/watch?v=Da5PAZooedU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wLSe23vSbP0)
+
+<p class="clip-credit"><strong>Details to make your De La Riva unpassable</strong> — taught by Juanjo BJJ · 1:42 · <a href="https://www.youtube.com/watch?v=wLSe23vSbP0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

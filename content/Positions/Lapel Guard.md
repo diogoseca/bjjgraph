@@ -34,6 +34,54 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel Guard Encyclopedia Teaser",
+      "description": "Lapel Guard film study: Lapel Guard Encyclopedia Teaser, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AL0k21Zdk5s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AL0k21Zdk5s",
+      "url": "https://www.youtube.com/watch?v=AL0k21Zdk5s",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm Guard to Back Choke",
+      "description": "Lapel Guard film study: Worm Guard to Back Choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lapel Guard Takedown Breakdown",
+      "description": "Lapel Guard film study: Lapel Guard Takedown Breakdown, taught by Legion AJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
+      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
+      "creator": { "@type": "Person", "name": "Legion AJJ" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ Lapel guards excel in gi competition where grips are durable and lapel fabric pr
 The energy dynamics of lapel guard favor the bottom player in extended exchanges. Once lapel configurations are established, maintaining them requires relatively low energy compared to the intense problem-solving and grip breaking required from the top position. This inverts the traditional guard dynamic where the bottom player typically expends more energy than the passer.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AL0k21Zdk5s)
+
+<p class="clip-credit"><strong>Lapel Guard Encyclopedia Teaser</strong> — taught by Keenan Cornelius · 0:44 · <a href="https://www.youtube.com/watch?v=AL0k21Zdk5s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm Guard to Back Choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
+
+<p class="clip-credit"><strong>Lapel Guard Takedown Breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

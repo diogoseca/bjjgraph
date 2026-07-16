@@ -153,6 +153,54 @@ description: "Master Half Butterfly Bottom position in BJJ. Hybrid guard combini
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Butterfly (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half butterfly sweep",
+      "description": "Half Butterfly (Bottom) film study: Half butterfly sweep, taught by StadiumMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oyBedW2q0Qo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oyBedW2q0Qo",
+      "url": "https://www.youtube.com/watch?v=oyBedW2q0Qo",
+      "creator": { "@type": "Person", "name": "StadiumMMA" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half butterfly sweep from head wrap",
+      "description": "Half Butterfly (Bottom) film study: Half butterfly sweep from head wrap, taught by Six Blades JJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_PJ9H2B8us8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_PJ9H2B8us8",
+      "url": "https://www.youtube.com/watch?v=_PJ9H2B8us8",
+      "creator": { "@type": "Person", "name": "Six Blades JJ" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Windmill half guard sweep",
+      "description": "Half Butterfly (Bottom) film study: Windmill half guard sweep, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3M6JUqr1Bo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3M6JUqr1Bo",
+      "url": "https://www.youtube.com/watch?v=X3M6JUqr1Bo",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The position is particularly effective in no-gi grappling and modern competitive
 This position represents an evolution in half guard theory, popularized by practitioners like Marcelo Garcia and Lucas Leite, who recognized that adding the butterfly hook creates additional vectors of control and sweep mechanics that pure half guard lacks. The position excels in creating scrambles and forcing opponents into defensive postures, making it ideal for practitioners who favor dynamic, movement-based guard play.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Butterfly (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oyBedW2q0Qo)
+
+<p class="clip-credit"><strong>Half butterfly sweep</strong> — taught by StadiumMMA · 0:30 · <a href="https://www.youtube.com/watch?v=oyBedW2q0Qo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_PJ9H2B8us8)
+
+<p class="clip-credit"><strong>Half butterfly sweep from head wrap</strong> — taught by Six Blades JJ · 0:43 · <a href="https://www.youtube.com/watch?v=_PJ9H2B8us8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
+
+<p class="clip-credit"><strong>Windmill half guard sweep</strong> — taught by SBG Australia · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

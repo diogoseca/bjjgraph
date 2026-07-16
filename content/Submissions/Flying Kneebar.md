@@ -34,6 +34,43 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flying Kneebar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Steps to a Flying Kneebar",
+      "description": "Flying Kneebar film study: 3 Steps to a Flying Kneebar, taught by Bermuda Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IuBrliVbU24/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IuBrliVbU24",
+      "url": "https://www.youtube.com/watch?v=IuBrliVbU24",
+      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Flying Kneebar Attack",
+      "description": "Flying Kneebar film study: Flying Kneebar Attack, taught by High Rollerz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l9qAHPNbCfM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l9qAHPNbCfM",
+      "url": "https://www.youtube.com/watch?v=l9qAHPNbCfM",
+      "creator": { "@type": "Person", "name": "High Rollerz" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +117,34 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 As a variant family, the Flying Kneebar collects the dynamic aerial entries to the kneebar, organized here by the position the leap is launched from. This spectacular technique combines athleticism, timing, and technical precision to catch opponents off-guard during standup exchanges or guard pulls. While visually impressive and highly effective when executed properly, it carries significant risk for both practitioners and requires extensive drilling before live application. The submission targets the knee joint through hyperextension, attacking the posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL) simultaneously. Due to the dynamic nature of the entry and the potential for awkward landings, the technique demands exceptional body control and spatial awareness. It is most commonly seen in no-gi competition where grips don't interfere with the rotational mechanics, though gi variations exist using lapel and sleeve grips to control the descent. The Flying Kneebar represents the intersection of takedown artistry and leg lock expertise, requiring practitioners to master both the aerial component and the finishing mechanics to achieve consistent success.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flying Kneebar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IuBrliVbU24)
+
+<p class="clip-credit"><strong>3 Steps to a Flying Kneebar</strong> — taught by Bermuda Martial Arts · 0:25 · <a href="https://www.youtube.com/watch?v=IuBrliVbU24" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l9qAHPNbCfM)
+
+<p class="clip-credit"><strong>Flying Kneebar Attack</strong> — taught by High Rollerz · 0:16 · <a href="https://www.youtube.com/watch?v=l9qAHPNbCfM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

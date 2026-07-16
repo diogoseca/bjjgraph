@@ -174,6 +174,43 @@ description: "How to execute Triangle to Back in BJJ. Attacking perspective with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle to Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Triangle When Your Choke Didn\u0027t Work",
+      "description": "Triangle to Back (Attacker) film study: Back Triangle When Your Choke Didn\u0027t Work, taught by Josh Presley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e5-wNLYzJT0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e5-wNLYzJT0",
+      "url": "https://www.youtube.com/watch?v=e5-wNLYzJT0",
+      "creator": { "@type": "Person", "name": "Josh Presley" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Take from Failed Arm Triangle",
+      "description": "Triangle to Back (Attacker) film study: Back Take from Failed Arm Triangle, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ePrZ7vwn-ss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ePrZ7vwn-ss",
+      "url": "https://www.youtube.com/watch?v=ePrZ7vwn-ss",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT118S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Triangle to Back transition represents an advanced positional flow that capi
 **From Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle to Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e5-wNLYzJT0)
+
+<p class="clip-credit"><strong>Back Triangle When Your Choke Didn&#39;t Work</strong> — taught by Josh Presley · 1:41 · <a href="https://www.youtube.com/watch?v=e5-wNLYzJT0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ePrZ7vwn-ss)
+
+<p class="clip-credit"><strong>Back Take from Failed Arm Triangle</strong> — taught by Chosen Few BJJ · 1:58 · <a href="https://www.youtube.com/watch?v=ePrZ7vwn-ss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

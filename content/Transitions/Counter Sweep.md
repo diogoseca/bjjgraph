@@ -34,6 +34,43 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard counter sweep vs a head hug",
+      "description": "Counter Sweep film study: Closed guard counter sweep vs a head hug, taught by Jiu Jitsu Five-O coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xDOjrYFJf5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xDOjrYFJf5Y",
+      "url": "https://www.youtube.com/watch?v=xDOjrYFJf5Y",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O coach" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sweeping off an arm drag counter",
+      "description": "Counter Sweep film study: Sweeping off an arm drag counter, taught by JiuJitsu.com coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_uXZgaQm9jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_uXZgaQm9jg",
+      "url": "https://www.youtube.com/watch?v=_uXZgaQm9jg",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com coach" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +104,34 @@ Against any sweep, the top player must recognize the early indicators: grip chan
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xDOjrYFJf5Y)
+
+<p class="clip-credit"><strong>Closed guard counter sweep vs a head hug</strong> — taught by Jiu Jitsu Five-O coach · 1:10 · <a href="https://www.youtube.com/watch?v=xDOjrYFJf5Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_uXZgaQm9jg)
+
+<p class="clip-credit"><strong>Sweeping off an arm drag counter</strong> — taught by JiuJitsu.com coach · 2:17 · <a href="https://www.youtube.com/watch?v=_uXZgaQm9jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Reverse De La Riva Guard in BJJ. Strategic guide covering i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse De La Riva Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse De La Riva to the Back (No-Gi)",
+      "description": "Reverse De La Riva Guard film study: Reverse De La Riva to the Back (No-Gi), taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DzNwu5_EBiA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DzNwu5_EBiA",
+      "url": "https://www.youtube.com/watch?v=DzNwu5_EBiA",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse De La Riva No-Gi Showcase",
+      "description": "Reverse De La Riva Guard film study: Reverse De La Riva No-Gi Showcase, taught by Best Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G0PyHbMyyR4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G0PyHbMyyR4",
+      "url": "https://www.youtube.com/watch?v=G0PyHbMyyR4",
+      "creator": { "@type": "Person", "name": "Best Jiu Jitsu" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee Shield Reverse DLR to Triangle",
+      "description": "Reverse De La Riva Guard film study: Knee Shield Reverse DLR to Triangle, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gR54h1IXyGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gR54h1IXyGg",
+      "url": "https://www.youtube.com/watch?v=gR54h1IXyGg",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT22S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ The position serves dual purposes in modern BJJ: defensively, it acts as a power
 Strategically, RDLR has become increasingly prominent in both gi and no-gi competition due to its effectiveness at creating immediate back-taking opportunities, which are highly valued in modern scoring systems and submission-only formats. The position requires strong hip mobility and core strength to maintain the inverted hook structure under pressure, but rewards practitioners with one of the highest-percentage pathways from guard to back control in contemporary grappling. Understanding RDLR is essential for modern competitors, as it serves as a critical bridge between traditional open guards and modern leg entanglement systems, offering multiple pathways to dominant positions regardless of the opponent's passing style.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse De La Riva Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DzNwu5_EBiA)
+
+<p class="clip-credit"><strong>Reverse De La Riva to the Back (No-Gi)</strong> — taught by Revolution BJJ · 0:44 · <a href="https://www.youtube.com/watch?v=DzNwu5_EBiA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G0PyHbMyyR4)
+
+<p class="clip-credit"><strong>Reverse De La Riva No-Gi Showcase</strong> — taught by Best Jiu Jitsu · 0:37 · <a href="https://www.youtube.com/watch?v=G0PyHbMyyR4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gR54h1IXyGg)
+
+<p class="clip-credit"><strong>Knee Shield Reverse DLR to Triangle</strong> — taught by Lucas Lepri · 0:22 · <a href="https://www.youtube.com/watch?v=gR54h1IXyGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -174,6 +174,54 @@ description: "Master the Williams Guard Sweep execution in BJJ. Step-by-step gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Williams Guard Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Williams guard sweep variations",
+      "description": "Williams Guard Sweep (Attacker) film study: Williams guard sweep variations, taught by UFAI Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vcO2z_awL5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vcO2z_awL5k",
+      "url": "https://www.youtube.com/watch?v=vcO2z_awL5k",
+      "creator": { "@type": "Person", "name": "UFAI Grappling" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Williams guard shoulder pin options",
+      "description": "Williams Guard Sweep (Attacker) film study: Williams guard shoulder pin options, taught by Cross Fight.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mfw8-mXM_JY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mfw8-mXM_JY",
+      "url": "https://www.youtube.com/watch?v=Mfw8-mXM_JY",
+      "creator": { "@type": "Person", "name": "Cross Fight" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Williams guard money sweep from closed guard",
+      "description": "Williams Guard Sweep (Attacker) film study: Williams guard money sweep from closed guard, taught by Ralph Gracie BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RQjhLboSn34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RQjhLboSn34",
+      "url": "https://www.youtube.com/watch?v=RQjhLboSn34",
+      "creator": { "@type": "Person", "name": "Ralph Gracie BJJ" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Williams Guard Sweep requires precise coordination between shoulde
 **From Position**: [[Positions/Williams Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Williams Guard Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vcO2z_awL5k)
+
+<p class="clip-credit"><strong>Williams guard sweep variations</strong> — taught by UFAI Grappling · 0:36 · <a href="https://www.youtube.com/watch?v=vcO2z_awL5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mfw8-mXM_JY)
+
+<p class="clip-credit"><strong>Williams guard shoulder pin options</strong> — taught by Cross Fight · 0:38 · <a href="https://www.youtube.com/watch?v=Mfw8-mXM_JY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RQjhLboSn34)
+
+<p class="clip-credit"><strong>Williams guard money sweep from closed guard</strong> — taught by Ralph Gracie BJJ · 2:09 · <a href="https://www.youtube.com/watch?v=RQjhLboSn34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

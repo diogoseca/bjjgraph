@@ -34,6 +34,43 @@ description: "Master mount control in BJJ. Maintain dominant position against es
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining full mount top control",
+      "description": "Mount Control film study: Maintaining full mount top control, taught by Formidable Combat coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SGZ5wD3z73Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SGZ5wD3z73Q",
+      "url": "https://www.youtube.com/watch?v=SGZ5wD3z73Q",
+      "creator": { "@type": "Person", "name": "Formidable Combat coach" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Top mount control fundamentals",
+      "description": "Mount Control film study: Top mount control fundamentals, taught by Todd Hendrickson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4eDtPYQ0bps/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4eDtPYQ0bps",
+      "url": "https://www.youtube.com/watch?v=4eDtPYQ0bps",
+      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +102,34 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 **Success Rate**: 78%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SGZ5wD3z73Q)
+
+<p class="clip-credit"><strong>Maintaining full mount top control</strong> — taught by Formidable Combat coach · 1:46 · <a href="https://www.youtube.com/watch?v=SGZ5wD3z73Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4eDtPYQ0bps)
+
+<p class="clip-credit"><strong>Top mount control fundamentals</strong> — taught by Todd Hendrickson · 2:32 · <a href="https://www.youtube.com/watch?v=4eDtPYQ0bps" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

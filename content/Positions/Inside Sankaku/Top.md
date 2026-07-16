@@ -154,6 +154,54 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Sankaku (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lachlan\u0027s ADCC Heel Hook",
+      "description": "Inside Sankaku (Top) film study: Lachlan\u0027s ADCC Heel Hook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5RyU5LDc3C4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5RyU5LDc3C4",
+      "url": "https://www.youtube.com/watch?v=5RyU5LDc3C4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Using Hips For The Inverted Heel Hook",
+      "description": "Inside Sankaku (Top) film study: Using Hips For The Inverted Heel Hook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S8ZH_9F18jw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S8ZH_9F18jw",
+      "url": "https://www.youtube.com/watch?v=S8ZH_9F18jw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Catch The Inside Heel Hook From The Saddle",
+      "description": "Inside Sankaku (Top) film study: Catch The Inside Heel Hook From The Saddle, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QVHDJoP-LK0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QVHDJoP-LK0",
+      "url": "https://www.youtube.com/watch?v=QVHDJoP-LK0",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -164,6 +212,42 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 Inside Sankaku from the top perspective represents one of the most dominant and highly-controlled positions in modern leg lock systems, offering exceptional mechanical advantage for inside heel hook attacks while severely limiting the opponent's defensive and escape options. From this position, the top player has established a figure-four leg entanglement around the opponent's leg with the heel exposed toward their centerline, creating optimal biomechanical alignment for devastating submissions. The position's effectiveness derives from its multi-layered control system - hip-to-hip connection prevents the opponent from creating escape distance, knee line dominance prevents defensive rotation, and the leg configuration itself isolates the trapped limb from defensive resources. Understanding the systematic approach to this position is critical: first establish the fundamental entanglement structure, then secure hip connection, next dominate the knee line, and finally isolate heel exposure before attempting the submission. Many practitioners fail by rushing to the submission before establishing complete positional control, which allows skilled opponents to escape or counter-attack. The top player must also maintain awareness of their own leg positioning, as engagement in leg entanglements creates mutual vulnerability that must be managed through superior positioning and control. Modern competition has proven Inside Sankaku to be among the highest percentage finishing positions, with success rates climbing significantly as practitioners develop systematic understanding of the position's control mechanics. The strategic depth of the position extends beyond simple submission hunting - it can be used to force opponents into bad positions, drain their energy through defensive efforts, and create multiple attack pathways that form dilemmas where every defensive choice opens different offensive opportunities.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Sankaku (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5RyU5LDc3C4)
+
+<p class="clip-credit"><strong>Lachlan&#39;s ADCC Heel Hook</strong> — taught by Lachlan Giles · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S8ZH_9F18jw)
+
+<p class="clip-credit"><strong>Using Hips For The Inverted Heel Hook</strong> — taught by Lachlan Giles · 1:43 · <a href="https://www.youtube.com/watch?v=S8ZH_9F18jw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QVHDJoP-LK0)
+
+<p class="clip-credit"><strong>Catch The Inside Heel Hook From The Saddle</strong> — taught by Hellfish MMA · 2:18 · <a href="https://www.youtube.com/watch?v=QVHDJoP-LK0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

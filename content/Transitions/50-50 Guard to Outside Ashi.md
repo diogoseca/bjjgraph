@@ -34,6 +34,54 @@ description: "Master the 50-50 Guard to Outside Ashi transition. Clear opponent'
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Outside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside ashi entry and control",
+      "description": "50-50 Guard to Outside Ashi film study: Outside ashi entry and control, taught by Team Strela coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xvx03k3jiWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xvx03k3jiWo",
+      "url": "https://www.youtube.com/watch?v=xvx03k3jiWo",
+      "creator": { "@type": "Person", "name": "Team Strela coach" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 to outside sankaku",
+      "description": "50-50 Guard to Outside Ashi film study: 50/50 to outside sankaku, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zl-OLGxkKo0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zl-OLGxkKo0",
+      "url": "https://www.youtube.com/watch?v=zl-OLGxkKo0",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Heel hook from outside ashi",
+      "description": "50-50 Guard to Outside Ashi film study: Heel hook from outside ashi, taught by Morning Star Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bya6YLJMwDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bya6YLJMwDw",
+      "url": "https://www.youtube.com/watch?v=Bya6YLJMwDw",
+      "creator": { "@type": "Person", "name": "Morning Star Jiu Jitsu coach" },
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This technique is strategically critical in modern leg lock systems because 50-5
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Outside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xvx03k3jiWo)
+
+<p class="clip-credit"><strong>Outside ashi entry and control</strong> — taught by Team Strela coach · 0:26 · <a href="https://www.youtube.com/watch?v=xvx03k3jiWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zl-OLGxkKo0)
+
+<p class="clip-credit"><strong>50/50 to outside sankaku</strong> — taught by jamielovesmartialarts · 0:57 · <a href="https://www.youtube.com/watch?v=zl-OLGxkKo0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bya6YLJMwDw)
+
+<p class="clip-credit"><strong>Heel hook from outside ashi</strong> — taught by Morning Star Jiu Jitsu coach · 1:22 · <a href="https://www.youtube.com/watch?v=Bya6YLJMwDw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

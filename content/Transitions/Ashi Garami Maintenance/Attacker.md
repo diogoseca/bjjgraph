@@ -174,6 +174,43 @@ description: "Master attacking Ashi Garami maintenance with systematic connectio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami Maintenance (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "4 ashi foot positions: single leg X, outside ashi, 50/50",
+      "description": "Ashi Garami Maintenance (Attacker) film study: 4 ashi foot positions: single leg X, outside ashi, 50/50, taught by Evo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eiI_4VBA-qA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eiI_4VBA-qA",
+      "url": "https://www.youtube.com/watch?v=eiI_4VBA-qA",
+      "creator": { "@type": "Person", "name": "Evo BJJ" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva knee bump entry into ashi garami",
+      "description": "Ashi Garami Maintenance (Attacker) film study: De La Riva knee bump entry into ashi garami, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_4jDUxFg7uU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_4jDUxFg7uU",
+      "url": "https://www.youtube.com/watch?v=_4jDUxFg7uU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Maintaining Ashi Garami from the attacking perspective requires constant vigilan
 **From Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami Maintenance (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eiI_4VBA-qA)
+
+<p class="clip-credit"><strong>4 ashi foot positions: single leg X, outside ashi, 50/50</strong> — taught by Evo BJJ · 2:42 · <a href="https://www.youtube.com/watch?v=eiI_4VBA-qA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_4jDUxFg7uU)
+
+<p class="clip-credit"><strong>De La Riva knee bump entry into ashi garami</strong> — taught by Gordon Ryan · 2:45 · <a href="https://www.youtube.com/watch?v=_4jDUxFg7uU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

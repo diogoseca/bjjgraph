@@ -140,6 +140,43 @@ description: "Counter the hip scoot escape from back control. Learn to maintain 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scoot Hips to Guard from Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape against top hook",
+      "description": "Scoot Hips to Guard from Back (Defender) film study: Back escape against top hook, taught by Mattix Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/43iZ-GLc_r8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/43iZ-GLc_r8",
+      "url": "https://www.youtube.com/watch?v=43iZ-GLc_r8",
+      "creator": { "@type": "Person", "name": "Mattix Academy" },
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back control escape when sprawled face down",
+      "description": "Scoot Hips to Guard from Back (Defender) film study: Back control escape when sprawled face down, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/485wvqwlBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/485wvqwlBYA",
+      "url": "https://www.youtube.com/watch?v=485wvqwlBYA",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 **Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scoot Hips to Guard from Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=43iZ-GLc_r8)
+
+<p class="clip-credit"><strong>Back escape against top hook</strong> — taught by Mattix Academy · 2:24 · <a href="https://www.youtube.com/watch?v=43iZ-GLc_r8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=485wvqwlBYA)
+
+<p class="clip-credit"><strong>Back control escape when sprawled face down</strong> — taught by Academy Jiu Jitsu · 1:32 · <a href="https://www.youtube.com/watch?v=485wvqwlBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Reguard from Pocket Half Guard in BJJ. Recover standard
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reguard from Pocket Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield half guard recovery vs pressure pass",
+      "description": "Reguard from Pocket Half Guard film study: Knee shield half guard recovery vs pressure pass, taught by Dirtball BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L8_9QIvzZtA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L8_9QIvzZtA",
+      "url": "https://www.youtube.com/watch?v=L8_9QIvzZtA",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting the underhook back from knee shield half",
+      "description": "Reguard from Pocket Half Guard film study: Getting the underhook back from knee shield half, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R0P8BvcJLAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R0P8BvcJLAs",
+      "url": "https://www.youtube.com/watch?v=R0P8BvcJLAs",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The mechanical challenge lies in releasing the deep underhook—the defining fea
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reguard from Pocket Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L8_9QIvzZtA)
+
+<p class="clip-credit"><strong>Knee shield half guard recovery vs pressure pass</strong> — taught by Dirtball BJJ · 0:39 · <a href="https://www.youtube.com/watch?v=L8_9QIvzZtA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R0P8BvcJLAs)
+
+<p class="clip-credit"><strong>Getting the underhook back from knee shield half</strong> — taught by Bowerhouse MMA · 2:11 · <a href="https://www.youtube.com/watch?v=R0P8BvcJLAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

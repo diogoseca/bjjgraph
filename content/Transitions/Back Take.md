@@ -34,6 +34,54 @@ description: "Master the Back Take from Crackhead Control in BJJ. Step-by-step e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling back take from turtle",
+      "description": "Back Take film study: Rolling back take from turtle, taught by Ross Nicholls.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R5dj_vcowZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R5dj_vcowZk",
+      "url": "https://www.youtube.com/watch?v=R5dj_vcowZk",
+      "creator": { "@type": "Person", "name": "Ross Nicholls" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chair sit back take to back control",
+      "description": "Back Take film study: Chair sit back take to back control, taught by New Legacy Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KU5nK5cWZos/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KU5nK5cWZos",
+      "url": "https://www.youtube.com/watch?v=KU5nK5cWZos",
+      "creator": { "@type": "Person", "name": "New Legacy Martial Arts" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle control details into back take",
+      "description": "Back Take film study: Turtle control details into back take, taught by Mamba BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pvzkGEUa22I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pvzkGEUa22I",
+      "url": "https://www.youtube.com/watch?v=pvzkGEUa22I",
+      "creator": { "@type": "Person", "name": "Mamba BJJ" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 **Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R5dj_vcowZk)
+
+<p class="clip-credit"><strong>Rolling back take from turtle</strong> — taught by Ross Nicholls · 2:07 · <a href="https://www.youtube.com/watch?v=R5dj_vcowZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KU5nK5cWZos)
+
+<p class="clip-credit"><strong>Chair sit back take to back control</strong> — taught by New Legacy Martial Arts · 2:13 · <a href="https://www.youtube.com/watch?v=KU5nK5cWZos" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pvzkGEUa22I)
+
+<p class="clip-credit"><strong>Turtle control details into back take</strong> — taught by Mamba BJJ · 1:43 · <a href="https://www.youtube.com/watch?v=pvzkGEUa22I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

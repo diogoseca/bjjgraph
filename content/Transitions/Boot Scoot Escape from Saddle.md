@@ -34,6 +34,54 @@ description: "Master the Boot Scoot Escape from Saddle in BJJ. Learn systematic 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Boot Scoot Escape from Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle heel hook escape into 50/50",
+      "description": "Boot Scoot Escape from Saddle film study: Saddle heel hook escape into 50/50, taught by ZombieProof BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pCX38nCUGD0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pCX38nCUGD0",
+      "url": "https://www.youtube.com/watch?v=pCX38nCUGD0",
+      "creator": { "@type": "Person", "name": "ZombieProof BJJ" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Saddle escape drilling into leg drag",
+      "description": "Boot Scoot Escape from Saddle film study: Saddle escape drilling into leg drag, taught by Travis Anderson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C3bPRoMwGPo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C3bPRoMwGPo",
+      "url": "https://www.youtube.com/watch?v=C3bPRoMwGPo",
+      "creator": { "@type": "Person", "name": "Travis Anderson" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Heel hook escape from the saddle",
+      "description": "Boot Scoot Escape from Saddle film study: Heel hook escape from the saddle, taught by ZombieProof BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qfLLnHyb1GE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qfLLnHyb1GE",
+      "url": "https://www.youtube.com/watch?v=qfLLnHyb1GE",
+      "creator": { "@type": "Person", "name": "ZombieProof BJJ" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a strategic perspective, the boot scoot escape occupies a specific niche wi
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Boot Scoot Escape from Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pCX38nCUGD0)
+
+<p class="clip-credit"><strong>Saddle heel hook escape into 50/50</strong> — taught by ZombieProof BJJ · 1:05 · <a href="https://www.youtube.com/watch?v=pCX38nCUGD0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C3bPRoMwGPo)
+
+<p class="clip-credit"><strong>Saddle escape drilling into leg drag</strong> — taught by Travis Anderson · 1:10 · <a href="https://www.youtube.com/watch?v=C3bPRoMwGPo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qfLLnHyb1GE)
+
+<p class="clip-credit"><strong>Heel hook escape from the saddle</strong> — taught by ZombieProof BJJ · 2:00 · <a href="https://www.youtube.com/watch?v=qfLLnHyb1GE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

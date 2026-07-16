@@ -140,6 +140,43 @@ description: "Defend against the bridge escape from Kesa Gatame. Learn to recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape Kesa Gatame",
+      "description": "Bridge Escape from Kesa Gatame (Defender) film study: How to Escape Kesa Gatame, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sEmKk3m8nwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sEmKk3m8nwE",
+      "url": "https://www.youtube.com/watch?v=sEmKk3m8nwE",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT368S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Escapes",
+      "description": "Bridge Escape from Kesa Gatame (Defender) film study: Kesa Gatame Escapes, taught by Kodokan instructors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5_TS0YHdxcQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5_TS0YHdxcQ",
+      "url": "https://www.youtube.com/watch?v=5_TS0YHdxcQ",
+      "creator": { "@type": "Person", "name": "Kodokan instructors" },
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player defending against the bridge escape from Kesa Gatame, your obj
 **Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sEmKk3m8nwE)
+
+<p class="clip-credit"><strong>How to Escape Kesa Gatame</strong> — taught by Travis Stevens · 6:08 · <a href="https://www.youtube.com/watch?v=sEmKk3m8nwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5_TS0YHdxcQ)
+
+<p class="clip-credit"><strong>Kesa Gatame Escapes</strong> — taught by Kodokan instructors · 2:19 · <a href="https://www.youtube.com/watch?v=5_TS0YHdxcQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

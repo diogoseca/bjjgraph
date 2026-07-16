@@ -180,6 +180,54 @@ description: "Complete guide to passing diamond guard in BJJ. Learn the sequenti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Diamond Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three passes from inside closed guard",
+      "description": "Guard Pass from Diamond Guard (Attacker) film study: Three passes from inside closed guard, taught by Strong Hold Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLXj6r-CX2U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLXj6r-CX2U",
+      "url": "https://www.youtube.com/watch?v=dLXj6r-CX2U",
+      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
+      "duration": "PT192S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "My 5 Favourite Guard Passes",
+      "description": "Guard Pass from Diamond Guard (Attacker) film study: My 5 Favourite Guard Passes, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iiExTTeuB2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iiExTTeuB2s",
+      "url": "https://www.youtube.com/watch?v=iiExTTeuB2s",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT566S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breaking Posture in Closed Guard: Complete Guide",
+      "description": "Guard Pass from Diamond Guard (Attacker) film study: Breaking Posture in Closed Guard: Complete Guide, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZKsfnBbBdjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZKsfnBbBdjk",
+      "url": "https://www.youtube.com/watch?v=ZKsfnBbBdjk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT439S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Passing diamond guard requires a methodical grip-stripping approach that differs
 **From Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Diamond Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dLXj6r-CX2U)
+
+<p class="clip-credit"><strong>Three passes from inside closed guard</strong> — taught by Strong Hold Jiu Jitsu · 3:12 · <a href="https://www.youtube.com/watch?v=dLXj6r-CX2U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iiExTTeuB2s)
+
+<p class="clip-credit"><strong>My 5 Favourite Guard Passes</strong> — taught by Jon Thomas · 9:26 · <a href="https://www.youtube.com/watch?v=iiExTTeuB2s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZKsfnBbBdjk)
+
+<p class="clip-credit"><strong>Breaking Posture in Closed Guard: Complete Guide</strong> — taught by Jon Thomas · 7:19 · <a href="https://www.youtube.com/watch?v=ZKsfnBbBdjk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

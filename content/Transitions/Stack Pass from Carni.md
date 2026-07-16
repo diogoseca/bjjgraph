@@ -34,6 +34,43 @@ description: "Master the Stack Pass from Carni in BJJ. Aggressive pressure escap
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Carni \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass breakdown",
+      "description": "Stack Pass from Carni film study: Stack pass breakdown, taught by Kenny Kim.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2KcAEYsaHAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2KcAEYsaHAg",
+      "url": "https://www.youtube.com/watch?v=2KcAEYsaHAg",
+      "creator": { "@type": "Person", "name": "Kenny Kim" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two options to counter the leg entry",
+      "description": "Stack Pass from Carni film study: Two options to counter the leg entry, taught by Ethan Crelinsten.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sbn5IxXXH3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sbn5IxXXH3w",
+      "url": "https://www.youtube.com/watch?v=sbn5IxXXH3w",
+      "creator": { "@type": "Person", "name": "Ethan Crelinsten" },
+      "duration": "PT297S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Execution depends on three mechanical pillars: first, protecting the heel throug
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Carni in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2KcAEYsaHAg)
+
+<p class="clip-credit"><strong>Stack pass breakdown</strong> — taught by Kenny Kim · 1:28 · <a href="https://www.youtube.com/watch?v=2KcAEYsaHAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sbn5IxXXH3w)
+
+<p class="clip-credit"><strong>Two options to counter the leg entry</strong> — taught by Ethan Crelinsten · 4:57 · <a href="https://www.youtube.com/watch?v=sbn5IxXXH3w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -140,6 +140,54 @@ description: "Learn to defend the Smash Pocket Half in BJJ. Recognition cues, es
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pocket Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop getting smashed in half guard",
+      "description": "Smash Pocket Half (Defender) film study: Stop getting smashed in half guard, taught by Grapplers Planet coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XqxdMRY2qqk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XqxdMRY2qqk",
+      "url": "https://www.youtube.com/watch?v=XqxdMRY2qqk",
+      "creator": { "@type": "Person", "name": "Grapplers Planet coach" },
+      "duration": "PT241S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dealing with the switch base from half guard",
+      "description": "Smash Pocket Half (Defender) film study: Dealing with the switch base from half guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
+      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT284S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to not get flattened and smashed in half guard",
+      "description": "Smash Pocket Half (Defender) film study: How to not get flattened and smashed in half guard, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I05XdrbakZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I05XdrbakZQ",
+      "url": "https://www.youtube.com/watch?v=I05XdrbakZQ",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT339S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Smash Pocket Half requires understanding the sequential nature of 
 **Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pocket Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XqxdMRY2qqk)
+
+<p class="clip-credit"><strong>Stop getting smashed in half guard</strong> — taught by Grapplers Planet coach · 4:01 · <a href="https://www.youtube.com/watch?v=XqxdMRY2qqk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+
+<p class="clip-credit"><strong>Dealing with the switch base from half guard</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I05XdrbakZQ)
+
+<p class="clip-credit"><strong>How to not get flattened and smashed in half guard</strong> — taught by Stephan Kesting · 5:39 · <a href="https://www.youtube.com/watch?v=I05XdrbakZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -150,6 +150,54 @@ description: "Complete defensive guide against the Baseball Bat Choke from Knee 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baseball Bat Choke from Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No Gi Baseball Bat Choke Defence",
+      "description": "Baseball Bat Choke from Knee on Belly (Defender) film study: No Gi Baseball Bat Choke Defence, taught by Team Anaconda Central Coast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dUDptMjjrnQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dUDptMjjrnQ",
+      "url": "https://www.youtube.com/watch?v=dUDptMjjrnQ",
+      "creator": { "@type": "Person", "name": "Team Anaconda Central Coast" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Baseball Choke defense in 60 seconds",
+      "description": "Baseball Bat Choke from Knee on Belly (Defender) film study: Baseball Choke defense in 60 seconds, taught by Trujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nLtarv8APWA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nLtarv8APWA",
+      "url": "https://www.youtube.com/watch?v=nLtarv8APWA",
+      "creator": { "@type": "Person", "name": "Trujitsu" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Baseball Choke from the Bottom Defense",
+      "description": "Baseball Bat Choke from Knee on Belly (Defender) film study: Baseball Choke from the Bottom Defense, taught by Schell Shock BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rj1OPITKM3U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rj1OPITKM3U",
+      "url": "https://www.youtube.com/watch?v=rj1OPITKM3U",
+      "creator": { "@type": "Person", "name": "Schell Shock BJJ" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Baseball Bat Choke from Knee on Belly requires recognizing the thr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baseball Bat Choke from Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dUDptMjjrnQ)
+
+<p class="clip-credit"><strong>No Gi Baseball Bat Choke Defence</strong> — taught by Team Anaconda Central Coast · 0:42 · <a href="https://www.youtube.com/watch?v=dUDptMjjrnQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nLtarv8APWA)
+
+<p class="clip-credit"><strong>Baseball Choke defense in 60 seconds</strong> — taught by Trujitsu · 1:06 · <a href="https://www.youtube.com/watch?v=nLtarv8APWA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rj1OPITKM3U)
+
+<p class="clip-credit"><strong>Baseball Choke from the Bottom Defense</strong> — taught by Schell Shock BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=rj1OPITKM3U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

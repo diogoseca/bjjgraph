@@ -153,6 +153,43 @@ description: "Master offensive New York Control from bottom position. Complete g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dead Orchard Armbar from Rubber Guard",
+      "description": "New York Control (Bottom) film study: Dead Orchard Armbar from Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jT4wPY2Dc_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jT4wPY2Dc_U",
+      "url": "https://www.youtube.com/watch?v=jT4wPY2Dc_U",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard Live Drills",
+      "description": "New York Control (Bottom) film study: Rubber Guard Live Drills, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cllvkg2qg-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cllvkg2qg-w",
+      "url": "https://www.youtube.com/watch?v=Cllvkg2qg-w",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +207,34 @@ Strategic implementation within the 10th Planet system provides clear pathways f
 Competition application demonstrates particular effectiveness in no-gi contexts where traditional grip-fighting becomes unavailable to the top player. The position's unconventional nature creates psychological pressure as opponents struggle with unfamiliar defensive requirements, often making critical errors while attempting to apply standard passing mechanics. Dedicated practitioners who develop the necessary flexibility and systematic understanding gain access to a submission framework that remains largely unexplored in competitive Brazilian Jiu-Jitsu, providing strategic advantages through technical specialization and positional unfamiliarity.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jT4wPY2Dc_U)
+
+<p class="clip-credit"><strong>Dead Orchard Armbar from Rubber Guard</strong> — taught by Eddie Bravo · 1:28 · <a href="https://www.youtube.com/watch?v=jT4wPY2Dc_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cllvkg2qg-w)
+
+<p class="clip-credit"><strong>Rubber Guard Live Drills</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=Cllvkg2qg-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

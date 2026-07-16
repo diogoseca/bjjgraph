@@ -34,6 +34,54 @@ description: "Master the Tarikoplata Setup from Meathook in BJJ. Shoulder lock e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tarikoplata Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do the Tarikoplata",
+      "description": "Tarikoplata Setup film study: How to do the Tarikoplata, taught by Bristol Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7QIKCY_R_3A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7QIKCY_R_3A",
+      "url": "https://www.youtube.com/watch?v=7QIKCY_R_3A",
+      "creator": { "@type": "Person", "name": "Bristol Jiu Jitsu" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tarikoplata from collar and sleeve",
+      "description": "Tarikoplata Setup film study: Tarikoplata from collar and sleeve, taught by Andris Brunovskis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rPpcs9YBpCM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rPpcs9YBpCM",
+      "url": "https://www.youtube.com/watch?v=rPpcs9YBpCM",
+      "creator": { "@type": "Person", "name": "Andris Brunovskis" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Tarikoplata from omoplata breakdown",
+      "description": "Tarikoplata Setup film study: Tarikoplata from omoplata breakdown, taught by Grappling with Insanity.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8g6KFT9O2Hw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8g6KFT9O2Hw",
+      "url": "https://www.youtube.com/watch?v=8g6KFT9O2Hw",
+      "creator": { "@type": "Person", "name": "Grappling with Insanity" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technique requires precise sequencing: the shin must clear the shoulder line
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tarikoplata Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7QIKCY_R_3A)
+
+<p class="clip-credit"><strong>How to do the Tarikoplata</strong> — taught by Bristol Jiu Jitsu · 1:23 · <a href="https://www.youtube.com/watch?v=7QIKCY_R_3A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rPpcs9YBpCM)
+
+<p class="clip-credit"><strong>Tarikoplata from collar and sleeve</strong> — taught by Andris Brunovskis · 1:36 · <a href="https://www.youtube.com/watch?v=rPpcs9YBpCM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8g6KFT9O2Hw)
+
+<p class="clip-credit"><strong>Tarikoplata from omoplata breakdown</strong> — taught by Grappling with Insanity · 2:57 · <a href="https://www.youtube.com/watch?v=8g6KFT9O2Hw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

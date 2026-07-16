@@ -134,6 +134,54 @@ description: "Learn to defend against the forward roll escape from saddle. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Forward Roll from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Controlling the saddle against the roll",
+      "description": "Forward Roll from Saddle (Defender) film study: Controlling the saddle against the roll, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5hhSK86xBFc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5hhSK86xBFc",
+      "url": "https://www.youtube.com/watch?v=5hhSK86xBFc",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT259S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Keeping and Regaining the Knee Line from Saddle",
+      "description": "Forward Roll from Saddle (Defender) film study: Keeping and Regaining the Knee Line from Saddle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2SgSWoUjD4o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2SgSWoUjD4o",
+      "url": "https://www.youtube.com/watch?v=2SgSWoUjD4o",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT872S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Controlling the Knee Line to Prevent Early Escape",
+      "description": "Forward Roll from Saddle (Defender) film study: Controlling the Knee Line to Prevent Early Escape, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eoZKRr-ZayU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eoZKRr-ZayU",
+      "url": "https://www.youtube.com/watch?v=eoZKRr-ZayU",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ Defending against the forward roll escape requires the saddle top player to reco
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Forward Roll from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5hhSK86xBFc)
+
+<p class="clip-credit"><strong>Controlling the saddle against the roll</strong> — taught by Mads H. · 4:19 · <a href="https://www.youtube.com/watch?v=5hhSK86xBFc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2SgSWoUjD4o)
+
+<p class="clip-credit"><strong>Keeping and Regaining the Knee Line from Saddle</strong> — taught by Lachlan Giles · 14:32 · <a href="https://www.youtube.com/watch?v=2SgSWoUjD4o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eoZKRr-ZayU)
+
+<p class="clip-credit"><strong>Controlling the Knee Line to Prevent Early Escape</strong> — taught by Revolution BJJ · 2:27 · <a href="https://www.youtube.com/watch?v=eoZKRr-ZayU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

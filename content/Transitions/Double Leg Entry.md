@@ -34,6 +34,54 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Leg Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Signature double leg entry",
+      "description": "Double Leg Entry film study: Signature double leg entry, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wy-a8VfNsVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wy-a8VfNsVo",
+      "url": "https://www.youtube.com/watch?v=Wy-a8VfNsVo",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Penetration step drill for the shot",
+      "description": "Double Leg Entry film study: Penetration step drill for the shot, taught by Dominik Haska.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/roTSpQlBPyg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/roTSpQlBPyg",
+      "url": "https://www.youtube.com/watch?v=roTSpQlBPyg",
+      "creator": { "@type": "Person", "name": "Dominik Haska" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Penetration step for the double leg",
+      "description": "Double Leg Entry film study: Penetration step for the double leg, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NmCH0gKeWiY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NmCH0gKeWiY",
+      "url": "https://www.youtube.com/watch?v=NmCH0gKeWiY",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT90S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Mastery of the double leg entry provides a reliable method for taking the fight 
 **Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Leg Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wy-a8VfNsVo)
+
+<p class="clip-credit"><strong>Signature double leg entry</strong> — taught by Jordan Burroughs · 1:13 · <a href="https://www.youtube.com/watch?v=Wy-a8VfNsVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=roTSpQlBPyg)
+
+<p class="clip-credit"><strong>Penetration step drill for the shot</strong> — taught by Dominik Haska · 0:33 · <a href="https://www.youtube.com/watch?v=roTSpQlBPyg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NmCH0gKeWiY)
+
+<p class="clip-credit"><strong>Penetration step for the double leg</strong> — taught by Nicky Rodriguez · 1:30 · <a href="https://www.youtube.com/watch?v=NmCH0gKeWiY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

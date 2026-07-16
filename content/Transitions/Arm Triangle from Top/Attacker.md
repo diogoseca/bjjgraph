@@ -174,6 +174,54 @@ description: "How to execute Arm Triangle from Top in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Top (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to arm triangle from side control",
+      "description": "Arm Triangle from Top (Attacker) film study: How to arm triangle from side control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8An-33URyYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8An-33URyYk",
+      "url": "https://www.youtube.com/watch?v=8An-33URyYk",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi arm triangle from side control",
+      "description": "Arm Triangle from Top (Attacker) film study: No-gi arm triangle from side control, taught by Ludus Dome.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eid4RdAQ4gI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eid4RdAQ4gI",
+      "url": "https://www.youtube.com/watch?v=eid4RdAQ4gI",
+      "creator": { "@type": "Person", "name": "Ludus Dome" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The mounted arm triangle",
+      "description": "Arm Triangle from Top (Attacker) film study: The mounted arm triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tc-XXMg7v48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tc-XXMg7v48",
+      "url": "https://www.youtube.com/watch?v=tc-XXMg7v48",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 **From Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Top (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8An-33URyYk)
+
+<p class="clip-credit"><strong>How to arm triangle from side control</strong> — taught by Evolve MMA · 0:57 · <a href="https://www.youtube.com/watch?v=8An-33URyYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eid4RdAQ4gI)
+
+<p class="clip-credit"><strong>No-gi arm triangle from side control</strong> — taught by Ludus Dome · 0:36 · <a href="https://www.youtube.com/watch?v=eid4RdAQ4gI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tc-XXMg7v48)
+
+<p class="clip-credit"><strong>The mounted arm triangle</strong> — taught by Coach Brian · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

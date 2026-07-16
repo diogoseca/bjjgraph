@@ -34,6 +34,54 @@ description: "Learn the Reguard to Butterfly Guard transition in BJJ. Recover fu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reguard to Butterfly Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard replace series: bottom turtle",
+      "description": "Reguard to Butterfly Guard film study: Guard replace series: bottom turtle, taught by Dark Horse BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j6dhu5-KuFY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j6dhu5-KuFY",
+      "url": "https://www.youtube.com/watch?v=j6dhu5-KuFY",
+      "creator": { "@type": "Person", "name": "Dark Horse BJJ" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three ways back to butterfly guard from knee slice",
+      "description": "Reguard to Butterfly Guard film study: Three ways back to butterfly guard from knee slice, taught by Adam Wardzinski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uaYAh_vXxn0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uaYAh_vXxn0",
+      "url": "https://www.youtube.com/watch?v=uaYAh_vXxn0",
+      "creator": { "@type": "Person", "name": "Adam Wardzinski" },
+      "duration": "PT488S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention to butterfly hooks from side control",
+      "description": "Reguard to Butterfly Guard film study: Guard retention to butterfly hooks from side control, taught by Diamondback Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/02sVMQyHuGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/02sVMQyHuGc",
+      "url": "https://www.youtube.com/watch?v=02sVMQyHuGc",
+      "creator": { "@type": "Person", "name": "Diamondback Jiu-Jitsu" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the ability to recover a compromised guard position rather than a
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reguard to Butterfly Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j6dhu5-KuFY)
+
+<p class="clip-credit"><strong>Guard replace series: bottom turtle</strong> — taught by Dark Horse BJJ · 1:40 · <a href="https://www.youtube.com/watch?v=j6dhu5-KuFY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uaYAh_vXxn0)
+
+<p class="clip-credit"><strong>Three ways back to butterfly guard from knee slice</strong> — taught by Adam Wardzinski · 8:08 · <a href="https://www.youtube.com/watch?v=uaYAh_vXxn0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=02sVMQyHuGc)
+
+<p class="clip-credit"><strong>Guard retention to butterfly hooks from side control</strong> — taught by Diamondback Jiu-Jitsu · 1:21 · <a href="https://www.youtube.com/watch?v=02sVMQyHuGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

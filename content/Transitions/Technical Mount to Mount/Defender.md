@@ -156,6 +156,54 @@ description: "Defend against Technical Mount to Mount consolidation in BJJ. Lear
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Mount to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount escape out the back",
+      "description": "Technical Mount to Mount (Defender) film study: Technical mount escape out the back, taught by smallmanbjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NHrpJdU8wCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NHrpJdU8wCQ",
+      "url": "https://www.youtube.com/watch?v=NHrpJdU8wCQ",
+      "creator": { "@type": "Person", "name": "smallmanbjj" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two mount escape options to half guard",
+      "description": "Technical Mount to Mount (Defender) film study: Two mount escape options to half guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
+      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fundamental movement for escaping the mount",
+      "description": "Technical Mount to Mount (Defender) film study: Fundamental movement for escaping the mount, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mg1UN7a6saE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mg1UN7a6saE",
+      "url": "https://www.youtube.com/watch?v=mg1UN7a6saE",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -167,6 +215,42 @@ The primary defensive strategy involves using the weight shift moment to execute
 **Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Mount to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NHrpJdU8wCQ)
+
+<p class="clip-credit"><strong>Technical mount escape out the back</strong> — taught by smallmanbjj · 0:58 · <a href="https://www.youtube.com/watch?v=NHrpJdU8wCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cyegyon5hVg)
+
+<p class="clip-credit"><strong>Two mount escape options to half guard</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mg1UN7a6saE)
+
+<p class="clip-credit"><strong>Fundamental movement for escaping the mount</strong> — taught by Jean Jacques Machado · 0:58 · <a href="https://www.youtube.com/watch?v=mg1UN7a6saE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

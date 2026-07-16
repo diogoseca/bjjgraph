@@ -34,6 +34,43 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Piranha Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm guard breakdown",
+      "description": "Piranha Guard film study: Worm guard breakdown, taught by Erich Munis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzwnLW735U8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzwnLW735U8",
+      "url": "https://www.youtube.com/watch?v=QzwnLW735U8",
+      "creator": { "@type": "Person", "name": "Erich Munis" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Keenan\u0027s lapel guard concept",
+      "description": "Piranha Guard film study: Keenan\u0027s lapel guard concept, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/37RW-Z4xn0U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/37RW-Z4xn0U",
+      "url": "https://www.youtube.com/watch?v=37RW-Z4xn0U",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position excels against opponents who attempt to establish standing passes o
 While technically demanding and primarily applicable in gi competition, Piranha Guard represents an evolution in contemporary guard development that emphasizes creative problem-solving and unconventional control methods. The position requires significant practice to master the lapel feeding mechanics, timing, and grip transitions, but rewards practitioners with a highly effective attacking system that creates constant dilemmas for opponents. Success in this position comes from maintaining constant lapel tension, staying mobile with hip movement, and recognizing the optimal moments to launch attacks based on the opponent's defensive reactions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Piranha Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzwnLW735U8)
+
+<p class="clip-credit"><strong>Worm guard breakdown</strong> — taught by Erich Munis · 0:53 · <a href="https://www.youtube.com/watch?v=QzwnLW735U8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=37RW-Z4xn0U)
+
+<p class="clip-credit"><strong>Keenan&#39;s lapel guard concept</strong> — taught by Keenan Cornelius · 1:40 · <a href="https://www.youtube.com/watch?v=37RW-Z4xn0U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

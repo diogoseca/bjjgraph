@@ -161,6 +161,54 @@ description: "How to enter Double Unders from Open Guard top in BJJ. Scoop both 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Double Unders (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double unders pass breakdown",
+      "description": "Open Guard to Double Unders (Attacker) film study: Double unders pass breakdown, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
+      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double under pass",
+      "description": "Open Guard to Double Unders (Attacker) film study: Double under pass, taught by Elite MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0qu9a0a3ozQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0qu9a0a3ozQ",
+      "url": "https://www.youtube.com/watch?v=0qu9a0a3ozQ",
+      "creator": { "@type": "Person", "name": "Elite MMA" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi double under guard pass",
+      "description": "Open Guard to Double Unders (Attacker) film study: No-gi double under guard pass, taught by Garden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
+      "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
+      "creator": { "@type": "Person", "name": "Garden State BJJ" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -177,6 +225,42 @@ Because committing both arms under the legs removes your ability to post, your h
 **From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Double Unders (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4PxPPv98k4)
+
+<p class="clip-credit"><strong>Double unders pass breakdown</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0qu9a0a3ozQ)
+
+<p class="clip-credit"><strong>Double under pass</strong> — taught by Elite MMA · 1:10 · <a href="https://www.youtube.com/watch?v=0qu9a0a3ozQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBZrTpuXV50)
+
+<p class="clip-credit"><strong>No-gi double under guard pass</strong> — taught by Garden State BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

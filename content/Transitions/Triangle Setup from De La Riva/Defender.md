@@ -148,6 +148,43 @@ description: "Learn to defend the Triangle Setup from De La Riva Guard. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Setup from De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing De La Riva with the knee slide",
+      "description": "Triangle Setup from De La Riva (Defender) film study: Passing De La Riva with the knee slide, taught by ICON Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8QnCpFYN0L8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8QnCpFYN0L8",
+      "url": "https://www.youtube.com/watch?v=8QnCpFYN0L8",
+      "creator": { "@type": "Person", "name": "ICON Jiu-Jitsu Team" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shutting down side guard entries",
+      "description": "Triangle Setup from De La Riva (Defender) film study: Shutting down side guard entries, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PSgn9TBgwfc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PSgn9TBgwfc",
+      "url": "https://www.youtube.com/watch?v=PSgn9TBgwfc",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Triangle Setup from De La Riva requires recognizing the setup earl
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Setup from De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8QnCpFYN0L8)
+
+<p class="clip-credit"><strong>Passing De La Riva with the knee slide</strong> — taught by ICON Jiu-Jitsu Team · 0:31 · <a href="https://www.youtube.com/watch?v=8QnCpFYN0L8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PSgn9TBgwfc)
+
+<p class="clip-credit"><strong>Shutting down side guard entries</strong> — taught by Gordon Ryan · 1:17 · <a href="https://www.youtube.com/watch?v=PSgn9TBgwfc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

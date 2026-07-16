@@ -140,6 +140,54 @@ description: "How to defend against the Hook Sweep from Butterfly Guard in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hook Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple counters to a failed butterfly sweep",
+      "description": "Hook Sweep (Defender) film study: Simple counters to a failed butterfly sweep, taught by Oneonta Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZAOF5qNApJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZAOF5qNApJ0",
+      "url": "https://www.youtube.com/watch?v=ZAOF5qNApJ0",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing butterfly guard via cross butterfly hook",
+      "description": "Hook Sweep (Defender) film study: Passing butterfly guard via cross butterfly hook, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IKs6ZDfahHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IKs6ZDfahHE",
+      "url": "https://www.youtube.com/watch?v=IKs6ZDfahHE",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Butterfly guard counter",
+      "description": "Hook Sweep (Defender) film study: Butterfly guard counter, taught by Shahrizan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FutXrBKJWj8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FutXrBKJWj8",
+      "url": "https://www.youtube.com/watch?v=FutXrBKJWj8",
+      "creator": { "@type": "Person", "name": "Shahrizan" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +201,42 @@ At the highest level, hook sweep defense transitions from pure survival into off
 **Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hook Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZAOF5qNApJ0)
+
+<p class="clip-credit"><strong>Simple counters to a failed butterfly sweep</strong> — taught by Oneonta Jiu Jitsu · 1:38 · <a href="https://www.youtube.com/watch?v=ZAOF5qNApJ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IKs6ZDfahHE)
+
+<p class="clip-credit"><strong>Passing butterfly guard via cross butterfly hook</strong> — taught by Thunderdome BJJ · 0:44 · <a href="https://www.youtube.com/watch?v=IKs6ZDfahHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FutXrBKJWj8)
+
+<p class="clip-credit"><strong>Butterfly guard counter</strong> — taught by Shahrizan · 1:01 · <a href="https://www.youtube.com/watch?v=FutXrBKJWj8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

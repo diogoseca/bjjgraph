@@ -34,6 +34,54 @@ description: "Master the Berimbolo Entry in BJJ. Dynamic inversion technique fro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Berimbolo Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Berimbolo entry from double guard pull",
+      "description": "Berimbolo Entry film study: Berimbolo entry from double guard pull, taught by Johnny Tama.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ecd48BZmReA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ecd48BZmReA",
+      "url": "https://www.youtube.com/watch?v=Ecd48BZmReA",
+      "creator": { "@type": "Person", "name": "Johnny Tama" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quick guide to the no-gi berimbolo",
+      "description": "Berimbolo Entry film study: Quick guide to the no-gi berimbolo, taught by Margot Ciccarelli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XIdGS3OyXlE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XIdGS3OyXlE",
+      "url": "https://www.youtube.com/watch?v=XIdGS3OyXlE",
+      "creator": { "@type": "Person", "name": "Margot Ciccarelli" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Berimbolo from De La Riva guard",
+      "description": "Berimbolo Entry film study: Berimbolo from De La Riva guard, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kk5yC5phq5s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kk5yC5phq5s",
+      "url": "https://www.youtube.com/watch?v=kk5yC5phq5s",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT223S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +115,42 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 **Success Rate**: 19%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Berimbolo Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ecd48BZmReA)
+
+<p class="clip-credit"><strong>Berimbolo entry from double guard pull</strong> — taught by Johnny Tama · 1:17 · <a href="https://www.youtube.com/watch?v=Ecd48BZmReA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XIdGS3OyXlE)
+
+<p class="clip-credit"><strong>Quick guide to the no-gi berimbolo</strong> — taught by Margot Ciccarelli · 2:05 · <a href="https://www.youtube.com/watch?v=XIdGS3OyXlE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kk5yC5phq5s)
+
+<p class="clip-credit"><strong>Berimbolo from De La Riva guard</strong> — taught by Mikey Musumeci · 3:43 · <a href="https://www.youtube.com/watch?v=kk5yC5phq5s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

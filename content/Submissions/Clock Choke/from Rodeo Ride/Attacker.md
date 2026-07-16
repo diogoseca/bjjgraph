@@ -170,6 +170,54 @@ description: "Learn to attack with the Clock Choke from Rodeo Ride. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clock Choke from Rodeo Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle Control \u0026 Clock Choke",
+      "description": "Clock Choke from Rodeo Ride (Attacker) film study: Turtle Control \u0026 Clock Choke, taught by CVL BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/grDZ5vo84bg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/grDZ5vo84bg",
+      "url": "https://www.youtube.com/watch?v=grDZ5vo84bg",
+      "creator": { "@type": "Person", "name": "CVL BJJ" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chokes from Turtle",
+      "description": "Clock Choke from Rodeo Ride (Attacker) film study: Chokes from Turtle, taught by Marcello Monteiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VXP06YF8v10/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VXP06YF8v10",
+      "url": "https://www.youtube.com/watch?v=VXP06YF8v10",
+      "creator": { "@type": "Person", "name": "Marcello Monteiro" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clock Choke",
+      "description": "Clock Choke from Rodeo Ride (Attacker) film study: Clock Choke, taught by Wallid Ismail.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vX8n_1YUZJs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vX8n_1YUZJs",
+      "url": "https://www.youtube.com/watch?v=vX8n_1YUZJs",
+      "creator": { "@type": "Person", "name": "Wallid Ismail" },
+      "duration": "PT171S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking with the Clock Choke from Rodeo Ride requires integrating the dynamic 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clock Choke from Rodeo Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=grDZ5vo84bg)
+
+<p class="clip-credit"><strong>Turtle Control &amp; Clock Choke</strong> — taught by CVL BJJ · 2:15 · <a href="https://www.youtube.com/watch?v=grDZ5vo84bg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VXP06YF8v10)
+
+<p class="clip-credit"><strong>Chokes from Turtle</strong> — taught by Marcello Monteiro · 0:48 · <a href="https://www.youtube.com/watch?v=VXP06YF8v10" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vX8n_1YUZJs)
+
+<p class="clip-credit"><strong>Clock Choke</strong> — taught by Wallid Ismail · 2:51 · <a href="https://www.youtube.com/watch?v=vX8n_1YUZJs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

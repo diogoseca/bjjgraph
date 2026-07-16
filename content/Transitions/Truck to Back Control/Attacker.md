@@ -180,6 +180,43 @@ description: "Execute the Truck to Back Control transition with precise hook ins
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck to Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Truck in transition",
+      "description": "Truck to Back Control (Attacker) film study: The Truck in transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back control to Truck",
+      "description": "Truck to Back Control (Attacker) film study: Back control to Truck, taught by Cory Lawson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Rvj7kmPGzA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Rvj7kmPGzA",
+      "url": "https://www.youtube.com/watch?v=4Rvj7kmPGzA",
+      "creator": { "@type": "Person", "name": "Cory Lawson" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the attacker executing the Truck to Back Control transition, your objective i
 **From Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck to Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The Truck in transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4Rvj7kmPGzA)
+
+<p class="clip-credit"><strong>Back control to Truck</strong> — taught by Cory Lawson · 2:45 · <a href="https://www.youtube.com/watch?v=4Rvj7kmPGzA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

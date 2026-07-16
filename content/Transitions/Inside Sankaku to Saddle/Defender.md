@@ -148,6 +148,54 @@ description: "Learn to recognize and defend the Inside Sankaku to Saddle transit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Sankaku to Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending and countering the inside heel hook",
+      "description": "Inside Sankaku to Saddle (Defender) film study: Defending and countering the inside heel hook, taught by Jahred Dell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DF2AYLPbeHc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DF2AYLPbeHc",
+      "url": "https://www.youtube.com/watch?v=DF2AYLPbeHc",
+      "creator": { "@type": "Person", "name": "Jahred Dell" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending and Escaping the Saddle",
+      "description": "Inside Sankaku to Saddle (Defender) film study: Defending and Escaping the Saddle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
+      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT383S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic Defense and Escape from Inside Sankaku",
+      "description": "Inside Sankaku to Saddle (Defender) film study: Basic Defense and Escape from Inside Sankaku, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VSTMOIkVMAk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VSTMOIkVMAk",
+      "url": "https://www.youtube.com/watch?v=VSTMOIkVMAk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT217S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ From the defender's perspective, preventing the Inside Sankaku to Saddle transit
 **Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Sankaku to Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DF2AYLPbeHc)
+
+<p class="clip-credit"><strong>Defending and countering the inside heel hook</strong> — taught by Jahred Dell · 1:10 · <a href="https://www.youtube.com/watch?v=DF2AYLPbeHc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFTLb8iywJg)
+
+<p class="clip-credit"><strong>Defending and Escaping the Saddle</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VSTMOIkVMAk)
+
+<p class="clip-credit"><strong>Basic Defense and Escape from Inside Sankaku</strong> — taught by BJJ4Breakfast · 3:37 · <a href="https://www.youtube.com/watch?v=VSTMOIkVMAk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

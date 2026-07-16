@@ -34,6 +34,54 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Entanglements Breakdown: Jackie Chan \u0026 411",
+      "description": "Leg Entanglement film study: Leg Entanglements Breakdown: Jackie Chan \u0026 411, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R4K-UU_bUZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R4K-UU_bUZQ",
+      "url": "https://www.youtube.com/watch?v=R4K-UU_bUZQ",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Locks: Enter the System",
+      "description": "Leg Entanglement film study: Leg Locks: Enter the System, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F5rdV0PUuDc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F5rdV0PUuDc",
+      "url": "https://www.youtube.com/watch?v=F5rdV0PUuDc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT176S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg Lock Instructional Overview",
+      "description": "Leg Entanglement film study: Leg Lock Instructional Overview, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iByvUzTk4Ko/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iByvUzTk4Ko",
+      "url": "https://www.youtube.com/watch?v=iByvUzTk4Ko",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT225S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 Leg Entanglement represents a comprehensive positional system in modern Brazilian Jiu-Jitsu where practitioners control and attack their opponent's lower body through various configurations of leg positioning and entanglement. These positions form the foundation of systematic leg lock attacking, characterized by superior control mechanics that isolate specific joints (ankle, knee, hip) while maintaining positional dominance or creating submission opportunities. The entanglement configurations involve legs wrapping, hooking, or triangling around the opponent's leg or legs, creating control structures that range from neutral exchanges (50-50) to dominant attacking positions (saddle, inside ashi). This positional family has revolutionized modern no-gi grappling, with systematic approaches transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy comparable to traditional upper body control positions. Success in leg entanglements requires understanding the biomechanical principles of joint isolation, recognizing the specific finishing mechanics for different leg locks, and maintaining proper positioning to prevent escapes or counters. The positions offer multiple pathways to finishing submissions (heel hooks, kneebar variations, ankle locks) while also providing transition opportunities to other dominant positions if the opponent defends successfully. The neutral nature of many entanglement positions means both practitioners can simultaneously threaten attacks, creating dynamic exchanges that reward systematic understanding and technical precision.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R4K-UU_bUZQ)
+
+<p class="clip-credit"><strong>Leg Entanglements Breakdown: Jackie Chan &amp; 411</strong> — taught by 10th Planet Orange Park · 1:15 · <a href="https://www.youtube.com/watch?v=R4K-UU_bUZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F5rdV0PUuDc)
+
+<p class="clip-credit"><strong>Leg Locks: Enter the System</strong> — taught by John Danaher · 2:56 · <a href="https://www.youtube.com/watch?v=F5rdV0PUuDc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iByvUzTk4Ko)
+
+<p class="clip-credit"><strong>Leg Lock Instructional Overview</strong> — taught by John Danaher · 3:45 · <a href="https://www.youtube.com/watch?v=iByvUzTk4Ko" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

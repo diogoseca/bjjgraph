@@ -34,6 +34,54 @@ description: "Master the Finish from Hindulotine in BJJ. Learn rotational squeez
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Finish from Hindulotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hindulotine breakdown from rubber guard",
+      "description": "Finish from Hindulotine film study: Hindulotine breakdown from rubber guard, taught by CordesgainsBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i9rAyo8tRZw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i9rAyo8tRZw",
+      "url": "https://www.youtube.com/watch?v=i9rAyo8tRZw",
+      "creator": { "@type": "Person", "name": "CordesgainsBJJ" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hindulotine submission of the week",
+      "description": "Finish from Hindulotine film study: Hindulotine submission of the week, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YbOV4vESByc",
+      "url": "https://www.youtube.com/watch?v=YbOV4vESByc",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hindulotine finish in competition",
+      "description": "Finish from Hindulotine film study: Hindulotine finish in competition, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
+      "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success depends on the attacker's ability to make continuous micro-adjustments t
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Finish from Hindulotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i9rAyo8tRZw)
+
+<p class="clip-credit"><strong>Hindulotine breakdown from rubber guard</strong> — taught by CordesgainsBJJ · 1:27 · <a href="https://www.youtube.com/watch?v=i9rAyo8tRZw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YbOV4vESByc)
+
+<p class="clip-credit"><strong>Hindulotine submission of the week</strong> — taught by Ben Eddy · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6UwoAQt6u6o)
+
+<p class="clip-credit"><strong>Hindulotine finish in competition</strong> — taught by Ben Eddy · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

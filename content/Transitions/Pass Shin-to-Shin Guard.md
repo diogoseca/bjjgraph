@@ -34,6 +34,43 @@ description: "Master passing Shin-to-Shin Guard in BJJ. Learn shin clearing mech
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Shin-to-Shin Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "One easy way to pass shin-to-shin guard",
+      "description": "Pass Shin-to-Shin Guard film study: One easy way to pass shin-to-shin guard, taught by Dynasty Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YV26zZARJdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YV26zZARJdA",
+      "url": "https://www.youtube.com/watch?v=YV26zZARJdA",
+      "creator": { "@type": "Person", "name": "Dynasty Jiu Jitsu" },
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the shin-to-shin guard",
+      "description": "Pass Shin-to-Shin Guard film study: Passing the shin-to-shin guard, taught by Arte Suave.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4jrUwVLezI4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4jrUwVLezI4",
+      "url": "https://www.youtube.com/watch?v=4jrUwVLezI4",
+      "creator": { "@type": "Person", "name": "Arte Suave" },
+      "duration": "PT184S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ At the competitive level, this pass becomes a chess match of grip fighting and a
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Shin-to-Shin Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YV26zZARJdA)
+
+<p class="clip-credit"><strong>One easy way to pass shin-to-shin guard</strong> — taught by Dynasty Jiu Jitsu · 2:44 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4jrUwVLezI4)
+
+<p class="clip-credit"><strong>Passing the shin-to-shin guard</strong> — taught by Arte Suave · 3:04 · <a href="https://www.youtube.com/watch?v=4jrUwVLezI4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

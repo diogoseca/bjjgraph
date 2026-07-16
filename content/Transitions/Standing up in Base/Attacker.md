@@ -174,6 +174,54 @@ description: "How to execute Standing up in Base from turtle bottom in BJJ. Step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing up in Base (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical stand-up in base solo drills",
+      "description": "Standing up in Base (Attacker) film study: Technical stand-up in base solo drills, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DO0nHTCk_jY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DO0nHTCk_jY",
+      "url": "https://www.youtube.com/watch?v=DO0nHTCk_jY",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing up in base breakdown",
+      "description": "Standing up in Base (Attacker) film study: Standing up in base breakdown, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Seated escape to technical stand-up",
+      "description": "Standing up in Base (Attacker) film study: Seated escape to technical stand-up, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YNcEX5v0bcs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YNcEX5v0bcs",
+      "url": "https://www.youtube.com/watch?v=YNcEX5v0bcs",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The technical standup from base is a fundamental defensive movement that allows 
 **From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing up in Base (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DO0nHTCk_jY)
+
+<p class="clip-credit"><strong>Technical stand-up in base solo drills</strong> — taught by Gracie Charlottesville · 0:46 · <a href="https://www.youtube.com/watch?v=DO0nHTCk_jY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing up in base breakdown</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YNcEX5v0bcs)
+
+<p class="clip-credit"><strong>Seated escape to technical stand-up</strong> — taught by Andre Galvao · 1:10 · <a href="https://www.youtube.com/watch?v=YNcEX5v0bcs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

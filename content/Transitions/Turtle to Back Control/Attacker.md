@@ -174,6 +174,54 @@ description: "How to execute Turtle to Back Control in BJJ. Attacking perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Taking the back from a tight turtle",
+      "description": "Turtle to Back Control (Attacker) film study: Taking the back from a tight turtle, taught by Devine Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gvFU2sS3fLE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gvFU2sS3fLE",
+      "url": "https://www.youtube.com/watch?v=gvFU2sS3fLE",
+      "creator": { "@type": "Person", "name": "Devine Jiu Jitsu" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking the turtle with the spiral ride",
+      "description": "Turtle to Back Control (Attacker) film study: Breaking the turtle with the spiral ride, taught by Big Guy BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XXnawMQEfKw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XXnawMQEfKw",
+      "url": "https://www.youtube.com/watch?v=XXnawMQEfKw",
+      "creator": { "@type": "Person", "name": "Big Guy BJJ" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back take basics",
+      "description": "Turtle to Back Control (Attacker) film study: Back take basics, taught by Leo Vieira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ApGfiRgL5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ApGfiRgL5k",
+      "url": "https://www.youtube.com/watch?v=_ApGfiRgL5k",
+      "creator": { "@type": "Person", "name": "Leo Vieira" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gvFU2sS3fLE)
+
+<p class="clip-credit"><strong>Taking the back from a tight turtle</strong> — taught by Devine Jiu Jitsu · 1:39 · <a href="https://www.youtube.com/watch?v=gvFU2sS3fLE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XXnawMQEfKw)
+
+<p class="clip-credit"><strong>Breaking the turtle with the spiral ride</strong> — taught by Big Guy BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=XXnawMQEfKw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_ApGfiRgL5k)
+
+<p class="clip-credit"><strong>Back take basics</strong> — taught by Leo Vieira · 0:54 · <a href="https://www.youtube.com/watch?v=_ApGfiRgL5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

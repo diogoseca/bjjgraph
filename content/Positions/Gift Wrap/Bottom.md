@@ -153,6 +153,43 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping back control / gift wrap",
+      "description": "Gift Wrap (Bottom) film study: Escaping back control / gift wrap, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KyqooDo1w68/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KyqooDo1w68",
+      "url": "https://www.youtube.com/watch?v=KyqooDo1w68",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back control escape basics",
+      "description": "Gift Wrap (Bottom) film study: Back control escape basics, taught by Amazin BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jv_nitah_-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jv_nitah_-s",
+      "url": "https://www.youtube.com/watch?v=jv_nitah_-s",
+      "creator": { "@type": "Person", "name": "Amazin BJJ" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ The position demands exceptional awareness of submission threats. The trapped ar
 From a training perspective, Gift Wrap Bottom should be practiced extensively because it represents a common result of failed back escape attempts. Many practitioners find themselves in this position after unsuccessfully attempting to remove the choking hand or escape the back, making it a critical skill set for comprehensive defensive capability.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KyqooDo1w68)
+
+<p class="clip-credit"><strong>Escaping back control / gift wrap</strong> — taught by BJJ101 · 0:43 · <a href="https://www.youtube.com/watch?v=KyqooDo1w68" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jv_nitah_-s)
+
+<p class="clip-credit"><strong>Back control escape basics</strong> — taught by Amazin BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=jv_nitah_-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

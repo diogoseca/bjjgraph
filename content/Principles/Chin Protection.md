@@ -164,6 +164,54 @@ description: "Master neck defense mechanics in BJJ. Learn protective posture pri
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chin Protection \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why the chin tuck fails against the rear naked choke",
+      "description": "Chin Protection film study: Why the chin tuck fails against the rear naked choke, taught by YourKravMaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UuLU4f4NfYo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UuLU4f4NfYo",
+      "url": "https://www.youtube.com/watch?v=UuLU4f4NfYo",
+      "creator": { "@type": "Person", "name": "YourKravMaga" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Late rear naked choke defense using the chin",
+      "description": "Chin Protection film study: Late rear naked choke defense using the chin, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/znAUCgUkZ8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/znAUCgUkZ8s",
+      "url": "https://www.youtube.com/watch?v=znAUCgUkZ8s",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT272S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Tracing the jaw to beat the chin defense",
+      "description": "Chin Protection film study: Tracing the jaw to beat the chin defense, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q-2iAitqDE4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q-2iAitqDE4",
+      "url": "https://www.youtube.com/watch?v=q-2iAitqDE4",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT306S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Chin Protection?
@@ -173,6 +221,42 @@ description: "Master neck defense mechanics in BJJ. Learn protective posture pri
 Chin Protection represents the fundamental defensive principle of maintaining proper head and neck positioning to eliminate available space for opponent's choking attacks, particularly in back control and front headlock scenarios. Unlike active defensive techniques that require complex technical execution, chin protection is a constant postural discipline that creates structural barriers preventing opponent's arms from accessing the neck's vulnerable surfaces. This concept encompasses the biomechanical understanding of neck protection, head positioning strategies, shoulder coordination, and the integration of chin protection with other defensive elements to create comprehensive submission defense. Chin protection serves as both the first line of defense against choking attacks by denying opponent access to required anatomical targets, and as a foundational element supporting all other defensive techniques by maintaining defensive structural integrity. The ability to maintain proper chin protection reflexively, even under pressure and during transitional movements, often represents the difference between surviving dangerous positions and succumbing to high-percentage submissions, making it one of the most essential fundamental concepts for all BJJ practitioners.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chin Protection in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UuLU4f4NfYo)
+
+<p class="clip-credit"><strong>Why the chin tuck fails against the rear naked choke</strong> — taught by YourKravMaga · 1:03 · <a href="https://www.youtube.com/watch?v=UuLU4f4NfYo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=znAUCgUkZ8s)
+
+<p class="clip-credit"><strong>Late rear naked choke defense using the chin</strong> — taught by SBG PDX · 4:32 · <a href="https://www.youtube.com/watch?v=znAUCgUkZ8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q-2iAitqDE4)
+
+<p class="clip-credit"><strong>Tracing the jaw to beat the chin defense</strong> — taught by Coach Brian · 5:06 · <a href="https://www.youtube.com/watch?v=q-2iAitqDE4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

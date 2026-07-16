@@ -34,6 +34,54 @@ description: "Master straight ankle lock control in BJJ. Complete strategic guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straight Ankle Lock",
+      "description": "Straight Ankle Lock Control film study: Straight Ankle Lock, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
+      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backside Foot Finish Mechanics",
+      "description": "Straight Ankle Lock Control film study: Backside Foot Finish Mechanics, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-VpByetjzqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-VpByetjzqs",
+      "url": "https://www.youtube.com/watch?v=-VpByetjzqs",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Straight Foot Lock Sitting Up",
+      "description": "Straight Ankle Lock Control film study: Straight Foot Lock Sitting Up, taught by Ninja Pinto BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9SuTfbCNcFs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9SuTfbCNcFs",
+      "url": "https://www.youtube.com/watch?v=9SuTfbCNcFs",
+      "creator": { "@type": "Person", "name": "Ninja Pinto BJJ" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ Modern leg lock systems have evolved to treat straight ankle lock control as a t
 The position also serves an important pedagogical function in teaching fundamental leg lock concepts. The relatively lower injury risk compared to heel hooks and kneebars makes it an appropriate introduction for students learning to attack and defend leg entanglements. The control mechanisms, breaking mechanics, and finishing details of straight ankle lock control establish technical foundations that transfer directly to more advanced leg attack systems as students progress in their training.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
+
+<p class="clip-credit"><strong>Straight Ankle Lock</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-VpByetjzqs)
+
+<p class="clip-credit"><strong>Backside Foot Finish Mechanics</strong> — taught by Mikey Musumeci · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9SuTfbCNcFs)
+
+<p class="clip-credit"><strong>Straight Foot Lock Sitting Up</strong> — taught by Ninja Pinto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=9SuTfbCNcFs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

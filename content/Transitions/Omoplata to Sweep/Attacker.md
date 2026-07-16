@@ -174,6 +174,54 @@ description: "How to execute Omoplata to Sweep in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata to Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata sweep demonstration",
+      "description": "Omoplata to Sweep (Attacker) film study: Omoplata sweep demonstration, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ar2oa-jV9-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ar2oa-jV9-Y",
+      "url": "https://www.youtube.com/watch?v=Ar2oa-jV9-Y",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata sweep variations",
+      "description": "Omoplata to Sweep (Attacker) film study: Omoplata sweep variations, taught by Gracie Barra Newcastle City.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VFW27i7jHmI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VFW27i7jHmI",
+      "url": "https://www.youtube.com/watch?v=VFW27i7jHmI",
+      "creator": { "@type": "Person", "name": "Gracie Barra Newcastle City" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata sweep vs standing opponent",
+      "description": "Omoplata to Sweep (Attacker) film study: Omoplata sweep vs standing opponent, taught by Paramount Brazilian Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IYbdBR0ilb4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IYbdBR0ilb4",
+      "url": "https://www.youtube.com/watch?v=IYbdBR0ilb4",
+      "creator": { "@type": "Person", "name": "Paramount Brazilian Jiu-Jitsu" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 **From Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata to Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ar2oa-jV9-Y)
+
+<p class="clip-credit"><strong>Omoplata sweep demonstration</strong> — taught by Thunderdome BJJ · 0:50 · <a href="https://www.youtube.com/watch?v=Ar2oa-jV9-Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VFW27i7jHmI)
+
+<p class="clip-credit"><strong>Omoplata sweep variations</strong> — taught by Gracie Barra Newcastle City · 0:44 · <a href="https://www.youtube.com/watch?v=VFW27i7jHmI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IYbdBR0ilb4)
+
+<p class="clip-credit"><strong>Omoplata sweep vs standing opponent</strong> — taught by Paramount Brazilian Jiu-Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=IYbdBR0ilb4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

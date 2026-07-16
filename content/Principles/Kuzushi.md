@@ -164,6 +164,54 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kuzushi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "All about kuzushi: breaking balance in depth",
+      "description": "Kuzushi film study: All about kuzushi: breaking balance in depth, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0ryNzeo3eoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0ryNzeo3eoc",
+      "url": "https://www.youtube.com/watch?v=0ryNzeo3eoc",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT458S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The essential physics behind kuzushi",
+      "description": "Kuzushi film study: The essential physics behind kuzushi, taught by Shintaro Nakano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hOlLwI3dMMA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hOlLwI3dMMA",
+      "url": "https://www.youtube.com/watch?v=hOlLwI3dMMA",
+      "creator": { "@type": "Person", "name": "Shintaro Nakano" },
+      "duration": "PT342S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kuzushi: breaking balance in 30 seconds",
+      "description": "Kuzushi film study: Kuzushi: breaking balance in 30 seconds, taught by Rener Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b1zpi81TLPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b1zpi81TLPs",
+      "url": "https://www.youtube.com/watch?v=b1zpi81TLPs",
+      "creator": { "@type": "Person", "name": "Rener Gracie" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Kuzushi?
@@ -177,6 +225,42 @@ Effective sweep mechanics rely on three interconnected elements: base disruption
 The development of sweep mechanics follows a predictable progression from gross motor patterns (bridging, hip elevation) to fine motor control (grip manipulation, angle adjustment) to conceptual mastery (creating reactions, timing opponent movement). Beginners often attempt sweeps with muscular effort alone, intermediates learn to combine leverage with timing, and advanced practitioners develop the ability to chain sweeps together and capitalize on defensive reactions. Understanding these mechanics transforms sweeping from a collection of isolated techniques into a systematic skill set applicable across all bottom positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kuzushi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0ryNzeo3eoc)
+
+<p class="clip-credit"><strong>All about kuzushi: breaking balance in depth</strong> — taught by Shintaro Higashi · 7:38 · <a href="https://www.youtube.com/watch?v=0ryNzeo3eoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hOlLwI3dMMA)
+
+<p class="clip-credit"><strong>The essential physics behind kuzushi</strong> — taught by Shintaro Nakano · 5:42 · <a href="https://www.youtube.com/watch?v=hOlLwI3dMMA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b1zpi81TLPs)
+
+<p class="clip-credit"><strong>Kuzushi: breaking balance in 30 seconds</strong> — taught by Rener Gracie · 0:31 · <a href="https://www.youtube.com/watch?v=b1zpi81TLPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

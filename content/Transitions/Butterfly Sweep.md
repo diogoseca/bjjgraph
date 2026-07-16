@@ -34,6 +34,54 @@ description: "Master the Butterfly Sweep in BJJ. Complete guide covering setup, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia hits the butterfly push sweep at ADCC",
+      "description": "Butterfly Sweep film study: Marcelo Garcia hits the butterfly push sweep at ADCC, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ml2YppHVvj0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ml2YppHVvj0",
+      "url": "https://www.youtube.com/watch?v=Ml2YppHVvj0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT11S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly sweep with hip and one hook",
+      "description": "Butterfly Sweep film study: Butterfly sweep with hip and one hook, taught by Nine Nine Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ywB6TEyjyRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ywB6TEyjyRM",
+      "url": "https://www.youtube.com/watch?v=ywB6TEyjyRM",
+      "creator": { "@type": "Person", "name": "Nine Nine Jiu Jitsu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Marcelo Garcia breaks down the butterfly sweep",
+      "description": "Butterfly Sweep film study: Marcelo Garcia breaks down the butterfly sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mo2vJ0_xb1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mo2vJ0_xb1U",
+      "url": "https://www.youtube.com/watch?v=Mo2vJ0_xb1U",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT239S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +113,42 @@ As the cornerstone attack of the Butterfly Guard system, the sweep converts insi
 **Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ml2YppHVvj0)
+
+<p class="clip-credit"><strong>Marcelo Garcia hits the butterfly push sweep at ADCC</strong> — taught by Marcelo Garcia · 0:11 · <a href="https://www.youtube.com/watch?v=Ml2YppHVvj0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ywB6TEyjyRM)
+
+<p class="clip-credit"><strong>Butterfly sweep with hip and one hook</strong> — taught by Nine Nine Jiu Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=ywB6TEyjyRM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mo2vJ0_xb1U)
+
+<p class="clip-credit"><strong>Marcelo Garcia breaks down the butterfly sweep</strong> — taught by Marcelo Garcia · 3:59 · <a href="https://www.youtube.com/watch?v=Mo2vJ0_xb1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

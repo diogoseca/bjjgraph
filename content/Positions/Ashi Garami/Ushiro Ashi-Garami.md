@@ -34,6 +34,43 @@ description: "Master Ushiro Ashi-Garami (reverse leg entanglement). Complete tec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ushiro Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "4 foot positions for leg locks",
+      "description": "Ushiro Ashi-Garami film study: 4 foot positions for leg locks, taught by Evo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eiI_4VBA-qA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eiI_4VBA-qA",
+      "url": "https://www.youtube.com/watch?v=eiI_4VBA-qA",
+      "creator": { "@type": "Person", "name": "Evo BJJ" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-guard to saddle (cross ashi)",
+      "description": "Ushiro Ashi-Garami film study: X-guard to saddle (cross ashi), taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HVc2CKdAfN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HVc2CKdAfN0",
+      "url": "https://www.youtube.com/watch?v=HVc2CKdAfN0",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +111,34 @@ The tactical importance of ushiro ashi-garami lies in its role as a transitional
 Understanding the biomechanical differences between ushiro ashi-garami and standard configurations is crucial for technique selection and success rate optimization across skill levels.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ushiro Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eiI_4VBA-qA)
+
+<p class="clip-credit"><strong>4 foot positions for leg locks</strong> — taught by Evo BJJ · 2:42 · <a href="https://www.youtube.com/watch?v=eiI_4VBA-qA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HVc2CKdAfN0)
+
+<p class="clip-credit"><strong>X-guard to saddle (cross ashi)</strong> — taught by Johnny Jitsu · 2:00 · <a href="https://www.youtube.com/watch?v=HVc2CKdAfN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

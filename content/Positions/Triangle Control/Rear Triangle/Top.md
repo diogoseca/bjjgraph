@@ -153,6 +153,43 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear triangle from the back",
+      "description": "Rear Triangle (Top) film study: Rear triangle from the back, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l5ayCZh3W78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l5ayCZh3W78",
+      "url": "https://www.youtube.com/watch?v=l5ayCZh3W78",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear triangle from side control",
+      "description": "Rear Triangle (Top) film study: Rear triangle from side control, taught by Onyx Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oyXaGXU3mFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oyXaGXU3mFU",
+      "url": "https://www.youtube.com/watch?v=oyXaGXU3mFU",
+      "creator": { "@type": "Person", "name": "Onyx Martial Arts" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
 Rear Triangle Top is an advanced back control variation where the top practitioner secures the opponent's back while establishing a triangle configuration with their legs around the opponent's body and one arm. This position combines the control elements of traditional back control with the limb-trapping mechanics of a triangle, creating a highly effective submission platform. The rear triangle creates a dilemma for the opponent - defending the choke exposes the trapped arm to attacks, while defending the arm allows progression to the rear naked choke or other back attacks. This position is particularly effective in no-gi grappling but can be equally devastating in the gi when properly executed. The rear triangle top position represents a sophisticated evolution of back control, offering superior control compared to standard seat belt positioning. By threading one leg under the opponent's armpit and locking a triangle around their neck and trapped arm, the top practitioner creates multiple layers of control that significantly reduce the opponent's defensive options. This position is often entered from standard back control when the opponent attempts to defend the rear naked choke by gripping their own hands together or when transitioning from turtle position. The configuration allows for seamless transitions to various submissions including the rear triangle choke itself, armbar variations, and traditional rear naked choke finishes. From a strategic perspective, the rear triangle top position exemplifies the principle of creating submission dilemmas - forcing the opponent to choose between equally bad defensive options.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l5ayCZh3W78)
+
+<p class="clip-credit"><strong>Rear triangle from the back</strong> — taught by Gracie Charlottesville · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oyXaGXU3mFU)
+
+<p class="clip-credit"><strong>Rear triangle from side control</strong> — taught by Onyx Martial Arts · 1:17 · <a href="https://www.youtube.com/watch?v=oyXaGXU3mFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

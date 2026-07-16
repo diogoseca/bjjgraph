@@ -148,6 +148,43 @@ description: "Defend against the Elbow Escape from Mount by maintaining pressure
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the middle mount against escapes",
+      "description": "Elbow Escape from Mount (Defender) film study: Holding the middle mount against escapes, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTMJDbZnFO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTMJDbZnFO0",
+      "url": "https://www.youtube.com/watch?v=RTMJDbZnFO0",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT154S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount retention details",
+      "description": "Elbow Escape from Mount (Defender) film study: Mount retention details, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oeqPk3gG-qg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oeqPk3gG-qg",
+      "url": "https://www.youtube.com/watch?v=oeqPk3gG-qg",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the Elbow Escape from Mount means maintaining your dominant mo
 **Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RTMJDbZnFO0)
+
+<p class="clip-credit"><strong>Holding the middle mount against escapes</strong> — taught by SBG PDX · 2:34 · <a href="https://www.youtube.com/watch?v=RTMJDbZnFO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oeqPk3gG-qg)
+
+<p class="clip-credit"><strong>Mount retention details</strong> — taught by Coach Brian · 2:59 · <a href="https://www.youtube.com/watch?v=oeqPk3gG-qg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

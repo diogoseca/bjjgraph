@@ -170,6 +170,43 @@ description: "How to execute Monoplata from Mount in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Monoplata from Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata From Mount",
+      "description": "Monoplata from Mount (Attacker) film study: Omoplata From Mount, taught by Jiu Jitsu With Andy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DeVb2R8SQL4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DeVb2R8SQL4",
+      "url": "https://www.youtube.com/watch?v=DeVb2R8SQL4",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu With Andy" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata to Monoplata",
+      "description": "Monoplata from Mount (Attacker) film study: Omoplata to Monoplata, taught by Ninjuh Moves.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kXwTSv13ATw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kXwTSv13ATw",
+      "url": "https://www.youtube.com/watch?v=kXwTSv13ATw",
+      "creator": { "@type": "Person", "name": "Ninjuh Moves" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +217,34 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Monoplata from Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DeVb2R8SQL4)
+
+<p class="clip-credit"><strong>Omoplata From Mount</strong> — taught by Jiu Jitsu With Andy · 0:18 · <a href="https://www.youtube.com/watch?v=DeVb2R8SQL4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kXwTSv13ATw)
+
+<p class="clip-credit"><strong>Omoplata to Monoplata</strong> — taught by Ninjuh Moves · 0:50 · <a href="https://www.youtube.com/watch?v=kXwTSv13ATw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

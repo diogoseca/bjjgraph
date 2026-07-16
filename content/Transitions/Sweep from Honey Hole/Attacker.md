@@ -180,6 +180,54 @@ description: "Execute the Sweep from Honey Hole to reverse dangerous leg entangl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Honey Hole (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X to honey hole sweep and heel hook",
+      "description": "Sweep from Honey Hole (Attacker) film study: Single leg X to honey hole sweep and heel hook, taught by Ilya Bodnya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
+      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
+      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Saddle Entries From Guard",
+      "description": "Sweep from Honey Hole (Attacker) film study: Saddle Entries From Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
+      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Entering the Saddle vs Rupturing Your LCL",
+      "description": "Sweep from Honey Hole (Attacker) film study: Entering the Saddle vs Rupturing Your LCL, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wNrKaI3WwVA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wNrKaI3WwVA",
+      "url": "https://www.youtube.com/watch?v=wNrKaI3WwVA",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT308S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 **From Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Honey Hole (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+
+<p class="clip-credit"><strong>Single leg X to honey hole sweep and heel hook</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
+
+<p class="clip-credit"><strong>Saddle Entries From Guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wNrKaI3WwVA)
+
+<p class="clip-credit"><strong>Entering the Saddle vs Rupturing Your LCL</strong> — taught by Lachlan Giles · 5:08 · <a href="https://www.youtube.com/watch?v=wNrKaI3WwVA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

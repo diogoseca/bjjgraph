@@ -170,6 +170,54 @@ description: "Learn to execute the cross collar choke from body triangle. Step-b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Body Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Chokes",
+      "description": "Cross Collar Choke from Body Triangle (Attacker) film study: Cross Collar Chokes, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Collar Choke from Back Control",
+      "description": "Cross Collar Choke from Body Triangle (Attacker) film study: Collar Choke from Back Control, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZHjfYIXgNpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZHjfYIXgNpg",
+      "url": "https://www.youtube.com/watch?v=ZHjfYIXgNpg",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross Choke from the Back with Lapel",
+      "description": "Cross Collar Choke from Body Triangle (Attacker) film study: Cross Choke from the Back with Lapel, taught by Eduardo Fraga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nKIMxCzXvl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nKIMxCzXvl0",
+      "url": "https://www.youtube.com/watch?v=nKIMxCzXvl0",
+      "creator": { "@type": "Person", "name": "Eduardo Fraga" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking the cross collar choke from body triangle gives you an exceptionally s
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Body Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross Collar Chokes</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZHjfYIXgNpg)
+
+<p class="clip-credit"><strong>Collar Choke from Back Control</strong> — taught by Team Daruma Dojo · 0:45 · <a href="https://www.youtube.com/watch?v=ZHjfYIXgNpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nKIMxCzXvl0)
+
+<p class="clip-credit"><strong>Cross Choke from the Back with Lapel</strong> — taught by Eduardo Fraga · 2:56 · <a href="https://www.youtube.com/watch?v=nKIMxCzXvl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

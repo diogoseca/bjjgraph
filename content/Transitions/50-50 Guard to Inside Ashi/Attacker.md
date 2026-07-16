@@ -168,6 +168,54 @@ description: "How to execute 50-50 Guard to Inside Ashi in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Inside Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Craig Jones backside 50/50 inside heel hook finish",
+      "description": "50-50 Guard to Inside Ashi (Attacker) film study: Craig Jones backside 50/50 inside heel hook finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 to cross ashi: controlling the leg",
+      "description": "50-50 Guard to Inside Ashi (Attacker) film study: 50/50 to cross ashi: controlling the leg, taught by Grapple Factory coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOEX17DEGgg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOEX17DEGgg",
+      "url": "https://www.youtube.com/watch?v=dOEX17DEGgg",
+      "creator": { "@type": "Person", "name": "Grapple Factory coach" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3 paths to backside 50/50 from single leg X",
+      "description": "50-50 Guard to Inside Ashi (Attacker) film study: 3 paths to backside 50/50 from single leg X, taught by Gustavo Gomes Firmino.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yT3euuWRWXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yT3euuWRWXw",
+      "url": "https://www.youtube.com/watch?v=yT3euuWRWXw",
+      "creator": { "@type": "Person", "name": "Gustavo Gomes Firmino" },
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ This transition is particularly valuable against opponents who play defensive 50
 **From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Inside Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Craig Jones backside 50/50 inside heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOEX17DEGgg)
+
+<p class="clip-credit"><strong>50/50 to cross ashi: controlling the leg</strong> — taught by Grapple Factory coach · 1:24 · <a href="https://www.youtube.com/watch?v=dOEX17DEGgg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yT3euuWRWXw)
+
+<p class="clip-credit"><strong>3 paths to backside 50/50 from single leg X</strong> — taught by Gustavo Gomes Firmino · 0:56 · <a href="https://www.youtube.com/watch?v=yT3euuWRWXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

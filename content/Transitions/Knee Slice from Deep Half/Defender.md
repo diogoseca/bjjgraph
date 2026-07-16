@@ -148,6 +148,43 @@ description: "Complete defender guide for preventing the knee slice pass from de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Deep Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Common deep half sweep mistakes",
+      "description": "Knee Slice from Deep Half (Defender) film study: Common deep half sweep mistakes, taught by John Kelly.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dhGbNUvfvjM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dhGbNUvfvjM",
+      "url": "https://www.youtube.com/watch?v=dhGbNUvfvjM",
+      "creator": { "@type": "Person", "name": "John Kelly" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three options to defend the deep half guard",
+      "description": "Knee Slice from Deep Half (Defender) film study: Three options to defend the deep half guard, taught by Six Blades Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JEDoJOZWQHY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JEDoJOZWQHY",
+      "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
+      "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the deep half guard bottom player facing a knee slice pass attempt, your prim
 **Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Deep Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dhGbNUvfvjM)
+
+<p class="clip-credit"><strong>Common deep half sweep mistakes</strong> — taught by John Kelly · 1:13 · <a href="https://www.youtube.com/watch?v=dhGbNUvfvjM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
+
+<p class="clip-credit"><strong>Three options to defend the deep half guard</strong> — taught by Six Blades Jiu-Jitsu · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

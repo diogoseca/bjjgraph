@@ -180,6 +180,43 @@ description: "Master the attacking mechanics of the Leg Weave Pass Completion. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Weave Pass Completion (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Weave pass finish from open guard",
+      "description": "Leg Weave Pass Completion (Attacker) film study: Weave pass finish from open guard, taught by Martial Arts and Wellness coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4XGYCwIekhY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4XGYCwIekhY",
+      "url": "https://www.youtube.com/watch?v=4XGYCwIekhY",
+      "creator": { "@type": "Person", "name": "Martial Arts and Wellness coach" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg weave pass through the knee shield",
+      "description": "Leg Weave Pass Completion (Attacker) film study: Leg weave pass through the knee shield, taught by BJJ4Breakfast coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
+      "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ The Leg Weave Pass Completion from the attacker's perspective demands seamless i
 **From Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Weave Pass Completion (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4XGYCwIekhY)
+
+<p class="clip-credit"><strong>Weave pass finish from open guard</strong> — taught by Martial Arts and Wellness coach · 1:19 · <a href="https://www.youtube.com/watch?v=4XGYCwIekhY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4LIBFmas-oE)
+
+<p class="clip-credit"><strong>Leg weave pass through the knee shield</strong> — taught by BJJ4Breakfast coach · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -153,6 +153,54 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Trap (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling kimura trap guard pass",
+      "description": "Kimura Trap (Top) film study: Rolling kimura trap guard pass, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lcFphp1N9m0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lcFphp1N9m0",
+      "url": "https://www.youtube.com/watch?v=lcFphp1N9m0",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting the sub via Kimura Trap",
+      "description": "Kimura Trap (Top) film study: Getting the sub via Kimura Trap, taught by Luke Ruffo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PiaCdkFIxPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PiaCdkFIxPk",
+      "url": "https://www.youtube.com/watch?v=PiaCdkFIxPk",
+      "creator": { "@type": "Person", "name": "Luke Ruffo" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Top Half Guard Reverse Kimura Trap",
+      "description": "Kimura Trap (Top) film study: Top Half Guard Reverse Kimura Trap, taught by David Avellan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XhXGWFTFpy0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XhXGWFTFpy0",
+      "url": "https://www.youtube.com/watch?v=XhXGWFTFpy0",
+      "creator": { "@type": "Person", "name": "David Avellan" },
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ The Kimura Trap Top exemplifies efficient finishing mechanics in BJJ. The top pl
 Strategically, the position is valued for its control density—the top player controls both position and joint lock simultaneously, making escapes nearly impossible without giving up something valuable. The Kimura grip prevents the opponent from effectively framing, creating space, or establishing defensive postures that would normally enable escapes from top positions. Advanced practitioners use Kimura Trap Top as their primary finishing system from side control and north-south, often preferring it to traditional pin-based approaches due to its superior finishing rate and control characteristics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Trap (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lcFphp1N9m0)
+
+<p class="clip-credit"><strong>Rolling kimura trap guard pass</strong> — taught by BJJ4Breakfast · 0:56 · <a href="https://www.youtube.com/watch?v=lcFphp1N9m0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PiaCdkFIxPk)
+
+<p class="clip-credit"><strong>Getting the sub via Kimura Trap</strong> — taught by Luke Ruffo · 1:29 · <a href="https://www.youtube.com/watch?v=PiaCdkFIxPk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XhXGWFTFpy0)
+
+<p class="clip-credit"><strong>Top Half Guard Reverse Kimura Trap</strong> — taught by David Avellan · 3:17 · <a href="https://www.youtube.com/watch?v=XhXGWFTFpy0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

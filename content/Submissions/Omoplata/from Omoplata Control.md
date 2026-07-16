@@ -34,6 +34,54 @@ description: "Master the omoplata finish from omoplata control position. Complet
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Omoplata Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata Finish with Far Leg Control",
+      "description": "Omoplata from Omoplata Control film study: Omoplata Finish with Far Leg Control, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w3_FCkkNQxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w3_FCkkNQxU",
+      "url": "https://www.youtube.com/watch?v=w3_FCkkNQxU",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rotating Omoplata Finish (Em Giro)",
+      "description": "Omoplata from Omoplata Control film study: Rotating Omoplata Finish (Em Giro), taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HCuRfqaM0tM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HCuRfqaM0tM",
+      "url": "https://www.youtube.com/watch?v=HCuRfqaM0tM",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata Technique Breakdown",
+      "description": "Omoplata from Omoplata Control film study: Omoplata Technique Breakdown, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
+      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ In competition, the omoplata from established control carries a significantly hi
 **Starting Position**: [[Positions/Omoplata Control]] · **From**: [[Positions/Omoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Omoplata Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w3_FCkkNQxU)
+
+<p class="clip-credit"><strong>Omoplata Finish with Far Leg Control</strong> — taught by Clark Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=w3_FCkkNQxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HCuRfqaM0tM)
+
+<p class="clip-credit"><strong>Rotating Omoplata Finish (Em Giro)</strong> — taught by Clark Gracie · 1:36 · <a href="https://www.youtube.com/watch?v=HCuRfqaM0tM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oQAP8nARiHU)
+
+<p class="clip-credit"><strong>Omoplata Technique Breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

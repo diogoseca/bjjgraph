@@ -35,6 +35,54 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K guard entry to saddle",
+      "description": "K-Guard film study: K guard entry to saddle, taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KBkoWJtMeNA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KBkoWJtMeNA",
+      "url": "https://www.youtube.com/watch?v=KBkoWJtMeNA",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K Guard 50/50 entry to inside heel hook",
+      "description": "K-Guard film study: K Guard 50/50 entry to inside heel hook, taught by BJJ GeekOut.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ieR8CJ1EUM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ieR8CJ1EUM8",
+      "url": "https://www.youtube.com/watch?v=ieR8CJ1EUM8",
+      "creator": { "@type": "Person", "name": "BJJ GeekOut" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "K guard alternative entry",
+      "description": "K-Guard film study: K guard alternative entry, taught by Morto BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ottOBmhsyP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ottOBmhsyP8",
+      "url": "https://www.youtube.com/watch?v=ottOBmhsyP8",
+      "creator": { "@type": "Person", "name": "Morto BJJ" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ The position excels as both a retention platform and an offensive launching poin
 Strategically, K-Guard represents a transitional hub position where the bottom practitioner can seamlessly flow between retention mode and explosive attack sequences, while the top player must balance forward pressure with defensive awareness of sweeps and back-takes. The position demands technical precision from both players - the bottom player must maintain active tension in both hooks while creating continuous angle changes, and the top player must systematically break down defensive structures through grip fighting and weight distribution. Success in this position requires understanding the push-pull dynamics, timing transitions correctly, and recognizing when to shift between offensive and defensive priorities based on opponent reactions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KBkoWJtMeNA)
+
+<p class="clip-credit"><strong>K guard entry to saddle</strong> — taught by bjj doug · 0:28 · <a href="https://www.youtube.com/watch?v=KBkoWJtMeNA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ieR8CJ1EUM8)
+
+<p class="clip-credit"><strong>K Guard 50/50 entry to inside heel hook</strong> — taught by BJJ GeekOut · 0:14 · <a href="https://www.youtube.com/watch?v=ieR8CJ1EUM8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ottOBmhsyP8)
+
+<p class="clip-credit"><strong>K guard alternative entry</strong> — taught by Morto BJJ · 1:32 · <a href="https://www.youtube.com/watch?v=ottOBmhsyP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

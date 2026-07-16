@@ -148,6 +148,43 @@ description: "Master defending the Sweep from Double Jump in BJJ. Learn recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Double Jump (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the shoulder crunch sweep from guard",
+      "description": "Sweep from Double Jump (Defender) film study: Defending the shoulder crunch sweep from guard, taught by 10th Planet Colorado Springs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_KSsEY6Yhb4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_KSsEY6Yhb4",
+      "url": "https://www.youtube.com/watch?v=_KSsEY6Yhb4",
+      "creator": { "@type": "Person", "name": "10th Planet Colorado Springs" },
+      "duration": "PT155S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Common guard player mistake",
+      "description": "Sweep from Double Jump (Defender) film study: Common guard player mistake, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jx120fTdOfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jx120fTdOfA",
+      "url": "https://www.youtube.com/watch?v=jx120fTdOfA",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Sweep from Double Jump requires the top player to recognize the sw
 **Opponent's Starting Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Double Jump (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_KSsEY6Yhb4)
+
+<p class="clip-credit"><strong>Defending the shoulder crunch sweep from guard</strong> — taught by 10th Planet Colorado Springs · 2:35 · <a href="https://www.youtube.com/watch?v=_KSsEY6Yhb4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jx120fTdOfA)
+
+<p class="clip-credit"><strong>Common guard player mistake</strong> — taught by Rickson Gracie · 0:58 · <a href="https://www.youtube.com/watch?v=jx120fTdOfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

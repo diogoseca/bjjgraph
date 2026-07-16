@@ -147,6 +147,43 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Knot (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Intro to the Leg Knot position",
+      "description": "Leg Knot (Top) film study: Intro to the Leg Knot position, taught by Mike Robinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MaQQU4ydJoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MaQQU4ydJoc",
+      "url": "https://www.youtube.com/watch?v=MaQQU4ydJoc",
+      "creator": { "@type": "Person", "name": "Mike Robinson" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg lock transitions from entanglement",
+      "description": "Leg Knot (Top) film study: Leg lock transitions from entanglement, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Sz1rg8X-UI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Sz1rg8X-UI",
+      "url": "https://www.youtube.com/watch?v=-Sz1rg8X-UI",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -156,6 +193,34 @@ Leg Knot Top Position represents an advanced leg entanglement configuration wher
 The strategic value of Leg Knot Top lies in its ability to create submission opportunities while neutralizing the opponent's defensive leg movements. Unlike simpler leg entanglements where the bottom player retains some freedom of movement, the leg knot configuration actively restricts hip rotation, knee extension, and ankle mobility through systematic crossing and pressure application. This position exemplifies modern leg lock methodology where control precedes finishing, allowing the top player to work methodically through their submission sequence without rushing or forcing techniques. The position requires sophisticated understanding of leg mechanics, pressure application, and systematic progression through defensive layers.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Knot (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MaQQU4ydJoc)
+
+<p class="clip-credit"><strong>Intro to the Leg Knot position</strong> — taught by Mike Robinson · 2:50 · <a href="https://www.youtube.com/watch?v=MaQQU4ydJoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Sz1rg8X-UI)
+
+<p class="clip-credit"><strong>Leg lock transitions from entanglement</strong> — taught by Kinesiology College · 1:35 · <a href="https://www.youtube.com/watch?v=-Sz1rg8X-UI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

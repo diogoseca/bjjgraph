@@ -140,6 +140,43 @@ description: "Complete guide to defending the Backstep from Single Leg X-Guard. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Single Leg X (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin-to-shin counter to the backstep",
+      "description": "Backstep from Single Leg X (Defender) film study: Shin-to-shin counter to the backstep, taught by Kyle Dimmitt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/25oMxgS-wH0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/25oMxgS-wH0",
+      "url": "https://www.youtube.com/watch?v=25oMxgS-wH0",
+      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Re-entering the legs when single leg X gets crushed",
+      "description": "Backstep from Single Leg X (Defender) film study: Re-entering the legs when single leg X gets crushed, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/El_icnQ7GKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/El_icnQ7GKg",
+      "url": "https://www.youtube.com/watch?v=El_icnQ7GKg",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ The defender in the Backstep from Single Leg X is the bottom player maintaining 
 **Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Single Leg X (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=25oMxgS-wH0)
+
+<p class="clip-credit"><strong>Shin-to-shin counter to the backstep</strong> — taught by Kyle Dimmitt · 1:13 · <a href="https://www.youtube.com/watch?v=25oMxgS-wH0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=El_icnQ7GKg)
+
+<p class="clip-credit"><strong>Re-entering the legs when single leg X gets crushed</strong> — taught by Factory Fresh Jiu Jitsu · 2:20 · <a href="https://www.youtube.com/watch?v=El_icnQ7GKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

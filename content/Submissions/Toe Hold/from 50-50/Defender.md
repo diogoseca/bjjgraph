@@ -158,6 +158,43 @@ description: "How to defend against Toe Hold from 50-50 in BJJ. Recognition, esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from 50-50 (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the toe hold",
+      "description": "Toe Hold from 50-50 (Defender) film study: How to escape the toe hold, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
+      "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe Hold escape from 50/50",
+      "description": "Toe Hold from 50-50 (Defender) film study: Toe Hold escape from 50/50, taught by Catch Wrestling Alliance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ydWFAUrv8Ns/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ydWFAUrv8Ns",
+      "url": "https://www.youtube.com/watch?v=ydWFAUrv8Ns",
+      "creator": { "@type": "Person", "name": "Catch Wrestling Alliance" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +207,34 @@ The bilateral nature of 50-50 creates a unique defensive dynamic: your best defe
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from 50-50 (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
+
+<p class="clip-credit"><strong>How to escape the toe hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ydWFAUrv8Ns)
+
+<p class="clip-credit"><strong>Toe Hold escape from 50/50</strong> — taught by Catch Wrestling Alliance · 2:30 · <a href="https://www.youtube.com/watch?v=ydWFAUrv8Ns" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

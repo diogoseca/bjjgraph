@@ -34,6 +34,43 @@ description: "Master Seated Guard in BJJ. Complete guide covering entries, trans
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seated Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sit Up Guard (live demonstration)",
+      "description": "Seated Guard film study: Sit Up Guard (live demonstration), taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qP9iLxlxgzw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qP9iLxlxgzw",
+      "url": "https://www.youtube.com/watch?v=qP9iLxlxgzw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "When To Sit Up for Guard Retention",
+      "description": "Seated Guard film study: When To Sit Up for Guard Retention, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The strategic value of Seated Guard lies in its versatility and ease of entry/ex
 Seated Guard works best when opponent is standing or on knees with distance, but becomes vulnerable if opponent gets chest-to-chest pressure or establishes strong control grips. The position requires active movement and timing - staying static allows opponent to pass. Most effective for practitioners comfortable with wrestling-style attacks and technical standups. This dual-perspective position demonstrates how the same physical arrangement creates vastly different tactical situations depending on whether you're sitting (bottom) or standing over opponent (top).
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seated Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qP9iLxlxgzw)
+
+<p class="clip-credit"><strong>Sit Up Guard (live demonstration)</strong> — taught by Lachlan Giles · 2:00 · <a href="https://www.youtube.com/watch?v=qP9iLxlxgzw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>When To Sit Up for Guard Retention</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -169,6 +169,54 @@ description: "How to execute the Half Guard Whizzer Counter in BJJ. Top-game per
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard Whizzer Counter (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Whizzer from half guard: winning the dogfight",
+      "description": "Half Guard Whizzer Counter (Attacker) film study: Whizzer from half guard: winning the dogfight, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the whizzer or overhook",
+      "description": "Half Guard Whizzer Counter (Attacker) film study: Defending the whizzer or overhook, taught by Pendergrass Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IQ2mviobbI0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IQ2mviobbI0",
+      "url": "https://www.youtube.com/watch?v=IQ2mviobbI0",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dip under sweep: whizzer counter",
+      "description": "Half Guard Whizzer Counter (Attacker) film study: Dip under sweep: whizzer counter, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pYljJ1yRXO4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pYljJ1yRXO4",
+      "url": "https://www.youtube.com/watch?v=pYljJ1yRXO4",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -185,6 +233,42 @@ This counter is high-percentage because it is reactive and timing-based rather t
 **From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard Whizzer Counter (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Whizzer from half guard: winning the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IQ2mviobbI0)
+
+<p class="clip-credit"><strong>Defending the whizzer or overhook</strong> — taught by Pendergrass Academy · 2:18 · <a href="https://www.youtube.com/watch?v=IQ2mviobbI0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pYljJ1yRXO4)
+
+<p class="clip-credit"><strong>Dip under sweep: whizzer counter</strong> — taught by JiuJitsu.com · 2:49 · <a href="https://www.youtube.com/watch?v=pYljJ1yRXO4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

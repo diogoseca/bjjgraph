@@ -34,6 +34,54 @@ description: "Master the Overhook to Half Guard transition in BJJ. Learn to conv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook escape into half guard sweep",
+      "description": "Overhook to Half Guard film study: Overhook escape into half guard sweep, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/21-ZmD25pMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/21-ZmD25pMs",
+      "url": "https://www.youtube.com/watch?v=21-ZmD25pMs",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT197S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reclaiming underhook half guard by off balancing",
+      "description": "Overhook to Half Guard film study: Reclaiming underhook half guard by off balancing, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BDuHRztRmXg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BDuHRztRmXg",
+      "url": "https://www.youtube.com/watch?v=BDuHRztRmXg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT351S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Recovering the underhook from bottom half guard",
+      "description": "Overhook to Half Guard film study: Recovering the underhook from bottom half guard, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZP6eavAmATU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZP6eavAmATU",
+      "url": "https://www.youtube.com/watch?v=ZP6eavAmATU",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The key mechanical challenge lies in maintaining control during the transition w
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=21-ZmD25pMs)
+
+<p class="clip-credit"><strong>Overhook escape into half guard sweep</strong> — taught by JiuJitsu.com · 3:17 · <a href="https://www.youtube.com/watch?v=21-ZmD25pMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BDuHRztRmXg)
+
+<p class="clip-credit"><strong>Reclaiming underhook half guard by off balancing</strong> — taught by Lachlan Giles · 5:51 · <a href="https://www.youtube.com/watch?v=BDuHRztRmXg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZP6eavAmATU)
+
+<p class="clip-credit"><strong>Recovering the underhook from bottom half guard</strong> — taught by MMA Leech · 3:50 · <a href="https://www.youtube.com/watch?v=ZP6eavAmATU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

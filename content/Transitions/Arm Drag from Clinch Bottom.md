@@ -34,6 +34,54 @@ description: "Master the arm drag from clinch bottom in BJJ. Complete guide to g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag from Clinch Bottom \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm Drag to Rear Clinch",
+      "description": "Arm Drag from Clinch Bottom film study: Arm Drag to Rear Clinch, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rc36jRToKOk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rc36jRToKOk",
+      "url": "https://www.youtube.com/watch?v=rc36jRToKOk",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Drag to Single Leg",
+      "description": "Arm Drag from Clinch Bottom film study: Arm Drag to Single Leg, taught by Grapple Hub.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkCWCSvk7I4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkCWCSvk7I4",
+      "url": "https://www.youtube.com/watch?v=TkCWCSvk7I4",
+      "creator": { "@type": "Person", "name": "Grapple Hub" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm Drag Drill",
+      "description": "Arm Drag from Clinch Bottom film study: Arm Drag Drill, taught by Budo Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CYF4OUTGwvk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CYF4OUTGwvk",
+      "url": "https://www.youtube.com/watch?v=CYF4OUTGwvk",
+      "creator": { "@type": "Person", "name": "Budo Brothers" },
+      "duration": "PT49S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ In competitive BJJ and submission grappling, the arm drag from clinch serves as 
 **Success Rate**: 30%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag from Clinch Bottom in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rc36jRToKOk)
+
+<p class="clip-credit"><strong>Arm Drag to Rear Clinch</strong> — taught by Jiu Jitsu Five-O · 0:31 · <a href="https://www.youtube.com/watch?v=rc36jRToKOk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkCWCSvk7I4)
+
+<p class="clip-credit"><strong>Arm Drag to Single Leg</strong> — taught by Grapple Hub · 1:00 · <a href="https://www.youtube.com/watch?v=TkCWCSvk7I4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CYF4OUTGwvk)
+
+<p class="clip-credit"><strong>Arm Drag Drill</strong> — taught by Budo Brothers · 0:49 · <a href="https://www.youtube.com/watch?v=CYF4OUTGwvk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

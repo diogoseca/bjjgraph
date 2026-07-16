@@ -147,6 +147,54 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dogfight Position (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Whizzer to Win the Dog Fight",
+      "description": "Dogfight Position (Bottom) film study: Whizzer to Win the Dog Fight, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bottom Half Guard to Dogfight Back Take",
+      "description": "Dogfight Position (Bottom) film study: Bottom Half Guard to Dogfight Back Take, taught by Broadway JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OAlwVyNmNqE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OAlwVyNmNqE",
+      "url": "https://www.youtube.com/watch?v=OAlwVyNmNqE",
+      "creator": { "@type": "Person", "name": "Broadway JiuJitsu" },
+      "duration": "PT148S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Coyote Half Guard to Rollover Sweep",
+      "description": "Dogfight Position (Bottom) film study: Coyote Half Guard to Rollover Sweep, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OghklyfXB-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OghklyfXB-Q",
+      "url": "https://www.youtube.com/watch?v=OghklyfXB-Q",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,6 +206,42 @@ From a strategic perspective, Dogfight is a neutral-to-slightly-advantageous pos
 The position is favored in modern no-gi grappling and has become a cornerstone of competitive half guard systems at the highest levels. Unlike traditional flat half guard positions, Dogfight rewards aggressive, forward-moving practitioners who can maintain their frames and capitalize on their opponent's balance disruptions. The position's dynamic nature means it rarely remains static for long—both players must be prepared to flow between attacks, defenses, and transitions while reading their opponent's weight distribution and grip commitments. Success in Dogfight requires constant activity, superior grip fighting skills, and the ability to chain multiple techniques together as positions shift rapidly.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dogfight Position (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Whizzer to Win the Dog Fight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OAlwVyNmNqE)
+
+<p class="clip-credit"><strong>Bottom Half Guard to Dogfight Back Take</strong> — taught by Broadway JiuJitsu · 2:28 · <a href="https://www.youtube.com/watch?v=OAlwVyNmNqE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OghklyfXB-Q)
+
+<p class="clip-credit"><strong>Coyote Half Guard to Rollover Sweep</strong> — taught by Holy Grail BJJ · 1:43 · <a href="https://www.youtube.com/watch?v=OghklyfXB-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

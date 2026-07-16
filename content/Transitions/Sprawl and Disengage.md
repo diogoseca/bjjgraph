@@ -34,6 +34,43 @@ description: "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sprawl and Disengage \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic sprawl drill",
+      "description": "Sprawl and Disengage film study: Basic sprawl drill, taught by Gaelforce BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Adz0whT8wBc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Adz0whT8wBc",
+      "url": "https://www.youtube.com/watch?v=Adz0whT8wBc",
+      "creator": { "@type": "Person", "name": "Gaelforce BJJ" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit out to disengage from the inversion",
+      "description": "Sprawl and Disengage film study: Sit out to disengage from the inversion, taught by Spear Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DvoaiDQaLDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DvoaiDQaLDA",
+      "url": "https://www.youtube.com/watch?v=DvoaiDQaLDA",
+      "creator": { "@type": "Person", "name": "Spear Jiu Jitsu" },
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 **Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sprawl and Disengage in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Adz0whT8wBc)
+
+<p class="clip-credit"><strong>Basic sprawl drill</strong> — taught by Gaelforce BJJ · 0:35 · <a href="https://www.youtube.com/watch?v=Adz0whT8wBc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DvoaiDQaLDA)
+
+<p class="clip-credit"><strong>Sit out to disengage from the inversion</strong> — taught by Spear Jiu Jitsu · 1:14 · <a href="https://www.youtube.com/watch?v=DvoaiDQaLDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

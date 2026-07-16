@@ -168,6 +168,54 @@ description: "How to execute Gift Wrap to Back in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap to Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Taking the back from the gift wrap",
+      "description": "Gift Wrap to Back (Attacker) film study: Taking the back from the gift wrap, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eKTd-9SkrVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eKTd-9SkrVk",
+      "url": "https://www.youtube.com/watch?v=eKTd-9SkrVk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift wrap back take",
+      "description": "Gift Wrap to Back (Attacker) film study: Gift wrap back take, taught by BJJ Lab Z\u00fcrich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EOv5GYpUYDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EOv5GYpUYDw",
+      "url": "https://www.youtube.com/watch?v=EOv5GYpUYDw",
+      "creator": { "@type": "Person", "name": "BJJ Lab Z\u00fcrich" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sit back gift wrap to the back",
+      "description": "Gift Wrap to Back (Attacker) film study: Sit back gift wrap to the back, taught by Watauga BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-ypj83J2Ngk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-ypj83J2Ngk",
+      "url": "https://www.youtube.com/watch?v=-ypj83J2Ngk",
+      "creator": { "@type": "Person", "name": "Watauga BJJ" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ The strategic value of this transition lies in its forcing function—the oppone
 **From Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap to Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eKTd-9SkrVk)
+
+<p class="clip-credit"><strong>Taking the back from the gift wrap</strong> — taught by Henry Akins · 1:21 · <a href="https://www.youtube.com/watch?v=eKTd-9SkrVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EOv5GYpUYDw)
+
+<p class="clip-credit"><strong>Gift wrap back take</strong> — taught by BJJ Lab Zürich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-ypj83J2Ngk)
+
+<p class="clip-credit"><strong>Sit back gift wrap to the back</strong> — taught by Watauga BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=-ypj83J2Ngk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -150,6 +150,43 @@ description: "Defend the Mounted Crucifix Armbar in BJJ. Recognition cues, hand 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix Armbar from Mounted Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix Escape",
+      "description": "Mounted Crucifix Armbar from Mounted Crucifix (Defender) film study: Crucifix Escape, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7wr6klxbC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7wr6klxbC8",
+      "url": "https://www.youtube.com/watch?v=C7wr6klxbC8",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ Armbar Stack Escape",
+      "description": "Mounted Crucifix Armbar from Mounted Crucifix (Defender) film study: BJJ Armbar Stack Escape, taught by WNY MMA \u0026 Fitness.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lXpel1GO2Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lXpel1GO2Do",
+      "url": "https://www.youtube.com/watch?v=lXpel1GO2Do",
+      "creator": { "@type": "Person", "name": "WNY MMA \u0026 Fitness" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Mounted Crucifix Armbar presents unique challenges because your no
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix Armbar from Mounted Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7wr6klxbC8)
+
+<p class="clip-credit"><strong>Crucifix Escape</strong> — taught by Chosen Few BJJ · 1:29 · <a href="https://www.youtube.com/watch?v=C7wr6klxbC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lXpel1GO2Do)
+
+<p class="clip-credit"><strong>BJJ Armbar Stack Escape</strong> — taught by WNY MMA &amp; Fitness · 0:37 · <a href="https://www.youtube.com/watch?v=lXpel1GO2Do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

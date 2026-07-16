@@ -34,6 +34,54 @@ description: "Master guard recovery from the Jailbreak position in BJJ. Complete
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Jailbreak \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jailbreak: recover guard from bottom side control",
+      "description": "Guard Recovery from Jailbreak film study: Jailbreak: recover guard from bottom side control, taught by Broadway JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oiedgtVDx-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oiedgtVDx-I",
+      "url": "https://www.youtube.com/watch?v=oiedgtVDx-I",
+      "creator": { "@type": "Person", "name": "Broadway JiuJitsu" },
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi side control escape to guard recovery",
+      "description": "Guard Recovery from Jailbreak film study: No-gi side control escape to guard recovery, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjvvLBRxa8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rjvvLBRxa8s",
+      "url": "https://www.youtube.com/watch?v=rjvvLBRxa8s",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "11 guard recovery drills in 90 seconds",
+      "description": "Guard Recovery from Jailbreak film study: 11 guard recovery drills in 90 seconds, taught by Northwest Fighting Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z-wF4eJnoW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z-wF4eJnoW8",
+      "url": "https://www.youtube.com/watch?v=z-wF4eJnoW8",
+      "creator": { "@type": "Person", "name": "Northwest Fighting Arts" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +115,42 @@ The biomechanical challenge of this recovery lies in the non-standard body align
 **Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Jailbreak in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oiedgtVDx-I)
+
+<p class="clip-credit"><strong>Jailbreak: recover guard from bottom side control</strong> — taught by Broadway JiuJitsu · 3:11 · <a href="https://www.youtube.com/watch?v=oiedgtVDx-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rjvvLBRxa8s)
+
+<p class="clip-credit"><strong>No-gi side control escape to guard recovery</strong> — taught by Pantera Jiujitsu · 1:02 · <a href="https://www.youtube.com/watch?v=rjvvLBRxa8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z-wF4eJnoW8)
+
+<p class="clip-credit"><strong>11 guard recovery drills in 90 seconds</strong> — taught by Northwest Fighting Arts · 1:46 · <a href="https://www.youtube.com/watch?v=z-wF4eJnoW8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

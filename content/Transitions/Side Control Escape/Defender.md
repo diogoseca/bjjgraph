@@ -140,6 +140,54 @@ description: "How to maintain side control against escape attempts in BJJ. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining side control with pressure",
+      "description": "Side Control Escape (Defender) film study: Maintaining side control with pressure, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaYoAcTeKkk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaYoAcTeKkk",
+      "url": "https://www.youtube.com/watch?v=XaYoAcTeKkk",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Simple and Effective Side Control Escape",
+      "description": "Side Control Escape (Defender) film study: Simple and Effective Side Control Escape, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R4-4wiHam98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R4-4wiHam98",
+      "url": "https://www.youtube.com/watch?v=R4-4wiHam98",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT322S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side Control Escape - Most Common Mistakes",
+      "description": "Side Control Escape (Defender) film study: Side Control Escape - Most Common Mistakes, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XtQ4SSIwGSc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XtQ4SSIwGSc",
+      "url": "https://www.youtube.com/watch?v=XtQ4SSIwGSc",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT349S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ The Side Control Escape Defender is the top player working to maintain dominant 
 **Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XaYoAcTeKkk)
+
+<p class="clip-credit"><strong>Maintaining side control with pressure</strong> — taught by Thunderdome BJJ · 0:32 · <a href="https://www.youtube.com/watch?v=XaYoAcTeKkk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R4-4wiHam98)
+
+<p class="clip-credit"><strong>Simple and Effective Side Control Escape</strong> — taught by Gordon Ryan · 5:22 · <a href="https://www.youtube.com/watch?v=R4-4wiHam98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XtQ4SSIwGSc)
+
+<p class="clip-credit"><strong>Side Control Escape - Most Common Mistakes</strong> — taught by Jon Thomas · 5:49 · <a href="https://www.youtube.com/watch?v=XtQ4SSIwGSc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

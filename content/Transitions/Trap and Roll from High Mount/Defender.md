@@ -140,6 +140,54 @@ description: "Defend against the Trap and Roll escape from High Mount. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Trap and Roll from High Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the mount when it feels impossible",
+      "description": "Trap and Roll from High Mount (Defender) film study: Escaping the mount when it feels impossible, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R21vtm5BHF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R21vtm5BHF4",
+      "url": "https://www.youtube.com/watch?v=R21vtm5BHF4",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How not to get swept from mount",
+      "description": "Trap and Roll from High Mount (Defender) film study: How not to get swept from mount, taught by David Avellan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bf-8R9V6mLA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bf-8R9V6mLA",
+      "url": "https://www.youtube.com/watch?v=bf-8R9V6mLA",
+      "creator": { "@type": "Person", "name": "David Avellan" },
+      "duration": "PT172S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Maintaining mount: preventing the bridge escape",
+      "description": "Trap and Roll from High Mount (Defender) film study: Maintaining mount: preventing the bridge escape, taught by St. Paul BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0dzzXGjWKWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0dzzXGjWKWI",
+      "url": "https://www.youtube.com/watch?v=0dzzXGjWKWI",
+      "creator": { "@type": "Person", "name": "St. Paul BJJ coach" },
+      "duration": "PT337S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Trap and Roll from High Mount requires the top player to recognize
 **Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Trap and Roll from High Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R21vtm5BHF4)
+
+<p class="clip-credit"><strong>Escaping the mount when it feels impossible</strong> — taught by Pantera Jiujitsu · 1:20 · <a href="https://www.youtube.com/watch?v=R21vtm5BHF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bf-8R9V6mLA)
+
+<p class="clip-credit"><strong>How not to get swept from mount</strong> — taught by David Avellan · 2:52 · <a href="https://www.youtube.com/watch?v=bf-8R9V6mLA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0dzzXGjWKWI)
+
+<p class="clip-credit"><strong>Maintaining mount: preventing the bridge escape</strong> — taught by St. Paul BJJ coach · 5:37 · <a href="https://www.youtube.com/watch?v=0dzzXGjWKWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

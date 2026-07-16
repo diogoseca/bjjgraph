@@ -140,6 +140,54 @@ description: "Prevent the Frame Escape from Shoulder of Justice by maintaining p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame Escape from Shoulder of Justice (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining side control with shoulder pressure",
+      "description": "Frame Escape from Shoulder of Justice (Defender) film study: Maintaining side control with shoulder pressure, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaYoAcTeKkk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaYoAcTeKkk",
+      "url": "https://www.youtube.com/watch?v=XaYoAcTeKkk",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "6 Counters to the Side Control Forearm Frame on the Neck",
+      "description": "Frame Escape from Shoulder of Justice (Defender) film study: 6 Counters to the Side Control Forearm Frame on the Neck, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iEXqlT_rQxM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iEXqlT_rQxM",
+      "url": "https://www.youtube.com/watch?v=iEXqlT_rQxM",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT495S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dealing With Effective Frames in Side Control",
+      "description": "Frame Escape from Shoulder of Justice (Defender) film study: Dealing With Effective Frames in Side Control, taught by Ante Dzolic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mTCgNsmsZVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mTCgNsmsZVU",
+      "url": "https://www.youtube.com/watch?v=mTCgNsmsZVU",
+      "creator": { "@type": "Person", "name": "Ante Dzolic" },
+      "duration": "PT96S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Frame Escape, you are the top player maintaining Sho
 **Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame Escape from Shoulder of Justice (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XaYoAcTeKkk)
+
+<p class="clip-credit"><strong>Maintaining side control with shoulder pressure</strong> — taught by Thunderdome BJJ · 0:32 · <a href="https://www.youtube.com/watch?v=XaYoAcTeKkk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iEXqlT_rQxM)
+
+<p class="clip-credit"><strong>6 Counters to the Side Control Forearm Frame on the Neck</strong> — taught by MMA Leech · 8:15 · <a href="https://www.youtube.com/watch?v=iEXqlT_rQxM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mTCgNsmsZVU)
+
+<p class="clip-credit"><strong>Dealing With Effective Frames in Side Control</strong> — taught by Ante Dzolic · 1:36 · <a href="https://www.youtube.com/watch?v=mTCgNsmsZVU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

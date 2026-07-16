@@ -148,6 +148,43 @@ description: "How to defend against New York Control to Zombie in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Control to Zombie (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to pass rubber guard and the lockdown",
+      "description": "New York Control to Zombie (Defender) film study: How to pass rubber guard and the lockdown, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KH2uSZ8Re0U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KH2uSZ8Re0U",
+      "url": "https://www.youtube.com/watch?v=KH2uSZ8Re0U",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT236S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the lockdown",
+      "description": "New York Control to Zombie (Defender) film study: Escaping the lockdown, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BQGJ0pEueHc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BQGJ0pEueHc",
+      "url": "https://www.youtube.com/watch?v=BQGJ0pEueHc",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The most effective defensive strategy combines aggressive posture recovery with 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Control to Zombie (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KH2uSZ8Re0U)
+
+<p class="clip-credit"><strong>How to pass rubber guard and the lockdown</strong> — taught by Stephan Kesting · 3:56 · <a href="https://www.youtube.com/watch?v=KH2uSZ8Re0U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BQGJ0pEueHc)
+
+<p class="clip-credit"><strong>Escaping the lockdown</strong> — taught by Coach Brian · 2:06 · <a href="https://www.youtube.com/watch?v=BQGJ0pEueHc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

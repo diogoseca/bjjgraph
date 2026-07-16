@@ -174,6 +174,54 @@ description: "Execute the ankle lock counter with expert technique. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter from Ankle Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter straight ankle locks with a corkscrew toehold",
+      "description": "Counter from Ankle Lock (Attacker) film study: Counter straight ankle locks with a corkscrew toehold, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cf-hK1t7qzU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cf-hK1t7qzU",
+      "url": "https://www.youtube.com/watch?v=cf-hK1t7qzU",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finish the ankle lock when opponent rolls out",
+      "description": "Counter from Ankle Lock (Attacker) film study: Finish the ankle lock when opponent rolls out, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/akB_o9gaNuc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/akB_o9gaNuc",
+      "url": "https://www.youtube.com/watch?v=akB_o9gaNuc",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Counter footlock from straight ankle lock",
+      "description": "Counter from Ankle Lock (Attacker) film study: Counter footlock from straight ankle lock, taught by James Clingerman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zErch4qHfB0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zErch4qHfB0",
+      "url": "https://www.youtube.com/watch?v=zErch4qHfB0",
+      "creator": { "@type": "Person", "name": "James Clingerman" },
+      "duration": "PT12S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the person caught in straight ankle lock control, executing this counter requ
 **From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter from Ankle Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cf-hK1t7qzU)
+
+<p class="clip-credit"><strong>Counter straight ankle locks with a corkscrew toehold</strong> — taught by Patrick Donabedian · 1:05 · <a href="https://www.youtube.com/watch?v=cf-hK1t7qzU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=akB_o9gaNuc)
+
+<p class="clip-credit"><strong>Finish the ankle lock when opponent rolls out</strong> — taught by James O&#39;Connor · 1:01 · <a href="https://www.youtube.com/watch?v=akB_o9gaNuc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zErch4qHfB0)
+
+<p class="clip-credit"><strong>Counter footlock from straight ankle lock</strong> — taught by James Clingerman · 0:12 · <a href="https://www.youtube.com/watch?v=zErch4qHfB0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

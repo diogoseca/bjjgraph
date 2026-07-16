@@ -142,6 +142,43 @@ description: "Complete guide to defending the backstep from your De La Riva Guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the backstep pass from De La Riva",
+      "description": "Backstep from De La Riva (Defender) film study: Defending the backstep pass from De La Riva, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
+      "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stop getting your leg trapped in De La Riva",
+      "description": "Backstep from De La Riva (Defender) film study: Stop getting your leg trapped in De La Riva, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Tcd_wHmmNOk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Tcd_wHmmNOk",
+      "url": "https://www.youtube.com/watch?v=Tcd_wHmmNOk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ As the defender in the backstep from De La Riva scenario, you are the DLR guard 
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a3ModDEKY6s)
+
+<p class="clip-credit"><strong>Defending the backstep pass from De La Riva</strong> — taught by Inverted Gear · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Tcd_wHmmNOk)
+
+<p class="clip-credit"><strong>Stop getting your leg trapped in De La Riva</strong> — taught by Jon Thomas · 2:36 · <a href="https://www.youtube.com/watch?v=Tcd_wHmmNOk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -150,6 +150,43 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japanese Necktie from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the necktie hand switch",
+      "description": "Japanese Necktie from Front Headlock (Defender) film study: Preventing the necktie hand switch, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jDbywpDs3Tw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jDbywpDs3Tw",
+      "url": "https://www.youtube.com/watch?v=jDbywpDs3Tw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Peruvian necktie escape",
+      "description": "Japanese Necktie from Front Headlock (Defender) film study: Peruvian necktie escape, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FuNT7N9X8y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FuNT7N9X8y8",
+      "url": "https://www.youtube.com/watch?v=FuNT7N9X8y8",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT183S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ The Japanese Necktie defense centers on three critical priorities: preventing th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Japanese Necktie from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jDbywpDs3Tw)
+
+<p class="clip-credit"><strong>Preventing the necktie hand switch</strong> — taught by Lachlan Giles · 2:09 · <a href="https://www.youtube.com/watch?v=jDbywpDs3Tw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FuNT7N9X8y8)
+
+<p class="clip-credit"><strong>Peruvian necktie escape</strong> — taught by Chosen Few BJJ · 3:03 · <a href="https://www.youtube.com/watch?v=FuNT7N9X8y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

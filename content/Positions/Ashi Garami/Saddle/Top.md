@@ -153,6 +153,54 @@ description: "Master saddle position mechanics with systematic entries, control 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Saddle (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Easy entry to the saddle",
+      "description": "Saddle (Top) film study: Easy entry to the saddle, taught by Ilya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
+      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
+      "creator": { "@type": "Person", "name": "Ilya" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X guard to heel hook",
+      "description": "Saddle (Top) film study: X guard to heel hook, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
+      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Saddle transition from top half guard",
+      "description": "Saddle (Top) film study: Saddle transition from top half guard, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P-rkPE4bjdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P-rkPE4bjdE",
+      "url": "https://www.youtube.com/watch?v=P-rkPE4bjdE",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ The position's effectiveness has evolved dramatically as defensive knowledge has
 From a strategic perspective, the Saddle functions differently depending on ruleset and competition format. In submission-only and many no-gi competitions where heel hooks are legal, the Saddle becomes a primary attacking platform worthy of significant positional investment. In IBJJF gi competitions where most leg locks are restricted or prohibited, the Saddle has limited utility and practitioners must understand alternative attacking systems. This ruleset awareness is non-negotiable, as training Saddle mechanics without understanding legal applications creates dangerous situations in both training and competition environments.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Saddle (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HniaoFWTsmI)
+
+<p class="clip-credit"><strong>Easy entry to the saddle</strong> — taught by Ilya · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+
+<p class="clip-credit"><strong>X guard to heel hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P-rkPE4bjdE)
+
+<p class="clip-credit"><strong>Saddle transition from top half guard</strong> — taught by Thunderdome BJJ · 0:31 · <a href="https://www.youtube.com/watch?v=P-rkPE4bjdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

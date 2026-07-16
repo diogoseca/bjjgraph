@@ -153,6 +153,43 @@ description: "Defensive survival position requiring systematic escape mechanics 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Truck back take vs babybridge defense",
+      "description": "Truck (Bottom) film study: Truck back take vs babybridge defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LA-AdwNMGvc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LA-AdwNMGvc",
+      "url": "https://www.youtube.com/watch?v=LA-AdwNMGvc",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the rolling back take (truck roll)",
+      "description": "Truck (Bottom) film study: Defending the rolling back take (truck roll), taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ Success in this position requires understanding the mechanical principles of spi
 The position emerged from wrestling's turk ride and was popularized in BJJ through the 10th Planet system, where it serves as a gateway to the Twister submission and various back attacks. Unlike more stable bottom positions, the Truck Bottom offers limited offensive options, making escape the primary tactical objective. The granby roll is the primary escape mechanism, but timing and setup are critical.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LA-AdwNMGvc)
+
+<p class="clip-credit"><strong>Truck back take vs babybridge defense</strong> — taught by Wim Deputter · 2:42 · <a href="https://www.youtube.com/watch?v=LA-AdwNMGvc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the rolling back take (truck roll)</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

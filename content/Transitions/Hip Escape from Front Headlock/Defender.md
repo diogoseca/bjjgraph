@@ -140,6 +140,43 @@ description: "Counter the hip escape from front headlock in BJJ. Maintain front 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock to the back as they escape",
+      "description": "Hip Escape from Front Headlock (Defender) film study: Front headlock to the back as they escape, taught by Coach Casey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/87l6l0dmPWM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/87l6l0dmPWM",
+      "url": "https://www.youtube.com/watch?v=87l6l0dmPWM",
+      "creator": { "@type": "Person", "name": "Coach Casey" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front headlock to side control",
+      "description": "Hip Escape from Front Headlock (Defender) film study: Front headlock to side control, taught by Pineapple MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HiyveeWT9QQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HiyveeWT9QQ",
+      "url": "https://www.youtube.com/watch?v=HiyveeWT9QQ",
+      "creator": { "@type": "Person", "name": "Pineapple MMA coach" },
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ The defender perspective covers the person holding front headlock who must preve
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=87l6l0dmPWM)
+
+<p class="clip-credit"><strong>Front headlock to the back as they escape</strong> — taught by Coach Casey · 0:52 · <a href="https://www.youtube.com/watch?v=87l6l0dmPWM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HiyveeWT9QQ)
+
+<p class="clip-credit"><strong>Front headlock to side control</strong> — taught by Pineapple MMA coach · 2:40 · <a href="https://www.youtube.com/watch?v=HiyveeWT9QQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

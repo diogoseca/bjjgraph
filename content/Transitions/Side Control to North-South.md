@@ -34,6 +34,43 @@ description: "Master the Side Control to North-South transition in BJJ. Maintain
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to North-South \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to north-south position",
+      "description": "Side Control to North-South film study: Side control to north-south position, taught by Joao Crus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vvZJYBd7z3o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vvZJYBd7z3o",
+      "url": "https://www.youtube.com/watch?v=vvZJYBd7z3o",
+      "creator": { "@type": "Person", "name": "Joao Crus" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to north-south darce",
+      "description": "Side Control to North-South film study: Side control to north-south darce, taught by Gracie Westchase coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase coach" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Understanding when to transition versus when to maintain Side Control is critica
 **Success Rate**: 54%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to North-South in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vvZJYBd7z3o)
+
+<p class="clip-credit"><strong>Side control to north-south position</strong> — taught by Joao Crus · 1:28 · <a href="https://www.youtube.com/watch?v=vvZJYBd7z3o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south darce</strong> — taught by Gracie Westchase coach · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

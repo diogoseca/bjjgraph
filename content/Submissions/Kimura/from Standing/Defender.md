@@ -150,6 +150,43 @@ description: "How to defend against Kimura from Standing in BJJ. Recognition, es
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Standing (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the Americana / Kimura",
+      "description": "Kimura from Standing (Defender) film study: Defending the Americana / Kimura, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
+      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the Kimura Against the Cage",
+      "description": "Kimura from Standing (Defender) film study: Defending the Kimura Against the Cage, taught by Intercept MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7bN5ypMZyyM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7bN5ypMZyyM",
+      "url": "https://www.youtube.com/watch?v=7bN5ypMZyyM",
+      "creator": { "@type": "Person", "name": "Intercept MMA" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Kimura from Standing demands early recognition and immediate actio
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Standing (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FNyL93v5fGs)
+
+<p class="clip-credit"><strong>Defending the Americana / Kimura</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7bN5ypMZyyM)
+
+<p class="clip-credit"><strong>Defending the Kimura Against the Cage</strong> — taught by Intercept MMA · 2:30 · <a href="https://www.youtube.com/watch?v=7bN5ypMZyyM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

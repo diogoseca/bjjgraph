@@ -34,6 +34,54 @@ description: "Master Leg Drag to Back Take in BJJ. Execute this high-percentage 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag to back take pass",
+      "description": "Leg Drag to Back Take film study: Leg drag to back take pass, taught by Ben (Combat Room BJJ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
+      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
+      "creator": { "@type": "Person", "name": "Ben (Combat Room BJJ)" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg drag to back control",
+      "description": "Leg Drag to Back Take film study: Leg drag to back control, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3W-mpN5pSE0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3W-mpN5pSE0",
+      "url": "https://www.youtube.com/watch?v=3W-mpN5pSE0",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg drag to back take",
+      "description": "Leg Drag to Back Take film study: Leg drag to back take, taught by Adrian Roldan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4pqiJsPBIls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4pqiJsPBIls",
+      "url": "https://www.youtube.com/watch?v=4pqiJsPBIls",
+      "creator": { "@type": "Person", "name": "Adrian Roldan" },
+      "duration": "PT33S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Execution requires maintaining constant pressure and connection throughout the t
 **Success Rate**: 57%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
+
+<p class="clip-credit"><strong>Leg drag to back take pass</strong> — taught by Ben (Combat Room BJJ) · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3W-mpN5pSE0)
+
+<p class="clip-credit"><strong>Leg drag to back control</strong> — taught by Ninja Pinto · 0:55 · <a href="https://www.youtube.com/watch?v=3W-mpN5pSE0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4pqiJsPBIls)
+
+<p class="clip-credit"><strong>Leg drag to back take</strong> — taught by Adrian Roldan · 0:33 · <a href="https://www.youtube.com/watch?v=4pqiJsPBIls" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

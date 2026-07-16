@@ -34,6 +34,54 @@ description: "Master Hip Rotation Defense from Straight Ankle Lock Control. Esse
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Rotation Defense \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle lock escape by hiding the heel",
+      "description": "Hip Rotation Defense film study: Ankle lock escape by hiding the heel, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CUnX7TOpb-A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CUnX7TOpb-A",
+      "url": "https://www.youtube.com/watch?v=CUnX7TOpb-A",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The ankle lock roll escape drill",
+      "description": "Hip Rotation Defense film study: The ankle lock roll escape drill, taught by Escapology BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pspIS0i2G2U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pspIS0i2G2U",
+      "url": "https://www.youtube.com/watch?v=pspIS0i2G2U",
+      "creator": { "@type": "Person", "name": "Escapology BJJ" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rolling out of the ankle lock and the counter",
+      "description": "Hip Rotation Defense film study: Rolling out of the ankle lock and the counter, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/akB_o9gaNuc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/akB_o9gaNuc",
+      "url": "https://www.youtube.com/watch?v=akB_o9gaNuc",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, hip rotation defense serves as both an immediate pressure relief 
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Rotation Defense in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CUnX7TOpb-A)
+
+<p class="clip-credit"><strong>Ankle lock escape by hiding the heel</strong> — taught by Ritchie Yip · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pspIS0i2G2U)
+
+<p class="clip-credit"><strong>The ankle lock roll escape drill</strong> — taught by Escapology BJJ · 1:35 · <a href="https://www.youtube.com/watch?v=pspIS0i2G2U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=akB_o9gaNuc)
+
+<p class="clip-credit"><strong>Rolling out of the ankle lock and the counter</strong> — taught by James O&#39;Connor · 1:01 · <a href="https://www.youtube.com/watch?v=akB_o9gaNuc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against Double Underhook Pass in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Underhook Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder lock defending the double under stack pass",
+      "description": "Double Underhook Pass (Defender) film study: Shoulder lock defending the double under stack pass, taught by Tony Casarez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dH6Cj-nv3vU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dH6Cj-nv3vU",
+      "url": "https://www.youtube.com/watch?v=dH6Cj-nv3vU",
+      "creator": { "@type": "Person", "name": "Tony Casarez" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defense against double underhooks to guillotine",
+      "description": "Double Underhook Pass (Defender) film study: Defense against double underhooks to guillotine, taught by First BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H9spCvrBPsE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H9spCvrBPsE",
+      "url": "https://www.youtube.com/watch?v=H9spCvrBPsE",
+      "creator": { "@type": "Person", "name": "First BJJ" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double under pass defense to triangle",
+      "description": "Double Underhook Pass (Defender) film study: Double under pass defense to triangle, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aBLmq4iT0sM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aBLmq4iT0sM",
+      "url": "https://www.youtube.com/watch?v=aBLmq4iT0sM",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The defender's positional advantages include proximity to the mat for base, the 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Underhook Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dH6Cj-nv3vU)
+
+<p class="clip-credit"><strong>Shoulder lock defending the double under stack pass</strong> — taught by Tony Casarez · 1:02 · <a href="https://www.youtube.com/watch?v=dH6Cj-nv3vU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H9spCvrBPsE)
+
+<p class="clip-credit"><strong>Defense against double underhooks to guillotine</strong> — taught by First BJJ · 1:48 · <a href="https://www.youtube.com/watch?v=H9spCvrBPsE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aBLmq4iT0sM)
+
+<p class="clip-credit"><strong>Double under pass defense to triangle</strong> — taught by Clark Gracie · 2:44 · <a href="https://www.youtube.com/watch?v=aBLmq4iT0sM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

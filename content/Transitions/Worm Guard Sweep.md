@@ -34,6 +34,54 @@ description: "Master the Worm Guard Sweep in BJJ. Complete guide to this advance
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Worm Guard Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sweep from Worm Guard",
+      "description": "Worm Guard Sweep film study: Sweep from Worm Guard, taught by Lucas Lima.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rCFiQeV6aHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rCFiQeV6aHU",
+      "url": "https://www.youtube.com/watch?v=rCFiQeV6aHU",
+      "creator": { "@type": "Person", "name": "Lucas Lima" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm Guard attacks: sweep and berimbolo",
+      "description": "Worm Guard Sweep film study: Worm Guard attacks: sweep and berimbolo, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BHwU-bbyvkc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BHwU-bbyvkc",
+      "url": "https://www.youtube.com/watch?v=BHwU-bbyvkc",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "De la worm sweep",
+      "description": "Worm Guard Sweep film study: De la worm sweep, taught by James Fisher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v8GCc43GlXA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v8GCc43GlXA",
+      "url": "https://www.youtube.com/watch?v=v8GCc43GlXA",
+      "creator": { "@type": "Person", "name": "James Fisher" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the worm guard sweep serves as the highest-reward option within t
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Worm Guard Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rCFiQeV6aHU)
+
+<p class="clip-credit"><strong>Sweep from Worm Guard</strong> — taught by Lucas Lima · 0:41 · <a href="https://www.youtube.com/watch?v=rCFiQeV6aHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BHwU-bbyvkc)
+
+<p class="clip-credit"><strong>Worm Guard attacks: sweep and berimbolo</strong> — taught by Jamie · 1:29 · <a href="https://www.youtube.com/watch?v=BHwU-bbyvkc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v8GCc43GlXA)
+
+<p class="clip-credit"><strong>De la worm sweep</strong> — taught by James Fisher · 1:37 · <a href="https://www.youtube.com/watch?v=v8GCc43GlXA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

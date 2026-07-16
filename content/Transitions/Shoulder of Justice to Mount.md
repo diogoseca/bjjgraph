@@ -34,6 +34,54 @@ description: "Master the Shoulder of Justice to Mount transition in BJJ. Complet
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder of Justice to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to mount transition",
+      "description": "Shoulder of Justice to Mount film study: Side control to mount transition, taught by White Belt Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gMMKNpUu96w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gMMKNpUu96w",
+      "url": "https://www.youtube.com/watch?v=gMMKNpUu96w",
+      "creator": { "@type": "Person", "name": "White Belt Jiu Jitsu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to mount",
+      "description": "Shoulder of Justice to Mount film study: Side control to mount, taught by CSW Association.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7xRbDDW3zFY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7xRbDDW3zFY",
+      "url": "https://www.youtube.com/watch?v=7xRbDDW3zFY",
+      "creator": { "@type": "Person", "name": "CSW Association" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi side control to mount",
+      "description": "Shoulder of Justice to Mount film study: No-gi side control to mount, taught by Training with Lions.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EyQhJMK7_ic/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EyQhJMK7_ic",
+      "url": "https://www.youtube.com/watch?v=EyQhJMK7_ic",
+      "creator": { "@type": "Person", "name": "Training with Lions" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The transition follows a systematic progression: consolidate control, neutralize
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder of Justice to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gMMKNpUu96w)
+
+<p class="clip-credit"><strong>Side control to mount transition</strong> — taught by White Belt Jiu Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=gMMKNpUu96w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7xRbDDW3zFY)
+
+<p class="clip-credit"><strong>Side control to mount</strong> — taught by CSW Association · 1:31 · <a href="https://www.youtube.com/watch?v=7xRbDDW3zFY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EyQhJMK7_ic)
+
+<p class="clip-credit"><strong>No-gi side control to mount</strong> — taught by Training with Lions · 1:38 · <a href="https://www.youtube.com/watch?v=EyQhJMK7_ic" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

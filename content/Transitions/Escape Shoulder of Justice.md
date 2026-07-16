@@ -34,6 +34,54 @@ description: "Master the Escape from Shoulder of Justice in BJJ. Complete guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Shoulder of Justice \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the shoulder of justice from cross sides",
+      "description": "Escape Shoulder of Justice film study: Escaping the shoulder of justice from cross sides, taught by SBG New Braunfels coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HO877lE69nM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HO877lE69nM",
+      "url": "https://www.youtube.com/watch?v=HO877lE69nM",
+      "creator": { "@type": "Person", "name": "SBG New Braunfels coach" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross Sides Shoulder of Justice",
+      "description": "Escape Shoulder of Justice film study: Cross Sides Shoulder of Justice, taught by SBG Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zMVWIvd6MQU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zMVWIvd6MQU",
+      "url": "https://www.youtube.com/watch?v=zMVWIvd6MQU",
+      "creator": { "@type": "Person", "name": "SBG Coach" },
+      "duration": "PT256S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross Sides Zero Points Escape Concept",
+      "description": "Escape Shoulder of Justice film study: Cross Sides Zero Points Escape Concept, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TAJy-rlPqsg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TAJy-rlPqsg",
+      "url": "https://www.youtube.com/watch?v=TAJy-rlPqsg",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT328S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success with this technique requires patience, composure under extreme physical 
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Shoulder of Justice in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HO877lE69nM)
+
+<p class="clip-credit"><strong>Escaping the shoulder of justice from cross sides</strong> — taught by SBG New Braunfels coach · 2:25 · <a href="https://www.youtube.com/watch?v=HO877lE69nM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zMVWIvd6MQU)
+
+<p class="clip-credit"><strong>Cross Sides Shoulder of Justice</strong> — taught by SBG Coach · 4:16 · <a href="https://www.youtube.com/watch?v=zMVWIvd6MQU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TAJy-rlPqsg)
+
+<p class="clip-credit"><strong>Cross Sides Zero Points Escape Concept</strong> — taught by Priit Mihkelson · 5:28 · <a href="https://www.youtube.com/watch?v=TAJy-rlPqsg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

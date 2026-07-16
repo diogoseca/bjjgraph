@@ -153,6 +153,54 @@ description: "Defensive guide for Modified Scarf Hold bottom position. Learn sys
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Scarf Hold (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame Escape",
+      "description": "Modified Scarf Hold (Bottom) film study: Kesa Gatame Escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Pressure Defense w/ Framing",
+      "description": "Modified Scarf Hold (Bottom) film study: Kesa Gatame Pressure Defense w/ Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified Kesa Escape",
+      "description": "Modified Scarf Hold (Bottom) film study: Modified Kesa Escape, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M5rDeLflY5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M5rDeLflY5w",
+      "url": "https://www.youtube.com/watch?v=M5rDeLflY5w",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ From a strategic perspective, preventing Modified Scarf Hold is far superior to 
 The psychological component cannot be overlooked. Modified Scarf Hold creates intense discomfort that tests mental fortitude. Practitioners must train specifically for this pressure to develop the calm mindset necessary for effective escape execution under stress.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Scarf Hold (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa Gatame Escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense w/ Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M5rDeLflY5w)
+
+<p class="clip-credit"><strong>Modified Kesa Escape</strong> — taught by Inverted Gear · 2:03 · <a href="https://www.youtube.com/watch?v=M5rDeLflY5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

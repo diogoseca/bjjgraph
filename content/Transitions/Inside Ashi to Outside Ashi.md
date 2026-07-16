@@ -34,6 +34,54 @@ description: "Master the Inside Ashi to Outside Ashi transition in BJJ. Learn sy
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi to Outside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Problem solving outside ashi to inside",
+      "description": "Inside Ashi to Outside Ashi film study: Problem solving outside ashi to inside, taught by Trans4mer Sports.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZbK5uGQJ_3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZbK5uGQJ_3w",
+      "url": "https://www.youtube.com/watch?v=ZbK5uGQJ_3w",
+      "creator": { "@type": "Person", "name": "Trans4mer Sports" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Outside ashi entanglement details",
+      "description": "Inside Ashi to Outside Ashi film study: Outside ashi entanglement details, taught by Team Strela.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xvx03k3jiWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xvx03k3jiWo",
+      "url": "https://www.youtube.com/watch?v=xvx03k3jiWo",
+      "creator": { "@type": "Person", "name": "Team Strela" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Outside heel hook mechanics from irimi and outside ashi",
+      "description": "Inside Ashi to Outside Ashi film study: Outside heel hook mechanics from irimi and outside ashi, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
+      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Successful execution requires maintaining continuous heel control throughout the
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi to Outside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZbK5uGQJ_3w)
+
+<p class="clip-credit"><strong>Problem solving outside ashi to inside</strong> — taught by Trans4mer Sports · 1:18 · <a href="https://www.youtube.com/watch?v=ZbK5uGQJ_3w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xvx03k3jiWo)
+
+<p class="clip-credit"><strong>Outside ashi entanglement details</strong> — taught by Team Strela · 0:26 · <a href="https://www.youtube.com/watch?v=xvx03k3jiWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tLcHN042w48)
+
+<p class="clip-credit"><strong>Outside heel hook mechanics from irimi and outside ashi</strong> — taught by Fox Den Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

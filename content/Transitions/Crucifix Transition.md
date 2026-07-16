@@ -34,6 +34,54 @@ description: "Learn the Crucifix Transition from standing back control. Capture 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix Transition \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three crucifix entries from live rolls",
+      "description": "Crucifix Transition film study: Three crucifix entries from live rolls, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VEhXnr55SOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VEhXnr55SOU",
+      "url": "https://www.youtube.com/watch?v=VEhXnr55SOU",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm drag entry to the crucifix",
+      "description": "Crucifix Transition film study: Arm drag entry to the crucifix, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uQn6tbgVeGA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uQn6tbgVeGA",
+      "url": "https://www.youtube.com/watch?v=uQn6tbgVeGA",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix into north south control",
+      "description": "Crucifix Transition film study: Crucifix into north south control, taught by Koji Shibamoto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X8spZ0nmvuo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X8spZ0nmvuo",
+      "url": "https://www.youtube.com/watch?v=X8spZ0nmvuo",
+      "creator": { "@type": "Person", "name": "Koji Shibamoto" },
+      "duration": "PT40S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The transition requires precise timing and commitment. You must recognize when t
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix Transition in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VEhXnr55SOU)
+
+<p class="clip-credit"><strong>Three crucifix entries from live rolls</strong> — taught by Jean Jacques Machado · 0:46 · <a href="https://www.youtube.com/watch?v=VEhXnr55SOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uQn6tbgVeGA)
+
+<p class="clip-credit"><strong>Arm drag entry to the crucifix</strong> — taught by Revolution BJJ · 0:57 · <a href="https://www.youtube.com/watch?v=uQn6tbgVeGA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X8spZ0nmvuo)
+
+<p class="clip-credit"><strong>Crucifix into north south control</strong> — taught by Koji Shibamoto · 0:40 · <a href="https://www.youtube.com/watch?v=X8spZ0nmvuo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -153,6 +153,43 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard triangle inside entry",
+      "description": "Triangle Control (Bottom) film study: Closed guard triangle inside entry, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rQz3tjQZzjY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rQz3tjQZzjY",
+      "url": "https://www.youtube.com/watch?v=rQz3tjQZzjY",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Wristlock triangle finish",
+      "description": "Triangle Control (Bottom) film study: Wristlock triangle finish, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Gz1lhRuIQHk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Gz1lhRuIQHk",
+      "url": "https://www.youtube.com/watch?v=Gz1lhRuIQHk",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +203,34 @@ The biomechanics of triangle control favor the bottom practitioner significantly
 The submission chain available from triangle control represents one of the most complete offensive systems in guard work. When the opponent defends the choke by posturing, the armbar becomes immediately available. When they stack forward, the omoplata opens. When they extract the trapped arm, back takes present themselves. This three-directional attack system means that every defensive response creates a new vulnerability, placing the defender in a perpetual dilemma that only deepens as fatigue accumulates under sustained choking pressure.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rQz3tjQZzjY)
+
+<p class="clip-credit"><strong>Closed guard triangle inside entry</strong> — taught by Ritchie Yip · 0:44 · <a href="https://www.youtube.com/watch?v=rQz3tjQZzjY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Gz1lhRuIQHk)
+
+<p class="clip-credit"><strong>Wristlock triangle finish</strong> — taught by ZombieProofBJJ · 0:47 · <a href="https://www.youtube.com/watch?v=Gz1lhRuIQHk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda from Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke from top turtle",
+      "description": "Anaconda from Turtle film study: Anaconda choke from top turtle, taught by Jiu Jitsu Kid.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/faFx9xOawS8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/faFx9xOawS8",
+      "url": "https://www.youtube.com/watch?v=faFx9xOawS8",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Kid" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke demonstration",
+      "description": "Anaconda from Turtle film study: Anaconda choke demonstration, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SSWodDzj4-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SSWodDzj4-4",
+      "url": "https://www.youtube.com/watch?v=SSWodDzj4-4",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT91S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique has become a staple of modern no-gi grappling, particularly effec
 **Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda from Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=faFx9xOawS8)
+
+<p class="clip-credit"><strong>Anaconda choke from top turtle</strong> — taught by Jiu Jitsu Kid · 1:48 · <a href="https://www.youtube.com/watch?v=faFx9xOawS8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SSWodDzj4-4)
+
+<p class="clip-credit"><strong>Anaconda choke demonstration</strong> — taught by Grappler Station · 1:31 · <a href="https://www.youtube.com/watch?v=SSWodDzj4-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

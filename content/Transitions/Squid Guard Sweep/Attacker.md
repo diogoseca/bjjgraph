@@ -180,6 +180,54 @@ description: "Execute the Squid Guard Sweep with precision. Step-by-step guide c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Squid Guard Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Squid guard entry vs standing then sweep",
+      "description": "Squid Guard Sweep (Attacker) film study: Squid guard entry vs standing then sweep, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mIUc5788gsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mIUc5788gsw",
+      "url": "https://www.youtube.com/watch?v=mIUc5788gsw",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Squid guard to switch X guard sweep",
+      "description": "Squid Guard Sweep (Attacker) film study: Squid guard to switch X guard sweep, taught by BJJ Online.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MrhKi486Wr4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MrhKi486Wr4",
+      "url": "https://www.youtube.com/watch?v=MrhKi486Wr4",
+      "creator": { "@type": "Person", "name": "BJJ Online" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Squid guard variations and sweeps",
+      "description": "Squid Guard Sweep (Attacker) film study: Squid guard variations and sweeps, taught by PTC Combat Fitness.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A_W-xOWwNaM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A_W-xOWwNaM",
+      "url": "https://www.youtube.com/watch?v=A_W-xOWwNaM",
+      "creator": { "@type": "Person", "name": "PTC Combat Fitness" },
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ The Squid Guard Sweep attacker operates from bottom position with established la
 **From Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Squid Guard Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mIUc5788gsw)
+
+<p class="clip-credit"><strong>Squid guard entry vs standing then sweep</strong> — taught by Adam Bradley · 0:56 · <a href="https://www.youtube.com/watch?v=mIUc5788gsw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MrhKi486Wr4)
+
+<p class="clip-credit"><strong>Squid guard to switch X guard sweep</strong> — taught by BJJ Online · 1:17 · <a href="https://www.youtube.com/watch?v=MrhKi486Wr4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A_W-xOWwNaM)
+
+<p class="clip-credit"><strong>Squid guard variations and sweeps</strong> — taught by PTC Combat Fitness · 2:29 · <a href="https://www.youtube.com/watch?v=A_W-xOWwNaM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Brabo Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce Choke from the Front Headlock",
+      "description": "Brabo Choke film study: Darce Choke from the Front Headlock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
+      "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half Nelson to D\u0027Arce/Brabo Choke",
+      "description": "Brabo Choke film study: Half Nelson to D\u0027Arce/Brabo Choke, taught by Joshua Clements.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dS5HQNSyuXs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dS5HQNSyuXs",
+      "url": "https://www.youtube.com/watch?v=dS5HQNSyuXs",
+      "creator": { "@type": "Person", "name": "Joshua Clements" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Brabo Choke from Turtle",
+      "description": "Brabo Choke film study: Brabo Choke from Turtle, taught by Thiago Stefanutti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pad9c-Ldljg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pad9c-Ldljg",
+      "url": "https://www.youtube.com/watch?v=pad9c-Ldljg",
+      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
+      "duration": "PT46S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +128,42 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 The Brabo Choke is a powerful blood choke from the front headlock position, closely related to the Darce and Anaconda chokes. The technique involves threading your arm under the opponent's near arm and across their neck, securing a grip on your own bicep to create a vice-like constriction of the carotid arteries. The name 'Brabo' is a Portuguese pronunciation variation of 'Darce,' though some practitioners distinguish between the two based on subtle grip and angle differences. This submission is particularly effective when the opponent is defending a front headlock by keeping their elbows tight, creating the necessary space for arm insertion. The Brabo Choke excels in scramble situations, turtle attacks, and failed takedown defense scenarios. Its effectiveness comes from the mechanical advantage created by using your entire body weight to compress the opponent's neck against their own shoulder, making it extremely difficult to defend once properly locked. The choke works in both gi and no-gi contexts, though grip variations differ slightly between formats. Modern competitors favor this submission for its high finishing rate and the control it provides throughout the execution process.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Brabo Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
+
+<p class="clip-credit"><strong>Darce Choke from the Front Headlock</strong> — taught by Procel BJJ · 1:41 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dS5HQNSyuXs)
+
+<p class="clip-credit"><strong>Half Nelson to D&#39;Arce/Brabo Choke</strong> — taught by Joshua Clements · 1:34 · <a href="https://www.youtube.com/watch?v=dS5HQNSyuXs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pad9c-Ldljg)
+
+<p class="clip-credit"><strong>Brabo Choke from Turtle</strong> — taught by Thiago Stefanutti · 0:46 · <a href="https://www.youtube.com/watch?v=pad9c-Ldljg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

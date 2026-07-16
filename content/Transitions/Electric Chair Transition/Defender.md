@@ -156,6 +156,54 @@ description: "How to defend against Electric Chair Transition in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair Transition (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown and Electric Chair Counters and Escapes",
+      "description": "Electric Chair Transition (Defender) film study: Lockdown and Electric Chair Counters and Escapes, taught by Coach Dennis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3A6oRsDf3oU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3A6oRsDf3oU",
+      "url": "https://www.youtube.com/watch?v=3A6oRsDf3oU",
+      "creator": { "@type": "Person", "name": "Coach Dennis" },
+      "duration": "PT286S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the Lockdown: shutting down the entry",
+      "description": "Electric Chair Transition (Defender) film study: Passing the Lockdown: shutting down the entry, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gtsKv_sDRnw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gtsKv_sDRnw",
+      "url": "https://www.youtube.com/watch?v=gtsKv_sDRnw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT359S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown, whip up and electric chair: reading the setup",
+      "description": "Electric Chair Transition (Defender) film study: Lockdown, whip up and electric chair: reading the setup, taught by Coach Dennis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R1nAfZ9Lehc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R1nAfZ9Lehc",
+      "url": "https://www.youtube.com/watch?v=R1nAfZ9Lehc",
+      "creator": { "@type": "Person", "name": "Coach Dennis" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -169,6 +217,42 @@ Understanding the attacker's sequencing is your greatest defensive asset. The tr
 **Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair Transition (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3A6oRsDf3oU)
+
+<p class="clip-credit"><strong>Lockdown and Electric Chair Counters and Escapes</strong> — taught by Coach Dennis · 4:46 · <a href="https://www.youtube.com/watch?v=3A6oRsDf3oU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gtsKv_sDRnw)
+
+<p class="clip-credit"><strong>Passing the Lockdown: shutting down the entry</strong> — taught by Lachlan Giles · 5:59 · <a href="https://www.youtube.com/watch?v=gtsKv_sDRnw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R1nAfZ9Lehc)
+
+<p class="clip-credit"><strong>Lockdown, whip up and electric chair: reading the setup</strong> — taught by Coach Dennis · 3:29 · <a href="https://www.youtube.com/watch?v=R1nAfZ9Lehc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

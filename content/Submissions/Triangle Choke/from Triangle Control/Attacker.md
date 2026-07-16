@@ -176,6 +176,54 @@ description: "Complete guide to finishing the triangle choke from triangle contr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Triangle Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Tips - Finishing",
+      "description": "Triangle Choke from Triangle Control (Attacker) film study: Triangle Tips - Finishing, taught by RMNU.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YVHyDfE6L3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YVHyDfE6L3w",
+      "url": "https://www.youtube.com/watch?v=YVHyDfE6L3w",
+      "creator": { "@type": "Person", "name": "RMNU" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finish the Triangle on Any Body Type",
+      "description": "Triangle Choke from Triangle Control (Attacker) film study: Finish the Triangle on Any Body Type, taught by Chad Hardy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RkRhoJcLKh8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RkRhoJcLKh8",
+      "url": "https://www.youtube.com/watch?v=RkRhoJcLKh8",
+      "creator": { "@type": "Person", "name": "Chad Hardy" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Triangle - Stomp and Curl",
+      "description": "Triangle Choke from Triangle Control (Attacker) film study: The Triangle - Stomp and Curl, taught by Ryan Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rsNtpxKVn5M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rsNtpxKVn5M",
+      "url": "https://www.youtube.com/watch?v=rsNtpxKVn5M",
+      "creator": { "@type": "Person", "name": "Ryan Hall" },
+      "duration": "PT261S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Finishing the triangle choke from triangle control requires mastering three simu
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Triangle Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YVHyDfE6L3w)
+
+<p class="clip-credit"><strong>Triangle Tips - Finishing</strong> — taught by RMNU · 0:57 · <a href="https://www.youtube.com/watch?v=YVHyDfE6L3w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RkRhoJcLKh8)
+
+<p class="clip-credit"><strong>Finish the Triangle on Any Body Type</strong> — taught by Chad Hardy · 2:09 · <a href="https://www.youtube.com/watch?v=RkRhoJcLKh8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rsNtpxKVn5M)
+
+<p class="clip-credit"><strong>The Triangle - Stomp and Curl</strong> — taught by Ryan Hall · 4:21 · <a href="https://www.youtube.com/watch?v=rsNtpxKVn5M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

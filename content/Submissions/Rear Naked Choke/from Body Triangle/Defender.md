@@ -158,6 +158,54 @@ description: "Defend the Rear Naked Choke from Body Triangle with chin protectio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Body Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the Body Triangle",
+      "description": "Rear Naked Choke from Body Triangle (Defender) film study: Escaping the Body Triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
+      "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the Topside Body Triangle",
+      "description": "Rear Naked Choke from Body Triangle (Defender) film study: Escaping the Topside Body Triangle, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ys398a2Trrw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ys398a2Trrw",
+      "url": "https://www.youtube.com/watch?v=ys398a2Trrw",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the Figure 4 from the Back",
+      "description": "Rear Naked Choke from Body Triangle (Defender) film study: Defending the Figure 4 from the Back, taught by Whangarei BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hCu7SXEaXjc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hCu7SXEaXjc",
+      "url": "https://www.youtube.com/watch?v=hCu7SXEaXjc",
+      "creator": { "@type": "Person", "name": "Whangarei BJJ" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ Defending against the Rear Naked Choke from Body Triangle is among the most dema
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Body Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hgaULMND3ag)
+
+<p class="clip-credit"><strong>Escaping the Body Triangle</strong> — taught by Coach Brian · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ys398a2Trrw)
+
+<p class="clip-credit"><strong>Escaping the Topside Body Triangle</strong> — taught by Fox Den Martial Arts · 0:48 · <a href="https://www.youtube.com/watch?v=ys398a2Trrw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hCu7SXEaXjc)
+
+<p class="clip-credit"><strong>Defending the Figure 4 from the Back</strong> — taught by Whangarei BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=hCu7SXEaXjc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

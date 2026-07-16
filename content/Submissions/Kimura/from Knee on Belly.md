@@ -34,6 +34,54 @@ description: "Master the Kimura from Knee on Belly in BJJ. Learn how KOB pressur
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Knee on Belly \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from Knee on Belly",
+      "description": "Kimura from Knee on Belly film study: Kimura from Knee on Belly, taught by Mauricio Gomes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mEmlkI3zbeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mEmlkI3zbeE",
+      "url": "https://www.youtube.com/watch?v=mEmlkI3zbeE",
+      "creator": { "@type": "Person", "name": "Mauricio Gomes" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee on Belly to Kimura via North South",
+      "description": "Kimura from Knee on Belly film study: Knee on Belly to Kimura via North South, taught by Nikos Kalivas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MEc9jBx5M14/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MEc9jBx5M14",
+      "url": "https://www.youtube.com/watch?v=MEc9jBx5M14",
+      "creator": { "@type": "Person", "name": "Nikos Kalivas" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura Setup From Knee on Belly, Arm Trap",
+      "description": "Kimura from Knee on Belly film study: Kimura Setup From Knee on Belly, Arm Trap, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bKEhbrZaS7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bKEhbrZaS7Y",
+      "url": "https://www.youtube.com/watch?v=bKEhbrZaS7Y",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT32S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +124,42 @@ The finishing mechanics differ from other positions because the top player can c
 **Starting Position**: [[Positions/Knee on Belly]] · **From**: [[Positions/Knee on Belly]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Knee on Belly in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mEmlkI3zbeE)
+
+<p class="clip-credit"><strong>Kimura from Knee on Belly</strong> — taught by Mauricio Gomes · 0:50 · <a href="https://www.youtube.com/watch?v=mEmlkI3zbeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MEc9jBx5M14)
+
+<p class="clip-credit"><strong>Knee on Belly to Kimura via North South</strong> — taught by Nikos Kalivas · 0:38 · <a href="https://www.youtube.com/watch?v=MEc9jBx5M14" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bKEhbrZaS7Y)
+
+<p class="clip-credit"><strong>Kimura Setup From Knee on Belly, Arm Trap</strong> — taught by Jiu Jitsu Five-O · 0:32 · <a href="https://www.youtube.com/watch?v=bKEhbrZaS7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

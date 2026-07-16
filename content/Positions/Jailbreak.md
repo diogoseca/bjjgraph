@@ -34,6 +34,54 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prison Guard Breakdown (MTS 201)",
+      "description": "Jailbreak film study: Prison Guard Breakdown (MTS 201), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jailbreak Escape from Side Control",
+      "description": "Jailbreak film study: Jailbreak Escape from Side Control, taught by CORE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ij2aFpcJiFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ij2aFpcJiFU",
+      "url": "https://www.youtube.com/watch?v=Ij2aFpcJiFU",
+      "creator": { "@type": "Person", "name": "CORE MMA" },
+      "duration": "PT175S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Jailbreak to reversal sweep",
+      "description": "Jailbreak film study: Jailbreak to reversal sweep, taught by Redmond Fit.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kFEDU0DVQ7I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kFEDU0DVQ7I",
+      "url": "https://www.youtube.com/watch?v=kFEDU0DVQ7I",
+      "creator": { "@type": "Person", "name": "Redmond Fit" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ From bottom perspective, the practitioner uses underhook control combined with i
 The biomechanical principle underlying the Jailbreak from bottom involves converting the opponent's forward pressure into rotational momentum. When the top player commits their weight forward with crossface or shoulder pressure, their center of gravity advances and their base becomes narrow. The underhook serves as the pivotal connection point that prevents the top player from re-establishing control during the inversion. From top, the challenge is navigating extended leg frames while maintaining upper body pressure, reading whether to weave through, smash past, or backstep around the defensive barriers. The position rewards practitioners who develop sensitivity to weight distribution and the ability to commit decisively to their chosen action.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison Guard Breakdown (MTS 201)</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ij2aFpcJiFU)
+
+<p class="clip-credit"><strong>Jailbreak Escape from Side Control</strong> — taught by CORE MMA · 2:55 · <a href="https://www.youtube.com/watch?v=Ij2aFpcJiFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kFEDU0DVQ7I)
+
+<p class="clip-credit"><strong>Jailbreak to reversal sweep</strong> — taught by Redmond Fit · 1:17 · <a href="https://www.youtube.com/watch?v=kFEDU0DVQ7I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

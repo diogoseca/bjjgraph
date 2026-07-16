@@ -34,6 +34,54 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Crush \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cradle from side control to armbar shoulder lock",
+      "description": "Arm Crush film study: Cradle from side control to armbar shoulder lock, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lN8yn5YaMi0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lN8yn5YaMi0",
+      "url": "https://www.youtube.com/watch?v=lN8yn5YaMi0",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm crush armbar",
+      "description": "Arm Crush film study: Arm crush armbar, taught by AMAZIN BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RFkSf7gQ18E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RFkSf7gQ18E",
+      "url": "https://www.youtube.com/watch?v=RFkSf7gQ18E",
+      "creator": { "@type": "Person", "name": "AMAZIN BJJ" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Killing the near side arm from side control",
+      "description": "Arm Crush film study: Killing the near side arm from side control, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LUxMvOFbxIY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LUxMvOFbxIY",
+      "url": "https://www.youtube.com/watch?v=LUxMvOFbxIY",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +128,42 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 The Arm Crush is a powerful shoulder lock submission that combines crushing pressure with rotational torque on the opponent's shoulder joint. Unlike traditional shoulder locks that isolate the joint through leverage alone, the Arm Crush uses body weight and positional pressure to compress the shoulder while simultaneously applying a twisting motion. This submission is most commonly executed from side control positions, particularly when the opponent's arm is trapped between their body and yours. The technique targets the rotator cuff muscles and shoulder capsule, creating intense pressure that forces a quick tap. The Arm Crush is especially effective against defensive opponents who keep their elbows tight to their body, as this defensive posture actually creates the necessary configuration for the submission. The finish combines elements of the Americana and Kimura while adding a unique crushing component that makes it extremely difficult to defend once properly applied.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Crush in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lN8yn5YaMi0)
+
+<p class="clip-credit"><strong>Cradle from side control to armbar shoulder lock</strong> — taught by Andy Tong · 0:42 · <a href="https://www.youtube.com/watch?v=lN8yn5YaMi0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RFkSf7gQ18E)
+
+<p class="clip-credit"><strong>Arm crush armbar</strong> — taught by AMAZIN BJJ · 1:05 · <a href="https://www.youtube.com/watch?v=RFkSf7gQ18E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LUxMvOFbxIY)
+
+<p class="clip-credit"><strong>Killing the near side arm from side control</strong> — taught by Inverted Gear · 2:03 · <a href="https://www.youtube.com/watch?v=LUxMvOFbxIY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

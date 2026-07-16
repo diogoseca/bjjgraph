@@ -34,6 +34,54 @@ description: "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock to Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm drag to crucifix",
+      "description": "Aoki Lock to Crucifix film study: Arm drag to crucifix, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uQn6tbgVeGA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uQn6tbgVeGA",
+      "url": "https://www.youtube.com/watch?v=uQn6tbgVeGA",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the arm with the legs into crucifix",
+      "description": "Aoki Lock to Crucifix film study: Passing the arm with the legs into crucifix, taught by Dallas Niles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qgKgmpccI0E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qgKgmpccI0E",
+      "url": "https://www.youtube.com/watch?v=qgKgmpccI0E",
+      "creator": { "@type": "Person", "name": "Dallas Niles" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm drag to crucifix breakdown",
+      "description": "Aoki Lock to Crucifix film study: Arm drag to crucifix breakdown, taught by Dallas Niles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/knACdcGIOtk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/knACdcGIOtk",
+      "url": "https://www.youtube.com/watch?v=knACdcGIOtk",
+      "creator": { "@type": "Person", "name": "Dallas Niles" },
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 **Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock to Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uQn6tbgVeGA)
+
+<p class="clip-credit"><strong>Arm drag to crucifix</strong> — taught by Revolution BJJ · 0:57 · <a href="https://www.youtube.com/watch?v=uQn6tbgVeGA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qgKgmpccI0E)
+
+<p class="clip-credit"><strong>Passing the arm with the legs into crucifix</strong> — taught by Dallas Niles · 2:01 · <a href="https://www.youtube.com/watch?v=qgKgmpccI0E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=knACdcGIOtk)
+
+<p class="clip-credit"><strong>Arm drag to crucifix breakdown</strong> — taught by Dallas Niles · 2:26 · <a href="https://www.youtube.com/watch?v=knACdcGIOtk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

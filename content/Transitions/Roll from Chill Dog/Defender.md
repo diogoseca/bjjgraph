@@ -148,6 +148,54 @@ description: "Learn to defend against the Roll from Chill Dog escape. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll from Chill Dog (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber Guard Quick Fix (Defensive Posture)",
+      "description": "Roll from Chill Dog (Defender) film study: Rubber Guard Quick Fix (Defensive Posture), taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/huzjQNiJu7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/huzjQNiJu7Y",
+      "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the shoulder roll from turtle",
+      "description": "Roll from Chill Dog (Defender) film study: Countering the shoulder roll from turtle, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fbBUFqO6Pso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fbBUFqO6Pso",
+      "url": "https://www.youtube.com/watch?v=fbBUFqO6Pso",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT325S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Riding and stopping the turtle roll",
+      "description": "Roll from Chill Dog (Defender) film study: Riding and stopping the turtle roll, taught by Gold BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8qQrZ1b_Omw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8qQrZ1b_Omw",
+      "url": "https://www.youtube.com/watch?v=8qQrZ1b_Omw",
+      "creator": { "@type": "Person", "name": "Gold BJJ" },
+      "duration": "PT318S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ The defender in the Roll from Chill Dog is the top player working to prevent the
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll from Chill Dog (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
+
+<p class="clip-credit"><strong>Rubber Guard Quick Fix (Defensive Posture)</strong> — taught by Brandon McCaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fbBUFqO6Pso)
+
+<p class="clip-credit"><strong>Countering the shoulder roll from turtle</strong> — taught by Brian Glick · 5:25 · <a href="https://www.youtube.com/watch?v=fbBUFqO6Pso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8qQrZ1b_Omw)
+
+<p class="clip-credit"><strong>Riding and stopping the turtle roll</strong> — taught by Gold BJJ · 5:18 · <a href="https://www.youtube.com/watch?v=8qQrZ1b_Omw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

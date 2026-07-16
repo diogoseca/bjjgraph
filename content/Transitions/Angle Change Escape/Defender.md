@@ -148,6 +148,43 @@ description: "How to defend against Angle Change Escape in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Angle Change Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three ways to gogo clinch and how to finish",
+      "description": "Angle Change Escape (Defender) film study: Three ways to gogo clinch and how to finish, taught by Ben Eddy Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/44w3MWJ0eak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/44w3MWJ0eak",
+      "url": "https://www.youtube.com/watch?v=44w3MWJ0eak",
+      "creator": { "@type": "Person", "name": "Ben Eddy Bravo" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gogo clinch details for retaining the position",
+      "description": "Angle Change Escape (Defender) film study: Gogo clinch details for retaining the position, taught by Ben Eddy Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T9iXWvILgO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T9iXWvILgO0",
+      "url": "https://www.youtube.com/watch?v=T9iXWvILgO0",
+      "creator": { "@type": "Person", "name": "Ben Eddy Bravo" },
+      "duration": "PT295S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Successful defense demands constant monitoring of your opponent's hip and should
 **Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Angle Change Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=44w3MWJ0eak)
+
+<p class="clip-credit"><strong>Three ways to gogo clinch and how to finish</strong> — taught by Ben Eddy Bravo · 1:31 · <a href="https://www.youtube.com/watch?v=44w3MWJ0eak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T9iXWvILgO0)
+
+<p class="clip-credit"><strong>Gogo clinch details for retaining the position</strong> — taught by Ben Eddy Bravo · 4:55 · <a href="https://www.youtube.com/watch?v=T9iXWvILgO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

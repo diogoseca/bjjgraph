@@ -34,6 +34,54 @@ description: "Master the grip fight escape from rear triangle in BJJ. Systematic
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Fight Escape from Rear Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back defense: the Home Alone escape",
+      "description": "Grip Fight Escape from Rear Triangle film study: Back defense: the Home Alone escape, taught by Procel Brazilian Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cWrV0wc6jyQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cWrV0wc6jyQ",
+      "url": "https://www.youtube.com/watch?v=cWrV0wc6jyQ",
+      "creator": { "@type": "Person", "name": "Procel Brazilian Jiu-Jitsu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the Back: Clearing the Arm to the Other Side",
+      "description": "Grip Fight Escape from Rear Triangle film study: Escaping the Back: Clearing the Arm to the Other Side, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8XBJboAGzRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8XBJboAGzRk",
+      "url": "https://www.youtube.com/watch?v=8XBJboAGzRk",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT260S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the Back with Leg Work Detail",
+      "description": "Grip Fight Escape from Rear Triangle film study: Escaping the Back with Leg Work Detail, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k-lCzVAzJpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k-lCzVAzJpg",
+      "url": "https://www.youtube.com/watch?v=k-lCzVAzJpg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT421S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Within the broader escape hierarchy from rear triangle bottom, the grip fight si
 **Success Rate**: 35%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Fight Escape from Rear Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cWrV0wc6jyQ)
+
+<p class="clip-credit"><strong>Back defense: the Home Alone escape</strong> — taught by Procel Brazilian Jiu-Jitsu · 1:24 · <a href="https://www.youtube.com/watch?v=cWrV0wc6jyQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8XBJboAGzRk)
+
+<p class="clip-credit"><strong>Escaping the Back: Clearing the Arm to the Other Side</strong> — taught by Lachlan Giles · 4:20 · <a href="https://www.youtube.com/watch?v=8XBJboAGzRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k-lCzVAzJpg)
+
+<p class="clip-credit"><strong>Escaping the Back with Leg Work Detail</strong> — taught by Lachlan Giles · 7:01 · <a href="https://www.youtube.com/watch?v=k-lCzVAzJpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -150,6 +150,54 @@ description: "Defend the belly down armbar from scarf hold. Recognition cues, ea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Scarf Hold Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame Pressure Defense with Framing",
+      "description": "Belly Down Armbar from Scarf Hold Position (Defender) film study: Kesa Gatame Pressure Defense with Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Near Side Armlock Defense from Kesa Gatame",
+      "description": "Belly Down Armbar from Scarf Hold Position (Defender) film study: Near Side Armlock Defense from Kesa Gatame, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tXkck94vrzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tXkck94vrzc",
+      "url": "https://www.youtube.com/watch?v=tXkck94vrzc",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT155S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa Gatame Escape and Armlock",
+      "description": "Belly Down Armbar from Scarf Hold Position (Defender) film study: Kesa Gatame Escape and Armlock, taught by Kombatan Kali.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HMTN5IrV2Mw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HMTN5IrV2Mw",
+      "url": "https://www.youtube.com/watch?v=HMTN5IrV2Mw",
+      "creator": { "@type": "Person", "name": "Kombatan Kali" },
+      "duration": "PT15S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the belly down armbar from scarf hold demands early recognition of the
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Scarf Hold Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense with Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tXkck94vrzc)
+
+<p class="clip-credit"><strong>Near Side Armlock Defense from Kesa Gatame</strong> — taught by Peter Mettler · 2:35 · <a href="https://www.youtube.com/watch?v=tXkck94vrzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HMTN5IrV2Mw)
+
+<p class="clip-credit"><strong>Kesa Gatame Escape and Armlock</strong> — taught by Kombatan Kali · 0:15 · <a href="https://www.youtube.com/watch?v=HMTN5IrV2Mw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

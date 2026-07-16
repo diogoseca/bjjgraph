@@ -148,6 +148,43 @@ description: "How to defend against the Sit to Half Guard escape in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sit to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two Ways to Break Through Half Guard",
+      "description": "Sit to Half Guard (Defender) film study: Two Ways to Break Through Half Guard, taught by BIG OSS Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qymk3xe3boE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qymk3xe3boE",
+      "url": "https://www.youtube.com/watch?v=qymk3xe3boE",
+      "creator": { "@type": "Person", "name": "BIG OSS Jiu-Jitsu" },
+      "duration": "PT526S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stop Giving Up Your Back - Turtle Escape System",
+      "description": "Sit to Half Guard (Defender) film study: Stop Giving Up Your Back - Turtle Escape System, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Successful defense requires reading the bottom player's body language and immedi
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sit to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qymk3xe3boE)
+
+<p class="clip-credit"><strong>Two Ways to Break Through Half Guard</strong> — taught by BIG OSS Jiu-Jitsu · 8:46 · <a href="https://www.youtube.com/watch?v=qymk3xe3boE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+
+<p class="clip-credit"><strong>Stop Giving Up Your Back - Turtle Escape System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

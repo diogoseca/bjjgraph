@@ -174,6 +174,54 @@ description: "Complete guide to executing the Overhook to Closed Guard transitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook to Closed Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Trapping the arm from closed guard (no-gi)",
+      "description": "Overhook to Closed Guard (Attacker) film study: Trapping the arm from closed guard (no-gi), taught by Mica Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cgMrWs-IXm4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cgMrWs-IXm4",
+      "url": "https://www.youtube.com/watch?v=cgMrWs-IXm4",
+      "creator": { "@type": "Person", "name": "Mica Galvao" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Overhook from closed guard into rolling armbar",
+      "description": "Overhook to Closed Guard (Attacker) film study: Overhook from closed guard into rolling armbar, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XVxTzuJ1F60/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XVxTzuJ1F60",
+      "url": "https://www.youtube.com/watch?v=XVxTzuJ1F60",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Closed guard overhook to cross fist choke",
+      "description": "Overhook to Closed Guard (Attacker) film study: Closed guard overhook to cross fist choke, taught by Fight Sports Charlotte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nyn3IbRFoxI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nyn3IbRFoxI",
+      "url": "https://www.youtube.com/watch?v=Nyn3IbRFoxI",
+      "creator": { "@type": "Person", "name": "Fight Sports Charlotte" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Overhook to Closed Guard transition, your objectiv
 **From Position**: [[Positions/Overhook Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook to Closed Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=cgMrWs-IXm4)
+
+<p class="clip-credit"><strong>Trapping the arm from closed guard (no-gi)</strong> — taught by Mica Galvao · 1:01 · <a href="https://www.youtube.com/watch?v=cgMrWs-IXm4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XVxTzuJ1F60)
+
+<p class="clip-credit"><strong>Overhook from closed guard into rolling armbar</strong> — taught by Bowerhouse MMA · 1:00 · <a href="https://www.youtube.com/watch?v=XVxTzuJ1F60" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nyn3IbRFoxI)
+
+<p class="clip-credit"><strong>Closed guard overhook to cross fist choke</strong> — taught by Fight Sports Charlotte · 0:37 · <a href="https://www.youtube.com/watch?v=Nyn3IbRFoxI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

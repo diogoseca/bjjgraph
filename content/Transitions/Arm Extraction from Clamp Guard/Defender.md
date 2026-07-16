@@ -148,6 +148,43 @@ description: "Learn to maintain clamp guard and counter arm extraction attempts 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Extraction from Clamp Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown Clinches to Keep the Arm Trapped",
+      "description": "Arm Extraction from Clamp Guard (Defender) film study: Lockdown Clinches to Keep the Arm Trapped, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard Basics and Arm Control",
+      "description": "Arm Extraction from Clamp Guard (Defender) film study: Rubber Guard Basics and Arm Control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tXv2a_KC8Sw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tXv2a_KC8Sw",
+      "url": "https://www.youtube.com/watch?v=tXv2a_KC8Sw",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT529S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the bottom player maintaining clamp guard, your goal during the opponent's ex
 **Opponent's Starting Position**: [[Positions/Clamp Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Extraction from Clamp Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown Clinches to Keep the Arm Trapped</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tXv2a_KC8Sw)
+
+<p class="clip-credit"><strong>Rubber Guard Basics and Arm Control</strong> — taught by Eddie Bravo · 8:49 · <a href="https://www.youtube.com/watch?v=tXv2a_KC8Sw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

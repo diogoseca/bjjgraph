@@ -34,6 +34,54 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How Black Belts Grip Intelligently",
+      "description": "Double Sleeve Guard film study: How Black Belts Grip Intelligently, taught by Jiu-Jitsu Channel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KvJtOUDN-wY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KvJtOUDN-wY",
+      "url": "https://www.youtube.com/watch?v=KvJtOUDN-wY",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Channel" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Intro to the Double Sleeve Guard concepts and entries",
+      "description": "Double Sleeve Guard film study: Intro to the Double Sleeve Guard concepts and entries, taught by Ariel Tabak.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCvako3SaRs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCvako3SaRs",
+      "url": "https://www.youtube.com/watch?v=sCvako3SaRs",
+      "creator": { "@type": "Person", "name": "Ariel Tabak" },
+      "duration": "PT673S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Most important guard principles for grip-based guards",
+      "description": "Double Sleeve Guard film study: Most important guard principles for grip-based guards, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/npuOznVZoXA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/npuOznVZoXA",
+      "url": "https://www.youtube.com/watch?v=npuOznVZoXA",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT419S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -64,6 +112,42 @@ A pillar of the modern gi open-guard game, Double Sleeve Guard is built around w
 Double Sleeve Guard is characterized by its emphasis on grip fighting dominance and distance management. By controlling both sleeves, the bottom player neutralizes the opponent's ability to grip the pants or control the legs, forcing them into a defensive posture. This guard excels at creating off-balancing opportunities and can transition seamlessly into more specialized guards like Spider Guard, Lasso Guard, or De La Riva Guard. The position requires good hip mobility and grip strength but offers a high return on investment for practitioners who develop proficiency with the fundamental sweeps and transitions available from this control position. From the top perspective, the challenge lies in systematically breaking the sleeve grips while maintaining posture and creating passing opportunities through angle creation and strategic pressure application.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KvJtOUDN-wY)
+
+<p class="clip-credit"><strong>How Black Belts Grip Intelligently</strong> — taught by Jiu-Jitsu Channel · 1:42 · <a href="https://www.youtube.com/watch?v=KvJtOUDN-wY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCvako3SaRs)
+
+<p class="clip-credit"><strong>Intro to the Double Sleeve Guard concepts and entries</strong> — taught by Ariel Tabak · 11:13 · <a href="https://www.youtube.com/watch?v=sCvako3SaRs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=npuOznVZoXA)
+
+<p class="clip-credit"><strong>Most important guard principles for grip-based guards</strong> — taught by Jon Thomas · 6:59 · <a href="https://www.youtube.com/watch?v=npuOznVZoXA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

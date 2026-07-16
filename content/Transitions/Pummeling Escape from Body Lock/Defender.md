@@ -132,6 +132,54 @@ description: "Defensive guide for maintaining body lock control against pummelin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pummeling Escape from Body Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock pass defense: inside position and elevator",
+      "description": "Pummeling Escape from Body Lock (Defender) film study: Body lock pass defense: inside position and elevator, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YVeeiNy43j4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YVeeiNy43j4",
+      "url": "https://www.youtube.com/watch?v=YVeeiNy43j4",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Far side underhook pin",
+      "description": "Pummeling Escape from Body Lock (Defender) film study: Far side underhook pin, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mWimgVQrsMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mWimgVQrsMU",
+      "url": "https://www.youtube.com/watch?v=mWimgVQrsMU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT137S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Winning inside position",
+      "description": "Pummeling Escape from Body Lock (Defender) film study: Winning inside position, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ftc76MrOkfw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ftc76MrOkfw",
+      "url": "https://www.youtube.com/watch?v=Ftc76MrOkfw",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT198S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +189,42 @@ As the defender maintaining the body lock, your objective is to prevent the oppo
 **Opponent's Starting Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pummeling Escape from Body Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YVeeiNy43j4)
+
+<p class="clip-credit"><strong>Body lock pass defense: inside position and elevator</strong> — taught by Brian Glick · 2:03 · <a href="https://www.youtube.com/watch?v=YVeeiNy43j4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mWimgVQrsMU)
+
+<p class="clip-credit"><strong>Far side underhook pin</strong> — taught by Craig Jones · 2:17 · <a href="https://www.youtube.com/watch?v=mWimgVQrsMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ftc76MrOkfw)
+
+<p class="clip-credit"><strong>Winning inside position</strong> — taught by Craig Jones · 3:18 · <a href="https://www.youtube.com/watch?v=Ftc76MrOkfw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

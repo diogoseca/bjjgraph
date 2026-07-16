@@ -168,6 +168,54 @@ description: "How to execute Limp Leg Escape to Pass in BJJ. Attacking perspecti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Limp Leg Escape to Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Advanced passing concepts",
+      "description": "Limp Leg Escape to Pass (Attacker) film study: Advanced passing concepts, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8AKU6SSFzHc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8AKU6SSFzHc",
+      "url": "https://www.youtube.com/watch?v=8AKU6SSFzHc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Safely escaping the lockdown to pass",
+      "description": "Limp Leg Escape to Pass (Attacker) film study: Safely escaping the lockdown to pass, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xIkXPK5h-4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xIkXPK5h-4A",
+      "url": "https://www.youtube.com/watch?v=xIkXPK5h-4A",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT438S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breaking the lockdown half guard",
+      "description": "Limp Leg Escape to Pass (Attacker) film study: Breaking the lockdown half guard, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
+      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ The technique integrates seamlessly with standard half guard passing strategies.
 **From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Limp Leg Escape to Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8AKU6SSFzHc)
+
+<p class="clip-credit"><strong>Advanced passing concepts</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=8AKU6SSFzHc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xIkXPK5h-4A)
+
+<p class="clip-credit"><strong>Safely escaping the lockdown to pass</strong> — taught by Lachlan Giles · 7:18 · <a href="https://www.youtube.com/watch?v=xIkXPK5h-4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
+
+<p class="clip-credit"><strong>Breaking the lockdown half guard</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

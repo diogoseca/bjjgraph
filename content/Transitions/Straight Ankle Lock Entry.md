@@ -34,6 +34,54 @@ description: "Learn Straight Ankle Lock Entry from Grasshopper Guard in BJJ. Ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic leg lock entries from standing",
+      "description": "Straight Ankle Lock Entry film study: Basic leg lock entries from standing, taught by Jaime Sanchez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mM7UEXLsmMw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mM7UEXLsmMw",
+      "url": "https://www.youtube.com/watch?v=mM7UEXLsmMw",
+      "creator": { "@type": "Person", "name": "Jaime Sanchez" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard pull into straight ankle lock",
+      "description": "Straight Ankle Lock Entry film study: Guard pull into straight ankle lock, taught by Adriano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bAExryUlXsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bAExryUlXsA",
+      "url": "https://www.youtube.com/watch?v=bAExryUlXsA",
+      "creator": { "@type": "Person", "name": "Adriano" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Straight ankle lock quick demo",
+      "description": "Straight Ankle Lock Entry film study: Straight ankle lock quick demo, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
+      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 **Success Rate**: 54%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mM7UEXLsmMw)
+
+<p class="clip-credit"><strong>Basic leg lock entries from standing</strong> — taught by Jaime Sanchez · 0:39 · <a href="https://www.youtube.com/watch?v=mM7UEXLsmMw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bAExryUlXsA)
+
+<p class="clip-credit"><strong>Guard pull into straight ankle lock</strong> — taught by Adriano · 0:34 · <a href="https://www.youtube.com/watch?v=bAExryUlXsA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
+
+<p class="clip-credit"><strong>Straight ankle lock quick demo</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

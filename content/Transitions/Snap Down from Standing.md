@@ -34,6 +34,54 @@ description: "Master the snap down from standing in BJJ. Complete guide to break
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Snap Down from Standing \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do a snap down",
+      "description": "Snap Down from Standing film study: How to do a snap down, taught by Grapple Hub coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CnaxvdhToyM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CnaxvdhToyM",
+      "url": "https://www.youtube.com/watch?v=CnaxvdhToyM",
+      "creator": { "@type": "Person", "name": "Grapple Hub coach" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front headlock snap down to spin behind",
+      "description": "Snap Down from Standing film study: Front headlock snap down to spin behind, taught by Procel BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9QCJFDsDQmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9QCJFDsDQmk",
+      "url": "https://www.youtube.com/watch?v=9QCJFDsDQmk",
+      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Snap down set up vs single leg takedown",
+      "description": "Snap Down from Standing film study: Snap down set up vs single leg takedown, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QMKv_AlTie8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QMKv_AlTie8",
+      "url": "https://www.youtube.com/watch?v=QMKv_AlTie8",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technique integrates seamlessly into standing grip fighting exchanges. When 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Snap Down from Standing in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CnaxvdhToyM)
+
+<p class="clip-credit"><strong>How to do a snap down</strong> — taught by Grapple Hub coach · 1:00 · <a href="https://www.youtube.com/watch?v=CnaxvdhToyM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9QCJFDsDQmk)
+
+<p class="clip-credit"><strong>Front headlock snap down to spin behind</strong> — taught by Procel BJJ coach · 1:06 · <a href="https://www.youtube.com/watch?v=9QCJFDsDQmk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QMKv_AlTie8)
+
+<p class="clip-credit"><strong>Snap down set up vs single leg takedown</strong> — taught by Marcelo Garcia · 2:14 · <a href="https://www.youtube.com/watch?v=QMKv_AlTie8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

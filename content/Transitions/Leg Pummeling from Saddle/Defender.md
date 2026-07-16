@@ -140,6 +140,54 @@ description: "Comprehensive guide to preventing and countering leg pummeling esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Pummeling from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Five leglock counters to ashi garami",
+      "description": "Leg Pummeling from Saddle (Defender) film study: Five leglock counters to ashi garami, taught by BJJ Black Belt Dad.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
+      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
+      "creator": { "@type": "Person", "name": "BJJ Black Belt Dad" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Heel hook defense vs ankle lock defense",
+      "description": "Leg Pummeling from Saddle (Defender) film study: Heel hook defense vs ankle lock defense, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUdB-EJaXgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUdB-EJaXgQ",
+      "url": "https://www.youtube.com/watch?v=yUdB-EJaXgQ",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Anti leg lock game basics",
+      "description": "Leg Pummeling from Saddle (Defender) film study: Anti leg lock game basics, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mNM7ADt_fcg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mNM7ADt_fcg",
+      "url": "https://www.youtube.com/watch?v=mNM7ADt_fcg",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT15S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against leg pummeling from saddle, you are the practitioner who 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Pummeling from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
+
+<p class="clip-credit"><strong>Five leglock counters to ashi garami</strong> — taught by BJJ Black Belt Dad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yUdB-EJaXgQ)
+
+<p class="clip-credit"><strong>Heel hook defense vs ankle lock defense</strong> — taught by Craig Jones · 2:13 · <a href="https://www.youtube.com/watch?v=yUdB-EJaXgQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mNM7ADt_fcg)
+
+<p class="clip-credit"><strong>Anti leg lock game basics</strong> — taught by Eddie Bravo · 0:15 · <a href="https://www.youtube.com/watch?v=mNM7ADt_fcg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

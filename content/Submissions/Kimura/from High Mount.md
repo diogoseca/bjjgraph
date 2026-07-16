@@ -34,6 +34,54 @@ description: "Master the Kimura shoulder lock from High Mount. Complete finishin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from High Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from S-mount",
+      "description": "Kimura from High Mount film study: Kimura from S-mount, taught by Marcus Ashcraft.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pDByo2uZnzo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pDByo2uZnzo",
+      "url": "https://www.youtube.com/watch?v=pDByo2uZnzo",
+      "creator": { "@type": "Person", "name": "Marcus Ashcraft" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder crunch attack from mount",
+      "description": "Kimura from High Mount film study: Shoulder crunch attack from mount, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nyZwifeL_Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nyZwifeL_Do",
+      "url": "https://www.youtube.com/watch?v=nyZwifeL_Do",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura from the mount",
+      "description": "Kimura from High Mount film study: Kimura from the mount, taught by Matt McCormick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oDVXJw48OMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oDVXJw48OMU",
+      "url": "https://www.youtube.com/watch?v=oDVXJw48OMU",
+      "creator": { "@type": "Person", "name": "Matt McCormick" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ In competition, the Kimura from High Mount frequently appears as part of submiss
 **Starting Position**: [[Positions/Mount/High Mount]] · **From**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from High Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pDByo2uZnzo)
+
+<p class="clip-credit"><strong>Kimura from S-mount</strong> — taught by Marcus Ashcraft · 1:03 · <a href="https://www.youtube.com/watch?v=pDByo2uZnzo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nyZwifeL_Do)
+
+<p class="clip-credit"><strong>Shoulder crunch attack from mount</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=nyZwifeL_Do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oDVXJw48OMU)
+
+<p class="clip-credit"><strong>Kimura from the mount</strong> — taught by Matt McCormick · 2:11 · <a href="https://www.youtube.com/watch?v=oDVXJw48OMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

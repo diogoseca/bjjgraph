@@ -148,6 +148,54 @@ description: "How to defend against Smash Pass Counter in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pass Counter (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Smash pass counter: stuff the head",
+      "description": "Smash Pass Counter (Defender) film study: Smash pass counter: stuff the head, taught by Hauck Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q813h3cqIXk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q813h3cqIXk",
+      "url": "https://www.youtube.com/watch?v=Q813h3cqIXk",
+      "creator": { "@type": "Person", "name": "Hauck Jiu-Jitsu" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Denying the straight arm guard retention pass",
+      "description": "Smash Pass Counter (Defender) film study: Denying the straight arm guard retention pass, taught by Cameron Florczak.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UoJul9UvRao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UoJul9UvRao",
+      "url": "https://www.youtube.com/watch?v=UoJul9UvRao",
+      "creator": { "@type": "Person", "name": "Cameron Florczak" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the double over smash pass",
+      "description": "Smash Pass Counter (Defender) film study: Countering the double over smash pass, taught by Brazilian Jiu-Jitsu \u0026 Submission Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YxAYfWINeQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YxAYfWINeQ",
+      "url": "https://www.youtube.com/watch?v=8YxAYfWINeQ",
+      "creator": { "@type": "Person", "name": "Brazilian Jiu-Jitsu \u0026 Submission Grappling" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The defender must balance between maintaining the lapel wrap tension that provid
 **Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pass Counter (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q813h3cqIXk)
+
+<p class="clip-credit"><strong>Smash pass counter: stuff the head</strong> — taught by Hauck Jiu-Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=Q813h3cqIXk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UoJul9UvRao)
+
+<p class="clip-credit"><strong>Denying the straight arm guard retention pass</strong> — taught by Cameron Florczak · 1:06 · <a href="https://www.youtube.com/watch?v=UoJul9UvRao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YxAYfWINeQ)
+
+<p class="clip-credit"><strong>Countering the double over smash pass</strong> — taught by Brazilian Jiu-Jitsu &amp; Submission Grappling · 2:44 · <a href="https://www.youtube.com/watch?v=8YxAYfWINeQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

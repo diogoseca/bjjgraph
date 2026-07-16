@@ -148,6 +148,43 @@ description: "Learn to defend and counter the Kiss of the Dragon from Reverse De
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kiss of the Dragon from RDLR (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing reverse de la riva with a shin slice",
+      "description": "Kiss of the Dragon from RDLR (Defender) film study: Passing reverse de la riva with a shin slice, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IdfQWVHikws/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IdfQWVHikws",
+      "url": "https://www.youtube.com/watch?v=IdfQWVHikws",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defense to reverse de la riva",
+      "description": "Kiss of the Dragon from RDLR (Defender) film study: Defense to reverse de la riva, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hdSw-ZmcBRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hdSw-ZmcBRA",
+      "url": "https://www.youtube.com/watch?v=hdSw-ZmcBRA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against Kiss of the Dragon from RDLR, you are the top player fac
 **Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kiss of the Dragon from RDLR (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IdfQWVHikws)
+
+<p class="clip-credit"><strong>Passing reverse de la riva with a shin slice</strong> — taught by BJJ4Breakfast · 1:26 · <a href="https://www.youtube.com/watch?v=IdfQWVHikws" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hdSw-ZmcBRA)
+
+<p class="clip-credit"><strong>Defense to reverse de la riva</strong> — taught by Ninja Pinto · 0:31 · <a href="https://www.youtube.com/watch?v=hdSw-ZmcBRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

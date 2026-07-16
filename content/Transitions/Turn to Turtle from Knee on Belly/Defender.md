@@ -134,6 +134,54 @@ description: "Defend against the Turn to Turtle escape from Knee on Belly. Learn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn to Turtle from Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the turtle as the opponent turns away",
+      "description": "Turn to Turtle from Knee on Belly (Defender) film study: Preventing the turtle as the opponent turns away, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6_4uK_c0-cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6_4uK_c0-cI",
+      "url": "https://www.youtube.com/watch?v=6_4uK_c0-cI",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping the turtle when they turn away",
+      "description": "Turn to Turtle from Knee on Belly (Defender) film study: Stopping the turtle when they turn away, taught by Gold BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8qQrZ1b_Omw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8qQrZ1b_Omw",
+      "url": "https://www.youtube.com/watch?v=8qQrZ1b_Omw",
+      "creator": { "@type": "Person", "name": "Gold BJJ" },
+      "duration": "PT318S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Wrestling pin to shut down the turtle",
+      "description": "Turn to Turtle from Knee on Belly (Defender) film study: Wrestling pin to shut down the turtle, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qpngRyjHghI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qpngRyjHghI",
+      "url": "https://www.youtube.com/watch?v=qpngRyjHghI",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT386S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ When your opponent attempts to turn away from Knee on Belly toward turtle, you f
 **Opponent's Starting Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn to Turtle from Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6_4uK_c0-cI)
+
+<p class="clip-credit"><strong>Preventing the turtle as the opponent turns away</strong> — taught by Inverted Gear · 1:19 · <a href="https://www.youtube.com/watch?v=6_4uK_c0-cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8qQrZ1b_Omw)
+
+<p class="clip-credit"><strong>Stopping the turtle when they turn away</strong> — taught by Gold BJJ · 5:18 · <a href="https://www.youtube.com/watch?v=8qQrZ1b_Omw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qpngRyjHghI)
+
+<p class="clip-credit"><strong>Wrestling pin to shut down the turtle</strong> — taught by Chewjitsu · 6:26 · <a href="https://www.youtube.com/watch?v=qpngRyjHghI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

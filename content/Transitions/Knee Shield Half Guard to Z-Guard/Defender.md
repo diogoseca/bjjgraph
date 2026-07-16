@@ -140,6 +140,54 @@ description: "How to prevent and counter the Transition to Z-Guard from top posi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Half Guard to Z-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Z-guard straight to the back",
+      "description": "Knee Shield Half Guard to Z-Guard (Defender) film study: Passing the Z-guard straight to the back, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GQeS3xTXlb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GQeS3xTXlb0",
+      "url": "https://www.youtube.com/watch?v=GQeS3xTXlb0",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Z-guard darce pass",
+      "description": "Knee Shield Half Guard to Z-Guard (Defender) film study: Z-guard darce pass, taught by Team GTW BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y-VU4mS-7tU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y-VU4mS-7tU",
+      "url": "https://www.youtube.com/watch?v=y-VU4mS-7tU",
+      "creator": { "@type": "Person", "name": "Team GTW BJJ" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing half guard and Z-guard with tripod base",
+      "description": "Knee Shield Half Guard to Z-Guard (Defender) film study: Passing half guard and Z-guard with tripod base, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xXb65zA1yzs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xXb65zA1yzs",
+      "url": "https://www.youtube.com/watch?v=xXb65zA1yzs",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT91S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender (top player in Knee Shield Half Guard), your goal is to prevent 
 **Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Half Guard to Z-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GQeS3xTXlb0)
+
+<p class="clip-credit"><strong>Passing the Z-guard straight to the back</strong> — taught by Animal · 0:48 · <a href="https://www.youtube.com/watch?v=GQeS3xTXlb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y-VU4mS-7tU)
+
+<p class="clip-credit"><strong>Z-guard darce pass</strong> — taught by Team GTW BJJ · 1:30 · <a href="https://www.youtube.com/watch?v=y-VU4mS-7tU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xXb65zA1yzs)
+
+<p class="clip-credit"><strong>Passing half guard and Z-guard with tripod base</strong> — taught by Street Jitsu · 1:31 · <a href="https://www.youtube.com/watch?v=xXb65zA1yzs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

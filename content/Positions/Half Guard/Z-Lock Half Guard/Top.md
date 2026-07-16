@@ -153,6 +153,43 @@ description: "Master Z-Lock Half Guard Top in BJJ. Complete guide covering contr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Lock Half Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing half guard and Z guard with tripod base",
+      "description": "Z-Lock Half Guard (Top) film study: Passing half guard and Z guard with tripod base, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xXb65zA1yzs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xXb65zA1yzs",
+      "url": "https://www.youtube.com/watch?v=xXb65zA1yzs",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting unstuck on top of half guard",
+      "description": "Z-Lock Half Guard (Top) film study: Getting unstuck on top of half guard, taught by Trapp Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WMcD-_R-To0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WMcD-_R-To0",
+      "url": "https://www.youtube.com/watch?v=WMcD-_R-To0",
+      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ Z-Lock Half Guard Top represents a dominant controlling position where the top p
 From a strategic perspective, Z-Lock Half Guard Top serves as a transitional control position that bridges standard half guard passing with submission opportunities. The position allows the top player to methodically break down the bottom player's defensive structure through sustained pressure and systematic limb isolation. Unlike traditional half guard top positions where the bottom player maintains significant mobility and sweep threats, the Z-lock severely restricts movement options while creating immediate passing lanes to side control, mount, or back control. The position is especially valuable in no-gi grappling where the absence of gi grips makes maintaining positional control more challenging.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Lock Half Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xXb65zA1yzs)
+
+<p class="clip-credit"><strong>Passing half guard and Z guard with tripod base</strong> — taught by Street Jitsu · 1:31 · <a href="https://www.youtube.com/watch?v=xXb65zA1yzs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WMcD-_R-To0)
+
+<p class="clip-credit"><strong>Getting unstuck on top of half guard</strong> — taught by Trapp Martial Arts · 0:35 · <a href="https://www.youtube.com/watch?v=WMcD-_R-To0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

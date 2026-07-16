@@ -148,6 +148,54 @@ description: "How to defend against Butterfly Sweep with Guillotine in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Sweep with Guillotine (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine escape vs single and double",
+      "description": "Butterfly Sweep with Guillotine (Defender) film study: Guillotine escape vs single and double, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dyTKKiajgzQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dyTKKiajgzQ",
+      "url": "https://www.youtube.com/watch?v=dyTKKiajgzQ",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine defense from inside closed guard",
+      "description": "Butterfly Sweep with Guillotine (Defender) film study: Guillotine defense from inside closed guard, taught by Double Phoenix coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OI_18KI8_jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OI_18KI8_jg",
+      "url": "https://www.youtube.com/watch?v=OI_18KI8_jg",
+      "creator": { "@type": "Person", "name": "Double Phoenix coach" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing guillotine escape",
+      "description": "Butterfly Sweep with Guillotine (Defender) film study: Standing guillotine escape, taught by Team Daruma Dojo coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aH1byNn_hj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aH1byNn_hj4",
+      "url": "https://www.youtube.com/watch?v=aH1byNn_hj4",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo coach" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense often means accepting a less-than-ideal position rather than 
 **Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Sweep with Guillotine (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dyTKKiajgzQ)
+
+<p class="clip-credit"><strong>Guillotine escape vs single and double</strong> — taught by Cobrinha · 0:44 · <a href="https://www.youtube.com/watch?v=dyTKKiajgzQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OI_18KI8_jg)
+
+<p class="clip-credit"><strong>Guillotine defense from inside closed guard</strong> — taught by Double Phoenix coach · 0:48 · <a href="https://www.youtube.com/watch?v=OI_18KI8_jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aH1byNn_hj4)
+
+<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by Team Daruma Dojo coach · 1:26 · <a href="https://www.youtube.com/watch?v=aH1byNn_hj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

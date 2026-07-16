@@ -34,6 +34,43 @@ description: "Master the Arm Triangle from Turtle in BJJ. Complete guide coverin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm triangle from turtle",
+      "description": "Arm Triangle from Turtle film study: Arm triangle from turtle, taught by BTT Evergreen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KHEJ0DygJvc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KHEJ0DygJvc",
+      "url": "https://www.youtube.com/watch?v=KHEJ0DygJvc",
+      "creator": { "@type": "Person", "name": "BTT Evergreen" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head and arm choke from the turtle position",
+      "description": "Arm Triangle from Turtle film study: Head and arm choke from the turtle position, taught by Pathfinder Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h4izOHcQh2Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h4izOHcQh2Y",
+      "url": "https://www.youtube.com/watch?v=h4izOHcQh2Y",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +104,34 @@ The arm triangle from turtle has become increasingly popular in modern no-gi com
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KHEJ0DygJvc)
+
+<p class="clip-credit"><strong>Arm triangle from turtle</strong> — taught by BTT Evergreen · 0:58 · <a href="https://www.youtube.com/watch?v=KHEJ0DygJvc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h4izOHcQh2Y)
+
+<p class="clip-credit"><strong>Head and arm choke from the turtle position</strong> — taught by Pathfinder Jiu-Jitsu Team · 0:50 · <a href="https://www.youtube.com/watch?v=h4izOHcQh2Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

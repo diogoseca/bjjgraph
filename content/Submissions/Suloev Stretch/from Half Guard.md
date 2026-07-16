@@ -34,6 +34,43 @@ description: "Master the Suloev Stretch in BJJ. Devastating knee compression sub
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Suloev Stretch from Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee Bars (Suloev Stretch)",
+      "description": "Suloev Stretch from Half Guard film study: Knee Bars (Suloev Stretch), taught by Josh Cisneros.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FrwS6dX2ydk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FrwS6dX2ydk",
+      "url": "https://www.youtube.com/watch?v=FrwS6dX2ydk",
+      "creator": { "@type": "Person", "name": "Josh Cisneros" },
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Suloev Stretch submission for BJJ and MMA",
+      "description": "Suloev Stretch from Half Guard film study: The Suloev Stretch submission for BJJ and MMA, taught by Sonny Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kwS4-kslujQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kwS4-kslujQ",
+      "url": "https://www.youtube.com/watch?v=kwS4-kslujQ",
+      "creator": { "@type": "Person", "name": "Sonny Brown" },
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +111,34 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 **Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Suloev Stretch from Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FrwS6dX2ydk)
+
+<p class="clip-credit"><strong>Knee Bars (Suloev Stretch)</strong> — taught by Josh Cisneros · 0:13 · <a href="https://www.youtube.com/watch?v=FrwS6dX2ydk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kwS4-kslujQ)
+
+<p class="clip-credit"><strong>The Suloev Stretch submission for BJJ and MMA</strong> — taught by Sonny Brown · 2:14 · <a href="https://www.youtube.com/watch?v=kwS4-kslujQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

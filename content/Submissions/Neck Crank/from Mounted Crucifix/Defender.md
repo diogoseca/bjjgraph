@@ -136,6 +136,43 @@ description: "Defend and escape the Neck Crank from Mounted Crucifix in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Neck Crank from Mounted Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix Escape",
+      "description": "Neck Crank from Mounted Crucifix (Defender) film study: Crucifix Escape, taught by RKBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TrRtPaMCA8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TrRtPaMCA8I",
+      "url": "https://www.youtube.com/watch?v=TrRtPaMCA8I",
+      "creator": { "@type": "Person", "name": "RKBJJ" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix Escape",
+      "description": "Neck Crank from Mounted Crucifix (Defender) film study: Crucifix Escape, taught by Left Side Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OO92wSXFFV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OO92wSXFFV8",
+      "url": "https://www.youtube.com/watch?v=OO92wSXFFV8",
+      "creator": { "@type": "Person", "name": "Left Side Jiu-Jitsu" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +183,34 @@ Defending the neck crank from mounted crucifix is among the most challenging def
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Neck Crank from Mounted Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TrRtPaMCA8I)
+
+<p class="clip-credit"><strong>Crucifix Escape</strong> — taught by RKBJJ · 1:28 · <a href="https://www.youtube.com/watch?v=TrRtPaMCA8I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OO92wSXFFV8)
+
+<p class="clip-credit"><strong>Crucifix Escape</strong> — taught by Left Side Jiu-Jitsu · 2:25 · <a href="https://www.youtube.com/watch?v=OO92wSXFFV8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

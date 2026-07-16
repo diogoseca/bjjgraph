@@ -142,6 +142,54 @@ description: "Prevent guard recovery from your triangle control as the bottom pl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Triangle Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping triangles against big opponents",
+      "description": "Guard Recovery from Triangle Control (Defender) film study: Escaping triangles against big opponents, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z-CsRn4K0vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z-CsRn4K0vg",
+      "url": "https://www.youtube.com/watch?v=Z-CsRn4K0vg",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle re-attacks when posture control is lost",
+      "description": "Guard Recovery from Triangle Control (Defender) film study: Triangle re-attacks when posture control is lost, taught by Method BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2PVYV08GAG8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2PVYV08GAG8",
+      "url": "https://www.youtube.com/watch?v=2PVYV08GAG8",
+      "creator": { "@type": "Person", "name": "Method BJJ coach" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Finishing the triangle against a posturing opponent",
+      "description": "Guard Recovery from Triangle Control (Defender) film study: Finishing the triangle against a posturing opponent, taught by Inverted Gear coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M3_VDLm6PoE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M3_VDLm6PoE",
+      "url": "https://www.youtube.com/watch?v=M3_VDLm6PoE",
+      "creator": { "@type": "Person", "name": "Inverted Gear coach" },
+      "duration": "PT142S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ As the bottom player maintaining triangle control, your opponent's escape attemp
 **Opponent's Starting Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Triangle Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z-CsRn4K0vg)
+
+<p class="clip-credit"><strong>Escaping triangles against big opponents</strong> — taught by John Danaher · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2PVYV08GAG8)
+
+<p class="clip-credit"><strong>Triangle re-attacks when posture control is lost</strong> — taught by Method BJJ coach · 1:38 · <a href="https://www.youtube.com/watch?v=2PVYV08GAG8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M3_VDLm6PoE)
+
+<p class="clip-credit"><strong>Finishing the triangle against a posturing opponent</strong> — taught by Inverted Gear coach · 2:22 · <a href="https://www.youtube.com/watch?v=M3_VDLm6PoE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

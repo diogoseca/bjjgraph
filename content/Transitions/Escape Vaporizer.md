@@ -34,6 +34,43 @@ description: "Master the Escape Vaporizer in BJJ. Strategic lockdown disengageme
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Vaporizer \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Vaporizer From Top Stoner Control",
+      "description": "Escape Vaporizer film study: Vaporizer From Top Stoner Control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VopfKnaVSjE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VopfKnaVSjE",
+      "url": "https://www.youtube.com/watch?v=VopfKnaVSjE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT254S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Vaporizer Leg Lock Attacks Breakdown",
+      "description": "Escape Vaporizer film study: Vaporizer Leg Lock Attacks Breakdown, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CoUM2pU8zZs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CoUM2pU8zZs",
+      "url": "https://www.youtube.com/watch?v=CoUM2pU8zZs",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT510S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Recognizing when to abandon the Vaporizer is a hallmark of positional intelligen
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Vaporizer in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VopfKnaVSjE)
+
+<p class="clip-credit"><strong>Vaporizer From Top Stoner Control</strong> — taught by Eddie Bravo · 4:14 · <a href="https://www.youtube.com/watch?v=VopfKnaVSjE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CoUM2pU8zZs)
+
+<p class="clip-credit"><strong>Vaporizer Leg Lock Attacks Breakdown</strong> — taught by Coach Brian · 8:30 · <a href="https://www.youtube.com/watch?v=CoUM2pU8zZs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

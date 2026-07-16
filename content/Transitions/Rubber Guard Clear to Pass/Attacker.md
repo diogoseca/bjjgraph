@@ -180,6 +180,43 @@ description: "How to execute Rubber Guard Clear to Pass in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard Clear to Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top lockdown turk to clear the guard",
+      "description": "Rubber Guard Clear to Pass (Attacker) film study: Top lockdown turk to clear the guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
+      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT207S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the step over from rubber guard",
+      "description": "Rubber Guard Clear to Pass (Attacker) film study: Beating the step over from rubber guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y-gsdLH2YBs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y-gsdLH2YBs",
+      "url": "https://www.youtube.com/watch?v=y-gsdLH2YBs",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT242S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -193,6 +230,34 @@ This technique is essential for any practitioner facing opponents with flexible 
 **From Position**: [[Positions/Rubber Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard Clear to Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
+
+<p class="clip-credit"><strong>Top lockdown turk to clear the guard</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y-gsdLH2YBs)
+
+<p class="clip-credit"><strong>Beating the step over from rubber guard</strong> — taught by Craig Jones · 4:02 · <a href="https://www.youtube.com/watch?v=y-gsdLH2YBs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -35,6 +35,54 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Use the Z-Guard: three options",
+      "description": "Z-Guard film study: Use the Z-Guard: three options, taught by Way of BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T3Gwg-ABsZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T3Gwg-ABsZA",
+      "url": "https://www.youtube.com/watch?v=T3Gwg-ABsZA",
+      "creator": { "@type": "Person", "name": "Way of BJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Z-Guard options, Craig Jones style",
+      "description": "Z-Guard film study: Reverse Z-Guard options, Craig Jones style, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TrVf9YzEe0E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TrVf9YzEe0E",
+      "url": "https://www.youtube.com/watch?v=TrVf9YzEe0E",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle from the Z-Guard",
+      "description": "Z-Guard film study: Triangle from the Z-Guard, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cnW27eV9H8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cnW27eV9H8U",
+      "url": "https://www.youtube.com/watch?v=cnW27eV9H8U",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ The strategic value of Z-Guard lies in its ability to transform defensive framin
 From both offensive and defensive perspectives, Z-Guard serves as a critical hub position in the modern half guard ecosystem. For the bottom player, it provides exceptional retention capabilities while maintaining constant threat of sweeps to old school, underhook variations, or transitions to deep half and back attacks. The position's effectiveness stems from creating multiple simultaneous frames that work together as an integrated defensive matrix rather than isolated points of contact. For the top player, Z-Guard represents a significant passing challenge that requires systematic breakdown of the knee shield structure through grip fighting, pressure application, and angular passing movements. Understanding both perspectives is essential for modern BJJ practitioners, as Z-Guard has become a fundamental position in contemporary guard retention and passing strategies across all skill levels and competition formats.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T3Gwg-ABsZA)
+
+<p class="clip-credit"><strong>Use the Z-Guard: three options</strong> — taught by Way of BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=T3Gwg-ABsZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TrVf9YzEe0E)
+
+<p class="clip-credit"><strong>Reverse Z-Guard options, Craig Jones style</strong> — taught by Craig Jones · 2:19 · <a href="https://www.youtube.com/watch?v=TrVf9YzEe0E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cnW27eV9H8U)
+
+<p class="clip-credit"><strong>Triangle from the Z-Guard</strong> — taught by Evolve MMA · 1:35 · <a href="https://www.youtube.com/watch?v=cnW27eV9H8U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

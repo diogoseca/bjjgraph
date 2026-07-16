@@ -153,6 +153,43 @@ description: "Learn pressure passing from flattened half guard top. Complete you
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flattened Half Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Late correction to flatten opponent",
+      "description": "Flattened Half Guard (Top) film study: Late correction to flatten opponent, taught by Paul Schreiner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0FxFdqZ8mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0FxFdqZ8mus",
+      "url": "https://www.youtube.com/watch?v=0FxFdqZ8mus",
+      "creator": { "@type": "Person", "name": "Paul Schreiner" },
+      "duration": "PT153S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Top lockdown turk",
+      "description": "Flattened Half Guard (Top) film study: Top lockdown turk, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
+      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ The trapped leg creates the position's central technical problem. While you main
 Understanding the position's relationship to the broader passing game is essential. Flattened Half Guard top should be viewed as a waypoint in the passing sequence, not a destination. Skilled bottom players will eventually create enough space to recover frames if you remain static. The position's value lies in the significant pressure advantage it provides, making opponent's defensive actions predictable and creating opportunities to advance. When your opponent shrimps to create space, you can time your knee slice. When they turn to prevent the pass, you can transition to back attacks. The position creates a pressure laboratory where your opponent's defensive responses become readable and exploitable.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flattened Half Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0FxFdqZ8mus)
+
+<p class="clip-credit"><strong>Late correction to flatten opponent</strong> — taught by Paul Schreiner · 2:33 · <a href="https://www.youtube.com/watch?v=0FxFdqZ8mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
+
+<p class="clip-credit"><strong>Top lockdown turk</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Spider Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle from the Spider Lasso Guard",
+      "description": "Triangle Choke from Spider Guard film study: Triangle from the Spider Lasso Guard, taught by Nartay Kazhekov.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t03kY6knAkU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t03kY6knAkU",
+      "url": "https://www.youtube.com/watch?v=t03kY6knAkU",
+      "creator": { "@type": "Person", "name": "Nartay Kazhekov" },
+      "duration": "PT11S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider Guard Foot on Bicep Triangle Choke",
+      "description": "Triangle Choke from Spider Guard film study: Spider Guard Foot on Bicep Triangle Choke, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7ItTf1BFDZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7ItTf1BFDZA",
+      "url": "https://www.youtube.com/watch?v=7ItTf1BFDZA",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Spider Guard: Triangle Choke Option",
+      "description": "Triangle Choke from Spider Guard film study: Spider Guard: Triangle Choke Option, taught by Hurricane Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR907qucSvk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aR907qucSvk",
+      "url": "https://www.youtube.com/watch?v=aR907qucSvk",
+      "creator": { "@type": "Person", "name": "Hurricane Jiu Jitsu" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ Building directly on spider guard's distance control and posture breaking, this 
 **Starting Position**: [[Positions/Spider Guard]] · **From**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Spider Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t03kY6knAkU)
+
+<p class="clip-credit"><strong>Triangle from the Spider Lasso Guard</strong> — taught by Nartay Kazhekov · 0:11 · <a href="https://www.youtube.com/watch?v=t03kY6knAkU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7ItTf1BFDZA)
+
+<p class="clip-credit"><strong>Spider Guard Foot on Bicep Triangle Choke</strong> — taught by Ritchie Yip · 0:31 · <a href="https://www.youtube.com/watch?v=7ItTf1BFDZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aR907qucSvk)
+
+<p class="clip-credit"><strong>Spider Guard: Triangle Choke Option</strong> — taught by Hurricane Jiu Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=aR907qucSvk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

@@ -174,6 +174,54 @@ description: "Learn to execute the stand up from combat base in BJJ. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stand Up from Combat Base (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to stand up in base from the ground",
+      "description": "Stand Up from Combat Base (Attacker) film study: How to stand up in base from the ground, taught by Chris Savarese.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S0rB1ddNifk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S0rB1ddNifk",
+      "url": "https://www.youtube.com/watch?v=S0rB1ddNifk",
+      "creator": { "@type": "Person", "name": "Chris Savarese" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit-up to combat base fundamentals",
+      "description": "Stand Up from Combat Base (Attacker) film study: Sit-up to combat base fundamentals, taught by CORE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gkbiBCuP9AM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gkbiBCuP9AM",
+      "url": "https://www.youtube.com/watch?v=gkbiBCuP9AM",
+      "creator": { "@type": "Person", "name": "CORE MMA" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to get to combat base",
+      "description": "Stand Up from Combat Base (Attacker) film study: How to get to combat base, taught by Myopinionin5.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vp3roMWi0dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vp3roMWi0dc",
+      "url": "https://www.youtube.com/watch?v=vp3roMWi0dc",
+      "creator": { "@type": "Person", "name": "Myopinionin5" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the executing practitioner, your goal is to elevate from a kneeling combat ba
 **From Position**: [[Positions/Combat Base]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stand Up from Combat Base (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S0rB1ddNifk)
+
+<p class="clip-credit"><strong>How to stand up in base from the ground</strong> — taught by Chris Savarese · 1:14 · <a href="https://www.youtube.com/watch?v=S0rB1ddNifk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gkbiBCuP9AM)
+
+<p class="clip-credit"><strong>Sit-up to combat base fundamentals</strong> — taught by CORE MMA · 1:12 · <a href="https://www.youtube.com/watch?v=gkbiBCuP9AM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vp3roMWi0dc)
+
+<p class="clip-credit"><strong>How to get to combat base</strong> — taught by Myopinionin5 · 2:00 · <a href="https://www.youtube.com/watch?v=vp3roMWi0dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

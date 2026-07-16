@@ -148,6 +148,43 @@ description: "How to prevent Arm Extraction to Turtle in BJJ. Maintain Aoki Lock
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Extraction to Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Aoki Lock Explained",
+      "description": "Arm Extraction to Turtle (Defender) film study: The Aoki Lock Explained, taught by Still Rolling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WK5MfZ_1ENA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WK5MfZ_1ENA",
+      "url": "https://www.youtube.com/watch?v=WK5MfZ_1ENA",
+      "creator": { "@type": "Person", "name": "Still Rolling" },
+      "duration": "PT219S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Lock Control Concepts",
+      "description": "Arm Extraction to Turtle (Defender) film study: Leg Lock Control Concepts, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iByvUzTk4Ko/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iByvUzTk4Ko",
+      "url": "https://www.youtube.com/watch?v=iByvUzTk4Ko",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT225S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Successful defense requires anticipating the three-phase escape sequence: base a
 **Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Extraction to Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WK5MfZ_1ENA)
+
+<p class="clip-credit"><strong>The Aoki Lock Explained</strong> — taught by Still Rolling · 3:39 · <a href="https://www.youtube.com/watch?v=WK5MfZ_1ENA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iByvUzTk4Ko)
+
+<p class="clip-credit"><strong>Leg Lock Control Concepts</strong> — taught by John Danaher · 3:45 · <a href="https://www.youtube.com/watch?v=iByvUzTk4Ko" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

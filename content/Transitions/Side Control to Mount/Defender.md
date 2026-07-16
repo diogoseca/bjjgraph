@@ -148,6 +148,54 @@ description: "How to defend against Side Control to Mount in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turkish get-up escape from bottom side control",
+      "description": "Side Control to Mount (Defender) film study: Turkish get-up escape from bottom side control, taught by Dirtball BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mBFVriM0ojQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mBFVriM0ojQ",
+      "url": "https://www.youtube.com/watch?v=mBFVriM0ojQ",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ coach" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape the mount",
+      "description": "Side Control to Mount (Defender) film study: How to escape the mount, taught by Pantera Jiujitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R21vtm5BHF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R21vtm5BHF4",
+      "url": "https://www.youtube.com/watch?v=R21vtm5BHF4",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu coach" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side control underhook escape",
+      "description": "Side Control to Mount (Defender) film study: Side control underhook escape, taught by Clayton Phillips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TPkmg7qRcSc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TPkmg7qRcSc",
+      "url": "https://www.youtube.com/watch?v=TPkmg7qRcSc",
+      "creator": { "@type": "Person", "name": "Clayton Phillips" },
+      "duration": "PT128S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the side control to mount transition is one of the most critical defen
 **Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mBFVriM0ojQ)
+
+<p class="clip-credit"><strong>Turkish get-up escape from bottom side control</strong> — taught by Dirtball BJJ coach · 1:04 · <a href="https://www.youtube.com/watch?v=mBFVriM0ojQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R21vtm5BHF4)
+
+<p class="clip-credit"><strong>How to escape the mount</strong> — taught by Pantera Jiujitsu coach · 1:20 · <a href="https://www.youtube.com/watch?v=R21vtm5BHF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TPkmg7qRcSc)
+
+<p class="clip-credit"><strong>Side control underhook escape</strong> — taught by Clayton Phillips · 2:08 · <a href="https://www.youtube.com/watch?v=TPkmg7qRcSc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

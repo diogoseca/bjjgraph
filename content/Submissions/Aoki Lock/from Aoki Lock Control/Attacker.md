@@ -176,6 +176,54 @@ description: "Learn to execute the Aoki Lock compression from Aoki Lock control.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock from Aoki Lock Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Aoki lock breakdown",
+      "description": "Aoki Lock from Aoki Lock Control (Attacker) film study: Aoki lock breakdown, taught by Escuela de Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qRH7g21c6xQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qRH7g21c6xQ",
+      "url": "https://www.youtube.com/watch?v=qRH7g21c6xQ",
+      "creator": { "@type": "Person", "name": "Escuela de Grappling" },
+      "duration": "PT199S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling no-gi calf slicer",
+      "description": "Aoki Lock from Aoki Lock Control (Attacker) film study: Rolling no-gi calf slicer, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMhOsw3wRQg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMhOsw3wRQg",
+      "url": "https://www.youtube.com/watch?v=vMhOsw3wRQg",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bear trap into calf slicer",
+      "description": "Aoki Lock from Aoki Lock Control (Attacker) film study: Bear trap into calf slicer, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6M0HvIFfc-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6M0HvIFfc-w",
+      "url": "https://www.youtube.com/watch?v=6M0HvIFfc-w",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Executing the Aoki Lock finish from established Aoki Lock control requires conve
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock from Aoki Lock Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qRH7g21c6xQ)
+
+<p class="clip-credit"><strong>Aoki lock breakdown</strong> — taught by Escuela de Grappling · 3:19 · <a href="https://www.youtube.com/watch?v=qRH7g21c6xQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMhOsw3wRQg)
+
+<p class="clip-credit"><strong>Rolling no-gi calf slicer</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=vMhOsw3wRQg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6M0HvIFfc-w)
+
+<p class="clip-credit"><strong>Bear trap into calf slicer</strong> — taught by Revolution BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=6M0HvIFfc-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

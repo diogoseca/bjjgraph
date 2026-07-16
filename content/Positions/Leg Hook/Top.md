@@ -153,6 +153,54 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Hook (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top half guard toe hold to knee bar attack",
+      "description": "Leg Hook (Top) film study: Top half guard toe hold to knee bar attack, taught by Eliot Marshall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-HT8Vfiq5Pk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-HT8Vfiq5Pk",
+      "url": "https://www.youtube.com/watch?v=-HT8Vfiq5Pk",
+      "creator": { "@type": "Person", "name": "Eliot Marshall" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe hold attack from top half guard",
+      "description": "Leg Hook (Top) film study: Toe hold attack from top half guard, taught by Maven Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/esC22tIGI94/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/esC22tIGI94",
+      "url": "https://www.youtube.com/watch?v=esC22tIGI94",
+      "creator": { "@type": "Person", "name": "Maven Martial Arts" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Calf slicer from top half guard",
+      "description": "Leg Hook (Top) film study: Calf slicer from top half guard, taught by Combat Principles MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/45R5ZjI5YUY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/45R5ZjI5YUY",
+      "url": "https://www.youtube.com/watch?v=45R5ZjI5YUY",
+      "creator": { "@type": "Person", "name": "Combat Principles MMA" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
 Leg Hook Top Position represents a transitional control state where the top practitioner has achieved significant advancement in passing half guard by controlling the bottom player's leg with a hooking motion. This position occurs when the top player has managed to get their leg underneath or around the bottom player's defending leg, creating a powerful mechanical advantage for completing the pass. The hook serves multiple purposes: it controls the bottom player's hip mobility, prevents them from recovering full guard, and provides a stable base for the top player to advance their position. This is a critical waypoint in the passing sequence, where the top player has moved beyond the initial stages of half guard engagement but has not yet fully cleared the legs to achieve side control or mount. The position requires precise weight distribution, hip control, and timing to prevent the bottom player from using the momentary instability to re-guard or create scrambles. Understanding this position is essential for both passers who need to recognize the window of opportunity it creates, and bottom players who must understand the defensive requirements to prevent advancement.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Hook (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-HT8Vfiq5Pk)
+
+<p class="clip-credit"><strong>Top half guard toe hold to knee bar attack</strong> — taught by Eliot Marshall · 1:07 · <a href="https://www.youtube.com/watch?v=-HT8Vfiq5Pk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=esC22tIGI94)
+
+<p class="clip-credit"><strong>Toe hold attack from top half guard</strong> — taught by Maven Martial Arts · 0:45 · <a href="https://www.youtube.com/watch?v=esC22tIGI94" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=45R5ZjI5YUY)
+
+<p class="clip-credit"><strong>Calf slicer from top half guard</strong> — taught by Combat Principles MMA · 1:13 · <a href="https://www.youtube.com/watch?v=45R5ZjI5YUY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

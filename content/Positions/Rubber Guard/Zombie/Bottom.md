@@ -153,6 +153,43 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Zombie (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prison Guard to Spiderweb",
+      "description": "Zombie (Bottom) film study: Prison Guard to Spiderweb, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EGpdTHP_vxY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EGpdTHP_vxY",
+      "url": "https://www.youtube.com/watch?v=EGpdTHP_vxY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Prison Guard Homie X",
+      "description": "Zombie (Bottom) film study: Prison Guard Homie X, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G9g3ZOJaQHA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G9g3ZOJaQHA",
+      "url": "https://www.youtube.com/watch?v=G9g3ZOJaQHA",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The Zombie is characterized by the bottom practitioner being on their side with 
 Unlike traditional turtle positions where the practitioner curls into a ball, the Zombie position involves active movement, constant reframing, and strategic use of the lockdown to off-balance the opponent. The position's effectiveness lies in its ability to frustrate passing attempts while creating opportunities for guard recovery, sweeps, or even back takes. Understanding the Zombie position is essential for modern no-gi practitioners, particularly those training in the 10th Planet system or facing opponents who utilize deep half guard and lockdown-based games.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Zombie (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EGpdTHP_vxY)
+
+<p class="clip-credit"><strong>Prison Guard to Spiderweb</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=EGpdTHP_vxY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G9g3ZOJaQHA)
+
+<p class="clip-credit"><strong>Prison Guard Homie X</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=G9g3ZOJaQHA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

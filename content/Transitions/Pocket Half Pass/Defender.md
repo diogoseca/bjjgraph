@@ -148,6 +148,43 @@ description: "Master defending the Pocket Half Pass in BJJ. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pocket Half Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stopping the half guard underhook from getting passed",
+      "description": "Pocket Half Pass (Defender) film study: Stopping the half guard underhook from getting passed, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard bottom retention in no-gi",
+      "description": "Pocket Half Pass (Defender) film study: Half guard bottom retention in no-gi, taught by Jiujithsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JOX7HE_axKM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JOX7HE_axKM",
+      "url": "https://www.youtube.com/watch?v=JOX7HE_axKM",
+      "creator": { "@type": "Person", "name": "Jiujithsu" },
+      "duration": "PT225S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Pocket Half Pass requires recognizing the specific moment when the
 **Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pocket Half Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook from getting passed</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JOX7HE_axKM)
+
+<p class="clip-credit"><strong>Half guard bottom retention in no-gi</strong> — taught by Jiujithsu · 3:45 · <a href="https://www.youtube.com/watch?v=JOX7HE_axKM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

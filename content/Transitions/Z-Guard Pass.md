@@ -34,6 +34,54 @@ description: "Master the Z-Guard Pass in BJJ. Complete guide to collapsing the k
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Guard Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Z-Guard pass to the back",
+      "description": "Z-Guard Pass film study: Z-Guard pass to the back, taught by Animal BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GQeS3xTXlb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GQeS3xTXlb0",
+      "url": "https://www.youtube.com/watch?v=GQeS3xTXlb0",
+      "creator": { "@type": "Person", "name": "Animal BJJ coach" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Z-Guard pass into side control",
+      "description": "Z-Guard Pass film study: Z-Guard pass into side control, taught by JitzLive coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nuh4wnROi-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nuh4wnROi-c",
+      "url": "https://www.youtube.com/watch?v=Nuh4wnROi-c",
+      "creator": { "@type": "Person", "name": "JitzLive coach" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee shield half guard pass",
+      "description": "Z-Guard Pass film study: Knee shield half guard pass, taught by Bowerhouse MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o-7m6AtG44U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o-7m6AtG44U",
+      "url": "https://www.youtube.com/watch?v=o-7m6AtG44U",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA coach" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technical challenge lies in managing multiple simultaneous battles while mai
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Guard Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GQeS3xTXlb0)
+
+<p class="clip-credit"><strong>Z-Guard pass to the back</strong> — taught by Animal BJJ coach · 0:48 · <a href="https://www.youtube.com/watch?v=GQeS3xTXlb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nuh4wnROi-c)
+
+<p class="clip-credit"><strong>Z-Guard pass into side control</strong> — taught by JitzLive coach · 0:28 · <a href="https://www.youtube.com/watch?v=Nuh4wnROi-c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o-7m6AtG44U)
+
+<p class="clip-credit"><strong>Knee shield half guard pass</strong> — taught by Bowerhouse MMA coach · 0:50 · <a href="https://www.youtube.com/watch?v=o-7m6AtG44U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

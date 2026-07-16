@@ -34,6 +34,54 @@ description: "Master the Arm Triangle from Reverse Scarf Hold. Complete guide co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Reverse Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm Triangle from Scarf Hold Position",
+      "description": "Arm Triangle from Reverse Scarf Hold film study: Arm Triangle from Scarf Hold Position, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xz9-FEBFFIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xz9-FEBFFIo",
+      "url": "https://www.youtube.com/watch?v=xz9-FEBFFIo",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Kesa Gatame Arm Attack Roll Over",
+      "description": "Arm Triangle from Reverse Scarf Hold film study: Reverse Kesa Gatame Arm Attack Roll Over, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5POG6rDBVLM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5POG6rDBVLM",
+      "url": "https://www.youtube.com/watch?v=5POG6rDBVLM",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm Attack Options from Scarf Hold",
+      "description": "Arm Triangle from Reverse Scarf Hold film study: Arm Attack Options from Scarf Hold, taught by Alexey Olynick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/17m6bnarNdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/17m6bnarNdE",
+      "url": "https://www.youtube.com/watch?v=17m6bnarNdE",
+      "creator": { "@type": "Person", "name": "Alexey Olynick" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ This submission is particularly effective in competition when opponents focus on
 **Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] · **From**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Reverse Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xz9-FEBFFIo)
+
+<p class="clip-credit"><strong>Arm Triangle from Scarf Hold Position</strong> — taught by Mat Life Training Center · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5POG6rDBVLM)
+
+<p class="clip-credit"><strong>Reverse Kesa Gatame Arm Attack Roll Over</strong> — taught by Carlos Machado · 1:53 · <a href="https://www.youtube.com/watch?v=5POG6rDBVLM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=17m6bnarNdE)
+
+<p class="clip-credit"><strong>Arm Attack Options from Scarf Hold</strong> — taught by Alexey Olynick · 1:29 · <a href="https://www.youtube.com/watch?v=17m6bnarNdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

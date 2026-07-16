@@ -174,6 +174,43 @@ description: "How to execute Counter Sweep in BJJ. Attacking perspective with se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard counter sweep vs a head hug",
+      "description": "Counter Sweep (Attacker) film study: Closed guard counter sweep vs a head hug, taught by Jiu Jitsu Five-O coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xDOjrYFJf5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xDOjrYFJf5Y",
+      "url": "https://www.youtube.com/watch?v=xDOjrYFJf5Y",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O coach" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sweeping off an arm drag counter",
+      "description": "Counter Sweep (Attacker) film study: Sweeping off an arm drag counter, taught by JiuJitsu.com coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_uXZgaQm9jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_uXZgaQm9jg",
+      "url": "https://www.youtube.com/watch?v=_uXZgaQm9jg",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com coach" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Counter sweeping from the attacker's perspective means you are the top player ne
 **From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xDOjrYFJf5Y)
+
+<p class="clip-credit"><strong>Closed guard counter sweep vs a head hug</strong> — taught by Jiu Jitsu Five-O coach · 1:10 · <a href="https://www.youtube.com/watch?v=xDOjrYFJf5Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_uXZgaQm9jg)
+
+<p class="clip-credit"><strong>Sweeping off an arm drag counter</strong> — taught by JiuJitsu.com coach · 2:17 · <a href="https://www.youtube.com/watch?v=_uXZgaQm9jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

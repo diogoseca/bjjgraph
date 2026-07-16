@@ -148,6 +148,43 @@ description: "How to defend against Sprawl and Disengage in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sprawl and Disengage (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Recovering from a failed single leg after the sprawl",
+      "description": "Sprawl and Disengage (Defender) film study: Recovering from a failed single leg after the sprawl, taught by LI MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FYs8bJ4Olc4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FYs8bJ4Olc4",
+      "url": "https://www.youtube.com/watch?v=FYs8bJ4Olc4",
+      "creator": { "@type": "Person", "name": "LI MMA" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the single leg when the opponent sprawls hard",
+      "description": "Sprawl and Disengage (Defender) film study: Finishing the single leg when the opponent sprawls hard, taught by CMPTV.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lBOQ0KCygp4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lBOQ0KCygp4",
+      "url": "https://www.youtube.com/watch?v=lBOQ0KCygp4",
+      "creator": { "@type": "Person", "name": "CMPTV" },
+      "duration": "PT183S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The key defensive framework involves recognizing which phase of the sprawl your 
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sprawl and Disengage (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FYs8bJ4Olc4)
+
+<p class="clip-credit"><strong>Recovering from a failed single leg after the sprawl</strong> — taught by LI MMA · 1:34 · <a href="https://www.youtube.com/watch?v=FYs8bJ4Olc4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lBOQ0KCygp4)
+
+<p class="clip-credit"><strong>Finishing the single leg when the opponent sprawls hard</strong> — taught by CMPTV · 3:03 · <a href="https://www.youtube.com/watch?v=lBOQ0KCygp4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

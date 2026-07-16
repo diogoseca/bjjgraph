@@ -34,6 +34,43 @@ description: "Master Double Jump position in BJJ. Dynamic half guard control tec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Jump \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard Old School Sweep",
+      "description": "Double Jump film study: Half Guard Old School Sweep, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half Guard Coyote to the Back",
+      "description": "Double Jump film study: Half Guard Coyote to the Back, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gGgG5t1pxsY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gGgG5t1pxsY",
+      "url": "https://www.youtube.com/watch?v=gGgG5t1pxsY",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT181S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the top perspective, Double Jump represents an advanced turtle attack utili
 Both perspectives share the common principle of using leg-based controls to create explosive positional changes, though they operate in opposite tactical contexts. Understanding both perspectives provides complete mastery of this modern positional concept.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Jump in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Half Guard Old School Sweep</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gGgG5t1pxsY)
+
+<p class="clip-credit"><strong>Half Guard Coyote to the Back</strong> — taught by Carpio Jiu Jitsu · 3:01 · <a href="https://www.youtube.com/watch?v=gGgG5t1pxsY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

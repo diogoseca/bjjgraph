@@ -140,6 +140,54 @@ description: "Defend against Knee Shield recovery from Quarter Guard top. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield from Quarter Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard escape and pass, with slow motion",
+      "description": "Knee Shield from Quarter Guard (Defender) film study: Quarter guard escape and pass, with slow motion, taught by Marcus Almeida.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8lAqEhHz8ao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8lAqEhHz8ao",
+      "url": "https://www.youtube.com/watch?v=8lAqEhHz8ao",
+      "creator": { "@type": "Person", "name": "Marcus Almeida" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Freeing your foot while passing half guard",
+      "description": "Knee Shield from Quarter Guard (Defender) film study: Freeing your foot while passing half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the quarter guard with a back step",
+      "description": "Knee Shield from Quarter Guard (Defender) film study: Passing the quarter guard with a back step, taught by Ashure Elbanna.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r5TVxSXdsCY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r5TVxSXdsCY",
+      "url": "https://www.youtube.com/watch?v=r5TVxSXdsCY",
+      "creator": { "@type": "Person", "name": "Ashure Elbanna" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender in this context, you are the top player in quarter guard attempt
 **Opponent's Starting Position**: [[Positions/Quarter Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield from Quarter Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8lAqEhHz8ao)
+
+<p class="clip-credit"><strong>Quarter guard escape and pass, with slow motion</strong> — taught by Marcus Almeida · 0:37 · <a href="https://www.youtube.com/watch?v=8lAqEhHz8ao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Freeing your foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r5TVxSXdsCY)
+
+<p class="clip-credit"><strong>Passing the quarter guard with a back step</strong> — taught by Ashure Elbanna · 1:40 · <a href="https://www.youtube.com/watch?v=r5TVxSXdsCY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

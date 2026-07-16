@@ -34,6 +34,54 @@ description: "Master the fight from Saddle bottom to Inside Ashi-Garami. Systema
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Fight to Inside Ashi from Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle entries from guard",
+      "description": "Fight to Inside Ashi from Saddle film study: Saddle entries from guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
+      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Easy entry to the saddle (inside sankaku)",
+      "description": "Fight to Inside Ashi from Saddle film study: Easy entry to the saddle (inside sankaku), taught by Ilya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
+      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
+      "creator": { "@type": "Person", "name": "Ilya" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ashi garami counter into the saddle",
+      "description": "Fight to Inside Ashi from Saddle film study: Ashi garami counter into the saddle, taught by Mr. Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zXeMxV_3a50/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zXeMxV_3a50",
+      "url": "https://www.youtube.com/watch?v=zXeMxV_3a50",
+      "creator": { "@type": "Person", "name": "Mr. Heel Hook" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This approach has gained prominence through high-level competition, where practi
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Fight to Inside Ashi from Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
+
+<p class="clip-credit"><strong>Saddle entries from guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HniaoFWTsmI)
+
+<p class="clip-credit"><strong>Easy entry to the saddle (inside sankaku)</strong> — taught by Ilya · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zXeMxV_3a50)
+
+<p class="clip-credit"><strong>Ashi garami counter into the saddle</strong> — taught by Mr. Heel Hook · 1:25 · <a href="https://www.youtube.com/watch?v=zXeMxV_3a50" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

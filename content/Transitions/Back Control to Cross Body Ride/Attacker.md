@@ -168,6 +168,54 @@ description: "Master executing the transition from back control to cross body ri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Cross Body Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting the leg in: ankle lift to cross body ride",
+      "description": "Back Control to Cross Body Ride (Attacker) film study: Getting the leg in: ankle lift to cross body ride, taught by Hideout Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/355ZYLDGjqw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/355ZYLDGjqw",
+      "url": "https://www.youtube.com/watch?v=355ZYLDGjqw",
+      "creator": { "@type": "Person", "name": "Hideout Wrestling" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg riding with a cross body ride",
+      "description": "Back Control to Cross Body Ride (Attacker) film study: Leg riding with a cross body ride, taught by Grapple Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kyn30KTFmzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kyn30KTFmzc",
+      "url": "https://www.youtube.com/watch?v=Kyn30KTFmzc",
+      "creator": { "@type": "Person", "name": "Grapple Academy" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross body ride entry from knee shield",
+      "description": "Back Control to Cross Body Ride (Attacker) film study: Cross body ride entry from knee shield, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h3C7rZzKHVY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h3C7rZzKHVY",
+      "url": "https://www.youtube.com/watch?v=h3C7rZzKHVY",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 **From Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Cross Body Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=355ZYLDGjqw)
+
+<p class="clip-credit"><strong>Getting the leg in: ankle lift to cross body ride</strong> — taught by Hideout Wrestling · 0:44 · <a href="https://www.youtube.com/watch?v=355ZYLDGjqw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kyn30KTFmzc)
+
+<p class="clip-credit"><strong>Leg riding with a cross body ride</strong> — taught by Grapple Academy · 1:35 · <a href="https://www.youtube.com/watch?v=Kyn30KTFmzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h3C7rZzKHVY)
+
+<p class="clip-credit"><strong>Cross body ride entry from knee shield</strong> — taught by BOWERHOUSE MMA · 0:25 · <a href="https://www.youtube.com/watch?v=h3C7rZzKHVY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

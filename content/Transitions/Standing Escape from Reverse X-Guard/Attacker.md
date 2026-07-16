@@ -180,6 +180,43 @@ description: "Execute the Standing Escape from Reverse X-Guard as the top player
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Escape from Reverse X-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X escape to back take",
+      "description": "Standing Escape from Reverse X-Guard (Attacker) film study: Single leg X escape to back take, taught by Ronin Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TwE_vhlV13g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TwE_vhlV13g",
+      "url": "https://www.youtube.com/watch?v=TwE_vhlV13g",
+      "creator": { "@type": "Person", "name": "Ronin Training Center" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing X guard from standing",
+      "description": "Standing Escape from Reverse X-Guard (Attacker) film study: Passing X guard from standing, taught by Kaynan Duarte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C1lYVhDXwvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C1lYVhDXwvw",
+      "url": "https://www.youtube.com/watch?v=C1lYVhDXwvw",
+      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ Executing the Standing Escape from Reverse X-Guard requires systematic dismantli
 **From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Escape from Reverse X-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TwE_vhlV13g)
+
+<p class="clip-credit"><strong>Single leg X escape to back take</strong> — taught by Ronin Training Center · 1:03 · <a href="https://www.youtube.com/watch?v=TwE_vhlV13g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C1lYVhDXwvw)
+
+<p class="clip-credit"><strong>Passing X guard from standing</strong> — taught by Kaynan Duarte · 1:56 · <a href="https://www.youtube.com/watch?v=C1lYVhDXwvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

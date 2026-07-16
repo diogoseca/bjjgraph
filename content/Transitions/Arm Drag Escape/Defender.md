@@ -148,6 +148,43 @@ description: "How to defend against Arm Drag Escape in BJJ. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sucker Drag Defense Against the Front Headlock",
+      "description": "Arm Drag Escape (Defender) film study: Sucker Drag Defense Against the Front Headlock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8N4F3EgOZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8N4F3EgOZk",
+      "url": "https://www.youtube.com/watch?v=c8N4F3EgOZk",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Short Drag Defence from Front Headlock",
+      "description": "Arm Drag Escape (Defender) film study: Short Drag Defence from Front Headlock, taught by Bermuda Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YL7t8YMfLmc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YL7t8YMfLmc",
+      "url": "https://www.youtube.com/watch?v=YL7t8YMfLmc",
+      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Strategically, the most effective defense combines grip denial with offensive pr
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8N4F3EgOZk)
+
+<p class="clip-credit"><strong>Sucker Drag Defense Against the Front Headlock</strong> — taught by Procel BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=c8N4F3EgOZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YL7t8YMfLmc)
+
+<p class="clip-credit"><strong>Short Drag Defence from Front Headlock</strong> — taught by Bermuda Martial Arts · 2:11 · <a href="https://www.youtube.com/watch?v=YL7t8YMfLmc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Open Guard to Lasso Sweep",
+      "description": "Lasso Guard film study: Open Guard to Lasso Sweep, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
+      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso Sweep from Closed Guard",
+      "description": "Lasso Guard film study: Lasso Sweep from Closed Guard, taught by Ralph Gracie BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3zM3gZsUPWc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3zM3gZsUPWc",
+      "url": "https://www.youtube.com/watch?v=3zM3gZsUPWc",
+      "creator": { "@type": "Person", "name": "Ralph Gracie BJJ" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lasso Guard to Arm Drag Sweep",
+      "description": "Lasso Guard film study: Lasso Guard to Arm Drag Sweep, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K4n_MQnR08c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K4n_MQnR08c",
+      "url": "https://www.youtube.com/watch?v=K4n_MQnR08c",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ Historically, Lasso Guard gained prominence through Brazilian competitors in the
 Understanding Lasso Guard requires appreciation for both its strengths and limitations. While it offers tremendous control over one arm, it commits your leg to a specific position that can be vulnerable to certain passing methods. Successful application demands constant grip management, hip mobility, and the ability to transition fluidly when the opponent begins to counter the position. Mastery involves developing the sensitivity to recognize when to maintain the lasso and when to abandon it for superior positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
+
+<p class="clip-credit"><strong>Open Guard to Lasso Sweep</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3zM3gZsUPWc)
+
+<p class="clip-credit"><strong>Lasso Sweep from Closed Guard</strong> — taught by Ralph Gracie BJJ · 0:39 · <a href="https://www.youtube.com/watch?v=3zM3gZsUPWc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K4n_MQnR08c)
+
+<p class="clip-credit"><strong>Lasso Guard to Arm Drag Sweep</strong> — taught by Xande Ribeiro · 2:30 · <a href="https://www.youtube.com/watch?v=K4n_MQnR08c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

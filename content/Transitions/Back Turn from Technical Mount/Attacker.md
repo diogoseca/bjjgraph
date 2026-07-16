@@ -174,6 +174,43 @@ description: "Complete guide to executing the back turn from technical mount bot
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Turn from Technical Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount escape turning in to darce",
+      "description": "Back Turn from Technical Mount (Attacker) film study: Technical mount escape turning in to darce, taught by Ari.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Za5f-J8FcBg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Za5f-J8FcBg",
+      "url": "https://www.youtube.com/watch?v=Za5f-J8FcBg",
+      "creator": { "@type": "Person", "name": "Ari" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "First three mount escapes you need to know",
+      "description": "Back Turn from Technical Mount (Attacker) film study: First three mount escapes you need to know, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SYel-mVSMAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SYel-mVSMAI",
+      "url": "https://www.youtube.com/watch?v=SYel-mVSMAI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT285S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the bottom player in technical mount, you execute the back turn when the armb
 **From Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Turn from Technical Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Za5f-J8FcBg)
+
+<p class="clip-credit"><strong>Technical mount escape turning in to darce</strong> — taught by Ari · 1:12 · <a href="https://www.youtube.com/watch?v=Za5f-J8FcBg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SYel-mVSMAI)
+
+<p class="clip-credit"><strong>First three mount escapes you need to know</strong> — taught by Brandon McCaghren · 4:45 · <a href="https://www.youtube.com/watch?v=SYel-mVSMAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

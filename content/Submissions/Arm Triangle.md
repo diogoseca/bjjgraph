@@ -35,6 +35,65 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The mounted arm triangle",
+      "description": "Arm Triangle film study: The mounted arm triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tc-XXMg7v48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tc-XXMg7v48",
+      "url": "https://www.youtube.com/watch?v=tc-XXMg7v48",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing head-and-arm chokes the right way",
+      "description": "Arm Triangle film study: Finishing head-and-arm chokes the right way, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YHCZ7SHep5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YHCZ7SHep5k",
+      "url": "https://www.youtube.com/watch?v=YHCZ7SHep5k",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Head and arm choke from mount finishing details",
+      "description": "Arm Triangle film study: Head and arm choke from mount finishing details, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wrZCRBlAB3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wrZCRBlAB3Y",
+      "url": "https://www.youtube.com/watch?v=wrZCRBlAB3Y",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT265S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Von Flu and arm triangle",
+      "description": "Arm Triangle film study: Von Flu and arm triangle, taught by Pure Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WSz5MbUhb_0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WSz5MbUhb_0",
+      "url": "https://www.youtube.com/watch?v=WSz5MbUhb_0",
+      "creator": { "@type": "Person", "name": "Pure Grappling" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,6 +143,50 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the opponent's own shoulder and arm to compress one carotid artery while your arm compresses the other. Unlike the rear naked choke which requires access to both sides of the neck, the arm triangle turns the opponent's defensive frame into an offensive weapon. This submission is particularly effective from side control and can be finished from multiple positions including modified mount, north-south transition, and even from turtle when the opponent is defending incorrectly. The mechanics rely on proper head positioning, shoulder pressure, and controlled weight distribution rather than pure strength. Understanding the anatomy of the choke—creating a triangle with your arms around the opponent's head and their own arm—is essential for consistent finishing. The arm triangle represents a perfect example of using an opponent's defensive structure against them, making it a high-percentage submission across all skill levels when the fundamental mechanics are properly applied.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tc-XXMg7v48)
+
+<p class="clip-credit"><strong>The mounted arm triangle</strong> — taught by Coach Brian · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YHCZ7SHep5k)
+
+<p class="clip-credit"><strong>Finishing head-and-arm chokes the right way</strong> — taught by Henry Akins · 1:28 · <a href="https://www.youtube.com/watch?v=YHCZ7SHep5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wrZCRBlAB3Y)
+
+<p class="clip-credit"><strong>Head and arm choke from mount finishing details</strong> — taught by Roger Gracie · 4:25 · <a href="https://www.youtube.com/watch?v=wrZCRBlAB3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WSz5MbUhb_0)
+
+<p class="clip-credit"><strong>Von Flu and arm triangle</strong> — taught by Pure Grappling · 0:52 · <a href="https://www.youtube.com/watch?v=WSz5MbUhb_0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

@@ -34,6 +34,54 @@ description: "Master pressure passing through squid guard in BJJ. Defeat arm lap
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure Pass Through Squid \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Folding to foot wipe pass",
+      "description": "Pressure Pass Through Squid film study: Folding to foot wipe pass, taught by Mitsuyoshi Hayakawa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nhm_0i9rd88/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nhm_0i9rd88",
+      "url": "https://www.youtube.com/watch?v=nhm_0i9rd88",
+      "creator": { "@type": "Person", "name": "Mitsuyoshi Hayakawa" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass the lapel squid guard",
+      "description": "Pressure Pass Through Squid film study: How to pass the lapel squid guard, taught by Nick Salles and Danny Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nPT4tqORpOA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nPT4tqORpOA",
+      "url": "https://www.youtube.com/watch?v=nPT4tqORpOA",
+      "creator": { "@type": "Person", "name": "Nick Salles and Danny Maira" },
+      "duration": "PT672S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing one of the most annoying guards in BJJ",
+      "description": "Pressure Pass Through Squid film study: Passing one of the most annoying guards in BJJ, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uvuV9GnMvFQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uvuV9GnMvFQ",
+      "url": "https://www.youtube.com/watch?v=uvuV9GnMvFQ",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT458S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this technique should be deployed when you recognize squid guard 
 **Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure Pass Through Squid in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nhm_0i9rd88)
+
+<p class="clip-credit"><strong>Folding to foot wipe pass</strong> — taught by Mitsuyoshi Hayakawa · 0:24 · <a href="https://www.youtube.com/watch?v=nhm_0i9rd88" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nPT4tqORpOA)
+
+<p class="clip-credit"><strong>How to pass the lapel squid guard</strong> — taught by Nick Salles and Danny Maira · 11:12 · <a href="https://www.youtube.com/watch?v=nPT4tqORpOA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uvuV9GnMvFQ)
+
+<p class="clip-credit"><strong>Passing one of the most annoying guards in BJJ</strong> — taught by Jon Thomas · 7:38 · <a href="https://www.youtube.com/watch?v=uvuV9GnMvFQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

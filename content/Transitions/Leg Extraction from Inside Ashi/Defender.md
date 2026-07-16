@@ -140,6 +140,54 @@ description: "Defend against leg extraction from Inside Ashi-Garami. Techniques 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Inside Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion escape",
+      "description": "Leg Extraction from Inside Ashi (Defender) film study: Countering a full inversion escape, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside Sankaku Recovery: The Bear Trap",
+      "description": "Leg Extraction from Inside Ashi (Defender) film study: Inside Sankaku Recovery: The Bear Trap, taught by Ed Ingamells.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZaIn-9crgXY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZaIn-9crgXY",
+      "url": "https://www.youtube.com/watch?v=ZaIn-9crgXY",
+      "creator": { "@type": "Person", "name": "Ed Ingamells" },
+      "duration": "PT407S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Keeping the Knee Line by Bending the Knee",
+      "description": "Leg Extraction from Inside Ashi (Defender) film study: Keeping the Knee Line by Bending the Knee, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pl_2oDznYKc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pl_2oDznYKc",
+      "url": "https://www.youtube.com/watch?v=Pl_2oDznYKc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against leg extraction—meaning you are the leg lock player mai
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Inside Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion escape</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZaIn-9crgXY)
+
+<p class="clip-credit"><strong>Inside Sankaku Recovery: The Bear Trap</strong> — taught by Ed Ingamells · 6:47 · <a href="https://www.youtube.com/watch?v=ZaIn-9crgXY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pl_2oDznYKc)
+
+<p class="clip-credit"><strong>Keeping the Knee Line by Bending the Knee</strong> — taught by Lachlan Giles · 4:33 · <a href="https://www.youtube.com/watch?v=Pl_2oDznYKc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Grip Strip from Buggy Choke in BJJ. Complete guide to a
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Strip from Buggy Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Don\u0027t tap to the buggy choke \u2014 strip the grip",
+      "description": "Grip Strip from Buggy Choke film study: Don\u0027t tap to the buggy choke \u2014 strip the grip, taught by Caique.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bVS-dLgu_v4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bVS-dLgu_v4",
+      "url": "https://www.youtube.com/watch?v=bVS-dLgu_v4",
+      "creator": { "@type": "Person", "name": "Caique" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How I Escape Everyone\u0027s Buggy Choke",
+      "description": "Grip Strip from Buggy Choke film study: How I Escape Everyone\u0027s Buggy Choke, taught by CrashAndFlowBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4svhwZLlHvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4svhwZLlHvY",
+      "url": "https://www.youtube.com/watch?v=4svhwZLlHvY",
+      "creator": { "@type": "Person", "name": "CrashAndFlowBJJ" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Avoid These 3 Common Buggy Choke Mistakes",
+      "description": "Grip Strip from Buggy Choke film study: Avoid These 3 Common Buggy Choke Mistakes, taught by Jay Rod.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MjKERx4N4mY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MjKERx4N4mY",
+      "url": "https://www.youtube.com/watch?v=MjKERx4N4mY",
+      "creator": { "@type": "Person", "name": "Jay Rod" },
+      "duration": "PT413S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Understanding when to transition from submission attempt to positional control d
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Strip from Buggy Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bVS-dLgu_v4)
+
+<p class="clip-credit"><strong>Don&#39;t tap to the buggy choke — strip the grip</strong> — taught by Caique · 1:01 · <a href="https://www.youtube.com/watch?v=bVS-dLgu_v4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4svhwZLlHvY)
+
+<p class="clip-credit"><strong>How I Escape Everyone&#39;s Buggy Choke</strong> — taught by CrashAndFlowBJJ · 2:00 · <a href="https://www.youtube.com/watch?v=4svhwZLlHvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MjKERx4N4mY)
+
+<p class="clip-credit"><strong>Avoid These 3 Common Buggy Choke Mistakes</strong> — taught by Jay Rod · 6:53 · <a href="https://www.youtube.com/watch?v=MjKERx4N4mY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

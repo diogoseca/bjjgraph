@@ -168,6 +168,43 @@ description: "How to execute Follow to Back Control in BJJ. Attacking perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Follow to Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Following to the back when they slip the heel",
+      "description": "Follow to Back Control (Attacker) film study: Following to the back when they slip the heel, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cNpVTxV0WGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cNpVTxV0WGs",
+      "url": "https://www.youtube.com/watch?v=cNpVTxV0WGs",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back take from the leg entanglement",
+      "description": "Follow to Back Control (Attacker) film study: Back take from the leg entanglement, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i0Pm_LapXNA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i0Pm_LapXNA",
+      "url": "https://www.youtube.com/watch?v=i0Pm_LapXNA",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT223S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Success depends on three sequential priorities: follow with hips to eliminate sp
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Follow to Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cNpVTxV0WGs)
+
+<p class="clip-credit"><strong>Following to the back when they slip the heel</strong> — taught by Factory Fresh Jiu Jitsu · 0:20 · <a href="https://www.youtube.com/watch?v=cNpVTxV0WGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i0Pm_LapXNA)
+
+<p class="clip-credit"><strong>Back take from the leg entanglement</strong> — taught by Brandon Quick · 3:43 · <a href="https://www.youtube.com/watch?v=i0Pm_LapXNA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

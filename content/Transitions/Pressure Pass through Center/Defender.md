@@ -142,6 +142,54 @@ description: "How to defend against Pressure Pass through Center in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure Pass through Center (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass counter with the funk roll",
+      "description": "Pressure Pass through Center (Defender) film study: Stack pass counter with the funk roll, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hj1nHZUZvoA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hj1nHZUZvoA",
+      "url": "https://www.youtube.com/watch?v=hj1nHZUZvoA",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stack pass defense into triangle trap",
+      "description": "Pressure Pass through Center (Defender) film study: Stack pass defense into triangle trap, taught by Mark Cerrone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mOvf60z4HS0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mOvf60z4HS0",
+      "url": "https://www.youtube.com/watch?v=mOvf60z4HS0",
+      "creator": { "@type": "Person", "name": "Mark Cerrone" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention when they get around the legs",
+      "description": "Pressure Pass through Center (Defender) film study: Guard retention when they get around the legs, taught by Absolute MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Absolute MMA" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +201,42 @@ The most effective defense begins before the pass is initiated. By maintaining a
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure Pass through Center (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hj1nHZUZvoA)
+
+<p class="clip-credit"><strong>Stack pass counter with the funk roll</strong> — taught by Adam Bradley · 1:00 · <a href="https://www.youtube.com/watch?v=hj1nHZUZvoA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mOvf60z4HS0)
+
+<p class="clip-credit"><strong>Stack pass defense into triangle trap</strong> — taught by Mark Cerrone · 1:01 · <a href="https://www.youtube.com/watch?v=mOvf60z4HS0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Guard retention when they get around the legs</strong> — taught by Absolute MMA · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

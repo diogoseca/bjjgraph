@@ -153,6 +153,54 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Quarter Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard concepts",
+      "description": "Quarter Guard (Bottom) film study: Quarter guard concepts, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMsgoChdaHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMsgoChdaHE",
+      "url": "https://www.youtube.com/watch?v=sMsgoChdaHE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter guard dogfight scoop sweep",
+      "description": "Quarter Guard (Bottom) film study: Quarter guard dogfight scoop sweep, taught by Christopher Hendrick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jqz8_dbsfM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jqz8_dbsfM",
+      "url": "https://www.youtube.com/watch?v=3Jqz8_dbsfM",
+      "creator": { "@type": "Person", "name": "Christopher Hendrick" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quarter guard back step to heel hook",
+      "description": "Quarter Guard (Bottom) film study: Quarter guard back step to heel hook, taught by Subforce.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9OVINPV6FkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9OVINPV6FkY",
+      "url": "https://www.youtube.com/watch?v=9OVINPV6FkY",
+      "creator": { "@type": "Person", "name": "Subforce" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The quarter guard requires active defensive awareness combined with offensive in
 Success in quarter guard bottom depends on maintaining the underhook, creating angles with hip movement, and recognizing when to commit to sweeps versus recovering full guard. The position rewards technical precision over strength, making it accessible to practitioners of all sizes while offering multiple pathways to dominant positions. The bottom player must embrace the urgency of the situation—quarter guard bottom deteriorates within seconds under competent pressure, making immediate offensive action essential rather than optional.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Quarter Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMsgoChdaHE)
+
+<p class="clip-credit"><strong>Quarter guard concepts</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jqz8_dbsfM)
+
+<p class="clip-credit"><strong>Quarter guard dogfight scoop sweep</strong> — taught by Christopher Hendrick · 0:45 · <a href="https://www.youtube.com/watch?v=3Jqz8_dbsfM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9OVINPV6FkY)
+
+<p class="clip-credit"><strong>Quarter guard back step to heel hook</strong> — taught by Subforce · 0:30 · <a href="https://www.youtube.com/watch?v=9OVINPV6FkY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Learn Elevation Sweep from Reverse X-Guard in BJJ. Step-by-step ex
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elevation Sweep to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X Guard no-gi system: enter, elevate, sweep",
+      "description": "Elevation Sweep to Mount film study: X Guard no-gi system: enter, elevate, sweep, taught by Energia Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zNmrvurVcVE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zNmrvurVcVE",
+      "url": "https://www.youtube.com/watch?v=zNmrvurVcVE",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
+      "duration": "PT857S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inverted X guard: three elevation sweep options",
+      "description": "Elevation Sweep to Mount film study: Inverted X guard: three elevation sweep options, taught by Six Blades Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/btdC6P-aStI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/btdC6P-aStI",
+      "url": "https://www.youtube.com/watch?v=btdC6P-aStI",
+      "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This sweep integrates naturally into the Reverse X-Guard attack system, function
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elevation Sweep to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zNmrvurVcVE)
+
+<p class="clip-credit"><strong>X Guard no-gi system: enter, elevate, sweep</strong> — taught by Energia Martial Arts · 14:17 · <a href="https://www.youtube.com/watch?v=zNmrvurVcVE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=btdC6P-aStI)
+
+<p class="clip-credit"><strong>Inverted X guard: three elevation sweep options</strong> — taught by Six Blades Jiu-Jitsu · 3:21 · <a href="https://www.youtube.com/watch?v=btdC6P-aStI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

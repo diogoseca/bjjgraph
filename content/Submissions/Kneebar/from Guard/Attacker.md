@@ -170,6 +170,54 @@ description: "How to execute Kneebar from Guard in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Matrix Kneebar / Heel Hook",
+      "description": "Kneebar from Guard (Attacker) film study: Matrix Kneebar / Heel Hook, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HQSxxYL1Aew/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HQSxxYL1Aew",
+      "url": "https://www.youtube.com/watch?v=HQSxxYL1Aew",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-Gi Kneebar Technique",
+      "description": "Kneebar from Guard (Attacker) film study: No-Gi Kneebar Technique, taught by FreeChannelOpen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/12rNXPlqVXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/12rNXPlqVXo",
+      "url": "https://www.youtube.com/watch?v=12rNXPlqVXo",
+      "creator": { "@type": "Person", "name": "FreeChannelOpen" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar to Wreck the Knee",
+      "description": "Kneebar from Guard (Attacker) film study: Kneebar to Wreck the Knee, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rueVPIyTezo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rueVPIyTezo",
+      "url": "https://www.youtube.com/watch?v=rueVPIyTezo",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HQSxxYL1Aew)
+
+<p class="clip-credit"><strong>Matrix Kneebar / Heel Hook</strong> — taught by Mikey Musumeci · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=12rNXPlqVXo)
+
+<p class="clip-credit"><strong>No-Gi Kneebar Technique</strong> — taught by FreeChannelOpen · 0:20 · <a href="https://www.youtube.com/watch?v=12rNXPlqVXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rueVPIyTezo)
+
+<p class="clip-credit"><strong>Kneebar to Wreck the Knee</strong> — taught by Jean Jacques Machado · 1:16 · <a href="https://www.youtube.com/watch?v=rueVPIyTezo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

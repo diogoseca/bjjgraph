@@ -35,6 +35,43 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete guide coverin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Fireman\u0027s Carry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fireman\u0027s carry takedown demonstration",
+      "description": "Fireman\u0027s Carry film study: Fireman\u0027s carry takedown demonstration, taught by Benjamin Hahn.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DcJIXsSNc-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DcJIXsSNc-0",
+      "url": "https://www.youtube.com/watch?v=DcJIXsSNc-0",
+      "creator": { "@type": "Person", "name": "Benjamin Hahn" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fireman\u0027s carry entry and finish",
+      "description": "Fireman\u0027s Carry film study: Fireman\u0027s carry entry and finish, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_WGwKJy7VV0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_WGwKJy7VV0",
+      "url": "https://www.youtube.com/watch?v=_WGwKJy7VV0",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 **Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Fireman's Carry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DcJIXsSNc-0)
+
+<p class="clip-credit"><strong>Fireman&#39;s carry takedown demonstration</strong> — taught by Benjamin Hahn · 1:04 · <a href="https://www.youtube.com/watch?v=DcJIXsSNc-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_WGwKJy7VV0)
+
+<p class="clip-credit"><strong>Fireman&#39;s carry entry and finish</strong> — taught by BOWERHOUSE MMA · 0:44 · <a href="https://www.youtube.com/watch?v=_WGwKJy7VV0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

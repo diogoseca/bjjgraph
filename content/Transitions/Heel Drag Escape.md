@@ -34,6 +34,43 @@ description: "Master the Heel Drag Escape from mount in BJJ. Learn precise heel 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Drag Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount escape to ankle lock",
+      "description": "Heel Drag Escape film study: Mount escape to ankle lock, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/to2pdxtUpVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/to2pdxtUpVU",
+      "url": "https://www.youtube.com/watch?v=to2pdxtUpVU",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape with the foot lift",
+      "description": "Heel Drag Escape film study: Mount escape with the foot lift, taught by P5 Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fK3On64P2cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fK3On64P2cg",
+      "url": "https://www.youtube.com/watch?v=fK3On64P2cg",
+      "creator": { "@type": "Person", "name": "P5 Academy" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a positional chess perspective, the heel drag escape is a critical componen
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Drag Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=to2pdxtUpVU)
+
+<p class="clip-credit"><strong>Mount escape to ankle lock</strong> — taught by Andy Tong · 0:50 · <a href="https://www.youtube.com/watch?v=to2pdxtUpVU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fK3On64P2cg)
+
+<p class="clip-credit"><strong>Mount escape with the foot lift</strong> — taught by P5 Academy · 1:33 · <a href="https://www.youtube.com/watch?v=fK3On64P2cg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Master defending against the New York Control Escape. Maintain rub
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Control Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber Guard Theory - Control Concepts",
+      "description": "New York Control Escape (Defender) film study: Rubber Guard Theory - Control Concepts, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NfR86wov0f8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NfR86wov0f8",
+      "url": "https://www.youtube.com/watch?v=NfR86wov0f8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT264S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why Rubber Guard Doesn\u0027t Work - Countering It",
+      "description": "New York Control Escape (Defender) film study: Why Rubber Guard Doesn\u0027t Work - Countering It, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
+      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT792S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the New York Control Escape requires the bottom player to reco
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Control Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NfR86wov0f8)
+
+<p class="clip-credit"><strong>Rubber Guard Theory - Control Concepts</strong> — taught by Eddie Bravo · 4:24 · <a href="https://www.youtube.com/watch?v=NfR86wov0f8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
+
+<p class="clip-credit"><strong>Why Rubber Guard Doesn&#39;t Work - Countering It</strong> — taught by Brandon McCaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

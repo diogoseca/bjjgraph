@@ -148,6 +148,43 @@ description: "How to defend against X Pass in BJJ. Recognition cues, defensive o
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Headquarters retention for the open guard player",
+      "description": "X Pass (Defender) film study: Headquarters retention for the open guard player, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7zCdpY8nKug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7zCdpY8nKug",
+      "url": "https://www.youtube.com/watch?v=7zCdpY8nKug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT586S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defeating the weave pass with the underhook",
+      "description": "X Pass (Defender) film study: Defeating the weave pass with the underhook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZXt2yzy0BL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZXt2yzy0BL0",
+      "url": "https://www.youtube.com/watch?v=ZXt2yzy0BL0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT249S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the X Pass requires early recognition of the passer's intent and immed
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7zCdpY8nKug)
+
+<p class="clip-credit"><strong>Headquarters retention for the open guard player</strong> — taught by Lachlan Giles · 9:46 · <a href="https://www.youtube.com/watch?v=7zCdpY8nKug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZXt2yzy0BL0)
+
+<p class="clip-credit"><strong>Defeating the weave pass with the underhook</strong> — taught by Lachlan Giles · 4:09 · <a href="https://www.youtube.com/watch?v=ZXt2yzy0BL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

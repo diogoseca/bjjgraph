@@ -34,6 +34,65 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Aoki lock breakdown",
+      "description": "Aoki Lock film study: Aoki lock breakdown, taught by Escuela de Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qRH7g21c6xQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qRH7g21c6xQ",
+      "url": "https://www.youtube.com/watch?v=qRH7g21c6xQ",
+      "creator": { "@type": "Person", "name": "Escuela de Grappling" },
+      "duration": "PT199S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling no-gi calf slicer",
+      "description": "Aoki Lock film study: Rolling no-gi calf slicer, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMhOsw3wRQg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMhOsw3wRQg",
+      "url": "https://www.youtube.com/watch?v=vMhOsw3wRQg",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bear trap into calf slicer",
+      "description": "Aoki Lock film study: Bear trap into calf slicer, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6M0HvIFfc-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6M0HvIFfc-w",
+      "url": "https://www.youtube.com/watch?v=6M0HvIFfc-w",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Aoki lock from butterfly ashi",
+      "description": "Aoki Lock film study: Aoki lock from butterfly ashi, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tQWfhZiDREc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tQWfhZiDREc",
+      "url": "https://www.youtube.com/watch?v=tQWfhZiDREc",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +139,50 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated leg compression submission that targets the opponent's shin and ankle through extreme plantar flexion and compression forces. Unlike traditional heel hooks or kneebars that attack specific joints, the Aoki Lock creates intense pressure across multiple structures of the lower leg simultaneously, making it extremely painful and effective for securing taps. The submission works by trapping the opponent's foot in a figure-four configuration while using your legs to apply tremendous squeezing pressure, forcing the foot into extreme plantar flexion while compressing the shin and calf muscle. This creates a unique combination of joint stress and muscular compression that becomes unbearable rapidly. The Aoki Lock is particularly effective from ashi garami positions and 50-50 configurations where traditional heel hooks might be defended. Its unconventional mechanics often catch opponents off-guard, as the setup can appear less threatening than a heel hook until the pressure is fully applied. The technique requires excellent leg dexterity and hip flexibility to properly configure the figure-four trap, making it a more advanced submission that rewards technical precision over raw strength.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qRH7g21c6xQ)
+
+<p class="clip-credit"><strong>Aoki lock breakdown</strong> — taught by Escuela de Grappling · 3:19 · <a href="https://www.youtube.com/watch?v=qRH7g21c6xQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMhOsw3wRQg)
+
+<p class="clip-credit"><strong>Rolling no-gi calf slicer</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=vMhOsw3wRQg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6M0HvIFfc-w)
+
+<p class="clip-credit"><strong>Bear trap into calf slicer</strong> — taught by Revolution BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=6M0HvIFfc-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tQWfhZiDREc)
+
+<p class="clip-credit"><strong>Aoki lock from butterfly ashi</strong> — taught by Factory Fresh Jiu Jitsu · 1:17 · <a href="https://www.youtube.com/watch?v=tQWfhZiDREc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

@@ -148,6 +148,43 @@ description: "Learn to prevent the Chill Dog hip escape to half guard. Counter e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Chill Dog (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Retaining Chill Dog into the Omoplata attack",
+      "description": "Escape Chill Dog (Defender) film study: Retaining Chill Dog into the Omoplata attack, taught by Marshall Stamper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2zillrf6gGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2zillrf6gGs",
+      "url": "https://www.youtube.com/watch?v=2zillrf6gGs",
+      "creator": { "@type": "Person", "name": "Marshall Stamper" },
+      "duration": "PT195S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking the half guard to shut down rubber guard",
+      "description": "Escape Chill Dog (Defender) film study: Breaking the half guard to shut down rubber guard, taught by 10th Planet Jiu Jitsu West LA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JZ-h0ohQTvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JZ-h0ohQTvA",
+      "url": "https://www.youtube.com/watch?v=JZ-h0ohQTvA",
+      "creator": { "@type": "Person", "name": "10th Planet Jiu Jitsu West LA" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against Escape Chill Dog, you are the top player working to main
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Chill Dog (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2zillrf6gGs)
+
+<p class="clip-credit"><strong>Retaining Chill Dog into the Omoplata attack</strong> — taught by Marshall Stamper · 3:15 · <a href="https://www.youtube.com/watch?v=2zillrf6gGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JZ-h0ohQTvA)
+
+<p class="clip-credit"><strong>Breaking the half guard to shut down rubber guard</strong> — taught by 10th Planet Jiu Jitsu West LA · 0:42 · <a href="https://www.youtube.com/watch?v=JZ-h0ohQTvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

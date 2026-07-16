@@ -153,6 +153,54 @@ description: "Navigate Butterfly Guard Top in BJJ. Passing strategies against ho
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "1-minute butterfly guard pass",
+      "description": "Butterfly Guard (Top) film study: 1-minute butterfly guard pass, taught by Phil Migliarese.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cUTZ4bpZVUU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cUTZ4bpZVUU",
+      "url": "https://www.youtube.com/watch?v=cUTZ4bpZVUU",
+      "creator": { "@type": "Person", "name": "Phil Migliarese" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly guard cartwheel pass",
+      "description": "Butterfly Guard (Top) film study: Butterfly guard cartwheel pass, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/khanfPFPpIc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/khanfPFPpIc",
+      "url": "https://www.youtube.com/watch?v=khanfPFPpIc",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing butterfly from standing (knee slide)",
+      "description": "Butterfly Guard (Top) film study: Passing butterfly from standing (knee slide), taught by Coach William.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yo6xI2LammA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yo6xI2LammA",
+      "url": "https://www.youtube.com/watch?v=yo6xI2LammA",
+      "creator": { "@type": "Person", "name": "Coach William" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ From a tactical perspective, passing butterfly guard requires specific technical
 Elite competitors approach butterfly guard top by viewing it as an opportunity to bait reactions and capitalize on the bottom player's offensive attempts. When the bottom player commits to sweeps or transitions, brief moments of vulnerability emerge where quick passing opportunities present themselves. Understanding the timing and mechanics of butterfly guard attacks allows the top player to anticipate and counter these attempts, turning defensive situations into offensive opportunities. Success from top requires reading the bottom player's intentions, managing distance and grips strategically, and executing precise passing sequences when windows of opportunity appear.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cUTZ4bpZVUU)
+
+<p class="clip-credit"><strong>1-minute butterfly guard pass</strong> — taught by Phil Migliarese · 1:12 · <a href="https://www.youtube.com/watch?v=cUTZ4bpZVUU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=khanfPFPpIc)
+
+<p class="clip-credit"><strong>Butterfly guard cartwheel pass</strong> — taught by The Base Jiu Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=khanfPFPpIc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yo6xI2LammA)
+
+<p class="clip-credit"><strong>Passing butterfly from standing (knee slide)</strong> — taught by Coach William · 1:38 · <a href="https://www.youtube.com/watch?v=yo6xI2LammA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

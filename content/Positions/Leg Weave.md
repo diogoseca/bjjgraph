@@ -34,6 +34,43 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Weave \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock pass with leg split",
+      "description": "Leg Weave film study: Body lock pass with leg split, taught by SpringHillBjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nqFlswgRLnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nqFlswgRLnE",
+      "url": "https://www.youtube.com/watch?v=nqFlswgRLnE",
+      "creator": { "@type": "Person", "name": "SpringHillBjj" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing guard using the legs",
+      "description": "Leg Weave film study: Passing guard using the legs, taught by SBG Rossendale.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G5SOKMLRvMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G5SOKMLRvMU",
+      "url": "https://www.youtube.com/watch?v=G5SOKMLRvMU",
+      "creator": { "@type": "Person", "name": "SBG Rossendale" },
+      "duration": "PT144S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the bottom perspective, leg weave represents a high-pressure defensive scen
 Mastery of both perspectives is essential for modern grapplers, as the leg weave has become increasingly prevalent in high-level competition where traditional guard retention methods are systematically dismantled. Understanding the mechanical principles, pressure points, and timing windows from both angles creates a complete picture of this transitional battleground.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Weave in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nqFlswgRLnE)
+
+<p class="clip-credit"><strong>Body lock pass with leg split</strong> — taught by SpringHillBjj · 1:17 · <a href="https://www.youtube.com/watch?v=nqFlswgRLnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G5SOKMLRvMU)
+
+<p class="clip-credit"><strong>Passing guard using the legs</strong> — taught by SBG Rossendale · 2:24 · <a href="https://www.youtube.com/watch?v=G5SOKMLRvMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

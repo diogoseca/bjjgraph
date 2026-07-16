@@ -34,6 +34,54 @@ description: "Master hand control extraction from gogoplata in BJJ. Systematic g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Control to Extract \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard hand control and posture breakdown",
+      "description": "Hand Control to Extract film study: Rubber guard hand control and posture breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
+      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT521S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why your rubber guard won\u0027t work - hand control",
+      "description": "Hand Control to Extract film study: Why your rubber guard won\u0027t work - hand control, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J4KvinANGLs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J4KvinANGLs",
+      "url": "https://www.youtube.com/watch?v=J4KvinANGLs",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT295S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hacking The Triangle Choke - arm extraction",
+      "description": "Hand Control to Extract film study: Hacking The Triangle Choke - arm extraction, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DR5JMK9nIVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DR5JMK9nIVw",
+      "url": "https://www.youtube.com/watch?v=DR5JMK9nIVw",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this escape works best when the gogoplata is not fully locked. Th
 **Success Rate**: 52%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Control to Extract in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
+
+<p class="clip-credit"><strong>Rubber guard hand control and posture breakdown</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J4KvinANGLs)
+
+<p class="clip-credit"><strong>Why your rubber guard won&#39;t work - hand control</strong> — taught by Brandon McCaghren · 4:55 · <a href="https://www.youtube.com/watch?v=J4KvinANGLs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DR5JMK9nIVw)
+
+<p class="clip-credit"><strong>Hacking The Triangle Choke - arm extraction</strong> — taught by Brandon McCaghren · 1:01 · <a href="https://www.youtube.com/watch?v=DR5JMK9nIVw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Feet on Hips Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting the Feet on Biceps Position",
+      "description": "Feet on Hips Guard film study: Getting the Feet on Biceps Position, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
+      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic Guard: Feet to Hips",
+      "description": "Feet on Hips Guard film study: Basic Guard: Feet to Hips, taught by Martial Arts Concepts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OEzteWy4psQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OEzteWy4psQ",
+      "url": "https://www.youtube.com/watch?v=OEzteWy4psQ",
+      "creator": { "@type": "Person", "name": "Martial Arts Concepts" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Open Guard Feet On The Hips Series: 2 Key Steps",
+      "description": "Feet on Hips Guard film study: Open Guard Feet On The Hips Series: 2 Key Steps, taught by Nemesis Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yrU-DdcJBgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yrU-DdcJBgY",
+      "url": "https://www.youtube.com/watch?v=yrU-DdcJBgY",
+      "creator": { "@type": "Person", "name": "Nemesis Jiu Jitsu" },
+      "duration": "PT378S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ From a pedagogical standpoint, feet on hips guard teaches beginners the fundamen
 The position excels against standing and combat base opponents, using leg extension to manage engagement distance. However, its effectiveness depends on active implementation—static feet-on-hips frames eventually succumb to persistent pressure and grip control. Successful practitioners use this position as a transitional hub, constantly threatening attacks and guard changes that prevent the opponent from settling into passing sequences. The position's low risk profile and medium energy cost make it sustainable for extended periods, but its true power emerges when used dynamically as part of a comprehensive guard system.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Feet on Hips Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
+
+<p class="clip-credit"><strong>Getting the Feet on Biceps Position</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OEzteWy4psQ)
+
+<p class="clip-credit"><strong>Basic Guard: Feet to Hips</strong> — taught by Martial Arts Concepts · 1:42 · <a href="https://www.youtube.com/watch?v=OEzteWy4psQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yrU-DdcJBgY)
+
+<p class="clip-credit"><strong>Open Guard Feet On The Hips Series: 2 Key Steps</strong> — taught by Nemesis Jiu Jitsu · 6:18 · <a href="https://www.youtube.com/watch?v=yrU-DdcJBgY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

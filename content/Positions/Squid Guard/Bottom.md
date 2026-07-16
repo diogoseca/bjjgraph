@@ -153,6 +153,54 @@ description: "Master Squid Guard Bottom in BJJ. Advanced asymmetrical guard with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Squid Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm \u0026 squid guard vs black belt champ",
+      "description": "Squid Guard (Bottom) film study: Worm \u0026 squid guard vs black belt champ, taught by BJJ Hacks.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QW8av8U2h-k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QW8av8U2h-k",
+      "url": "https://www.youtube.com/watch?v=QW8av8U2h-k",
+      "creator": { "@type": "Person", "name": "BJJ Hacks" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Keenan\u0027s new lapel guard",
+      "description": "Squid Guard (Bottom) film study: Keenan\u0027s new lapel guard, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z14Nz40c52s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z14Nz40c52s",
+      "url": "https://www.youtube.com/watch?v=Z14Nz40c52s",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Secure the proto-guard grips",
+      "description": "Squid Guard (Bottom) film study: Secure the proto-guard grips, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ba5KOGBUpNo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ba5KOGBUpNo",
+      "url": "https://www.youtube.com/watch?v=ba5KOGBUpNo",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The Squid Guard excels at creating dilemmas for the top player through its uncon
 While technically demanding and requiring significant flexibility, coordination, and lapel manipulation skills, the Squid Guard offers a high ceiling for advanced practitioners. The position integrates well into modern guard retention systems and provides unique pathways to dominant positions that bypass traditional guard passing exchanges. Success in this position depends on maintaining active leg tension, controlling lapel grips, and recognizing the timing windows for attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Squid Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QW8av8U2h-k)
+
+<p class="clip-credit"><strong>Worm &amp; squid guard vs black belt champ</strong> — taught by BJJ Hacks · 1:24 · <a href="https://www.youtube.com/watch?v=QW8av8U2h-k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z14Nz40c52s)
+
+<p class="clip-credit"><strong>Keenan&#39;s new lapel guard</strong> — taught by Keenan Cornelius · 3:11 · <a href="https://www.youtube.com/watch?v=Z14Nz40c52s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ba5KOGBUpNo)
+
+<p class="clip-credit"><strong>Secure the proto-guard grips</strong> — taught by Keenan Cornelius · 3:50 · <a href="https://www.youtube.com/watch?v=ba5KOGBUpNo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

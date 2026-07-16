@@ -148,6 +148,54 @@ description: "Defend against the Double Jump to Side Control transition. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Jump to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape from turtle control",
+      "description": "Double Jump to Side Control (Defender) film study: Escape from turtle control, taught by Carlson Gracie Team CT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JsiYZcOJXxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JsiYZcOJXxg",
+      "url": "https://www.youtube.com/watch?v=JsiYZcOJXxg",
+      "creator": { "@type": "Person", "name": "Carlson Gracie Team CT" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing up from turtle defense",
+      "description": "Double Jump to Side Control (Defender) film study: Standing up from turtle defense, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ways to get out of the turtle",
+      "description": "Double Jump to Side Control (Defender) film study: Ways to get out of the turtle, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zxSKKUroV6Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zxSKKUroV6Q",
+      "url": "https://www.youtube.com/watch?v=zxSKKUroV6Q",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT214S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender must understand that maintaining a sealed, static turtle position�
 **Opponent's Starting Position**: [[Positions/Double Jump]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Jump to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JsiYZcOJXxg)
+
+<p class="clip-credit"><strong>Escape from turtle control</strong> — taught by Carlson Gracie Team CT · 0:48 · <a href="https://www.youtube.com/watch?v=JsiYZcOJXxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing up from turtle defense</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zxSKKUroV6Q)
+
+<p class="clip-credit"><strong>Ways to get out of the turtle</strong> — taught by Jean Jacques Machado · 3:34 · <a href="https://www.youtube.com/watch?v=zxSKKUroV6Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master bridge defense from mounted triangle in BJJ. Explosive esca
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Defense from Mounted Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bridge escape from mounted headlock",
+      "description": "Bridge Defense from Mounted Triangle film study: Bridge escape from mounted headlock, taught by astinus4.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B7IqvaOiwgo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B7IqvaOiwgo",
+      "url": "https://www.youtube.com/watch?v=B7IqvaOiwgo",
+      "creator": { "@type": "Person", "name": "astinus4" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the mount by bridging",
+      "description": "Bridge Defense from Mounted Triangle film study: Escaping the mount by bridging, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R21vtm5BHF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R21vtm5BHF4",
+      "url": "https://www.youtube.com/watch?v=R21vtm5BHF4",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this technique serves as both a direct escape method and a positi
 **Success Rate**: 35%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Defense from Mounted Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B7IqvaOiwgo)
+
+<p class="clip-credit"><strong>Bridge escape from mounted headlock</strong> — taught by astinus4 · 0:52 · <a href="https://www.youtube.com/watch?v=B7IqvaOiwgo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R21vtm5BHF4)
+
+<p class="clip-credit"><strong>Escaping the mount by bridging</strong> — taught by Pantera Jiujitsu · 1:20 · <a href="https://www.youtube.com/watch?v=R21vtm5BHF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

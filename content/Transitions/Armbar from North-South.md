@@ -34,6 +34,54 @@ description: "Master the Armbar from North-South in BJJ. Complete guide covering
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from North-South \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Step-by-step armbar from north-south",
+      "description": "Armbar from North-South film study: Step-by-step armbar from north-south, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Of3maBI47t4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Of3maBI47t4",
+      "url": "https://www.youtube.com/watch?v=Of3maBI47t4",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT148S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North-south armbar breakdown",
+      "description": "Armbar from North-South film study: North-south armbar breakdown, taught by Firas Zahabi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eaK1RnJI-Is/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eaK1RnJI-Is",
+      "url": "https://www.youtube.com/watch?v=eaK1RnJI-Is",
+      "creator": { "@type": "Person", "name": "Firas Zahabi" },
+      "duration": "PT183S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Key lock to armbar from north-south",
+      "description": "Armbar from North-South film study: Key lock to armbar from north-south, taught by CSW Fullerton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0oOITtbennM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0oOITtbennM",
+      "url": "https://www.youtube.com/watch?v=0oOITtbennM",
+      "creator": { "@type": "Person", "name": "CSW Fullerton" },
+      "duration": "PT174S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from North-South in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Of3maBI47t4)
+
+<p class="clip-credit"><strong>Step-by-step armbar from north-south</strong> — taught by Jean Jacques Machado · 2:28 · <a href="https://www.youtube.com/watch?v=Of3maBI47t4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eaK1RnJI-Is)
+
+<p class="clip-credit"><strong>North-south armbar breakdown</strong> — taught by Firas Zahabi · 3:03 · <a href="https://www.youtube.com/watch?v=eaK1RnJI-Is" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0oOITtbennM)
+
+<p class="clip-credit"><strong>Key lock to armbar from north-south</strong> — taught by CSW Fullerton · 2:54 · <a href="https://www.youtube.com/watch?v=0oOITtbennM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

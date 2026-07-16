@@ -34,6 +34,54 @@ description: "Master the Double Sleeve to Spider Guard transition in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve to Spider \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double sleeve guard sweep",
+      "description": "Double Sleeve to Spider film study: Double sleeve guard sweep, taught by Han Bin Seo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UiLkVg7by60/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UiLkVg7by60",
+      "url": "https://www.youtube.com/watch?v=UiLkVg7by60",
+      "creator": { "@type": "Person", "name": "Han Bin Seo" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider guard double sleeve triangle choke",
+      "description": "Double Sleeve to Spider film study: Spider guard double sleeve triangle choke, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WQcr_6wkXo8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WQcr_6wkXo8",
+      "url": "https://www.youtube.com/watch?v=WQcr_6wkXo8",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Spider guard sweep to one leg X sweep to side control",
+      "description": "Double Sleeve to Spider film study: Spider guard sweep to one leg X sweep to side control, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CphfVS-0W6Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CphfVS-0W6Y",
+      "url": "https://www.youtube.com/watch?v=CphfVS-0W6Y",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Timing is critical in this transition. Moving both feet simultaneously to the bi
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve to Spider in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UiLkVg7by60)
+
+<p class="clip-credit"><strong>Double sleeve guard sweep</strong> — taught by Han Bin Seo · 0:16 · <a href="https://www.youtube.com/watch?v=UiLkVg7by60" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WQcr_6wkXo8)
+
+<p class="clip-credit"><strong>Spider guard double sleeve triangle choke</strong> — taught by Ritchie Yip · 0:25 · <a href="https://www.youtube.com/watch?v=WQcr_6wkXo8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CphfVS-0W6Y)
+
+<p class="clip-credit"><strong>Spider guard sweep to one leg X sweep to side control</strong> — taught by Lucas Lepri · 0:35 · <a href="https://www.youtube.com/watch?v=CphfVS-0W6Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

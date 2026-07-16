@@ -148,6 +148,54 @@ description: "How to defend against Long Step Pass in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Long Step Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Trapping the long step pass",
+      "description": "Long Step Pass (Defender) film study: Trapping the long step pass, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hvq9Mm2gwtk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hvq9Mm2gwtk",
+      "url": "https://www.youtube.com/watch?v=hvq9Mm2gwtk",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT169S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Headquarters retention for the open guard player",
+      "description": "Long Step Pass (Defender) film study: Headquarters retention for the open guard player, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7zCdpY8nKug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7zCdpY8nKug",
+      "url": "https://www.youtube.com/watch?v=7zCdpY8nKug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT586S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Retention against passes from headquarters",
+      "description": "Long Step Pass (Defender) film study: Retention against passes from headquarters, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P4JGqlSKGek/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P4JGqlSKGek",
+      "url": "https://www.youtube.com/watch?v=P4JGqlSKGek",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT348S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defensive hierarchy against the Long Step Pass follows three stages: prevent
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Long Step Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hvq9Mm2gwtk)
+
+<p class="clip-credit"><strong>Trapping the long step pass</strong> — taught by Jean Jacques Machado · 2:49 · <a href="https://www.youtube.com/watch?v=hvq9Mm2gwtk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7zCdpY8nKug)
+
+<p class="clip-credit"><strong>Headquarters retention for the open guard player</strong> — taught by Lachlan Giles · 9:46 · <a href="https://www.youtube.com/watch?v=7zCdpY8nKug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P4JGqlSKGek)
+
+<p class="clip-credit"><strong>Retention against passes from headquarters</strong> — taught by Lachlan Giles · 5:48 · <a href="https://www.youtube.com/watch?v=P4JGqlSKGek" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

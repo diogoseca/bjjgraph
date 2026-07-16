@@ -35,6 +35,65 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 Spinning Kneebar",
+      "description": "Kneebar film study: 50/50 Spinning Kneebar, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-5BXaxHLsyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-5BXaxHLsyo",
+      "url": "https://www.youtube.com/watch?v=-5BXaxHLsyo",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 Kneebar from Top",
+      "description": "Kneebar film study: 50/50 Kneebar from Top, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4DMk3pavYFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4DMk3pavYFA",
+      "url": "https://www.youtube.com/watch?v=4DMk3pavYFA",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar from Bottom 50/50",
+      "description": "Kneebar film study: Kneebar from Bottom 50/50, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hn5ts5EWZ1A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hn5ts5EWZ1A",
+      "url": "https://www.youtube.com/watch?v=hn5ts5EWZ1A",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Go Behind Kneebar",
+      "description": "Kneebar film study: Go Behind Kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +145,50 @@ As one of the most accessible entries into modern leg lock systems, the Kneebar 
 The technique has evolved significantly with modern leg lock systems, particularly through systematic approaches that have refined entries, controls, and finishing mechanics. Understanding proper kneebar application requires not just technical knowledge of the finish, but comprehensive awareness of the control positions that precede it, the defensive reactions opponents employ, and the biomechanical principles that make the submission effective. The kneebar exists within a broader ecosystem of leg attacks, often serving as a transitional threat that opens opportunities for other submissions or positional advances. When an opponent hides their heel to defend heel hook attempts, the kneebar becomes the natural alternative, creating the kind of dilemma-based offense that defines elite leg lock systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-5BXaxHLsyo)
+
+<p class="clip-credit"><strong>50/50 Spinning Kneebar</strong> — taught by Revolution BJJ · 1:37 · <a href="https://www.youtube.com/watch?v=-5BXaxHLsyo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4DMk3pavYFA)
+
+<p class="clip-credit"><strong>50/50 Kneebar from Top</strong> — taught by Revolution BJJ · 2:06 · <a href="https://www.youtube.com/watch?v=4DMk3pavYFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hn5ts5EWZ1A)
+
+<p class="clip-credit"><strong>Kneebar from Bottom 50/50</strong> — taught by Dr. Deng · 0:17 · <a href="https://www.youtube.com/watch?v=hn5ts5EWZ1A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

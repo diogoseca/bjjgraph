@@ -158,6 +158,43 @@ description: "Learn to defend the Gift Wrap Armbar in BJJ. Recognition cues, esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Armbar from Gift Wrap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the gift wrap",
+      "description": "Gift Wrap Armbar from Gift Wrap (Defender) film study: Escaping the gift wrap, taught by The Jiu Jitsu Pedia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
+      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
+      "creator": { "@type": "Person", "name": "The Jiu Jitsu Pedia" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift wrap escape in 60 seconds",
+      "description": "Gift Wrap Armbar from Gift Wrap (Defender) film study: Gift wrap escape in 60 seconds, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sD5jAuHaKKQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sD5jAuHaKKQ",
+      "url": "https://www.youtube.com/watch?v=sD5jAuHaKKQ",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Defending the Gift Wrap Armbar requires recognizing the attack early and address
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Armbar from Gift Wrap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
+
+<p class="clip-credit"><strong>Escaping the gift wrap</strong> — taught by The Jiu Jitsu Pedia · 0:48 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sD5jAuHaKKQ)
+
+<p class="clip-credit"><strong>Gift wrap escape in 60 seconds</strong> — taught by Chosen Few BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sD5jAuHaKKQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

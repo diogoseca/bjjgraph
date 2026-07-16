@@ -34,6 +34,54 @@ description: "Master the sit out escape from turtle in BJJ. Learn hip rotation m
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sit Out from Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sit out from turtle with head on back",
+      "description": "Sit Out from Turtle film study: Sit out from turtle with head on back, taught by Mjolnir Fight Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
+      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
+      "creator": { "@type": "Person", "name": "Mjolnir Fight Club" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to do the turtle sit out escape",
+      "description": "Sit Out from Turtle film study: How to do the turtle sit out escape, taught by Diaz Combat Sports.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7biwctrcRck/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7biwctrcRck",
+      "url": "https://www.youtube.com/watch?v=7biwctrcRck",
+      "creator": { "@type": "Person", "name": "Diaz Combat Sports" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Peek out / sit out from bottom turtle",
+      "description": "Sit Out from Turtle film study: Peek out / sit out from bottom turtle, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_OPv4LuzgW0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_OPv4LuzgW0",
+      "url": "https://www.youtube.com/watch?v=_OPv4LuzgW0",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The sit out pairs effectively with other turtle escapes in a chain attack system
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sit Out from Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d312j3n9fIw)
+
+<p class="clip-credit"><strong>Sit out from turtle with head on back</strong> — taught by Mjolnir Fight Club · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7biwctrcRck)
+
+<p class="clip-credit"><strong>How to do the turtle sit out escape</strong> — taught by Diaz Combat Sports · 0:48 · <a href="https://www.youtube.com/watch?v=7biwctrcRck" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_OPv4LuzgW0)
+
+<p class="clip-credit"><strong>Peek out / sit out from bottom turtle</strong> — taught by Scott Ryan Chiriboga · 1:34 · <a href="https://www.youtube.com/watch?v=_OPv4LuzgW0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

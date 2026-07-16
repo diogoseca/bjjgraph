@@ -176,6 +176,43 @@ description: "Learn to attack the Short Choke from Back Control. Step-by-step cr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke from Back Position",
+      "description": "Short Choke from Back Control (Attacker) film study: Short Choke from Back Position, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shirt Choke From Back Mount",
+      "description": "Short Choke from Back Control (Attacker) film study: Shirt Choke From Back Mount, taught by Defender Combatives.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E_M4Y0_hxsk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E_M4Y0_hxsk",
+      "url": "https://www.youtube.com/watch?v=E_M4Y0_hxsk",
+      "creator": { "@type": "Person", "name": "Defender Combatives" },
+      "duration": "PT14S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the Short Choke from Back Control requires methodical grip establ
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short Choke from Back Position</strong> — taught by Cosens MMA · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E_M4Y0_hxsk)
+
+<p class="clip-credit"><strong>Shirt Choke From Back Mount</strong> — taught by Defender Combatives · 0:14 · <a href="https://www.youtube.com/watch?v=E_M4Y0_hxsk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -140,6 +140,43 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Strip Grip from Zombie (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown Clinches",
+      "description": "Strip Grip from Zombie (Defender) film study: Lockdown Clinches, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "6 Jiu-Jitsu Grip Breaks You Need To Know",
+      "description": "Strip Grip from Zombie (Defender) film study: 6 Jiu-Jitsu Grip Breaks You Need To Know, taught by Erika Dawn.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_QTNEn4xasI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_QTNEn4xasI",
+      "url": "https://www.youtube.com/watch?v=_QTNEn4xasI",
+      "creator": { "@type": "Person", "name": "Erika Dawn" },
+      "duration": "PT267S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Strip Grip from Zombie (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown Clinches</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_QTNEn4xasI)
+
+<p class="clip-credit"><strong>6 Jiu-Jitsu Grip Breaks You Need To Know</strong> — taught by Erika Dawn · 4:27 · <a href="https://www.youtube.com/watch?v=_QTNEn4xasI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

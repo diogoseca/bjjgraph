@@ -34,6 +34,54 @@ description: "Master the Z-Guard Sweep in BJJ. Step-by-step guide to using knee 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Guard Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 underhook sweeps from knee shield",
+      "description": "Z-Guard Sweep film study: 3 underhook sweeps from knee shield, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BCnjULrSSPw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BCnjULrSSPw",
+      "url": "https://www.youtube.com/watch?v=BCnjULrSSPw",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee shield sweep from half guard",
+      "description": "Z-Guard Sweep film study: Knee shield sweep from half guard, taught by Rituals Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wd0Ne503BNE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wd0Ne503BNE",
+      "url": "https://www.youtube.com/watch?v=Wd0Ne503BNE",
+      "creator": { "@type": "Person", "name": "Rituals Jiu Jitsu coach" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse Z-Guard options, Craig Jones style",
+      "description": "Z-Guard Sweep film study: Reverse Z-Guard options, Craig Jones style, taught by Phantom Punch coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TrVf9YzEe0E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TrVf9YzEe0E",
+      "url": "https://www.youtube.com/watch?v=TrVf9YzEe0E",
+      "creator": { "@type": "Person", "name": "Phantom Punch coach" },
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a systematic perspective, the Z-Guard Sweep complements the underhook-based
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Guard Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BCnjULrSSPw)
+
+<p class="clip-credit"><strong>3 underhook sweeps from knee shield</strong> — taught by Kameron Ross · 0:38 · <a href="https://www.youtube.com/watch?v=BCnjULrSSPw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wd0Ne503BNE)
+
+<p class="clip-credit"><strong>Knee shield sweep from half guard</strong> — taught by Rituals Jiu Jitsu coach · 2:07 · <a href="https://www.youtube.com/watch?v=Wd0Ne503BNE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TrVf9YzEe0E)
+
+<p class="clip-credit"><strong>Reverse Z-Guard options, Craig Jones style</strong> — taught by Phantom Punch coach · 2:19 · <a href="https://www.youtube.com/watch?v=TrVf9YzEe0E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
