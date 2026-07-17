@@ -7,7 +7,7 @@ export default defineConfig({
   testDir: "./journeys",
   timeout: 240_000, // per-test ceiling; sim time is pumped, so real time only covers boots + evaluates (CI runners run ~4x slower than the dev box)
   retries: 0, // journeys are deterministic by design — a retry hides a rails bug
-  workers: 1, // deterministic suite; parallel workers only contend for the 13MB payloads
+  workers: 1, // measured: workers=2 is only ~20% faster locally (CPU-bound frame pumps) and risks re-introducing boot timeouts on 2-core CI runners
   reporter: [["list"], ["html", { outputFolder: "report", open: "never" }]],
   use: {
     baseURL: "http://localhost:8123",

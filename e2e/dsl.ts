@@ -92,7 +92,7 @@ export class Journey {
           return !!(a && a.nodes && a.nodes.length && typeof a.advance === "function" && a.flashcards && a.flashcards.decks)
         },
         undefined,
-        { timeout: 90_000 }, // payloads are memory-fulfilled; logic never needs this long
+        { timeout: 120_000 }, // payloads are memory-fulfilled; generous headroom for loaded 2-core CI runners
       )
     } catch {
       // enrich the timeout with a snapshot so a CI-only stall names its blocker in the log
@@ -102,6 +102,8 @@ export class Journey {
           hasNeural: !!(window as any).__neural,
           nodes: (window as any).__neural?.nodes?.length ?? null,
           hasFlashcards: !!(window as any).__neural?.flashcards,
+          hasDecks: !!(window as any).__neural?.flashcards?.decks, // every predicate clause, so a stall names its blocker exactly
+          advanceType: typeof (window as any).__neural?.advance,
           pending: performance
             .getEntriesByType("resource")
             .filter((r: any) => !r.responseEnd)
@@ -266,6 +268,11 @@ export class Journey {
   }
 
   async keyframe(name: string) {
+    // Gallery keyframes are for the owner's LOCAL review — CI never keeps them, and a
+    // full-page screenshot of the software-WebGL canvas wedges the shared browser's raster
+    // pipeline long enough to starve the NEXT test's boot on a 2-core runner (every CI boot
+    // timeout across three runs followed a keyframe; screenshot-free tests never stalled).
+    if (process.env.CI) return this
     await this.page.screenshot({ path: `e2e/gallery/${name}.png` })
     return this
   }
