@@ -39,7 +39,15 @@ export class Journey {
    *  preserveStorage skips the localStorage wipe for THIS boot — for persistence journeys
    *  (ladder, coach) that assert state SURVIVES a reload. Implemented via a one-shot
    *  sessionStorage flag because addInitScript registrations accumulate across boots. */
-  async boot(path = "/", opts: { seedRolls?: Record<string, number[]>; preserveStorage?: boolean } = {}) {
+  async boot(
+    path = "/",
+    opts: {
+      seedRolls?: Record<string, number[]>
+      preserveStorage?: boolean
+      /** synthetic bjj-neural-progress blob, applied post-wipe pre-app-read (hash-carried) */
+      initialState?: Record<string, unknown>
+    } = {},
+  ) {
     if (!(this.page as any).__ngInit) {
       ;(this.page as any).__ngInit = true
       await this.page.addInitScript(() => {
@@ -54,9 +62,24 @@ export class Journey {
         // engage test mode BEFORE the bundle boots: the app checks this flag at construction
         ;(window as any).__NEURAL_TEST__ = true
       })
+      // initialState seeding: the blob rides the navigation's own hash, so it lands AFTER the
+      // wipe above and BEFORE any page script, and a later boot can never replay a stale seed
+      // (addInitScript args are frozen at registration — a mutable-holder design would leak).
+      await this.page.addInitScript(() => {
+        try {
+          const m = location.hash.match(/ngseed=([^&]+)/)
+          if (m) {
+            localStorage.setItem("bjj-neural-progress", decodeURIComponent(m[1]))
+            history.replaceState(null, "", location.pathname + location.search)
+          }
+        } catch {}
+      })
     }
     if (opts.preserveStorage) {
       await this.page.evaluate(() => sessionStorage.setItem("__ng_keep", "1")).catch(() => {})
+    }
+    if (opts.initialState) {
+      path += `#ngseed=${encodeURIComponent(JSON.stringify(opts.initialState))}`
     }
     // journeys don't need the 20MB dossier payload — abort it (the app is absence-guarded).
     // Register ONCE per page: duplicate handlers + a prior boot's in-flight aborts can cancel
@@ -78,6 +101,15 @@ export class Journey {
       await this.page.route("**/graph-data.json", (r) =>
         r.fulfill({ body: payload("graph-data.json"), contentType: "application/json" }),
       )
+      // hermetic curriculum: the emitted file when present (Phase 1+), a clean 404 before —
+      // never aborted by the catch-all, never streamed off-box
+      await this.page.route("**/curriculum.json", (r) => {
+        try {
+          r.fulfill({ body: payload("curriculum.json"), contentType: "application/json" })
+        } catch {
+          r.fulfill({ status: 404, contentType: "application/json", body: "" })
+        }
+      })
       ;(this.page as any).__ngRouted = true
     }
     try {

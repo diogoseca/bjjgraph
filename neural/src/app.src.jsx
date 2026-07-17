@@ -4038,6 +4038,7 @@ class Component extends DCLogic {
     if (!trans.length && subs.length) pFinish = 0.9;
     if (subs.length && this.rng("opp-finish") < pFinish) {
       const def = subs[(this.rng("opp-sub-pick") * subs.length) | 0];
+      this.fx("opponent_attack", { technique: this.nodes[def].t, idx: def }); // belt-pool journeys assert on this
       this.flare(def);
       this.setEvent("Opponent attacks", this.nodes[def].t, "bad");
       this.activeMove = { idx: def, verb: "Attacking", col: { r: 255, g: 110, b: 110 } };
@@ -4049,6 +4050,7 @@ class Component extends DCLogic {
     trans.sort((a, b) => this.oppVal(this.nodes[this.resultPos(b, this.currentPos)] || this.nodes[b]) - this.oppVal(this.nodes[this.resultPos(a, this.currentPos)] || this.nodes[a]));
     const def = (trans.length ? trans : subs)[(this.rng("opp-pick") * Math.min(3, (trans.length ? trans : subs).length)) | 0];
     const defNode = this.nodes[def];
+    this.fx("opponent_move", { technique: defNode.t, idx: def });
     // calibrated destination: draw from the move's own cal.outcomes (encodes the miss distribution),
     // fall back to the legacy resultPos heuristic when the node is uncalibrated.
     const draw = this.drawOutcome(defNode);
