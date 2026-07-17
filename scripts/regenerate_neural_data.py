@@ -22,6 +22,7 @@ Deterministic (stable ordering) so re-runs diff cleanly; safe to wire into `rege
 Read-only w.r.t. all existing content/graph.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -151,13 +152,38 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
     return {"nodes": nodes, "links": links}
 
 
+MC_LINE_BUDGET = 36  # one-line MC option cap; keep in sync with app.src.jsx MC_LINE
+
+
+def _mc_clip(a: str):
+    """First sentence, <=160 chars (mirrors app.src.jsx mcClip) — the display-answer fallback
+    for cards that have no authored one-line `answer_line` yet."""
+    m = re.match(r"[\s\S]*?[.!?]", a or "")
+    seg = (m.group(0) if m else (a or "")).strip()
+    return seg if 0 < len(seg) <= 160 else None
+
+
 def _qa_cards(fc: list) -> list:
+    """Neural card: {q, a, d?, mc?}. `a` = the DISPLAY answer (authored one-line `answer_line`
+    when present, else the clipped first sentence, else the full answer). `d` = the full
+    explanation, emitted only when it differs from `a` (the post-reveal "more" tooltip). `mc` =
+    {p,t} authored one-line distractor tiers when present (graded plausible/trap)."""
     out = []
     for c in fc or []:
         q = c.get("q") or c.get("question")
-        a = c.get("a") or c.get("answer")
-        if q and a:
-            out.append({"q": q, "a": a})
+        full = c.get("a") or c.get("answer")
+        if not (q and full):
+            continue
+        line = c.get("answer_line") or _mc_clip(full) or full
+        card = {"q": q, "a": line}
+        if full != line:
+            card["d"] = full
+        d = c.get("distractors") or {}
+        p = [x for x in (d.get("plausible") or []) if x]
+        t = [x for x in (d.get("trap") or []) if x]
+        if p or t:
+            card["mc"] = {"p": p, "t": t}
+        out.append(card)
     return out
 
 
@@ -172,11 +198,11 @@ def _blend_deck(role_cards: list, pos_cards: list, fam_cards: list, pos_tag: str
     pos_h, fam_h = [], []
     for c in pos_cards:
         if c["q"] not in seen:
-            pos_h.append({"q": c["q"], "a": c["a"], "tag": pos_tag})
+            pos_h.append({**c, "tag": pos_tag})
             seen.add(c["q"])
     for c in fam_cards:
         if c["q"] not in seen:
-            fam_h.append({"q": c["q"], "a": c["a"], "tag": fam_tag})
+            fam_h.append({**c, "tag": fam_tag})
             seen.add(c["q"])
     # interleave position + family so the ~20% seasoning is a MIX of both scopes (a "High Mount"
     # card and a "Mount" card), not all of one tier

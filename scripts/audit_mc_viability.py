@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from collections import defaultdict
@@ -184,6 +185,50 @@ def golden_anchor_check() -> str | None:
     return None
 
 
+MC_LINE_BUDGET = 36  # one-line option cap; keep in sync with app.src.jsx MC_LINE + bridge
+
+
+def oneline_report():
+    """Scan content/*.json for authored one-line MC. Returns (violations, cards_with_line,
+    total_cards). A violation = an answer_line, or a distractor on an answer_line-backed card,
+    that exceeds MC_LINE_BUDGET (the rendered one-line budget). Legacy P2b distractors WITHOUT
+    an answer_line are NOT gated here — Phase B rewrites them one-line alongside answer_line."""
+    import glob
+    viol, withline, total = [], 0, 0
+    for f in glob.glob(str(ROOT / "content/**/*.json"), recursive=True):
+        try:
+            d = json.loads(open(f).read())
+        except Exception:
+            continue
+        def walk(o, fp=f):
+            nonlocal withline, total
+            if isinstance(o, dict):
+                for k, v in o.items():
+                    if k.startswith("flashcards") and isinstance(v, list):
+                        for c in v:
+                            if not isinstance(c, dict) or not c.get("question"):
+                                continue
+                            total += 1
+                            al = c.get("answer_line")
+                            if not al:
+                                continue
+                            withline += 1
+                            if len(al) > MC_LINE_BUDGET:
+                                viol.append(f"{os.path.basename(fp)}: answer_line {len(al)}c > {MC_LINE_BUDGET}: {al[:50]!r}")
+                            dd = c.get("distractors") or {}
+                            for tier in ("plausible", "trap"):
+                                for x in dd.get(tier) or []:
+                                    if len(x) > MC_LINE_BUDGET:
+                                        viol.append(f"{os.path.basename(fp)}: {tier} {len(x)}c > {MC_LINE_BUDGET}: {x[:50]!r}")
+                    else:
+                        walk(v, fp)
+            elif isinstance(o, list):
+                for v in o:
+                    walk(v, fp)
+        walk(d)
+    return viol, withline, total
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--gate", action="store_true")
@@ -252,8 +297,16 @@ def main() -> int:
     if cur_micro:
         print("curriculum micro-answer decks:", ", ".join(cur_micro[:10]))
 
+    ol_viol, ol_withline, ol_total = oneline_report()
+    print(f"one-line MC: {ol_withline}/{ol_total} cards have answer_line "
+          f"({ol_withline/ol_total:.1%} coverage) | length violations: {len(ol_viol)}")
+    for v in ol_viol[:10]:
+        print("  ONELINE:", v)
+
     if args.gate:
         fails = []
+        if ol_viol:
+            fails.append(f"{len(ol_viol)} one-line MC length violation(s) (> {MC_LINE_BUDGET} chars)")
         if cur_pct < 0.99:
             fails.append(f"curriculum-referenced viability {cur_pct:.1%} < 99%")
         # corpus-wide is a RATCHET, not a target: the long tail of non-curriculum decks whose

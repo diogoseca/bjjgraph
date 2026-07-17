@@ -390,6 +390,11 @@
                 }
               }
             }
+          },
+          "answer_line": {
+            "type": "string",
+            "maxLength": 60,
+            "description": "Optional one-line MC answer / recall cue (<=36 chars target); the full 'answer' stays as the post-reveal detail."
           }
         }
       }

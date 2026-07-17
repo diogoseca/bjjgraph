@@ -240,9 +240,9 @@ test("graded tiers: plausible = no credit + close feedback, trap = stage penalty
           while (s.length < Math.max(40, Math.round(clip.length * 0.7))) s += " even when the position feels stable"
           return s.slice(0, 158) + "."
         }
-        card.distractors = {
-          plausible: [stretch("A nearly-right option that a well-meaning beginner would believe")],
-          trap: [stretch("A dangerous misconception that gets you stacked and passed")],
+        card.mc = {
+          p: [stretch("A nearly-right option that a well-meaning beginner would believe")],
+          t: [stretch("A dangerous misconception that gets you stacked and passed")],
         }
         break
       }

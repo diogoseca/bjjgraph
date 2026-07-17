@@ -3272,6 +3272,7 @@ class Component extends DCLogic {
   }
   // first sentence, ≤160 chars — applied to the CORRECT answer too (no length tell).
   // null = this text cannot be an MC option (the card falls back to classic recall).
+  get MC_LINE() { return 36; } // one-line option cap; keep in sync with regenerate_neural_data MC_LINE_BUDGET
   mcClip(a) {
     const m = String(a || "").match(/^[\s\S]*?[.!?]/);
     const s = (m ? m[0] : String(a || "")).trim();
@@ -3288,28 +3289,28 @@ class Component extends DCLogic {
   // same category. Deterministic via rng("mc-pick")/rng("mc-shuffle"). <2 survivors → null.
   mcDistractors(card, deckKey, n) {
     n = n || 3;
-    const correct = this.mcClip(card.a);
+    const correct = card.a;
     if (!correct) return null;
     const picked = [], tiers = [];
-    const tryAdd = (text, tier) => {
+    const tryAdd = (text, tier, clip) => {
       if (picked.length >= n || !text) return;
-      const t = this.mcClip(text); if (!t) return;
+      const t = clip ? this.mcClip(text) : String(text || "").trim(); if (!t) return;
       const ratio = t.length / correct.length;
       if (ratio < 0.4 || ratio > 2.5) return;                 // no length tell
       if (this._mcSimilar(t, correct)) return;                // accidental-correct guard
       for (const p of picked) if (this._mcSimilar(t, p)) return;
       picked.push(t); tiers.push(tier);
     };
-    const d = card.distractors || null;                       // authored graded tiers win
+    const d = card.mc || null;                                // authored one-line graded tiers win
     if (d) {
-      (d.plausible || []).forEach((x) => tryAdd(x, "plausible"));
-      (d.trap || []).forEach((x) => tryAdd(x, "trap"));
+      (d.p || []).forEach((x) => tryAdd(x, "plausible", false));
+      (d.t || []).forEach((x) => tryAdd(x, "trap", false));
     }
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const deck = decks[deckKey];
     if (deck) {
       const order = deck.cards.filter((c) => c.q !== card.q);
-      while (picked.length < n && order.length) tryAdd(order.splice((this.rng("mc-pick") * order.length) | 0, 1)[0].a, "pool");
+      while (picked.length < n && order.length) tryAdd(order.splice((this.rng("mc-pick") * order.length) | 0, 1)[0].a, "pool", true);
     }
     if (picked.length < n) {                                  // graph-neighbor decks
       const idx = this.nodeForKey(deckKey);
@@ -3317,7 +3318,7 @@ class Component extends DCLogic {
         for (const k of this.adj[idx]) {
           if (picked.length >= n) break;
           const nd = decks[this.deckKeyFor(this.nodes[k]).key];
-          if (nd && nd.cards.length) tryAdd(nd.cards[(this.rng("mc-pick") * nd.cards.length) | 0].a, "pool");
+          if (nd && nd.cards.length) tryAdd(nd.cards[(this.rng("mc-pick") * nd.cards.length) | 0].a, "pool", true);
         }
       }
     }
@@ -3327,7 +3328,7 @@ class Component extends DCLogic {
       while (picked.length < n && guard++ < 60) {
         const k = keys[(this.rng("mc-pick") * keys.length) | 0];
         const dd = decks[k];
-        if (dd && dd.cards.length && k !== deckKey) tryAdd(dd.cards[(this.rng("mc-pick") * dd.cards.length) | 0].a, "pool");
+        if (dd && dd.cards.length && k !== deckKey) tryAdd(dd.cards[(this.rng("mc-pick") * dd.cards.length) | 0].a, "pool", true);
       }
     }
     if (picked.length < 2) return null;
@@ -3360,13 +3361,14 @@ class Component extends DCLogic {
     live.setAttribute("aria-live", "polite");
     live.style.cssText = "position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);";
     wrap.appendChild(live);
+    const oneLine = (mc.options[mc.correctIdx] && mc.options[mc.correctIdx].text.length <= this.MC_LINE);
     let answered = false;
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
       b.setAttribute("data-mc-opt", String(i));
       b.setAttribute("role", "radio");
       b.setAttribute("aria-checked", "false");
-      b.style.cssText = "cursor:pointer;font-family:inherit;text-align:left;font-size:12px;line-height:1.45;padding:9px 11px;border-radius:9px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#c8d2e4;transition:border-color .15s,background .15s;";
+      b.style.cssText = "cursor:pointer;font-family:inherit;text-align:left;font-size:12px;line-height:1.45;padding:9px 11px;border-radius:9px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#c8d2e4;transition:border-color .15s,background .15s;" + (oneLine ? "white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" : "");
       b.innerHTML = '<b style="color:#8094b4;font-weight:800;margin-right:7px;">' + (i + 1) + '</b>' + o.text;
       b.addEventListener("click", () => { if (!answered) { answered = true; this._mcAnswer(i, card, key, wrap, live, onDone); } });
       wrap.appendChild(b);
@@ -3611,11 +3613,12 @@ class Component extends DCLogic {
       '<div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#7b8aa8;margin-bottom:7px;">Question</div>' +
       '<div style="font-size:15px;font-weight:600;color:#eef1f6;line-height:1.45;min-height:44px;">' + card.q + '</div>' +
       (this.revealed
-        ? '<div style="margin-top:14px;padding-top:13px;border-top:1px solid rgba(150,170,210,.14);"><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#7ee0a8;margin-bottom:7px;">Answer</div><div style="font-size:13px;color:#c8d2e4;line-height:1.6;">' + card.a + '</div></div>'
+        ? '<div style="margin-top:14px;padding-top:13px;border-top:1px solid rgba(150,170,210,.14);"><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#7ee0a8;margin-bottom:7px;">Answer</div><div style="font-size:13px;color:#c8d2e4;line-height:1.6;">' + card.a + '</div>' + (card.d ? '<button data-mc-more style="margin-top:9px;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;color:#9ab0e0;background:none;border:none;padding:0;">\u24d8 More detail</button><div class="mcDetail" style="display:none;margin-top:8px;font-size:12.5px;color:#aeb9d4;line-height:1.55;">' + card.d + '</div>' : '') + '</div>'
         : '<div style="margin-top:14px;height:1px;"></div>') +
       '<div class="acts" style="margin-top:16px;"></div>' +
       '<div style="display:flex;align-items:center;justify-content:center;gap:6px;margin-top:14px;">' + dots + '</div>';
     list.appendChild(host);
+    { const mb = host.querySelector("[data-mc-more]"); if (mb) mb.addEventListener("click", () => { const dd = host.querySelector(".mcDetail"); if (dd) { const open = dd.style.display !== "none"; dd.style.display = open ? "none" : "block"; mb.textContent = open ? "\u24d8 More detail" : "Hide detail"; } }); }
 
     // MC stage: fresh cards answer as seeded multiple-choice, graduating to recall at stage 2
     this._mc = null;

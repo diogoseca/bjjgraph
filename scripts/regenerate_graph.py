@@ -224,6 +224,18 @@ def build_position_path_index(positions_dir: Path) -> dict[str, str]:
     return index
 
 
+def _qa_full(qa: dict) -> dict:
+    """Flashcard card reduced for graph.json, RETAINING the optional MC fields (one-line
+    `answer_line` + graded `distractors`) so the neural bridge can surface them. Plain
+    {question,answer} for the static-page contract; extras only when present."""
+    c = {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+    if qa.get('answer_line'):
+        c['answer_line'] = qa['answer_line']
+    if qa.get('distractors'):
+        c['distractors'] = qa['distractors']
+    return c
+
+
 def dedupe_flashcards(cards: list[dict]) -> list[dict]:
     """Return flashcards with duplicate questions removed, preserving order."""
     seen: set[str] = set()
@@ -331,7 +343,7 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
     state_props = role_data.get('state_properties', {})
 
     flashcards = [
-        {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+        _qa_full(qa)
         for qa in role_data.get('flashcards', [])
     ]
 
@@ -339,7 +351,7 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
     # the file root (flashcards_position, shared by top+bottom) + FAMILY cards from the owning hub.
     # flat `flashcards` stays = the node's own role deck (unchanged contract); tiers are additive.
     position_tier = dedupe_flashcards([
-        {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+        _qa_full(qa)
         for qa in position_data.get('flashcards_position', [])
     ])
     family_tier = family_ctx['cards'] if family_ctx else []
@@ -372,7 +384,7 @@ def process_positions(content_dir: Path) -> dict:
     # do NOT set a `family` back-pointer). Used to attach flashcardTiers.family to each variant.
     def _map_qa(cards):
         return dedupe_flashcards([
-            {'question': qa.get('question', ''), 'answer': qa.get('answer', '')} for qa in (cards or [])
+            _qa_full(qa) for qa in (cards or [])
         ])
     family_of = {}            # variant_slug -> {'hub_slug', 'hub_name', 'cards'}
     family_cards_by_hub = {}  # hub_slug -> family cards (for the hub node itself)
@@ -569,13 +581,13 @@ def process_transitions(content_dir: Path) -> dict:
         # Support both flat and attacker/defender structures
         attacker = trans_data.get('attacker', {})
         attacker_flashcards = [
-            {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+            _qa_full(qa)
             for qa in attacker.get('flashcards', trans_data.get('flashcards', []))
         ]
 
         defender = trans_data.get('defender', {})
         defender_flashcards = [
-            {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+            _qa_full(qa)
             for qa in defender.get('flashcards', [])
         ]
 
@@ -894,7 +906,7 @@ def _process_flat_content(content_dir: Path, subdir: str) -> dict:
             continue
         slug = slugify(name)
         flashcards = [
-            {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+            _qa_full(qa)
             for qa in data.get('flashcards', [])
             if qa.get('question') and qa.get('answer')
         ]

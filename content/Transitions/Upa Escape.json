@@ -278,7 +278,17 @@
     "flashcards": [
       {
         "question": "Why must you trap the arm and leg on the same side rather than opposite sides?",
-        "answer": "Trapping same-side limbs eliminates two of three base points on one side simultaneously. If you trap opposite sides (left arm, right leg), the opponent retains a stable tripod with their right arm, left leg, and body weight distributed in a triangular pattern that resists your bridge. Same-side trapping removes both support points from the direction you intend to roll, leaving only the far side to absorb the rotational force of your bridge — which is insufficient to prevent the reversal when combined with explosive hip extension at the correct 45-degree angle."
+        "answer": "Trapping same-side limbs eliminates two of three base points on one side simultaneously. If you trap opposite sides (left arm, right leg), the opponent retains a stable tripod with their right arm, left leg, and body weight distributed in a triangular pattern that resists your bridge. Same-side trapping removes both support points from the direction you intend to roll, leaving only the far side to absorb the rotational force of your bridge — which is insufficient to prevent the reversal when combined with explosive hip extension at the correct 45-degree angle.",
+        "answer_line": "Kills two base points on one side",
+        "distractors": {
+          "plausible": [
+            "Frees your near-side arm faster",
+            "Opposite sides give a wider bridge"
+          ],
+          "trap": [
+            "Opposite sides give more leverage"
+          ]
+        }
       },
       {
         "question": "What is the critical angle for the bridging motion and why does a vertical bridge fail?",

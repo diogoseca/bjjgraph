@@ -474,6 +474,22 @@ def build_response_schema(category: str, template_type: str = None) -> dict:
                 role_props = props.get(role)
                 if isinstance(role_props, dict) and isinstance(role_props.get("properties"), dict):
                     role_props["properties"].pop("clips", None)
+        # `answer_line` + `distractors` are curated one-line MC data (authored + verified
+        # outside this pipeline). Strip from every flashcards-array item schema so the model
+        # cannot return or invent them; restore_mc re-merges the original verbatim by question.
+        def _strip_mc(node):
+            if isinstance(node, dict):
+                if (node.get("type") == "array" and isinstance(node.get("items"), dict)
+                        and isinstance(node["items"].get("properties"), dict)
+                        and "question" in node["items"]["properties"]):
+                    node["items"]["properties"].pop("answer_line", None)
+                    node["items"]["properties"].pop("distractors", None)
+                for v in node.values():
+                    _strip_mc(v)
+            elif isinstance(node, list):
+                for v in node:
+                    _strip_mc(v)
+        _strip_mc(category_schema)
     except Exception:
         category_schema = {"type": "object", "required": ["name"],
                           "properties": {"name": {"type": "string"}}}
@@ -662,6 +678,7 @@ REQUIREMENTS:
 - All content must be technically accurate and reflect BJJ best practices
 - Safety sections must be comprehensive (especially for submissions)
 - DO NOT add, remove, or modify any `clips` field (root or role-nested) — it is curated, machine-verified film-study data managed outside this pipeline and must be omitted from your output entirely (it is re-merged automatically)
+- DO NOT add, remove, or modify any `answer_line` or `distractors` field on any flashcard — they are curated one-line multiple-choice data managed outside this pipeline and must be omitted from your output entirely (they are re-merged automatically)
 """
 
 
@@ -1575,6 +1592,57 @@ def restore_attempt_probabilities(original: dict, fixed: dict) -> int:
     return restored
 
 
+def restore_mc(original: dict, fixed: dict) -> int:
+    """Curation-safety: one-line `answer_line` + graded `distractors` are curated MC data
+    excluded from the AI response contract. Re-merge the ORIGINAL by flashcard question text
+    (across root + role + tier flashcard arrays) so enrichment can never drop, reword, or
+    invent them. Returns the number of MC fields restored/stripped."""
+    if not isinstance(original, dict) or not isinstance(fixed, dict):
+        return 0
+    orig_by_q = {}
+
+    def collect(o):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k.startswith("flashcards") and isinstance(v, list):
+                    for c in v:
+                        if isinstance(c, dict) and c.get("question"):
+                            mc = {f: c[f] for f in ("answer_line", "distractors") if f in c}
+                            orig_by_q[c["question"]] = mc
+                else:
+                    collect(v)
+        elif isinstance(o, list):
+            for v in o:
+                collect(v)
+
+    collect(original)
+    n = 0
+
+    def apply(o):
+        nonlocal n
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k.startswith("flashcards") and isinstance(v, list):
+                    for c in v:
+                        if not isinstance(c, dict):
+                            continue
+                        mc = orig_by_q.get(c.get("question"), {})
+                        for f in ("answer_line", "distractors"):
+                            if f in mc:
+                                if c.get(f) != mc[f]:
+                                    c[f] = mc[f]; n += 1
+                            elif f in c:
+                                c.pop(f); n += 1
+                else:
+                    apply(v)
+        elif isinstance(o, list):
+            for v in o:
+                apply(v)
+
+    apply(fixed)
+    return n
+
+
 def restore_clips(original: dict, fixed: dict) -> int:
     """Curation-safety: `clips` is machine-verified YouTube film-study data excluded
     from the AI response contract (like Systems `products`). Restore the original
@@ -1819,6 +1887,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         # AI response contract (all categories). Restore root + role-nested arrays verbatim.
         if isinstance(original_data, dict):
             n_clips = restore_clips(original_data, fixed_content)
+            restore_mc(original_data, fixed_content)  # curated one-line MC re-merge
             if n_clips:
                 tprint(f"{tag}Restored {n_clips} curated clips array(s)")
 
