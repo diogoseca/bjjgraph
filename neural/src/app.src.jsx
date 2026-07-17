@@ -108,6 +108,7 @@ class Component extends DCLogic {
   // (from P1 on) animations key off the same beats, so feel and tests share one vocabulary.
   fx(beat, props) {
     (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: beat }, props || {}));
+    if (this.sound) this.sound.beat(beat, props || {});
     if (this.beats.length > 4000) this.beats.splice(0, 1000);
   }
   // frame pump: advance simulated time in fixed ticks — timers, travel, camera, draw all step
@@ -298,6 +299,7 @@ class Component extends DCLogic {
     this.prep = {};
     this.settings = this.settings || {};
     this._loadProgress(); // restore prep / daily history / settings (guest persistence)
+    try { if (typeof NGSound !== "undefined") this.sound = new NGSound(this); } catch (e) { /* silent app */ }
     this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
     this.paused = false;
     this.applyFont();
@@ -2013,6 +2015,10 @@ class Component extends DCLogic {
       dt.appendChild(ticks);
       body.appendChild(dt);
       // option ordering
+      body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
+        [["On", "on"], ["Off", "off"]], "sound", "on"));
+      body.appendChild(this.settingRow("Sound volume", "How loud the beats land",
+        [["Quiet", "0.25"], ["Normal", "0.5"], ["Loud", "0.8"]], "soundVolume", "0.5"));
       body.appendChild(this.settingRow("Option ordering", "How the move options are ranked, left to right",
         [["Potential", "potential"], ["Popularity", "popularity"]], "cardOrder", "potential",
         { potential: '<b style="color:#cbd4e6;">Potential</b> &mdash; a Bayesian estimate blending how likely you are to land the move, how strong the resulting position is, and how many follow-ups it opens. The highest-leverage move sits first.',

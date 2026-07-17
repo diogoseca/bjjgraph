@@ -25,6 +25,7 @@ const require = createRequire(resolve(SOURCE, "package.json"))
 const { build } = require("esbuild")
 
 // 1) app source: patch relative data fetches to the configurable base
+const sound = readFileSync(R("src/sound.src.js"), "utf8")
 let app = readFileSync(R("src/app.src.jsx"), "utf8")
 const patched = app
   .replaceAll('fetch("graph-data.json"', 'fetch((window.__NEURAL_DATA_BASE||"")+"graph-data.json"')
@@ -61,6 +62,10 @@ class DCLogic {
   componentWillUnmount() {}
   renderVals() { return {} }
 }
+
+/* ---- begin sound.src.js ---- */
+${sound}
+/* ---- end sound.src.js ---- */
 
 /* ---- begin app.src.jsx (patched) ---- */
 ${app}

@@ -282,6 +282,11 @@ export class Journey {
     return this.page.evaluate(() => ((window as W).__neural.beats || []).slice())
   }
 
+  /** Sound voices logged since boot (test mode: the synth logs instead of playing). */
+  async soundLog(): Promise<Array<{ beat: string; patch: string; volume: number }>> {
+    return this.page.evaluate(() => (((window as W).__neural || {}).sound?.soundLog || []).slice())
+  }
+
   async expectBeat(beat: string) {
     const bs = await this.beats()
     expect(bs.map((b) => b.beat), `beat "${beat}" emitted`).toContain(beat)
