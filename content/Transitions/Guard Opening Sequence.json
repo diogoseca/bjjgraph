@@ -266,11 +266,29 @@
       },
       {
         "question": "What are the three main grip strategies for opening closed guard and when should each be used?",
-        "answer": "The three main grip strategies are: both hands on pants near the knees (most common, provides best control for standing breaks and direct leg manipulation), one hand on belt with other on knee (good for combat base opening, provides superior hip control and wedge pressure), and cross-collar with knee control (gi-specific, good against grip-dependent opponents where the collar controls their posture as you stand). Choose based on your preferred opening method and opponent's guard style."
+        "answer": "The three main grips are both hands on the pants near the knees, one hand on belt with one on knee, and cross-collar with knee control. Double pants grips at the knees are the most common, providing the best control for standing breaks and direct leg manipulation. The belt-and-knee grip suits the combat base opening, offering superior hip control and wedge pressure. The cross-collar with knee control is gi-specific and works well against grip-dependent opponents, since the collar controls their posture as you stand. Choose based on your preferred opening method and the opponent's guard style.",
+        "distractors": {
+          "plausible": [
+            "The three main grips are double sleeve grips, one hand on belt with one on the ankle, and cross-collar with sleeve control for the gi.",
+            "The three main grips are both hands on the ankles at the lock, two-on-one sleeve control, and a single lapel grip for combat base."
+          ],
+          "trap": [
+            "Reach both hands back behind you to pry the crossed ankles apart at the lock before you stand up."
+          ]
+        }
       },
       {
         "question": "You feel your opponent's ankles start to unlock during your standing break - what is the critical next action?",
-        "answer": "The instant you feel the ankles separate, immediately redirect one of their legs across their body with your controlling grip while maintaining the other leg's position. Do not pause to celebrate or reassess. Your grips should already be positioned on their pants at the knees so this redirection is instantaneous. Push their top knee across their centerline while stepping your hips back. Any hesitation allows re-closing. Flow directly into your passing grip configuration and begin your chosen pass in one continuous motion."
+        "answer": "The instant the ankles separate, immediately redirect one of their legs across their body with your grip while stepping your hips back. Maintain the other leg's position and do not pause to celebrate or reassess. Your grips should already be positioned on their pants at the knees so this redirection is instantaneous — push their top knee across their centerline as your hips move back. Any hesitation allows re-closing. Flow directly into your passing grip configuration and begin your chosen pass in one continuous motion.",
+        "distractors": {
+          "plausible": [
+            "The instant the ankles separate, step back to create space and reassess the position before choosing your pass.",
+            "The instant the ankles separate, push both of their knees flat to the mat and settle your weight before passing."
+          ],
+          "trap": [
+            "The instant the ankles separate, dive your chest forward between their open legs to smother them before they react."
+          ]
+        }
       },
       {
         "question": "How do you defend against an elevator sweep attempt during standing guard break?",
@@ -286,11 +304,29 @@
       },
       {
         "question": "Explain why the opening and passing should be one continuous movement rather than separate techniques?",
-        "answer": "Opening and passing must be continuous because any pause after opening the guard gives the opponent time to re-close their guard or establish strong open guard retention with frames, hooks, and grips. The moment the ankles unlock, you must already be transitioning to knee slice, toreando, or your chosen pass. This requires having your passing strategy planned before you even open the guard. The transition should feel like one flowing movement where the opening mechanics naturally feed into passing mechanics without a reset point."
+        "answer": "Opening and passing must be one continuous motion because any pause after the open lets the opponent re-close guard or build open guard retention. Given time, they establish frames, hooks, and grips. The moment the ankles unlock, you must already be transitioning to knee slice, toreando, or your chosen pass, which requires having your passing strategy planned before you even open the guard. The transition should feel like one flowing movement where the opening mechanics naturally feed into passing mechanics without a reset point.",
+        "distractors": {
+          "plausible": [
+            "Open the guard first, then take a brief pause to read the opponent's reaction before committing to a specific pass.",
+            "They stay connected mainly to conserve energy; a short reset between opening and passing is fine if your grips are strong."
+          ],
+          "trap": [
+            "Once the ankles unlock the hard part is done, so release your grips and reset your posture before starting the pass."
+          ]
+        }
       },
       {
         "question": "Your opponent opens their guard voluntarily as you begin standing - what trap should you be aware of?",
-        "answer": "A voluntary guard opening often signals the opponent wants to transition to their preferred open guard system, typically spider guard, lasso guard, or de la riva. They may also be setting up a specific sweep like the sickle sweep or tripod sweep that requires open legs. Do not assume a voluntary opening means success - immediately control both of their legs at the knees or ankles before they can establish hooks or grips. Close distance quickly with heavy passing pressure or establish your own grip dominance. Treat a voluntary opening with the same urgency as a forced one."
+        "answer": "A voluntary opening usually means the opponent wants their preferred open guard or a sweep setup, so control their legs immediately. They are typically transitioning to spider guard, lasso guard, or de la riva, or preparing a sweep like the sickle sweep or tripod sweep that requires open legs. Do not assume a voluntary opening means success — control both of their legs at the knees or ankles before they can establish hooks or grips. Close distance quickly with heavy passing pressure or establish your own grip dominance. Treat a voluntary opening with the same urgency as a forced one.",
+        "distractors": {
+          "plausible": [
+            "A voluntary opening usually signals fatigue, so keep your current pace and pass toward the side they opened.",
+            "Treat a voluntary opening as a stall and back away to reset at distance before you engage the pass."
+          ],
+          "trap": [
+            "A voluntary opening means your posture broke their guard, so drop your chest between their legs to celebrate the win with pressure."
+          ]
+        }
       },
       {
         "question": "How should you use your hips and legs rather than arm strength to generate guard opening force?",

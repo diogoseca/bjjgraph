@@ -248,7 +248,16 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Roll from Chill Dog?",
-        "answer": "The optimal window occurs when the opponent shifts their weight backward, loosens their grips momentarily, or commits their pressure to one side while adjusting their attack. Specifically, the moment between the opponent abandoning one grip sequence and beginning another creates a brief period of reduced control where the roll can succeed. Initiating during a period of maximum opponent pressure is the most common cause of failure because the opponent can simply drive you flat."
+        "answer": "The optimal window is when the opponent shifts weight backward, momentarily loosens grips, or commits pressure to one side mid-adjustment. Specifically, the moment between the opponent abandoning one grip sequence and beginning another creates a brief period of reduced control where the roll can succeed. Initiating during a period of maximum opponent pressure is the most common cause of failure because the opponent can simply drive you flat.",
+        "distractors": {
+          "plausible": [
+            "Roll as soon as the opponent secures a new grip, since their attention is consumed by the grip fight.",
+            "Time the roll for when the opponent leans their chest forward onto you, borrowing their forward momentum."
+          ],
+          "trap": [
+            "Initiate while the opponent drives maximum pressure into you, so you can use their force to flip them over."
+          ]
+        }
       },
       {
         "question": "What body position must be maintained throughout the roll to ensure clean rotation?",
@@ -256,7 +265,16 @@
       },
       {
         "question": "Your opponent increases downward chest pressure as you prepare to roll - should you still attempt the technique?",
-        "answer": "No. Increased downward pressure means the opponent is settling their weight, which makes forward rolling extremely difficult because you cannot generate the upward lift needed to initiate rotation. This is actually a better window for a Granby roll, which uses the opponent's forward weight commitment against them by rolling laterally. Wait for the forward pressure to shift or lighten before attempting the forward roll, or redirect to an alternative escape that exploits their forward commitment."
+        "answer": "No — settling downward pressure kills the upward lift you need to initiate the forward roll's rotation. This is actually a better window for a Granby roll, which uses the opponent's forward weight commitment against them by rolling laterally. Wait for the forward pressure to shift or lighten before attempting the forward roll, or redirect to an alternative escape that exploits their forward commitment.",
+        "distractors": {
+          "plausible": [
+            "Yes, but execute the roll faster than usual to beat their pressure before it fully settles.",
+            "No — instead redirect to a forward roll toward the opposite side, angling away from their chest pressure."
+          ],
+          "trap": [
+            "Yes — their downward drive is free momentum, so commit hard to the roll and let their weight carry you over."
+          ]
+        }
       },
       {
         "question": "What grip conditions must exist before initiating the roll?",
@@ -284,7 +302,16 @@
       },
       {
         "question": "What signals tell you that the roll has failed mid-execution and you need to abort?",
-        "answer": "If you feel the opponent's grip tighten on your waist or shoulder as you begin to rotate, or if their weight drives you flat instead of allowing rotation, abort immediately. The clearest abort signal is feeling their body following your rotation while maintaining chest-to-back contact - this means they anticipated the roll and will establish back control. To abort, stop forward motion, pull elbows back to knees to re-establish Chill Dog posture, reset your rounded back structure, then switch to an alternative escape."
+        "answer": "Abort when their grips tighten as you rotate, their weight drives you flat, or their chest stays glued to your back through the roll. The chest-to-back contact following your rotation is the clearest signal — it means they anticipated the roll and will establish back control. To abort, stop forward motion, pull elbows back to knees to re-establish Chill Dog posture, reset your rounded back structure, then switch to an alternative escape.",
+        "distractors": {
+          "plausible": [
+            "Abort only if you end up fully flat on your stomach; grip tightening is normal resistance to roll through.",
+            "The main abort signal is losing visual contact with the opponent's legs midway through the rotation."
+          ],
+          "trap": [
+            "If you feel them following your rotation, accelerate and finish the roll anyway — speed beats their chest connection."
+          ]
+        }
       }
     ],
     "safety_considerations": "The Roll from Chill Dog requires cervical spine mobility and should be practiced on soft mats with gradual progression from solo drilling to resistance. Never force the roll if your neck feels compressed or strained during the rotation. Practitioners with existing neck injuries should avoid this technique until cleared by a medical professional. Always warm up your neck and shoulders thoroughly before drilling forward rolls. When training with a partner, communicate clearly about the intensity of top pressure to prevent unexpected cervical compression during the roll. Stop immediately if you feel any sharp pain in the neck, shoulders, or spine during execution.",

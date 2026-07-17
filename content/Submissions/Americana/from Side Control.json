@@ -340,23 +340,59 @@
       },
       {
         "question": "Why must the opponent's elbow stay in front of their shoulder line during the Americana, and what happens if it moves behind?",
-        "answer": "The elbow must stay in front of the shoulder line because this is where the shoulder joint is most vulnerable to external rotation and where the submission mechanics work properly. If the elbow moves behind the shoulder line, the angle changes and the rotation no longer targets the shoulder joint effectively. Additionally, moving the elbow too far behind the shoulder line can create dangerous leverage on the AC joint and potentially cause different types of injury that are harder to control.",
-        "safety_critical": false
+        "answer": "The elbow must stay in front of the shoulder line so the rotation targets the shoulder joint where it is most vulnerable to external rotation. This is where the submission mechanics work properly. If the elbow moves behind the shoulder line, the angle changes and the rotation no longer targets the shoulder joint effectively. Additionally, moving the elbow too far behind the shoulder line can create dangerous leverage on the AC joint and potentially cause different types of injury that are harder to control.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The elbow stays in front of the shoulder line mainly to keep the opponent's forearm locked at exactly 90 degrees.",
+            "Keeping the elbow in front of the shoulder line matters because it lets you slide the wrist higher above their head."
+          ],
+          "trap": [
+            "Dragging the elbow behind the shoulder line is ideal because the extra leverage there forces a faster tap."
+          ]
+        }
       },
       {
         "question": "What is the proper immediate response when your training partner taps to your Americana, and what are the consequences of failing to respond correctly?",
-        "answer": "The proper immediate response is to immediately stop all rotational pressure, release the wrist control, and begin moving the arm back to a neutral position slowly. You should completely release all grips and move your weight off their torso. Failing to release immediately can cause serious shoulder injuries including rotator cuff tears (6-12 month recovery), labral tears (4-6 months), or shoulder dislocation (3-6 months). Beyond the injury to your partner, continuing after a tap violates fundamental training safety, can result in legal liability, and will cause you to lose training partners.",
-        "safety_critical": true
+        "answer": "When your partner taps, immediately stop all rotational pressure, release the wrist control, and slowly return the arm toward neutral. You should completely release all grips and move your weight off their torso. Failing to release immediately can cause serious shoulder injuries including rotator cuff tears (6-12 month recovery), labral tears (4-6 months), or shoulder dislocation (3-6 months). Beyond the injury to your partner, continuing after a tap violates fundamental training safety, can result in legal liability, and will cause you to lose training partners.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "When your partner taps, freeze and hold the position still until they verbally confirm the tap, then release.",
+            "When your partner taps, let go of everything at once and quickly pull their arm straight back to neutral."
+          ],
+          "trap": [
+            "A light tap can be reflexive, so add a touch more pressure first to confirm they genuinely mean to submit."
+          ]
+        }
       },
       {
         "question": "Describe the optimal 90-degree configuration for the Americana and explain how this angle maximizes submission effectiveness?",
-        "answer": "The optimal 90-degree configuration has the opponent's upper arm positioned in line with their shoulder (parallel to their body), while their forearm is perpendicular to the upper arm, creating a right angle at the elbow. The wrist should be pinned near their ribs or moving toward their hip, while the elbow stays close to and in front of their shoulder. This configuration maximizes effectiveness because it isolates the shoulder joint while preventing the opponent from straightening their arm or creating defensive angles. The rotation occurs purely at the shoulder through external rotation, which is the shoulder's weakest rotational plane.",
-        "safety_critical": false
+        "answer": "The optimal configuration puts the upper arm in line with the shoulder and the forearm perpendicular to it, forming a 90-degree bend at the elbow. The upper arm sits parallel to their body, the wrist is pinned near their ribs or moving toward their hip, and the elbow stays close to and in front of their shoulder. This configuration maximizes effectiveness because it isolates the shoulder joint while preventing the opponent from straightening their arm or creating defensive angles. The rotation occurs purely at the shoulder through external rotation, which is the shoulder's weakest rotational plane.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The best configuration bends the elbow slightly past 90 degrees toward their head, since a tighter angle adds torque.",
+            "The 90-degree bend works best with the wrist pushed up above the opponent's head rather than down toward the hip."
+          ],
+          "trap": [
+            "Fold the forearm as far toward their head as possible; closing the angle well past 90 degrees forces the quickest tap."
+          ]
+        }
       },
       {
         "question": "What are the three most common defenses to the Americana from side control, and how should you adjust your technique to counter each one?",
-        "answer": "First, grabbing their own belt or gi to prevent arm isolation - counter by increasing cross-face pressure to break the grip or threatening mount to force them to release. Second, straightening the arm completely to prevent the elbow bend - counter by using your body weight to collapse the straight arm or switching to a straight armbar. Third, rolling toward you to relieve shoulder pressure - counter by following their roll to mount or back control while maintaining your Americana grip, then finishing from the new position. Each defense requires you to maintain control while adapting to their movement rather than abandoning the attack.",
-        "safety_critical": false
+        "answer": "The three most common defenses are grabbing their own belt or gi, straightening the arm completely, and rolling toward you to relieve shoulder pressure. Against the belt or gi grip that prevents arm isolation, counter by increasing cross-face pressure to break the grip or threatening mount to force them to release. Against the fully straightened arm that prevents the elbow bend, counter by using your body weight to collapse the straight arm or switching to a straight armbar. Against the roll toward you, counter by following their roll to mount or back control while maintaining your Americana grip, then finishing from the new position. Each defense requires you to maintain control while adapting to their movement rather than abandoning the attack.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The three main defenses are bridging, shrimping away, and neck framing, each countered by heavier cross-face pressure.",
+            "When they straighten the arm completely, release it and restart the isolation instead of switching to a straight armbar."
+          ],
+          "trap": [
+            "If they grab their own belt, sit up off their torso and yank the arm free with both hands for maximum pulling power."
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to pull the wrist away from the opponent's body during the Americana rotation, and what is the correct mechanical application?",
@@ -370,8 +406,17 @@
       },
       {
         "question": "What anatomical structure does the Americana primarily attack, and what sensation indicates the submission is reaching the breaking point?",
-        "answer": "The Americana primarily attacks the shoulder joint through external rotation, specifically stressing the rotator cuff muscles and tendons (supraspinatus, infraspinatus, subscapularis, and teres minor), the shoulder capsule, and the glenohumeral ligaments. The breaking point sensation is intense pressure deep in the shoulder joint accompanied by a feeling of the arm being twisted out of its socket. Training partners often describe a sharp, deep pain that differs from muscle fatigue - this is the point where tapping is essential to prevent injury. There is minimal warning before tissue damage occurs once this sensation begins.",
-        "safety_critical": true
+        "answer": "The Americana primarily attacks the shoulder joint through external rotation, stressing the rotator cuff, shoulder capsule, and glenohumeral ligaments. Specifically it loads the rotator cuff muscles and tendons: supraspinatus, infraspinatus, subscapularis, and teres minor. The breaking point sensation is intense pressure deep in the shoulder joint accompanied by a feeling of the arm being twisted out of its socket. Training partners often describe a sharp, deep pain that differs from muscle fatigue - this is the point where tapping is essential to prevent injury. There is minimal warning before tissue damage occurs once this sensation begins.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "The Americana primarily attacks the elbow joint, and a deep ache spreading through the biceps signals the breaking point.",
+            "It attacks the shoulder through internal rotation, and a gradual muscle-fatigue burn marks the approaching breaking point."
+          ],
+          "trap": [
+            "Breaking-point pain builds gradually, so you can safely ride out deep shoulder pressure for a while before tapping."
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for your opponent in the Americana, and how do you recognize when you've reached it?",

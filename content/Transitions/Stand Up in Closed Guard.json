@@ -258,7 +258,16 @@
       },
       {
         "question": "Why should you stand with a staggered stance rather than both feet parallel?",
-        "answer": "A staggered stance provides significantly better anteroposterior balance against the pulling forces your opponent generates with their locked guard and grip control. With feet parallel, a strong collar pull directly forward or a hip extension pushing you backward can easily break your balance. The staggered stance creates a triangular base of support that resists forces from multiple directions while maintaining enough mobility for weight shifting and guard-breaking hip pressure."
+        "answer": "A staggered stance creates a triangular base that resists the forward and backward pulling forces of the locked guard. With feet parallel, a strong collar pull directly forward or a hip extension pushing you backward can easily break your balance, since your anteroposterior support is minimal. The staggered stance resists forces from multiple directions while maintaining enough mobility for weight shifting and guard-breaking hip pressure.",
+        "distractors": {
+          "plausible": [
+            "A staggered stance lets your rear leg generate more upward driving power for the explosive rise to standing.",
+            "Staggering your feet lowers your hips beneath the opponent's guard so their collar pull can no longer reach you."
+          ],
+          "trap": [
+            "A wide parallel stance is actually superior because it maximizes lateral stability against sweeps from either side."
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your collar with both hands as you begin to post your first foot—how do you respond?",
@@ -266,7 +275,16 @@
       },
       {
         "question": "What is the critical weight distribution principle during the transition from kneeling to standing?",
-        "answer": "Keep your center of gravity positioned directly over your base of support throughout the entire transition—your hips must remain under your shoulders at all times. The most common failure occurs when practitioners lean forward over their opponent during the stand-up, which shifts their weight past their base and makes them vulnerable to sweeps that use their forward momentum. Drive upward and slightly backward during the ascent, ensuring your weight stays over your own feet rather than projecting forward over the opponent's guard."
+        "answer": "Keep your hips under your shoulders so your center of gravity stays directly over your base of support throughout the entire transition. The most common failure occurs when practitioners lean forward over their opponent during the stand-up, which shifts their weight past their base and makes them vulnerable to sweeps that use their forward momentum. Drive upward and slightly backward during the ascent, ensuring your weight stays over your own feet rather than projecting forward over the opponent's guard.",
+        "distractors": {
+          "plausible": [
+            "Shift your weight fully onto the posted foot first and let your hips trail behind you as you rise to standing.",
+            "Keep your chest slightly forward over the opponent so their locked guard cannot pull you over backward as you rise."
+          ],
+          "trap": [
+            "Drive your weight forward into the opponent's hips to pin them flat to the mat while you climb up to your feet."
+          ]
+        }
       },
       {
         "question": "Once standing, how do you apply pressure to break the closed guard ankle lock?",
@@ -286,11 +304,29 @@
       },
       {
         "question": "What is the correct timing window to commit fully to the explosive drive to standing?",
-        "answer": "Commit to the explosive upward drive the instant you have both hands fixed on the hips, your dangerous grips broken, and one foot posted with weight centered over your base—not before. Driving up before grips are cleared lets the opponent ride your momentum into a sweep; hesitating after the foot is posted gives an alert guard player the single-knee-up window to attack the armbar or hip bump. The ideal moment is a brief, decisive burst that carries you through the vulnerable transition phase in one continuous motion rather than a slow, hesitant rise."
+        "answer": "Explode upward only once dangerous grips are broken, both hands are fixed on the hips, and one foot is posted with weight centered over your base. Driving up before grips are cleared lets the opponent ride your momentum into a sweep; hesitating after the foot is posted gives an alert guard player the single-knee-up window to attack the armbar or hip bump. The ideal moment is a brief, decisive burst that carries you through the vulnerable transition phase in one continuous motion rather than a slow, hesitant rise.",
+        "distractors": {
+          "plausible": [
+            "Drive up the moment your first foot posts, since pausing to finish breaking grips wastes the momentum window.",
+            "Rise slowly and in stages so you can feel and answer each sweep attempt as it develops beneath you."
+          ],
+          "trap": [
+            "Explode to your feet the instant you feel a collar grip, using surprise to stand before any grips are addressed."
+          ]
+        }
       },
       {
         "question": "If the bottom player blocks your stand by climbing their guard high onto your upper back, what chain attack opens the break?",
-        "answer": "When they ride the guard high to kill your hip extension, drop your hips and use a hand to walk one of their feet down off your back, or pin one knee across your centerline to flatten the ankle lock against the mat. Alternatively, sit your hips back and step one leg through to load their legs to one side, converting the failed straight break into a leg-pin or stack that pries the ankles apart. The principle is to break the high lock by attacking the feet directly or by changing the angle so gravity again loads the crossed ankles."
+        "answer": "Drop your hips and hand-walk one of their feet down off your back, or pin one knee across your centerline to flatten the ankle lock against the mat. Alternatively, sit your hips back and step one leg through to load their legs to one side, converting the failed straight break into a leg-pin or stack that pries the ankles apart. The principle is to break the high lock by attacking the feet directly or by changing the angle so gravity again loads the crossed ankles.",
+        "distractors": {
+          "plausible": [
+            "Reach back with both hands at once and push their crossed ankles down together while keeping your posture tall.",
+            "Walk your knees backward to stretch their high guard out until the crossed ankles are forced to uncross on their own."
+          ],
+          "trap": [
+            "Lean forward and stack your chest down onto them to crush the high guard flat under your body weight."
+          ]
+        }
       }
     ],
     "safety_considerations": "Standing up in closed guard carries inherent balance risks that both practitioners must manage. Ensure stable footing before committing to the standing motion, as falling backward while standing can cause injury to both players. Avoid explosive jerking motions when breaking the guard open, as sudden forceful guard breaks can strain the bottom player's lower back or ankles. When training this technique, bottom players should release their guard voluntarily if they feel excessive pressure on their ankles rather than holding a guard that is clearly broken. On mats with seams or uneven surfaces, check footing before standing to prevent slipping during the transition.",

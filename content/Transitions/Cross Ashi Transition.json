@@ -224,7 +224,16 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Cross Ashi Transition?",
-        "answer": "The primary goal is to reconfigure your leg entanglement from Ushiro Ashi-Garami to Cross Ashi-Garami when the opponent's hip orientation or defensive positioning makes Ushiro attacks suboptimal. This switch provides better mechanical leverage for heel hook finishes and creates pathways to Saddle position."
+        "answer": "The primary goal is to reconfigure your leg entanglement from Ushiro Ashi-Garami to Cross Ashi-Garami when Ushiro attacks become suboptimal. The switch is triggered when the opponent's hip orientation or defensive positioning undercuts Ushiro attacks, and it provides better mechanical leverage for heel hook finishes while creating pathways to the Saddle position.",
+        "distractors": {
+          "plausible": [
+            "The primary goal is to switch from Cross Ashi-Garami back to Ushiro Ashi-Garami when the opponent turns their hip away from you.",
+            "The primary goal is to finish the heel hook from Ushiro before the opponent can adjust their hip orientation against you."
+          ],
+          "trap": [
+            "The primary goal is to release your leg entanglement entirely mid-switch so you can spin freely to the opposite side."
+          ]
+        }
       },
       {
         "question": "Which leg serves as the anchor during the transition and why?",
@@ -240,7 +249,16 @@
       },
       {
         "question": "How do you recognize when Cross Ashi offers better finishing angles than staying in Ushiro?",
-        "answer": "Cross Ashi becomes preferable when opponent's hip has rotated to face more toward you (reducing Ushiro heel hook leverage), when their heel exposure is better accessed from perpendicular angle, or when their inversion has stalled and they're attempting to recover rather than continue rotating. Ushiro remains better when opponent is actively inverting or when reversed angle provides direct heel access."
+        "answer": "Cross Ashi is better when the opponent's hip rotates toward you, their inversion stalls, or their heel is best accessed from a perpendicular angle. Hip rotation toward you reduces Ushiro heel hook leverage, and a stalled inversion means they are attempting to recover rather than continue rotating. Ushiro remains better when the opponent is actively inverting or when the reversed angle provides direct heel access.",
+        "distractors": {
+          "plausible": [
+            "Cross Ashi becomes preferable the moment the opponent begins actively inverting and rotating away from your control.",
+            "Switch to Cross Ashi whenever the reversed angle gives you direct access to the opponent's exposed heel."
+          ],
+          "trap": [
+            "If the Ushiro finish stalls, open your knees and let go of the entanglement so you can chase the far heel with your hands."
+          ]
+        }
       },
       {
         "question": "What hip movement is essential during the transition and why?",
@@ -252,7 +270,16 @@
       },
       {
         "question": "When combining this transition with immediate Saddle entry, what changes in the execution?",
-        "answer": "Instead of establishing standard Cross Ashi with uncrossed feet, you cross your feet during the outside leg switch to complete the Saddle (Honey Hole) configuration. The inside leg threads deeper and your feet lock together, creating the triangle leg formation characteristic of Saddle. This provides higher control but requires more commitment and mobility."
+        "answer": "You cross your feet during the outside leg switch to land directly in the Saddle (Honey Hole) instead of standard uncrossed Cross Ashi. The inside leg threads deeper and your feet lock together, creating the triangle leg formation characteristic of Saddle. This provides higher control but requires more commitment and mobility.",
+        "distractors": {
+          "plausible": [
+            "You keep your feet uncrossed during the switch and only lock the Saddle triangle after fully settling into Cross Ashi.",
+            "The outside leg threads deeper while the inside leg stays shallow, forming the Saddle's triangle lock."
+          ],
+          "trap": [
+            "Cross your ankles in front of the opponent's hip before switching legs so the lock is secured as early as possible."
+          ]
+        }
       },
       {
         "question": "What is the correct position for the outside leg cross and why?",

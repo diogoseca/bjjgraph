@@ -320,13 +320,31 @@
       },
       {
         "question": "What grip and positional controls must be established before committing to the leg swing from DLR?",
-        "answer": "You need three controls established before the entry: an active DLR hook with pulling tension on the opponent's lead leg, a strong cross sleeve grip on the target arm preventing retraction, and your non-hooking foot positioned on the opponent's hip or bicep for distance management. The opponent's arm must also be extended or posted forward rather than tucked tight to their body, which you create through off-balancing pulls.",
-        "safety_critical": false
+        "answer": "Before committing to the leg swing you need an active DLR hook, a cross sleeve grip on the target arm, and your free foot on the hip or bicep. The DLR hook keeps pulling tension on the opponent's lead leg, the cross sleeve grip prevents the arm from being retracted, and the non-hooking foot manages distance. The opponent's arm must also be extended or posted forward rather than tucked tight to their body, which you create through off-balancing pulls.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Secure a same-side sleeve grip and a deep DLR hook, then swing before the opponent can square their hips.",
+            "Get the DLR hook and cross sleeve grip, but wait until the opponent tucks their arm tight so it cannot be pulled free."
+          ],
+          "trap": [
+            "Release the DLR hook just before the swing so your leg is free to whip over the shoulder unobstructed."
+          ]
+        }
       },
       {
         "question": "At what stage does the omoplata from DLR become functionally inescapable for the defender?",
-        "answer": "The position becomes extremely difficult to escape once three conditions are met simultaneously: the attacker's leg is fully draped over the shoulder with the hamstring pressing the shoulder blade, the attacker has achieved full perpendicular hip alignment, and the attacker has secured the far hip grip blocking the forward roll. Before all three are established, the defender has viable escape windows. Once all three are locked, only a technically precise limp arm extraction or late forward roll with the attacker following to the back remain possible.",
-        "safety_critical": false
+        "answer": "The omoplata is nearly inescapable once the leg drapes the shoulder, the hips are fully perpendicular, and the far hip grip blocks the roll. All three conditions must hold simultaneously: the leg fully draped over the shoulder with the hamstring pressing the shoulder blade, full perpendicular hip alignment, and the far hip grip blocking the forward roll. Before all three are established, the defender has viable escape windows. Once all three are locked, only a technically precise limp arm extraction or a late forward roll with the attacker following to the back remain possible.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "It is locked as soon as the leg drapes over the shoulder, even before the hips reach perpendicular alignment.",
+            "Securing the far hip grip alone makes the position inescapable regardless of your hip angle."
+          ],
+          "trap": [
+            "Once the leg is over the shoulder you can release the hip grip and sit up tall, since rolling escapes are no longer possible."
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that allows escape from the omoplata applied from DLR?",
@@ -340,8 +358,17 @@
       },
       {
         "question": "In a competition scramble, the opponent posts hard and defends the omoplata finish - what high-percentage option keeps you scoring?",
-        "answer": "Rather than burning energy on a stalled shoulder lock, convert the omoplata into a sweep: control the far hip or belt, extend your legs to elevate them, and drive forward to come up on top, scoring for the sweep while staying inside your DLR-based attack chain. If they instead roll forward to escape, follow the roll to take the back. Competition omoplatas convert to points far more often than they finish, so treat the shoulder lock as the threat that opens the sweep or back take.",
-        "safety_critical": false
+        "answer": "When the finish stalls, convert the omoplata to a sweep: control the far hip or belt, elevate with your legs, and drive forward to come up on top. This scores sweep points while keeping you inside your DLR-based attack chain, rather than burning energy on a stalled shoulder lock. If they instead roll forward to escape, follow the roll to take the back. Competition omoplatas convert to points far more often than they finish, so treat the shoulder lock as the threat that opens the sweep or back take.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Initiate the forward roll yourself first to force the tap, and only look at the sweep if the roll fails.",
+            "Retreat to closed guard immediately to protect your points before re-attacking the shoulder."
+          ],
+          "trap": [
+            "Let go of their hips and extend both legs to crank the shoulder lock harder while they are posting."
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the omoplata from De La Riva Guard?",

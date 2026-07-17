@@ -269,7 +269,16 @@
       },
       {
         "question": "How should you position your inside thigh relative to the opponent's leg in the final saddle configuration, and why does this positioning matter for submission effectiveness?",
-        "answer": "Your inside thigh should be positioned high on the opponent's inner thigh, as close to their hip as possible, with your legs forming a tight triangle around their leg from hip to knee. This high positioning creates maximum control over their hip rotation and prevents them from squaring their hips or clearing their knee line. When positioned too low (near their ankle), the saddle lacks mechanical advantage, allows easier foot extraction, and makes submissions extremely difficult to finish."
+        "answer": "Your inside thigh should sit high on the opponent's inner thigh, as close to their hip as possible, with your legs forming a tight triangle around their leg. This high positioning creates maximum control over their hip rotation and prevents them from squaring their hips or clearing their knee line. When positioned too low (near their ankle), the saddle lacks mechanical advantage, allows easier foot extraction, and makes submissions extremely difficult to finish.",
+        "distractors": {
+          "plausible": [
+            "Your inside thigh should clamp directly on the opponent's knee joint, since attacking the knee line is what makes the saddle effective.",
+            "Your inside thigh should pinch at mid-shin level so you can isolate their foot quickly for faster submission grips."
+          ],
+          "trap": [
+            "Keep your thigh low near their ankle so the foot can never slip free — the finish comes from ankle control, not hip control."
+          ]
+        }
       },
       {
         "question": "What should you do immediately after securing the saddle configuration to prevent the most common escape?",
@@ -293,7 +302,16 @@
       },
       {
         "question": "What grip configuration do you need on the opponent's near leg before committing to the step-over, and what does each grip accomplish?",
-        "answer": "Your near hand grips the opponent's ankle to prevent retraction and control the foot's direction, while your far hand controls the knee or thigh to manage the leg's angle and prevent the opponent from bending it defensively. The ankle grip ensures the foot stays in place during the step-over, and the knee grip prevents them from pulling their knee to their chest which would collapse the entry space. Both grips working together create a fixed reference point around which you build the entanglement."
+        "answer": "Your near hand grips their ankle to prevent retraction while your far hand controls the knee or thigh to manage the leg's angle. The ankle grip ensures the foot stays in place during the step-over and controls the foot's direction, while the knee grip prevents them from bending the leg or pulling their knee to their chest, which would collapse the entry space. Both grips working together create a fixed reference point around which you build the entanglement.",
+        "distractors": {
+          "plausible": [
+            "Your near hand controls the knee while your far hand grips the ankle, keeping your strongest control closest to their hips.",
+            "Your near hand grips their ankle while your far hand posts on the mat for base, since balance matters more than a second grip."
+          ],
+          "trap": [
+            "Put both hands on the ankle for maximum pulling power, because the knee will follow wherever the foot is dragged."
+          ]
+        }
       },
       {
         "question": "How do you chain saddle entry attempts with guard passing to make your attacks unpredictable?",

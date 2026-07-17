@@ -298,11 +298,29 @@
       },
       {
         "question": "Your opponent posts with their free arm mid-bridge to prevent the roll—how do you adjust?",
-        "answer": "If the opponent successfully posts with their free arm during your bridge, you have two primary options: First, immediately abandon the bridge and roll and transition to an elbow escape (shrimp), using the space created by their committed post. Second, explosively switch to attacking the opposite side with a bridge and roll, as their committed post on one side creates a base weakness on the opposite side. Never continue forcing a failed bridge and roll against a successful post, as this wastes energy and keeps you in inferior position. Reading their counter and flowing to the appropriate response is critical for escape success."
+        "answer": "If the opponent posts with their free arm mid-bridge, either switch to an elbow escape or attack the opposite side with a new bridge and roll. The elbow escape (shrimp) uses the space created by their committed post; alternatively, their post on one side creates a base weakness on the opposite side that you can attack explosively with a bridge and roll. Never continue forcing a failed bridge and roll against a successful post, as this wastes energy and keeps you in an inferior position. Reading their counter and flowing to the appropriate response is critical for escape success.",
+        "distractors": {
+          "plausible": [
+            "Reach across, drag their posting arm back onto your chest, then repeat the bridge and roll on the same side.",
+            "Stay flat and conserve energy until they retract the posting arm, then immediately re-attempt the same roll."
+          ],
+          "trap": [
+            "Keep driving the same bridge harder and higher until their posted arm finally collapses under your hips."
+          ]
+        }
       },
       {
         "question": "Why must defensive frames be established before attempting the bridge and roll escape?",
-        "answer": "Defensive frames must be established first because attempting any escape while under immediate submission threat is tactically unsound and typically results in getting submitted. Frames create the necessary space to prevent attacks like the Americana, armbar, ezekiel choke, or collar chokes that opponents frequently threaten from mount. The frames also prevent the opponent from establishing high mount or grapevining the legs, both of which make the bridge and roll significantly less effective or impossible. The principle of survival before escape is fundamental—you must neutralize immediate threats before attempting to improve position. Only when frames are established and submission threats are managed can you safely commit to the escape sequence."
+        "answer": "Frames must come first because attempting any escape while under immediate submission threat is tactically unsound and typically gets you submitted. Frames create the necessary space to prevent attacks like the Americana, armbar, ezekiel choke, or collar chokes that opponents frequently threaten from mount. They also prevent the opponent from establishing high mount or grapevining the legs, both of which make the bridge and roll significantly less effective or impossible. This is the principle of survival before escape: you must neutralize immediate threats before attempting to improve position. Only when frames are established and submission threats are managed can you safely commit to the escape sequence.",
+        "distractors": {
+          "plausible": [
+            "Frames come first mainly to conserve your energy so you can explode into the bridge at full power.",
+            "Frames come first because they off-balance the opponent forward, which is what makes the roll possible."
+          ],
+          "trap": [
+            "Push straight up on their chest with fully extended arms to lift their weight off you before bridging."
+          ]
+        }
       },
       {
         "question": "How does timing affect the success rate of the bridge and roll, and when is the optimal moment to execute?",
@@ -314,7 +332,16 @@
       },
       {
         "question": "Your opponent attempts an Americana while mounted—how do you use this to set up the bridge and roll?",
-        "answer": "When the opponent reaches for the Americana, they commit at least one arm to the attack and shift their weight toward the attacking side, both of which create the ideal setup for bridge and roll. First, address the immediate submission threat by pulling your elbow tight to your body and denying the grip. As they reach and lean, their base becomes narrow on the attacking side. Use your free hand to trap their committed arm against your chest—they've essentially trapped their own arm for you by reaching. Simultaneously hook their same-side foot. Their weight is already shifted toward that side from the Americana attempt, so your bridge requires less force to complete the reversal. The key insight is that submission attempts from mount always create escape windows."
+        "answer": "The Americana attempt commits their arm and shifts their weight toward the attacking side, creating the ideal bridge-and-roll setup on that side. First address the immediate submission threat by pulling your elbow tight to your body and denying the grip. As they reach and lean, their base becomes narrow on the attacking side. Use your free hand to trap their committed arm against your chest—by reaching, they have essentially trapped their own arm for you—and simultaneously hook their same-side foot. Because their weight is already shifted toward that side from the Americana attempt, your bridge requires less force to complete the reversal. The key insight is that submission attempts from mount always create escape windows.",
+        "distractors": {
+          "plausible": [
+            "As they reach for the Americana, immediately bridge away from the attack toward the opposite side.",
+            "Trap their arm and hook the foot first, then deal with the Americana grip once the roll is underway."
+          ],
+          "trap": [
+            "Straighten your attacked arm to push their face away and break the Americana before you bridge."
+          ]
+        }
       },
       {
         "question": "What grip adjustments are necessary when performing bridge and roll in no-gi versus gi?",

@@ -271,7 +271,16 @@
       },
       {
         "question": "What grip requirements must be met before you commit to the full rotation into deep half?",
-        "answer": "Before committing to rotation, you must have secured a deep underhook on opponent's near leg with your bottom arm, with your shoulder wedged against the inside of their thigh and your hand reaching at minimum behind their knee. Your top arm must be free and actively framing against their shoulder or hip to manage distance during rotation. No grips on opponent's upper body are needed for the entry itself, but the underhook depth is absolutely non-negotiable. A shallow underhook that only reaches their knee will fail against any sprawl counter."
+        "answer": "You need a deep underhook on the opponent's near leg, shoulder wedged into their inner thigh and hand reaching at least behind their knee. Your top arm must be free and actively framing against their shoulder or hip to manage distance during rotation. No grips on the opponent's upper body are needed for the entry itself, but the underhook depth is absolutely non-negotiable. A shallow underhook that only reaches their knee will fail against any sprawl counter.",
+        "distractors": {
+          "plausible": [
+            "You need a strong collar or sleeve grip on the opponent's upper body to break their posture before starting the rotation.",
+            "An underhook reaching to the opponent's knee is deep enough, as long as your top arm frames firmly on their hip."
+          ],
+          "trap": [
+            "Hug the opponent's near leg with both arms before rotating so the leg can never be pulled free during the spin."
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the deep half entry?",
@@ -279,11 +288,29 @@
       },
       {
         "question": "Your opponent has established crossface control and is driving heavy shoulder pressure - should you still attempt deep half entry?",
-        "answer": "No. If the opponent has already established a strong crossface with shoulder pressure driving your head away, the deep half entry window has closed. Attempting the rotation against an established crossface will result in being flattened and having your back exposed. Instead, prioritize breaking the crossface first by using your frames to create space and recover a knee shield or transition to lockdown. Once you have neutralized the crossface and reestablished your defensive frames, you can look for the deep half entry window when they next commit forward pressure."
+        "answer": "No — once a strong crossface is driving your head away, the deep half entry window has closed and you must not attempt the rotation. Rotating against an established crossface will result in being flattened and having your back exposed. Instead, prioritize breaking the crossface first by using your frames to create space and recover a knee shield or transition to lockdown. Once you have neutralized the crossface and reestablished your defensive frames, look for the deep half entry window when they next commit forward pressure.",
+        "distractors": {
+          "plausible": [
+            "Yes, but only if you rotate explosively to the far side before their shoulder pressure has fully settled onto your jaw.",
+            "Yes — the forward drive of the crossface is exactly the weight commitment deep half needs, so enter immediately."
+          ],
+          "trap": [
+            "Turn your head and chest away from the crossface pressure to create the rotation angle your hips need to spin under."
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply with the underhook once deep half is established?",
-        "answer": "Once in deep half, the underhook should pull opponent's near leg tight toward your chest using a curling motion, drawing their thigh into your body and eliminating any slack between your arm and their leg. This inward pulling force removes their ability to extract the leg and loads their weight onto your shoulder and upper back, creating the fulcrum for sweeps. The direction is toward your own chest and slightly upward, never pushing the leg away or outward. Combined with hip elevation, this pull generates the leverage that makes all deep half sweeps effective."
+        "answer": "Pull the opponent's near leg tight toward your own chest and slightly upward with a curling motion, eliminating all slack. Drawing their thigh into your body removes their ability to extract the leg and loads their weight onto your shoulder and upper back, creating the fulcrum for sweeps. Never push the leg away or outward. Combined with hip elevation, this pull generates the leverage that makes all deep half sweeps effective.",
+        "distractors": {
+          "plausible": [
+            "Push the leg upward and away from your body so their base rises and they become lighter to elevate for the sweep.",
+            "Pull the leg down toward your hips so their weight settles low and they lose the ability to sprawl on you."
+          ],
+          "trap": [
+            "Extend the underhook arm to push their thigh off your torso, creating the space you need to start moving your hips."
+          ]
+        }
       },
       {
         "question": "If your initial waiter sweep attempt is blocked because your opponent widens their base, what chain attack should you pursue?",
@@ -311,7 +338,16 @@
       },
       {
         "question": "What conditions must exist before attempting the Deep Half Entry from Half Guard?",
-        "answer": "Four conditions must be present: half guard entanglement on the opponent's leg must be secure, you need at least one frame or underhook preventing complete flattening, the opponent's weight must be committed forward or actively pressing down, and your hips must have sufficient mobility to create the entry angle through hip escape. If any of these conditions is missing, the entry will likely fail and leave you in a compromised position."
+        "answer": "You need secure half guard entanglement on their leg, at least one frame or underhook, their weight committed forward, and mobile hips. The frame or underhook prevents complete flattening, the forward pressure gives you weight to get underneath, and hip mobility lets you create the entry angle through hip escape. If any of these conditions is missing, the entry will likely fail and leave you in a compromised position.",
+        "distractors": {
+          "plausible": [
+            "You need the opponent posturing up and backing away, since their retreat creates the space to slide underneath them.",
+            "You need lockdown plus double underhooks secured first, since a single frame cannot stop you from being flattened."
+          ],
+          "trap": [
+            "Flatten onto your back first so you can spin freely underneath the opponent without your frames getting in the way."
+          ]
+        }
       },
       {
         "question": "The opponent applies a whizzer as you attempt to establish the underhook - what is your response?",

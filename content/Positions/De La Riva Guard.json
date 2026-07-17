@@ -688,7 +688,16 @@
   "flashcards_family": [
     {
       "question": "What makes the De La Riva hook a fundamentally different control mechanism than a static frame-based guard?",
-      "answer": "The De La Riva hook trades static structure for dynamic leverage by wrapping around the outside of the opponent's lead leg and pressuring behind the knee, connecting the guard player directly to the opponent's base rather than merely holding them at distance. Because the hook is wrapped rather than posted, tension can be lengthened and shortened at will, actively steering the opponent's weight rather than passively absorbing pressure. This live connection turns the opponent's own base into the lever, so their attempts to step, stand, or drive forward feed off-balancing energy back into the sweep. Every De La Riva variant inherits this principle: the hook is an active steering wheel on the opponent's balance, not a wall."
+      "answer": "The De La Riva hook is a live, wrapped connection to the opponent's base whose tension can lengthen and shorten to actively steer their weight. Unlike a static frame that merely holds the opponent at distance, the hook wraps around the outside of the lead leg and pressures behind the knee, connecting the guard player directly to the opponent's base. Because the hook is wrapped rather than posted, the opponent's own base becomes the lever, so their attempts to step, stand, or drive forward feed off-balancing energy back into the sweep. Every De La Riva variant inherits this principle: the hook is an active steering wheel on the opponent's balance, not a wall.",
+      "distractors": {
+        "plausible": [
+          "The DLR hook works like a rigid frame, locking the lead leg in place so the opponent cannot step or shift their weight.",
+          "The hook's main job is keeping distance, holding the opponent away exactly like a foot posted on the hip would."
+        ],
+        "trap": [
+          "The hook should stay fully extended and stiff at all times so the opponent's forward drive is absorbed head-on."
+        ]
+      }
     },
     {
       "question": "Why is the two-point connection of hook-plus-grip essential to every De La Riva variant?",
@@ -696,11 +705,29 @@
     },
     {
       "question": "How does the dilemma-based reaction structure define De La Riva as a system rather than a single sweep?",
-      "answer": "De La Riva does not rely on one technique succeeding; it forces the opponent into a small set of defensive reactions, each of which opens a different pre-loaded attack. When the opponent drives forward, inversion and back-take entries open; when they stand tall or lean back, under-transitions to X-Guard and Single Leg X become available; when they strip grips, timing windows for direct sweeps appear. Because every reasonable defensive reaction has a punishing counter, the guard player attacks the opponent's decision rather than any single limb. This reaction matrix is the strategic core shared by all variants, and reading which reaction is coming is what separates competent from dangerous De La Riva players."
+      "answer": "De La Riva is a system because every reasonable defensive reaction opens a different pre-loaded attack, so it targets the opponent's decision itself. When the opponent drives forward, inversion and back-take entries open; when they stand tall or lean back, under-transitions to X-Guard and Single Leg X become available; when they strip grips, timing windows for direct sweeps appear. Because no single technique has to succeed, the guard player attacks the opponent's choice rather than any single limb. This reaction matrix is the strategic core shared by all variants, and reading which reaction is coming is what separates competent from dangerous De La Riva players.",
+      "distractors": {
+        "plausible": [
+          "De La Riva is a system because you repeat the same core sweep until the opponent's defensive reactions finally fatigue and fail.",
+          "De La Riva is a system because its attacks chain in one fixed order: sweep first, then X-Guard, then the back take."
+        ],
+        "trap": [
+          "When the opponent drives forward, sit up square and push straight back into them to halt the pressure before attacking."
+        ]
+      }
     },
     {
       "question": "Why does the De La Riva player prioritize creating and constantly changing angles rather than working from a square, facing position?",
-      "answer": "Off-balancing leverage is maximized when the guard player's hips are angled off-line relative to the opponent, because a perpendicular or oblique hip angle points the hook's force across the opponent's base rather than straight into their strongest defensive posture. From a square, facing position the opponent can stack weight forward and smash, but from an angle their base becomes a narrow, tippable line. Constantly shifting the angle also keeps the opponent reactive and prevents them from settling into a stable passing platform. This is why every variant emphasizes mobile hips and shoulders slightly off the mat: the angle is the engine of the sweep, and a static angle is a defeated guard."
+      "answer": "An angled, off-line hip position points the hook's force across the opponent's narrow base instead of into their strongest defensive posture. From a square, facing position the opponent can stack weight forward and smash, but from an angle their base becomes a narrow, tippable line. Constantly shifting the angle also keeps the opponent reactive and prevents them from settling into a stable passing platform. This is why every variant emphasizes mobile hips and shoulders slightly off the mat: the angle is the engine of the sweep, and a static angle is a defeated guard.",
+      "distractors": {
+        "plausible": [
+          "Staying square maximizes leverage because both legs and both grips can apply pressure on the opponent at the same time.",
+          "You should establish one strong angle early and hold it statically so the opponent can never square back up to you."
+        ],
+        "trap": [
+          "Face the opponent squarely and pull them down into your chest so their weight settles on you before you sweep."
+        ]
+      }
     },
     {
       "question": "What universal vulnerability does any De La Riva player accept in exchange for the hook's offensive power?",
@@ -718,11 +745,29 @@
   "flashcards_position": [
     {
       "question": "What is the defining structural configuration of De La Riva Guard?",
-      "answer": "De La Riva Guard is defined by the bottom player threading their outside leg around the outside of the top player's lead leg, hooking the foot behind the knee or thigh to wrap it from the far side. This DLR hook is paired with a same-side hand controlling the ankle or pant cuff and an opposite-side grip on the sleeve, collar, or lapel, creating a diagonal two-point connection. The result is an off-angle, hook-based open guard where the bottom player is positioned outside the top player's near leg rather than square to them. That wrapping hook, rather than any frame or clamp, is what distinguishes DLR from every other open guard."
+      "answer": "De La Riva Guard is defined by the outside leg wrapping the top player's lead leg from the outside, hooking behind the knee or thigh. This DLR hook is paired with a same-side grip on the ankle or pant cuff and an opposite-side grip on the sleeve, collar, or lapel, creating a diagonal two-point connection. The result is an off-angle, hook-based open guard where the bottom player sits outside the top player's near leg rather than square to them. That wrapping hook, rather than any frame or clamp, is what distinguishes DLR from every other open guard.",
+      "distractors": {
+        "plausible": [
+          "De La Riva Guard is defined by hooking the inside of the opponent's lead leg with the near foot, like a low butterfly hook.",
+          "De La Riva Guard is defined by its collar-and-sleeve grip pairing, with the legs simply framing on the opponent's hips."
+        ],
+        "trap": [
+          "De La Riva Guard is defined by pulling the opponent square on top of you so both legs can clamp around their waist."
+        ]
+      }
     },
     {
       "question": "How does the De La Riva hook generate off-balancing leverage on the top player?",
-      "answer": "The hook wraps behind the top player's knee so that the bottom player's shin and instep can pull the trapped leg forward and inward while the hand grip on the ankle anchors it. This couples the trapped leg to the bottom player's core, so extending or retracting the hook directly loads or unloads the top player's base. Because the force is applied behind the knee at the end of a long lever, small hip movements translate into large disruptions of the top player's weight distribution. The top player is repeatedly pulled off their center of balance, which is the mechanical engine behind DLR's sweeps and entries."
+      "answer": "The hook pulls the trapped leg forward and inward from behind the knee while the ankle grip anchors it, loading the top player's base. This couples the trapped leg to the bottom player's core, so extending or retracting the hook directly loads or unloads the top player's base. Because the force is applied behind the knee at the end of a long lever, small hip movements translate into large disruptions of the top player's weight distribution. The top player is repeatedly pulled off their center of balance, which is the mechanical engine behind DLR's sweeps and entries.",
+      "distractors": {
+        "plausible": [
+          "The hook pushes the trapped leg backward and away, stretching the opponent's stance out until they tip forward.",
+          "Off-balancing comes mainly from yanking the sleeve grip, while the hook only stops the trapped leg from stepping."
+        ],
+        "trap": [
+          "You off-balance by releasing the ankle grip and rowing with both hands so the opponent tips forward over your hook."
+        ]
+      }
     },
     {
       "question": "Why is the mid-range distance the critical battleground in De La Riva Guard?",
@@ -730,7 +775,16 @@
     },
     {
       "question": "What role does the bottom player's non-hooking leg play in the shared dynamics of the position?",
-      "answer": "While the DLR hook wraps and off-balances, the non-hooking leg acts as the distance-management and framing limb, posting on the top player's hip, knee, or bicep. This second leg prevents the top player from closing space to smash the hook flat and keeps the perpendicular angle intact. It also serves as the pivot for angle changes, inversions, and transitions to X-Guard or Single Leg X. Control of this free leg is a central contest in the position, because whoever dictates it dictates whether distance and angle can be maintained or destroyed."
+      "answer": "The non-hooking leg manages distance and frames on the hip, knee, or bicep, protecting the hook and preserving the perpendicular angle. This second leg prevents the top player from closing space to smash the hook flat. It also serves as the pivot for angle changes, inversions, and transitions to X-Guard or Single Leg X. Control of this free leg is a central contest in the position, because whoever dictates it dictates whether distance and angle can be maintained or destroyed.",
+      "distractors": {
+        "plausible": [
+          "The non-hooking leg should also wrap the same lead leg, doubling the hook so the trapped leg can never be pulled free.",
+          "The free leg mostly rests on the mat for base, staying passive until it is needed to finish the sweep."
+        ],
+        "trap": [
+          "Keep the free leg tucked underneath your own body so the opponent has nothing to grab, pin, or pass around."
+        ]
+      }
     },
     {
       "question": "Why is the perpendicular hip angle so important to how De La Riva Guard functions?",

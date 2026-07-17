@@ -853,7 +853,16 @@
   "flashcards_family": [
     {
       "question": "What makes any side control variant a dominant position regardless of which grip configuration the top player uses?",
-      "answer": "Every side control variant shares a perpendicular chest-to-chest alignment where the top player controls the opponent from beyond their legs, removing the guard entirely from the equation. This perpendicular relationship maximizes control surface area while denying the bottom player the hip and leg leverage they would have in any guard. Because the legs are neutralized, the bottom player cannot use their strongest defensive tools and must rely on framing and hip movement alone. This shared geometry is why side control scores three IBJJF points and sits above guard in the positional hierarchy across all its scarf-hold and cross-side expressions."
+      "answer": "All side control variants share a perpendicular chest-to-chest alignment past the legs, taking the opponent's guard entirely out of play. This perpendicular relationship maximizes control surface area while denying the bottom player the hip and leg leverage they would have in any guard. Because the legs are neutralized, the bottom player cannot use their strongest defensive tools and must rely on framing and hip movement alone. This shared geometry is why side control scores three IBJJF points and sits above guard in the positional hierarchy across all its scarf-hold and cross-side expressions.",
+      "distractors": {
+        "plausible": [
+          "Every variant is dominant because the grips immobilize the opponent's arms, and arm control is what makes the position score.",
+          "Every variant is dominant because the top player controls the head, and head control alone outranks being past the legs."
+        ],
+        "trap": [
+          "Every variant stays dominant even if space opens at the hips, as long as the top player keeps the head firmly trapped."
+        ]
+      }
     },
     {
       "question": "Why is weight distribution through the hips rather than the arms a universal control principle across all side control variants?",
@@ -861,7 +870,16 @@
     },
     {
       "question": "What is the universal escape mechanism the bottom player must combine to recover from any side control variant?",
-      "answer": "Escaping any side control variant requires simultaneously creating space through hip movement and building a frame that prevents the top player from following that movement. Shrimping the hips away without a frame simply lets the opponent re-settle and follow, while framing without hip movement produces no room to recover guard or turn in. The frame typically braces against the opponent's hip and shoulder or neck, buying the moment needed to insert a knee or shrimp underneath. This frame-plus-motion pairing is the shared foundation of every escape, from elbow escapes to bridge-and-roll reversals."
+      "answer": "Escaping any side control variant requires combining hip movement that creates space with a frame that stops the top player from following it. Shrimping the hips away without a frame simply lets the opponent re-settle and follow, while framing without hip movement produces no room to recover guard or turn in. The frame typically braces against the opponent's hip and shoulder or neck, buying the moment needed to insert a knee or shrimp underneath. This frame-plus-motion pairing is the shared foundation of every escape, from elbow escapes to bridge-and-roll reversals.",
+      "distractors": {
+        "plausible": [
+          "Escaping starts by shrimping the hips away first, then building frames only after the space has already appeared.",
+          "Strong frames on the hip and shoulder are enough on their own, since holding them long enough forces the top player off."
+        ],
+        "trap": [
+          "Extend both arms and press straight up on the opponent's chest to bench-press them off before moving the hips."
+        ]
+      }
     },
     {
       "question": "Why does controlling the opponent's head and far-side arm remain a shared priority across every side control variant?",
@@ -883,7 +901,16 @@
   "flashcards_position": [
     {
       "question": "What body configuration structurally defines Side Control and distinguishes it from other pins?",
-      "answer": "Side Control is defined by the top player lying chest-to-chest and perpendicular across a grounded opponent's torso, positioned entirely beyond and clear of the opponent's legs. This transverse alignment is the essential feature: the two bodies form a rough cross rather than the parallel stacking seen in mount or the head-to-head reversal of north-south. Because the top player is past the legs, the bottom player cannot use guard or a knee shield to manage distance, which is precisely why guard recovery is the central escape objective. The perpendicular geometry maximizes the top player's control surface while minimizing the leverage the bottom player can generate with hips and knees."
+      "answer": "Side Control is defined by the top player lying chest-to-chest, perpendicular across the opponent's torso, past and clear of the legs. This transverse alignment is the essential feature: the two bodies form a rough cross rather than the parallel stacking seen in mount or the head-to-head reversal of north-south. Because the top player is past the legs, the bottom player cannot use guard or a knee shield to manage distance, which is precisely why guard recovery is the central escape objective. The perpendicular geometry maximizes the top player's control surface while minimizing the leverage the bottom player can generate with hips and knees.",
+      "distractors": {
+        "plausible": [
+          "Side Control is defined by the top player lying parallel alongside the opponent, chest-to-chest, with the hips stacked in line.",
+          "Side Control is defined by the top player controlling the opponent head-to-head from above the shoulders, facing the legs."
+        ],
+        "trap": [
+          "Side Control is defined by pinning the torso while keeping one leg hooked inside the opponent's legs for extra control."
+        ]
+      }
     },
     {
       "question": "Why does the perpendicular alignment of Side Control produce so much control relative to the effort required to hold it?",
@@ -891,7 +918,16 @@
     },
     {
       "question": "What are the primary control points that hold both players in the Side Control configuration?",
-      "answer": "The configuration is anchored by three interlocking control points shared across both perspectives: the crossface across the head and neck, the near-hip block, and the perpendicular chest connection. The crossface pins the head and prevents the bottom player from turning in to face the top player, which is the prerequisite for most escapes. The near-hip block, with the top player's near arm framing the far hip, denies the knee insertion needed to recover half guard. The heavy chest-to-chest connection eliminates the gap that framing and bridging depend on, so whoever controls these three points controls the exchange."
+      "answer": "Side Control is anchored by three interlocking points: the crossface on the head, the near-hip block, and the perpendicular chest-to-chest connection. The crossface pins the head and prevents the bottom player from turning in to face the top player, which is the prerequisite for most escapes. The near-hip block, with the top player's near arm framing the far hip, denies the knee insertion needed to recover half guard. The heavy chest-to-chest connection eliminates the gap that framing and bridging depend on, so whoever controls these three points controls the exchange.",
+      "distractors": {
+        "plausible": [
+          "It is anchored by the crossface, a far-side underhook, and the knees pinched tightly against the opponent's near ribs.",
+          "It is anchored by pinning both of the opponent's wrists to the mat while keeping heavy hips over their chest."
+        ],
+        "trap": [
+          "It is anchored by gripping the opponent's near leg with both hands, since stopping the shrimp matters more than head or chest control."
+        ]
+      }
     },
     {
       "question": "Why is the creation or denial of space the governing dynamic of Side Control for both players?",

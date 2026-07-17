@@ -464,13 +464,31 @@
       },
       {
         "question": "How can changing the shape of your hand disrupt a developing wrist lock?",
-        "answer": "Splaying your fingers and gripping disperses the flat palm pin the attacker needs, preventing the wrist from folding as a single rigid unit and buying time to bend the elbow and retract the arm.",
-        "safety_critical": false
+        "answer": "Splaying your fingers and gripping disperses the flat palm pin, so the wrist cannot fold as a single rigid unit. Breaking up that pin buys time to bend the elbow and retract the arm before the lock develops.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Make a tight fist and keep the arm straight so the attacker has nothing loose to bend against.",
+            "Go completely limp through the hand and wrist so there is no structure for the attacker to torque."
+          ],
+          "trap": [
+            "Yank the arm straight back as hard as you can to rip the pinned hand out of the attacker's grip."
+          ]
+        }
       },
       {
         "question": "If your hand is genuinely pinned and the wrist is folded to end range, what should you do?",
-        "answer": "Tap early. No grip, posture, or position is worth a wrist sprain or fracture from a joint with so little margin. Tap with the free hand, foot, or voice, and reset rather than fighting a sealed lock.",
-        "safety_critical": true
+        "answer": "Tap early — no grip, posture, or position is worth a wrist sprain or fracture from a joint with so little margin. Tap with the free hand, foot, or voice, and reset rather than fighting a sealed lock.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Stay calm and slowly peel the attacker's fingers open one by one before the pressure fully peaks.",
+            "Turn your body toward the fold to relieve the angle, tapping only if the pressure keeps building."
+          ],
+          "trap": [
+            "Spin explosively toward the locked wrist to unwind the fold before the attacker can finish."
+          ]
+        }
       }
     ],
     "training_progressions": [

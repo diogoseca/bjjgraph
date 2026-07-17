@@ -268,7 +268,16 @@
       },
       {
         "question": "What is the primary purpose of controlling the opponent's near hip during the underhook pass, and what happens if this control is neglected?",
-        "answer": "Controlling the near hip prevents the opponent from using hip escape (shrimping) movements to create the angle and distance needed to recover full guard or initiate sweeps. The hip is the mobility center of the bottom player's defensive movement. Without this control, even with good underhook and crossface, the opponent can shrimp away, creating space to re-establish their guard structure or insert knee shields. The near hip control works in conjunction with the underhook to create a pinning system that immobilizes the opponent's core."
+        "answer": "Controlling the near hip prevents the opponent from shrimping to create the angle and distance needed to recover guard or initiate sweeps. The hip is the mobility center of the bottom player's defensive movement. Without this control, even with a good underhook and crossface, the opponent can hip escape away, creating space to re-establish their guard structure or insert knee shields. The near hip control works in conjunction with the underhook to create a pinning system that immobilizes the opponent's core.",
+        "distractors": {
+          "plausible": [
+            "Controlling the near hip mainly stops the opponent from bridging, since bridging is the primary escape against the underhook pass.",
+            "Near hip control only matters early in the pass; once the underhook and crossface are set, the crossface alone shuts down all hip movement."
+          ],
+          "trap": [
+            "With the underhook and crossface secured, hip control is redundant — release the hip early and reach across for the far arm instead."
+          ]
+        }
       },
       {
         "question": "Explain the biomechanical principle behind driving your shoulder into the opponent's chest while maintaining the underhook, and how this creates a flattening effect?",
@@ -288,7 +297,16 @@
       },
       {
         "question": "When is the optimal timing window to begin extracting the trapped leg during the underhook pass?",
-        "answer": "The optimal window for leg extraction opens only after the opponent is fully flattened with their shoulder blades pinned to the mat and their hip mobility neutralized. Specifically, you should feel their resistance to your shoulder pressure collapse, meaning they can no longer maintain a side-facing posture. Their near hip should be controlled by your free hand, and their frames should be broken or ineffective. Attempting extraction before this point allows the opponent to use residual hip mobility and framing to prevent the pass or initiate sweeps. The moment their body goes flat and heavy against the mat is your cue to begin small, methodical knee-driving movements to clear the leg."
+        "answer": "Extract the trapped leg only after the opponent is fully flattened, with shoulder blades pinned to the mat and hip mobility neutralized. Specifically, you should feel their resistance to your shoulder pressure collapse, meaning they can no longer maintain a side-facing posture. Their near hip should be controlled by your free hand, and their frames should be broken or ineffective. Attempting extraction before this point allows the opponent to use residual hip mobility and framing to prevent the pass or initiate sweeps. The moment their body goes flat and heavy against the mat is your cue to begin small, methodical knee-driving movements to clear the leg.",
+        "distractors": {
+          "plausible": [
+            "Begin extracting the leg as soon as the underhook is secured, before the opponent has time to lock their half guard any tighter.",
+            "Start pulling the leg free the moment their knee shield drops, even if they are still on their side facing you."
+          ],
+          "trap": [
+            "Rip the leg free immediately with one explosive hip extension at first contact — speed beats flattening them out."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat and starts to sit up while you are securing the underhook - how do you adjust?",
@@ -296,11 +314,29 @@
       },
       {
         "question": "What is the critical direction of force application through your shoulder and hips during the flattening phase of the underhook pass?",
-        "answer": "The force vector must drive diagonally forward and downward at approximately 45 degrees, directed through your shoulder into the opponent's near pectoral and sternum area. Your hips should drive forward into their hip line, not upward. The underhook arm simultaneously pulls their far shoulder toward you, creating a rotational shearing force that works in opposition to your shoulder drive. This opposing force pair generates torque around the opponent's spine axis, rotating them from their side position onto their back. The common mistake is driving force straight down (which the opponent can brace against) or straight forward (which allows them to absorb pressure on their side). The diagonal vector bypasses both defensive structures."
+        "answer": "Drive force diagonally forward and downward at roughly 45 degrees through your shoulder into their near pectoral and sternum. Your hips should drive forward into their hip line, not upward. The underhook arm simultaneously pulls their far shoulder toward you, creating a rotational shearing force that works in opposition to your shoulder drive. This opposing force pair generates torque around the opponent's spine axis, rotating them from their side position onto their back. The common mistake is driving force straight down (which the opponent can brace against) or straight forward (which allows them to absorb pressure on their side). The diagonal vector bypasses both defensive structures.",
+        "distractors": {
+          "plausible": [
+            "Drive your shoulder pressure straight down into the mat so the opponent cannot brace or bridge under your weight.",
+            "Drive straight forward through their side into their chest line, keeping the pressure purely horizontal so they cannot slip under it."
+          ],
+          "trap": [
+            "Lift your hips high and drop your full weight vertically onto their chest — the higher the drop, the more crushing the pin."
+          ]
+        }
       },
       {
         "question": "If you complete the underhook pass but the opponent immediately frames and starts recovering half guard during your side control consolidation, what chain attacks should you threaten?",
-        "answer": "As the opponent frames to recover, immediately threaten the kimura on their near arm that is reaching to frame - this punishes the frame creation and forces them to retract the arm. If they pull the arm back, transition to heavy crossface and drive to north-south to reset your control. If they insert their knee for half guard recovery, immediately attack with a darce choke as the knee insertion creates the head-and-arm configuration, or switch to knee on belly to punish the space creation. The key principle is that every defensive action they take to recover guard should open a submission or positional advancement threat, creating a lose-lose scenario where recovering guard exposes them to worse outcomes than accepting side control."
+        "answer": "Threaten the kimura on their near framing arm, then a darce or knee on belly if they insert the knee for half guard. The kimura punishes the frame creation and forces them to retract the arm; if they pull the arm back, transition to a heavy crossface and drive to north-south to reset your control. If they insert their knee for half guard recovery, immediately attack with a darce choke as the knee insertion creates the head-and-arm configuration, or switch to knee on belly to punish the space creation. The key principle is that every defensive action they take to recover guard should open a submission or positional advancement threat, creating a lose-lose scenario where recovering guard exposes them to worse outcomes than accepting side control.",
+        "distractors": {
+          "plausible": [
+            "Attack an armbar on their far arm first, since the near framing arm is too close to your chest to isolate cleanly.",
+            "Hold position and wait for their recovery attempt to stall — chaining submissions while they frame risks losing side control."
+          ],
+          "trap": [
+            "Jump straight to mount over their inserted knee — a fast mount attempt beats the knee shield before it can lock in."
+          ]
+        }
       },
       {
         "question": "What specific grip configuration with your underhook hand provides the most control, and why does grip depth matter?",

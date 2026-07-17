@@ -258,7 +258,16 @@
       },
       {
         "question": "Why should you avoid leading posture recovery with your head or neck?",
-        "answer": "Leading with the head or neck creates significant injury risk to the cervical spine, particularly if the opponent is pulling down with collar grips that load the neck under extension. Additionally, it telegraphs your intention and makes it easier for the opponent to time counters such as triangles and armbars. Proper recovery initiates from the hips with progressive spinal straightening from lumbar through thoracic to cervical, ensuring force is distributed across the entire posterior chain."
+        "answer": "Leading with the head or neck risks cervical spine injury and telegraphs your recovery, letting the opponent time triangles and armbars. The danger is greatest when the opponent is pulling down with collar grips that load the neck under extension. Proper recovery initiates from the hips with progressive spinal straightening from lumbar through thoracic to cervical, ensuring force is distributed across the entire posterior chain rather than concentrated on the neck.",
+        "distractors": {
+          "plausible": [
+            "Leading with the head is inefficient mainly because neck muscles are weaker than the hips, so the recovery is simply slower.",
+            "Lifting the head first is risky mostly because it loosens your grips, so secure sleeve control before raising your chin."
+          ],
+          "trap": [
+            "Lead with your chin lifting first to create space quickly, since raising the head forces the opponent to release their collar grips."
+          ]
+        }
       },
       {
         "question": "Your opponent pivots their hips for an armbar as you begin recovering posture - how do you adjust?",
@@ -266,7 +275,16 @@
       },
       {
         "question": "What grip must you address before committing to the major recovery movement?",
-        "answer": "The cross collar grip is the most dangerous grip that must be addressed first, as it allows the opponent to both maintain broken posture and threaten cross collar chokes during your recovery. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away. Sleeve grips can often be managed during recovery, but a deep collar grip will pull you back down or choke you if not neutralized before committing to the hip drive."
+        "answer": "Break the cross collar grip first, because it both holds your posture broken and threatens cross collar chokes during your recovery. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away. Sleeve grips can often be managed during recovery, but a deep collar grip will pull you back down or choke you if not neutralized before committing to the hip drive.",
+        "distractors": {
+          "plausible": [
+            "Strip the sleeve grips first, since they control your arms and prevent you from posting to drive your posture upward.",
+            "Break the collar grip by pulling straight back against their fingers with one hand as you begin the hip drive."
+          ],
+          "trap": [
+            "Ignore the grips and explode upward with pure hip drive, since a committed posture recovery breaks any collar grip on its own."
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating posture recovery against an active guard player?",

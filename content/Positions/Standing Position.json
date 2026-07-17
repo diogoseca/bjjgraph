@@ -584,7 +584,16 @@
       },
       {
         "question": "What are the three most important grip configurations to establish when initiating standing engagement in the gi?",
-        "answer": "The three priority grip configurations are: (1) collar and sleeve grip, which provides control of distance and the ability to set up both throws and guard pulls; (2) double sleeve control, which neutralizes the opponent's offensive options while creating pulling and off-balancing opportunities; and (3) collar tie with wrist control, which allows snapdowns, Russian tie transitions, and close-range throw entries. Each configuration should be established proactively through deliberate hand fighting sequences rather than passively accepted."
+        "answer": "The three priority gi grips are collar and sleeve, double sleeve control, and collar tie with wrist control. The collar and sleeve grip provides control of distance and the ability to set up both throws and guard pulls; double sleeve control neutralizes the opponent's offensive options while creating pulling and off-balancing opportunities; and the collar tie with wrist control allows snapdowns, Russian tie transitions, and close-range throw entries. Each configuration should be established proactively through deliberate hand fighting sequences rather than passively accepted.",
+        "distractors": {
+          "plausible": [
+            "The three priority gi grips are double lapel control, a belt grip, and a pant-leg grip, layering control from the torso down.",
+            "The three priority grips are collar and sleeve, an over-the-back belt grip, and double ankle control for immediate takedown entries."
+          ],
+          "trap": [
+            "Reach in with both hands for deep double collar grips first, since controlling the head neutralizes every throw and guard pull."
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight and position your feet to maintain a strong standing base against both pulling and pushing forces?",
@@ -1029,11 +1038,29 @@
   "flashcards_position": [
     {
       "question": "What structural features define the Standing Position and distinguish it from every ground-based state in BJJ?",
-      "answer": "The Standing Position is defined by both grapplers upright with their feet as the only points of contact with the mat, creating a mobile, two-legged base for each player rather than the multi-point ground contact of guard or pinning positions. Neither player has established dominant control, so the configuration is symmetric and neutral: both have equal access to offense and both carry equal risk of being off-balanced. Because the center of gravity is high and supported only by the feet, small disruptions in base translate quickly into falls or takedowns, which is why footwork and posture dominate the exchange. This contrasts sharply with ground positions where contact area is large, the base is low, and control hierarchies are already established."
+      "answer": "The Standing Position is defined by both grapplers upright with feet as the only mat contact, on mobile two-legged bases with no dominant control established. Because neither player has established dominant control, the configuration is symmetric and neutral: both have equal access to offense and both carry equal risk of being off-balanced. Since the center of gravity is high and supported only by the feet, small disruptions in base translate quickly into falls or takedowns, which is why footwork and posture dominate the exchange. This contrasts sharply with ground positions where contact area is large, the base is low, and control hierarchies are already established.",
+      "distractors": {
+        "plausible": [
+          "The Standing Position is defined by whoever secures the first grips holding dominant control, making the exchange asymmetric from first contact.",
+          "The Standing Position is defined by a low center of gravity on two feet, making balance easier to hold than in guard or pinning positions."
+        ],
+        "trap": [
+          "Treat standing like a ground base: plant your feet wide and flat and settle your weight so the opponent cannot move you."
+        ]
+      }
     },
     {
       "question": "Why is the Standing Position classified as neutral with a point value of zero despite being the gateway to the entire match?",
-      "answer": "It is neutral because neither grappler holds a positional or scoring advantage: both stand upright with equal opportunity to initiate takedowns, throws, or guard pulls. No points are awarded merely for being on the feet, since the position confers no control over the opponent's hips, posture, or movement. The score only changes when one player converts the exchange into a takedown, sweep, or dominant landing that satisfies advancement criteria. This zero-sum symmetry is precisely what makes grip fighting and off-balancing so contested, because both players are competing to break the neutrality in their favor."
+      "answer": "Standing is neutral and worth zero points because neither grappler holds a positional or scoring advantage while both are on their feet. Both stand upright with equal opportunity to initiate takedowns, throws, or guard pulls, and no points are awarded merely for being on the feet, since the position confers no control over the opponent's hips, posture, or movement. The score only changes when one player converts the exchange into a takedown, sweep, or dominant landing that satisfies advancement criteria. This zero-sum symmetry is precisely what makes grip fighting and off-balancing so contested, because both players are competing to break the neutrality in their favor.",
+      "distractors": {
+        "plausible": [
+          "Standing is worth zero because takedowns only ever score advantages rather than full points under modern BJJ rulesets.",
+          "Standing is neutral until grips are established, at which point the player with dominant grips is awarded a scoring advantage."
+        ],
+        "trap": [
+          "Since standing scores nothing, avoid engaging on the feet and wait out the clock until the referee restarts the match on the ground."
+        ]
+      }
     },
     {
       "question": "What are the primary control points contested by both players in a standing exchange, and what does controlling each one achieve?",

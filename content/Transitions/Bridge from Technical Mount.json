@@ -261,11 +261,29 @@
       },
       {
         "question": "Why must you bridge toward the opponent's inside leg rather than their posted leg?",
-        "answer": "The posted leg functions as a stabilizing tripod with the shin perpendicular to your body and foot planted on the mat, creating strong structural resistance to lateral force. Bridging into this base wastes energy against the opponent's strongest support structure. The inside leg, hooked underneath your body, provides significantly less lateral resistance because it lacks the structural angle and mat contact needed to absorb bridging force, making it the weak side of their asymmetric base."
+        "answer": "Bridge toward the inside leg because it lacks mat contact and structural angle, making it the weak side of the opponent's base. The posted leg functions as a stabilizing tripod with the shin perpendicular to your body and foot planted on the mat, creating strong structural resistance to lateral force—bridging into this base wastes energy against the opponent's strongest support structure. The inside leg, hooked underneath your body, provides significantly less lateral resistance because it cannot absorb bridging force.",
+        "distractors": {
+          "plausible": [
+            "Bridge toward the posted leg because its perpendicular shin gives you a rigid surface to roll the opponent over.",
+            "Bridge straight up over your head so the opponent's weight lifts evenly off both legs at once."
+          ],
+          "trap": [
+            "Drive repeated maximum-force bridges into the posted leg to collapse their strongest tripod before they can adjust."
+          ]
+        }
       },
       {
         "question": "Your opponent has heavy settled pressure with no weight shifts occurring—should you attempt the bridge immediately?",
-        "answer": "No. Bridging against fully settled heavy pressure produces minimal displacement at maximum energy cost. Instead, maintain defensive frames and protect your arms while waiting for the opponent to initiate a movement—any submission attempt, grip change, or position adjustment will create a weight shift. Patience preserves energy for the moment when bridging effectiveness is highest. Forced bridges against settled weight are the most common energy-wasting mistake from this position."
+        "answer": "No—maintain defensive frames and wait for the opponent to initiate movement, because bridging against settled weight wastes energy. Any submission attempt, grip change, or position adjustment will create a weight shift, and patience preserves energy for the moment when bridging effectiveness is highest. Bridging fully settled heavy pressure produces minimal displacement at maximum energy cost—forced bridges against settled weight are the most common energy-wasting mistake from this position. Keep protecting your arms while you wait.",
+        "distractors": {
+          "plausible": [
+            "Yes—bridge immediately, before the opponent can settle their weight any deeper into your chest.",
+            "No—first pummel both arms completely free, then bridge as hard as possible into the settled pressure."
+          ],
+          "trap": [
+            "Yes—chain rapid repeated bridges to exhaust the opponent until their settled pressure finally breaks."
+          ]
+        }
       },
       {
         "question": "What is the most critical arm position throughout the bridge movement and why?",
@@ -273,7 +291,16 @@
       },
       {
         "question": "If your bridge creates space but the opponent blocks your knee insertion for guard recovery, what is your immediate follow-up?",
-        "answer": "If knee insertion is blocked, immediately attempt a secondary hip escape in the same direction to create additional space, or switch to turning toward turtle as an emergency recovery position. Turtle from technical mount is a significant positional improvement. Avoid staying on your back with space but no guard—the opponent will quickly close the gap and reestablish mount pressure. The critical rule is to never waste the space created by the bridge; convert it into positional change immediately."
+        "answer": "Immediately attempt a secondary hip escape in the same direction, or turn toward turtle rather than staying flat on your back. Turtle from technical mount is a significant positional improvement, so it serves as a legitimate emergency recovery. Avoid staying on your back with space but no guard—the opponent will quickly close the gap and reestablish mount pressure. The critical rule is to never waste the space created by the bridge; convert it into positional change immediately.",
+        "distractors": {
+          "plausible": [
+            "Hold the space with stiff-arm frames and rest, waiting for a cleaner second chance to insert the knee.",
+            "Bridge again to the opposite side to catch the opponent overcommitted to blocking your knee."
+          ],
+          "trap": [
+            "Turn belly-down and reach back to shove the blocking knee away, clearing the lane for guard recovery."
+          ]
+        }
       },
       {
         "question": "Your opponent begins the armbar swing-over just as you bridge—how do you capitalize on their commitment?",
@@ -285,7 +312,16 @@
       },
       {
         "question": "How does the grip with your threatened hand affect the bridge mechanics?",
-        "answer": "Gripping your own collar or opposite shoulder with the threatened hand serves two critical functions: it mechanically locks the elbow in a bent position preventing extension during the explosive bridge, and it creates a connection point that allows your arm to move as a unit with your torso rather than being left behind during displacement. Without this self-grip, the arm tends to extend under the forces of the bridge, creating the exact arm exposure the escape is designed to prevent."
+        "answer": "Gripping your own collar or opposite shoulder locks the threatened elbow bent and makes the arm move as one unit with your torso. This self-grip serves two critical functions: it mechanically prevents the elbow from extending during the explosive bridge, and it creates a connection point so the arm travels with your body rather than being left behind during displacement. Without it, the arm tends to extend under the forces of the bridge, creating the exact arm exposure the escape is designed to prevent.",
+        "distractors": {
+          "plausible": [
+            "Grip the opponent's sleeve or wrist with the threatened hand so you control their attacking arm during the bridge.",
+            "Keep the threatened hand planted palm-flat on the mat to add pushing power to the explosive bridge."
+          ],
+          "trap": [
+            "Extend the threatened arm across your body to post on the far mat, using it to pull yourself through the bridge."
+          ]
+        }
       }
     ],
     "safety_considerations": "The bridge from technical mount involves explosive spinal extension and rotation under load, creating risk for lower back strain if performed without adequate warm-up. Always warm up the lumbar spine, hip flexors, and neck with progressive mobility work before drilling. When training with partners, communicate clearly about resistance levels—unexpected full resistance during bridge drills can cause neck injuries from the combined forces of the bridge and the top player's weight. Avoid forcing the bridge when the opponent has fully secured arm control, as explosive movement with a trapped arm risks shoulder injury. Always tap immediately if caught in a submission during escape attempts rather than risking injury to complete the escape.",

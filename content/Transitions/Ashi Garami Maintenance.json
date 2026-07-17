@@ -270,11 +270,29 @@
       },
       {
         "question": "Your opponent begins pushing your bottom knee toward the mat to open inside space - how do you adjust?",
-        "answer": "Counter the knee push by driving your inside knee back toward the opponent's centerline while simultaneously pulling their trapped leg tighter with your upper body grips. If the knee push succeeds partially, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push."
+        "answer": "Counter the knee push by driving your inside knee back to their centerline while pulling their trapped leg tighter with your grips. Make the pull with your upper body grips, and if the push partially succeeds, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push.",
+        "distractors": {
+          "plausible": [
+            "Squeeze your knees down toward the mat harder, using leg strength alone to outmuscle their push on your bottom knee.",
+            "Extend your inside leg into a long straight frame against their push, then re-grip once their pressure stalls."
+          ],
+          "trap": [
+            "Release the trapped leg from your upper body grips and sit up to fight their knee push directly with your arms."
+          ]
+        }
       },
       {
         "question": "What distinguishes passive maintenance from active maintenance in Ashi Garami positions?",
-        "answer": "Passive maintenance relies on static hook placement and grip tension without adjusting to opponent movement, leading to gradual degradation of control as the opponent systematically clears connections. Active maintenance involves continuous micro-adjustments including hip following, grip transitions, and preventive re-hooking before connections fail, creating cumulative fatigue in the defender."
+        "answer": "Passive maintenance holds static hooks and grips, while active maintenance makes continuous micro-adjustments before connections fail. Passive reliance on static hook placement and grip tension leads to gradual degradation of control as the opponent systematically clears connections. Active maintenance — hip following, grip transitions, and preventive re-hooking before connections fail — creates cumulative fatigue in the defender.",
+        "distractors": {
+          "plausible": [
+            "Passive maintenance uses only your legs, while active maintenance adds upper body grips to reinforce the same hooks.",
+            "Active maintenance means reacting quickly after a hook is stripped, rebuilding each connection as soon as it is lost."
+          ],
+          "trap": [
+            "Passive maintenance is the better strategy since staying still conserves energy while the opponent exhausts themselves clearing hooks."
+          ]
+        }
       },
       {
         "question": "How does upper body posture affect your ability to maintain Ashi Garami from bottom position?",
@@ -282,11 +300,29 @@
       },
       {
         "question": "Your opponent has all primary hooks stripped except your two-on-one ankle grip - what chain attack keeps you in the fight?",
-        "answer": "Use the retained ankle grip as a control anchor to transition into a straight ankle lock entry or to re-pummel a single leg X-guard hook before they fully clear. Pull their foot tight to your chest, elevate your hips to re-thread an inside hook, and chain back into the entanglement rather than conceding the position. The upper body grip buys the time needed to rebuild leg connections."
+        "answer": "Use the retained two-on-one ankle grip as a control anchor to enter a straight ankle lock or re-pummel a single leg X-guard hook. Pull their foot tight to your chest, elevate your hips to re-thread an inside hook, and chain back into the entanglement rather than conceding the position. The upper body grip buys the time needed to rebuild leg connections before they fully clear.",
+        "distractors": {
+          "plausible": [
+            "Re-thread your inside hook before tightening the ankle grip, since leg connections always come before hand grips.",
+            "Use the ankle grip to sweep to top position first, since you need to be on top before any ankle lock is available."
+          ],
+          "trap": [
+            "Release the ankle grip and turn away to recover guard, resetting to a safer position before they clear everything."
+          ]
+        }
       },
       {
         "question": "What direction of force breaks down a defender who is methodically clearing your outside clamp?",
-        "answer": "Drive your knees together in a pinching, scissoring direction while pulling the trapped limb toward your centerline, concentrating force inward rather than just squeezing down. Combine the inward pinch with a hip scoot toward the defender to remove the space they need to peel the clamp. The convergent force keeps the clamp seated even as they push outward on the crossing leg."
+        "answer": "Drive your knees together in a pinching, scissoring direction while pulling the trapped limb toward your centerline. Concentrate force inward rather than just squeezing down, and combine the inward pinch with a hip scoot toward the defender to remove the space they need to peel the clamp. The convergent force keeps the clamp seated even as they push outward on the crossing leg.",
+        "distractors": {
+          "plausible": [
+            "Squeeze straight down on the trapped leg to pin it to the mat, since downward pressure is what stops the peel.",
+            "Scoot your hips away from the defender to stretch their leg long, making the clamp harder for them to peel."
+          ],
+          "trap": [
+            "Push both knees outward against their peeling pressure, meeting their outward force with your own to hold the clamp."
+          ]
+        }
       }
     ],
     "safety_considerations": "Ashi Garami maintenance involves sustained pressure on the knee joint and surrounding ligaments. Always practice with controlled intensity and tap immediately if a training partner achieves heel exposure during maintenance drilling. Avoid explosive resistance when your heel is exposed, as rotational forces through the knee can cause ligament damage faster than pain signals register. Communicate clearly with training partners about resistance levels during positional sparring involving leg entanglements. During re-hooking drills, maintain awareness that rapid reconnection can inadvertently apply twisting force to the knee if angles change during the exchange.",

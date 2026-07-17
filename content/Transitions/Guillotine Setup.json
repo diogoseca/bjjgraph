@@ -240,19 +240,55 @@
     "flashcards": [
       {
         "question": "What is the primary anatomical landmark you should aim for when threading your choking arm under the opponent's chin?",
-        "answer": "You should aim to position your wrist bone (the bony prominence on the thumb side of your wrist) directly against the opponent's trachea rather than having the soft, muscular part of your forearm against their neck. This creates focused pressure on the most vulnerable part of the throat and prevents them from creating space by tucking their chin. The wrist bone acts as a hard point of pressure that is extremely difficult to defend against when properly positioned."
+        "answer": "You should aim your wrist bone—the bony prominence on the thumb side—directly against the opponent's trachea, not the soft forearm. Placing this hard point on the throat, rather than the soft, muscular part of your forearm, creates focused pressure on the most vulnerable part of the neck and prevents them from creating space by tucking their chin. Properly positioned, the wrist bone acts as a hard point of pressure that is extremely difficult to defend against.",
+        "distractors": {
+          "plausible": [
+            "You should press the meaty middle of your forearm across the throat to maximize surface contact and comfort in the grip.",
+            "You should aim the wrist bone at the side of the neck to compress the carotid artery rather than the front of the throat."
+          ],
+          "trap": [
+            "You should press your forearm flat across their jaw and pull up hard—the jaw pain forces them to lift the chin for you."
+          ]
+        }
       },
       {
         "question": "Why is stepping to a 45-degree angle critical for the guillotine setup, and what happens if you remain square to your opponent?",
-        "answer": "Stepping to a 45-degree angle toward your choking arm side creates mechanical advantage by aligning your body structure to maximize leverage while simultaneously removing your centerline from their driving path. If you remain square, the opponent can drive straight into you, stack you, or simply posture up because you have minimal leverage and they can use their legs and hips to generate forward pressure that overcomes your upper body strength. The angle makes it geometrically impossible for them to drive into you effectively while multiplying your choking power."
+        "answer": "Stepping 45 degrees toward your choking-arm side maximizes your leverage while removing your centerline from the opponent's driving path. The angle aligns your body structure to multiply choking power and makes it geometrically impossible for them to drive into you effectively. If you remain square, they can drive straight into you, stack you, or simply posture up, because their legs and hips generate forward pressure that overcomes your upper body strength while you have minimal leverage.",
+        "distractors": {
+          "plausible": [
+            "Step 45 degrees away from your choking-arm side so your free arm can post and absorb the opponent's forward drive.",
+            "Stay square to the opponent but drop your hips low so their forward drive passes harmlessly over your back."
+          ],
+          "trap": [
+            "Remain square and pull their head straight down between your legs, using your body weight to stop them from driving forward."
+          ]
+        }
       },
       {
         "question": "What are the three most common grip configurations for the guillotine setup, and when might you choose each one?",
-        "answer": "The three most common grips are: (1) Gable grip (palm-to-palm)—most secure and powerful for most practitioners, provides maximum pressure with least technical demand; (2) S-grip (four fingers of one hand curl around the wrist of the other)—good for practitioners with medium-length arms, allows for quick adjustments; and (3) Interlaced fingers—requires longest arms but provides deepest penetration, excellent when you have exceptional arm length relative to opponent's neck size. Choice depends on your arm length, opponent's neck thickness, and gi vs. no-gi context."
+        "answer": "The three common grips are the gable grip (palm-to-palm), the S-grip, and interlaced fingers, chosen by arm length, neck size, and context. The gable grip is the most secure and powerful for most practitioners, providing maximum pressure with the least technical demand. The S-grip (four fingers of one hand curled around the other wrist) suits medium-length arms and allows quick adjustments. Interlaced fingers require the longest arms but provide the deepest penetration, excellent when you have exceptional arm length relative to the opponent's neck size. Choice depends on your arm length, the opponent's neck thickness, and gi vs. no-gi context.",
+        "distractors": {
+          "plausible": [
+            "The three common grips are the gable, the ball-and-socket, and the figure-four, chosen mainly by gi versus no-gi context.",
+            "The S-grip is the most secure default for everyone, while the gable grip only works for practitioners with very long arms."
+          ],
+          "trap": [
+            "Interlace your fingers by default in every guillotine, since laced fingers can never be stripped apart by the defender."
+          ]
+        }
       },
       {
         "question": "If your opponent successfully tucks their chin before you can get your arm deep, what are your best options to still secure an effective guillotine?",
-        "answer": "Your best options are: (1) Switch to a high elbow guillotine variation by raising your choking elbow and changing the angle of pressure to go over their chin rather than under it; (2) Transition to an arm-in guillotine if you can trap their defensive arm inside your grip; (3) Switch to an anaconda or darce choke where the tucked chin actually helps the submission by creating pressure; or (4) Use your free hand to physically strip their chin up while maintaining control, then re-establish the deep position. The key is recognizing early that the traditional setup is compromised and adapting rather than forcing a low-percentage position."
+        "answer": "Against a tucked chin, switch attacks: high elbow guillotine, arm-in guillotine, anaconda or darce, or strip the chin up and re-thread. Specifically: (1) raise your choking elbow into a high elbow guillotine, changing the pressure angle to go over the chin rather than under it; (2) transition to an arm-in guillotine if you can trap their defensive arm inside your grip; (3) switch to an anaconda or darce, where the tucked chin actually helps by creating pressure; or (4) use your free hand to physically strip their chin up while maintaining control, then re-establish the deep position. The key is recognizing early that the traditional setup is compromised and adapting rather than forcing a low-percentage position.",
+        "distractors": {
+          "plausible": [
+            "Pull guard first to add leg pressure, then use both hands to pry the chin up before rebuilding the choking grip.",
+            "Abandon the front headlock and reset to a neutral tie, since a tucked chin ends the choking sequence entirely."
+          ],
+          "trap": [
+            "Crank your grip hard across their jaw and face—enough jaw pressure will force the tap even without reaching the neck."
+          ]
+        }
       },
       {
         "question": "What role does your non-choking arm play in the guillotine setup, and how should it be positioned?",
@@ -260,15 +296,42 @@
       },
       {
         "question": "From a front headlock position, what are the key indicators that tell you the timing is optimal to transition to a guillotine setup?",
-        "answer": "Key timing indicators include: (1) Opponent's head is lower than their hips with broken posture; (2) Their near arm is not creating a strong defensive frame against your body; (3) They are in a transitional moment such as attempting to stand, advance, or recover position; (4) You have sufficient control that they cannot immediately explosively posture up; (5) Clear access exists to thread your arm under their chin without obstruction; and (6) Your base is stable enough that transitioning your grips will not result in you being driven backward. The optimal moment is often when the opponent is in motion trying to improve their position rather than when they are statically defending."
+        "answer": "Attack when their posture is broken with head below hips, their frames are absent, and they are in motion trying to improve position. The full checklist: (1) opponent's head lower than their hips with broken posture; (2) their near arm not framing strongly against your body; (3) a transitional moment such as standing, advancing, or recovering position; (4) enough control that they cannot immediately explode into posture; (5) clear access to thread your arm under the chin without obstruction; and (6) a base stable enough that switching grips will not get you driven backward. The optimal moment is usually when they are moving to improve position, not when they are statically defending.",
+        "distractors": {
+          "plausible": [
+            "The best moment is when they stop moving and defend statically, since a still opponent cannot counter the arm thread.",
+            "Wait until they fully stand back up, because an upright opponent gives the deepest angle for the choking arm."
+          ],
+          "trap": [
+            "Thread the arm the instant you touch the head, even without control—speed always beats control from the front headlock."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their near hand on your hip and begins pushing away during the threading phase—how do you adjust?",
-        "answer": "Use your non-choking hand to strip the posting hand off your hip by peeling it at the wrist, then immediately continue threading your choking arm deeper before they can re-establish the frame. Alternatively, use the post against them by stepping your hips away from the posting side while driving your shoulder forward, which collapses their frame and creates the angle you need simultaneously. A third option is to switch to an arm-in guillotine by going over the posting arm rather than fighting to remove it—their extended arm becomes trapped inside your grip, creating a different but equally dangerous choking configuration."
+        "answer": "Strip the posting hand off your hip by peeling it at the wrist, then immediately thread your choking arm deeper before the frame returns. Alternatively, use the post against them: step your hips away from the posting side while driving your shoulder forward, which collapses their frame and creates your angle simultaneously. A third option is switching to an arm-in guillotine by going over the posting arm rather than fighting it—their extended arm becomes trapped inside your grip, creating a different but equally dangerous choking configuration.",
+        "distractors": {
+          "plausible": [
+            "Step your hips toward the posting side to jam their arm against your body, then thread once the frame collapses.",
+            "Post your own hand on their shoulder to match their frame, and thread the choking arm only after they release the hip."
+          ],
+          "trap": [
+            "Ignore the post entirely and yank the head down harder—raw pulling power will always beat a hip frame."
+          ]
+        }
       },
       {
         "question": "What is the critical difference between the guillotine setup finishing in guard versus finishing from standing, and how do you decide which path to take?",
-        "answer": "The standing finish relies on gravity and weight drop for choking pressure—you arch back and pull down on the head while your body weight creates compression against the grip. It works best when you have a very deep grip and the opponent is already compromised. The guard finish uses your legs to control posture and create a second fulcrum point at the hips, generating pressure from two directions. Choose the standing finish when your grip is deep and their base is unstable, or in MMA contexts. Choose the guard pull when the opponent is strong enough to resist the standing finish, when you need the extra control of your legs to prevent escape, or when you want the security of guard position as a backup if the choke fails."
+        "answer": "Standing finishes use gravity and weight drop through a deep grip, while guard finishes add your legs as a second fulcrum at the hips. From standing, you arch back and pull down on the head while your body weight creates compression against the grip—best when your grip is very deep and the opponent is already compromised. The guard finish uses your legs to control posture and generate pressure from two directions. Choose the standing finish when your grip is deep and their base is unstable, or in MMA contexts. Choose the guard pull when the opponent is strong enough to resist the standing finish, when you need your legs to prevent escape, or when you want guard as a secure backup if the choke fails.",
+        "distractors": {
+          "plausible": [
+            "Choose the standing finish when the opponent is strong and resisting hard, since your full body weight will beat their base.",
+            "Always pull guard to finish, because the standing guillotine only works in the gi where friction holds the grip together."
+          ],
+          "trap": [
+            "Jump to guard while squeezing regardless of grip depth—the airborne commitment is what guarantees the finish."
+          ]
+        }
       },
       {
         "question": "Your opponent shoots a double leg and you sprawl—describe the sequence to convert the sprawl into a guillotine setup?",
@@ -276,7 +339,16 @@
       },
       {
         "question": "If your initial guillotine setup is blocked and you cannot secure Guillotine Control, what chain attacks should you pursue from the front headlock?",
-        "answer": "Your primary chain options are: (1) Transition to an anaconda choke by threading your arm under their neck and over their far arm, then locking a gable grip and rolling; (2) Switch to a darce choke by underhooking their near arm and connecting your hands under the far side of their neck; (3) Disengage the choke attempt and take the back by using their defensive reaction to step around and secure hooks; (4) Snap them back down to re-establish front headlock and reset the attack cycle. The key is that each failed guillotine attempt should seamlessly flow into the next attack rather than creating a dead moment where you must re-establish control from scratch."
+        "answer": "Chain from the front headlock into the anaconda, the darce, a back take, or a snap-down reset—each failed attempt flows into the next attack. Specifically: (1) transition to an anaconda choke by threading your arm under their neck and over their far arm, locking a gable grip and rolling; (2) switch to a darce by underhooking their near arm and connecting your hands under the far side of the neck; (3) disengage the choke and take the back, using their defensive reaction to step around and secure hooks; or (4) snap them back down to re-establish the front headlock and reset the attack cycle. The key is that each failed guillotine flows seamlessly into the next attack rather than creating a dead moment where you must rebuild control from scratch.",
+        "distractors": {
+          "plausible": [
+            "Keep the same grip and roll for a mounted guillotine, since changing chokes means rebuilding your grips from scratch.",
+            "Chain first to an armbar on the near arm, because the head-and-arm chokes all require releasing the head entirely."
+          ],
+          "trap": [
+            "Release everything and back away to open space, so you can reset and attack the guillotine again completely fresh."
+          ]
+        }
       }
     ],
     "safety_considerations": "When training the guillotine setup, both practitioners must understand that the neck and trachea are extremely vulnerable areas requiring careful, controlled practice. Apply the setup slowly during drilling, giving your partner time to tap if uncomfortable. Never explosively jerk or crank the neck during the setup phase. Partners should communicate clearly about pressure levels, and the person applying the technique should release immediately upon any tap, verbal submission, or sign of distress. Be especially cautious with grip pressure during the initial threading phase, as overly aggressive arm placement can cause trachea damage even before the choke is fully applied. When practicing from standing positions, ensure adequate mat space and be prepared to control your partner's fall if they lose balance. Beginners should focus on positioning and mechanics with minimal pressure until they understand the technique thoroughly. Remember that a properly applied guillotine can render someone unconscious in 3-8 seconds, so never maintain pressure once a tap occurs, and never practice finishing mechanics without a partner's explicit consent and understanding of safe tapping protocols.",

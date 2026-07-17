@@ -557,7 +557,16 @@
     "flashcards": [
       {
         "question": "You have a locked triangle but the choke is not finishing - what is the single most important adjustment?",
-        "answer": "Get the angle. Hip out toward your trapped-arm side until your hips are perpendicular to the opponent's torso instead of square to them. The triangle only chokes from angle, not from squeezing a square position. Pull their head down as you hip out, then re-clamp the knees and curl the locking ankle down."
+        "answer": "Hip out toward your trapped-arm side until your hips are perpendicular to the opponent's torso — the angle, not the squeeze, finishes the choke. The triangle only chokes from angle, never from squeezing a square position. Pull their head down as you hip out, then re-clamp the knees and curl the locking ankle down.",
+        "distractors": {
+          "plausible": [
+            "Squeeze your knees harder and crunch your abs until the choke tightens from the square position.",
+            "Hip out toward the free-arm side so the trapped shoulder rolls deeper across the throat."
+          ],
+          "trap": [
+            "Briefly unlock your ankles so you can reposition your legs and re-lock the figure-four tighter."
+          ]
+        }
       },
       {
         "question": "Why and how should you control the opponent's trapped arm during the triangle finish?",
@@ -577,7 +586,16 @@
       },
       {
         "question": "The opponent straightens and extends the trapped arm to defend the choke - what attack does this offer?",
-        "answer": "The armbar. Their straight arm is already isolated by your legs. Pin the wrist against your chest, clamp your legs to hold the triangle frame, then rotate underneath toward the trapped-arm side and bring the choking leg over their face to finish the armbar. The extended arm that defends the choke is the armbar's setup."
+        "answer": "The armbar — their straightened trapped arm is already isolated by your legs, so the choke defense hands you the arm attack. Pin the wrist against your chest, clamp your legs to hold the triangle frame, then rotate underneath toward the trapped-arm side and bring the choking leg over their face to finish. The extended arm that defends the choke is the armbar's setup.",
+        "distractors": {
+          "plausible": [
+            "The kimura — reach up, grab the extended wrist with both hands, and crank the arm behind their back.",
+            "The omoplata — swing your choking leg over the straightened arm and sit up to rotate onto it."
+          ],
+          "trap": [
+            "Release the triangle lock so you can sit up and attack the extended arm with both hands free."
+          ]
+        }
       },
       {
         "question": "How do you manage leg and grip endurance during a prolonged triangle hold?",
@@ -585,7 +603,16 @@
       },
       {
         "question": "The opponent turns away from you and drives toward your trapped-arm side - how do you respond?",
-        "answer": "Take the back. Follow their rotation, keep the triangle leg frame as a control point, and climb to back control as they expose it, or invert to keep the angle. Their turn away from the choke opens the back-take line, so flow with the rotation into Triangle to Back rather than fighting to hold a square choke they have already turned out of."
+        "answer": "Take the back — follow their rotation and climb to back control as their turn away from the choke exposes it. Keep the triangle leg frame as a control point while you climb, or invert to keep the angle. Their turn opens the back-take line, so flow with the rotation into Triangle to Back rather than fighting to hold a square choke they have already turned out of.",
+        "distractors": {
+          "plausible": [
+            "Square your hips back up and re-tighten the triangle lock before they can complete their turn.",
+            "Hip out hard in the opposite direction to restore the perpendicular angle and finish the choke."
+          ],
+          "trap": [
+            "Open your legs and scramble up to your knees before they can settle into top position."
+          ]
+        }
       }
     ],
     "name": "Triangle Escape Position Bottom",
@@ -665,7 +692,16 @@
     },
     {
       "question": "Why is the hip angle, rather than raw leg squeeze, the true determining factor of this position?",
-      "answer": "The figure-four loop only becomes an effective blood choke when the finisher's hips are turned perpendicular to the caught player's torso rather than square to it. From a square angle the leg pressure compresses muscle and windpipe inefficiently and leaves gaps around the carotids. Turning perpendicular aligns the shin and the trapped shoulder against both sides of the neck, sealing the arteries. Consequently the entire fight for both players revolves around whether that perpendicular angle gets established or denied, not around who squeezes harder."
+      "answer": "The figure-four only becomes an effective blood choke when the finisher's hips turn perpendicular to the caught player's torso instead of staying square. From a square angle the leg pressure compresses muscle and windpipe inefficiently and leaves gaps around the carotids. Turning perpendicular aligns the shin and the trapped shoulder against both sides of the neck, sealing the arteries. Consequently the entire fight for both players revolves around whether that perpendicular angle gets established or denied, not around who squeezes harder.",
+      "distractors": {
+        "plausible": [
+          "Squeezing harder from a square angle eventually seals the arteries once the neck muscles fatigue under the pressure.",
+          "The angle matters mainly because turning sideways lets you recruit the stronger inner-thigh muscles for the squeeze."
+        ],
+        "trap": [
+          "Staying square is actually safer, because turning perpendicular loosens the lock and hands the opponent their escape."
+        ]
+      }
     },
     {
       "question": "What role does the trapped arm play in the mechanics shared by both players?",

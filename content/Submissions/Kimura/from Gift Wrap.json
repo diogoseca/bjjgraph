@@ -277,8 +277,17 @@
     "flashcards": [
       {
         "question": "What anatomical structures does the Kimura from Gift Wrap primarily attack?",
-        "answer": "The Kimura primarily attacks the shoulder joint complex including the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the glenoid labrum. The forced internal rotation under load stresses these structures beyond their normal range of motion, creating the submission pressure that forces the tap.",
-        "safety_critical": true
+        "answer": "The Kimura primarily attacks the shoulder joint complex — the rotator cuff, shoulder capsule, and glenoid labrum — through forced internal rotation. The rotator cuff muscles under attack are the supraspinatus, infraspinatus, teres minor, and subscapularis. Forcing internal rotation under load stresses these structures beyond their normal range of motion, creating the submission pressure that forces the tap.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "The Kimura primarily attacks the elbow joint, hyperextending it like an armbar as the arm is levered behind the back.",
+            "The Kimura mainly targets the wrist and forearm, twisting them past their range until the pain forces the tap."
+          ],
+          "trap": [
+            "The Kimura attacks the neck and shoulder together, so crank the arm up toward the opponent's head for the fastest tap."
+          ]
+        }
       },
       {
         "question": "What is the critical vulnerability window during the Gift Wrap to Kimura transition?",
@@ -297,8 +306,17 @@
       },
       {
         "question": "What indicators show you have reached the point of no escape for the defender?",
-        "answer": "The point of no escape occurs when the figure-four is locked, the elbow is pinned against your body or their torso, and rotational pressure has moved the arm past approximately 45 degrees behind the neutral shoulder position. At this point, the mechanical disadvantage becomes too great for the defender to reverse through strength alone, and the defender must tap to prevent injury.",
-        "safety_critical": true
+        "answer": "Escape becomes impossible once the figure-four is locked, the elbow is pinned, and the arm has rotated past roughly 45 degrees behind neutral. The elbow must be pinned against your body or the opponent's torso for the position to be inescapable. Past that point, the mechanical disadvantage is too great for the defender to reverse through strength alone, and they must tap to prevent injury.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "The point of no escape is reached as soon as the figure-four grip is secured, before any rotational pressure is applied.",
+            "You have passed the point of no escape once the wrist is controlled, even if the elbow drifts away from the body."
+          ],
+          "trap": [
+            "Once the defender grabs their own belt or thigh, crank hard through the defensive grip to force the point of no escape."
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if the opponent's arm is slippery from sweat in no-gi?",
@@ -317,8 +335,17 @@
       },
       {
         "question": "What are the most common finishing errors that reduce Kimura effectiveness from Gift Wrap?",
-        "answer": "The most common finishing errors are: applying rotation without the elbow pinned, which allows the opponent to straighten and escape; using explosive jerking force instead of smooth pressure, which creates counter-rotation opportunities; maintaining hips directly behind the opponent instead of angling to the Kimura side for proper leverage; and releasing back control hooks during the finishing sequence, allowing positional escape.",
-        "safety_critical": false
+        "answer": "The biggest finishing errors are rotating without pinning the elbow, jerking explosively, staying square behind the opponent, and releasing the hooks. Rotating with the elbow free lets the opponent straighten the arm and escape, and explosive jerking force instead of smooth pressure creates counter-rotation opportunities. Keeping the hips directly behind the opponent instead of angling to the Kimura side kills your leverage, and releasing the back control hooks during the finishing sequence allows a positional escape.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The main finishing error is rotating too slowly; explosive torque finishes before the defender can recognize the crank.",
+            "The key error is angling off to the Kimura side, since staying square behind the opponent gives the strongest leverage."
+          ],
+          "trap": [
+            "For maximum torque, release your back control hooks and post both legs wide on the mat before rotating the arm."
+          ]
+        }
       },
       {
         "question": "In competition, what is the risk-reward profile of the Kimura from Gift Wrap compared to other finishes?",

@@ -836,11 +836,29 @@
     "flashcards": [
       {
         "question": "Your opponent begins driving forward with shoulder pressure - what hip adjustment maintains your guard structure?",
-        "answer": "Immediately hip escape diagonally away from the pressure direction while maintaining one foot on their hip and the other creating a frame on their knee or thigh. Never stay flat when pressure comes - angle your body to create space and prevent being flattened. This hip escape creates the space needed to insert hooks or establish a specific guard variation."
+        "answer": "Hip escape diagonally away from the pressure while keeping one foot on their hip and a frame on their knee or thigh. Never stay flat when pressure comes — angle your body to create space and prevent being flattened. This diagonal escape creates the space needed to insert hooks or establish a specific guard variation.",
+        "distractors": {
+          "plausible": [
+            "Hip escape straight backward to create maximum distance before re-establishing your foot frames.",
+            "Bridge your hips straight up into the pressure to stall their drive before you start angling."
+          ],
+          "trap": [
+            "Stay flat and squeeze your knees together to absorb the shoulder pressure until their drive stalls."
+          ]
+        }
       },
       {
         "question": "What are the essential connection points for maintaining open guard control against a standing opponent?",
-        "answer": "Minimum two connection points required: one controlling lower body (foot on hip, de la riva hook, or shin frame) and one controlling upper body (collar grip, sleeve grip, or wrist control). Without both connections, opponent can freely advance. The feet manage distance while hands control their posture and movement direction."
+        "answer": "Maintain at least two connections: one on their lower body (foot on hip, de la riva hook, or shin frame) and one on their upper body (collar, sleeve, or wrist). Without both connections the opponent can advance freely. The feet manage distance while the hands control their posture and movement direction.",
+        "distractors": {
+          "plausible": [
+            "Both feet planted on their hips is enough, since distance control alone stops a standing opponent.",
+            "One dominant collar grip is the priority; foot connections can wait until they close the distance."
+          ],
+          "trap": [
+            "Grab both of their ankles with your hands so the standing opponent cannot step around your legs."
+          ]
+        }
       },
       {
         "question": "How do you shut down a toreando pass attempt when opponent grabs your pants at the knees?",
@@ -904,7 +922,16 @@
     },
     {
       "question": "Why is open guard considered a dynamic position that cannot be held statically?",
-      "answer": "Because no mechanical lock holds the players together, the configuration is maintained purely by active tension between the guard player's frames and the passer's advance. The moment either player stops adjusting, the balance of distance and angle shifts and control transfers to whoever is moving. Both players must therefore read and react within a two-to-three second window, constantly repositioning feet, grips, and hips. This is why open guard is more energy-intensive than closed guard and rewards the player with superior movement and pattern recognition."
+      "answer": "Open guard has no mechanical lock, so control exists only through active tension between the guard player's frames and the passer's advance. The moment either player stops adjusting, the balance of distance and angle shifts and control transfers to whoever is moving. Both players must therefore read and react within a two-to-three second window, constantly repositioning feet, grips, and hips. This is why open guard is more energy-intensive than closed guard and rewards the player with superior movement and pattern recognition.",
+      "distractors": {
+        "plausible": [
+          "Because the heavy grips it requires fatigue your hands quickly, forcing a full reset every few seconds.",
+          "Because the standing passer always moves faster, so the bottom player must strike first to keep pace."
+        ],
+        "trap": [
+          "Once your grips and frames are set you can relax and rest, since good structure holds the passer in place."
+        ]
+      }
     },
     {
       "question": "What are the primary control points shared by both players in an open guard exchange?",

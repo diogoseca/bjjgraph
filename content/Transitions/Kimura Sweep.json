@@ -241,7 +241,16 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical advantage that makes the Kimura Sweep effective?",
-        "answer": "The figure-four grip creates a lever system where your entire arm strength controls opponent's shoulder joint, allowing you to use their trapped limb to disrupt their base and create the rotational force needed for the sweep."
+        "answer": "The figure-four grip forms a lever that lets your whole arm strength control the opponent's shoulder and disrupt their base. Because their limb is trapped in this lever system, your hip drive translates directly into the rotational force needed for the sweep, turning their own arm into the handle that tips them over.",
+        "distractors": {
+          "plausible": [
+            "The grip works mainly by causing shoulder pain, forcing the opponent to roll themselves over to relieve the pressure.",
+            "The advantage comes from pinning their wrist flat to the mat so they cannot post, while your legs alone generate the sweep."
+          ],
+          "trap": [
+            "Extending the trapped arm straight out away from your chest maximizes leverage and makes the sweep nearly effortless."
+          ]
+        }
       },
       {
         "question": "Why must you hip escape before attempting the sweep motion?",
@@ -249,7 +258,16 @@
       },
       {
         "question": "Your opponent straightens their trapped arm when you secure the Kimura grip. How do you adjust?",
-        "answer": "Transition immediately to a straight armlock attack on the extended arm, or use their focus on the arm to switch to a hip bump sweep while their attention is diverted from base maintenance."
+        "answer": "Attack a straight armlock on the extended arm, or switch to a hip bump sweep while their attention is on defending the arm. The straightened arm hands you a new submission threat, and their focus on grip-fighting means their base maintenance is neglected — exactly the moment a sweep succeeds.",
+        "distractors": {
+          "plausible": [
+            "Fight to re-bend the arm back into the figure-four before doing anything else, since the Kimura grip is your top priority.",
+            "Immediately break your own grip and re-secure it higher on their wrist to regain the bent-arm angle."
+          ],
+          "trap": [
+            "Keep the figure-four and crank against the straight arm with pure strength until it bends back into position."
+          ]
+        }
       },
       {
         "question": "What distinguishes when to finish the Kimura submission versus executing the sweep?",
@@ -257,15 +275,42 @@
       },
       {
         "question": "Why is it critical to keep the trapped arm pinned to your chest throughout the sweep?",
-        "answer": "Keeping the arm tight prevents opponent from straightening to break the grip, maintains your mechanical advantage, and ensures the lever system stays intact so your hip drive translates directly into rotational force on their body."
+        "answer": "Pinning the arm to your chest stops them straightening to break the grip and keeps the lever intact so hip drive becomes rotation. This preserves your mechanical advantage for the whole movement, ensuring the force you generate transfers directly into turning their body rather than leaking out through a loose connection.",
+        "distractors": {
+          "plausible": [
+            "Pinning the arm mostly hides your sweep intentions, so the opponent cannot read which direction you plan to go.",
+            "Keeping the arm close matters because finishing the shoulder lock quickly is the real purpose of the movement."
+          ],
+          "trap": [
+            "Letting the arm drift away from your chest is fine if your grip is strong; the extra space adds swing momentum to the sweep."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand wide to resist the sweep. How do you capitalize on this?",
-        "answer": "The posted hand creates an armbar opportunity on that extended arm, or you can increase hip drive explosiveness to power through their weakened base since weight is now distributed across a wider, less stable platform."
+        "answer": "The wide post exposes that extended arm to an armbar, or you can drive your hips harder through their now wider, weaker base. A hand posted far from their center spreads their weight across a less stable platform, so either attack the offered arm or add explosive hip drive to power through the compromised structure.",
+        "distractors": {
+          "plausible": [
+            "Pause and wait for them to bring the posted hand back in, since sweeping into a posted arm just wastes your energy.",
+            "Slow the sweep down and shift it toward the posted side, where their planted hand shows their weight is committed."
+          ],
+          "trap": [
+            "Release the Kimura grip and grab the posted wrist with both hands, since removing that post is the first priority."
+          ]
+        }
       },
       {
         "question": "What leg positioning optimizes the sweep power during execution?",
-        "answer": "Post one foot on the mat on the side you're hip escaping toward for driving power, while keeping the opposite leg as an active hook on opponent's hip to pull them into the rotation and prevent them from stepping around."
+        "answer": "Post the foot on the side you are hip escaping toward, and keep the opposite leg as an active hook on the opponent's hip. The posted foot gives you driving power off the mat, while the hook pulls them into the rotation and prevents them from stepping around to recover their base.",
+        "distractors": {
+          "plausible": [
+            "Keep both legs locked in closed guard throughout the sweep so your guard pressure carries them over with you.",
+            "Post the foot on the far side, away from your hip escape, so your body has room to slide underneath them."
+          ],
+          "trap": [
+            "Plant both feet flat on the mat and bridge straight up, since maximum vertical lift is what topples the opponent."
+          ]
+        }
       },
       {
         "question": "How does the Kimura Sweep integrate with the hip bump sweep as a combination attack?",

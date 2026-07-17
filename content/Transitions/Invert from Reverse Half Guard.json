@@ -254,7 +254,16 @@
       },
       {
         "question": "Your opponent maintains heavy crossface pressure—should you still attempt the inversion?",
-        "answer": "No. Heavy crossface pressure pins your shoulders to the mat and eliminates the space needed to initiate the shoulder roll. Address the crossface first by framing against their shoulder or bicep to create space. If you cannot clear the crossface, switch to a different escape strategy such as turning to face the opponent through elbow escape mechanics or working toward an underhook recovery. Forcing the inversion against a strong crossface results in a stalled rotation with maximum back exposure."
+        "answer": "No — heavy crossface pressure pins your shoulders to the mat and eliminates the space needed to initiate the shoulder roll. Address the crossface first by framing against their shoulder or bicep to create space. If you cannot clear the crossface, switch to a different escape strategy such as turning to face the opponent through elbow escape mechanics or working toward an underhook recovery. Forcing the inversion against a strong crossface results in a stalled rotation with maximum back exposure.",
+        "distractors": {
+          "plausible": [
+            "No — you must first win the underhook battle, since the underhook is what creates the space to start the shoulder roll.",
+            "Yes, if you roll toward the crossface side, because their own shoulder pressure helps feed your rotation under them."
+          ],
+          "trap": [
+            "Yes — explode into the inversion immediately, because rotation speed beats crossface pressure before they can settle their weight."
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the rotation phase of the inversion?",
@@ -278,7 +287,16 @@
       },
       {
         "question": "What conditions make the inversion a higher percentage option than other reverse half guard escapes?",
-        "answer": "The inversion becomes higher percentage when the opponent has successfully blocked your ability to turn and face them—strong crossface preventing face-the-opponent escapes, or positioning making underhook recovery impossible. If the opponent's pressure is forward and lateral rather than straight down, the inversion exploits their committed weight angle. The technique is best suited to practitioners with good hip mobility and inversion experience, because committed rotation speed is difficult for even aware opponents to follow."
+        "answer": "The inversion becomes higher percentage when the opponent has blocked your ability to turn and face them, closing off the simpler escapes. This means a strong crossface preventing face-the-opponent escapes, or positioning that makes underhook recovery impossible. If the opponent's pressure is forward and lateral rather than straight down, the inversion exploits their committed weight angle. The technique is best suited to practitioners with good hip mobility and inversion experience, because committed rotation speed is difficult for even aware opponents to follow.",
+        "distractors": {
+          "plausible": [
+            "It becomes higher percentage once you have won the underhook, because the underhook frees your hips to rotate underneath.",
+            "It works best when the opponent's weight is driving straight down on your hips, pinning you flat and loading their base."
+          ],
+          "trap": [
+            "It is the highest percentage default from reverse half guard, so invert slowly and feel for openings as you rotate."
+          ]
+        }
       }
     ],
     "safety_considerations": "The inversion places significant load on the cervical spine and neck during the rotational phase. Always tuck the chin firmly to the chest before initiating the roll to distribute forces through the upper back and shoulders rather than the neck. Practitioners with cervical spine issues, herniated discs, or neck injuries should avoid this technique or modify it with medical guidance. During training, partners should avoid driving weight onto an inverting player's head or neck. Progress gradually from solo drills to partner drilling before adding resistance, ensuring proper rotational mechanics are established before loading the movement.",

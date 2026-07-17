@@ -575,7 +575,16 @@
   "flashcards_family": [
     {
       "question": "What is the fundamental control mechanism that defines every variant of Twister Control?",
-      "answer": "Every variant works by forcing rotational torque through the opponent's spinal column, so their shoulders face one direction while their hips and legs face another. This misalignment prevents the core from firing in a coordinated way, which is what normally powers bridges, hip escapes, and explosive scrambles. Whether the entry is from the truck or a lateral side-control configuration, the shared engine is spinal rotation under load rather than simple pinning weight. Break the rotation and you no longer have Twister Control regardless of which variant you started in."
+      "answer": "Every variant of Twister Control forces rotational torque through the spine so the shoulders face one direction while the hips face another. This misalignment prevents the core from firing in a coordinated way, which is what normally powers bridges, hip escapes, and explosive scrambles. Whether the entry is from the truck or a lateral side-control configuration, the shared engine is spinal rotation under load rather than simple pinning weight. Break the rotation and you no longer have Twister Control regardless of which variant you started in.",
+      "distractors": {
+        "plausible": [
+          "Twister Control works by pinning the opponent under heavy top pressure so they cannot bridge or hip escape.",
+          "The defining control is trapping both of the opponent's legs so their hips can never turn back toward you."
+        ],
+        "trap": [
+          "Release the lower-body hooks once you grip the head, since the upper-body crank alone keeps the opponent locked in place."
+        ]
+      }
     },
     {
       "question": "Why is controlling at least one of the opponent's legs the non-negotiable foundation across all Twister Control variants?",

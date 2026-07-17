@@ -261,15 +261,42 @@
     "flashcards": [
       {
         "question": "What is the primary purpose of the long step in this passing technique?",
-        "answer": "The long step serves to bypass the opponent's guard structure by placing your knee past their hip line, creating an angle that makes it extremely difficult for them to insert defensive frames or recover guard position. It commits your weight forward and establishes the passing angle that will be maintained throughout the technique."
+        "answer": "The long step bypasses the opponent's guard structure by placing your knee past their hip line, creating the passing angle. That angle makes it extremely difficult for them to insert defensive frames or recover guard position. It also commits your weight forward and establishes the passing angle that will be maintained throughout the technique.",
+        "distractors": {
+          "plausible": [
+            "The long step creates separation from the guard so you can circle the legs with speed before frames form.",
+            "The long step pins the opponent's legs to the mat under your shin so they cannot pummel their hooks back in."
+          ],
+          "trap": [
+            "The long step pulls your hips back and keeps your weight light so the opponent's frames and sweeps can't reach you."
+          ]
+        }
       },
       {
         "question": "Why is crossface pressure critical to the success of the Long Step Pass?",
-        "answer": "Crossface pressure serves multiple essential functions: it controls the opponent's head and prevents them from turning into you, it creates significant discomfort that encourages defensive reactions rather than offensive guard retention, and it helps maintain your chest pressure on their chest which is crucial for preventing space creation and re-guarding attempts."
+        "answer": "Crossface pressure controls the opponent's head and stops them turning into you, which shuts down guard recovery. It also creates significant discomfort that encourages defensive reactions rather than offensive guard retention. Finally, it helps maintain your chest-on-chest pressure, which is crucial for preventing space creation and re-guarding attempts.",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure matters mainly because it sets up collar chokes and neck attacks while the pass is finishing.",
+            "The crossface's main job is trapping the near arm so the opponent cannot frame on your hips during the step."
+          ],
+          "trap": [
+            "Skip the crossface and put both hands on the hips instead, since the legs, not the head, are what recover guard."
+          ]
+        }
       },
       {
         "question": "How should you adjust the Long Step Pass when your opponent creates a knee shield?",
-        "answer": "When the opponent establishes a knee shield, you should immediately transition to a Knee Slice Pass variation by using your underhook to flatten the opponent while driving your knee through the shield. Alternatively, you can step back and switch to a different passing approach like the Toreando Pass. The key is recognizing the knee shield early and adapting rather than forcing the original passing angle."
+        "answer": "Against a knee shield, transition immediately to a Knee Slice Pass, using your underhook to flatten them while driving your knee through the shield. Alternatively, you can step back and switch to a different passing approach like the Toreando Pass. The key is recognizing the knee shield early and adapting rather than forcing the original passing angle.",
+        "distractors": {
+          "plausible": [
+            "Against a knee shield, drive straight forward with chest pressure until the shield collapses under your weight.",
+            "Answer the knee shield by immediately hopping to the opposite side before securing any new grips or an underhook."
+          ],
+          "trap": [
+            "Reach over the top of the knee shield to grab the far lapel, letting your arm ride across their shin as you pressure in."
+          ]
+        }
       },
       {
         "question": "What are the key differences between executing the Long Step Pass in gi versus no-gi?",
@@ -277,7 +304,16 @@
       },
       {
         "question": "How does the Long Step Pass connect to the broader pressure passing system?",
-        "answer": "The Long Step Pass is foundational to pressure passing systems because it establishes the key principles of controlling distance, maintaining forward pressure, and using strategic stepping to create passing angles. It connects seamlessly with the Knee Slice Pass, Over-Under Pass, and Smash Pass, allowing the passer to flow between techniques based on the opponent's defensive reactions. The skills developed in the Long Step Pass - particularly crossface pressure and leg control - transfer directly to all other pressure-based passing approaches."
+        "answer": "The Long Step Pass is foundational to pressure passing because it teaches distance control, forward pressure, and strategic stepping to create passing angles. It connects seamlessly with the Knee Slice Pass, Over-Under Pass, and Smash Pass, allowing the passer to flow between techniques based on the opponent's defensive reactions. The skills it develops — particularly crossface pressure and leg control — transfer directly to all other pressure-based passing approaches.",
+        "distractors": {
+          "plausible": [
+            "The Long Step Pass is central to pressure passing because it is the fastest pass, beating guards before frames form.",
+            "The Long Step Pass matters to the system mainly as a leg-lock entry point when forward pressure stalls out."
+          ],
+          "trap": [
+            "Treat the Long Step as a standalone pass and avoid chaining it, since mixing in knee slices telegraphs your intentions."
+          ]
+        }
       },
       {
         "question": "What should your weight distribution be during the long step execution?",
@@ -289,15 +325,42 @@
       },
       {
         "question": "Your opponent posts their far foot on the mat and bridges into you during the long step - how do you adjust?",
-        "answer": "When the opponent bridges into you during the long step, use their momentum against them by maintaining your crossface pressure and driving your weight forward through the bridge. As they return to the mat after the bridge, immediately circle your hips further around to complete the pass. The bridge actually creates a momentary opening because their legs extend and cannot maintain active guard frames. Widen your base momentarily to absorb the bridge force without being displaced."
+        "answer": "Keep your crossface, drive your weight forward through the bridge, and circle your hips further around as they return to the mat to complete the pass. The bridge actually creates a momentary opening because their legs extend and cannot maintain active guard frames — you are using their momentum against them. Widen your base momentarily to absorb the bridge force without being displaced.",
+        "distractors": {
+          "plausible": [
+            "Pause the pass and wait out the bridge, then re-step once the opponent settles back down and their frames reopen.",
+            "Hop over their hips mid-bridge straight to mount, since bridging exposes the mount more than the side pass."
+          ],
+          "trap": [
+            "Sit back onto your heels and release the crossface so the bridge force can't reach you, then re-engage after they settle."
+          ]
+        }
       },
       {
         "question": "What grip configuration gives you the highest success rate when initiating the Long Step Pass against butterfly guard?",
-        "answer": "Against butterfly guard, the optimal grip configuration is controlling both of the opponent's knees or pants at knee level, pushing them down and to one side to flatten the butterfly hooks before stepping. If the opponent has strong hooks, control the near sleeve or wrist with one hand to prevent the underhook while your other hand controls the far knee. This prevents the elevation that powers butterfly sweeps while creating the angle needed to initiate the long step safely."
+        "answer": "Control both of the opponent's knees or pants at knee level, pushing them down and to one side to flatten the butterfly hooks before stepping. If the opponent has strong hooks, control the near sleeve or wrist with one hand to prevent the underhook while your other hand controls the far knee. This prevents the elevation that powers butterfly sweeps while creating the angle needed to initiate the long step safely.",
+        "distractors": {
+          "plausible": [
+            "Grip both ankles and pin the feet to the mat, then step before the opponent can re-lift their butterfly hooks.",
+            "Secure a deep underhook and collar grip first, since chest connection matters more than the hooks before stepping."
+          ],
+          "trap": [
+            "Close the distance chest-to-chest without any grips, since smothering the torso stops the hooks from elevating your hips."
+          ]
+        }
       },
       {
         "question": "Your initial long step is blocked and the opponent begins threading for De La Riva hook - what is your immediate chain attack?",
-        "answer": "When the opponent begins threading a De La Riva hook after your long step is blocked, immediately backstep your hooked leg free while maintaining your upper body grips. As you clear the hook, transition to a leg drag by controlling the opponent's hooking leg and driving it across their body. This leg drag creates an even more dominant passing angle than the original long step. If the leg drag is also defended, you can circle back to a toreando or re-enter the long step from the new angle. The key is never allowing the opponent to fully establish the De La Riva hook with sleeve control."
+        "answer": "Backstep your hooked leg free while keeping your upper-body grips, then leg drag the opponent's hooking leg across their body. This leg drag creates an even more dominant passing angle than the original long step. If the leg drag is also defended, you can circle back to a toreando or re-enter the long step from the new angle. The key is never allowing the opponent to fully establish the De La Riva hook with sleeve control.",
+        "distractors": {
+          "plausible": [
+            "Kneel down and smash the forming De La Riva hook flat under your shin, then restart the long step from there.",
+            "Let the hook settle and attack the far leg with a toreando instead, since De La Riva only controls one side."
+          ],
+          "trap": [
+            "Ignore the forming hook and finish the long step, since a De La Riva without sleeve control cannot off-balance you."
+          ]
+        }
       }
     ],
     "safety_considerations": "The Long Step Pass is generally a safe technique when executed with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's neck and face during the crossface application - while the crossface should be firm and controlling, it should not create dangerous cranking pressure on the cervical spine. When practicing, partners should communicate about pressure levels and reduce intensity if the crossface becomes uncomfortable. Additionally, be aware of your weight distribution to avoid dropping all your weight onto the opponent's ribcage, which can restrict breathing or cause discomfort. During training progressions, increase resistance gradually to prevent injuries from explosive movements when practitioners are still learning proper mechanics. Pay particular attention to knee and hip positioning to avoid hyperextension injuries during the stepping motion.",

@@ -242,7 +242,16 @@
       },
       {
         "question": "What is the primary timing indicator for when to step over the second butterfly hook?",
-        "answer": "You should only step over the second hook after the first hook is completely neutralized AND you have established upper body control through a crossface or underhook. Stepping too early allows the opponent to use the remaining hook to recover guard or transition to half guard. The key signal is feeling the opponent's structure collapse and their upper body pinned flat with your crossface turning their head."
+        "answer": "Step over the second hook only after the first hook is fully neutralized and upper body control is set via crossface or underhook. Stepping too early allows the opponent to use the remaining hook to recover guard or transition to half guard. The key signal is feeling the opponent's structure collapse and their upper body pinned flat with your crossface turning their head.",
+        "distractors": {
+          "plausible": [
+            "Step over the second hook as soon as you feel the first hook loosen, before the opponent can readjust their grips.",
+            "Step over the second hook once you have upper body control, even if the first hook is still partially engaged."
+          ],
+          "trap": [
+            "Step over both hooks in one quick motion the moment you close distance, before the opponent can settle their frames."
+          ]
+        }
       },
       {
         "question": "How does keeping your elbows tight to your body prevent common butterfly guard attacks?",
@@ -258,11 +267,29 @@
       },
       {
         "question": "What grip configuration is most critical during the initial engagement of the butterfly smash?",
-        "answer": "In gi, a collar grip combined with a sleeve grip on the same side gives you directional control while preventing the opponent from establishing their own dominant grips. In no-gi, a collar tie with wrist control serves the same function. The critical requirement is that your grips allow you to drive the opponent's upper body backward while your elbows remain tight to your torso, preventing arm drags throughout the engagement."
+        "answer": "Use a same-side collar-and-sleeve grip in gi, or a collar tie with wrist control in no-gi, to drive the opponent backward. The critical requirement is that your grips allow you to drive the opponent's upper body backward while your elbows remain tight to your torso, preventing arm drags throughout the engagement.",
+        "distractors": {
+          "plausible": [
+            "Use a cross-collar grip with a knee grip on the opposite side to control both the upper body and the hooks at once.",
+            "Use double sleeve grips in gi, or double wrist control in no-gi, to shut down the opponent's hands before driving in."
+          ],
+          "trap": [
+            "Reach both arms deep over the opponent's shoulders for a bear-hug style grip so you can smash their hooks flat with chest pressure."
+          ]
+        }
       },
       {
         "question": "The opponent defends your first hook clear and begins elevating for a butterfly sweep - what is your response?",
-        "answer": "If the opponent successfully pumps their hook during your clearing attempt, you must immediately widen your base by stepping your far leg out and drop your hips lower rather than fighting the elevation. Absorb the elevation attempt by sprawling your hips back momentarily, then re-engage with your pressure once the sweep momentum dissipates. Never try to power through an active elevation - reset your pressure angle and try the opposite side."
+        "answer": "Immediately widen your base by stepping the far leg out and dropping your hips lower, absorbing the elevation instead of fighting it. Sprawl your hips back momentarily to absorb the elevation attempt, then re-engage with your pressure once the sweep momentum dissipates. Never try to power through an active elevation - reset your pressure angle and try the opposite side.",
+        "distractors": {
+          "plausible": [
+            "Immediately drive forward with more chest pressure to flatten the hook back down before the elevation builds momentum.",
+            "Post your near-side hand on the mat and keep clearing the same hook, trusting your grips to ride out the elevation."
+          ],
+          "trap": [
+            "Sit back onto your heels and lift your hips high to lighten the load on their hook, letting the elevation pass under you."
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force when driving your knee to the mat beside the opponent's hip?",
@@ -274,7 +301,16 @@
       },
       {
         "question": "Why must you clear frames one at a time rather than simultaneously during the butterfly smash?",
-        "answer": "Attempting to strip multiple frames simultaneously requires you to release your own controlling grips and upper body pressure, creating space the opponent will immediately exploit to re-establish their guard structure. By clearing one frame at a time while maintaining pressure with the rest of your body, you ensure continuous control throughout the passing sequence. Each frame you remove reduces the opponent's ability to create distance, making subsequent frame clears progressively easier."
+        "answer": "Clearing frames one at a time lets you keep continuous pressure and control, while stripping several at once forces you to release your grips and create space. Attempting to strip multiple frames simultaneously requires you to release your own controlling grips and upper body pressure, creating space the opponent will immediately exploit to re-establish their guard structure. Each frame you remove reduces the opponent's ability to create distance, making subsequent frame clears progressively easier.",
+        "distractors": {
+          "plausible": [
+            "Clearing frames one at a time matters mainly because it conserves your energy, letting you rest between each individual grip fight.",
+            "You clear frames one at a time so the opponent cannot tell which frame you will attack next, keeping your passing unpredictable."
+          ],
+          "trap": [
+            "You should strip all frames at once with a fast two-handed swim, since slow one-at-a-time clearing gives the opponent time to rebuild each frame."
+          ]
+        }
       }
     ],
     "safety_considerations": "The butterfly smash is generally a safe passing technique when performed with control. However, practitioners should be mindful of pressure application on the opponent's face and neck during crossface establishment - excessive or sudden pressure can cause discomfort or injury to the jaw, cervical spine, or temporomandibular joint. When drilling, start with light pressure and gradually increase as both partners become comfortable with the mechanics. Be particularly careful with head positioning to avoid accidental headbutts when driving forward. Partners should communicate clearly if pressure becomes uncomfortable, especially on the jaw or neck. When receiving the pass, avoid explosive bridging or shrimping movements that could result in collision injuries.",

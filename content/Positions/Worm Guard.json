@@ -434,7 +434,16 @@
       },
       {
         "question": "How do you properly feed the lapel to establish the worm guard configuration?",
-        "answer": "Extract sufficient lapel material from the opponent's gi, then feed it deep under their leg from outside to inside, passing under their thigh rather than shallow across the surface. The lapel should travel a complete path under their leg before wrapping around your shin or foot. Shallow feeds create weak control that collapses under pressure. Practice pulling ample lapel material and feeding at proper depth to create tight, secure connection."
+        "answer": "Pull ample lapel from the opponent's gi, feed it deep under their leg outside-to-inside, and wrap the free end around your shin or foot. The lapel must travel a complete path under their thigh rather than sitting shallow across the surface — shallow feeds create weak control that collapses under pressure. Practice extracting sufficient material and feeding at proper depth to create a tight, secure connection.",
+        "distractors": {
+          "plausible": [
+            "Feed the lapel under their leg from inside to outside, then wrap the free end around your shin or foot to lock it.",
+            "Lay the lapel across the top of their thigh and pin it there with your shin so you can feed it deeper later."
+          ],
+          "trap": [
+            "Keep the feed shallow at the knee so you can release quickly — passing the lapel deep under the thigh only tangles your own foot."
+          ]
+        }
       },
       {
         "question": "Your opponent begins closing distance aggressively to initiate a smash pass - what adjustment do you make?",
@@ -458,7 +467,16 @@
       },
       {
         "question": "How do you create sweep opportunities when the opponent maintains a stable, wide base?",
-        "answer": "Use the lapel control to continuously apply off-balancing pressure in the direction their trapped leg cannot recover, forcing them to narrow their base to resist. Create angles with hip movement that expose gaps in their base structure. Chain multiple sweep threats together so their defensive reaction to one threat opens them to another. The key is persistent pressure that gradually degrades their base rather than single explosive attempts."
+        "answer": "Use the lapel to keep off-balancing them in the direction their trapped leg cannot recover, chaining sweep threats until their base degrades. Create angles with hip movement that expose gaps in their base structure, and chain multiple threats together so their defensive reaction to one opens them to another. The key is persistent pressure that gradually forces them to narrow their base rather than relying on single explosive attempts.",
+        "distractors": {
+          "plausible": [
+            "Off-balance them toward their free leg, since that side has no lapel wrap supporting it and less structure to resist.",
+            "Commit to one powerful, explosive sweep toward the trapped leg before they can fully settle into their wide base."
+          ],
+          "trap": [
+            "Release the lapel wrap and sit up into a body lock so you can attack a wrestling-style takedown against their wide base."
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -740,11 +758,29 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the Worm Guard and distinguishes it from other open guards?",
-      "answer": "Worm Guard is defined by the bottom player extracting one of the top player's lapels, feeding it under the top player's own near leg from outside to inside, and wrapping the free end around the bottom player's shin or foot. This creates a closed mechanical loop that links the top player's trapped leg directly to the bottom player's leg, converting the gi itself into a rigid tether. Unlike spider, lasso, or De La Riva where control runs through the bottom player's limbs alone, worm guard borrows the opponent's own garment as the primary anchor. This lapel-leg linkage is what makes the position gi-exclusive and impossible to replicate in no-gi."
+      "answer": "Worm Guard feeds the opponent's lapel under their own near leg, outside to inside, and wraps it around your shin or foot, forming a closed loop. This mechanical loop links their trapped leg directly to your leg, converting the gi itself into a rigid tether. Unlike spider, lasso, or De La Riva, where control runs through the bottom player's limbs alone, worm guard borrows the opponent's own garment as the primary anchor. This lapel-leg linkage is what makes the position gi-exclusive and impossible to replicate in no-gi.",
+      "distractors": {
+        "plausible": [
+          "Worm Guard feeds your own lapel under the opponent's near leg and ties it to your shin, tethering their leg with your gi.",
+          "Worm Guard threads your shin behind the opponent's knee while a deep collar grip on their lapel controls their posture."
+        ],
+        "trap": [
+          "Because the lapel does the controlling, you can uncross your legs and hold the wrap with hand grips alone while you attack."
+        ]
+      }
     },
     {
       "question": "Why does constant lapel tension function as the load-bearing invariant of Worm Guard for both players?",
-      "answer": "The lapel wrap only immobilizes the trapped leg and generates off-balancing leverage while it is pulled taut; the moment slack enters the system the mechanical loop opens and the configuration degrades into an ordinary open guard. For the bottom player, maintaining that tension preserves the entire control mechanism, while for the top player, creating slack is the doorway to freeing the leg and passing. This is why tension is the single variable both athletes fight over above all others. The position effectively lives or dies on whether the lapel stays tight around the trapped leg and the wrapping shin."
+      "answer": "The lapel wrap only immobilizes the trapped leg while pulled taut; any slack opens the loop and degrades worm guard into ordinary open guard. For the bottom player, maintaining that tension preserves the entire control mechanism, while for the top player, creating slack is the doorway to freeing the leg and passing. This is why tension is the single variable both athletes fight over above all others — the position effectively lives or dies on whether the lapel stays tight around the trapped leg and the wrapping shin.",
+      "distractors": {
+        "plausible": [
+          "Tension matters mainly during sweep attempts; between attacks you can let the lapel relax to save your grip strength.",
+          "As long as the lapel is fed deep under the thigh, the control holds even if the wrap loosens slightly during exchanges."
+        ],
+        "trap": [
+          "Feed deliberate slack to bait the opponent into pulling the leg out, then snap the lapel tight again as they move."
+        ]
+      }
     },
     {
       "question": "How does the lapel-leg linkage act as a lever to compromise the top player's base?",

@@ -262,7 +262,16 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the K-Guard hook switch from half guard bottom?",
-        "answer": "The optimal timing is when the top player commits their weight forward onto the trapped leg, typically during a passing attempt like a knee slice or when driving forward pressure to flatten you. Their forward weight commitment serves two purposes: it loads the trapped leg making it difficult to extract during the hook switch, and it provides the forward momentum that your new K-Guard hooks can redirect laterally. Attempting the entry when the opponent is sitting back makes extraction too easy and the transition too risky."
+        "answer": "Initiate the K-Guard hook switch when the top player commits their weight forward onto your trapped leg. This typically occurs during a passing attempt like a knee slice or when they drive forward pressure to flatten you. Their forward weight commitment serves two purposes: it loads the trapped leg making it difficult to extract during the hook switch, and it provides the forward momentum that your new K-Guard hooks can redirect laterally. Attempting the entry when the opponent is sitting back makes extraction too easy and the transition too risky.",
+        "distractors": {
+          "plausible": [
+            "Initiate the hook switch when the top player sits back onto their heels, since their weight is off your trapped leg.",
+            "Initiate the hook switch the moment you establish half guard, before the top player settles any pressure at all."
+          ],
+          "trap": [
+            "Wait until the top player has flattened you out completely, then explode into the hook switch using their pinning pressure."
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must exist before attempting the Transition to K-Guard?",
@@ -286,7 +295,16 @@
       },
       {
         "question": "Your opponent establishes a strong crossface during your hook switch attempt - should you continue the K-Guard entry?",
-        "answer": "No. If the crossface establishes during the hook switch, the entry window has closed. A strong crossface will flatten your spine, eliminate the hip angle needed for the hook inversion, and allow the opponent to drive through to a pass. Immediately abort the entry by recovering your standard half guard inside hook and use your frame to fight off the crossface. Once you have reestablished distance and hip angle, you can reattempt the entry on their next forward pressure commitment. Alternatively, use the crossface pressure to redirect into a deep half entry by diving underneath their weight."
+        "answer": "No — a strong crossface during the hook switch means the entry window has closed, so abort the K-Guard attempt. The crossface will flatten your spine, eliminate the hip angle needed for the hook inversion, and allow the opponent to drive through to a pass. Immediately abort the entry by recovering your standard half guard inside hook and use your frame to fight off the crossface. Once you have reestablished distance and hip angle, you can reattempt the entry on their next forward pressure commitment. Alternatively, use the crossface pressure to redirect into a deep half entry by diving underneath their weight.",
+        "distractors": {
+          "plausible": [
+            "Yes — finish the hook switch quickly before the crossface fully settles, since speed beats pressure in this exchange.",
+            "No — abandon guard entirely and turn away to your knees, since the crossface has already won the position."
+          ],
+          "trap": [
+            "Yes — accept the crossface and invert harder underneath it, using their head pressure as a pivot point for the hooks."
+          ]
+        }
       },
       {
         "question": "If your K-Guard entry succeeds but the opponent immediately begins smashing to neutralize your hooks, what chain attack should you pursue?",

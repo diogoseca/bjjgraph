@@ -260,11 +260,29 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Old School Sweep?",
-        "answer": "The optimal timing window is during the opponent's forward weight shift, either when they drive pressure into you or when they attempt to clear the lockdown by extending their trapped leg. In both cases, their base is temporarily compromised and their weight is committed forward, which is exactly the direction your sweep needs to send them. Initiating during backward weight shift or neutral base makes the sweep significantly harder to complete."
+        "answer": "The optimal window is the opponent's forward weight shift, when they drive pressure in or try to clear the lockdown. Extending their trapped leg to escape the lockdown counts too: either way their base is temporarily compromised and their weight commits forward, exactly the direction the sweep needs to send them. Initiating during a backward weight shift or against a neutral base makes the sweep significantly harder to complete.",
+        "distractors": {
+          "plausible": [
+            "The optimal window is when the opponent shifts their weight backward, since that unweights the trapped leg for the sweep.",
+            "The best moment is when the opponent settles into a still, neutral base, because a static target is easier to sweep."
+          ],
+          "trap": [
+            "Wait until the opponent has fully cleared their leg from the lockdown, then sweep as they step over to pass."
+          ]
+        }
       },
       {
         "question": "What three controls must be simultaneously established before attempting the Old School Sweep?",
-        "answer": "The three essential controls are: lockdown figure-four on the trapped leg with active extension, deep underhook with elbow tight to ribs and hand gripping high on the opponent's back, and head control with the opposite arm wrapping behind the opponent's neck pulling their posture down. All three must work in concert—losing any single control point dramatically reduces sweep success probability because the opponent can either base, posture, or post to defend."
+        "answer": "The three simultaneous controls are the lockdown on the trapped leg, a deep underhook, and head control pulling posture down. Specifically: a lockdown figure-four with active extension, an underhook with the elbow tight to your ribs and the hand gripping high on the opponent's back, and the opposite arm wrapping behind the opponent's neck to pull their posture down. All three must work in concert — losing any single control point dramatically reduces sweep success probability because the opponent can either base, posture, or post to defend.",
+        "distractors": {
+          "plausible": [
+            "The three controls are the lockdown, a deep underhook, and a strong collar grip to break the opponent's posture.",
+            "The three controls are the lockdown, an overhook on the near arm, and head control to stop the opponent posturing up."
+          ],
+          "trap": [
+            "Release the lockdown once you have the underhook and head control, freeing your legs to generate sweeping momentum."
+          ]
+        }
       },
       {
         "question": "Why must the sweep execute in a circular arc rather than pushing the opponent straight over?",
@@ -276,7 +294,16 @@
       },
       {
         "question": "How deep should the underhook be and where should your hand grip for maximum sweep leverage?",
-        "answer": "The underhook should be threaded deep enough that your elbow is pinned tight to your own ribs while your hand reaches high on the opponent's back, ideally gripping their shoulder blade area or over their far shoulder. A shallow underhook where the hand only reaches the opponent's side provides insufficient lever arm length. The depth creates the long lever needed for rotation, and keeping the elbow tight prevents the opponent from stripping the underhook or converting it into a defensive whizzer."
+        "answer": "Thread the underhook deep enough that your hand grips the shoulder blade or over the far shoulder, elbow pinned to your ribs. A shallow underhook where the hand only reaches the opponent's side provides insufficient lever arm length. The depth creates the long lever needed for rotation, and keeping the elbow tight prevents the opponent from stripping the underhook or converting it into a defensive whizzer.",
+        "distractors": {
+          "plausible": [
+            "Grip at the opponent's mid-back or lat, since reaching higher overextends your arm and weakens the underhook frame.",
+            "Flare the underhook elbow away from your ribs so your hand can reach higher on the opponent's back."
+          ],
+          "trap": [
+            "Swim the arm over the opponent's shoulder into an overhook instead, since it gives stronger control for the sweep."
+          ]
+        }
       },
       {
         "question": "In which direction should your hips drive during the sweep and why is this critical?",
@@ -296,7 +323,16 @@
       },
       {
         "question": "What three controls must be established before attempting the Old School Sweep, and why does the sequence matter?",
-        "answer": "The three controls in order are: lockdown first (immobilizes opponent's base and creates foundation), deep underhook second (provides sweeping leverage before opponent can establish whizzer), and head control third (breaks posture and prevents defensive posting). The sequence matters because without lockdown the opponent can base freely, without underhook you lack sweep power, and fighting for head control without lockdown and underhook exposes you to passing. Each control protects the establishment of the next."
+        "answer": "The order is lockdown first, deep underhook second, head control third — each control protects the establishment of the next. The lockdown immobilizes the opponent's base and creates the foundation; the deep underhook provides sweeping leverage before the opponent can establish a whizzer; head control breaks posture and prevents defensive posting. The sequence matters because without lockdown the opponent can base freely, without the underhook you lack sweep power, and fighting for head control without the first two exposes you to passing.",
+        "distractors": {
+          "plausible": [
+            "Get the deep underhook first, then the lockdown, then head control, since the underhook is the main source of sweep power.",
+            "Head control comes first to break posture, then the underhook, and the lockdown last to trap the leg for the finish."
+          ],
+          "trap": [
+            "Skip the lockdown and rely on underhook plus head control alone, since fewer controls lets you sweep faster."
+          ]
+        }
       },
       {
         "question": "What specific hip and shoulder positioning creates maximum sweeping leverage during the Old School Sweep?",
@@ -308,7 +344,16 @@
       },
       {
         "question": "How deep should the underhook be, and what are the consequences of a shallow underhook?",
-        "answer": "The underhook should be threaded deep enough that your hand reaches the opponent's far shoulder blade or over the top of their shoulder, with your elbow clamped tight against your own ribs. A shallow underhook where the hand only reaches mid-back or the lat provides insufficient leverage for the rotational sweep. The opponent can easily strip a shallow underhook with their whizzer, and even if the sweep is initiated, the reduced lever arm means the rotation stalls before completion."
+        "answer": "The underhook must reach the far shoulder blade or over the top of the shoulder; a shallow underhook lacks leverage and gets stripped. Thread it with your elbow clamped tight against your own ribs. A shallow underhook where the hand only reaches mid-back or the lat provides insufficient leverage for the rotational sweep — the opponent can easily strip it with their whizzer, and even if the sweep is initiated, the reduced lever arm means the rotation stalls before completion.",
+        "distractors": {
+          "plausible": [
+            "An underhook to the mid-back or lat is deep enough, as long as your elbow stays clamped tight against your own ribs.",
+            "A shallow underhook is fine if you compensate by extending the lockdown harder during the rotation."
+          ],
+          "trap": [
+            "If the underhook is shallow, release it and push on the opponent's chest to generate the sweeping momentum instead."
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a strong whizzer as you fight for the underhook. What chain attack becomes available and how do you transition?",
@@ -320,7 +365,16 @@
       },
       {
         "question": "When is the optimal moment to initiate the Old School Sweep rather than continuing to hold the position?",
-        "answer": "Initiate the sweep the instant the top player commits weight forward, attempts to clear the lockdown by extracting their leg, or shifts grips, since any of these momentarily compromises their base. Sweeping against a settled, posted base wastes energy and telegraphs the attempt, allowing them to widen their base in response. Waiting for the forward weight shift means their own momentum carries them over the fulcrum your shoulder provides, so the rotation requires far less force and finishes before they can re-base."
+        "answer": "Initiate the instant the top player commits weight forward, tries to extract their trapped leg, or shifts grips. Any of these momentarily compromises their base. Sweeping against a settled, posted base wastes energy and telegraphs the attempt, allowing them to widen their base in response. Waiting for the forward weight shift means their own momentum carries them over the fulcrum your shoulder provides, so the rotation requires far less force and finishes before they can re-base.",
+        "distractors": {
+          "plausible": [
+            "Hold the position until the opponent tires, then initiate once they have settled into a heavy, static base.",
+            "Initiate as the opponent shifts their weight back onto their heels, since the lightened trapped leg is easier to elevate."
+          ],
+          "trap": [
+            "Telegraph the sweep with a few hard pumping attempts first, so the opponent's defensive reactions wear them out."
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back and away to starve the sweep of weight. What attack does this defensive reaction open?",

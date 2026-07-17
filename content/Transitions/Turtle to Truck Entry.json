@@ -255,7 +255,16 @@
       },
       {
         "question": "Your opponent's weight is sitting back on their heels in turtle - should you attempt the Truck entry?",
-        "answer": "No. When the opponent's weight is back on their heels, they have explosive backward movement options including standing up, sitting through to guard, or collapsing the turtle to prevent leg access. The Truck entry requires the opponent's weight to be forward on their hands, which loads the front of their base and limits backward defensive reactions. If their weight is back, use alternative attacks like a traditional back take attempt or front headlock to force them to shift weight forward, creating the entry window for the Truck."
+        "answer": "No — the Truck entry needs their weight forward on their hands, so a heels-back turtle means the leg entry window is closed. When the opponent's weight is back on their heels, they have explosive backward movement options including standing up, sitting through to guard, or collapsing the turtle to prevent leg access. Loading the front of their base on their hands is what limits those backward defensive reactions and exposes the near leg. If their weight is back, use alternative attacks like a traditional back take attempt or front headlock to force them to shift weight forward, creating the entry window for the Truck.",
+        "distractors": {
+          "plausible": [
+            "Yes — weight settled on the heels anchors their hips in place, making the near leg easier to hook for the Truck.",
+            "Yes, but enter from the opposite side first so your hook slides in behind their loaded rear leg."
+          ],
+          "trap": [
+            "Yes — dive straight under their hips; with their weight back they can't base out, so commit to the leg immediately."
+          ]
+        }
       },
       {
         "question": "What are the three simultaneous control points you must maintain during the hook threading phase?",

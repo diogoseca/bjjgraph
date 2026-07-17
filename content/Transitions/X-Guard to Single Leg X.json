@@ -258,11 +258,29 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the X-Guard to SLX transition?",
-        "answer": "The optimal timing window occurs when the opponent shifts their weight backward, attempts to extract their trapped leg, or posts their free leg behind them for base. These backward-directed movements create slack in the leg entanglement that facilitates smooth reconfiguration. Attempting the transition against a forward-driving opponent risks getting smashed during the vulnerable reconfiguration phase. Reading the opponent's weight distribution is the single most important skill for successful execution."
+        "answer": "The best window is when the opponent shifts weight backward, tries to extract their trapped leg, or posts their free leg behind them for base. These backward-directed movements create slack in the leg entanglement that facilitates smooth reconfiguration. Attempting the transition against a forward-driving opponent risks getting smashed during the vulnerable reconfiguration phase. Reading the opponent's weight distribution is the single most important skill for successful execution.",
+        "distractors": {
+          "plausible": [
+            "Initiate the transition the instant you establish X-Guard, before the opponent has time to settle into their base.",
+            "The best window is when the opponent squats down and settles their hips low, since their weight becomes easier to track."
+          ],
+          "trap": [
+            "Wait until the opponent drives forward with heavy pressure, since their momentum carries them over the leg swap."
+          ]
+        }
       },
       {
         "question": "What entry requirements must be established before attempting the transition?",
-        "answer": "You must have an established X-Guard with a deep inside hook behind the opponent's knee, an active outside leg crossing their hip, and critically, a firm hand grip on their trapped ankle that will serve as the constant control anchor throughout the transition. Without the ankle grip, any gap in leg hooks during reconfiguration allows the opponent to extract their leg. The opponent's weight should be neutral or shifting backward, not driving forward with pressure."
+        "answer": "You need a deep inside hook behind the knee, an outside leg crossing their hip, and a firm hand grip on the trapped ankle as the constant anchor. Without the ankle grip, any gap in leg hooks during reconfiguration allows the opponent to extract their leg. The opponent's weight should be neutral or shifting backward, not driving forward with pressure.",
+        "distractors": {
+          "plausible": [
+            "A deep inside hook and the hip cross are sufficient; the ankle grip can be secured after the legs finish reconfiguring.",
+            "You need two-on-one grips on the opponent's sleeve or wrist to kill their posts before switching your legs."
+          ],
+          "trap": [
+            "Release the ankle and use both hands to frame on their knee, freeing your legs to swing into the SLX configuration."
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines success or failure of this transition?",
@@ -286,7 +304,16 @@
       },
       {
         "question": "If the opponent successfully defends the SLX establishment, what chain attacks remain available?",
-        "answer": "If the SLX transition is blocked, you have several immediate alternatives: revert to full X-Guard by re-inserting the knee hook and hip cross for elevation sweeps; transition to butterfly guard by extracting both legs and establishing butterfly hooks; enter deep half guard by threading underneath the opponent if they drive forward; or attempt a technical stand-up to a single leg takedown if you can maintain ankle control while standing. The key is having predetermined fallback positions rather than forcing a failed transition repeatedly."
+        "answer": "You can revert to full X-Guard, switch to butterfly guard, enter deep half guard if they drive forward, or stand up into a single leg takedown. Reverting to X-Guard means re-inserting the knee hook and hip cross for elevation sweeps; butterfly guard requires extracting both legs and establishing butterfly hooks; deep half comes from threading underneath a forward-driving opponent; and the technical stand-up to single leg works if you maintain ankle control while rising. The key is having predetermined fallback positions rather than forcing a failed transition repeatedly.",
+        "distractors": {
+          "plausible": [
+            "Keep re-attempting the SLX entry from slightly different angles until the opponent's defensive grips fatigue.",
+            "Pull straight into closed guard, since it is the safest position from which to restart your attacking cycle."
+          ],
+          "trap": [
+            "Turn away and turtle to disengage from the entanglement, conceding the leg so you can escape and reset safely."
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves dynamic leg repositioning and carries minimal direct injury risk compared to submission techniques. However, practitioners should ensure controlled movement when reconfiguring legs to avoid knee strain from awkward angles during the wrap. If transitioning into leg entanglement attacks from SLX, follow proper leg lock safety protocols: tap early when caught in submissions, communicate clearly with training partners, and apply submissions with gradual controlled pressure. Avoid explosive jerking movements during the reconfiguration that could cause ligament stress to either practitioner's knees. When drilling, begin at slow speeds to establish proper mechanics before increasing pace.",

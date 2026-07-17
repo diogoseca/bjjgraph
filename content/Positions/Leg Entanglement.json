@@ -417,11 +417,29 @@
     "flashcards": [
       {
         "question": "What are the essential hip and leg configurations required to maintain a stable leg entanglement position?",
-        "answer": "Maintaining stable leg entanglement requires keeping your hips as close as possible to the target joint (ankle or knee), with your legs creating a triangle or figure-four configuration around the opponent's leg. Your inside leg hooks behind their knee or thigh while your outside leg controls their hip or free leg. The key is eliminating space between your body and their leg so they cannot rotate or extract. Your knees should pinch inward to create a clamp effect, and your feet should be active, hooking or crossing to reinforce the entanglement structure."
+        "answer": "Stable leg entanglement requires your hips glued to the target joint while your legs form a triangle or figure-four around the opponent's leg. Your inside leg hooks behind their knee or thigh while your outside leg controls their hip or free leg. The key is eliminating space between your body and their leg so they cannot rotate or extract. Your knees should pinch inward to create a clamp effect, and your feet should stay active, hooking or crossing to reinforce the entanglement structure.",
+        "distractors": {
+          "plausible": [
+            "Keep your hips a forearm's length from the joint so you have room to extend, with your legs loosely framing their leg.",
+            "Point your knees outward to widen the entanglement and rely on strong hand grips on the ankle to stop rotation."
+          ],
+          "trap": [
+            "Sit upright away from their leg and control it with both hands, keeping your legs free so you can stand up if needed."
+          ]
+        }
       },
       {
         "question": "Your opponent begins boot scooting backward to create distance while you hold inside ashi garami - what adjustments do you make to retain the position?",
-        "answer": "When your opponent boot scoots backward, you must follow their hip movement by scooting your own hips forward in sync, maintaining zero distance between your hips and their captured leg. Simultaneously, reinforce your inside hook behind their knee to prevent them from straightening the leg. Use your hands to grip their foot or ankle to anchor against their retreat. If they gain significant distance, immediately transition to a tighter entanglement like saddle by stepping over with your far leg, or switch to an outside ashi configuration that gives you better distance management through cross-body control."
+        "answer": "Scoot your hips forward in sync with their retreat, maintaining zero distance between your hips and the captured leg. Simultaneously reinforce your inside hook behind their knee to prevent them from straightening the leg, and use your hands to grip their foot or ankle to anchor against the retreat. If they gain significant distance, immediately transition to a tighter entanglement like saddle by stepping over with your far leg, or switch to an outside ashi configuration that gives better distance management through cross-body control.",
+        "distractors": {
+          "plausible": [
+            "Plant your hips where they are and squeeze your knees harder, trusting the clamp alone to stop their backward retreat.",
+            "Reach forward and grip their collar or wrist first, since upper-body control is what stops a boot-scooting opponent."
+          ],
+          "trap": [
+            "Lean back and crank the heel hook immediately, since finishing speed matters more than reconnecting your hips."
+          ]
+        }
       },
       {
         "question": "What are the primary grip priorities when controlling an opponent inside a leg entanglement?",
@@ -872,11 +890,29 @@
   "flashcards_position": [
     {
       "question": "What structural elements must be present for a configuration to qualify as a leg entanglement rather than a passing or guard-retention exchange?",
-      "answer": "A leg entanglement requires that at least one player has wrapped, hooked, or triangled their legs around one of the opponent's legs so that the ankle, knee, or hip is mechanically isolated from the rest of their body. The isolating legs form a closed structure, typically a figure-four, a triangle (sankaku), or crossed ankles, that traps the captured limb rather than merely touching it. Both players' lower bodies are committed and intertwined, which distinguishes it from open guard where the legs frame but do not capture. This intertwining is what creates the bilateral submission threat that defines the family, because a captured leg is simultaneously a leg the capturer has surrendered access to."
+      "answer": "At least one player's legs must wrap, hook, or triangle an opponent's leg in a closed structure that mechanically isolates the ankle, knee, or hip. The isolating legs form a figure-four, a triangle (sankaku), or crossed ankles that traps the captured limb rather than merely touching it. Both players' lower bodies are committed and intertwined, which distinguishes it from open guard where the legs frame but do not capture. This intertwining creates the bilateral submission threat that defines the family, because a captured leg is simultaneously a leg the capturer has surrendered access to.",
+      "distractors": {
+        "plausible": [
+          "Any exchange where both players' legs are touching and tangled qualifies, even without a closed structure capturing a limb.",
+          "It qualifies only once a submission grip on the foot or ankle is secured, regardless of what the legs are doing."
+        ],
+        "trap": [
+          "A single loose hook with one leg is enough, since your hands will provide the real control over the captured limb."
+        ]
+      }
     },
     {
       "question": "Why is the leg entanglement family classified as a neutral position with a point value of zero rather than a dominant control?",
-      "answer": "The family is neutral because the entanglement is inherently symmetric at the moment of engagement: to trap the opponent's leg, a player must commit their own legs into a structure the opponent can often attack in return. Neither player automatically holds positional superiority the way a top player does in mount or side control, and configurations like 50-50 grant both athletes identical access to each other's legs. Superiority within the family comes from sub-configuration and angle rather than from the family itself, which is why saddle and inside ashi are dominant while 50-50 is a coin-flip exchange. The zero point value reflects that scoring systems generally do not award position here until a sweep, pass, or submission resolves the exchange."
+      "answer": "It is neutral because trapping the opponent's leg commits your own legs into a structure the opponent can often attack in return. Neither player automatically holds positional superiority the way a top player does in mount or side control, and configurations like 50-50 grant both athletes identical access to each other's legs. Superiority within the family comes from sub-configuration and angle rather than from the family itself, which is why saddle and inside ashi are dominant while 50-50 is a coin-flip exchange. The zero point value reflects that scoring systems generally do not award position here until a sweep, pass, or submission resolves the exchange.",
+      "distractors": {
+        "plausible": [
+          "It is neutral because leg attacks score fewer points than upper-body attacks under most competition rulesets.",
+          "It is neutral because entanglements are too brief and transitional for referees to score them reliably."
+        ],
+        "trap": [
+          "Treat any entanglement as dominant control and settle in, since your own trapped leg is safe while you hold theirs."
+        ]
+      }
     },
     {
       "question": "What role does the isolation of a single joint play in making leg entanglements mechanically distinct from upper-body control positions?",

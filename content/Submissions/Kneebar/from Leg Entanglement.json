@@ -370,13 +370,31 @@
       },
       {
         "question": "At what point during the kneebar from leg entanglement is there no escape for your opponent?",
-        "answer": "The point of no escape occurs when three simultaneous conditions are achieved: perpendicular hip positioning with your fulcrum directly above their kneecap, a locked figure-four leg triangle preventing thigh extraction, and tight heel-to-chest prayer grip eliminating all space. Once these three elements are secured and hip extension begins, the mechanical advantage is overwhelming and escape becomes nearly impossible without significant injury risk. Prior to achieving all three conditions, various escapes remain available including bending the knee, grip fighting on the heel, sitting up to close distance, or using the free leg to establish defensive hooks. From leg entanglement, this point can be reached faster than from other entries because the initial leg isolation is already established.",
-        "safety_critical": false
+        "answer": "No escape exists once perpendicular hips, a locked figure-four triangle, and a tight heel-to-chest prayer grip are all secured together. The three simultaneous conditions are: perpendicular hip positioning with your fulcrum directly above their kneecap, a locked figure-four leg triangle preventing thigh extraction, and a tight heel-to-chest prayer grip eliminating all space. Once these three elements are secured and hip extension begins, the mechanical advantage is overwhelming and escape becomes nearly impossible without significant injury risk. Prior to achieving all three conditions, various escapes remain available, including bending the knee, grip fighting on the heel, sitting up to close distance, or using the free leg to establish defensive hooks. From leg entanglement, this point can be reached faster than from other entries because the initial leg isolation is already established.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The point of no escape is reached as soon as the figure-four leg triangle locks, even before the heel is secured to the chest.",
+            "Escape becomes impossible the moment hip extension begins, regardless of your hip angle or how the heel is gripped."
+          ],
+          "trap": [
+            "Once you control the heel you can finish from any angle, so extend your hips hard immediately before they can bend the knee."
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if opponent attempts to rotate their heel during the kneebar finish?",
-        "answer": "If opponent attempts heel rotation, immediately reinforce your grip by bringing both elbows tight to your body while cupping their heel with overlapping hands in a reinforced prayer grip. Pull their heel deeper into your armpit area rather than holding it at chest level, as this provides greater rotational stability through a tighter radius. Angle their toes directly away from you and use your forearms to create a rigid cage around the heel that prevents any rotational movement. If rotation begins despite these measures, immediately release all finishing pressure because continued pressure with rotation dramatically increases the risk of multi-ligament injury including ACL damage.",
-        "safety_critical": true
+        "answer": "Counter heel rotation by pinning both elbows tight to your body and cupping the heel in a reinforced prayer grip pulled deep into your armpit. Holding the heel in the armpit area rather than at chest level provides greater rotational stability through a tighter radius. Angle their toes directly away from you and use your forearms to create a rigid cage around the heel that prevents any rotational movement. If rotation begins despite these measures, immediately release all finishing pressure, because continued pressure with rotation dramatically increases the risk of multi-ligament injury including ACL damage.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Counter heel rotation by extending your arms to chase the heel and re-establishing the prayer grip out at chest level.",
+            "Squeeze the prayer grip harder while letting their toes angle toward you so the heel stays trapped against your chest."
+          ],
+          "trap": [
+            "If the heel starts rotating, accelerate your hip extension to finish the kneebar before they can complete the escape."
+          ]
+        }
       },
       {
         "question": "Why is the transition from entanglement hooks to figure-four leg triangle critical, and what happens if you release hooks too early?",
@@ -390,13 +408,31 @@
       },
       {
         "question": "What are the primary tap signals you must recognize immediately when applying a kneebar from leg entanglement?",
-        "answer": "You must immediately recognize verbal taps (preferred for leg locks due to rapid injury potential), multiple rapid hand taps on you or the mat, multiple foot taps, any vocalization of distress or pain, and frantic or panicked movement. Leg locks like the kneebar can cause injury extremely quickly, and there is minimal safe margin between effective pressure and catastrophic ligament damage. Any indication of submission must result in immediate cessation of all hip extension pressure. From leg entanglement, the pre-existing control means finishing pressure can be applied very rapidly, making tap recognition even more time-critical than from other kneebar entries.",
-        "safety_critical": true
+        "answer": "Immediately recognize verbal taps, rapid hand or foot taps, any pain vocalization, and frantic panicked movement as submission signals. Verbal taps are preferred for leg locks due to rapid injury potential; hand taps may land on you or the mat. Leg locks like the kneebar can cause injury extremely quickly, and there is minimal safe margin between effective pressure and catastrophic ligament damage, so any indication of submission must result in immediate cessation of all hip extension pressure. From leg entanglement, the pre-existing control means finishing pressure can be applied very rapidly, making tap recognition even more time-critical than from other kneebar entries.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Only count deliberate taps on your own body as valid; taps on the mat are often just repositioning and should be confirmed first.",
+            "Hand taps are the primary signal in leg locks; verbal submissions only count once the referee acknowledges them."
+          ],
+          "trap": [
+            "Frantic movement usually means they are escaping, so tighten and extend through it until you feel a clear, deliberate tap."
+          ]
+        }
       },
       {
         "question": "How do you assess whether your kneebar position quality is sufficient for a safe finish in competition?",
-        "answer": "Position quality is sufficient when all three control points are simultaneously secured: your hips are fully perpendicular to their leg creating a clean T-shape with fulcrum above the kneecap, your figure-four leg triangle is locked tight with no thigh extraction possible, and their heel is pressed firmly against your chest with zero space and no rotation. Position quality is insufficient when your angle is acute rather than perpendicular, space exists between heel and chest, the figure-four is loose, opponent has defensive grips on their own leg you cannot break, or their free leg has established a hook over your head. When these deficiencies exist, transition to alternative leg lock attacks within the entanglement rather than forcing a low-percentage finish that risks both escape and counter.",
-        "safety_critical": false
+        "answer": "Finish only when hips are fully perpendicular with the fulcrum above the kneecap, the figure-four is locked, and the heel is tight to your chest. Sufficient quality means all three control points simultaneously: a clean T-shape with your fulcrum above their kneecap, a locked figure-four leg triangle with no thigh extraction possible, and their heel pressed firmly against your chest with zero space and no rotation. Position quality is insufficient when your angle is acute rather than perpendicular, space exists between heel and chest, the figure-four is loose, the opponent has defensive grips on their own leg you cannot break, or their free leg has established a hook over your head. When these deficiencies exist, transition to alternative leg lock attacks within the entanglement rather than forcing a low-percentage finish that risks both escape and counter.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The finish is safe once the figure-four is locked tight, even if your hip angle is still slightly acute to their leg.",
+            "Firm heel-to-chest contact alone confirms a safe finish; the hip angle can be corrected during the extension itself."
+          ],
+          "trap": [
+            "If they grip their own leg or hook your head, extend harder anyway, since muscling through defenses beats abandoning the kneebar."
+          ]
+        }
       }
     ],
     "clips": [

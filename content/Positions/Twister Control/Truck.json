@@ -401,11 +401,29 @@
       },
       {
         "question": "What are the essential grips for maintaining truck position?",
-        "answer": "Essential grips include: your boot foot controlling their hip creating the foundational torque, your legs entangled with their trapped leg preventing straightening, and your arm controlling across their chest, shoulder, or around their neck for upper body connection. In no-gi, an underhook or overhook on their near arm supplements control. The boot is non-negotiable; without it, the entire control system collapses."
+        "answer": "Truck control rests on your boot pressing their hip, your legs figure-foured on their trapped leg, and an arm controlling their upper body. The boot foot on the hip creates the foundational torque, and the leg entanglement prevents the trapped leg from straightening. The arm connects across their chest, shoulder, or around their neck; in no-gi, an underhook or overhook on their near arm supplements control. The boot is non-negotiable; without it, the entire control system collapses.",
+        "distractors": {
+          "plausible": [
+            "The essential grips are the leg figure-four and a seatbelt grip; the boot on the hip becomes optional once the entanglement is locked.",
+            "Prioritize the arm across their chest above all, since the leg entanglement only supplements the upper-body connection."
+          ],
+          "trap": [
+            "Release the boot from their hip and free that leg to lock a body triangle around their waist for tighter control."
+          ]
+        }
       },
       {
         "question": "Your opponent begins a granby roll escape from truck bottom - what is your counter?",
-        "answer": "When the opponent initiates a granby roll, you have two primary options: follow their roll and transition to traditional back control by inserting your hooks during their rotation, or if you feel them generating significant momentum, switch to the crucifix by catching their far arm as they roll. The key is recognizing the roll early and choosing to flow with it rather than fighting against it."
+        "answer": "Flow with the granby roll: follow it into traditional back control by inserting your hooks mid-rotation, or catch the far arm for a crucifix. Switch to the crucifix specifically when you feel them generating significant momentum during the roll. The key is recognizing the roll early and choosing to flow with it rather than fighting against it.",
+        "distractors": {
+          "plausible": [
+            "Clamp down and squeeze the entanglement harder to stall the rotation, keeping the truck static until the roll dies out.",
+            "Follow the roll but wait to insert your hooks until their rotation has fully stopped and they settle flat."
+          ],
+          "trap": [
+            "Release the leg entanglement and post both hands on the mat to base out, so their roll cannot carry you over."
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from straightening their trapped leg to escape?",
@@ -413,7 +431,16 @@
       },
       {
         "question": "What determines when to transition from truck to traditional back control?",
-        "answer": "Transition to back control when: submissions aren't presenting due to effective defense, the opponent's escape attempts are creating scramble situations, you're losing boot pressure and need to consolidate control, or when you've created enough rotation to easily insert hooks. The truck should flow into back control rather than being an isolated position."
+        "answer": "Move to back control when submissions stall, escapes create scrambles, boot pressure is slipping, or rotation makes hook insertion easy. Consolidating to back control when you are losing boot pressure preserves dominance instead of clinging to a degrading position. The truck should flow into back control rather than being treated as an isolated position.",
+        "distractors": {
+          "plausible": [
+            "Only transition to back control after you have exhausted every truck submission attempt at least once.",
+            "Transition the moment you lock the truck, since back control always offers more than staying in the position."
+          ],
+          "trap": [
+            "Hold the truck at all costs even as boot pressure fails, because giving it up always concedes the dominant position."
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining truck position?",
@@ -794,7 +821,16 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the truck position regardless of which player is controlling it?",
-      "answer": "The truck is defined by a perpendicular body alignment in which one player traps a single leg of the opponent in a figure-four leg entanglement while pressing a boot against that opponent's hip. The controlling player sits behind and across the opponent's back rather than squared up, so the entangled lower body and exposed back become linked control points. This leg-in-front-of-hip geometry, combined with the perpendicular angle, is what distinguishes the truck from ordinary back control, where both hooks sit inside the hips symmetrically. The figure-four immobilizes the trapped leg independently of the hips, giving the position its signature dual-plane threat."
+      "answer": "The truck is a perpendicular back-side position where one leg is trapped in a figure-four while a boot presses against the opponent's hip. The controlling player sits behind and across the opponent's back rather than squared up, linking the entangled lower body and exposed back as dual control points. This leg-in-front-of-hip geometry and perpendicular angle distinguish the truck from ordinary back control, where both hooks sit symmetrically inside the hips. The figure-four immobilizes the trapped leg independently of the hips, giving the position its signature dual-plane threat.",
+      "distractors": {
+        "plausible": [
+          "The truck is defined by both hooks inside the hips with the controller squared up directly behind the opponent's back.",
+          "The truck is defined by a figure-four locked around both of the opponent's legs while facing them chest to chest."
+        ],
+        "trap": [
+          "The trapped leg can be released once you are behind the opponent, since back exposure alone is what defines the truck."
+        ]
+      }
     },
     {
       "question": "Why is boot pressure against the hip considered the engine of the truck for both players?",

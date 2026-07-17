@@ -252,7 +252,16 @@
       },
       {
         "question": "What grip should you use on the trapped arm and why does grip placement matter?",
-        "answer": "Grip the opponent's wrist or lower forearm rather than the upper arm or elbow. Wrist control provides maximum leverage for maintaining the diagonal pull across their chest because you are controlling the longest lever arm available. Gripping higher on their arm reduces your mechanical advantage and allows them to use their bicep and shoulder strength to retract the arm. The wrist grip also facilitates smoother grip transfers during the threading sequence."
+        "answer": "Use a two-on-one grip: your same-side hand on the opponent's wrist and your opposite hand on their elbow or tricep. The wrist hand gives distance control while the elbow hand provides leverage, and this dual-point control prevents the opponent from circling their elbow free — the primary escape from single-point wrist grips. Gripping too high on the arm near the shoulder reduces your mechanical advantage, while gripping only the wrist allows elbow rotation escapes.",
+        "distractors": {
+          "plausible": [
+            "Use a two-on-one grip with your opposite hand on the wrist and your same-side hand on the elbow to keep your chest square.",
+            "Grip high on the upper arm near the shoulder with both hands, since controlling closer to the torso gives the most leverage."
+          ],
+          "trap": [
+            "Just grab the wrist with one strong hand, which frees your other arm to attack the neck right away."
+          ]
+        }
       },
       {
         "question": "Your first Gift Wrap attempt fails and the opponent recovers their arm - what is your immediate next action?",

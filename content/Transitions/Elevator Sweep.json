@@ -263,7 +263,16 @@
       },
       {
         "question": "How should you coordinate the hook lift and upper body pull during the sweep execution, and why is this coordination important?",
-        "answer": "The hook lift and upper body pull must occur simultaneously as one unified explosive movement - legs push up and extend while arms pull down and rotate in the sweep direction. This coordination is essential because each component alone is insufficient. If you only pull with arms, opponent can base with their legs. If you only lift with hooks, they can post with arms or counterbalance with upper body. The simultaneous action overwhelms their ability to defend both components at once, creating an irresistible force that completes the sweep."
+        "answer": "The hook lift and arm pull must fire simultaneously as one unified explosive movement, overwhelming the opponent's ability to defend both at once. Legs push up and extend while the arms pull down and rotate in the sweep direction. This coordination is essential because each component alone is insufficient: if you only pull with the arms, the opponent can base with their legs, and if you only lift with the hooks, they can post with their arms or counterbalance with their upper body. The simultaneous action creates an irresistible force that completes the sweep.",
+        "distractors": {
+          "plausible": [
+            "Pull the opponent forward with the arms first, then lift the hooks once their posture is fully broken down.",
+            "Lift with the hooks first to load their weight onto your shins, then add the arm pull to finish the rotation."
+          ],
+          "trap": [
+            "Bridge your hips and push with your arms while lifting, using the frame to create extra elevating power."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin the elevator sweep - how do you adjust?",
@@ -271,27 +280,81 @@
       },
       {
         "question": "What are the critical grip requirements for the elevator sweep, and how do they differ between gi and no-gi?",
-        "answer": "In gi, the primary grip configuration is a deep overhook on one side with the hand gripping the opponent's lat or back of the gi, while the opposite hand controls their collar, sleeve, or establishes an underhook. In no-gi, the overhook is replaced by a seatbelt configuration with one arm over the shoulder and one under the armpit, hands clasped together. Both configurations serve the same purpose: controlling the opponent's upper body rotation and preventing them from creating distance or posting. The grip must be tight enough that pulling with the arms creates immediate rotational force on the opponent's torso."
+        "answer": "In gi, use a deep overhook gripping the lat or back of the gi; in no-gi, replace it with a seatbelt grip, hands clasped over the shoulder and under the armpit. In gi, the opposite hand controls their collar, sleeve, or establishes an underhook. Both configurations serve the same purpose: controlling the opponent's upper body rotation and preventing them from creating distance or posting. The grip must be tight enough that pulling with the arms creates immediate rotational force on the opponent's torso.",
+        "distractors": {
+          "plausible": [
+            "In gi, grip the sleeve and same-side collar; in no-gi, switch to double wrist control to shut down their posts.",
+            "Use a same-side underhook in both gi and no-gi, since the underhook gives the strongest lifting connection."
+          ],
+          "trap": [
+            "Grip both of the opponent's pant legs or knees so you can steer their hips directly over your hooks."
+          ]
+        }
       },
       {
         "question": "Why is head position against opponent's chest critical for elevator sweep success, and what specifically does it prevent?",
-        "answer": "Tight head position against opponent's chest on the overhook side prevents them from posting with the overhooked arm, which is the most common and effective defense against this sweep. When your head creates pressure and connection, opponent cannot extend or post that arm to create base. The head position also prevents them from creating any space to generate counterforce or adjust their posture. Additionally, keeping your head tight makes it harder for them to apply a crossface or create angles for passing your guard. The ear-to-sternum connection makes your grips and hooks effective by eliminating space."
+        "answer": "Pressing your head tight to the opponent's chest on the overhook side stops them posting the overhooked arm, the most common defense to this sweep. When your head creates pressure and connection, the opponent cannot extend or post that arm to create base, nor create any space to generate counterforce or adjust their posture. Keeping your head tight also makes it harder for them to apply a crossface or create angles for passing your guard. The ear-to-sternum connection makes your grips and hooks effective by eliminating space.",
+        "distractors": {
+          "plausible": [
+            "Head position matters mainly to protect your neck from the guillotine while you commit to the sweep.",
+            "Keep your head on the side opposite the overhook so your weight counterbalances their base as you lift."
+          ],
+          "trap": [
+            "Lean your head back to watch their hips so you can time the lift precisely with their weight shift."
+          ]
+        }
       },
       {
         "question": "Your elevator sweep attempt is blocked because your opponent sprawls heavily backward - what is your best chain attack?",
-        "answer": "When opponent sprawls backward, they remove the forward pressure necessary for the elevator sweep but simultaneously compromise their own base in a different way. The best chain attacks are transitioning to single leg X-guard by extending one hook and catching their far leg, or entering X-guard by threading under their hips. If they sprawl extremely far back, deep half guard becomes available by diving under their sprawled body. The key insight is that their backward sprawl means their hips are high and their weight is behind their heels, making leg entanglement entries particularly effective. Never simply re-attempt the elevator sweep against a sprawled opponent."
+        "answer": "Against a heavy backward sprawl, chain into single leg X-guard or X-guard by threading under their raised hips rather than re-attempting the sweep. Extend one hook and catch their far leg for single leg X, or thread under their hips for X-guard; if they sprawl extremely far back, deep half guard becomes available by diving under their sprawled body. The key insight is that the sprawl leaves their hips high and their weight behind their heels, making leg entanglement entries particularly effective. Never simply re-attempt the elevator sweep against a sprawled opponent.",
+        "distractors": {
+          "plausible": [
+            "Sit up into their sprawl and drive forward into a double leg, since their weight is committed backward.",
+            "Switch immediately to an arm drag, because the sprawl leaves their arms extended and easy to drag past."
+          ],
+          "trap": [
+            "Pull harder with your grips and re-lift the hooks, since each repeated elevation weakens their sprawl."
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the elevator sweep, and what weight distribution signals should you look for?",
-        "answer": "The optimal timing window occurs when opponent's weight shifts forward, either naturally as they attempt to establish grips or pass, or when you pull them forward with your upper body control. The key signals include feeling increased pressure on your hooks from their forward weight, their hands reaching toward your collar or head which shifts their center of mass forward, or when they drive into you with their chest. You can also create the timing artificially by pulling them forward with your grips and immediately lifting as their weight commits. The worst time to attempt the sweep is when opponent is actively sitting back or posting their weight behind their hips."
+        "answer": "Initiate the elevator sweep the moment the opponent's weight shifts forward, either naturally or because you pulled them onto you with upper body control. Key signals include increased pressure on your hooks from their forward weight, their hands reaching toward your collar or head shifting their center of mass forward, or their chest driving into you. You can also create the timing artificially by pulling them forward with your grips and immediately lifting as their weight commits. The worst time to attempt the sweep is when the opponent is actively sitting back or posting their weight behind their hips.",
+        "distractors": {
+          "plausible": [
+            "Wait until the opponent settles into a static, balanced posture so your lift meets no competing momentum.",
+            "Time the sweep for the moment they lift a knee to begin passing, since a raised leg means less base to lift."
+          ],
+          "trap": [
+            "Attack as they sit their weight back onto their heels, because leaning back makes them lighter to elevate."
+          ]
+        }
       },
       {
         "question": "What direction of force should the hooks generate during the elevator sweep, and how does this differ from a standard butterfly sweep?",
-        "answer": "During the elevator sweep, the hooks generate force primarily upward and slightly forward, lifting opponent's hips vertically off the mat like an elevator platform rising. Both hooks extend simultaneously with equal force, creating a symmetrical lifting action. This differs from the standard butterfly sweep where one hook drives diagonally while the other may disengage or play a secondary role, and the force is more lateral and rotational. The elevator sweep's vertical force is what distinguishes it - you are physically elevating the opponent before rotating them over, rather than using momentum and angular force from the start."
+        "answer": "Elevator sweep hooks drive primarily upward and slightly forward, both extending together with equal force to lift the hips vertically off the mat. This symmetrical lifting action raises the opponent like an elevator platform before you rotate them over. It differs from the standard butterfly sweep, where one hook drives diagonally while the other may disengage or play a secondary role, and the force is more lateral and rotational. The vertical elevation-before-rotation is what distinguishes the elevator sweep from momentum-driven angular sweeps.",
+        "distractors": {
+          "plausible": [
+            "The hooks drive laterally in the sweep direction while one hook disengages, just as in a standard butterfly sweep.",
+            "One hook lifts vertically while the other pushes the far knee away to eliminate their base leg first."
+          ],
+          "trap": [
+            "Curl both hooks back toward your own head to drag the opponent's hips down and forward onto your chest."
+          ]
+        }
       },
       {
         "question": "If your opponent whizzers your overhook as you attempt the elevator sweep, what are two effective responses?",
-        "answer": "First, you can use the whizzer against them by transitioning to a shoulder lock attack, since the whizzer puts their shoulder in a vulnerable rotated position if you control their wrist and apply inward pressure. Second, you can roll under their whizzer into an electric chair position from half butterfly, where their whizzer becomes trapped and you threaten both sweeps and calf crush submissions. The key insight is that the whizzer, while preventing the original sweep direction, actually limits opponent's mobility and creates new attacking opportunities. A third option is to switch your sweep direction entirely, using an underhook on the opposite side."
+        "answer": "Against a whizzer, attack a shoulder lock on their rotated arm, or roll under the whizzer into the electric chair from half butterfly. The shoulder lock works because the whizzer leaves their shoulder in a vulnerable rotated position if you control their wrist and apply inward pressure; the electric chair traps their whizzer and threatens both sweeps and calf crush submissions. The key insight is that the whizzer, while preventing the original sweep direction, actually limits the opponent's mobility and creates new attacking opportunities. A third option is to switch your sweep direction entirely, using an underhook on the opposite side.",
+        "distractors": {
+          "plausible": [
+            "Fight to re-pummel your overhook back inside, since regaining the original grip beats changing attacks.",
+            "Limp-arm out of the whizzer and reset to neutral butterfly guard before launching a fresh attack."
+          ],
+          "trap": [
+            "Drive the sweep harder into the whizzer side, since their committed whizzer arm makes them lighter to lift."
+          ]
+        }
       }
     ],
     "safety_considerations": "The elevator sweep is generally a safe technique for both practitioners when executed properly, but several precautions should be observed. When drilling, the person being swept should be prepared to break fall appropriately, as the sweep can generate significant rotational force and speed. Beginners should start with slow, controlled repetitions to develop proper mechanics before adding explosive power. Partners should communicate about knee sensitivity, as the hooks can cause discomfort for those with knee issues - in such cases, reduce hook pressure or use alternative guards. When practicing the variation that lands in mount, the sweeping practitioner should control the landing to avoid dropping full body weight onto partner's ribs or torso. In live training, be mindful of your training partner's size - extremely large weight differentials may require modified application. If opponent attempts to guillotine during the sweep setup, immediately defend the neck before continuing the technique. Finally, when drilling the whizzer counter responses involving shoulder locks, practice these slowly and tap early as shoulder submissions can occur quickly and cause injury if applied with full force.",

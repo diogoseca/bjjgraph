@@ -293,7 +293,16 @@
       },
       {
         "question": "When should you abandon the smash pass attempt and switch to an alternative passing strategy?",
-        "answer": "You should consider abandoning the smash pass when the opponent establishes strong hip frames you cannot overcome, they successfully turn in and threaten to take your back, they lock deep half guard, your crossface control is completely shut down, or you are spending excessive energy without making progress. Elite passers recognize when to switch strategies rather than forcing a technique that is not working. The smash pass should feel like inevitable progression - if it feels like a stalemate, consider knee slice, backstep, or long step alternatives."
+        "answer": "Abandon the smash pass when strong hip frames, a back-take threat, deep half guard, or a dead crossface stall your progress. Elite passers recognize when to switch strategies rather than forcing a technique that is not working, or when they are spending excessive energy without advancing. The smash pass should feel like inevitable progression - if it feels like a stalemate, consider knee slice, backstep, or long step alternatives.",
+        "distractors": {
+          "plausible": [
+            "Abandon the smash pass only once the opponent has fully locked deep half guard; frames and back-take threats can be pressured through.",
+            "Switch strategies as soon as you feel any hip frame, since the smash pass only works against opponents with no framing at all."
+          ],
+          "trap": [
+            "Never abandon the smash pass; doubling down on pressure through frames and back-take attempts is what makes it inevitable."
+          ]
+        }
       },
       {
         "question": "You have crossface established but your opponent locks their ankles tightly around your trapped leg in a lockdown - what is your response?",
@@ -301,11 +310,29 @@
       },
       {
         "question": "What is the optimal timing window for initiating the smash pass from half guard top?",
-        "answer": "The optimal timing window is immediately after winning the underhook or crossface battle, before the bottom player can establish a strong defensive frame like knee shield or lockdown. The best moment is when you have just cleared a frame or blocked an underhook attempt, because the opponent is momentarily between defensive structures. Another excellent window opens when the opponent attempts a sweep that fails - their defensive structure is compromised during the sweep attempt and the transition back to guard retention creates a gap you can exploit with immediate crossface pressure."
+        "answer": "Initiate the smash pass immediately after winning the underhook or crossface battle, before a knee shield or lockdown forms. The best moment is when you have just cleared a frame or blocked an underhook attempt, because the opponent is momentarily between defensive structures. Another excellent window opens when the opponent attempts a sweep that fails - their defensive structure is compromised during the sweep attempt and the transition back to guard retention creates a gap you can exploit with immediate crossface pressure.",
+        "distractors": {
+          "plausible": [
+            "Initiate the smash pass once the opponent has settled into their knee shield, since a static frame is easier to smash than a moving one.",
+            "Begin the smash pass before contesting the underhook battle, so your passing pressure wins you the underhook along the way."
+          ],
+          "trap": [
+            "Wait until the opponent commits fully to their sweep and ride it out, since their sweeping momentum will carry you over their guard."
+          ]
+        }
       },
       {
         "question": "How does grip selection differ between gi and no-gi smash pass execution?",
-        "answer": "In gi, the smash pass benefits from collar grips that augment crossface control, pants grips at the knee for inside leg control, and belt grips for the underhook smash variation. These grips provide persistent friction-based control that complements shoulder pressure. In no-gi, you rely more heavily on body-on-body pressure since grips are transient. The crossface must be deeper with more shoulder commitment, inside leg control uses overhook or wrist control rather than pants grips, and the overall emphasis shifts toward maintaining constant chest-to-chest connection because you cannot rely on fabric anchors. No-gi smash passing demands tighter body positioning throughout."
+        "answer": "Gi smash passing uses collar, pants, and belt grips as fabric anchors, while no-gi replaces them with tighter chest-to-chest body pressure. In gi, collar grips augment crossface control, pants grips at the knee provide inside leg control, and belt grips support the underhook smash variation - persistent friction-based control that complements shoulder pressure. In no-gi, grips are transient, so the crossface must be deeper with more shoulder commitment, inside leg control comes from overhook or wrist control rather than pants grips, and the emphasis shifts toward maintaining constant chest-to-chest connection. No-gi smash passing demands tighter body positioning throughout.",
+        "distractors": {
+          "plausible": [
+            "Gi and no-gi smash passing use the same body-pressure system; the collar and pants grips are optional extras that add little control.",
+            "In no-gi you compensate for missing cloth grips by gripping the head and ankle, keeping the same shallow crossface as in gi."
+          ],
+          "trap": [
+            "In no-gi, sit upright and chase wrist grips instead of chest connection, since posting high gives you better grip-fighting angles."
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the smash pass, apply shoulder pressure with control rather than explosive force to avoid injury to your partner's neck, jaw, or face. The crossface should be uncomfortable but never painful enough to cause injury. During training, communicate with your partner about pressure levels, especially when first learning the technique. Ensure adequate mat space for the driving movements required in this pass. Be particularly careful when extracting your trapped leg - sudden explosive movements can cause knee or ankle injuries to either practitioner. If your partner taps or signals distress during crossface application, immediately release pressure. When drilling with newer partners, use lighter pressure until they understand the mechanics and can defend appropriately. Never use full competition-level pressure during cooperative drilling.",

@@ -277,15 +277,42 @@
       },
       {
         "question": "What structural elements make the technical standup safe against forward driving pressure from the top player?",
-        "answer": "The posted hand with locked elbow creates a structural brace that redirects forward pressure into the ground through skeletal alignment rather than muscular effort. The extended lead leg with vertical shin provides a stable base for driving upward. The non-posted hand actively frames against the opponent's torso or head, creating separation distance. Keeping the back straight and head up maintains spinal integrity. These combined elements create a structure that can absorb the opponent's pressure without collapsing."
+        "answer": "A locked-elbow posted hand, a vertical-shin lead leg, and an active frame redirect forward pressure into the ground through your skeleton. The posted hand's locked elbow creates a structural brace that absorbs the drive through skeletal alignment rather than muscular effort, while the extended lead leg with vertical shin provides a stable base for driving upward. The non-posted hand actively frames against the opponent's torso or head to create separation distance. Keeping the back straight and head up maintains spinal integrity, so the combined structure can absorb the opponent's pressure without collapsing.",
+        "distractors": {
+          "plausible": [
+            "A slightly bent posted elbow absorbs the drive like a spring while your free hand grips the opponent's sleeve or wrist for control.",
+            "Posting both hands on the mat behind you shares the load of the opponent's drive evenly across both arms."
+          ],
+          "trap": [
+            "Lean your head and chest forward into the opponent so your body weight meets their drive before you try to stand."
+          ]
+        }
       },
       {
         "question": "Why is gripping behind the knee more effective than gripping above the knee in the single leg?",
-        "answer": "Lower grip position behind the knee provides superior mechanical control because it controls the joint directly, limiting the opponent's ability to hop, post, or kick free. The knee has restricted range of motion when compressed from behind, making extraction difficult. A lower grip also creates a shorter lever arm, making it easier for you to lift and manipulate the leg. Pinching your elbows together with a behind-the-knee grip creates a tight cradle that is extremely difficult to break compared to a loose grip above the knee."
+        "answer": "Gripping behind the knee controls the joint directly and shortens the lever arm, so the opponent cannot easily hop, post, or kick the leg free. The knee has restricted range of motion when compressed from behind, making extraction difficult, and the shorter lever makes it easier for you to lift and manipulate the leg. Pinching your elbows together with a behind-the-knee grip creates a tight cradle that is extremely difficult to break compared to a loose grip above the knee.",
+        "distractors": {
+          "plausible": [
+            "Gripping above the knee on the thick of the thigh is stronger because there is more muscle for your arms to squeeze against.",
+            "A higher grip near the hip is better because it puts your hands closer to the opponent's center of gravity for the finish."
+          ],
+          "trap": [
+            "Grip at the ankle with straight arms so the opponent's knee stays far away from your head and body while you finish."
+          ]
+        }
       },
       {
         "question": "When should you abandon the technical standup attempt entirely and choose a different escape strategy?",
-        "answer": "Abandon when the opponent has established both hooks and harness control from back mount, when strong crossface pressure breaks your posting structure repeatedly, when they are attacking submissions that require immediate defense such as a locked rear naked choke, or when your base has been compromised to the point where standing exposes you to a worse position. In these cases, focus on position-specific escapes first: hand fighting and hook removal from back control, elbow escape from mount, or shrimping from side control."
+        "answer": "Abandon standing when the opponent has back hooks and harness control, crossface repeatedly breaks your post, or a locked choke demands immediate defense. Also abandon when your base has been compromised to the point where standing exposes you to a worse position. In these cases, focus on position-specific escapes first: hand fighting and hook removal from back control, elbow escape from mount, or shrimping from side control.",
+        "distractors": {
+          "plausible": [
+            "Abandon the standup only once the opponent has fully mounted you, since back control can still be stood out of safely.",
+            "Switch strategies the moment the opponent touches your posting arm, because the structure is already compromised."
+          ],
+          "trap": [
+            "Stand up explosively even against a locked rear naked choke, since elevation is the fastest way to shake the grip loose."
+          ]
+        }
       },
       {
         "question": "Your opponent reads your single leg entry and starts to whizzer your arm - how do you use this against them?",
@@ -301,7 +328,16 @@
       },
       {
         "question": "If your single leg attempt transitions into a scramble where neither player has clear position, what should your priorities be?",
-        "answer": "In a scramble from a failed single leg, your priorities are: first, protect your neck and head position since front headlock and guillotine are the most common scramble submissions; second, fight for underhook position on at least one side as this controls the pummeling exchange; third, work to get your hips underneath the opponent for any form of guard retention rather than allowing them to establish top pressure; fourth, if you still have any leg control, convert it into a guard position like Single Leg X-Guard or butterfly rather than releasing everything. Maintaining offensive initiative through the scramble prevents the opponent from settling into a dominant position."
+        "answer": "Protect your neck and head position first, then fight for an underhook, then work your hips underneath the opponent to retain some form of guard. Front headlock and guillotine are the most common scramble submissions, which is why the neck comes first, and an underhook on at least one side controls the pummeling exchange. If you still have any leg control, convert it into a guard position like Single Leg X-Guard or butterfly rather than releasing everything. Maintaining offensive initiative through the scramble prevents the opponent from settling into a dominant top position.",
+        "distractors": {
+          "plausible": [
+            "Fight for the underhook first, since winning the pummeling exchange automatically protects your neck from chokes.",
+            "Release the captured leg immediately so both hands are free to pummel for double underhooks in the scramble."
+          ],
+          "trap": [
+            "Dive deeper onto the leg with your head hanging low in front, since finishing the takedown outranks defending your neck."
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the technical standup to single leg, always maintain awareness of head position during the level change to prevent neck injuries from guillotine or front headlock pressure. Partners should release any neck submissions immediately when training partner taps or shows distress. When completing takedowns in drilling, control the descent to prevent the opponent from landing awkwardly on hard surfaces or impacting with their head. In live training, tap early to chokes and cranks rather than fighting through dangerous positions. Beginners should practice the standup phase extensively before adding explosive takedown entries to develop proper structural habits. Always warm up hips, knees, and ankles thoroughly before practicing this sequence, as the level change and driving mechanics place significant stress on these joints. Be particularly careful with knee health during penetration steps on hard mats.",

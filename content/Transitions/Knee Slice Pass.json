@@ -287,11 +287,29 @@
       },
       {
         "question": "What combination of pressure points makes the knee slice pass most effective?",
-        "answer": "Four simultaneous pressure points create the pass: forward hip drive through your center of mass into theirs, head and shoulder crossface pressure on the far side pinning their shoulder flat, far hip control with your trailing hand preventing rotation, and the knee driving diagonally across their thighs creating a barrier. All four must work in concert."
+        "answer": "Four simultaneous pressures create the pass: forward hip drive, crossface, far-hip control, and the knee slicing diagonally across the thighs. The forward hip drive sends your center of mass through theirs, while head and shoulder crossface pressure on the far side pins their shoulder flat. Your trailing hand controls the far hip to prevent rotation, and the knee driving diagonally across their thighs creates a barrier. All four must work in concert.",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure alone completes the pass; hip drive and far-hip control only matter once the knee has fully cleared the legs.",
+            "The knee drives straight down into the mat while both hands post wide for base, with hip pressure added only at the finish."
+          ],
+          "trap": [
+            "Sit back onto your heels and keep your hips high and away, freeing the knee with space before applying any chest pressure."
+          ]
+        }
       },
       {
         "question": "What grip configuration do you need before initiating the knee slice?",
-        "answer": "The minimum grip configuration requires three control points: lead hand on collar or crossface controlling the head and far shoulder, trailing hand on the far hip or pants controlling rotation, and your head positioned on the far side creating additional pressure. Some variations add an underhook instead of collar grip, which trades head control for superior upper body manipulation."
+        "answer": "You need three controls before slicing: a lead-hand collar or crossface grip, a trailing hand on the far hip or pants, and your head on the far side. The lead hand controls the head and far shoulder, the trailing hand prevents rotation, and the head position creates additional pressure. Some variations add an underhook instead of the collar grip, which trades head control for superior upper body manipulation.",
+        "distractors": {
+          "plausible": [
+            "Grip the near collar and near-side hip, keeping your head on the near side so you can watch the opponent's legs during the slice.",
+            "A double pants grip on both knees is sufficient, since controlling the legs matters more than head or hip control while passing."
+          ],
+          "trap": [
+            "Post both hands on the mat above their shoulders for maximum base, controlling the pass with leg pressure alone."
+          ]
+        }
       },
       {
         "question": "Your opponent turns to their knees as you are mid-slice. What is the correct response?",
@@ -303,7 +321,16 @@
       },
       {
         "question": "When should you transition from the knee slice to a submission attack during the passing sequence?",
-        "answer": "Transition to submissions when the opponent's defensive reactions expose specific vulnerabilities: attack the kimura when they reach across your body to push your head or frame against your shoulder, attack the darce choke when they underhook and turn into you during the slice, and attack the arm triangle when their far arm crosses their own neck while defending. Recognize these windows during the pass rather than forcing the completion."
+        "answer": "Attack submissions when their defense creates openings: kimura off the cross-body push, darce off the underhook, arm triangle off the crossed far arm. Specifically, attack the kimura when they reach across your body to push your head or frame against your shoulder, attack the darce choke when they underhook and turn into you during the slice, and attack the arm triangle when their far arm crosses their own neck while defending. Recognize these windows during the pass rather than forcing the completion.",
+        "distractors": {
+          "plausible": [
+            "Attack the darce when they cross-frame against your shoulder, and the kimura when they underhook and turn into you mid-slice.",
+            "Only hunt submissions after the pass is fully complete and side control is settled, since mid-pass attacks are low percentage."
+          ],
+          "trap": [
+            "Abandon the pass and dive on a guillotine at the first sign of resistance, wrapping the neck even if it surrenders top position."
+          ]
+        }
       },
       {
         "question": "How does the knee slice differ from the knee cut pass in terms of direction of force?",
@@ -311,7 +338,16 @@
       },
       {
         "question": "What are the entry requirements that must exist before you can attempt a knee slice from half guard top?",
-        "answer": "Four conditions must be present: your trapped leg must be partially freed or your shin positioned above the opponent's thigh line, upper body control must be established through crossface or collar grip, the opponent's knee shield must be neutralized or absent, and your base must be stable enough to commit forward pressure without risk of being swept. Attempting the slice without these conditions leads to failed passes and potential sweeps."
+        "answer": "Four conditions must exist: trapped leg partially freed or shin above the thigh line, upper-body control, knee shield neutralized, and a stable base. Upper body control is established through a crossface or collar grip, the opponent's knee shield must be neutralized or absent, and your base must be stable enough to commit forward pressure without risk of being swept. Attempting the slice without these conditions leads to failed passes and potential sweeps.",
+        "distractors": {
+          "plausible": [
+            "You only need your shin above their thigh line; grips and knee-shield removal can be sorted out after committing forward.",
+            "Establish upper-body control and base first, then slice straight through the knee shield since forward pressure collapses it."
+          ],
+          "trap": [
+            "Stand up tall and yank the trapped leg free with both hands on their knee, adding upper-body control only after the leg is out."
+          ]
+        }
       }
     ],
     "safety_considerations": "The knee slice pass is generally safe when practiced with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's knees or hips during the slice, which could cause joint strain if applied too forcefully or at incorrect angles. When training, start with minimal resistance and gradually increase intensity as both partners develop familiarity with the technique. Ensure you are not driving your knee directly into your partner's knee joint, which could cause meniscus or ligament damage. When consolidating in side control, apply crossface pressure firmly but avoid striking motions with your forearm against the face or jaw. Communicate with your training partner throughout, especially when they are learning to defend the pass, to ensure both parties can train safely and develop skill without unnecessary injury risk.",

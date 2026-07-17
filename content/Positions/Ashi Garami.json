@@ -759,19 +759,55 @@
   "flashcards_family": [
     {
       "question": "Why does inside space control determine who dominates any Ashi Garami entanglement?",
-      "answer": "Inside space is the pocket between your hip and the opponent's hip where the trapped leg's knee line sits, and whoever occupies it controls the rotational access to the heel. The player with inside position can rotate the trapped foot across their centerline to expose the heel while denying the opponent that same rotation on their own leg. This is why every variant, from Outside Ashi to Saddle, is fundamentally a fight to establish knee-inside pressure before submitting. Losing the inside space means your attack stalls and the opponent begins advancing their own hierarchy, so it is contested continuously rather than won once."
+      "answer": "Whoever occupies the inside space between the two players' hips controls rotational access to the trapped leg's heel, and so dominates the exchange. Inside space is the pocket between your hip and the opponent's hip where the trapped leg's knee line sits. The player with inside position can rotate the trapped foot across their centerline to expose the heel while denying the opponent that same rotation on their own leg. This is why every variant, from Outside Ashi to Saddle, is fundamentally a fight to establish knee-inside pressure before submitting. Losing the inside space means your attack stalls and the opponent begins advancing their own hierarchy, so it is contested continuously rather than won once.",
+      "distractors": {
+        "plausible": [
+          "Inside space matters mainly because it lets you get stronger hand grips on the ankle, and grip strength decides who exposes the heel first.",
+          "Inside space is won once during the entry, after which the fight shifts entirely to the finishing grip on the foot."
+        ],
+        "trap": [
+          "Dominance comes from cranking the heel as fast as possible before the opponent settles, regardless of who holds inside position."
+        ]
+      }
     },
     {
       "question": "What makes the positional hierarchy the organizing principle of all leg entanglements?",
-      "answer": "Every Ashi Garami variant sits at a definable point on a control ladder that runs Outside Ashi to Inside Ashi to Cross Ashi to Saddle, with submission percentage rising sharply as you climb. Higher positions progressively remove the defender's ability to hide the heel, rotate out, or recover base, which is why the mechanically sound approach is to advance the position before attempting a finish rather than forcing submissions from below. This hierarchy also tells both players how urgent the moment is: the attacker knows how close they are to a high-percentage finish, and the defender knows how hard to fight. Treating leg locks as a progression rather than isolated grabs is the single biggest conceptual shift modern methodology introduced."
+      "answer": "Every Ashi Garami variant sits on a control ladder running Outside Ashi to Inside Ashi to Cross Ashi to Saddle, with submission percentage rising as you climb. Higher positions progressively remove the defender's ability to hide the heel, rotate out, or recover base, which is why the mechanically sound approach is to advance the position before attempting a finish rather than forcing submissions from below. The hierarchy also tells both players how urgent the moment is: the attacker knows how close they are to a high-percentage finish, and the defender knows how hard to fight. Treating leg locks as a progression rather than isolated grabs is the single biggest conceptual shift modern methodology introduced.",
+      "distractors": {
+        "plausible": [
+          "The ladder runs from the Saddle at the base up to Outside Ashi at the apex, so most attacks should begin from the Saddle and climb outward.",
+          "Each rung of the hierarchy is defined by a different submission, so climbing it means abandoning one finishing hold for a new one."
+        ],
+        "trap": [
+          "Since every rung gives access to the same heel, the fastest path is to force the finish from Outside Ashi before the opponent starts defending."
+        ]
+      }
     },
     {
       "question": "Why is heel exposure the pivotal variable in every Ashi Garami exchange regardless of variant?",
-      "answer": "The most dangerous leg lock finishes rotate the knee and ankle to attack ligaments, and that rotation is only available when the heel is exposed past the entangling limb rather than hidden or aligned straight. Across all variants the attacker's job is to peel or rotate the trapped foot so the heel crosses their centerline, while the defender's mirror job is to keep the foot straight or bury the heel against the attacker's body. Because the heel can be exposed or hidden from nearly any position on the hierarchy, both players are constantly managing which way the trapped foot points. Reading heel exposure, rather than the name of the position, is what tells you whether a finish is genuinely available or still a bluff."
+      "answer": "Heel exposure is pivotal because rotational finishes only become available once the heel crosses past the entangling limb instead of staying hidden or straight. The most dangerous leg lock finishes rotate the knee and ankle to attack ligaments, and that rotation is denied while the foot stays straight or the heel is buried. Across all variants the attacker's job is to peel or rotate the trapped foot so the heel crosses their centerline, while the defender's mirror job is to keep the foot straight or bury the heel against the attacker's body. Because the heel can be exposed or hidden from nearly any position on the hierarchy, both players are constantly managing which way the trapped foot points. Reading heel exposure, rather than the name of the position, is what tells you whether a finish is genuinely available or still a bluff.",
+      "distractors": {
+        "plausible": [
+          "Heel exposure only matters at the Saddle; in lower positions the name of the entanglement, not the foot's direction, tells you if a finish is live.",
+          "Heel exposure is pivotal because a visible heel means the ankle is already broken down, so the finish becomes automatic once you see it."
+        ],
+        "trap": [
+          "If the heel stays hidden, simply squeeze harder on the straight foot, since enough pressure finishes any leg lock regardless of alignment."
+        ]
+      }
     },
     {
       "question": "How does the bilateral nature of leg entanglements shape strategy for both players?",
-      "answer": "Unlike a top-bottom pin where one player clearly dominates, most Ashi Garami configurations give both practitioners simultaneous access to leg attacks, so offense and defense happen at the same instant. This reciprocity means committing fully to attacking one leg can expose your own heel to a counter-entanglement, turning your attack into their finish. The player who wins is usually the one who secures superior position quality, such as inside space and heel isolation, before initiating, rather than the more aggressive one. This shared-threat dynamic is why patience and position-before-submission discipline matter more here than raw speed or explosiveness."
+      "answer": "Because most Ashi Garami configurations give both players simultaneous access to leg attacks, offense and defense happen at the same instant for each player. Unlike a top-bottom pin where one player clearly dominates, this reciprocity means committing fully to attacking one leg can expose your own heel to a counter-entanglement, turning your attack into their finish. The player who wins is usually the one who secures superior position quality, such as inside space and heel isolation, before initiating, rather than the more aggressive one. This shared-threat dynamic is why patience and position-before-submission discipline matter more here than raw speed or explosiveness.",
+      "distractors": {
+        "plausible": [
+          "The bilateral threat means the more aggressive player usually wins, so you should always launch the first leg attack before your opponent can.",
+          "The shared threat only appears in the Saddle; in the lower entanglements just one player has any real access to a leg attack."
+        ],
+        "trap": [
+          "Commit both hands and full extension to your attack immediately, since your own legs cannot be entangled while you are the one attacking."
+        ]
+      }
     },
     {
       "question": "Why does maintaining connection points matter more than grip strength in holding any leg entanglement?",
@@ -789,11 +825,29 @@
   "flashcards_position": [
     {
       "question": "What configuration defines an Ashi Garami leg entanglement and distinguishes it from ordinary guard positions?",
-      "answer": "Ashi Garami exists when one player's legs entangle and isolate at least one of the opponent's legs, trapping it against their own hip so the knee line and hip are controlled together. Unlike top-bottom guard hierarchies, both players occupy a roughly horizontal plane where neither has a decisive gravitational advantage, and both can potentially attack the isolated leg. The entanglement pins the trapped leg's rotation and extension, which is what converts a mere leg grab into a controlling position. This shared reciprocal structure, rather than positional dominance from above, is what makes it a leg-entanglement family rather than a conventional guard."
+      "answer": "Ashi Garami exists when your legs entangle and isolate one of the opponent's legs against your hip, controlling its knee line and hip together. Unlike top-bottom guard hierarchies, both players occupy a roughly horizontal plane where neither has a decisive gravitational advantage, and both can potentially attack the isolated leg. The entanglement pins the trapped leg's rotation and extension, which is what converts a mere leg grab into a controlling position. This shared reciprocal structure, rather than positional dominance from above, is what makes it a leg-entanglement family rather than a conventional guard.",
+      "distractors": {
+        "plausible": [
+          "Ashi Garami exists when you wrap both of the opponent's legs together so that neither leg can post or base on the mat.",
+          "Ashi Garami exists whenever you grip the opponent's ankle with both hands from seated, regardless of what your own legs are doing."
+        ],
+        "trap": [
+          "Ashi Garami works best when you push the trapped leg away from your hip, giving you extension room to attack the ankle at a distance."
+        ]
+      }
     },
     {
       "question": "Why is control of the inside space between the two players' hips considered the master variable in every Ashi Garami exchange?",
-      "answer": "Inside space refers to the gap between the entangling player's hip and the trapped leg, and whoever occupies it with a knee or hip dictates the mechanics of the position. Controlling inside space prevents the trapped leg from rotating free and blocks the opponent from establishing their own inside position to reverse the entanglement. Because advancement up the hierarchy from Outside Ashi toward Saddle is essentially a series of inside-space gains, the player who owns that pocket determines who can advance and who must defend. This is why both players fight for the inside line before either commits to a submission or an extraction."
+      "answer": "Inside space is the master variable because whoever fills it with a knee or hip controls the trapped leg's rotation and blocks the opponent's reversal. Inside space refers to the gap between the entangling player's hip and the trapped leg, and occupying it dictates the mechanics of the position. Controlling it prevents the trapped leg from rotating free and blocks the opponent from establishing their own inside position to reverse the entanglement. Because advancement up the hierarchy from Outside Ashi toward Saddle is essentially a series of inside-space gains, the player who owns that pocket determines who can advance and who must defend. This is why both players fight for the inside line before either commits to a submission or an extraction.",
+      "distractors": {
+        "plausible": [
+          "The master variable is how tightly you cross your ankles over the opponent's hip, since the ankle lock is what holds the entanglement together.",
+          "Inside space mainly matters at the Saddle; in the lower entanglements the outside line is what decides who advances."
+        ],
+        "trap": [
+          "It is fine to concede the inside space if it lets you reach the heel sooner, because a good grip beats position in leg lock exchanges."
+        ]
+      }
     },
     {
       "question": "How does heel exposure govern which submissions are live for either player at any given moment?",
@@ -801,7 +855,16 @@
     },
     {
       "question": "What is the positional hierarchy in Ashi Garami and what does climbing it actually change mechanically?",
-      "answer": "The hierarchy runs from Outside Ashi-Garami at the base through Inside Ashi-Garami, Cross Ashi-Garami, and Saddle at the apex, with each step representing greater control of the inside space and the trapped knee line. Climbing the hierarchy progressively rotates the entangling player toward the inside of the leg, which both tightens control and increases the natural exposure of the opponent's heel. Higher positions raise finishing percentage precisely because they combine tighter isolation of the leg with easier access to the heel and knee. The hierarchy is therefore not arbitrary ranking but a map of increasing mechanical leverage over the same trapped limb."
+      "answer": "The hierarchy runs Outside Ashi-Garami, Inside Ashi-Garami, Cross Ashi-Garami, then Saddle, with each step adding inside-space and knee-line control. Climbing the hierarchy progressively rotates the entangling player toward the inside of the leg, which both tightens control and increases the natural exposure of the opponent's heel. Higher positions raise finishing percentage precisely because they combine tighter isolation of the leg with easier access to the heel and knee. The hierarchy is therefore not arbitrary ranking but a map of increasing mechanical leverage over the same trapped limb.",
+      "distractors": {
+        "plausible": [
+          "Climbing the hierarchy mainly stacks more body weight on the opponent, and that added gravity is what raises the finishing percentage.",
+          "Each higher position rotates you toward the outside of the trapped leg, hiding your own heel while gradually exposing theirs."
+        ],
+        "trap": [
+          "Skip straight to the Saddle by diving between the legs without entangling first, since the intermediate rungs only waste attacking time."
+        ]
+      }
     },
     {
       "question": "Why are many Ashi Garami variations described as bilateral or reciprocal threat positions rather than one-directional control?",

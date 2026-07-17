@@ -718,7 +718,16 @@
       },
       {
         "question": "What are the essential hooks and grips for maintaining Single Leg X-Guard?",
-        "answer": "The essential controls are: the inside leg wrapped tightly around the opponent's ankle or lower calf to prevent extraction, the outside foot actively hooking on their hip or inner thigh to create elevation and off-balancing pressure, and upper body control through sleeve grips, collar ties, or overhooks to prevent them from posturing up and controlling distance. Both legs must work in coordination - the bottom hook controls, the top hook elevates."
+        "answer": "Maintain SLX with the inside leg wrapped around the opponent's ankle, the outside foot hooking their hip, and upper-body grips. The inside leg wraps tightly around the ankle or lower calf to prevent extraction, while the outside foot actively hooks the hip or inner thigh to create elevation and off-balancing pressure. Upper body control comes through sleeve grips, collar ties, or overhooks to prevent them from posturing up and controlling distance. Both legs must work in coordination — the bottom hook controls, the top hook elevates.",
+        "distractors": {
+          "plausible": [
+            "Wrap the inside leg around the opponent's knee and place the outside foot behind their far ankle to block their base.",
+            "The outside foot wraps their ankle while the inside leg hooks the hip; grips are optional once the legs are set."
+          ],
+          "trap": [
+            "Cross your feet behind their knee and squeeze hard; a locked figure-four makes upper-body grips unnecessary."
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape of simply pulling their leg free?",
@@ -778,7 +787,16 @@
   "flashcards_position": [
     {
       "question": "What specific leg configuration defines Single Leg X-Guard and distinguishes it from a scramble or partial entanglement?",
-      "answer": "SLX is defined by trapping ONE of the standing player's legs: an inside-leg wrap around the ankle or lower calf, while the outside foot hooks on the hip, inner thigh, or beltline. This forms an X-frame around a single leg with two control jobs: the inside wrap locks the ankle, and the outside hook manages the knee/hip line and elevation. The single-leg isolation is the defining trait, separating it from full X-Guard, which wraps both legs. Because only one leg is trapped, the standing player keeps a free posting leg, so the position is an ongoing balance contest rather than a settled trap."
+      "answer": "SLX traps ONE leg: an inside-leg wrap on the ankle while the outside foot hooks the hip or inner thigh, forming an X on that leg. The two controls have distinct jobs: the inside wrap locks the ankle or lower calf against extraction, and the outside hook (hip, inner thigh, or beltline) manages the knee/hip line and elevation. The single-leg isolation is the defining trait, separating it from full X-Guard, which wraps both legs. Because only one leg is trapped, the standing player keeps a free posting leg, so the position is an ongoing balance contest rather than a settled trap.",
+      "distractors": {
+        "plausible": [
+          "SLX is defined by forming an X-frame with both feet behind the knees of both of the opponent's legs.",
+          "SLX means the outside foot wraps their ankle while the inside leg hooks the hip, isolating one leg."
+        ],
+        "trap": [
+          "The leg configuration barely matters; release the ankle wrap and control their collar, since grips alone hold SLX."
+        ]
+      }
     },
     {
       "question": "What are the two control points on the trapped leg, and what job does each perform?",

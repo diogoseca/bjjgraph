@@ -284,11 +284,29 @@
       },
       {
         "question": "What are the primary dangers of allowing your opponent to maintain an underhook during the half guard pass?",
-        "answer": "The underhook gives the bottom player the ability to come to their side, which is the foundation for sweeps, back takes, and even submission opportunities from half guard. With an underhook, they can drive into you, take your back by coming up behind you, or execute various half guard sweeps including the old school sweep and Homer Simpson sweep. The underhook also prevents you from flattening them with shoulder pressure, allowing them to maintain better defensive structure. This is why experienced passers treat opponent's underhook as a critical threat that must be addressed immediately."
+        "answer": "The underhook lets the bottom player come up to their side, which is the foundation for sweeps, back takes, and even submissions from half guard. With an underhook they can drive into you, come up behind you to take your back, or execute various half guard sweeps including the old school sweep and Homer Simpson sweep. It also prevents you from flattening them with shoulder pressure, letting them maintain better defensive structure. This is why experienced passers treat the opponent's underhook as a critical threat that must be addressed immediately.",
+        "distractors": {
+          "plausible": [
+            "The underhook mainly lets them recover full closed guard, forcing you to restart the pass from square one.",
+            "The underhook is only dangerous if they also control your wrist, so hand fighting alone removes the threat."
+          ],
+          "trap": [
+            "Posture up tall and raise your hips to strip the underhook, since creating height makes it harder for them to hold."
+          ]
+        }
       },
       {
         "question": "How should you adapt your passing strategy when facing lockdown half guard versus traditional half guard?",
-        "answer": "Lockdown half guard requires specific counter-techniques because opponent has their legs crossed, creating a mechanical lock that prevents simple leg extraction. Against lockdown, you should focus on either breaking the lockdown by controlling their top foot and prying it away from your trapped leg, or transitioning to positions that nullify the lockdown's effectiveness such as getting the underhook and driving them to their back. You may also whip your trapped leg sharply to break the hold, or step over to headquarters position to bypass the lockdown entirely. Traditional half guard without lockdown allows more direct pressure passing, whereas lockdown demands addressing the leg configuration specifically."
+        "answer": "Lockdown requires breaking or bypassing the crossed-leg lock itself, while traditional half guard allows more direct pressure passing. Because the opponent's legs are crossed into a mechanical lock, simple leg extraction is blocked: focus on breaking the lockdown by controlling their top foot and prying it away from your trapped leg, or transition to positions that nullify its effectiveness, such as getting the underhook and driving them to their back. You may also whip your trapped leg sharply to break the hold, or step over to headquarters position to bypass the lockdown entirely.",
+        "distractors": {
+          "plausible": [
+            "Against lockdown, pull your trapped knee straight back with steady pressure until their legs uncross.",
+            "Lockdown and traditional half guard are passed the same way; heavy crossface pressure frees the leg in both."
+          ],
+          "trap": [
+            "Stand up and shake your trapped leg vigorously to slip the lockdown, accepting the brief loss of base."
+          ]
+        }
       },
       {
         "question": "What mechanical principle allows successful leg extraction while maintaining forward pressure during the half guard pass?",
@@ -296,11 +314,29 @@
       },
       {
         "question": "Why is preventing deep half guard entry considered critical during the half guard passing sequence?",
-        "answer": "Deep half guard represents one of the most dangerous positions for the passer because the bottom player gets underneath your center of gravity, controls your legs from below, and has access to numerous high-percentage sweeps including the Homer Simpson, waiter sweep, and various wrestling-style dump sweeps. Once deep half is established, your passing attempt has essentially failed and you're now defending against being swept or submitted. Prevention requires keeping your hips low and forward, never allowing space underneath your torso. If opponent begins entering deep half, immediate counters are necessary such as hopping over to the other side (limp leg), establishing front headlock control, or sprawling backward."
+        "answer": "Deep half guard puts the bottom player underneath your center of gravity, controlling your legs from below with access to numerous high-percentage sweeps. Those include the Homer Simpson, waiter sweep, and various wrestling-style dump sweeps; once deep half is established, your passing attempt has essentially failed and you are now defending against being swept or submitted. Prevention requires keeping your hips low and forward, never allowing space underneath your torso. If the opponent begins entering deep half, immediate counters are necessary, such as hopping over to the other side (limp leg), establishing front headlock control, or sprawling backward.",
+        "distractors": {
+          "plausible": [
+            "Deep half mainly threatens leg lock entries, so hiding your heel is the passer's key concern.",
+            "Deep half is bad mostly because it stalls your pass, costing time while they recover full guard."
+          ],
+          "trap": [
+            "If they dive under you toward deep half, sit your hips down onto them and ride it out with your full weight."
+          ]
+        }
       },
       {
         "question": "How should you sequence your passing attempts when your initial half guard pass is defended?",
-        "answer": "Rather than remaining static and attempting to force a single passing technique against active defense, experienced passers chain multiple passing sequences together based on opponent's reactions. If traditional pressure passing is defended with strong frames, transition to knee slice or headquarters. If they defend knee slice, flow to leg drag or long step. The key is maintaining forward pressure and control while fluidly transitioning between passing angles. Each defensive response creates new opportunities - if they defend your crossface, they often weaken their leg defense; if they focus entirely on leg retention, their upper body becomes vulnerable."
+        "answer": "Chain multiple passing sequences together based on the opponent's reactions rather than staying static and forcing a single technique. If traditional pressure passing is defended with strong frames, transition to the knee slice or headquarters; if they defend the knee slice, flow to the leg drag or long step. The key is maintaining forward pressure and control while fluidly transitioning between passing angles. Each defensive response creates new opportunities: if they defend your crossface, they often weaken their leg defense, and if they focus entirely on leg retention, their upper body becomes vulnerable.",
+        "distractors": {
+          "plausible": [
+            "Repeat your strongest pass with increasing power on each attempt until their frames eventually break down.",
+            "Chain your passes, but reset your base between attempts so each new pass starts from a stable position."
+          ],
+          "trap": [
+            "When a pass stalls, release the crossface and put both hands on their legs to force the pass through."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin extracting your trapped leg - how do you adjust your passing approach?",
@@ -308,7 +344,16 @@
       },
       {
         "question": "What grip configuration should you prioritize when passing half guard in no-gi versus gi, and why does this change your approach?",
-        "answer": "In gi, you have access to collar and pants grips that provide reliable anchor points - a cross-collar grip combined with a pants grip at the knee gives you excellent control for both upper body management and leg manipulation during extraction. In no-gi, without these friction-based grips, you must rely more heavily on body positioning and pressure rather than grips. Underhooks, overhooks, and head control become your primary connection points. The crossface becomes even more critical in no-gi because you cannot rely on collar grips to control head position. This shifts the passing strategy toward tighter chest-to-chest pressure and more wrestling-based upper body control rather than grip-dependent sequences."
+        "answer": "In gi, collar and pants grips anchor your pass, while in no-gi you rely on underhooks, head control, and chest-to-chest pressure instead. A cross-collar grip combined with a pants grip at the knee gives excellent control for both upper body management and leg manipulation during extraction. In no-gi, without these friction-based grips, body positioning and pressure take over: underhooks, overhooks, and head control become your primary connection points, and the crossface becomes even more critical because you cannot rely on collar grips to control head position. This shifts the passing strategy toward tighter chest-to-chest pressure and more wrestling-based upper body control rather than grip-dependent sequences.",
+        "distractors": {
+          "plausible": [
+            "In no-gi, replace collar and pants grips with wrist and ankle grips, keeping the same grip-based strategy.",
+            "In gi, avoid collar grips while passing since they can be broken, relying on pressure just as in no-gi."
+          ],
+          "trap": [
+            "In no-gi, skip head control and hug the hips with both arms, since the head cannot be controlled without a collar."
+          ]
+        }
       }
     ],
     "safety_considerations": "Half guard passing is generally safe when practiced with proper control and progressive resistance. The primary safety concerns involve knee and hip injuries to the passing player if they attempt to violently rip their trapped leg free without proper technique - this can stress knee ligaments and hip flexors. Always extract your leg using proper hip positioning and pressure rather than forceful yanking. For the bottom player, ensure your partner doesn't drive crossface pressure excessively hard onto your neck or face, especially when learning. Bottom players should be aware of potential shoulder and rib pressure and communicate if pressure becomes uncomfortable. When practicing lockdown defenses, the top player should use controlled movements when whipping their leg to break the hold rather than violent kicking that could injure their partner's legs. Both partners should build pressure gradually during training rather than applying maximum force immediately. Advanced practitioners should be particularly careful when practicing against deep half guard attempts, as mistimed movements can result in awkward falls or knee torque.",

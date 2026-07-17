@@ -297,18 +297,45 @@
       },
       {
         "question": "What visual and tactile indicators tell you the triangle is properly positioned for a finish versus needing adjustment?",
-        "answer": "Proper position indicators: your inner thigh is pressed firmly against one side of the opponent's neck with no gap, the opponent's trapped shoulder is driven into the opposite carotid, your body is angled perpendicular to their shoulders, and you can feel their pulse against your inner thigh. Indicators needing adjustment: you can see space between your thigh and their neck, the opponent's chin is tucked into the triangle creating a pocket of space, your body is still square to theirs, or you feel pressure on the front of their throat rather than the sides of their neck.",
-        "safety_critical": false
+        "answer": "The triangle is finish-ready when your inner thigh seals one side of their neck with no gap and their trapped shoulder drives into the opposite carotid. You should also be angled perpendicular to their shoulders and able to feel their pulse against your inner thigh. Adjust if you can see space between your thigh and their neck, if their chin is tucked into the triangle creating a pocket of space, if your body is still square to theirs, or if you feel pressure on the front of their throat rather than the sides of the neck.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The triangle is finish-ready when you feel firm pressure on the front of their throat and your body stays square to theirs for maximum leverage.",
+            "The triangle is finish-ready as soon as your ankles are locked tightly in the figure-four, regardless of your angle to their shoulders."
+          ],
+          "trap": [
+            "A gap at the neck just means you need to squeeze longer, since the choke ultimately works on the windpipe from the front."
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together inside the triangle to create a frame and prevent you from finishing—how do you break this grip and continue?",
-        "answer": "Attack the clasped hands by inserting both your hands between their arms and prying outward, or grab their wrist with both hands and strip it toward your hip while squeezing your knees to increase pressure on the grip. If the grip is very strong, rather than fighting it, transition to attacking the arms directly: apply a kimura grip on the clasped wrist closest to you, or extend your hips to straighten their arm for an armbar. The clasping defense immobilizes both their arms, which makes them vulnerable to arm attacks from within the triangle.",
-        "safety_critical": false
+        "answer": "Pry inside their clasped arms with both hands, strip the wrist toward your hip while squeezing your knees, or bypass the grip with a kimura or armbar. To pry, insert both hands between their arms and lever outward; to strip, grab their wrist with both hands and pull it toward your hip as your knees squeeze to add pressure on the grip. If the grip is very strong, don't fight it—attack the arms directly by applying a kimura grip on the clasped wrist closest to you, or extending your hips to straighten their arm for an armbar. The clasping defense immobilizes both of their arms, which makes them vulnerable to arm attacks from within the triangle.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Peel their fingers apart one at a time with one hand while the other keeps their head pulled down into the choke.",
+            "Push their clasped hands down toward their own chest to collapse the frame, then re-lock the triangle over their arms."
+          ],
+          "trap": [
+            "Briefly open your triangle so you can use both hands and full leverage to rip their grip apart, then re-lock your legs."
+          ]
+        }
       },
       {
         "question": "What signs indicate you should immediately release the triangle choke during training, even without a tap?",
-        "answer": "Release immediately if the opponent goes limp or stops moving, if their face turns dark purple or red, if you hear gurgling or unusual breathing sounds, if their body begins convulsing or twitching, if they appear confused or disoriented, or if they verbally indicate distress in any form. Blood chokes can cause unconsciousness within seconds and practitioners sometimes lose consciousness before they can tap. Always prioritize training partner safety over finishing the submission. After release, keep the partner flat, elevate their legs, and monitor their recovery.",
-        "safety_critical": true
+        "answer": "Release instantly if your partner goes limp or stops moving, turns dark purple or red, gurgles, convulses, seems disoriented, or signals distress. Also release on any unusual breathing sounds, body twitching, or verbal indication of distress in any form. Blood chokes can cause unconsciousness within seconds, and practitioners sometimes go out before they can tap—always prioritize training partner safety over finishing the submission. After release, keep the partner flat, elevate their legs, and monitor their recovery.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Ease the pressure off gradually when they go limp so blood flow returns slowly and they don't wake up disoriented.",
+            "Release if you hear gurgling, but brief limpness alone is fine since relaxing into the choke is a common late-stage defense."
+          ],
+          "trap": [
+            "Hold the squeeze until you feel a clear tap, because practitioners always manage to tap before a blood choke puts them out."
+          ]
+        }
       },
       {
         "question": "You attempt the triangle from open guard but the opponent's posture is too strong to lock—what alternative submissions can you transition to without abandoning the position?",
@@ -322,8 +349,17 @@
       },
       {
         "question": "Your opponent begins turning their body clockwise to attempt to pass through the triangle—what adjustment do you make to maintain the submission?",
-        "answer": "When the opponent turns into the triangle, immediately tighten the figure-four lock by squeezing knees and pulling their head down to prevent them from creating enough rotation to extract their head. Use your free hand to control their far hip or belt to resist the rotation. If they generate significant rotational angle, transition to omoplata on the trapped arm—their turning motion feeds directly into the omoplata position by rotating their shoulder past the breaking point. You can also follow their rotation by hip-switching to the opposite side to maintain the perpendicular angle as they turn.",
-        "safety_critical": false
+        "answer": "Squeeze your knees and pull their head down to kill the rotation, or ride their turn straight into an omoplata on the trapped arm. Tighten the figure-four immediately so they cannot create enough rotation to extract their head, and use your free hand to control their far hip or belt to resist the turn. If they generate significant rotational angle, their turning motion feeds directly into the omoplata by rotating their shoulder past the breaking point. You can also follow their rotation by hip-switching to the opposite side to keep your perpendicular angle as they turn.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Open your lock and re-shoot the triangle from the opposite side once their rotation carries them past your center line.",
+            "Push their head away in the direction of their turn to stretch the neck and add choking pressure as they rotate."
+          ],
+          "trap": [
+            "Let them rotate freely with your ankles crossed, since their own turning motion tightens the triangle without any adjustment."
+          ]
+        }
       }
     ],
     "clips": [

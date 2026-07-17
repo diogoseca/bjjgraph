@@ -286,15 +286,42 @@
       },
       {
         "question": "When is the optimal timing window to execute the upa during a mount exchange?",
-        "answer": "The highest-percentage timing occurs when the opponent's weight shifts forward onto their hands — typically when reaching for collar grips, attempting americana or cross-collar choke setups, or transitioning between mount variations. This forward weight shift compromises their rear base and commits their hands to tasks other than posting. Additional windows include the moment they initially achieve mount before settling their weight, when they adjust position between low and high mount, and when they lift a hand to strip your grips. Avoid attempting when they sit back in high mount with upright posture, as their rearward weight distribution makes displacement extremely difficult."
+        "answer": "The best upa window is when the opponent's weight shifts forward onto their hands, typically while reaching for grips or choke setups. This forward shift — during collar-grip reaches, americana or cross-collar choke setups, or transitions between mount variations — compromises their rear base and commits their hands to tasks other than posting. Additional windows include the moment they initially achieve mount before settling their weight, adjustments between low and high mount, and when they lift a hand to strip your grips. Avoid attempting the upa when they sit back in high mount with upright posture, as their rearward weight distribution makes displacement extremely difficult.",
+        "distractors": {
+          "plausible": [
+            "Bridge the instant they establish mount and fully settle their weight, since a freshly settled base is always at its weakest.",
+            "Time your bridge for when they post both hands wide on the mat to base, since their arms are then committed to the floor."
+          ],
+          "trap": [
+            "Wait until they sit back upright in high mount, since their hands are furthest from the mat and cannot post against you."
+          ]
+        }
       },
       {
         "question": "Your opponent consistently posts their free hand wide every time you attempt the upa — how do you adjust your strategy?",
-        "answer": "Against habitual posters, employ a multi-layered approach: First, time escapes exclusively when their posting hand is committed to grips or submissions so it cannot post. Second, use fake upa setups — commit obviously to one side to draw their base shift, then switch explosively to the opposite side before they can re-adjust. Third, use the upa threat as a setup for elbow escape: as they widen their base to post against the upa, their knees lift and create space for knee insertion on the opposite side. Fourth, the gift wrap variation catches their posting arm as they reach across. The key insight is that the upa's greatest value at advanced levels is often as a threat that opens other escapes, not necessarily as the primary finishing technique."
+        "answer": "Time your upa only when their posting hand is committed to grips or submissions, and use fake upas to one side to draw the post before switching. Against habitual posters this becomes a multi-layered approach: first, escape exclusively in moments when the posting hand cannot post because it is occupied. Second, commit obviously to one side to draw their base shift, then switch explosively to the opposite side before they re-adjust. Third, use the upa threat to set up the elbow escape — as they widen their base to post, their knees lift and create space for knee insertion on the opposite side. Fourth, the gift wrap variation catches their posting arm as they reach across. The key insight is that at advanced levels the upa's greatest value is often as a threat that opens other escapes, not necessarily as the primary finishing technique.",
+        "distractors": {
+          "plausible": [
+            "Bridge harder and more explosively to the same side each attempt until their wide post eventually collapses under the force.",
+            "Abandon the upa entirely and switch to the elbow escape, since the upa is useless once an opponent has learned to post."
+          ],
+          "trap": [
+            "Extend both arms and push their chest straight upward to break their posture before bridging into the roll."
+          ]
+        }
       },
       {
         "question": "What biomechanical principles make the upa effective for smaller practitioners against significantly larger opponents?",
-        "answer": "The upa exploits several biomechanical advantages: The glutes and hamstrings are among the strongest muscle groups relative to size, generating disproportionate force during hip extension. The explosive bridge converts stored elastic energy into a sudden force spike that exceeds what sustained pushing can achieve. The same-side trapping creates structural compromise in the opponent's base rather than requiring you to overcome their full weight — you are exploiting a geometric weakness, not winning a strength contest. The rotational 45-degree bridge angle means you never lift the opponent's full mass vertically; instead, angular momentum tips them past their balance point. Finally, the timing-dependent nature of the technique means the opponent's own movements (reaching forward) create the window, making their weight work against their base stability."
+        "answer": "The upa lets smaller grapplers succeed because explosive hip extension tips the opponent over a compromised base rather than lifting their full weight. The glutes and hamstrings are among the strongest muscle groups relative to size, generating disproportionate force during hip extension, and the explosive bridge converts stored elastic energy into a sudden force spike that exceeds sustained pushing. Same-side trapping creates structural compromise in the opponent's base — you exploit a geometric weakness instead of winning a strength contest. The rotational 45-degree bridge angle means you never lift their full mass vertically; angular momentum tips them past their balance point. Finally, the technique is timing-dependent: the opponent's own forward reach creates the window, making their weight work against their base stability.",
+        "distractors": {
+          "plausible": [
+            "It works because bridging straight up lifts the opponent's full weight, and the legs are strong enough to press even much heavier opponents.",
+            "It works because sustained, steady hip pressure gradually walks the opponent's weight off of you until they finally topple over."
+          ],
+          "trap": [
+            "It works because you can bench-press their torso upward with both arms while your hips lift them clear of your body."
+          ]
+        }
       },
       {
         "question": "How does the upa integrate into a comprehensive mount defense system alongside elbow escape and hip escape?",
@@ -306,7 +333,16 @@
       },
       {
         "question": "What are the specific grip requirements for the arm trap and what happens if you grip the wrist instead of behind the tricep?",
-        "answer": "The optimal grip cups behind the tricep or hooks the elbow crease, pulling the entire upper arm tight against your chest so your forearm pins their arm diagonally across your torso. This controls the shoulder joint and prevents them from rotating their arm free during the bridge. Gripping the wrist instead is a common beginner error — it only controls the distal end of the lever, allowing the opponent to bend their elbow, rotate their shoulder, and withdraw the arm from your control during the explosive bridge. The tricep grip ensures the shoulder remains pinned, which means even if they attempt to withdraw, the entire limb stays trapped across your chest throughout the roll."
+        "answer": "Cup behind the tricep or hook the elbow crease, pinning the entire upper arm tight to your chest so the shoulder stays controlled through the roll. Your forearm pins their arm diagonally across your torso, controlling the shoulder joint and preventing them from rotating the arm free during the bridge. Gripping the wrist instead is a common beginner error — it only controls the distal end of the lever, allowing the opponent to bend their elbow, rotate their shoulder, and withdraw the arm from your control during the explosive bridge. The tricep grip ensures the shoulder remains pinned, so even if they attempt to withdraw, the entire limb stays trapped across your chest throughout the roll.",
+        "distractors": {
+          "plausible": [
+            "Grip the wrist with both hands, since two-on-one wrist control is the strongest way to stop the arm from pulling away.",
+            "Grab the forearm at its midpoint, which controls both ends of the arm's lever equally throughout the roll."
+          ],
+          "trap": [
+            "Pull their arm out and away from your chest to straighten it, since a fully extended arm cannot post or resist rotation."
+          ]
+        }
       },
       {
         "question": "Your opponent grapevines your legs while in mount — what must you address before attempting the upa?",
@@ -314,7 +350,16 @@
       },
       {
         "question": "You execute the upa bridge and begin rolling your opponent, but you feel their chest separating from yours mid-roll — what do you do?",
-        "answer": "Any gap between your chest and your opponent's chest during the roll is a critical failure point that signals they are attempting to disengage and either post a hand to arrest the reversal or switch their hips to begin taking your back. You must immediately tighten the arm trap by squeezing your elbow against your ribcage and pulling their trapped arm deeper across your chest. Simultaneously accelerate the roll rather than slowing down — the rotational momentum is your primary weapon and losing speed allows them to establish defensive positioning. If the gap has already widened enough that you feel them beginning to rotate their hips independently, abandon the upa immediately and turn into them rather than completing a roll that will deliver you into their back control. Prevention is always preferable: maintain chest contact from the first moment of the bridge by keeping your arm trap extremely tight throughout."
+        "answer": "Immediately tighten the arm trap and accelerate the roll to close the chest gap before they can post a hand or take your back. Any gap between your chests during the roll is a critical failure point signaling they are disengaging to post a hand and arrest the reversal or switch their hips to begin taking your back. Squeeze your elbow against your ribcage and pull their trapped arm deeper across your chest while speeding up rather than slowing down — rotational momentum is your primary weapon, and losing speed lets them establish defensive positioning. If the gap has already widened enough that they are rotating their hips independently, abandon the upa immediately and turn into them rather than completing a roll that delivers you into their back control. Prevention is always preferable: maintain chest contact from the first moment of the bridge by keeping the arm trap extremely tight throughout.",
+        "distractors": {
+          "plausible": [
+            "Pause the roll to re-secure your grips, then restart the bridge once you have re-established full chest-to-chest contact.",
+            "Bridge higher and hold the top of the bridge longer, letting gravity re-seal their chest down against yours."
+          ],
+          "trap": [
+            "Commit to finishing the roll even once their hips start rotating free, since stopping halfway always leaves you stuck under mount."
+          ]
+        }
       }
     ],
     "safety_considerations": "The upa escape is among the safest fundamental techniques in BJJ when practiced properly, but several precautions ensure injury-free training. Execute the bridge with explosive power but controlled direction — wild, uncontrolled bridging can cause both practitioners to land awkwardly, risking shoulder, neck, or wrist injuries from unexpected impact angles. Partners defending should avoid posting rigidly with locked elbows, as the rotational force of the bridge can hyperextend the elbow joint against a locked arm structure. Beginners should practice on padded mats and start with cooperative drilling at low intensity before adding resistance. When completing the roll, maintain tight body connection to prevent the training partner from free-falling onto their head or neck. For the person being rolled, learn to tuck the chin and roll with the movement rather than resisting rigidly, which reduces neck compression risk. Practitioners with lower back issues should engage core muscles throughout the bridge to protect the lumbar spine from hyperextension, and those with cervical spine issues should modify the head turn component to avoid aggravating existing conditions.",

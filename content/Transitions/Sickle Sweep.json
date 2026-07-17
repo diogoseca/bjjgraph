@@ -255,15 +255,42 @@
       },
       {
         "question": "Your opponent posts their hand on the mat as you initiate the Sickle Sweep - how do you adjust?",
-        "answer": "When the opponent posts their hand, immediately transition to attacking their back by following the posted arm and climbing up their body while maintaining your De La Riva hook. Alternatively, you can attack an omoplata on the posted arm or use the posting moment to transition to Single Leg X-Guard. The key is recognizing the post as an opportunity for a different attack rather than continuing to force the sweep against a stabilized base."
+        "answer": "A hand post is your cue to switch attacks: follow the posted arm and climb to the back while keeping your De La Riva hook. Alternatively, attack an omoplata on the posted arm, or use the posting moment to transition to Single Leg X-Guard. The key is recognizing the post as an opportunity for a different attack rather than continuing to force the sweep against a stabilized base.",
+        "distractors": {
+          "plausible": [
+            "Re-grip the collar deeper and re-run the same sweep with more force; the post collapses once you break posture again.",
+            "Reverse direction and sweep toward the side opposite the posted hand using the same hook and grips."
+          ],
+          "trap": [
+            "Release your De La Riva hook so you can sit up and fight for the posted arm with both hands."
+          ]
+        }
       },
       {
         "question": "How does the collar grip function during the Sickle Sweep execution?",
-        "answer": "The collar grip serves three critical functions: (1) it prevents the opponent from posting their hands by controlling their upper body posture and pulling it downward, (2) it creates additional sweeping force when pulled down and toward you during execution, and (3) it provides the primary grip to pull yourself up into mount or side control after the sweep completes. A deep collar grip behind the neck is most effective as it gives maximum control over their posture."
+        "answer": "The collar grip breaks posture to stop hand posts, adds pulling force to the sweep, and then pulls you up into top position. Controlling their upper body and pulling it downward prevents them from posting their hands; pulling the collar down and toward you during execution creates additional sweeping force; and after the sweep it is the primary grip for pulling yourself into mount or side control. A deep collar grip behind the neck is most effective, as it gives maximum control over their posture.",
+        "distractors": {
+          "plausible": [
+            "The collar grip mainly threatens a choke so the opponent defends their neck instead of their base.",
+            "The collar grip is a backup handle that anchors the opponent in place so they cannot back away from your hook."
+          ],
+          "trap": [
+            "Push on the collar to keep the opponent upright at arm's length so your legs have room to do the sweeping."
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for executing the Sickle Sweep?",
-        "answer": "The optimal timing is when the opponent shifts their weight forward onto the leg you're hooking, typically when they step forward to begin a pass or when they adjust their stance. This weight commitment makes it nearly impossible for them to step back to recover base. Additionally, the moment they lift their far leg to step is ideal as they're temporarily on one leg. Advanced practitioners can force this timing by using their grips to pull the opponent's weight forward before sweeping."
+        "answer": "Sweep the instant the opponent shifts their weight forward onto the leg you are hooking, so they cannot step back to recover base. This typically happens when they step forward to begin a pass or adjust their stance, and that weight commitment makes recovery nearly impossible. The moment they lift their far leg to step is also ideal, since they are temporarily on one leg. Advanced practitioners force this timing by using their grips to pull the opponent's weight forward before sweeping.",
+        "distractors": {
+          "plausible": [
+            "Sweep as the opponent leans back away from you, since their retreating weight makes the hooked leg light and easy to chop.",
+            "Wait until the opponent is fully settled and static in their stance, so their reactions are at their slowest."
+          ],
+          "trap": [
+            "Delay the sweep until the opponent has locked in their passing grips, then use their forward pressure against them."
+          ]
+        }
       },
       {
         "question": "Your opponent steps their far leg back to widen their base as you begin the sickle motion - what is your best response?",
@@ -279,11 +306,29 @@
       },
       {
         "question": "How do you consolidate top position immediately after completing the Sickle Sweep?",
-        "answer": "As the opponent hits the mat, immediately release your hook and use the momentum combined with your collar grip to pull yourself forward into mount or side control. Drive your chest forward and establish heavy shoulder pressure before the opponent can frame or insert their knee. Your first action on top should be to secure an underhook or crossface to prevent them from turning into you. If you land in mount, immediately settle your hips low on their abdomen and grapevine their legs to prevent the upa escape."
+        "answer": "As they hit the mat, release your hook and use the momentum plus your collar grip to pull yourself into mount or side control. Drive your chest forward and establish heavy shoulder pressure before the opponent can frame or insert their knee. Your first action on top should be to secure an underhook or crossface to prevent them from turning into you. If you land in mount, immediately settle your hips low on their abdomen and grapevine their legs to prevent the upa escape.",
+        "distractors": {
+          "plausible": [
+            "Keep your De La Riva hook engaged on top so the opponent cannot recover guard while you settle into position.",
+            "Come up and immediately hunt the far arm for an armbar before the opponent has time to start framing."
+          ],
+          "trap": [
+            "Pause on your back for a beat to confirm they are truly down before committing your weight forward on top."
+          ]
+        }
       },
       {
         "question": "Why is active toe flexion critical throughout the entire Sickle Sweep motion?",
-        "answer": "Active toe flexion (pulling toes toward your shin) creates rigid structural tension in your hook, preventing it from slipping off the opponent's leg during the dynamic sweeping motion. A passive hook with relaxed foot muscles will collapse under the resistance of the opponent's weight and base, causing the sweep to fail at the critical moment when maximum force is being applied. The flexed toes lock the hook in place around the opponent's thigh like a carabiner, maintaining contact throughout the full arc of the sickle motion."
+        "answer": "Flexing your toes toward your shin makes the hook rigid so it cannot slip off the opponent's leg during the sweep. A passive hook with relaxed foot muscles will collapse under the resistance of the opponent's weight and base, causing the sweep to fail at the critical moment when maximum force is being applied. The flexed toes lock the hook in place around the opponent's thigh like a carabiner, maintaining contact throughout the full arc of the sickle motion.",
+        "distractors": {
+          "plausible": [
+            "Pointing your toes away from you extends your reach so the hook can wrap deeper around the opponent's thigh.",
+            "Toe flexion only matters at entry; once the hook is set you can relax the foot to conserve energy."
+          ],
+          "trap": [
+            "Keep the foot loose so the hook can slide and readjust freely as the opponent moves during the sweep."
+          ]
+        }
       }
     ],
     "safety_considerations": "The Sickle Sweep is generally a low-risk technique when practiced correctly, but certain safety considerations should be observed. When drilling with a partner, communicate clearly about resistance levels and ensure they know how to fall safely backward when swept. The person being swept should practice falling with proper breakfall technique, keeping their chin tucked and slapping the mat with their arms to dissipate impact force. Avoid executing this sweep explosively during initial learning phases as uncontrolled falls can cause head or spine injuries. When your partner posts their hand to defend, do not force the sweep as this can result in wrist, elbow, or shoulder injuries to the posted arm. Instead, transition to alternative attacks. Ensure adequate mat space behind your partner before attempting the sweep to prevent them from hitting walls or other practitioners. In training environments, tap if you feel your balance completely compromised rather than risking an uncontrolled fall. When practicing at higher resistance levels, both partners should be warmed up properly with particular attention to hip flexibility and leg strength preparation.",

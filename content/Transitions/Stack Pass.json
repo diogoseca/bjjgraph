@@ -262,7 +262,16 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical advantage created by the stack pass?",
-        "answer": "The stack pass creates a mechanical advantage by driving the opponent's knees toward their chest, which lifts their hips off the mat and inverts their spine so their weight rests on their upper back and shoulders. This severely limits their hip mobility and eliminates their ability to shrimp, frame, or generate the leg power needed for guard retention. The vertical compression also restricts their breathing and core engagement, making sustained defense progressively more difficult."
+        "answer": "The stack pass folds the opponent's knees into their chest, lifting their hips off the mat and inverting their spine onto their shoulders. With their weight resting on their upper back, they lose the hip mobility needed to shrimp, frame, or generate the leg power required for guard retention. The vertical compression also restricts their breathing and core engagement, making sustained defense progressively more difficult.",
+        "distractors": {
+          "plausible": [
+            "The stack pass works by pinning the opponent's hips flat to the mat so they cannot shrimp or angle away from you.",
+            "The stack pass isolates one leg at a time and folds it across their body to clear a lane around the guard."
+          ],
+          "trap": [
+            "Create the stack by leaning back and lifting their legs skyward, using height instead of forward pressure to fold them."
+          ]
+        }
       },
       {
         "question": "How should you adjust your passing direction based on the opponent's defensive reactions?",
@@ -278,7 +287,16 @@
       },
       {
         "question": "What grip requirements are essential for a successful stack pass?",
-        "answer": "You need strong bilateral control of the opponent's legs, typically gripping the pants at the knee line or lower shins in gi, or cupping behind the knees in no-gi. These grips must be maintained from the initial guard break through the stacking phase and leg clearing. The grip on the passing side can transition to a collar or crossface grip only after your hips have cleared past the opponent's legs. Releasing grips prematurely is the single most common reason the pass fails, as even momentary loss of leg control allows guard recomposition."
+        "answer": "A successful stack pass requires bilateral leg control — pants grips at the knee line or lower shins in gi, or cups behind the knees in no-gi. These grips must be maintained from the initial guard break through the stacking phase and leg clearing. Only after your hips have cleared past the opponent's legs can the passing-side grip transition to a collar or crossface grip. Releasing grips prematurely is the single most common reason the pass fails, as even momentary loss of leg control allows guard recomposition.",
+        "distractors": {
+          "plausible": [
+            "Grip both ankles firmly, since controlling the feet is what prevents the opponent from re-guarding during the stack.",
+            "One strong grip on the near pant leg is enough, leaving your other hand free to post on the mat for base."
+          ],
+          "trap": [
+            "Release the leg grips as soon as your forward drive begins so both hands can hunt for the collar and crossface early."
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force during the stacking phase?",
@@ -298,7 +316,16 @@
       },
       {
         "question": "Your opponent attempts a triangle from the stacked position by controlling your arm - how do you prevent and counter this?",
-        "answer": "Prevention is the priority: keep both arms either inside the opponent's legs or posted wide with elbows flared so they cannot isolate one arm inside and one outside their guard structure. If they begin closing the triangle angle, immediately stack even harder by driving your weight forward and down, which compresses their locking mechanism and makes it difficult to close the triangle tightly. Use your free hand to push on their locking ankle to break the triangle closure. The increased stacking pressure from the triangle defense can actually accelerate the pass if you maintain your composure and continue working the stack while defending."
+        "answer": "Prevent the triangle by keeping both arms inside the opponent's legs or posted wide with elbows flared — never one arm in and one out. If they begin closing the triangle angle, immediately stack even harder, driving your weight forward and down to compress their locking mechanism so the triangle cannot close tightly, and use your free hand to push on their locking ankle to break the closure. Maintained stacking pressure during the triangle defense can actually accelerate the pass if you keep your composure and continue working the stack while defending.",
+        "distractors": {
+          "plausible": [
+            "If the triangle starts closing, pull back and posture up immediately to yank your trapped arm free of their legs.",
+            "Push on their top knee rather than the ankle to open the lock, since the knee is the stronger lever to attack."
+          ],
+          "trap": [
+            "Abandon the stack and sit back to pull your head out, creating the space you need to slip free of the triangle."
+          ]
+        }
       }
     ],
     "safety_considerations": "The stack pass places significant pressure on the opponent's neck, cervical spine, and lower back due to the spinal inversion created by the stacking action. Always apply pressure gradually and be aware of your partner's flexibility limitations, particularly in their hamstrings and lower back. Beginners should avoid excessive stacking that drives the opponent's knees too far toward their face, as this can cause neck compression injuries or aggravate existing spinal conditions. When practicing, communicate with your partner about pressure levels and stop immediately if they tap or show signs of discomfort. Be especially cautious with partners who have neck, back, or shoulder injuries. The passer should also be aware that poor head position during the forward drive can result in neck strain from guillotine pressure, and should never jerk their head violently to escape a guillotine grip.",

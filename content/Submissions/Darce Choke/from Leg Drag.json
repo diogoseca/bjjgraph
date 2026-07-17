@@ -340,13 +340,31 @@
       },
       {
         "question": "What control must be established before you can safely commit to the Darce entry from leg drag?",
-        "answer": "Before committing to the Darce, you must have established strong leg drag control with hip pressure pinning the opponent's lower body, preventing them from simply standing up or creating explosive distance. You need crossface or shoulder control that has forced the opponent into a defensive turning reaction toward you. The opponent's near arm must be positioned between your bodies rather than posted on the mat. Without these three elements—lower body control, forced rotation, and arm positioning—the Darce attempt will either fail or create space for the opponent to escape.",
-        "safety_critical": false
+        "answer": "You need leg drag hip pressure pinning their lower body, crossface pressure forcing them to turn toward you, and their near arm trapped between your bodies. The hip pressure prevents them from simply standing up or creating explosive distance, and the crossface or shoulder control must have already forced a defensive turning reaction toward you. The near arm must be positioned between your bodies rather than posted on the mat. Without these three elements—lower body control, forced rotation, and arm positioning—the Darce attempt will either fail or create space for the opponent to escape.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "You mainly need double underhooks and chest-to-chest pressure before threading the choking arm through.",
+            "The key prerequisite is the opponent posting their near arm on the mat so you can thread underneath it."
+          ],
+          "trap": [
+            "Dive for the neck the instant their head dips; leg control can wait because speed matters more than position on the Darce."
+          ]
+        }
       },
       {
         "question": "At what point during the Darce sequence does the submission become inescapable, and what defines this threshold?",
-        "answer": "The point of no escape occurs when the figure-four grip is fully locked with the opponent's arm trapped inside the triangle and the attacker has begun sprawling their hips. Once the grip is secured and hip pressure is applied, the opponent cannot create enough space to extract their arm or relieve the carotid compression through strength alone. Before the grip locks, the opponent can still posture, frame, or fight the threading arm. The critical transition is the moment the free hand clasps the bicep and the threading hand moves behind the head—after this, the mechanical advantage overwhelmingly favors the attacker.",
-        "safety_critical": false
+        "answer": "The Darce becomes inescapable once the figure-four grip fully locks with the arm trapped inside the triangle and you begin sprawling your hips. Once the grip is secured and hip pressure is applied, the opponent cannot create enough space to extract their arm or relieve the carotid compression through strength alone. Before the grip locks, the opponent can still posture, frame, or fight the threading arm. The critical transition is the moment the free hand clasps the bicep and the threading hand moves behind the head—after this, the mechanical advantage overwhelmingly favors the attacker.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The choke is inescapable as soon as the threading arm slides deep past the neck, even before the hands connect.",
+            "The point of no return is when you sit through to your hip, regardless of whether the grip is fully clasped."
+          ],
+          "trap": [
+            "Once your arm is around the neck you can release hip pressure and finish with arm strength alone."
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up as you thread your arm—what adjustment prevents the escape?",
@@ -355,13 +373,31 @@
       },
       {
         "question": "What are the most common grip errors during the Darce finish, and how do they reduce effectiveness?",
-        "answer": "The most common grip error is locking the figure-four too loosely with the clasping hand not firmly against the bicep, allowing the opponent to create micro-space that relieves pressure. Second is placing the threading hand on top of the head rather than behind it, which pushes the opponent away instead of into the choke. Third is failing to keep elbows tight during the squeeze, dissipating force laterally. Each error reduces carotid compression and converts the choke into an uncomfortable but survivable position that the opponent can weather and eventually escape from.",
-        "safety_critical": false
+        "answer": "The biggest errors are a loose figure-four off the bicep, the threading hand placed on top of the head instead of behind it, and flared elbows. Locking the figure-four too loosely, with the clasping hand not firmly against the bicep, lets the opponent create micro-space that relieves pressure. Placing the threading hand on top of the head pushes the opponent away instead of into the choke. Failing to keep the elbows tight during the squeeze dissipates force laterally. Each error reduces carotid compression and converts the choke into an uncomfortable but survivable position that the opponent can weather and eventually escape from.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The main grip error is clasping the bicep too tightly, which burns out your grip before the choke takes effect.",
+            "Placing the threading hand behind the head instead of on top is the most common mistake, since it pushes the opponent away."
+          ],
+          "trap": [
+            "If the choke feels loose, open your elbows wide and crank the head sideways to force the tap."
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent loses consciousness during the Darce choke?",
-        "answer": "Release all choking pressure immediately upon recognizing unconsciousness—signs include the body going limp, arms dropping, or cessation of all defensive movement. Place the opponent on their side in the recovery position. Do not shake them or pour water on their face. They should regain consciousness within 10-20 seconds. Stay with them, speak calmly, and monitor for confusion, headache, or any neurological symptoms. If they do not regain consciousness within 20 seconds or show any concerning symptoms upon waking, seek immediate medical attention. Never apply additional pressure after unconsciousness.",
-        "safety_critical": true
+        "answer": "Release all choking pressure immediately when the opponent goes limp, then place them on their side in the recovery position. Signs of unconsciousness include the body going limp, arms dropping, or cessation of all defensive movement. Do not shake them or pour water on their face. They should regain consciousness within 10-20 seconds. Stay with them, speak calmly, and monitor for confusion, headache, or any neurological symptoms. If they do not regain consciousness within 20 seconds or show any concerning symptoms upon waking, seek immediate medical attention. Never apply additional pressure after unconsciousness.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Sit them upright and gently shake their shoulders so blood returns to the head faster after the choke.",
+            "Lay them flat on their back and elevate their legs until they wake, which usually takes about a minute."
+          ],
+          "trap": [
+            "Keep light pressure on for a few seconds after they go limp so they don't wake mid-release and resume escaping."
+          ]
+        }
       },
       {
         "question": "How do you adjust the finishing angle when the initial perpendicular position fails to produce a tap?",

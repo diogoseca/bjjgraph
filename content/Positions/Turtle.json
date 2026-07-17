@@ -423,7 +423,16 @@
     "flashcards": [
       {
         "question": "What is the primary grip configuration for controlling turtle and why is it essential before attempting hooks?",
-        "answer": "The seatbelt grip (over-under harness) is the primary control configuration, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together. This grip is essential before attempting hooks because it controls the opponent's upper body and prevents them from turning into you, sitting to guard, or standing up. Without upper body control first, hook attempts are easily defended and you risk losing the position entirely."
+        "answer": "The seatbelt grip (over-under harness) is the primary control for turtle and must be secured before attempting hooks. One arm goes over the opponent's shoulder and the other under their armpit, with the hands clasped together. This upper-body control prevents the opponent from turning into you, sitting to guard, or standing up. Without upper body control first, hook attempts are easily defended and you risk losing the position entirely.",
+        "distractors": {
+          "plausible": [
+            "Getting both hooks in first is the priority, since the seatbelt can be added once your hooks control the hips.",
+            "Double underhooks under both armpits are the primary control, clasped tight at the opponent's chest."
+          ],
+          "trap": [
+            "Wrap both arms around the waist and clasp at the belly, since the body lock stops them crawling away."
+          ]
+        }
       },
       {
         "question": "Your opponent starts shifting their hips to sit through - what adjustment should you make?",
@@ -431,7 +440,16 @@
       },
       {
         "question": "Your opponent begins a technical standup attempt from turtle - what immediate actions prevent them from reaching their feet?",
-        "answer": "As soon as you feel the opponent shift their weight to post a hand and begin elevating their hips, immediately drive your chest weight forward and down at a 45-degree angle to collapse their posting base. Simultaneously, use your near-side knee to block their hip from rising by wedging it tight against their hip bone. If they manage to get one leg under them, hook that leg with your arm or underhook their far arm to pull them back to the mat. The critical window is before their trail leg swings through to plant. Prevention through constant heavy pressure is always preferable to reacting after they initiate."
+        "answer": "Drive your chest weight forward and down at a 45-degree angle the moment they post a hand, collapsing their base before the hips rise. Simultaneously wedge your near-side knee tight against their hip bone to block the hip from elevating. If they manage to get one leg under them, hook that leg with your arm or underhook their far arm to pull them back to the mat. The critical window is before their trail leg swings through to plant, and prevention through constant heavy pressure is always preferable to reacting after they initiate.",
+        "distractors": {
+          "plausible": [
+            "Attack the posting wrist first and pull it away, dealing with the hips only after they begin to rise.",
+            "Pull their hips straight back toward you with both hands, then flatten them out once they collapse."
+          ],
+          "trap": [
+            "Jump straight to their back with both hooks as they rise, even before your seatbelt grip is secured."
+          ]
+        }
       },
       {
         "question": "How should you manage energy expenditure while maintaining offensive pressure from turtle top?",
@@ -846,11 +864,29 @@
   "flashcards_position": [
     {
       "question": "What configuration of the body defines the turtle position and distinguishes it from a guard-passed pin?",
-      "answer": "Turtle is defined by one player on all fours - hands under shoulders and knees under hips - with a rounded back and the rear exposed to the other player, who works from behind or the side. Unlike a pin such as side control or mount, no one is flattened supine; the bottom player retains a live four-point base and mobility. This four-point posture is what trades rear exposure for submission protection: the tucked, rounded shell denies the front of the body while giving up the back. It is the transitional junction between being passed and either recovering guard or conceding the back."
+      "answer": "Turtle is a four-point posture — hands under shoulders, knees under hips, back rounded, rear exposed — with no one pinned flat. Unlike a pin such as side control or mount, the bottom player is not flattened supine; they retain a live four-point base and mobility while the other player works from behind or the side. The tucked, rounded shell trades rear exposure for submission protection, denying the front of the body while giving up the back. It is the transitional junction between being passed and either recovering guard or conceding the back.",
+      "distractors": {
+        "plausible": [
+          "Turtle is the bottom player lying flat on their stomach with elbows tight while the top controls from behind.",
+          "Turtle is any position where one player is behind the other, including back control with both hooks in."
+        ],
+        "trap": [
+          "Turtle means the bottom player is effectively pinned and should hold still until the top player makes a mistake."
+        ]
+      }
     },
     {
       "question": "Why is turtle universally treated as a transitional position rather than a resting or stable one for either player?",
-      "answer": "Neither role can hold turtle indefinitely because the position is inherently unstable: the bottom player's base is mobile and their back is exposed, while the top player has not yet secured hooks or a finish. Any pause lets the bottom recover guard or stand, or lets the top establish harness and hooks. Both players are racing the same clock - the bottom to escape before control sets, the top to advance before the escape fires. This is why constant motion, not settling, governs the exchange for both sides."
+      "answer": "Turtle is transitional because it is unstable for both players: the bottom's back is exposed and the top has no hooks secured. The bottom player's base is mobile and their back is exposed, while the top player has not yet established harness, hooks, or a finish. Any pause lets the bottom recover guard or stand, or lets the top lock in control. Both players are racing the same clock — the bottom to escape before control sets, the top to advance before the escape fires — which is why constant motion, not settling, governs the exchange for both sides.",
+      "distractors": {
+        "plausible": [
+          "Turtle is transitional mainly for the top player, while the bottom can rest safely inside a tight defensive shell.",
+          "Turtle is unstable only because the referee will restart the action if neither player advances."
+        ],
+        "trap": [
+          "Turtle is a reliable stall: tuck tight and wait out the top player, since they cannot score without hooks."
+        ]
+      }
     },
     {
       "question": "What are the primary control points that decide who wins the turtle exchange, regardless of which player you are?",

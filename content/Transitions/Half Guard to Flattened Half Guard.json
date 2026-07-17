@@ -272,7 +272,16 @@
     "flashcards": [
       {
         "question": "What is the correct order of control points to establish when flattening your opponent from half guard top?",
-        "answer": "Secure the crossface first to turn their head away and prevent near-side arm framing, then deny the underhook by controlling their near arm with your far-side hand or whizzer, then walk your hips forward to collapse frames. The crossface comes first because it provides the most immediate structural advantage and enables everything else in the sequence."
+        "answer": "Secure the crossface first, then deny the underhook, and only then walk your hips forward to collapse their frames. The crossface turns their head away and prevents near-side arm framing, and it comes first because it provides the most immediate structural advantage and enables everything else in the sequence. Deny the underhook by controlling their near arm with your far-side hand or a whizzer, then walk the hips forward to finish collapsing their frames.",
+        "distractors": {
+          "plausible": [
+            "Win the underhook battle first, then apply the crossface, and finally walk your hips forward to flatten them.",
+            "Walk your hips forward first to create pressure, then layer on the crossface and underhook control once they are pinned."
+          ],
+          "trap": [
+            "Posture up tall and grip their pants to free your trapped leg before bothering with any upper-body control."
+          ]
+        }
       },
       {
         "question": "Your opponent has a strong knee shield preventing you from establishing chest-to-chest contact. How do you collapse it without using your hands?",
@@ -280,11 +289,29 @@
       },
       {
         "question": "Why should you walk your hips forward in small increments rather than driving forward explosively?",
-        "answer": "Incremental advancement maintains stable pressure throughout the transition and prevents the bottom player from redirecting your momentum into sweeps or creating space from sudden weight shifts. Explosive lunges are telegraphed and create the exact type of momentum that skilled bottom players use to generate sweeps. Small steps compound into full flattening without creating exploitable moments."
+        "answer": "Small incremental hip advances maintain constant stable pressure and deny the bottom player momentum to redirect into sweeps. Sudden weight shifts create space and explosive lunges are telegraphed, generating exactly the type of momentum that skilled bottom players use to sweep. Small steps compound into full flattening without ever creating an exploitable moment.",
+        "distractors": {
+          "plausible": [
+            "Small steps mainly conserve your energy so you can explode into the pass once their frames collapse.",
+            "Incremental movement hides your intentions, and staying undetected is the main reason to avoid big drives."
+          ],
+          "trap": [
+            "Drive forward explosively in one burst so they have no time to establish frames or fight for the underhook."
+          ]
+        }
       },
       {
         "question": "Your opponent is fighting hard for the underhook as you attempt to flatten them. What are your two primary responses?",
-        "answer": "First option is to apply a strong whizzer (overhook) on their underhook arm while driving the crossface harder to limit their leverage and prevent them from turning to their side. Second option is to switch to a Kimura grip on their exposed arm if they overcommit to the underhook, creating a submission threat that forces them to retract the arm and abandon the underhook battle."
+        "answer": "Whizzer their underhook arm while driving the crossface harder, or switch to a Kimura grip if they overcommit the arm. The strong whizzer (overhook) combined with increased crossface pressure limits their leverage and prevents them from turning to their side. The Kimura option targets their exposed arm when they overcommit, creating a submission threat that forces them to retract the arm and abandon the underhook battle.",
+        "distractors": {
+          "plausible": [
+            "Abandon the crossface and swim for your own underhook on the same side so you win the pummeling exchange.",
+            "Back your hips out to disengage from the underhook battle entirely, then re-enter once their arm resets."
+          ],
+          "trap": [
+            "Concede the underhook and simply drive forward with your weight, since top pressure alone neutralizes it."
+          ]
+        }
       },
       {
         "question": "You have successfully flattened your opponent but they begin small hip escapes to create space. What is the optimal response?",
@@ -296,7 +323,16 @@
       },
       {
         "question": "Your opponent dives underneath you for deep half guard as you begin walking your hips forward. How do you address this counter?",
-        "answer": "Immediately sprawl your hips back and away to prevent them from getting underneath your center of gravity, while driving your crossface pressure downward to pin their head. If they achieve deep half, shift your focus to a whizzer and hip pressure to prevent the sweep rather than continuing the flattening sequence. Prevention is better than recovery, so recognize the early signs of the dive and stop hip advancement before they get under you."
+        "answer": "Immediately sprawl your hips back and away while driving your crossface pressure downward to pin their head. This prevents them from getting underneath your center of gravity. If they achieve deep half anyway, shift your focus to a whizzer and hip pressure to prevent the sweep rather than continuing the flattening sequence. Prevention is better than recovery, so recognize the early signs of the dive and stop hip advancement before they get under you.",
+        "distractors": {
+          "plausible": [
+            "Add a whizzer and keep walking your hips forward, trusting the overhook alone to shut down the deep half sweep.",
+            "Sprawl your hips back but release the crossface so you can post both hands wide on the mat for base."
+          ],
+          "trap": [
+            "Drive your hips forward and down even harder to smash them flat before they finish getting underneath you."
+          ]
+        }
       },
       {
         "question": "How should your weight distribution differ between chest pressure and hip pressure during the flattening process?",

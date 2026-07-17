@@ -909,7 +909,16 @@
   "flashcards_family": [
     {
       "question": "Why does the closed guard invert the usual on-top/underneath advantage, giving the bottom player the offensive initiative?",
-      "answer": "The crossed ankles behind the opponent's back form a closed kinetic chain that tethers their hips, denying them the ability to disengage, stand freely, or generate the distance required to pass. Because the top player cannot advance until they break this connection, they are forced into a defensive posture-and-opening problem before any offense is possible. Meanwhile the bottom player retains free use of both arms and full hip mobility to break posture, create angles, and threaten sweeps and submissions. This structural trap is what makes the position offensive from underneath across every variant, whether standard, high guard, or rubber guard."
+      "answer": "The crossed ankles tether the opponent's hips, forcing them to solve a defensive opening problem before any offense is possible. The closed kinetic chain denies the top player the ability to disengage, stand freely, or generate the distance required to pass. Meanwhile the bottom player retains free use of both arms and full hip mobility to break posture, create angles, and threaten sweeps and submissions. This structural trap is what makes the position offensive from underneath across every variant, whether standard, high guard, or rubber guard.",
+      "distractors": {
+        "plausible": [
+          "The bottom player holds the initiative because gravity lets them pull the opponent down harder than the opponent can posture up.",
+          "The inversion comes from the bottom player's grips, which control the opponent's arms more decisively than the legs control the hips."
+        ],
+        "trap": [
+          "The bottom player should simply hold the lock and stall, since the top player will exhaust themselves trying to force it open."
+        ]
+      }
     },
     {
       "question": "What single top-player attribute most determines whether the bottom player's attacks succeed in any closed guard variant?",
@@ -917,7 +926,16 @@
     },
     {
       "question": "How does the bottom player use the interplay of angle and leg pressure to generate offense rather than lying flat and square?",
-      "answer": "Staying flat and square lets the opponent settle heavy, centered weight and defend from a stable base, so the bottom player must shift their hips off the centerline to a 30-to-45-degree angle. This angle exposes the opponent's compromised side, misaligns their base for sweeps, and opens submission entries that a square position hides. The crossed legs simultaneously act as an active tool, pulling the opponent forward with the heels while the knees pinch to restrict their hips and breathing. Combining angular hip movement with dynamic leg pressure is the universal engine of closed guard offense, not the static lock itself."
+      "answer": "The bottom player shifts their hips off the centerline to a 30-to-45-degree angle while the crossed legs actively pull and pinch. Staying flat and square lets the opponent settle heavy, centered weight and defend from a stable base, whereas the angle exposes the opponent's compromised side, misaligns their base for sweeps, and opens submission entries that a square position hides. The crossed legs simultaneously act as an active tool, pulling the opponent forward with the heels while the knees pinch to restrict their hips and breathing. Combining angular hip movement with dynamic leg pressure is the universal engine of closed guard offense, not the static lock itself.",
+      "distractors": {
+        "plausible": [
+          "The bottom player stays square to the opponent so both legs stay equally engaged and the pressure remains symmetric.",
+          "Offense comes mainly from squeezing the lock harder; the angle only matters once a submission is already locked in."
+        ],
+        "trap": [
+          "The bottom player should extend both legs to push the opponent away, creating the space needed to launch attacks."
+        ]
+      }
     },
     {
       "question": "What is the systematic progression a top player must follow to escape and pass any closed guard, and why can steps not be skipped?",
@@ -939,19 +957,55 @@
   "flashcards_position": [
     {
       "question": "What geometric configuration defines the closed guard and distinguishes it from open guard?",
-      "answer": "Closed guard is defined by the bottom player's legs wrapping the top player's torso with the ankles crossed and locked behind the back, forming a closed kinetic chain around the waist. This ankle lock is the single feature that separates it from open guard, where the legs are unhooked and control is maintained through feet, shins, and grips instead. Because the loop is physically closed, the top player cannot simply pull their hips backward to disengage; they must first break the lock. The locked legs also fix the distance between both players' hips, denying the space required to initiate a pass."
+      "answer": "Closed guard is defined by the legs wrapping the opponent's torso with the ankles crossed and locked behind their back. This forms a closed kinetic chain around the waist, and the ankle lock is the single feature that separates it from open guard, where the legs are unhooked and control is maintained through feet, shins, and grips instead. Because the loop is physically closed, the top player cannot simply pull their hips backward to disengage; they must first break the lock. The locked legs also fix the distance between both players' hips, denying the space required to initiate a pass.",
+      "distractors": {
+        "plausible": [
+          "Closed guard is defined by the feet hooking inside the opponent's thighs to lift and control their hips from underneath.",
+          "Closed guard is defined by strong sleeve and collar grips that pin the opponent's posture down onto the bottom player's chest."
+        ],
+        "trap": [
+          "Closed guard is defined by pinching the knees around the opponent's waist while keeping the ankles uncrossed for kicking mobility."
+        ]
+      }
     },
     {
       "question": "Why does the closed guard invert the usual relationship between being on top and holding positional advantage?",
-      "answer": "In most positions, the top player controls the exchange through gravity and pressure, but the closed guard's locked legs neutralize this by trapping the top player inside a control loop they cannot pass through. The bottom player uses the leg lock to break posture and threaten sweeps and submissions, while the top player is confined to defending and working toward opening the legs before any offense is possible. This makes the bottom role offensive and the top role defensive despite the vertical relationship. The dynamic reflects BJJ's core principle that leverage and control points, not position alone, determine advantage."
+      "answer": "The locked legs trap the top player inside a control loop, neutralizing the gravity and pressure that normally favor being on top. The bottom player uses the leg lock to break posture and threaten sweeps and submissions, while the top player is confined to defending and working toward opening the legs before any offense is possible. This makes the bottom role offensive and the top role defensive despite the vertical relationship. The dynamic reflects BJJ's core principle that leverage and control points, not position alone, determine advantage.",
+      "distractors": {
+        "plausible": [
+          "The top player loses the advantage because supporting their own weight tires them faster than the resting bottom player.",
+          "The inversion happens because the bottom player can grip first while the top player's hands stay busy maintaining balance."
+        ],
+        "trap": [
+          "Since the top player is trapped, the bottom player can safely extend straight arms to push the opponent's chest away."
+        ]
+      }
     },
     {
       "question": "How does the height at which the ankles are crossed on the opponent's back affect control quality?",
-      "answer": "The ankles should be crossed low at the small of the back, just above the hips, so the heels can dig into the lumbar and the loop controls both the pelvis and, through posture-breaking, the upper torso. Crossing too high toward the shoulder blades opens space at the hips and lets the top player drive their pelvis down to break the guard. Crossing too low, wrapped around the hips themselves, surrenders posture control and lets the top player sit back and posture up freely. Correct height therefore governs both posture-breaking ability and resistance to the guard being opened, while keeping the squeeze sustainable."
+      "answer": "The ankles should be crossed low at the small of the back, just above the hips, so the heels can dig into the lumbar spine. From this height the loop controls both the pelvis and, through posture-breaking, the upper torso. Crossing too high toward the shoulder blades opens space at the hips and lets the top player drive their pelvis down to break the guard. Crossing too low, wrapped around the hips themselves, surrenders posture control and lets the top player sit back and posture up freely. Correct height therefore governs both posture-breaking ability and resistance to the guard being opened, while keeping the squeeze sustainable.",
+      "distractors": {
+        "plausible": [
+          "The ankles should be crossed high near the shoulder blades to maximize the posture-breaking pull on the upper torso.",
+          "Crossing height barely matters as long as the squeeze is strong, since the lock itself is what prevents the pass."
+        ],
+        "trap": [
+          "Lock the ankles directly around the opponent's hips and squeeze as hard as possible to compress their pelvis."
+        ]
+      }
     },
     {
       "question": "What role does the hip-to-hip connection play in maintaining the closed guard?",
-      "answer": "The distance between the two players' hips is the decisive control variable: when hips stay glued together the top player cannot create the space needed to stand, posture, or angle out for a pass. The locked legs are the primary tool for eliminating this space, with the heels pulling the top player's pelvis inward. Whenever a gap opens between the hips, the top player gains the room to begin breaking and passing, so both players fight constantly over this measurement. Closing hip distance favors the guard player, while opening it favors the passer."
+      "answer": "Keeping the hips glued together denies the top player the space needed to stand, posture, or angle out for a pass. The distance between the two players' hips is the decisive control variable, and the locked legs are the primary tool for eliminating it, with the heels pulling the top player's pelvis inward. Whenever a gap opens between the hips, the top player gains the room to begin breaking and passing, so both players fight constantly over this measurement. Closing hip distance favors the guard player, while opening it favors the passer.",
+      "distractors": {
+        "plausible": [
+          "The decisive measurement is chest-to-chest distance, since the pass begins when the opponent lifts their upper body away.",
+          "Hip connection mainly conserves the bottom player's energy; the grips are what actually stop the opponent from passing."
+        ],
+        "trap": [
+          "The bottom player should let a small hip gap open on purpose, since space is what allows sweeps and submission entries."
+        ]
+      }
     },
     {
       "question": "Why is control of the top player's posture the central contested element of the closed guard?",

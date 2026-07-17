@@ -274,11 +274,29 @@
       },
       {
         "question": "Your opponent has the Kimura locked but their weight is shifted backward rather than driving forward - should you attempt the rolling escape?",
-        "answer": "No. When the opponent's weight is shifted backward, they have better base to follow your roll and maintain the grip throughout the rotation. The rolling escape works specifically because the opponent's forward weight commitment compromises their ability to adjust laterally. With their weight back, use the space their positioning creates to work conventional escapes: straighten your arm toward their hips, hip escape to create angle, or address their grip with your free hand."
+        "answer": "No, do not attempt the roll: with their weight shifted backward the opponent has the base to follow your rotation and maintain the grip throughout. The rolling escape works specifically because the opponent's forward weight commitment compromises their ability to adjust laterally. With their weight back, use the space their positioning creates to work conventional escapes: straighten your arm toward their hips, hip escape to create angle, or address their grip with your free hand.",
+        "distractors": {
+          "plausible": [
+            "Yes, roll immediately: their backward weight means less finishing pressure, giving you a safer window to complete the rotation.",
+            "Yes, but roll toward their hips instead of forward so your rotation goes underneath their backward-shifted base."
+          ],
+          "trap": [
+            "Yes, roll explosively anyway; the momentum of a committed forward roll will strip their grip no matter where their weight sits."
+          ]
+        }
       },
       {
         "question": "At what point in the Kimura attack sequence is the optimal timing window for initiating the roll?",
-        "answer": "The optimal window is after recognizing that traditional defensive measures have failed but before the opponent reaches maximum submission pressure on your shoulder. This typically occurs when the opponent has secured a tight figure-four grip, is driving forward with their weight to finish, but has not yet reached the point where your shoulder range of motion is fully exhausted. Waiting too long dramatically increases injury risk, while attempting too early wastes this high-risk technique when safer options remain viable."
+        "answer": "Initiate the roll after traditional defenses have failed but before the opponent reaches maximum submission pressure on your shoulder. This typically occurs when the opponent has secured a tight figure-four grip and is driving forward with their weight to finish, but your shoulder's range of motion is not yet fully exhausted. Waiting too long dramatically increases injury risk, while attempting too early wastes this high-risk technique when safer options remain viable.",
+        "distractors": {
+          "plausible": [
+            "Roll the instant the opponent secures the figure-four grip, before they can begin applying any finishing pressure.",
+            "Wait until you feel the first sharp pain in your shoulder, since that confirms the lock is real before you commit to the roll."
+          ],
+          "trap": [
+            "Wait until your shoulder is fully at end range, because the stored joint tension slingshots you through the rotation."
+          ]
+        }
       },
       {
         "question": "What grip adjustment should you make with your free hand before initiating the roll?",
@@ -302,7 +320,16 @@
       },
       {
         "question": "What body position signals that the rolling escape window has closed and you must tap?",
-        "answer": "You must tap immediately if: your shoulder has reached its range of motion limit and you feel joint compression or sharp pain; opponent has completely flattened you eliminating your ability to generate rolling momentum; your arm is being driven behind your back at an extreme angle where rolling would worsen the lock geometry; or you cannot tuck your chin properly due to opponent's head or shoulder positioning blocking your rotation path. The escape window closes when explosive forward movement is no longer possible without causing immediate joint damage."
+        "answer": "Tap immediately once your shoulder hits its range limit, you are flattened out, your arm is driven behind your back, or you cannot tuck your chin. Specifically: joint compression or sharp pain at the shoulder's range of motion limit; complete flattening that eliminates your ability to generate rolling momentum; the arm driven behind your back at an extreme angle where rolling would worsen the lock geometry; or the opponent's head or shoulder positioning blocking your rotation path so you cannot tuck your chin properly. The escape window closes when explosive forward movement is no longer possible without causing immediate joint damage.",
+        "distractors": {
+          "plausible": [
+            "Tap only when you feel actual sharp pain in the shoulder; positional signals alone do not mean the escape window has closed.",
+            "Being flattened means you should tap, but joint compression at end range still leaves you enough time to attempt the roll."
+          ],
+          "trap": [
+            "Never tap while any roll is physically possible; an explosive rotation at end range always beats conceding the submission."
+          ]
+        }
       },
       {
         "question": "How does the direction of your roll relate to the direction of the Kimura force, and why does this matter?",

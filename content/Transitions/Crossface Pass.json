@@ -254,7 +254,16 @@
       },
       {
         "question": "Your opponent secures a deep underhook before you can establish the crossface - how do you adjust?",
-        "answer": "When the opponent secures a deep underhook, the crossface pass becomes significantly harder because they can generate the rotational power to turn into you and threaten sweeps or back takes. The best adjustment is to abandon the crossface pass attempt and transition to a knee slice pass or backstep pass, which work with or around their underhook rather than requiring you to neutralize it. Alternatively, apply a strong whizzer to limit their underhook effectiveness while switching your passing angle."
+        "answer": "Abandon the crossface pass and switch to a knee slice or backstep pass, which work with or around the deep underhook. A deep underhook gives the opponent the rotational power to turn into you and threaten sweeps or back takes, making the crossface pass significantly harder to complete. Alternatively, apply a strong whizzer to limit the underhook's effectiveness while switching your passing angle.",
+        "distractors": {
+          "plausible": [
+            "Fight to re-pummel your own underhook back in first, then resume the crossface pass once you win the arm battle.",
+            "Drive the crossface even harder to flatten them; enough shoulder pressure neutralizes any underhook."
+          ],
+          "trap": [
+            "Post your crossface hand on the mat and turn away from them to relieve the underhook pressure."
+          ]
+        }
       },
       {
         "question": "What is the correct leg extraction motion and why does a straight pull fail?",
@@ -262,11 +271,29 @@
       },
       {
         "question": "You feel your opponent beginning to insert their knee for a knee shield while you have crossface - what is your immediate response?",
-        "answer": "The moment you feel the knee shield insertion beginning, you must drive your weight forward and downward aggressively to close the space before their knee can fully enter. Use your crossface-side hip to pin their inserting knee back down while increasing shoulder pressure. If they get the knee partially in, immediately transition to a smash pass or knee cut approach rather than fighting the established knee shield. Prevention through forward pressure is always easier than passing an established knee shield."
+        "answer": "Drive your weight forward and downward aggressively the instant you feel the knee shield starting, closing the space before their knee fully enters. Use your crossface-side hip to pin the inserting knee back down while increasing shoulder pressure. If the knee gets partially in, immediately transition to a smash pass or knee cut approach rather than fighting an established knee shield — prevention through forward pressure is always easier than passing the shield once it is set.",
+        "distractors": {
+          "plausible": [
+            "Release the crossface and grab their inserting shin with both hands to wrestle the knee back down to the mat.",
+            "Switch your hips to a low backstep first, then deal with the knee shield from the new angle."
+          ],
+          "trap": [
+            "Lean back and pull your hips away so the knee shield has no chest to connect to."
+          ]
+        }
       },
       {
         "question": "What grip configuration do you need before beginning leg extraction?",
-        "answer": "Before beginning leg extraction, you need three control points established: the crossface forearm driving across the opponent's jaw with shoulder pressure flattening them, the far arm controlled via underhook or wrist pin to prevent framing, and your head positioned on the opposite side from the trapped leg creating a structural wedge. Without all three control points, the opponent retains enough defensive capability to follow your hips during extraction or create frames that prevent the pass."
+        "answer": "Leg extraction requires three control points: the crossface with shoulder pressure, far-arm control, and your head opposite the trapped leg. The crossface forearm drives across the opponent's jaw to flatten them, the far arm is controlled via underhook or wrist pin to prevent framing, and your head positioned on the side opposite the trapped leg creates a structural wedge. Without all three, the opponent retains enough defensive capability to follow your hips during extraction or build frames that prevent the pass.",
+        "distractors": {
+          "plausible": [
+            "You need the crossface plus an ankle grip freeing your trapped foot; far-arm control can wait until after extraction.",
+            "A crossface and a strong pant or knee grip on their top leg is enough to begin extracting."
+          ],
+          "trap": [
+            "Reach back with your crossface arm to pry their legs open, keeping only head position for upper-body control."
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force during the shoulder pressure phase?",
@@ -274,11 +301,29 @@
       },
       {
         "question": "Your opponent locks down your trapped leg with a lockdown grip during your crossface pass attempt - how do you proceed?",
-        "answer": "When the opponent establishes lockdown, your circular leg extraction becomes impossible because their figure-four grip eliminates the knee mobility needed for the arc. You must first address the lockdown by posturing up slightly to remove the stretch reflex advantage, then either vigorously pummel your trapped foot free by kicking it toward their hips while maintaining crossface pressure, or switch entirely to a smash pass where you drive their locked legs to the mat and work around them. Never try to force the circular extraction against an established lockdown."
+        "answer": "Never force the circular extraction against a lockdown; posture up to kill the stretch reflex, then kick your foot free or switch to a smash pass. The figure-four grip eliminates the knee mobility your extraction arc needs, so the normal arc is impossible. After posturing up slightly to remove their stretch advantage, either vigorously pummel your trapped foot free by kicking it toward their hips while maintaining crossface pressure, or drive their locked legs to the mat and work around them with a smash pass.",
+        "distractors": {
+          "plausible": [
+            "Increase crossface pressure and slowly pull the trapped knee straight back until the figure-four grip loosens.",
+            "Flatten your hips to the mat and wait them out; holding a lockdown exhausts the bottom player faster than the top."
+          ],
+          "trap": [
+            "Extend your trapped leg long and straight behind you to break the figure-four with pure leg strength."
+          ]
+        }
       },
       {
         "question": "What distinguishes the crossface pass from the knee slice pass when both start from half guard top?",
-        "answer": "The crossface pass emphasizes heavy shoulder pressure and head control to flatten the opponent before extracting the trapped leg, keeping the passer's weight forward and linear throughout. The knee slice pass focuses on creating an angular path by cutting the knee across the opponent's thigh line, often with less emphasis on upper body pressure and more on hip mobility. Crossface is typically higher percentage when the opponent lacks a deep underhook, while knee slice can succeed even when they have partial underhook control because the angular movement changes the passing plane."
+        "answer": "The crossface pass flattens the opponent with heavy shoulder pressure, while the knee slice creates an angular path by cutting across the thigh line. The crossface pass uses shoulder pressure and head control to flatten the opponent before extracting the trapped leg, keeping the passer's weight forward and linear throughout. The knee slice emphasizes hip mobility over upper-body pressure, cutting the knee across the opponent's thigh line to change the passing plane. Crossface is typically higher percentage when the opponent lacks a deep underhook, while the knee slice can succeed even against partial underhook control because the angular movement changes the passing plane.",
+        "distractors": {
+          "plausible": [
+            "The crossface pass relies on hip mobility and cutting angles, while the knee slice wins by flattening them with shoulder pressure.",
+            "The two passes differ only in grips; their weight distribution and passing path are identical."
+          ],
+          "trap": [
+            "The crossface pass works best when the opponent already has a deep underhook, since shoulder pressure shuts it down."
+          ]
+        }
       },
       {
         "question": "During live rolling, your crossface is established but your opponent is actively hand fighting your free arm and preventing far arm control - what do you do?",

@@ -219,19 +219,55 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Leg Drag Pass to Side Control?",
-        "answer": "The primary goal is to convert the transitional leg drag control position into a stable, scoring side control position by establishing upper body control (crossface) before releasing leg control, then completing the consolidation with proper hip pressure and perpendicular body alignment."
+        "answer": "The primary goal is to convert leg drag control into a stable, scoring side control by securing the crossface before releasing the leg. Once upper body control is established, you complete the consolidation with proper hip pressure and perpendicular body alignment, turning the transitional leg drag position into a settled pin.",
+        "distractors": {
+          "plausible": [
+            "The primary goal is to establish heavy hip pressure first, adding the crossface only after you have settled into side control.",
+            "The primary goal is to pin the dragged leg flat to the mat with both hands until the opponent stops moving, then advance."
+          ],
+          "trap": [
+            "The primary goal is to release the leg early so both hands are free, then chase the upper body control on the way to side control."
+          ]
+        }
       },
       {
         "question": "What position do you start Leg Drag Pass to Side Control from?",
-        "answer": "This technique starts from Leg Drag Control top position, where you have already pulled opponent's leg across their body and established hip control, but have not yet achieved a consolidated scoring position."
+        "answer": "You start from Leg Drag Control on top, with the opponent's leg already pulled across their body and hip control established. At this point you have the transitional dragging position but have not yet achieved a consolidated scoring position, which is exactly what this pass completes.",
+        "distractors": {
+          "plausible": [
+            "You start from the knee cut position, with the opponent's bottom leg pinned under your shin as you slide across.",
+            "You start from standing headquarters, dragging the leg and dropping into side control in one continuous motion."
+          ],
+          "trap": [
+            "You start square in front of the opponent's open guard, dragging the leg while keeping their knee pointed back at your chest."
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Leg Drag Pass to Side Control?",
-        "answer": "The essential grips progress through the technique: initially the leg grip (hip, pants, or belt) combined with shoulder/head control, then crossface establishment with forearm across neck and jaw, then hip-blocking grip on opponent's far hip, finally settling into standard side control grips with crossface and underhook or hip control."
+        "answer": "The grips progress from leg-and-shoulder control to a crossface, then a far-hip block, and finally standard side control grips. Initially you hold the leg grip (hip, pants, or belt) combined with shoulder or head control, then establish the crossface with your forearm across the neck and jaw, add a hip-blocking grip on the opponent's far hip, and settle into side control with crossface plus an underhook or hip control.",
+        "distractors": {
+          "plausible": [
+            "You keep the same two grips throughout—far collar and near pants leg—never switching until side control is fully settled.",
+            "You establish the underhook first, then the crossface, and only release the leg grip once your chest is flat on theirs."
+          ],
+          "trap": [
+            "You release all grips as you clear the legs and post both hands wide on the mat for balance while settling your hips."
+          ]
+        }
       },
       {
         "question": "Your opponent starts inserting their knee as you release the leg grip—how do you adjust?",
-        "answer": "If the knee enters during transition, immediately switch to knee slice finishing mechanics by dropping your hip onto their thigh and driving through, or backstep to leg entanglement entries. Never try to force the original pass once the knee is in—adapt to the new situation."
+        "answer": "Immediately switch to knee slice finishing mechanics—drop your hip onto their thigh and drive through—or backstep into leg entanglement entries. Never try to force the original leg drag once the knee is in; the position has changed, so adapt to the new situation instead of fighting for a pass that is no longer there.",
+        "distractors": {
+          "plausible": [
+            "Pause the pass and re-pin the leg with both hands to restore the original leg drag position before continuing.",
+            "Lift your hips high off their knee so the leg slips back underneath, then re-drag it across to the other side."
+          ],
+          "trap": [
+            "Drive forward harder to force the original pass through—your pressure will flatten the inserted knee back out of the way."
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Leg Drag Pass to Side Control?",
@@ -243,7 +279,16 @@
       },
       {
         "question": "Your opponent frames strongly against your shoulder as you attempt to establish crossface—what is your response?",
-        "answer": "You have two primary options: swim your crossface arm inside their frame using shoulder pressure to collapse it, or accept their frame as an americana opportunity and attack the extended arm. Alternatively, use their resistance to redirect into north-south by sliding around their head."
+        "answer": "Swim your crossface arm inside their frame using shoulder pressure, or attack the extended framing arm with an americana. These are the two primary options: collapse the frame from inside, or accept it as a submission opportunity on the exposed arm. Alternatively, use their resistance to redirect around their head into north-south.",
+        "distractors": {
+          "plausible": [
+            "Grab their framing wrist with both hands and peel it down toward their legs before re-inserting the crossface.",
+            "Back your head and shoulders away from the frame to relieve pressure, then re-enter for the crossface at a new angle."
+          ],
+          "trap": [
+            "Posture straight up off their chest to break the frame with your full weight, then drop back down into the crossface."
+          ]
+        }
       },
       {
         "question": "How does the direction of your hip pressure change through the leg drag to side control sequence?",

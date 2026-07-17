@@ -261,7 +261,16 @@
       },
       {
         "question": "Why is maintaining constant shoulder pressure throughout the transition critically important, and what happens if you lift your chest during the step-over?",
-        "answer": "Maintaining shoulder pressure serves multiple purposes: it prevents opponent from creating space, stops them from turning away to turtle, eliminates their ability to establish effective frames, and keeps their spine flat against the mat limiting explosive movement. If you lift your chest during the step-over, you create a gap that allows opponent to turn their shoulders and hips toward you (potentially recovering guard) or away from you (escaping to turtle). The constant pressure pins their shoulders and limits their movement options to only small bridging attempts rather than full escapes."
+        "answer": "Constant shoulder pressure keeps opponent's spine flat and denies the space, frames, and turning needed for any escape. It prevents them from creating space, stops them from turning away to turtle, eliminates their ability to establish effective frames, and limits them to only small bridging attempts rather than full escapes. If you lift your chest during the step-over, the gap allows opponent to turn their shoulders and hips toward you (potentially recovering guard) or away from you (escaping to turtle).",
+        "distractors": {
+          "plausible": [
+            "Shoulder pressure mainly conserves your energy; briefly lifting your chest during the step-over is fine if your grips stay tight.",
+            "The pressure's main job is to keep their far arm pinned, so you can safely lift your chest once you control that arm."
+          ],
+          "trap": [
+            "Lift your chest during the step-over to gain height and swing your leg across faster before they can react."
+          ]
+        }
       },
       {
         "question": "When opponent bridges explosively just as you're stepping your leg over, what is the correct response and why should you never fight directly against their bridge?",
@@ -269,31 +278,94 @@
       },
       {
         "question": "What is the technical reason for stepping your leg in a wide arc rather than straight across opponent's chest when transitioning to mount?",
-        "answer": "A wide arc motion (stepping toward their far shoulder rather than straight across) allows your leg to clear over any potential frames, arm defenses, or body positioning they might use to block the transition. A straight-across movement brings your leg directly through their primary defensive zone where arms and frames are most effective. The wide arc also makes it harder for opponent to catch your leg or pants, and positions your knee to land cleanly on the opposite side of their body rather than getting stuck on their torso or arm. This path of least resistance significantly increases success rate."
+        "answer": "Stepping in a wide arc toward the far shoulder lets your leg clear frames and arm defenses that would block a straight-across path. A straight-across movement brings your leg directly through their primary defensive zone where arms and frames are most effective. The wide arc also makes it harder for opponent to catch your leg or pants, and positions your knee to land cleanly on the opposite side of their body rather than getting stuck on their torso or arm. This path of least resistance significantly increases success rate.",
+        "distractors": {
+          "plausible": [
+            "The wide arc works because it is faster than a straight step, beating the opponent's reaction time before frames form.",
+            "The arc adds swinging momentum so your leg's weight collapses their frames as it passes over them."
+          ],
+          "trap": [
+            "Step your leg straight across their chest — it is the shortest path and lands before they can lift an arm to block."
+          ]
+        }
       },
       {
         "question": "Why must you bring your second leg over quickly after the first leg clears, and what specific risk exists if you pause in the partial mount position?",
-        "answer": "The partial mount position (one leg over, one leg still on original side) creates a window where opponent can insert their knee shield or hook your leg with their bottom leg, capturing you in half guard instead of allowing full mount. Their defensive priority shifts from preventing the first leg to preventing the second leg, and they will use that brief moment to recover some guard retention. The quick continuous motion of both legs gives them no time to react or establish half guard frames. Additionally, the partial mount position compromises your base and weight distribution, making you more vulnerable to being swept or losing the position entirely if you pause there."
+        "answer": "Bringing the second leg over immediately denies opponent the split-second they need to hook your leg or insert a knee shield and capture half guard. In partial mount (one leg over, one still on the original side) their defensive priority shifts from preventing the first leg to preventing the second, and they will use that brief moment to recover some guard retention. Quick continuous motion of both legs gives them no time to react or establish half guard frames. Additionally, the partial mount compromises your base and weight distribution, so pausing there leaves you more vulnerable to being swept or losing the position entirely.",
+        "distractors": {
+          "plausible": [
+            "The main risk of pausing is an elbow escape to full guard, so control their far hip before the second leg comes over.",
+            "You rush the second leg to keep momentum; if you stall, their primary counter is bridging you forward over their head."
+          ],
+          "trap": [
+            "Pause in the partial mount to settle your weight and re-establish base before committing your second leg across."
+          ]
+        }
       },
       {
         "question": "When opponent has strong frames established on both sides and actively prevents your transition attempt, what should you do instead of forcing the mount transition?",
-        "answer": "You should abandon the mount transition attempt and work to systematically collapse their frames first, or transition to an alternative dominant position like knee-on-belly or north-south. Forcing a transition against strong established frames wastes energy, increases risk of losing position entirely, and demonstrates poor positional awareness. Better options include using weight and pressure to collapse frames over time, switching to submissions that attack their framing arms (kimura, americana), or using their commitment to frames as an opportunity to advance to knee-on-belly where you can attack from a different angle. High-level jiu-jitsu is about taking what opponent gives you, not forcing predetermined techniques."
+        "answer": "Don't force it — collapse their frames first or switch to an alternative dominant position like knee-on-belly or north-south. Forcing a transition against strong established frames wastes energy, increases the risk of losing position entirely, and demonstrates poor positional awareness. Better options include using weight and pressure to collapse the frames over time, switching to submissions that attack their framing arms (kimura, americana), or using their commitment to frames as an opportunity to advance to knee-on-belly and attack from a different angle. High-level jiu-jitsu is about taking what opponent gives you, not forcing predetermined techniques.",
+        "distractors": {
+          "plausible": [
+            "Back out to standing and restart the guard pass, since side control against strong frames offers no attacking value.",
+            "Hold side control without changing anything and simply wait for their frames to tire out on their own."
+          ],
+          "trap": [
+            "Force the step-over anyway with one explosive hop — full commitment and speed beat frames every time."
+          ]
+        }
       },
       {
         "question": "What are the key indicators that signal the optimal timing window for attempting the side control to mount transition?",
-        "answer": "The optimal timing windows include: when opponent turns their body into you (trying to face you or recover guard), when their near-side arm becomes compromised or weakened from defending other attacks, when they're flat on their back without active frames, immediately after they finish bridging and return to the mat (moment of exhaustion), when they're focused on defending a submission threat and their positional defense lapses, or when you've just transitioned from another position and they haven't re-established frames yet. The common thread is catching opponent during moments when their defensive structure is compromised or their attention is divided."
+        "answer": "The window opens whenever opponent's defensive structure lapses — turning into you, missing frames, post-bridge fatigue, or divided attention. Specific indicators include: opponent turning their body into you (trying to face you or recover guard), a near-side arm compromised or weakened from defending other attacks, lying flat on their back without active frames, the moment of exhaustion immediately after they finish bridging and return to the mat, attention consumed by defending a submission threat while positional defense lapses, or the moment just after you've arrived from another position before they re-establish frames. The common thread is catching them when their defensive structure is compromised or their attention is divided.",
+        "distractors": {
+          "plausible": [
+            "The best window is when opponent turns away from you, because their frames then face the wrong direction to stop your leg.",
+            "Go the moment they begin building frames, since a half-built frame is easier to step over than none at all."
+          ],
+          "trap": [
+            "Step over at the peak of their bridge so their own hip lift carries you up and into mount."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand firmly against your hip as you initiate the step-over - how do you adjust your technique?",
-        "answer": "When opponent posts their hand against your hip, you have several technical adjustments: First, use your crossface arm to swim under their posting arm and establish an underhook, which eliminates their frame. Second, you can trap their posting wrist with your near-side hand and pin it to their body before stepping over. Third, shift your angle slightly more toward their head to change the posting angle and reduce its effectiveness. Fourth, use a quick knee bump to dislodge their hand before completing the step-over. The key principle is never to force through a strong frame - always address the frame first, then complete the transition."
+        "answer": "Never force through the hip post — remove the frame first with an underhook swim, a wrist pin, an angle change, or a knee bump. Four adjustments work: first, swim your crossface arm under their posting arm to establish an underhook, which eliminates the frame. Second, trap their posting wrist with your near-side hand and pin it to their body before stepping over. Third, shift your angle slightly more toward their head to change the posting angle and reduce its effectiveness. Fourth, use a quick knee bump to dislodge their hand before completing the step-over. The key principle is to always address the frame first, then complete the transition.",
+        "distractors": {
+          "plausible": [
+            "Pin their posting hand flat to the mat beside their hip, then step over the outstretched arm.",
+            "Lean your full body weight onto the posting hand until it collapses, then step over while it is trapped beneath you."
+          ],
+          "trap": [
+            "Power straight through the post with a fast step-over — a single hand on your hip cannot stop committed hips."
+          ]
+        }
       },
       {
         "question": "What grip configurations maximize control during the step-over phase and why are they biomechanically superior?",
-        "answer": "The most effective grip configurations during the step-over include: crossface with your forearm driving into opponent's jaw to control head position, combined with either a deep underhook on the near-side arm or wrist control pinning their arm to their hip. These grips are biomechanically superior because they control the two primary escape mechanisms - the head (which leads the body in any directional movement) and the near-side arm (which provides the strongest frame against your leg). An alternative configuration uses the gift wrap, threading under their near arm to grip the far shoulder, which controls both arms simultaneously. The key is that your grips should prevent both rotation and arm extension before you commit to the step-over."
+        "answer": "Crossface plus near-side arm control (deep underhook or wrist pin) is superior because it controls head rotation and their strongest frame. The crossface forearm drives into opponent's jaw to control the head, which leads the body in any directional movement, while the deep underhook or wrist control pinning their arm to their hip neutralizes the near-side arm — the strongest frame against your leg. An alternative configuration is the gift wrap, threading under their near arm to grip the far shoulder, which controls both arms simultaneously. The key is that your grips should prevent both rotation and arm extension before you commit to the step-over.",
+        "distractors": {
+          "plausible": [
+            "Double wrist control on both of their arms is strongest, since it keeps every possible frame occupied at once.",
+            "Grip the far-side shoulder or lapel with both hands, because the far arm is what powers their escape."
+          ],
+          "trap": [
+            "Post both hands wide on the mat above their shoulders for maximum base while your leg swings over."
+          ]
+        }
       },
       {
         "question": "If your mount transition is blocked and opponent recovers half guard, what immediate chain attack should you pursue?",
-        "answer": "When opponent catches half guard during your mount transition, immediately establish the strong passing base: underhook on the trapped-leg side, crossface pressure maintaining head control, and your free leg posted wide for base. From here, your primary chain options include: knee slice pass using the angle you already have, back step pass if they recover a strong knee shield, or leg weave pass if they're focused on the underhook battle. You can also threaten submissions like the darce choke if they over-commit to the underhook fight, or the kimura if they push against your chest. The key is to recognize the half guard recovery early and immediately transition to an established passing sequence rather than continuing to force the mount."
+        "answer": "Immediately establish the passing base — trapped-leg-side underhook, crossface, and a wide free-leg post — then chain into a proven pass. From there the primary chain options are the knee slice pass using the angle you already have, the back step pass if they recover a strong knee shield, or the leg weave pass if they focus on the underhook battle. You can also threaten submissions like the darce choke if they over-commit to the underhook fight, or the kimura if they push against your chest. The key is to recognize the half guard recovery early and immediately transition to an established passing sequence rather than continuing to force the mount.",
+        "distractors": {
+          "plausible": [
+            "Immediately yank your trapped knee straight back out — retracting the leg before their lockdown sets is the fastest fix.",
+            "Sit back and attack a straight ankle lock on the trapped-leg side, since your leg is already entangled with theirs."
+          ],
+          "trap": [
+            "Reach back and dig at their locked ankles with your hand to pry the half guard open before they settle."
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that initiates the step-over, and how does improper hip positioning cause the transition to fail?",

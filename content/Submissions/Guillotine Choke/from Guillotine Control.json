@@ -355,28 +355,73 @@
       },
       {
         "question": "Your opponent begins driving forward aggressively from inside your guillotine bottom control—what adjustment prevents being stacked and passed?",
-        "answer": "Convert their forward pressure into a hip bump sweep by extending your hips upward and rolling them over your hip to mount while maintaining the guillotine grip throughout. Their committed forward drive provides the momentum for the sweep. If the sweep angle is not available, angle your hips away from their pressure direction and use butterfly hooks to redirect their weight laterally. Never fight their forward drive head-on from bottom—redirect it.",
-        "safety_critical": false
+        "answer": "Convert their forward drive into a hip bump sweep, extending your hips upward and rolling them over to mount while keeping the guillotine grip. Their committed forward drive provides the momentum for the sweep. If the sweep angle is not available, angle your hips away from their pressure direction and use butterfly hooks to redirect their weight laterally. Never fight their forward drive head-on from bottom—redirect it.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Release the guillotine and shrimp away to recover distance, then re-enter the choke once you have made space.",
+            "Post your free hand on their shoulder and scoot your hips straight back to keep them at range while you squeeze."
+          ],
+          "trap": [
+            "Squeeze the choke as hard as possible and arch straight back into their drive to finish before the stack lands."
+          ]
+        }
       },
       {
         "question": "What is the difference between a finishing squeeze and a controlling squeeze, and why does this distinction matter for submission success?",
-        "answer": "A controlling squeeze maintains position and prevents escape using moderate sustained pressure, while a finishing squeeze applies progressive, increasing compression targeting the carotid arteries. The distinction matters because applying finishing intensity too early causes rapid forearm fatigue—you can maintain a controlling squeeze for 60+ seconds but maximum finishing effort drains grip strength in 15-20 seconds. The correct approach is to use controlling pressure while optimizing position, then transition to finishing pressure only when angle, depth, and body positioning are fully optimized.",
-        "safety_critical": false
+        "answer": "A controlling squeeze holds position with moderate sustained pressure, while a finishing squeeze applies progressive, increasing carotid compression. The distinction matters because applying finishing intensity too early causes rapid forearm fatigue—you can maintain a controlling squeeze for 60+ seconds, but maximum finishing effort drains grip strength in 15-20 seconds. Use controlling pressure while optimizing position, then transition to finishing pressure only when angle, depth, and body positioning are fully optimized.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "A finishing squeeze is simply a controlling squeeze held for longer, until the opponent fatigues and taps.",
+            "A controlling squeeze targets the carotids while a finishing squeeze crushes the airway, so you switch targets to finish."
+          ],
+          "trap": [
+            "Apply maximum finishing pressure from the moment the grip locks so the opponent never gets a chance to settle and defend."
+          ]
+        }
       },
       {
         "question": "How do you recognize the opponent is approaching unconsciousness during the guillotine, and what is the correct response?",
-        "answer": "Signs of approaching unconsciousness include: sudden relaxation of defensive resistance, arms going limp, involuntary body twitching, gurgling or snoring sounds, and skin color changes particularly around the face and ears. The correct response is immediate release of all choking pressure and grip. Help the opponent to a seated or side-lying position, ensure their airway is clear, and monitor their recovery. In training, always err on the side of releasing too early. A training partner's safety is always more important than completing a submission.",
-        "safety_critical": true
+        "answer": "Sudden limpness, involuntary twitching, gurgling or snoring sounds, and facial color changes signal unconsciousness—release all pressure immediately. Other signs include a sudden relaxation of defensive resistance and skin color changes around the ears. After releasing all choking pressure and grip, help the opponent to a seated or side-lying position, ensure their airway is clear, and monitor their recovery. In training, always err on the side of releasing too early—a training partner's safety is always more important than completing a submission.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "When they go limp, ease down to a controlling squeeze and wait for the referee or partner to confirm before releasing.",
+            "Watch for frantic tapping or a verbal submission; until one occurs, maintain steady finishing pressure."
+          ],
+          "trap": [
+            "A limp opponent is often faking to bait a release, so tighten the squeeze until they visibly tap."
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make when the defender begins successfully peeling your hands apart?",
-        "answer": "When hand fighting threatens your grip, immediately switch to a more durable grip configuration—from palm-to-palm to gable grip if they are attacking finger separation, or from gable grip to a deep S-grip that wraps further around the wrist. Simultaneously, re-pin your elbows to your ribs to reduce the leverage they have for peeling. If grip integrity is compromised, consider transitioning to a positional advancement rather than fighting a losing grip battle, using whatever remaining control you have to advance to mount or side control.",
-        "safety_critical": false
+        "answer": "Switch to a more durable grip—palm-to-palm to gable, or gable to a deep S-grip—and re-pin your elbows to your ribs. The gable grip resists finger-separation attacks, while the deep S-grip wraps further around the wrist for durability, and pinned elbows reduce the leverage they have for peeling. If grip integrity is compromised, transition to a positional advancement rather than fighting a losing grip battle, using whatever remaining control you have to advance to mount or side control.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Interlace your fingers for the strongest possible lock the moment they start attacking your hands.",
+            "Flare your elbows wide to generate more squeezing power so their peeling fingers cannot overcome your pressure."
+          ],
+          "trap": [
+            "Let go with one hand to fight their peeling grip directly, then re-lock the choke once you win the hand fight."
+          ]
+        }
       },
       {
         "question": "Why is the Von Flue choke a critical threat to recognize when holding a guillotine from bottom, and what are the warning signs?",
-        "answer": "The Von Flue choke occurs when the top player drives their shoulder into the side of your neck while you maintain the guillotine grip, using your own arm as a compression point against yourself. Warning signs include: opponent passing to side control while you hold the guillotine, heavy shoulder pressure building on the side of your neck opposite the choking arm, and increasing pressure on your own carotid from the trapped arm. If you feel shoulder-to-neck pressure building, release the guillotine immediately, re-frame to create space, and recover guard before re-attacking.",
-        "safety_critical": true
+        "answer": "Holding the guillotine while the opponent passes to side control lets their shoulder drive into your neck, choking you with your own trapped arm. Warning signs include the opponent passing to side control while you keep the grip, heavy shoulder pressure building on the side of your neck opposite the choking arm, and increasing pressure on your own carotid from the trapped arm. If you feel shoulder-to-neck pressure building, release the guillotine immediately, re-frame to create space, and recover guard before re-attacking.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "If they pass to side control, keep the guillotine and bridge hard—your choke will finish before theirs takes effect.",
+            "The warning sign is neck pressure on the same side as your choking arm; pressure on the opposite side is safe to ignore."
+          ],
+          "trap": [
+            "Squeeze the guillotine tighter as their shoulder pressure builds—your grip is the only thing keeping their choke off you."
+          ]
+        }
       }
     ],
     "clips": [

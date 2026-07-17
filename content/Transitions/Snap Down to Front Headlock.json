@@ -278,7 +278,16 @@
       },
       {
         "question": "What immediate submission opportunities become available upon successfully establishing front headlock control?",
-        "answer": "Primary submission opportunities include: guillotine choke by using existing head control to secure choking grip, anaconda choke by transitioning grip to trap their arm against their neck, darce choke with opposite side grip configuration threading under the far arm, and various neck crank submissions. The specific submission selected depends on opponent's defensive reactions, their body positioning, and which grips were established during the snap down."
+        "answer": "Front headlock control immediately opens the guillotine, anaconda, and darce chokes, plus various neck cranks, depending on the opponent's reactions. The guillotine uses your existing head control to secure the choking grip, the anaconda transitions your grip to trap their arm against their neck, and the darce threads under the far arm with the opposite-side grip configuration. The specific submission selected depends on the opponent's defensive reactions, their body positioning, and which grips were established during the snap down.",
+        "distractors": {
+          "plausible": [
+            "Front headlock control primarily sets up the rear naked choke once you spin behind to take the back.",
+            "The main immediate attacks are the armbar and triangle, entered by pulling guard while holding the head."
+          ],
+          "trap": [
+            "Crank the opponent's neck straight down with both hands right away, before securing any arm or choking grip."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand to the mat after the snap - how do you adjust your attack?",
@@ -294,7 +303,16 @@
       },
       {
         "question": "What are the key differences in grip strategy between gi and no-gi snap down execution?",
-        "answer": "In no-gi, the primary grip is a cupping hand behind the skull or a collar tie with fingers interlocked behind the neck, relying on friction and hand positioning for security. In gi, you can establish a deep cross-collar grip or lapel grip behind the neck, which provides significantly more grip security and resistance to being stripped. The gi collar grip allows for sustained control and repeated snap attempts, while no-gi grips are more transient and require faster execution since the opponent can more easily shed the grip through sweat and head movement."
+        "answer": "No-gi snap downs rely on transient grips like cupping the skull or a collar tie, while gi collar and lapel grips give far more lasting security. In no-gi, the primary grip is a cupping hand behind the skull or a collar tie with fingers interlocked behind the neck, relying on friction and hand positioning for security. In gi, a deep cross-collar or lapel grip behind the neck resists being stripped and allows sustained control with repeated snap attempts, whereas no-gi grips demand faster execution since sweat and head movement let the opponent shed them more easily.",
+        "distractors": {
+          "plausible": [
+            "Gi and no-gi snap downs use identical grips, since the cupping hand behind the skull works equally well in both.",
+            "In gi you should avoid collar grips and keep the no-gi skull cup, because gripping cloth telegraphs the snap."
+          ],
+          "trap": [
+            "Since gi grips are so strong, hang your full weight from the collar and lean your chest into the opponent."
+          ]
+        }
       },
       {
         "question": "You successfully snap your opponent down but they immediately begin to stand back up before you consolidate front headlock - what went wrong and how do you fix it?",

@@ -287,7 +287,16 @@
       },
       {
         "question": "What is the primary mechanical difference between outside ashi entry and inside ashi entry?",
-        "answer": "Outside ashi entry positions you on the exterior side of the opponent's leg with your inside leg crossing their hip/back, while inside ashi entry places you between their legs. Outside entry is generally safer from counters but provides different submission angles, primarily favoring straight ankle locks and outside heel hooks. The entry pathway for outside ashi involves rotation to the outside rather than penetration between the legs, making it less vulnerable to sprawls and guillotines but requiring more precise rotation mechanics."
+        "answer": "Outside ashi entry positions you on the exterior side of the opponent's leg, while inside ashi entry places you between their legs. In outside ashi your inside leg crosses their hip/back, and the position is generally safer from counters while offering different submission angles, primarily favoring straight ankle locks and outside heel hooks. The entry pathway involves rotation to the outside rather than penetration between the legs, making it less vulnerable to sprawls and guillotines but requiring more precise rotation mechanics.",
+        "distractors": {
+          "plausible": [
+            "Outside ashi entry places you between the opponent's legs, while inside ashi keeps you on the exterior side of their leg.",
+            "The two entries put your body in the same place relative to their legs; the only real difference is which hand grips the ankle."
+          ],
+          "trap": [
+            "Outside ashi is entered by penetrating head-first between the opponent's legs, driving your chest forward through their guard."
+          ]
+        }
       },
       {
         "question": "How should you respond if the opponent successfully sprawls heavily as you initiate the level change?",
@@ -295,7 +304,16 @@
       },
       {
         "question": "Why is timing the entry to coincide with the opponent's forward step or weight shift important?",
-        "answer": "Timing the entry with opponent's movement serves multiple purposes: it reduces their ability to defend by catching them mid-motion when base is compromised, it uses their forward momentum to assist your entry rather than fighting against static resistance, and it disguises your entry within the natural flow of movement making it harder to anticipate. Attempting the entry against a static, balanced opponent results in maximum resistance and low success rates, whereas timing it with their movement can increase success rates by 30-40%."
+        "answer": "Entering as the opponent steps or shifts weight catches them mid-motion with a compromised base, sharply reducing their ability to defend. It also uses their forward momentum to assist your entry rather than fighting static resistance, and it disguises the entry within the natural flow of movement so it is harder to anticipate. Attempting the entry against a static, balanced opponent results in maximum resistance and low success rates, whereas timing it with their movement can increase success rates by 30-40%.",
+        "distractors": {
+          "plausible": [
+            "Timing the entry with their step matters mainly because a moving opponent tires faster, so any moment in a scramble works equally well.",
+            "Entering on their forward step is important chiefly because it gives you extra time to slowly and carefully complete the rotation."
+          ],
+          "trap": [
+            "You should wait until the opponent is completely static and balanced, since a stable base gives you the most controlled entry."
+          ]
+        }
       },
       {
         "question": "What should be your immediate priority if the opponent steps over with their free leg during your entry?",
@@ -303,7 +321,16 @@
       },
       {
         "question": "Describe the optimal leg configuration in the final outside ashi position and explain the function of each leg?",
-        "answer": "In outside ashi, your inside leg (closest to opponent's centerline) should cross over their hip or lower back with the knee and shin creating a barrier, while your outside leg hooks over their trapped leg at the knee or upper shin with the foot actively pulling their knee toward you. The inside leg's function is to prevent them from rotating away or creating distance, essentially anchoring their hip. The outside leg's function is to control and elevate their knee, creating tension in the entanglement and facilitating submission entries. Together, these legs form a figure-four configuration that immobilizes their leg while positioning your hips for submission attacks."
+        "answer": "Your inside leg crosses over their hip or lower back to anchor it, while your outside leg hooks over their trapped leg at the knee to control and elevate it. The inside leg's knee and shin create a barrier that prevents them from rotating away or creating distance, essentially anchoring their hip. The outside leg hooks at the knee or upper shin with the foot actively pulling their knee toward you, creating tension in the entanglement and facilitating submission entries. Together, these legs form a figure-four configuration that immobilizes their leg while positioning your hips for submission attacks.",
+        "distractors": {
+          "plausible": [
+            "Your outside leg crosses over their hip to anchor it, while your inside leg hooks their trapped knee and pulls it toward you.",
+            "Both legs should hook together over the trapped knee, doubling your pulling power on the leg you intend to attack."
+          ],
+          "trap": [
+            "Cross your ankles tightly over the opponent's hip and squeeze, since crossed feet give the most secure lock on the entanglement."
+          ]
+        }
       },
       {
         "question": "What grip configuration should you establish on the opponent's leg during the initial setup, and why does grip height matter?",

@@ -306,7 +306,16 @@
       },
       {
         "question": "What are the essential grips and controls for maintaining top position against an active butterfly half guard player?",
-        "answer": "The primary controls are crossface with your shoulder driving into their face/jaw to turn their head away, and either an overhook or underhook on the butterfly side to limit their upper body movement. Secondary controls include controlling their far hip with your hand to prevent them from creating angles, and keeping your trapped leg's knee pinned to the mat to prevent easy elevation."
+        "answer": "The primary controls are a crossface driving your shoulder into their jaw plus an underhook or overhook on the butterfly side. The crossface turns their head away to kill their ability to face you, while the overhook or underhook limits their upper body movement on the hook side. Secondary controls include controlling their far hip with your hand to prevent them from creating angles, and keeping your trapped leg's knee pinned to the mat to prevent easy elevation.",
+        "distractors": {
+          "plausible": [
+            "The primary control is a tight double-underhook body lock around their waist to flatten them before addressing the head.",
+            "Focus first on stripping their grips with two-on-one wrist control; shoulder pressure only matters once their hands are neutralized."
+          ],
+          "trap": [
+            "Stay upright and post both hands on their chest, driving straight down to pin their hips flat to the mat."
+          ]
+        }
       },
       {
         "question": "Your opponent attempts the old school sweep by securing an underhook and driving into you - what immediate adjustment prevents being swept?",
@@ -770,7 +779,16 @@
   "flashcards_position": [
     {
       "question": "What configuration of the legs defines Butterfly Half Guard and distinguishes it from standard half guard?",
-      "answer": "Butterfly Half Guard traps one of the top player's legs between the bottom player's thighs in a standard half guard lock, while the bottom player simultaneously inserts a butterfly hook under the top player's free leg. The half guard trap prevents the top player from disengaging or creating passing distance, while the butterfly hook adds an elevation vector absent from ordinary half guard. This produces an asymmetric entanglement where one leg is controlled through the flat squeeze of half guard and the other through the lifting mechanic of a butterfly hook. The combination of a stationary anchor and an active lifting leg is what makes the position a distinct hybrid rather than either parent guard alone."
+      "answer": "One of the top player's legs is trapped in a half guard lock while a butterfly hook is inserted under their free leg. The half guard trap prevents the top player from disengaging or creating passing distance, while the butterfly hook adds an elevation vector absent from ordinary half guard. This produces an asymmetric entanglement where one leg is controlled through the flat squeeze of half guard and the other through the lifting mechanic of a butterfly hook. The combination of a stationary anchor and an active lifting leg is what makes the position a distinct hybrid rather than either parent guard alone.",
+      "distractors": {
+        "plausible": [
+          "The butterfly hook is inserted under the same leg that is trapped in the half guard lock, doubling the control on one side.",
+          "Both of the top player's legs are held by butterfly hooks, with the half guard element coming from angling the knees to one side."
+        ],
+        "trap": [
+          "The bottom player crosses their ankles high around the trapped leg and lies flat on their back to anchor the top player in place."
+        ]
+      }
     },
     {
       "question": "Why does the asymmetric leg entanglement in Butterfly Half Guard create a base dilemma for the top player?",

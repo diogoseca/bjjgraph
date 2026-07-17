@@ -270,15 +270,42 @@
       },
       {
         "question": "Explain the relationship between hip height and control during the anaconda setup, and why this matters for preventing common escapes?",
-        "answer": "Keeping your hips lower than your opponent's hips throughout the setup is essential for maintaining top pressure and preventing them from rolling through or securing leg attacks. High hips elevate your center of gravity, making you top-heavy and easier to roll or sweep. Low hips create downward pressure that pins the opponent and makes it very difficult for them to generate the momentum needed for escape attempts. The low hip position also protects against single leg attacks since your legs are positioned defensively rather than extended and vulnerable."
+        "answer": "Keeping your hips lower than your opponent's throughout the setup maintains top pressure and prevents rolls and leg attacks. High hips elevate your center of gravity, making you top-heavy and easier to roll or sweep. Low hips create downward pressure that pins the opponent and makes it very difficult for them to generate the momentum needed for escape attempts. The low hip position also protects against single leg attacks since your legs are positioned defensively rather than extended and vulnerable.",
+        "distractors": {
+          "plausible": [
+            "Raising your hips above the opponent's back maximizes pressure by letting you drive your full body weight down through the chest.",
+            "Hip height only matters during the finishing squeeze; during the setup itself the hips should stay high for mobility."
+          ],
+          "trap": [
+            "Drive your hips up and over their back to load all your weight onto them, since greater height means greater pressure."
+          ]
+        }
       },
       {
         "question": "When should you consider switching from an anaconda setup to a Darce setup, and what is the primary indicator that triggers this decision?",
-        "answer": "You should switch to a Darce setup when the opponent successfully tucks their near arm very tight to their body, making it impossible to trap that arm for the anaconda. The primary indicator is that when you attempt to thread your arm from the near side, you cannot get deep enough because their arm is glued to their ribs. In this scenario, switching to the Darce (threading from the far side to trap their far arm instead) becomes the higher percentage option. Advanced practitioners flow between both setups based on which arm the opponent exposes."
+        "answer": "Switch to the Darce when the opponent tucks their near arm tight to their body, making it impossible to trap for the anaconda. The primary indicator is that when you attempt to thread your arm from the near side, you cannot get deep enough because their arm is glued to their ribs. In this scenario, switching to the Darce (threading from the far side to trap their far arm instead) becomes the higher percentage option. Advanced practitioners flow between both setups based on which arm the opponent exposes.",
+        "distractors": {
+          "plausible": [
+            "Switch to the Darce when the opponent tucks their far arm tight to their body, since the anaconda depends on trapping the far arm.",
+            "Switch to the Darce whenever the opponent begins to sit through, because the anaconda only works against a flat, static turtle."
+          ],
+          "trap": [
+            "Keep forcing the anaconda thread even when the near arm is glued to their ribs, because persistent digging always pries the arm free."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin threading - what adjustment should you make to complete the setup?",
-        "answer": "When the opponent posts their far hand, drive more shoulder pressure into their head to collapse their posture and force them to carry your weight rather than posting effectively. Simultaneously, accelerate your arm threading to beat their defensive reaction. If the post is strong, use your free hand to control their posting wrist while continuing to thread, or walk your hips toward their head to increase the angle of pressure and make their post ineffective."
+        "answer": "Drive more shoulder pressure into their head to collapse their posture while accelerating your arm thread to beat their reaction. Forcing them to carry your weight prevents them from posting effectively. If the post is strong, use your free hand to control their posting wrist while continuing to thread, or walk your hips toward their head to increase the angle of pressure and make their post ineffective.",
+        "distractors": {
+          "plausible": [
+            "Pause your threading and fully reset the front headlock grip first, then restart the setup once their post disappears.",
+            "Walk your hips back toward their legs to lower your base and widen your sprawl before continuing to thread the arm."
+          ],
+          "trap": [
+            "Release the head control and grab their posting wrist with both hands to strip the post before re-entering the headlock."
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the transition from front headlock to secured anaconda grip?",
@@ -294,7 +321,16 @@
       },
       {
         "question": "What are the entry requirements that must exist before you can successfully attempt the anaconda setup from turtle?",
-        "answer": "Four conditions must exist: 1) You must have front headlock control with at least one hand securing their head, 2) Their near-side arm must be accessible and not completely tucked to their body, 3) Your body position must be perpendicular or angled to their spine with chest pressure on their upper back, and 4) Your hips must be lower than theirs to maintain downward pressure. Missing any of these requirements significantly reduces success probability."
+        "answer": "You need front headlock control, an accessible near arm, angled chest pressure on their upper back, and hips lower than theirs. Specifically: 1) At least one hand must be securing their head in front headlock, 2) Their near-side arm must not be completely tucked to their body, 3) Your body must be perpendicular or angled to their spine with chest pressure on their upper back, and 4) Your hips must stay lower than theirs to maintain downward pressure. Missing any of these requirements significantly reduces success probability.",
+        "distractors": {
+          "plausible": [
+            "You need front headlock control, an exposed far arm, chest pressure on their upper back, and hips lower than theirs.",
+            "You need front headlock control, an accessible near arm, chest pressure, and hips higher than theirs to drive weight down."
+          ],
+          "trap": [
+            "The only true requirement is a deep chin-strap grip; arm access and hip position sort themselves out once you start threading."
+          ]
+        }
       },
       {
         "question": "If your anaconda setup is blocked and the opponent successfully tucks their arm, what chain attack should you transition to?",

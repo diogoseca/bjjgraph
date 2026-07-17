@@ -278,13 +278,31 @@
     "flashcards": [
       {
         "question": "What anatomical structures does the toe hold primarily attack?",
-        "answer": "The toe hold attacks the lateral and medial ankle ligaments through rotational torque, the Lisfranc joint (midfoot articulation) through torsional stress, the plantar fascia, and the surrounding connective tissue of the foot and ankle complex. The medial rotation creates shearing force across multiple joint surfaces simultaneously.",
-        "safety_critical": false
+        "answer": "The toe hold primarily attacks the lateral and medial ankle ligaments and the Lisfranc joint of the midfoot through rotational torque. It also stresses the plantar fascia and the surrounding connective tissue of the foot and ankle complex through torsional load. The medial rotation creates shearing force across multiple joint surfaces simultaneously.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The toe hold primarily attacks the Achilles tendon by compressing it against the attacker's forearm.",
+            "The toe hold primarily attacks the ACL and MCL of the knee through rotational torque on the lower leg."
+          ],
+          "trap": [
+            "The toe hold only tweaks the small joints of the toes, so it is a pain move you can safely grip-fight out of."
+          ]
+        }
       },
       {
         "question": "What is the correct grip configuration for the toe hold from Ashi Garami?",
-        "answer": "A kimura-style figure-four grip where the primary hand cups across the toes and ball of foot with the palm against the sole and fingers hooking over the metatarsals. The reinforcing hand threads under the ankle and grips the primary hand's wrist, creating a double-lock structure that generates rotational leverage through the ankle joint.",
-        "safety_critical": false
+        "answer": "The grip is a kimura-style figure-four: one hand cups the toes and ball of the foot, the other threads under the ankle to grip that wrist. The primary hand's palm sits against the sole with the fingers hooking over the metatarsals. This double-lock structure generates rotational leverage through the ankle joint.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Clasp both hands around the heel in a gable grip and twist the foot medially to generate the rotation.",
+            "Stack both palms over the toes and crank the foot straight downward toward the shin to load the ankle."
+          ],
+          "trap": [
+            "Lace your fingers between the opponent's individual toes for maximum control before starting the rotation."
+          ]
+        }
       },
       {
         "question": "Your opponent begins retracting their foot as you reach for the cup grip - what do you do?",
@@ -308,13 +326,31 @@
       },
       {
         "question": "What distinguishes a high-percentage toe hold attempt from a low-percentage one from Ashi Garami top?",
-        "answer": "A high-percentage attempt has three elements present simultaneously: the opponent's foot is genuinely exposed and accessible, your knee line control is established with the knee bent at approximately 90 degrees, and your base remains stable enough to maintain the position through the finishing sequence. Missing any one of these three elements drops the success rate dramatically.",
-        "safety_critical": false
+        "answer": "A high-percentage attempt has three elements at once: genuine foot exposure, knee-line control with the knee bent near 90 degrees, and stable base. The base must remain stable enough to maintain the position through the entire finishing sequence. Missing any one of these three elements drops the success rate dramatically.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "A high-percentage attempt depends mainly on grip strength; a strong enough figure-four makes foot exposure a minor detail.",
+            "A high-percentage attempt is defined by speed, since snatching the grip before the foot hides matters more than knee control."
+          ],
+          "trap": [
+            "Abandon your base and dive onto the foot the instant you see it, because momentum finishes toe holds before control does."
+          ]
+        }
       },
       {
         "question": "What is the point of no return for the defender once the toe hold is properly applied?",
-        "answer": "Once the figure-four grip is locked with correct wrist-to-wrist connection, the knee line is pinched at 90 degrees between the attacker's thighs, and medial rotation has begun loading the lateral ankle ligaments, the defender has very limited escape options. At this point, the defender should strongly consider tapping rather than fighting a fully locked submission to avoid ligament damage.",
-        "safety_critical": true
+        "answer": "The point of no return is when the figure-four is locked, the knee line is pinched at 90 degrees, and medial rotation begins loading the ankle. With correct wrist-to-wrist connection and the lateral ankle ligaments already under load, the defender has very limited escape options. At this point, the defender should strongly consider tapping rather than fighting a fully locked submission to avoid ligament damage.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "The point of no return is the moment the attacker's first hand touches the toes, before the figure-four is even completed.",
+            "The point of no return arrives only after the foot has been rotated well past 90 degrees of medial rotation."
+          ],
+          "trap": [
+            "Toe holds rarely cause real injury, so the defender should keep fighting the grips even after the lock is fully set and rotating."
+          ]
+        }
       },
       {
         "question": "Your opponent rolls toward you to relieve rotational pressure during the finish - what adjustment prevents escape?",

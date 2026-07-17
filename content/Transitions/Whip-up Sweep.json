@@ -229,11 +229,29 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Whip-up Sweep from lockdown?",
-        "answer": "The primary goal is to use the lockdown leg entanglement combined with an underhook to generate upward momentum that brings the bottom player from flat on their back to the dogfight position or directly to a top position. The sweep exploits the opponent's forward pressure commitment to reverse the positional hierarchy, transitioning from a defensive half guard scenario to a neutral or dominant position."
+        "answer": "The primary goal is to use the lockdown and underhook to whip up from flat on your back to the dogfight or a top position. The sweep generates upward momentum by exploiting the opponent's forward pressure commitment, reversing the positional hierarchy from a defensive half guard scenario to a neutral or dominant position.",
+        "distractors": {
+          "plausible": [
+            "The primary goal is to extend the lockdown to stretch the opponent flat so you can recover full guard from underneath.",
+            "The primary goal is to elevate the opponent overhead with the lockdown and dump them straight over your head for the reversal."
+          ],
+          "trap": [
+            "The primary goal is to release the lockdown and turn away to your knees to stand up before the opponent settles their weight."
+          ]
+        }
       },
       {
         "question": "Your opponent is sitting back with their weight on their heels while you have lockdown established - should you attempt the whip-up?",
-        "answer": "No. The whip-up requires forward pressure from the opponent to be effective because the sweep works by exploiting their forward weight commitment. When the opponent sits back, the correct attack is the Old School sweep or Electric Chair entry, both of which exploit rearward weight distribution. This forward/backward dilemma is the core of the lockdown offensive system - defending one attack opens the other."
+        "answer": "No - the whip-up needs the opponent's forward pressure, so against rearward weight you attack Old School or Electric Chair instead. The sweep works by exploiting their forward weight commitment, while those two attacks exploit rearward weight distribution. This forward/backward dilemma is the core of the lockdown offensive system - defending one attack opens the other.",
+        "distractors": {
+          "plausible": [
+            "Yes - with their weight on their heels the opponent is lighter, so the whip-up elevation is actually easier to complete.",
+            "No - switch to the Electric Chair only, since the Old School sweep also requires the opponent's forward pressure to work."
+          ],
+          "trap": [
+            "Yes - release the lockdown and bridge hard into them to force their weight forward before whipping up."
+          ]
+        }
       },
       {
         "question": "What is the most critical grip required before initiating the whip-up sweep?",
@@ -249,15 +267,42 @@
       },
       {
         "question": "Why is it important to maintain the lockdown throughout the entire whip-up motion rather than releasing it early?",
-        "answer": "The lockdown serves dual purposes during the sweep: it provides the off-balancing force through extension, and it prevents the opponent from recovering their trapped leg and re-establishing a passing position. Releasing early allows the opponent to free their leg, step wide, and re-base, which nullifies the sweep entirely. Only release after reaching dogfight or when committing to a back take where you no longer need the leg control."
+        "answer": "Keeping the lockdown both powers the off-balancing extension and stops the opponent from freeing their trapped leg to re-base and pass. Releasing early lets the opponent free the leg, step wide, and re-establish a passing position, which nullifies the sweep entirely. Only release after reaching dogfight or when committing to a back take where you no longer need the leg control.",
+        "distractors": {
+          "plausible": [
+            "You maintain the lockdown mainly so you can fall back safely into half guard if the sweep attempt fails partway through.",
+            "The lockdown only matters for the initial extension; once you start rising, the underhook does all the work of the sweep."
+          ],
+          "trap": [
+            "Release the lockdown as soon as you begin elevating so your legs are free to build up to your feet faster."
+          ]
+        }
       },
       {
         "question": "What common failure point causes the whip-up to stall at the elbow or hand post position?",
-        "answer": "Stalling typically occurs when the practitioner treats the elevation as separate stages rather than one continuous motion, pausing to assess the situation at each level. This gives the opponent time to adjust their base and drive you back down. The other major cause is initiating the upper body drive without first extending the lockdown, meaning the opponent's base is still intact and they can resist the upward force. The sweep must be one explosive coordinated motion from flat to knees."
+        "answer": "Stalling comes from treating the elevation as separate stages and pausing to assess at each level instead of one continuous motion. Those pauses give the opponent time to adjust their base and drive you back down. The other major cause is initiating the upper body drive without first extending the lockdown, so the opponent's base is still intact and they can resist the upward force. The sweep must be one explosive coordinated motion from flat to knees.",
+        "distractors": {
+          "plausible": [
+            "Stalling comes from extending the lockdown too early, before your upper body is in position to drive upward.",
+            "Stalling happens because the underhook is too deep, tying up the same arm you need to post on during the elevation."
+          ],
+          "trap": [
+            "Fix a stall by holding the elbow post and waiting for the opponent to commit their weight before continuing upward."
+          ]
+        }
       },
       {
         "question": "If the whip-up sweep is blocked and you end up in dogfight, what chain attacks are available?",
-        "answer": "From dogfight, the primary chain attacks are: circling behind for a back take using your underhook advantage, transitioning to a single leg by dropping to their far leg, re-pulling to lockdown if they drive back into you, or transitioning to a front headlock if they lower their level. The dogfight position favors the player who initiated the scramble because they have momentum and typically have the superior underhook position from the whip-up setup."
+        "answer": "From dogfight you can circle behind for the back take, drop to a single leg, re-pull to lockdown, or take a front headlock. The back take uses your underhook advantage, the single leg attacks their far leg, the lockdown re-pull answers them driving back into you, and the front headlock punishes them lowering their level. Dogfight favors the player who initiated the scramble because they carry the momentum and typically the superior underhook from the whip-up setup.",
+        "distractors": {
+          "plausible": [
+            "From dogfight you should first re-pull lockdown to reset, chaining other attacks only after regaining half guard.",
+            "From dogfight, drive straight forward into a double leg since both of the opponent's legs are within your reach."
+          ],
+          "trap": [
+            "In dogfight, trade your underhook for a whizzer so you can protect your neck while building up to your feet."
+          ]
+        }
       },
       {
         "question": "How does the whip-up sweep create a dilemma when paired with the Old School sweep?",
@@ -269,7 +314,16 @@
       },
       {
         "question": "Your opponent begins extracting their trapped leg mid-sweep by straightening and pulling backward - what is your immediate response?",
-        "answer": "If the lockdown breaks mid-sweep while you are already elevated, abandon the lockdown re-establishment and immediately transition to whatever position your elevation has achieved. If you are at elbow or hand level, switch to a traditional underhook half guard sweep or insert a butterfly hook with your now-free inside leg to attempt a butterfly sweep. Trying to re-lock the lockdown while partially elevated wastes the momentum you have already generated and puts you in a vulnerable half-committed position."
+        "answer": "Abandon re-locking the lockdown and immediately convert your elevation into an underhook half guard sweep or a butterfly hook sweep. If you are at elbow or hand level, switch to the traditional underhook half guard sweep or insert a butterfly hook with your now-free inside leg. Trying to re-lock the lockdown while partially elevated wastes the momentum you have already generated and leaves you in a vulnerable half-committed position.",
+        "distractors": {
+          "plausible": [
+            "Chase their retreating leg with your feet to re-establish the lockdown before continuing the whip-up motion.",
+            "Drop flat back to your hip and reset a standard half guard so you can rebuild the whip-up from the beginning."
+          ],
+          "trap": [
+            "Let go of the underhook and reach down for their far ankle so the escaping leg cannot fully clear your guard."
+          ]
+        }
       },
       {
         "question": "What role does head position play throughout the whip-up sweep execution?",

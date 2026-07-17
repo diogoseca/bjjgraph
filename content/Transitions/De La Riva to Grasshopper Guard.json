@@ -356,11 +356,29 @@
       },
       {
         "question": "What opportunity does the bottom player's committed inversion create for you?",
-        "answer": "A back take. As they granby-roll under your base, their back turns toward you and their spine is momentarily exposed. Rather than fighting the leg entanglement they are building, ride their rotation and chase an inside hook with chest connection, converting their committed inversion into back control."
+        "answer": "Their committed granby-roll turns their spine toward you, letting you ride the rotation into a back take. As they invert under your base their back is momentarily exposed, so rather than fighting the leg entanglement they are building, ride their rotation and chase an inside hook with chest connection, converting their committed inversion into back control.",
+        "distractors": {
+          "plausible": [
+            "The inversion mainly exposes their legs, so the best reaction is to sit back and counter with your own leg attack.",
+            "Their roll briefly opens the neck, so the priority is diving on a front headlock before the rotation finishes."
+          ],
+          "trap": [
+            "Pin their rolling legs by driving your weight straight down onto them, smashing the inversion flat before it completes."
+          ]
+        }
       },
       {
         "question": "How can driving forward to flatten the inversion backfire, and how do you do it safely?",
-        "answer": "Driving forward heavily feeds your weight toward their legs, and if mistimed they redirect that pressure into an elevation sweep or inside ashi entry rather than being flattened. Do it safely by stacking and stepping over only when you can beat their hips to the elevation - early, before the Grasshopper platform forms - while keeping your free leg clear of their threading legs."
+        "answer": "Driving forward feeds your weight into their legs, so flatten the inversion only early, before the Grasshopper platform forms. If mistimed, they redirect that forward pressure into an elevation sweep or an inside ashi entry rather than being flattened. Do it safely by stacking and stepping over only when you can beat their hips to the elevation, while keeping your free leg clear of their threading legs.",
+        "distractors": {
+          "plausible": [
+            "Stacking makes the forward drive safe at any moment, so you can still flatten them after the platform forms.",
+            "Drive forward with your knees pinched to their hips first, and worry about clearing your free leg once they are flat."
+          ],
+          "trap": [
+            "Meet the inversion by dropping all your weight straight down into their legs, since heavy pressure always kills elevation."
+          ]
+        }
       }
     ],
     "training_progressions": [

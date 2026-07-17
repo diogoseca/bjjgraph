@@ -219,7 +219,16 @@
       },
       {
         "question": "What position do you start the Ankle Lock Finish from and what conditions must exist?",
-        "answer": "This technique starts from Ushiro Ashi-Garami top position, which occurs when you've maintained leg entanglement after your opponent inverted to escape a standard ashi-garami. You must have a figure-four leg configuration with your outside leg crossing over their trapped knee, and their heel must be accessible for grip establishment."
+        "answer": "The Ankle Lock Finish starts from Ushiro Ashi-Garami top position with a figure-four leg configuration and the opponent's heel accessible. This position occurs when you've maintained leg entanglement after your opponent inverted to escape a standard ashi-garami. Your outside leg must cross over their trapped knee to complete the figure-four, and their heel must be exposed enough to establish your finishing grip.",
+        "distractors": {
+          "plausible": [
+            "It starts from standard Ashi-Garami before the opponent inverts, since inversion breaks your entanglement and forces a reset.",
+            "It starts from Ushiro Ashi-Garami with your outside leg hooked under their far hip, so long as you can reach the toes."
+          ],
+          "trap": [
+            "Release the leg entanglement as they invert and chase the heel with grips alone, since the ankle lock only needs hand control."
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for the Ankle Lock Finish?",
@@ -231,7 +240,16 @@
       },
       {
         "question": "What breaking mechanics generate effective pressure for the finish?",
-        "answer": "Effective breaking mechanics require coordinated full-body movement: arch your back strongly while pulling the heel tight to your chest, simultaneously extend your hips upward to generate downward pressure on the ankle, and dorsiflex the ankle by driving toes toward the shin. The finish comes from hip extension and back arch working together, not arm strength alone."
+        "answer": "The break comes from arching your back and extending your hips while pulling the heel tight to your chest — not from arm strength alone. Coordinate the full body: arch strongly as you pull the heel to your chest, extend your hips upward to drive downward pressure into the ankle, and dorsiflex the joint by driving their toes toward their shin. Hip extension and back arch working together produce the finishing force.",
+        "distractors": {
+          "plausible": [
+            "Curl your arms hard to crank the ankle first, adding hip extension only as a backup if arm pressure alone stalls out.",
+            "Arch your back while plantarflexing the ankle, pointing their toes away from the shin as you pull the heel to your chest."
+          ],
+          "trap": [
+            "Sit up toward the opponent and lean your weight forward over the trapped ankle to stack breaking pressure onto the joint."
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to secure your grip for the finish?",
@@ -247,7 +265,16 @@
       },
       {
         "question": "What indicates that you should transition to a different attack rather than continuing the ankle lock attempt?",
-        "answer": "Transition when: the opponent has successfully stripped your grip and their hands are now defending the ankle, their hip rotation has progressed to the point where your leg control is compromised, more than 5 seconds have passed without submission imminent, or their defensive position exposes a higher-percentage attack like the heel hook."
+        "answer": "Transition when your grip is stripped, their hip rotation compromises your leg control, or about five seconds pass without an imminent finish. Specifically: the opponent has stripped your grip and their hands now defend the ankle, their hip rotation has progressed far enough to compromise your leg control, more than 5 seconds have passed without the submission being imminent, or their defensive position exposes a higher-percentage attack like the heel hook.",
+        "distractors": {
+          "plausible": [
+            "Switch attacks the moment their hands touch your grip, before any actual stripping occurs, to stay a step ahead.",
+            "Transition only once the opponent fully clears their leg from your entanglement, since stripped grips can always be rebuilt."
+          ],
+          "trap": [
+            "Never abandon the ankle lock once committed — squeezing harder through their grip fighting always beats switching attacks."
+          ]
+        }
       },
       {
         "question": "Why is the Ankle Lock Finish valuable even in rulesets where heel hooks are available?",

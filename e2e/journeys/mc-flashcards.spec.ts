@@ -228,10 +228,18 @@ test("graded tiers: plausible = no credit + close feedback, trap = stage penalty
   await page.evaluate((dk) => {
     const a = (window as any).__neural
     for (const card of a.flashcards.decks[dk].cards) {
-      if (a.mcClip(card.a)) {
+      const clip = a.mcClip(card.a)
+      if (clip) {
+        // tier strings must sit inside the 0.4–2.5 length-ratio guard vs THIS card's
+        // clipped answer (post-regen answers are long; fixed short strings get rejected)
+        const stretch = (seed: string) => {
+          let s = seed
+          while (s.length < Math.max(40, Math.round(clip.length * 0.7))) s += " even when the position feels stable"
+          return s.slice(0, 158) + "."
+        }
         card.distractors = {
-          plausible: ["A nearly-right option that a beginner would believe."],
-          trap: ["A dangerous misconception that gets you stacked and passed."],
+          plausible: [stretch("A nearly-right option that a well-meaning beginner would believe")],
+          trap: [stretch("A dangerous misconception that gets you stacked and passed")],
         }
         break
       }

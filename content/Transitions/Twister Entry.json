@@ -243,7 +243,16 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Twister entry from Cross Body Ride?",
-        "answer": "The primary goal is to convert the perpendicular turtle-top control of cross body ride into Twister Control by establishing a figure-four leg entanglement around the opponent's hips and near-side thigh. This creates the platform for high-percentage submissions including the Twister, Calf Slicer, and Banana Split. The entry transitions from a positional control with multiple options to a specialized leg entanglement system with focused submission threats."
+        "answer": "The primary goal is to convert cross body ride into Twister Control by locking a figure-four leg entanglement around the opponent's hips and near-side thigh. This converts the perpendicular turtle-top control into a platform for high-percentage submissions including the Twister, Calf Slicer, and Banana Split. The entry transitions from a positional control with multiple options to a specialized leg entanglement system with focused submission threats.",
+        "distractors": {
+          "plausible": [
+            "The primary goal is to flatten the opponent out of turtle and secure standard back control with both hooks and a seatbelt.",
+            "The primary goal is to isolate the opponent's near-side arm for a crucifix before threatening any leg entanglement."
+          ],
+          "trap": [
+            "The primary goal is to jump straight into the Twister crank itself, applying the spinal lock before any leg entanglement is secured."
+          ]
+        }
       },
       {
         "question": "Your opponent clamps their knees together as you attempt to thread the initial hook — how do you create the opening?",
@@ -267,19 +276,55 @@
       },
       {
         "question": "What grip configuration do you need to maintain during the hook threading, and when can you adjust it?",
-        "answer": "Maintain the seatbelt grip (one arm over the shoulder, one arm under the armpit, hands clasped on the chest) throughout the entire hook threading and figure-four completion. The seatbelt anchors your upper body to the opponent's back, preventing them from turning in or creating separation during the vulnerable transition phase. Only release or adjust the seatbelt after the figure-four is completely locked and you have verified that the opponent's hips are immobilized. Releasing the seatbelt prematurely is the single most common cause of failed Twister entries."
+        "answer": "Maintain the seatbelt grip throughout hook threading and the figure-four, releasing it only after the figure-four is fully locked and the hips are immobilized. The seatbelt (one arm over the shoulder, one arm under the armpit, hands clasped on the chest) anchors your upper body to the opponent's back, preventing them from turning in or creating separation during the vulnerable transition phase. Only release or adjust it after you have verified that the opponent's hips are immobilized by the completed figure-four. Releasing the seatbelt prematurely is the single most common cause of failed Twister entries.",
+        "distractors": {
+          "plausible": [
+            "Maintain a two-on-one grip on the near wrist during threading, then switch to the seatbelt once the figure-four is locked.",
+            "Maintain the seatbelt only until your hook is threaded, since the legs take over control once the hook is in place."
+          ],
+          "trap": [
+            "Release the seatbelt as you thread the hook so both hands are free to post on the mat and drive your hips deeper."
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between the hook threading phase and the figure-four completion phase?",
-        "answer": "During hook threading, the primary force is forward and downward — driving your hips into the opponent's back to deepen the hook while your chest pins them flat. During figure-four completion, the force shifts to lateral and circular — your top leg swings over the opponent's body from one side while your bottom hook anchors from the other, creating pinching forces that converge on the opponent's hips. The figure-four pinch is created by opposed vertical forces: top leg drives down while bottom hook pulls up. Understanding this directional shift is critical for smooth transitions between phases."
+        "answer": "The force shifts from forward-and-downward pressure during hook threading to lateral, circular pinching forces during figure-four completion. During hook threading, you drive your hips into the opponent's back to deepen the hook while your chest pins them flat. During figure-four completion, your top leg swings over the opponent's body from one side while your bottom hook anchors from the other, creating pinching forces that converge on the opponent's hips. The figure-four pinch itself is created by opposed vertical forces: top leg drives down while bottom hook pulls up. Understanding this directional shift is critical for smooth transitions between phases.",
+        "distractors": {
+          "plausible": [
+            "The force shifts from lateral circular swinging during threading to forward-and-downward hip drive as the figure-four completes.",
+            "Both phases use the same forward-and-downward pressure, with the figure-four simply adding more of your body weight."
+          ],
+          "trap": [
+            "Pull upward and backward through both phases to lift the opponent's hips off the mat and create space to insert your legs."
+          ]
+        }
       },
       {
         "question": "If the opponent successfully defends the Twister entry and you cannot complete the figure-four, what chain attacks remain available from cross body ride?",
-        "answer": "From cross body ride with a failed Twister attempt, you can immediately threaten: back take by walking your hooks toward standard seatbelt back control with double under-hooks, crucifix entry by isolating the near-side arm when they post to defend, crab ride transition by establishing hooks on their hips for an alternative back attack angle, or direct choke threats such as the bow and arrow or clock choke if collar grips are available. The key is not stalling after a failed attempt — immediately switch to the next highest-percentage attack based on the opponent's current defensive posture."
+        "answer": "After a failed Twister entry, chain immediately to the back take, crucifix, crab ride, or direct choke threats still available from cross body ride. Specifically: back take by walking your hooks toward standard seatbelt back control with double under-hooks, crucifix entry by isolating the near-side arm when they post to defend, crab ride transition by establishing hooks on their hips for an alternative back attack angle, or chokes such as the bow and arrow or clock choke if collar grips are available. The key is not stalling after a failed attempt — immediately switch to the next highest-percentage attack based on the opponent's current defensive posture.",
+        "distractors": {
+          "plausible": [
+            "After a failed entry, reset to a strong cross body ride and wait until the opponent fully relaxes before attacking again.",
+            "After a failed entry, the primary follow-up is pulling half guard so you keep a leg entanglement on the near leg."
+          ],
+          "trap": [
+            "After a failed entry, release your grips and disengage back to standing so you cannot be caught under a reversal."
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the Twister entry during a cross body ride exchange?",
-        "answer": "The optimal window opens when the opponent shifts from active escape attempts to static defensive posture, typically five to fifteen seconds into the cross body ride when they begin conserving energy. Specific timing cues include: the opponent flattening their hips to the mat (exposing the thigh gap), initiating a sit-through toward your legs (creating rotational opening), or widening their turtle base to resist pressure (spreading their knees). Attempting entry during the opponent's initial burst of defensive energy has low success because they have maximum explosiveness to clear your hook. Patience in cross body ride forces the conditions for Twister entry."
+        "answer": "Initiate the entry when the opponent shifts from active escapes to static defense, typically five to fifteen seconds into the cross body ride. This is when they begin conserving energy. Specific timing cues include: the opponent flattening their hips to the mat (exposing the thigh gap), initiating a sit-through toward your legs (creating rotational opening), or widening their turtle base to resist pressure (spreading their knees). Attempting entry during the opponent's initial burst of defensive energy has low success because they have maximum explosiveness to clear your hook. Patience in cross body ride forces the conditions for Twister entry.",
+        "distractors": {
+          "plausible": [
+            "Initiate the entry the instant you land in cross body ride, before the opponent can establish any defensive posture.",
+            "Initiate the entry when the opponent tightens their turtle and squeezes their knees together, trapping your hook in place."
+          ],
+          "trap": [
+            "Attack during the opponent's first explosive escape burst so their own momentum spins them into the figure-four."
+          ]
+        }
       }
     ],
     "safety_considerations": "The Twister entry itself carries moderate injury risk primarily in the knee and ankle joints during the figure-four threading. Ensure controlled hook insertion to avoid catching your own foot on the opponent's body during threading. The subsequent Twister Control position and finish carry severe spinal injury risk — cervical and thoracic compression can cause herniated discs, vertebral damage, and permanent neurological injury. Never rush from entry directly to finish without establishing proper control. Only practice the full Twister sequence with experienced partners who understand spinal submission mechanics and will tap preventatively. Clear verbal communication regarding flexibility limits and tap signals must be established before drilling. If either partner reports numbness, tingling, or shooting pain in extremities during or after training, end the session immediately and seek medical evaluation. Begin all Twister system training with the entry mechanics in isolation before combining with submission finishes.",

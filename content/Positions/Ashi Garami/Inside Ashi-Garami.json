@@ -463,7 +463,16 @@
     "flashcards": [
       {
         "question": "Your leg is trapped in inside ashi-garami and the opponent is hunting your heel - what is your single most important defensive priority?",
-        "answer": "Hide the heel. Keep your trapped knee bent and rotate your heel toward your own hip so the opponent cannot align the rotational finishing angle for a heel hook. A bent, hidden heel is dramatically safer than an extended leg with the heel exposed. Only once the heel is protected do you begin working extraction. Never straighten the trapped leg against a secured grip, as full extension hands the opponent the exact mechanics they need to finish."
+        "answer": "Hide the heel: keep the trapped knee bent and rotate the heel toward your own hip so the heel hook angle never exists. Denying the opponent the rotational finishing alignment is the first priority, because a bent, hidden heel is dramatically safer than an extended leg with the heel exposed. Only once the heel is protected do you begin working extraction. Never straighten the trapped leg against a secured grip, as full extension hands the opponent the exact mechanics they need to finish.",
+        "distractors": {
+          "plausible": [
+            "Grip-fight the opponent's hands first to strip the heel grip before adjusting your trapped leg's position.",
+            "Begin extracting immediately, pulling your knee line free before worrying about where your heel is pointing."
+          ],
+          "trap": [
+            "Straighten and extend the trapped leg forcefully to yank it out of the entanglement before the grip locks in."
+          ]
+        }
       },
       {
         "question": "What is the role of your free leg when defending inside ashi-garami from the bottom?",
@@ -756,7 +765,16 @@
   "flashcards_position": [
     {
       "question": "What leg configuration defines Inside Ashi-Garami and distinguishes it from other ashi variations?",
-      "answer": "One player's leg is trapped between the other player's legs, with the controlling player's inside leg crossed over the opponent's near hip and their foot planted on the far side of the body. The outside leg hooks behind the trapped knee, so the captured limb is pinned from hip to ankle by clamping pressure from both legs. The \"inside\" designation refers specifically to the controlling leg lying across the near hip rather than the far hip, which is what separates it from outside ashi-garami. This near-hip placement is the single geometric feature that governs the position's rotational control and its pathways to more advanced entanglements."
+      "answer": "In inside ashi-garami, the controlling player's inside leg crosses over the opponent's near hip with the foot planted on the far side of the body. The outside leg hooks behind the trapped knee, so the captured limb is pinned from hip to ankle by clamping pressure from both legs, with the opponent's leg trapped between the controller's legs. The \"inside\" designation refers specifically to the controlling leg lying across the near hip rather than the far hip, which is what separates it from outside ashi-garami. This near-hip placement is the single geometric feature that governs the position's rotational control and its pathways to more advanced entanglements.",
+      "distractors": {
+        "plausible": [
+          "The controlling player's leg crosses over the opponent's far hip, which is the placement that gives inside ashi its name.",
+          "It is defined by the outside leg lying across the opponent's hip while the inside leg hooks behind the trapped knee."
+        ],
+        "trap": [
+          "It is defined by crossing both ankles over the opponent's belly, since fully crossed feet give the tightest possible clamp on the leg."
+        ]
+      }
     },
     {
       "question": "Why is perpendicular body alignment central to the mechanics of Inside Ashi-Garami?",

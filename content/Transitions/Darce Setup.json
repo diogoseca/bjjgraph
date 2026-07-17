@@ -251,11 +251,29 @@
       },
       {
         "question": "Your opponent grabs your threading arm and prevents deep penetration — how do you adjust?",
-        "answer": "You have several options: switch to an Anaconda setup by adjusting your grip configuration, transition to a crucifix position by controlling their defending arm, or use their grip as an opportunity to transition to back control. The key is not to fight their grip directly but rather to flow to an alternative attack that exploits their commitment to defending the Darce."
+        "answer": "Don't fight the grip — flow to an alternative attack like the Anaconda, crucifix, or back take that exploits their defensive commitment. Switching to an Anaconda means adjusting your grip configuration, the crucifix comes from controlling their defending arm, and their grip on your threading arm can itself open the transition to back control. The key is never to fight their grip directly but to punish their commitment to defending the Darce.",
+        "distractors": {
+          "plausible": [
+            "Re-grip with two-on-one force and drive the threading arm deeper until their defensive grip breaks.",
+            "Switch sides and immediately attempt the Darce on the opposite arm before they can re-establish the grip."
+          ],
+          "trap": [
+            "Let go of the head to strip their grip with both hands, then re-thread the choking arm from scratch."
+          ]
+        }
       },
       {
         "question": "Why is shoulder pressure important during the Darce setup sequence?",
-        "answer": "Constant shoulder pressure keeps opponent's posture broken, prevents them from regaining defensive structure, and maintains control of their head and upper body. This pressure also keeps their weight distributed poorly, making movement difficult and escape pathways limited. Without consistent pressure, opponents can create space and recover posture to stand or turn away."
+        "answer": "Constant shoulder pressure keeps the opponent's posture broken and denies them the space to rebuild defensive structure. It maintains control of their head and upper body while keeping their weight distributed poorly, making movement difficult and limiting escape pathways. Without consistent pressure, opponents can create space and recover posture to stand or turn away.",
+        "distractors": {
+          "plausible": [
+            "Shoulder pressure mainly tires the opponent's neck muscles so the choke finishes faster once it is locked in.",
+            "Shoulder pressure is applied only at the finish to tighten the squeeze; during the setup you stay light to move quickly."
+          ],
+          "trap": [
+            "Lift off the head while threading so you can see the gap — visibility matters more than pressure during the setup."
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window to begin threading the choking arm?",
@@ -271,7 +289,16 @@
       },
       {
         "question": "If the Darce setup is fully blocked and you cannot thread, what chain attacks are available?",
-        "answer": "From the front headlock with a blocked Darce, several high-percentage chains exist: transition to Anaconda setup by reversing your arm threading direction, switch to guillotine by adjusting your grip under the chin, take the back by circling behind as they defend the choke threat, or attack with a Japanese necktie by adjusting your leg position. The front headlock is a hub position — a blocked Darce should flow directly into the next attack rather than being forced."
+        "answer": "Treat the front headlock as a hub — flow to the Anaconda, guillotine, back take, or Japanese necktie rather than forcing the blocked Darce. Reverse your arm threading direction for the Anaconda, adjust your grip under the chin for the guillotine, circle behind as they defend the choke threat to take the back, or adjust your leg position to attack the Japanese necktie. All are high-percentage chains, and a blocked Darce should flow directly into the next attack rather than being forced.",
+        "distractors": {
+          "plausible": [
+            "Re-thread the same arm harder and deeper first; only chain to the Anaconda or guillotine if the position fully collapses.",
+            "Abandon head control and circle straight to the back, since front-headlock chokes are dead once the thread is blocked."
+          ],
+          "trap": [
+            "Release your chin strap and use both hands to pry their blocking grip open, then re-thread the Darce."
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice Darce setups with controlled pressure and clear communication with training partners. When drilling the setup phase, focus on positional control rather than applying choking pressure until both partners understand the mechanics. The threading motion should be deliberate and smooth to avoid injury to shoulders or neck. Partners should maintain open communication about pressure levels, especially when adding resistance during training progressions. When transitioning from setup to finish, always release immediately when partner taps. Beginners should work under supervision of experienced practitioners or instructors who can correct technical errors before they become dangerous habits. The neck and cervical spine are vulnerable during front headlock positions, so avoid excessive cranking or twisting motions. Always ensure training partner understands how to tap from various positions before applying any submission setup.",

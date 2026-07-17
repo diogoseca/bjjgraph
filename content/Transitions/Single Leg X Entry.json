@@ -233,7 +233,16 @@
     "flashcards": [
       {
         "question": "What is the primary function of the inside leg hook in Single Leg X Entry?",
-        "answer": "The inside leg hook serves multiple critical functions: it prevents opponent from stepping backward to escape, creates clamping pressure by pulling their leg toward you, compromises their base by attacking one pillar of their stance, and works in conjunction with your ankle grip to create two-point control on the same leg. The hook should be positioned deep behind their knee with your heel pulling toward their hamstring for maximum effectiveness."
+        "answer": "The inside leg hook clamps behind the opponent's knee, preventing their backward escape step and pulling their leg into you to break their base. It works in conjunction with your ankle grip to create two-point control on the same leg, and the clamping pressure attacks one pillar of their stance to compromise their balance. Position the hook deep behind their knee with your heel pulling toward their hamstring for maximum effectiveness.",
+        "distractors": {
+          "plausible": [
+            "The inside leg hook's main job is lifting the opponent's leg off the mat so you can slide your hips underneath for the sweep.",
+            "The hook is placed in front of the opponent's shin, pushing their leg away from you to create space for the entry."
+          ],
+          "trap": [
+            "Cross your feet behind the opponent's captured leg to lock the hook in place for maximum clamping power."
+          ]
+        }
       },
       {
         "question": "Why must your hips remain elevated during Single Leg X Entry rather than flat on the mat?",
@@ -249,7 +258,16 @@
       },
       {
         "question": "What are the three primary offensive pathways available after successfully entering Single Leg X position?",
-        "answer": "After establishing Single Leg X, you have three main offensive categories: (1) Sweeps to top position using the off-balancing structure you've created, typically sweeping opponent forward and over their captured leg, (2) Transitions to more complex leg entanglement positions such as Ashi Garami, Outside Ashi-Garami, X-Guard, or Deep Half Guard depending on how opponent reacts, and (3) Direct submission attacks including kneebars, ankle locks, or toe holds on the captured leg, though these require careful positioning and often work best in combination with sweep threats."
+        "answer": "From Single Leg X you can sweep to top position, transition to deeper leg entanglements, or attack submissions on the captured leg. Sweeps use the off-balancing structure you've created, typically sending the opponent forward and over their captured leg. Transitions lead to more complex entanglements such as Ashi Garami, Outside Ashi Garami, X-Guard, or Deep Half Guard depending on how the opponent reacts. Direct submission attacks include kneebars, ankle locks, or toe holds on the captured leg, though these require careful positioning and often work best in combination with sweep threats.",
+        "distractors": {
+          "plausible": [
+            "Your three pathways are the kneebar, ankle lock, and toe hold — Single Leg X is primarily a direct submission position.",
+            "From Single Leg X you can sweep to top, take the back as they turn, or attack chokes on the trapped-leg side."
+          ],
+          "trap": [
+            "If the sweep stalls, release the captured leg and turn away to your knees to recover position before they settle their base."
+          ]
+        }
       },
       {
         "question": "Why is angling your body toward the captured leg important rather than staying square to your opponent?",
@@ -269,7 +287,16 @@
       },
       {
         "question": "What conditions must exist in your seated guard before you can realistically attempt this entry?",
-        "answer": "Before attempting the entry, you need: hips that are mobile and elevated (not flat on mat), at least one accessible leg from your opponent within gripping range, your inside leg free to insert the hook without being controlled, and your opponent's weight must be shifting forward or their base narrowed from movement. If opponent is perfectly centered with wide base and you have no grips, attempting the entry cold will fail. Create the conditions by using foot pushes, grip fighting, or threatening technical standup to draw them forward before committing to the entry."
+        "answer": "You need mobile, elevated hips, an accessible opponent leg within gripping range, a free inside leg, and their weight shifting forward or base narrowed. Your hips must not be flat on the mat, and your inside leg must be free to insert the hook without being controlled. If the opponent is perfectly centered with a wide base and you have no grips, attempting the entry cold will fail. Create the conditions by using foot pushes, grip fighting, or threatening a technical standup to draw them forward before committing to the entry.",
+        "distractors": {
+          "plausible": [
+            "The key requirement is flattening your hips to the mat so you have a stable platform before inserting the hook.",
+            "Wait until the opponent steps backward into a wider stance, then shoot your hook into the retreating leg."
+          ],
+          "trap": [
+            "Lie flat on your back and reach for the ankle with both hands even without grips, since speed matters more than setup."
+          ]
+        }
       }
     ],
     "safety_considerations": "Single Leg X Entry is generally a safe technique when practiced with proper control, but several safety considerations must be observed. When inserting the inside hook behind opponent's knee, do so smoothly without jerking or twisting their leg suddenly, as aggressive hooking can stress knee ligaments. If transitioning directly to leg locks from this position, ensure you and your training partners understand appropriate submission progression and tap early protocols, particularly with heel hooks which can cause severe injury. During the entry, be aware that aggressive backward resistance from opponent while you have deep grips can create awkward falling situations, so maintain control of your own balance. When drilling with elevated hips, ensure adequate mat space behind you as rapid angle changes can cause backward rolling if not properly controlled. Communicate with training partners during learning phases and start with cooperative drilling before adding resistance. For beginners, focus on position establishment rather than immediate submissions until mechanics are solid. As with all leg entanglement work, tap early and often to protect knee and ankle joints from cumulative stress.",

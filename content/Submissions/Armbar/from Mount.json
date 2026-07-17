@@ -319,8 +319,17 @@
       },
       {
         "question": "What are the three most important control points during the armbar transition from mount?",
-        "answer": "The three most critical control points are: (1) Two-handed wrist control - both hands gripping the wrist prevents arm escape during the transition; (2) Chest pinning of the captured arm - keeping their tricep tight to your chest eliminates the hitchhiker escape; (3) Knee squeeze on opponent's head - clamping knees together prevents them from turning into you and escaping. Losing control of any of these three points significantly reduces success probability and may result in losing position entirely.",
-        "safety_critical": false
+        "answer": "The three key control points are two-handed wrist control, pinning their tricep to your chest, and squeezing your knees on their head. Two hands on the wrist prevent the arm from escaping during the transition; keeping the tricep glued to your chest eliminates the hitchhiker escape; and clamping your knees together stops them from turning into you. Losing any one of these three points significantly reduces success probability and may cost you the position entirely.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The three key control points are two-handed wrist control, knee squeeze on the head, and posting your free hand on the mat for balance.",
+            "The three key control points are one-handed wrist control, hip pressure on their shoulder, and hooking their far leg with your foot."
+          ],
+          "trap": [
+            "Lean back and yank the arm straight immediately; speed of extension matters more than chest pressure or knee control."
+          ]
+        }
       },
       {
         "question": "How should you respond if opponent begins to successfully stack you during the armbar transition?",
@@ -334,8 +343,17 @@
       },
       {
         "question": "What should you do immediately when your partner taps to an armbar?",
-        "answer": "Immediately upon feeling or hearing the tap: (1) Lower your hips to the mat to remove all hyperextension pressure, (2) Open your legs to release control of their head/shoulder, (3) Release your grip on their wrist/arm completely, (4) Allow them to safely retract their arm, (5) Verbally check that they are okay before continuing training. Never hold a submission after a tap, even for a moment. The tap is an absolute signal to release immediately, as joints can be damaged very quickly once someone taps.",
-        "safety_critical": true
+        "answer": "The instant they tap, lower your hips and release all pressure and grips so they can safely retract their arm. In order: lower your hips to the mat to remove hyperextension pressure, open your legs to release their head and shoulder, release your grip on the wrist and arm completely, let them retract the arm, and verbally check they are okay before continuing training. Never hold a submission after a tap, even for a moment — the tap is an absolute signal to release immediately, because joints can be damaged very quickly once someone taps.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Hold the finishing position gently after the tap so your partner can feel the correct mechanics before you release.",
+            "Release your grips first, then slowly lower your hips once you are sure the tap was intentional and not a grip adjustment."
+          ],
+          "trap": [
+            "Extend slightly further after the tap to confirm the arm was truly trapped before letting go."
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the armbar attack and what is the breaking mechanism?",
@@ -344,8 +362,17 @@
       },
       {
         "question": "What are the indicators that an armbar is reaching the breaking point and requires immediate release or tap?",
-        "answer": "Breaking point indicators include: (1) Opponent's arm reaches full extension with no bend remaining in the elbow; (2) You feel the joint become tight with no more give in the arm; (3) Opponent begins to scream or show signs of distress; (4) The elbow is directly centered over your hip crease with no space remaining; (5) You feel small pops or creaking in the joint. In training, both partners should recognize these indicators - the attacker to stop before damage, the defender to tap before injury. Any of these signs means the submission is complete or imminent.",
-        "safety_critical": true
+        "answer": "The breaking point is signaled by full arm extension with no bend left, a tight joint with no give, distress sounds, or small pops in the elbow. Other indicators: the elbow sits directly centered over your hip crease with no space remaining, and the opponent begins to scream or show visible distress. In training, both partners should recognize these signs — the attacker to stop before damage, the defender to tap before injury. Any one of these indicators means the submission is complete or imminent.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "The breaking point is signaled mainly by the opponent's grip weakening; until their hands separate the joint still has protective slack.",
+            "The only reliable breaking-point indicator is the tap itself; before a tap the arm always retains a safe margin of bend."
+          ],
+          "trap": [
+            "Small pops in the elbow are just normal slack releasing, so keep extending steadily until you feel a firm tap."
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up and turn toward you during the finish - what grip adjustment maintains control?",
@@ -354,18 +381,45 @@
       },
       {
         "question": "What determines the point of no escape in an armbar finish?",
-        "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) Your hips are directly under their elbow with no space between your hip and their shoulder; (2) Their arm is fully extended with thumb pointing up and cannot bend; (3) Your knees are squeezed together controlling their head, preventing any rotation. Once all three conditions exist, the only options are tap or injury. Before this point, various escapes remain viable. Understanding this threshold helps you recognize when to commit fully to the finish versus when to maintain position and wait for better control.",
-        "safety_critical": false
+        "answer": "Escape becomes impossible once your hips are directly under their elbow, the arm is fully extended thumb-up, and your knees squeeze their head. All three conditions must exist simultaneously: no space between your hip and their shoulder, no bend left in the arm, and no rotation available because the knees clamp the head. Once all three are met, the only options are tap or injury; before that threshold, various escapes remain viable. Recognizing this threshold tells you when to commit fully to the finish versus when to maintain position and wait for better control.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The point of no escape is reached as soon as both your legs are over their body, even before the arm is extended.",
+            "The arm becomes inescapable once you control the wrist with both hands, regardless of hip position or knee squeeze."
+          ],
+          "trap": [
+            "Once you fall back for the finish, arch and extend immediately — hip and knee details can be corrected after the arm is straight."
+          ]
+        }
       },
       {
         "question": "What common finishing error results in the hitchhiker escape and how do you prevent it?",
-        "answer": "The hitchhiker escape becomes available when there is space between opponent's arm and your chest, allowing them to rotate their elbow across your body while turning their body in the same direction. To prevent this, keep their arm glued to your sternum with no gap - their tricep should press directly against your chest. Additionally, squeeze your knees together to control their head rotation, and keep your hips tight to their shoulder to eliminate the space they need to turn. The combination of chest pressure, knee squeeze, and hip proximity makes the hitchhiker mechanically impossible.",
-        "safety_critical": false
+        "answer": "The hitchhiker escape comes from leaving space between their arm and your chest, so glue their tricep directly to your sternum. That gap lets them rotate their elbow across your body while turning in the same direction. To prevent it, keep the arm pressed to your chest with no gap, squeeze your knees together to control their head rotation, and keep your hips tight to their shoulder to eliminate the turning space. The combination of chest pressure, knee squeeze, and hip proximity makes the hitchhiker mechanically impossible.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The hitchhiker escape comes from gripping too high on the arm, so slide both grips down past the wrist onto their hand.",
+            "The hitchhiker is prevented mainly by squeezing the wrist harder, since grip strength alone stops the thumb from rotating."
+          ],
+          "trap": [
+            "To stop the hitchhiker, open your knees and sit up over the arm so you can chase their rotation with your body weight."
+          ]
+        }
       },
       {
         "question": "In competition, what finishing strategies maximize armbar success rate while maintaining safety awareness?",
-        "answer": "Competition finishing strategies include: (1) Establish all control points before committing to extension - rushed attempts allow escapes; (2) Use progressive pressure even at faster speeds - smooth acceleration rather than jerking; (3) Walk hips closer to shoulder before extending to eliminate escape space; (4) Keep arm tight to chest throughout the entire finish; (5) Be prepared to transition to triangle or back take if they defend; (6) Release immediately on tap regardless of competition intensity. The fastest finishes come from perfect position, not explosive force. Remember that even in competition, intentionally injuring an opponent with a spike or jerk is unsportsmanlike and potentially illegal.",
-        "safety_critical": true
+        "answer": "In competition, secure every control point before extending and use smooth progressive pressure — perfect position beats explosive force. Establish all controls before committing, since rushed attempts allow escapes; walk your hips closer to the shoulder before extending to eliminate escape space; keep the arm tight to your chest throughout; and be ready to transition to a triangle or back take if they defend. Release immediately on the tap regardless of competition intensity — intentionally injuring an opponent with a spike or jerk is unsportsmanlike and potentially illegal.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "In competition, extend as soon as you fall back, since pausing to walk your hips in gives the opponent time to stack you.",
+            "In competition, abandon the armbar the moment they defend, since transitions like the triangle rarely work at match speed."
+          ],
+          "trap": [
+            "In competition, jerk the arm explosively on extension so the fight is finished before the opponent can begin tap-fighting."
+          ]
+        }
       }
     ],
     "clips": [

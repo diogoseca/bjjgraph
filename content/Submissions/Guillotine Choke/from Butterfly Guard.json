@@ -300,8 +300,17 @@
       },
       {
         "question": "How do you recognize when the choke has reached the point where escape becomes nearly impossible for the defender?",
-        "answer": "The point of no escape occurs when the grip is fully locked with elbows pinched, the opponent's head is pulled tight against your chest with no space, and your hooks are elevated with hips arched to create the stretching force. At this stage the opponent cannot posture, cannot strip the grip with hand fighting, and cannot stack because the hooks prevent forward drive. Their only remaining option is to tap.",
-        "safety_critical": false
+        "answer": "Escape becomes nearly impossible when the grip is fully locked with elbows pinched, the head is tight to your chest, and hooks are elevated with hips arched. At this stage the opponent cannot posture, cannot strip the grip with hand fighting, and cannot stack because the elevated hooks prevent forward drive. The arched hips create the stretching force that completes the mechanics, leaving the tap as their only remaining option.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Escape becomes impossible once your hands are locked together, regardless of head position or hook elevation.",
+            "The point of no escape arrives when the opponent's breathing becomes labored, even if slack remains in the grip."
+          ],
+          "trap": [
+            "Squeeze at maximum effort from the moment you lock hands; burning arms mean the choke has passed the point of no return."
+          ]
+        }
       },
       {
         "question": "What grip and positional control must be established before committing to the fall-back finish?",
@@ -310,8 +319,17 @@
       },
       {
         "question": "Your opponent starts to posture up while you have a loose guillotine grip - what adjustment prevents escape?",
-        "answer": "Rather than fighting the posture with arm strength alone, immediately transition to a butterfly sweep by driving your hook on the same side as your choking arm upward while pulling the opponent's upper body across with the guillotine grip. Their posture recovery raises their center of gravity and weakens their base, making the sweep high-percentage. If the sweep fails, you can re-engage the guillotine when they return to a defensive posture.",
-        "safety_critical": false
+        "answer": "When the opponent postures against a loose guillotine, immediately sweep them with the same-side butterfly hook rather than fighting posture with arm strength. Drive the hook on the same side as your choking arm upward while pulling their upper body across with the guillotine grip. Their posture recovery raises their center of gravity and weakens their base, making the sweep high-percentage, and if it fails you can re-engage the guillotine when they return to a defensive posture.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Squeeze the guillotine harder and drag the head down with both arms to break their posture before they fully rise.",
+            "Drive the butterfly hook on the side opposite your choking arm so they are off-balanced away from the grip."
+          ],
+          "trap": [
+            "Abandon your butterfly hooks and hang all your weight on their neck so both arms are free to crank the choke."
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that allows opponents to survive the Guillotine from Butterfly Guard?",
@@ -340,8 +358,17 @@
       },
       {
         "question": "In competition, how do you finish the Guillotine when an opponent attempts to stack and drive through your guard?",
-        "answer": "When the opponent drives forward to stack, close your guard around their waist to prevent them from passing to side control while maintaining the guillotine grip. From closed guard, you can still finish by arching your hips and squeezing. If the closed guard guillotine stalls, use the grip to threaten while working to re-establish butterfly hooks for the stronger finish, or transition to a high elbow variation that maintains pressure even when stacked.",
-        "safety_critical": false
+        "answer": "When the opponent drives forward to stack, close your guard around their waist to stop the pass while keeping the guillotine grip. From closed guard you can still finish by arching your hips and squeezing. If the closed guard guillotine stalls, use the grip to threaten while re-establishing butterfly hooks for the stronger finish, or transition to a high elbow variation that maintains pressure even when stacked.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "When stacked, open your guard and shrimp away to create distance, then re-lock the guillotine from a fresh angle.",
+            "Answer the stack by pulling the head down harder with both arms; the extra squeeze finishes before they can pass."
+          ],
+          "trap": [
+            "Release the choke and turn away to your knees to escape the stacking pressure before they settle their weight."
+          ]
+        }
       }
     ],
     "clips": [

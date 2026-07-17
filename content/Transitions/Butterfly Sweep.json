@@ -261,7 +261,16 @@
       },
       {
         "question": "Why is breaking opponent's posture essential before attempting the butterfly sweep?",
-        "answer": "Breaking posture serves multiple critical functions: it brings opponent's weight onto your centerline, compromising their base and making them easier to off-balance; it prevents them from seeing the sweep coming and reacting with early posts; it creates forward momentum that you redirect during the sweep; and it limits their ability to drive into you with pressure. Without broken posture, opponent maintains strong base with weight distributed on their knees and feet, making the sweep a low-percentage pushing contest. Proper posture breaking makes opponent heavy on top of you, which paradoxically makes them easier to sweep because their weight becomes a liability when you redirect it."
+        "answer": "Breaking posture loads the opponent's weight onto your centerline and hooks, compromising their base so they can be off-balanced and swept. It also prevents them from seeing the sweep coming and reacting with early posts, creates forward momentum you redirect during the sweep, and limits their ability to drive into you with pressure. Without broken posture, the opponent maintains a strong base with weight distributed on their knees and feet, turning the sweep into a low-percentage pushing contest. Paradoxically, making the opponent heavy on top of you makes them easier to sweep, because their weight becomes a liability once you redirect it.",
+        "distractors": {
+          "plausible": [
+            "Breaking posture matters mainly because it tires the opponent's arms so they cannot grip fight during the sweep.",
+            "Posture breaking is mostly about hiding your hook placement; the weight transfer onto you is a minor side effect."
+          ],
+          "trap": [
+            "Keep the opponent upright and push them away first, since you need space between you to lift with your hook."
+          ]
+        }
       },
       {
         "question": "What should you do if your opponent posts their hand on the mat during your butterfly sweep attempt?",
@@ -281,7 +290,16 @@
       },
       {
         "question": "What is the optimal timing window for initiating the butterfly sweep?",
-        "answer": "The optimal timing window occurs when the opponent shifts their weight forward, typically when they lean in to establish grips, attempt to flatten you, or drive forward to initiate a pass. At this moment their center of gravity moves over your hooks, their hands are occupied with grip fighting rather than posting for base, and their forward momentum can be redirected into rotational force. A secondary timing window opens when the opponent reaches with one hand for a grip or attempts a crossface, as this momentarily removes one potential posting hand. Recognizing these windows requires sensitivity to weight shifts through your hooks and grips, which develops through extensive positional sparring."
+        "answer": "The prime window is the moment the opponent shifts weight forward—leaning in for grips, driving to pass, or trying to flatten you. At that instant their center of gravity moves over your hooks, their hands are occupied with grip fighting rather than posting for base, and their forward momentum can be redirected into rotational force. A secondary window opens when the opponent reaches with one hand for a grip or attempts a crossface, momentarily removing one potential posting hand. Recognizing these windows requires sensitivity to weight shifts through your hooks and grips, which develops through extensive positional sparring.",
+        "distractors": {
+          "plausible": [
+            "The best window is when the opponent sits their weight back onto their heels, leaving their hips light and liftable.",
+            "Wait until the opponent has fully settled both grips, since a static opponent is the most predictable to sweep."
+          ],
+          "trap": [
+            "Drop flat onto your back and wait for the opponent's chest pressure before trying to elevate with your hooks."
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control for the standard underhook butterfly sweep?",

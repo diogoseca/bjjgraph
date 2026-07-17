@@ -271,11 +271,29 @@
       },
       {
         "question": "Why must you secure underhook or crossface control before completing the pass to side control?",
-        "answer": "Securing underhook or crossface control before completing the pass is essential because these control points prevent guard recovery and establish the dominant frames necessary for side control consolidation. Without these controls, even after removing butterfly hooks, opponent can easily insert knees for guard retention, create frames to generate space, or shrimp away to recover position. The underhook or crossface serves as an anchor point that pins opponent's upper body while you transition your hips and legs into final passing position. Attempting to complete the pass without this control leaves you vulnerable during the transition and makes side control establishment tentative rather than dominant. These controls transform a positional advantage into a secured dominant position."
+        "answer": "The underhook or crossface pins the opponent's upper body, preventing guard recovery while you transition your hips and legs into side control. Without these controls, even after removing the butterfly hooks, the opponent can easily insert knees for guard retention, create frames to generate space, or shrimp away to recover position. The underhook or crossface serves as an anchor point that pins the opponent's upper body while you transition your hips and legs into final passing position. Attempting to complete the pass without this control leaves you vulnerable during the transition and makes side control establishment tentative rather than dominant. These controls transform a positional advantage into a secured dominant position.",
+        "distractors": {
+          "plausible": [
+            "The underhook exists mainly to attack the far arm, so establishing it can wait until after the pass is complete.",
+            "Upper body control matters chiefly for pinning points after you settle, not during the passing transition itself."
+          ],
+          "trap": [
+            "Skip the upper body control and sprint your legs past the hooks — speed beats frames, and pausing for grips only stalls the pass."
+          ]
+        }
       },
       {
         "question": "How should you respond if opponent attempts to transition to deep half guard during your butterfly pass?",
-        "answer": "If opponent begins transitioning to deep half guard during your butterfly pass, immediately increase crossface pressure while keeping your near leg heavy and driving your hip down to prevent them from getting deep under your leg. Your weight should shift toward the side they're trying to attack, making it difficult for them to secure the deep half position. If they manage to get partial deep half positioning, switch your strategy from butterfly passing to deep half passing mechanics - focus on hip isolation, preventing their lockdown, and establishing controls specific to deep half escapes. The key is early recognition: once you see them beginning to scoop your leg or get their head to your far hip, adjust your weight distribution immediately to prevent them from establishing the position fully."
+        "answer": "Immediately increase crossface pressure, keep your near leg heavy, and drive your hip down to prevent them from getting deep under your leg. Your weight should shift toward the side they're trying to attack, making it difficult for them to secure the deep half position. If they manage to get partial deep half positioning, switch your strategy from butterfly passing to deep half passing mechanics — focus on hip isolation, preventing their lockdown, and establishing controls specific to deep half escapes. The key is early recognition: once you see them beginning to scoop your leg or get their head to your far hip, adjust your weight distribution immediately to prevent them from establishing the position fully.",
+        "distractors": {
+          "plausible": [
+            "Post your near leg wide and lift your hips to create space, making it harder for them to reach under your leg.",
+            "Shift your weight away from the side they are attacking so your leg becomes too light for them to control."
+          ],
+          "trap": [
+            "Stand straight up to yank your leg free — the extra height lifts your leg out of reach of the deep half scoop."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin clearing the first hook - how do you exploit this?",
@@ -287,11 +305,29 @@
       },
       {
         "question": "When is the optimal timing window to initiate the butterfly pass against an active guard player?",
-        "answer": "The optimal timing window occurs immediately after the opponent commits to an offensive action - particularly after a failed sweep attempt or during a grip transition. When opponent attempts a butterfly sweep and you successfully defend by widening your base, there is a brief window where their hooks are partially displaced and their upper body grips are compromised from the failed attempt. This 1-2 second window is when you should aggressively begin hook clearing. Similarly, when opponent releases one grip to fight for a different grip, the momentary loss of upper body control reduces their sweep threat and creates space for you to drive pressure and begin the pass. Avoid initiating the pass when opponent has full grip establishment and deep hooks with settled posture, as this is when their defense is strongest."
+        "answer": "Initiate the pass immediately after the opponent commits to an offensive action, especially a failed sweep attempt or a grip transition. When the opponent attempts a butterfly sweep and you successfully defend by widening your base, there is a brief window where their hooks are partially displaced and their upper body grips are compromised from the failed attempt. This 1-2 second window is when you should aggressively begin hook clearing. Similarly, when the opponent releases one grip to fight for a different grip, the momentary loss of upper body control reduces their sweep threat and creates space for you to drive pressure and begin the pass. Avoid initiating the pass when the opponent has full grip establishment and deep hooks with settled posture, as this is when their defense is strongest.",
+        "distractors": {
+          "plausible": [
+            "Begin passing the instant you engage the guard, before the opponent has any chance to establish grips or hooks.",
+            "Wait until the opponent settles and stops moving, since a static guard is easier to read and safely pass."
+          ],
+          "trap": [
+            "Launch the pass while the opponent is mid-sweep with full grips — their commitment means they cannot defend it."
+          ]
+        }
       },
       {
         "question": "If your butterfly pass is blocked and opponent begins inserting a knee shield, what are your chain attack options?",
-        "answer": "When opponent inserts a knee shield during your butterfly pass attempt, you have several chain options depending on how far the knee shield has been established. If the shield is shallow with only the knee across, immediately switch to a knee slice pass by driving your weight into the knee shield side and sliding your knee across their thigh toward the mat. If opponent establishes a deeper knee shield with their shin fully across your torso, transition to a body lock pass by securing double underhooks around their legs and stacking them to neutralize the shield. You can also backstep to address the position from the other side, or use the over-under pass by threading one arm under their bottom leg while the other goes over the knee shield. The critical principle is recognizing the knee shield insertion early and immediately switching to a complementary passing system rather than continuing to force the butterfly pass mechanics against a fundamentally different guard configuration."
+        "answer": "Chain to a knee slice against a shallow knee shield, or to a body lock, backstep, or over-under pass once the shield is fully established. If the shield is shallow with only the knee across, immediately switch to a knee slice pass by driving your weight into the knee shield side and sliding your knee across their thigh toward the mat. If the opponent establishes a deeper knee shield with their shin fully across your torso, transition to a body lock pass by securing double underhooks around their legs and stacking them to neutralize the shield. You can also backstep to address the position from the other side, or use the over-under pass by threading one arm under their bottom leg while the other goes over the knee shield. The critical principle is recognizing the knee shield insertion early and immediately switching to a complementary passing system rather than continuing to force the butterfly pass mechanics against a fundamentally different guard configuration.",
+        "distractors": {
+          "plausible": [
+            "Against any knee shield, go straight to the body lock, since double underhooks solve both shallow and deep shields alike.",
+            "Backstep first against a shallow shield, saving the knee slice for when the shin is fully across your torso."
+          ],
+          "trap": [
+            "Keep driving the original butterfly pass through the knee shield — abandoning a pass midway only rewards the guard player."
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when flattening a butterfly hook with hip pressure?",

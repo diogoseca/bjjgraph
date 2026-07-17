@@ -398,15 +398,42 @@
       },
       {
         "question": "The bottom player creates a forearm micro-frame without extending their arm. Should you attack the arm?",
-        "answer": "No. A properly executed micro-frame keeps the arm within the bottom player's centerline and is not vulnerable to kimura or americana attacks. Attempting to isolate a protected arm requires you to release pressure and shift your weight, which is exactly the weight shift the bottom player is waiting for to execute their hip escape. Instead, increase your shoulder pressure angle and drive your weight through the micro-frame to collapse it structurally while maintaining hip connection."
+        "answer": "No; a correct micro-frame stays inside the centerline, so collapse it with pressure instead of trying to isolate the arm. A properly executed micro-frame keeps the arm within the bottom player's centerline and is not vulnerable to kimura or americana attacks. Attempting to isolate a protected arm requires you to release pressure and shift your weight — exactly the weight shift the bottom player is waiting for to execute their hip escape. Instead, increase your shoulder pressure angle and drive your weight through the micro-frame to collapse it structurally while maintaining hip connection.",
+        "distractors": {
+          "plausible": [
+            "Yes, but only with an americana, since the kimura needs more space than the micro-frame concedes.",
+            "No; ease your pressure slightly and wait for the frame to extend so the arm becomes available to grab."
+          ],
+          "trap": [
+            "Yes; post up and swim under the forearm to isolate it — the submission threat is worth the momentary weight shift."
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to transition to mount rather than re-consolidating Shoulder of Justice?",
-        "answer": "The optimal moment is immediately after the bottom player completes a hip escape that creates clear space between your bodies but before they insert a knee shield. This window typically lasts one to two seconds. If you can step your near leg over their body and settle into mount before the knee shield arrives, you have converted their escape attempt into a worse positional outcome. If their knee is already moving across your hip line, re-consolidation is the safer choice."
+        "answer": "Mount immediately after their hip escape creates clear space between your bodies but before they insert a knee shield. This window typically lasts one to two seconds. If you can step your near leg over their body and settle into mount before the knee shield arrives, you have converted their escape attempt into a worse positional outcome. If their knee is already moving across your hip line, re-consolidation is the safer choice.",
+        "distractors": {
+          "plausible": [
+            "Mount at the first hint of hip movement, stepping over before any space opens between your bodies.",
+            "Only transition after you have fully re-consolidated shoulder pressure, since mount must come from a stabilized position."
+          ],
+          "trap": [
+            "Mount during their explosive bridge, riding the bridge upward — the higher their hips rise, the easier your leg swings over."
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a panic reaction and a planned escape attempt from the bottom player?",
-        "answer": "Panic reactions are characterized by explosive but uncoordinated movements: wild bridges without follow-through, full arm extensions pushing at your shoulder, holding breath followed by gasping, and desperate turning movements. Planned escape attempts show controlled breathing, subtle frame building without arm extension, deliberate foot positioning, and small preliminary hip tests before committing. Panic reactions are easier to counter because they create larger openings, while planned attempts require proactive prevention through maintaining connection and monitoring preparation cues."
+        "answer": "Panic reactions look explosive but uncoordinated, while planned escapes show controlled breathing, subtle frames, and deliberate positioning. Panic is characterized by wild bridges without follow-through, full arm extensions pushing at your shoulder, holding breath followed by gasping, and desperate turning movements. Planned escape attempts show controlled breathing, subtle frame building without arm extension, deliberate foot positioning, and small preliminary hip tests before committing. Panic reactions are easier to counter because they create larger openings, while planned attempts require proactive prevention through maintaining connection and monitoring preparation cues.",
+        "distractors": {
+          "plausible": [
+            "Explosive movement signals a planned escape, since trained opponents commit full power; panic shows as small tentative motions.",
+            "The main cue is speed alone — fast movement always means panic, while slow movement always means a planned escape."
+          ],
+          "trap": [
+            "Treat every movement as panic and briefly release pressure to bait a bigger explosion you can counter."
+          ]
+        }
       }
     ],
     "training_progressions": [

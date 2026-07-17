@@ -260,7 +260,16 @@
     "flashcards": [
       {
         "question": "What is the primary purpose of the stacking angle in the Over-Under Pass?",
-        "answer": "The stacking angle serves to elevate the opponent's hips and load their weight onto their shoulders, which eliminates their hip mobility and ability to generate power with their legs. This position compromises their defensive frames and makes it difficult for them to hip escape or recover guard. The stack also creates a psychological pressure that can force defensive errors."
+        "answer": "The stacking angle elevates the opponent's hips and loads their weight onto their shoulders, eliminating their hip mobility and leg power. With their weight stacked onto their shoulders, they cannot hip escape or recover guard, and their defensive frames are compromised. The stack also creates a psychological pressure that can force defensive errors.",
+        "distractors": {
+          "plausible": [
+            "The stacking angle pins the opponent's shoulders flat to the mat so their upper body cannot rotate away from you.",
+            "The stacking angle drives the opponent's knees down to the mat so you can step directly over their legs."
+          ],
+          "trap": [
+            "The stacking angle lifts your own hips high off the opponent, creating the space you need to hop past their legs quickly."
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain chest-to-chest connection throughout the entire passing sequence?",
@@ -268,11 +277,29 @@
       },
       {
         "question": "How does the under-hook control prevent the opponent's most common escape?",
-        "answer": "The under-hook, when threaded deeply to control the far hip, prevents the opponent from hip escaping toward that side, which is their primary escape route from the stacking pressure. By controlling the far hip with your under-hook arm, you eliminate their ability to create the angle needed for effective hip escape. The depth of the under-hook is critical - a shallow under-hook can be defeated by a determined hip escape, while a deep under-hook reaching the far hip creates an insurmountable barrier."
+        "answer": "A deep under-hook that reaches and controls the far hip blocks the hip escape toward that side, the opponent's primary escape from the stack. Controlling the far hip removes their ability to create the angle an effective hip escape requires. Depth is critical: a shallow under-hook can be defeated by a determined hip escape, while a deep under-hook reaching the far hip creates an insurmountable barrier.",
+        "distractors": {
+          "plausible": [
+            "The under-hook pins the opponent's near hip to the mat so they cannot bridge into you and off-balance the pass.",
+            "An under-hook seated under the armpit blocks the shoulder line, which is enough to shut down the hip escape."
+          ],
+          "trap": [
+            "Keep the under-hook shallow and loose so you can pull it free for a fast crossface the moment the opponent starts escaping."
+          ]
+        }
       },
       {
         "question": "Your opponent successfully frames against your neck during the stack - how do you adjust?",
-        "answer": "If the opponent establishes a frame against your neck, you have several options: drive through the frame with increased shoulder pressure while maintaining your under-hook depth; keep your head tight to their body on the over-hook side to make framing difficult; switch to a crossface variation by threading your over-hook arm across their face; or transition to an alternative pass like the knee slice if the frame is too strong. The key is not to back away from the pressure but to adjust your attack angle."
+        "answer": "Drive through the neck frame with increased shoulder pressure and a tight head, adjusting your attack angle instead of backing away. Maintain your under-hook depth while doing so, and keep your head tight to their body on the over-hook side to make framing difficult. You can also switch to a crossface variation by threading your over-hook arm across their face, or transition to an alternative pass like the knee slice if the frame is too strong.",
+        "distractors": {
+          "plausible": [
+            "Post up onto both hands to create height, pulling your neck up and away until the frame loses its contact point.",
+            "Release the under-hook to grab the framing wrist two-on-one and strip the frame before resuming the pass."
+          ],
+          "trap": [
+            "Back your hips out to relieve the pressure and reset, then re-enter the stack once the frame is gone."
+          ]
+        }
       },
       {
         "question": "Why is lateral hip movement preferred over backward movement during the pass completion?",
@@ -280,7 +307,16 @@
       },
       {
         "question": "What is the optimal timing window for initiating the Over-Under Pass from half guard top?",
-        "answer": "The optimal window opens when you have won the upper body control battle - specifically when you have established crossface or head control and the opponent's frames are broken or weakened. Initiating the pass before establishing upper body dominance leads to premature attempts that fail against active frames. The secondary timing window occurs when the opponent is recovering from a failed sweep or submission attempt, as their grips and frames are momentarily disrupted and their hips are not set for defense."
+        "answer": "The window opens once you have won the upper body battle - crossface or head control established and the opponent's frames broken or weakened. Initiating the pass before establishing upper body dominance leads to premature attempts that fail against active frames. A secondary window occurs when the opponent is recovering from a failed sweep or submission attempt, as their grips and frames are momentarily disrupted and their hips are not set for defense.",
+        "distractors": {
+          "plausible": [
+            "The window opens as soon as you free your trapped knee, since the leg entanglement is the main barrier to passing.",
+            "Wait until the opponent is fully flat with both frames set, then rely on steady pressure to grind through them."
+          ],
+          "trap": [
+            "Launch the pass early while the opponent is still framing, using speed to beat their grips before they can settle."
+          ]
+        }
       },
       {
         "question": "Your opponent begins recovering butterfly hooks during your hip circulation - what is your immediate response?",
@@ -288,7 +324,16 @@
       },
       {
         "question": "What grip adjustments are required when executing the Over-Under Pass in no-gi versus gi?",
-        "answer": "In gi, the under-hook hand can grip the belt or pants at the far hip for strong mechanical control, and the over-hook can grab the pants leg at the knee or ankle for secure leg control. In no-gi, the under-hook must reach deeper to cup the far hip bone directly or underhook the thigh, while the over-hook controls the leg by wrapping the forearm around the shin or calf and clamping with a gable grip or wrist control. No-gi requires tighter body-to-body connection since fabric grips are unavailable, making chest pressure even more critical."
+        "answer": "In no-gi the under-hook must reach deeper to cup the far hip bone directly or underhook the thigh, replacing the gi's belt and pants grips. In gi, the under-hook hand can grip the belt or pants at the far hip for strong mechanical control, and the over-hook can grab the pants leg at the knee or ankle. In no-gi, the over-hook instead controls the leg by wrapping the forearm around the shin or calf and clamping with a gable grip or wrist control. No-gi requires tighter body-to-body connection since fabric grips are unavailable, making chest pressure even more critical.",
+        "distractors": {
+          "plausible": [
+            "In no-gi you keep the same shallow under-hook as in gi but swap pant grips for a monkey grip behind the ankle.",
+            "In no-gi, control the far leg by cupping behind the knee with both hands, since the sweaty hip cannot be held directly."
+          ],
+          "trap": [
+            "In no-gi, keep your chest off the opponent and rely on fast hand fighting, since connection matters less without fabric grips."
+          ]
+        }
       },
       {
         "question": "What direction of force should your shoulder drive during the stacking phase?",

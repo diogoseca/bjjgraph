@@ -252,7 +252,16 @@
       },
       {
         "question": "Your opponent is in turtle with their weight sitting back on their heels rather than forward on their hands. Should you attempt the Kiss of the Dragon?",
-        "answer": "No. When the opponent's weight is back on their heels, the space underneath their hips that you need for entry collapses, making it impossible to get your head and shoulders below their hip line. Instead, threaten traditional back take attempts like seatbelt entry or crab ride first, which forces the opponent to commit weight forward into their defensive shell to resist. Once they shift forward, the space opens and the Kiss of the Dragon becomes viable. Reading and manipulating weight distribution is essential for consistent success with this technique."
+        "answer": "No — when their weight sits back on their heels, the space under their hips collapses, so the Kiss of the Dragon entry is not available. You cannot get your head and shoulders below their hip line without that space. Instead, threaten traditional back take attempts like seatbelt entry or crab ride first, which forces the opponent to commit weight forward into their defensive shell to resist. Once they shift forward, the space opens and the Kiss of the Dragon becomes viable. Reading and manipulating weight distribution is essential for consistent success with this technique.",
+        "distractors": {
+          "plausible": [
+            "Yes — a heels-back turtle is more static, which gives you extra time to slide your head and shoulders under their hip line.",
+            "Attempt it immediately, before they can post forward on their hands and base out against the rolling entry."
+          ],
+          "trap": [
+            "Yes — drive your head under their hips anyway, since committing to the roll forces them to lift and creates the space mid-rotation."
+          ]
+        }
       },
       {
         "question": "Why must you position at a 45-degree angle to one side rather than directly behind the turtle?",
@@ -268,11 +277,29 @@
       },
       {
         "question": "Your opponent begins to follow your roll by turning their body to match your rotation. How do you adjust?",
-        "answer": "If you recognize the tracking early, accelerate your roll speed and rapidly transition your grips to complete the back take before they can fully match your rotation. If they are successfully keeping pace with your movement, abort the complete somersault and transition to alternative positions such as leg entanglements or a scramble position. Forcing a back take against an opponent who is rotating with you typically results in a neutral scramble where you have lost your positional advantage from top turtle."
+        "answer": "If you catch the tracking early, accelerate your roll and rapidly switch grips to complete the back take before they match your rotation. If they are successfully keeping pace with your movement, abort the complete somersault and transition to alternative positions such as leg entanglements or a scramble position. Forcing a back take against an opponent who is rotating with you typically results in a neutral scramble where you have lost your positional advantage from top turtle.",
+        "distractors": {
+          "plausible": [
+            "Slow your rotation and pause mid-roll so you can read which way they are turning before committing to the back take.",
+            "Reverse your roll to the opposite side, since they cannot change their turning momentum in time to follow you."
+          ],
+          "trap": [
+            "Commit fully to the somersault regardless; even if they follow the rotation, you will land on top in the resulting scramble."
+          ]
+        }
       },
       {
         "question": "What grip options are available for the Kiss of the Dragon in no-gi situations?",
-        "answer": "Without belt or gi pants available, the primary grip options are cupping underneath the opponent's hips with both hands or gripping the back of their thighs near the crease of the hip. Some practitioners use a front headlock position to initiate before transitioning to hip control for the roll. The rolling motion remains the same but requires stronger arm engagement and tighter body connection to compensate for the absence of fabric grips. Wrist control of the opponent's near arm can also serve as a secondary anchor point during the rotation."
+        "answer": "In no-gi, the primary grips are cupping under the opponent's hips with both hands or gripping the back of their thighs near the hip crease. Some practitioners use a front headlock position to initiate before transitioning to hip control for the roll. The rolling motion remains the same but requires stronger arm engagement and tighter body connection to compensate for the absence of fabric grips. Wrist control of the opponent's near arm can also serve as a secondary anchor point during the rotation.",
+        "distractors": {
+          "plausible": [
+            "In no-gi, the standard grip is a tight bodylock around the opponent's waist, locked before you begin the inversion.",
+            "Control the opponent's far ankle and near wrist, since ankle control is the closest no-gi substitute for pants grips."
+          ],
+          "trap": [
+            "Hook your fingers inside the opponent's shorts or waistband, as this replicates the belt grip you would use in the gi."
+          ]
+        }
       },
       {
         "question": "How does the Kiss of the Dragon to Truck variant differ in grip requirements and finishing position?",

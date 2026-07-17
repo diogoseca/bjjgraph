@@ -294,8 +294,17 @@
       },
       {
         "question": "What are the primary anatomical structures affected by the banana split submission?",
-        "answer": "The banana split primarily targets the hip adductor muscles (inner thigh), groin complex including the gracilis and adductor longus/brevis/magnus, and the lower back through forced leg splitting and spinal extension. It creates compression and overstretching of these muscle groups rather than attacking specific joints. The submission works by exceeding the opponent's flexibility limitations in hip abduction, which varies significantly between individuals.",
-        "safety_critical": false
+        "answer": "The banana split primarily targets the hip adductors, groin complex, and lower back through forced leg splitting and spinal extension. The groin complex includes the gracilis and the adductor longus, brevis, and magnus. It creates compression and overstretching of these muscle groups rather than attacking specific joints, working by exceeding the opponent's flexibility limits in hip abduction, which vary significantly between individuals.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The banana split primarily attacks the hip joint capsule, forcing the ball-and-socket toward dislocation like a hip lock.",
+            "The banana split mainly targets the hamstrings and knee ligaments by hyperextending the trapped leg."
+          ],
+          "trap": [
+            "Because it only stretches muscle and never loads joints or the spine, the banana split is safe to crank on fast without control."
+          ]
+        }
       },
       {
         "question": "Why is staying connected to the opponent's hips essential for successful banana split execution from the truck?",
@@ -324,18 +333,45 @@
       },
       {
         "question": "Your opponent begins walking their hips toward you to reduce the splitting angle - what adjustment maintains finishing pressure?",
-        "answer": "When the opponent walks their hips toward you to close the splitting angle, simultaneously scoot your hips away while extending your twister-hook leg to maintain the spread. Pull their far leg more aggressively toward you while staying tight to their hips to prevent them from squaring up further. If they successfully close the angle significantly, transition to the calf slicer or back take before the position deteriorates rather than fighting a losing positional battle.",
-        "safety_critical": false
+        "answer": "Scoot your hips away while extending your twister-hook leg to maintain the spread as they walk their hips toward you. Pull their far leg more aggressively toward you while staying tight to their hips to prevent them from squaring up further. If they successfully close the angle significantly, transition to the calf slicer or back take before the position deteriorates rather than fighting a losing positional battle.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Keep your hips planted and pull their far leg harder, relying on grip strength alone to restore the splitting angle.",
+            "Squeeze your knees together and hold the current angle, waiting for them to tire before extending the split again."
+          ],
+          "trap": [
+            "Release your twister hook to free your leg, then turn and face them so you can push their hips back into place."
+          ]
+        }
       },
       {
         "question": "What physical indicators suggest you are approaching the submission breaking point and must slow down?",
-        "answer": "Breaking point indicators include visible straining in the opponent's face, audible grunting or sharp breathing changes, involuntary muscle twitching in the inner thighs, significant resistance followed by sudden relaxation indicating they have hit their flexibility limit, and the opponent's body beginning to twist or contort to relieve pressure. Recognize these signs and pause or slow pressure application to give adequate time for tapping before the breaking point is reached. These signals demand immediate attention.",
-        "safety_critical": true
+        "answer": "Facial straining, grunting, involuntary inner-thigh twitching, and sudden relaxation after strong resistance signal the breaking point. Sharp breathing changes and the opponent twisting or contorting their body to relieve pressure are further warnings. Recognize these signs and pause or slow pressure application to give adequate time for tapping before the breaking point is reached. These signals demand immediate attention.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Sudden relaxation after resistance means the opponent is conceding, so you can safely accelerate to the finish.",
+            "The opponent going quiet and still is the key warning sign, since it shows the pressure is finally taking effect."
+          ],
+          "trap": [
+            "Explosive resistance means the tap is imminent, so crank the split faster before they find an escape."
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if the opponent's far leg becomes sweaty or slippery during execution?",
-        "answer": "When grips become compromised due to sweat, switch from ankle control to deeper control points like behind the knee or the lower thigh where there is more surface area and friction. You can also hook their far leg with your own leg rather than relying solely on hand grips, creating a mechanical lock that does not depend on friction. The key is having redundant control mechanisms so losing one grip does not result in losing the position entirely.",
-        "safety_critical": false
+        "answer": "Switch from the ankle to deeper grips behind the knee or lower thigh, or hook their far leg with your own leg. These control points offer more surface area and friction, and a leg hook creates a mechanical lock that does not depend on friction at all. The key is having redundant control mechanisms so losing one grip does not result in losing the position entirely.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Regrip the ankle with both hands and squeeze harder, since the ankle remains the strongest control point when slippery.",
+            "Wipe your palms dry on your shorts one hand at a time, then re-establish the same ankle grip you had before."
+          ],
+          "trap": [
+            "Release the leg entirely to dry both hands at once, then re-enter the position once your grips are secure."
+          ]
+        }
       },
       {
         "question": "What distinguishes the banana split's pressure mechanism from traditional joint locks like the armbar?",

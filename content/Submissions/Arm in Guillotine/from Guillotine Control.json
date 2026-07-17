@@ -315,8 +315,17 @@
       },
       {
         "question": "What control must be established before attempting the arm-in guillotine finish from guillotine control?",
-        "answer": "Before finishing, you must have: established guillotine control with the opponent's posture broken forward and head below hip level, the opponent's arm fully trapped inside the choking loop with no ability to extract it, a secure hand clasp behind the head in your chosen grip configuration, and top position with hip pressure preventing the opponent from posturing up or pulling you into their closed guard. Attempting the finish without these prerequisites reduces success rate significantly.",
-        "safety_critical": false
+        "answer": "You need broken posture, the arm fully trapped inside the choking loop, a secure hand clasp, and hip pressure keeping the opponent down. Specifically: guillotine control with the opponent's posture broken forward and head below hip level, the opponent's arm trapped inside the choking loop with no ability to extract it, a secure hand clasp behind the head in your chosen grip configuration, and top position with hip pressure preventing the opponent from posturing up or pulling you into their closed guard. Attempting the finish without these prerequisites reduces success rate significantly.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "You need the opponent's arm isolated outside the choking loop so your forearm can reach the neck cleanly before you clasp.",
+            "You need a tight neck grip locked in first; the trapped arm and hip pressure can be secured after finishing pressure begins."
+          ],
+          "trap": [
+            "You should pull the opponent into your closed guard first, since falling back with the grip is the strongest way to finish."
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up with their free arm during your arm-in guillotine attempt—what adjustment prevents escape?",

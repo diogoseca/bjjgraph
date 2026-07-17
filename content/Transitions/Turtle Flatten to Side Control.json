@@ -235,7 +235,16 @@
     "flashcards": [
       {
         "question": "What is the optimal angle of force application when flattening an opponent from turtle?",
-        "answer": "The optimal angle is approximately 45 degrees lateral — driving diagonally toward the mat through the opponent's near hip rather than straight down onto their back. A 45-degree lateral angle attacks the weakest structural axis of the four-point turtle base, causing it to collapse sideways. Straight downward pressure is absorbed by the base structure and rarely collapses the turtle effectively."
+        "answer": "The optimal angle is approximately 45 degrees lateral, driving diagonally toward the mat through the opponent's near hip. This 45-degree lateral angle attacks the weakest structural axis of the four-point turtle base, causing it to collapse sideways, rather than driving straight down onto their back. Straight downward pressure is absorbed by the base structure and rarely collapses the turtle effectively.",
+        "distractors": {
+          "plausible": [
+            "The optimal angle is straight down through the center of the opponent's back, compressing the turtle base into the mat.",
+            "The optimal angle is about 90 degrees sideways, pushing horizontally across their shoulders to tip them over."
+          ],
+          "trap": [
+            "Drive your weight forward over their head and shoulders so your momentum carries them flat beneath you."
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their elbows tight to their knees in a strong defensive turtle — how do you create the opening for the flatten?",
@@ -243,7 +252,16 @@
       },
       {
         "question": "What grip configuration do you need before initiating the flatten?",
-        "answer": "You need two control points established simultaneously: one on the hip line (far hip, belt, or waistband grip with your near hand) and one controlling the upper body (crossface, collar tie, seatbelt, or underhook with your far arm). The hip grip controls the direction and angle of the flatten. The upper body grip prevents the opponent from turning in, sitting through, or creating a scramble. Attempting the flatten with only one of these control points allows the opponent to escape in the direction that is uncontrolled."
+        "answer": "You need two simultaneous control points: a hip-line grip with your near hand and upper-body control with your far arm. The hip grip (far hip, belt, or waistband) controls the direction and angle of the flatten, while the upper-body grip (crossface, collar tie, seatbelt, or underhook) prevents the opponent from turning in, sitting through, or creating a scramble. Attempting the flatten with only one of these control points allows the opponent to escape in the direction that is uncontrolled.",
+        "distractors": {
+          "plausible": [
+            "You need a deep seatbelt grip alone, since it controls both the upper body and the hips at the same time.",
+            "Secure the upper-body grip first and add the hip grip only after you have already begun the drive."
+          ],
+          "trap": [
+            "Reach both arms deep under their torso and hug the waist so you can flip them flat in one motion."
+          ]
+        }
       },
       {
         "question": "Your opponent initiates a granby roll as you begin the flatten — how do you adjust?",
@@ -259,15 +277,42 @@
       },
       {
         "question": "What is the most critical mechanical detail during the drive phase of the flatten?",
-        "answer": "The most critical detail is using your near knee as a wedge against the opponent's near hip while driving your chest through their shoulder at the same 45-degree angle. The knee and chest must drive in the same direction simultaneously — the knee provides structural force against their base while the chest provides upper body control and weight transfer. If only the knee drives without chest, the opponent turns in; if only the chest drives without the knee wedge, the opponent can hip escape away from the pressure."
+        "answer": "The critical detail is wedging your near knee against their near hip while your chest drives through their shoulder at 45 degrees. The knee and chest must drive in the same direction simultaneously — the knee provides structural force against their base while the chest provides upper body control and weight transfer. If only the knee drives without chest, the opponent turns in; if only the chest drives without the knee wedge, the opponent can hip escape away from the pressure.",
+        "distractors": {
+          "plausible": [
+            "Drive your chest through their shoulder first, then bring the knee in as a wedge once they begin to tip.",
+            "Wedge the near knee against their near shoulder while the chest presses straight down on their hips."
+          ],
+          "trap": [
+            "Step your near leg over their back and settle your hips on top of the turtle to add maximum weight."
+          ]
+        }
       },
       {
         "question": "When should you choose the turtle flatten over attempting a back take?",
-        "answer": "Choose the flatten when: the opponent has excellent hand fighting that prevents seatbelt establishment, they are constantly threatening sit-throughs that make hook insertion risky, they have a strong turtle base that resists your hook attempts, or when you recognize they are better at turtle escapes than you are at back takes. The flatten is also preferable in competition when you need to advance position reliably rather than risk a scramble. If your back take attempt has been defended twice, switching to the flatten is strategically sound because it attacks a different axis of the opponent's defense."
+        "answer": "Choose the flatten when hand fighting, sit-through threats, or a strong turtle base makes seatbelt control and hook insertion unreliable. It is also the right call when the opponent is better at turtle escapes than you are at back takes, and in competition when you need to advance position reliably rather than risk a scramble. If your back take attempt has been defended twice, switching to the flatten is strategically sound because it attacks a different axis of the opponent's defense.",
+        "distractors": {
+          "plausible": [
+            "Choose the flatten only after the back take has failed at least three times, since the back always scores more.",
+            "Choose the flatten mainly against bigger opponents, because back takes only work on smaller ones."
+          ],
+          "trap": [
+            "Keep hunting the hooks even against constant sit-throughs, since switching to the flatten concedes the scramble."
+          ]
+        }
       },
       {
         "question": "How does the direction of force application differ between gi and no-gi turtle flatten?",
-        "answer": "In gi, the belt grip allows you to pull and rotate the opponent's hips while driving with your chest, creating a twisting flatten motion that is very difficult to resist. In no-gi, without the belt grip, you must rely more on pushing force through hip cupping and chest drive, making the motion more linear. No-gi requires tighter body-to-body contact throughout the flatten because grips are less secure and the opponent can slip away more easily. The core mechanic remains the same — lateral 45-degree drive — but no-gi demands more chest pressure and body positioning to compensate for reduced grip strength."
+        "answer": "In gi the belt grip creates a pulling, rotational flatten, while no-gi relies on more linear pushing through hip cupping and chest drive. No-gi requires tighter body-to-body contact throughout the flatten because grips are less secure and the opponent can slip away more easily. The core mechanic remains the same — lateral 45-degree drive — but no-gi demands more chest pressure and body positioning to compensate for reduced grip strength.",
+        "distractors": {
+          "plausible": [
+            "The gi flatten is more linear because grips lock you in place, while no-gi allows a freer rotational motion.",
+            "In no-gi you pull on the head and neck to rotate them, since the neck replaces the belt as the handle."
+          ],
+          "trap": [
+            "In no-gi, keep space between your chest and their back so you can switch angles quickly during the drive."
+          ]
+        }
       },
       {
         "question": "Your flatten attempt stalls because the opponent bases out wide with their knees — what adjustment do you make?",

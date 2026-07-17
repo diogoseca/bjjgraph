@@ -240,7 +240,16 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Truck Position Entry from standing back control?",
-        "answer": "The primary goal is to convert a dominant standing back control position into the Truck, bypassing the turtle position entirely and immediately accessing the Twister system of attacks including Twister, Calf Slicer, Banana Split, and alternative back takes. This transition exploits the opponent's defensive drop to their knees by threading a leg hook during the descent rather than following to standard grounded back control."
+        "answer": "The primary goal is to convert standing back control into the Truck, bypassing turtle entirely and unlocking the Twister system of attacks. That system includes the Twister, Calf Slicer, Banana Split, and alternative back takes. The transition exploits the opponent's defensive drop to their knees by threading a leg hook during the descent rather than following them down to standard grounded back control.",
+        "distractors": {
+          "plausible": [
+            "The primary goal is to follow the opponent down and secure grounded back control with both hooks before hunting the Truck.",
+            "The primary goal is to ride the opponent into turtle top control, then break down their shell to enter the Truck."
+          ],
+          "trap": [
+            "The primary goal is to release back control and drop straight down to attack the legs as the opponent falls to their knees."
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for threading the leg hook during this transition?",
@@ -268,15 +277,42 @@
       },
       {
         "question": "Your opponent stays completely upright in standing back control and refuses to drop. Should you force the Truck entry?",
-        "answer": "No. The Truck Position Entry specifically exploits the descent from standing to ground. If the opponent maintains strong standing posture, pursue other standing back control attacks first: threaten the rear naked choke to force defensive reactions, apply a body triangle to compromise their base, or execute a mat return takedown. These attacks often force the opponent to eventually lower their base, creating the Truck entry opportunity. Forcing a Truck entry against a standing opponent with good posture results in losing back control entirely."
+        "answer": "No — against strong standing posture, attack with chokes, a body triangle, or mat returns until they lower their base. The Truck Position Entry specifically exploits the descent from standing to ground. Threaten the rear naked choke to force defensive reactions, apply a body triangle to compromise their base, or execute a mat return takedown; these attacks often force the opponent to eventually lower their base and create the Truck entry opportunity. Forcing a Truck entry against a postured standing opponent results in losing back control entirely.",
+        "distractors": {
+          "plausible": [
+            "No — abandon the Truck entirely, since the position can only ever be entered from turtle top control.",
+            "Yes, as long as the harness grip is locked, since the grip alone keeps you attached through any forced descent."
+          ],
+          "trap": [
+            "Yes — jump both legs into the Truck from standing, letting your falling weight drag the opponent down to the mat."
+          ]
+        }
       },
       {
         "question": "What submissions become immediately available after successfully entering Truck from standing back control?",
-        "answer": "The Truck position opens the full Twister system: the Twister spine lock by controlling the far leg and applying rotational torque, the Calf Slicer by triangling your legs around the opponent's trapped leg, the Banana Split groin stretch by controlling both legs and spreading them apart, and alternative back takes by releasing the Truck and inserting hooks. The Calf Slicer is often the fastest available attack since your leg is already in position, while the Twister requires additional leg control setup."
+        "answer": "The Truck opens the full Twister system: the Twister, Calf Slicer, Banana Split, and alternative back takes. The Twister is a spine lock applied by controlling the far leg and adding rotational torque; the Calf Slicer comes from triangling your legs around the opponent's trapped leg; the Banana Split is a groin stretch from controlling both legs and spreading them apart; and back takes come from releasing the Truck and inserting hooks. The Calf Slicer is often the fastest available attack since your leg is already in position, while the Twister requires additional leg control setup.",
+        "distractors": {
+          "plausible": [
+            "The Twister is the fastest immediate attack since your leg is already in position, with the Calf Slicer requiring extra setup.",
+            "The Truck primarily opens leg locks, with heel hooks and kneebars on the trapped leg as the main finishes."
+          ],
+          "trap": [
+            "Release the leg hook immediately to hunt the rear naked choke, since the Truck itself offers no direct finishes."
+          ]
+        }
       },
       {
         "question": "How does the free leg function after the initial hook is threaded and the roll begins?",
-        "answer": "The free leg serves a dual purpose: first, it acts as a posting brake on the mat during the roll to prevent over-rotation past the Truck position, stopping you on your side rather than flat on your back. Second, after the roll completes, the free leg immediately establishes secondary control by posting over the opponent's near thigh or hooking behind their knee, creating the figure-four or lockdown configuration that locks the Truck structure and prevents the opponent from extracting their legs."
+        "answer": "The free leg first posts on the mat as a brake to stop over-rotation, then locks over the opponent's near leg to secure the Truck. During the roll it prevents rotating past the Truck position, stopping you on your side rather than flat on your back. After the roll completes, it immediately establishes secondary control by posting over the opponent's near thigh or hooking behind their knee, creating the figure-four or lockdown configuration that locks the Truck structure and prevents the opponent from extracting their legs.",
+        "distractors": {
+          "plausible": [
+            "The free leg drives off the mat to add rotation to the roll so you finish the movement flat on your back.",
+            "The free leg immediately chases the opponent's far leg for the Twister before the roll has fully settled."
+          ],
+          "trap": [
+            "Tuck the free leg tight to your body during the roll so nothing catches the mat and slows your rotation."
+          ]
+        }
       },
       {
         "question": "During the descent your opponent flattens their hips to the mat instead of landing on hands and knees. How does this affect your hook threading?",

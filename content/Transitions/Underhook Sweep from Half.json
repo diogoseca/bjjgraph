@@ -241,7 +241,16 @@
       },
       {
         "question": "What is the primary purpose of controlling your opponent's far hip during the underhook sweep?",
-        "answer": "Controlling the far hip prevents your opponent from posting their far leg out for base, which is one of the most common and effective defenses against this sweep. By pulling the far hip toward you, you restrict their ability to extend that leg for support while also helping to load their weight onto the sweeping trajectory. This grip essentially removes one of their primary defensive options before they can employ it."
+        "answer": "Controlling the far hip stops your opponent from posting their far leg out for base, the most common defense against this sweep. By pulling the far hip toward you, you restrict their ability to extend that leg for support while also helping to load their weight onto the sweeping trajectory. This grip essentially removes one of their primary defensive options before they can employ it.",
+        "distractors": {
+          "plausible": [
+            "The far-hip grip mainly pulls you up onto their body so you can climb toward back control instead of sweeping.",
+            "Controlling the far hip chiefly keeps their weight off your trapped leg so you can free your knee first."
+          ],
+          "trap": [
+            "You should push the far hip away from you to create the space needed to roll them over the top."
+          ]
+        }
       },
       {
         "question": "Your opponent whizzers hard over your underhook arm and starts driving you flat - what adjustments should you make?",
@@ -253,15 +262,42 @@
       },
       {
         "question": "Why must the underhook be maintained throughout the entire sweep and into top position?",
-        "answer": "Maintaining the underhook throughout ensures continuous control of your opponent's upper body, preventing them from creating frames, turning away, or escaping during the transition. If you release the underhook too early, your opponent can use the scramble to recover guard or escape to neutral position. The underhook that initiates the sweep should be the same connection that controls them as you establish side control, creating a seamless chain of control from bottom to top position."
+        "answer": "Keeping the underhook the entire time prevents your opponent from framing, turning away, or escaping during the transition to top. If you release the underhook too early, your opponent can use the scramble to recover guard or escape to neutral position. The underhook that initiates the sweep should be the same connection that controls them as you establish side control, creating a seamless chain of control from bottom to top position.",
+        "distractors": {
+          "plausible": [
+            "The underhook only matters for initiating the sweep; once they start tipping you should switch to a crossface.",
+            "You keep the underhook mainly to protect your neck from guillotines rather than to control their movement."
+          ],
+          "trap": [
+            "Release the underhook mid-sweep so you can post that hand on the mat and drive your weight into top position."
+          ]
+        }
       },
       {
         "question": "What role does hip elevation play in generating sweeping power?",
-        "answer": "Hip elevation through bridging creates the primary power source for the sweep, allowing you to use your entire lower body musculature rather than just arm strength. By elevating your hips and rotating them toward the underhook side, you create a lever effect with your body serving as the fulcrum and your opponent being lifted over the top. This biomechanical principle allows smaller practitioners to sweep larger opponents by maximizing leverage and minimizing reliance on upper body strength alone."
+        "answer": "Bridging your hips upward is the sweep's primary power source, engaging your entire lower body instead of relying on arm strength. By elevating your hips and rotating them toward the underhook side, you create a lever effect with your body serving as the fulcrum and your opponent being lifted over the top. This biomechanical principle allows smaller practitioners to sweep larger opponents by maximizing leverage and minimizing reliance on upper body strength alone.",
+        "distractors": {
+          "plausible": [
+            "Hip elevation mainly creates space underneath the opponent so you can slip your knee through before you sweep.",
+            "Bridging serves chiefly to off-balance them backward so your arms can then finish the lift over the top."
+          ],
+          "trap": [
+            "Keep your hips flat on the mat and pull hard with the underhook arm, since arm power steers the sweep most precisely."
+          ]
+        }
       },
       {
         "question": "What specific grip placement and depth is required for the underhook to function as an effective sweeping lever?",
-        "answer": "The underhook arm must drive deep under the opponent's armpit so that your shoulder connects tightly to their ribs, not just your hand or forearm entering the space. Your hand should grip their far lat muscle, opposite shoulder, or back of the gi to create a complete wraparound connection. The elbow must stay close to your own body to maintain structural integrity. A shallow underhook where only the hand reaches under allows the opponent to easily strip it with a whizzer, while a deep underhook with shoulder-to-rib contact creates a structural lever they cannot easily remove."
+        "answer": "The underhook must drive deep under the armpit so your shoulder connects to their ribs, with the hand gripping the far lat, shoulder, or gi. It is not enough for just your hand or forearm to enter the space — only shoulder-to-rib contact creates a complete wraparound connection. The elbow must stay close to your own body to maintain structural integrity. A shallow underhook where only the hand reaches under allows the opponent to easily strip it with a whizzer, while a deep underhook with shoulder-to-rib contact creates a structural lever they cannot easily remove.",
+        "distractors": {
+          "plausible": [
+            "A firm hand grip cupping their far shoulder is deep enough, as long as your palm connection stays tight.",
+            "The underhook should target their near hip rather than the armpit so you can lift them directly over your body."
+          ],
+          "trap": [
+            "Flare your underhook elbow wide away from your body to create a broader wedge under their armpit."
+          ]
+        }
       },
       {
         "question": "In which direction should the primary sweeping force be applied relative to your opponent's body?",
@@ -273,7 +309,16 @@
       },
       {
         "question": "How does the underhook sweep connect to other half guard attacks in a systematic approach?",
-        "answer": "The underhook sweep serves as a central technique that connects to multiple other attacks: when defended with a whizzer it opens back takes; when opponent sits back it transitions to waiter sweep; when they flatten you it allows entry to deep half; when the far leg posts it can chain to butterfly sweeps or single leg attacks. This interconnected system means that every defense your opponent makes to the underhook sweep creates an opportunity for a different attack, embodying the principle of creating dilemmas from bottom position."
+        "answer": "The underhook sweep is a central hub where every common defense — whizzer, sitting back, flattening you, posting the far leg — opens a different attack. When defended with a whizzer it opens back takes; when the opponent sits back it transitions to the waiter sweep; when they flatten you it allows entry to deep half; when the far leg posts it can chain to butterfly sweeps or single leg attacks. This interconnected system means every defense creates an opportunity for a different attack, embodying the principle of creating dilemmas from bottom position.",
+        "distractors": {
+          "plausible": [
+            "When the sweep is defended, the systematic answer is to recover full closed guard and restart your attacks from there.",
+            "The sweep chains mainly to other sweeps; back takes require abandoning the underhook and switching grips first."
+          ],
+          "trap": [
+            "If they whizzer hard, keep driving the same sweep with more power until their base finally breaks."
+          ]
+        }
       }
     ],
     "safety_considerations": "The underhook sweep is generally one of the safer techniques in Brazilian Jiu-Jitsu, with minimal injury risk when executed properly. However, practitioners should be aware that explosive bridging can strain the neck if head position is incorrect - always keep your head tight to opponent's body rather than bridging with an extended neck. When coming up on top, control your weight distribution to avoid driving knees into opponent's ribs or face during the scramble. Training partners should tap the mat if they feel themselves being swept too aggressively and are unable to breakfall safely, particularly on hard surfaces. Beginners should practice breakfalls separately before drilling this sweep at full speed. As with all sweeps, be conscious of the training space and ensure sufficient room to complete the technique without rolling into walls, equipment, or other practitioners.",

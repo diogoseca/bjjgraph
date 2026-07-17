@@ -239,7 +239,16 @@
       },
       {
         "question": "When is the optimal timing to initiate the rolling back take?",
-        "answer": "The optimal timing is when the opponent is in a static defensive turtle position with their weight neutral or slightly backward, or when they push back into your pressure. Attempting the roll when their weight is too far forward will result in them posting and defending successfully. Wait for them to settle or create the proper weight distribution with chest pressure."
+        "answer": "The optimal moment is when the opponent is static in turtle with weight neutral or slightly back, or pushing back into your pressure. Attempting the roll when their weight is too far forward will result in them posting and defending successfully. Wait for them to settle or create the proper weight distribution with chest pressure.",
+        "distractors": {
+          "plausible": [
+            "The optimal moment is when the opponent's weight drifts forward, since their forward momentum helps carry the rotation.",
+            "Roll the instant the opponent reaches turtle, before they have any time to settle into a defensive base."
+          ],
+          "trap": [
+            "If they base heavily forward, yank them over your shoulder anyway — full commitment beats waiting for timing."
+          ]
+        }
       },
       {
         "question": "How should you respond if the opponent posts their far arm wide to prevent the roll?",
@@ -247,11 +256,29 @@
       },
       {
         "question": "What is the purpose of loading your weight onto the opponent before initiating the roll?",
-        "answer": "Loading your weight serves two purposes: first, it drives the opponent's weight slightly backward, creating the ideal weight distribution for the roll; second, it creates the initial momentum and connection needed for a smooth rotation. The loaded weight also prevents the opponent from standing up and establishes the heavy chest pressure needed to maintain connection during the roll."
+        "answer": "Loading your weight drives the opponent slightly backward and creates the momentum and connection needed for a smooth roll. It also prevents the opponent from standing up and establishes the heavy chest pressure needed to maintain connection during the roll.",
+        "distractors": {
+          "plausible": [
+            "Loading your weight is mainly to flatten the turtle to the mat so the opponent cannot move while you roll.",
+            "You load weight to make the opponent carry you, tiring their arms until their base collapses."
+          ],
+          "trap": [
+            "Stay light on the opponent so you can spin freely — heavy weight only slows your rotation down."
+          ]
+        }
       },
       {
         "question": "Why is it important to begin hooking during the landing phase rather than after you've fully landed?",
-        "answer": "Beginning to hook during the landing phase is crucial because it prevents the opponent from having any window of opportunity to turn back into you or escape to turtle. If you land first and then attempt to hook, the opponent can use that 1-2 second gap to defend, turn, or scramble. Threading the hook during landing ensures immediate control and prevents defensive reactions."
+        "answer": "Hooking during the landing phase denies the opponent any window to turn back into you or escape to turtle. If you land first and then attempt to hook, the opponent can use that 1-2 second gap to defend, turn, or scramble. Threading the hook during landing ensures immediate control and prevents defensive reactions.",
+        "distractors": {
+          "plausible": [
+            "It is safer to land and fully stabilize your seatbelt grip first, then insert the hooks one at a time.",
+            "Hooking during the landing phase mainly cushions your fall so you do not land flat on your back."
+          ],
+          "trap": [
+            "Cross your ankles in front of their hips mid-roll so the hooks can never be stripped afterward."
+          ]
+        }
       },
       {
         "question": "What adjustment should you make when attempting the rolling back take in no-gi situations?",
@@ -263,7 +290,16 @@
       },
       {
         "question": "What grip configuration provides the strongest connection during the rolling motion?",
-        "answer": "The strongest configuration is an over-under grip with one arm reaching under the opponent's far armpit to grip their far shoulder while the other arm wraps over their near shoulder or around their head. This creates a clamp that locks your chest to their upper back. In gi, gripping the far collar with the under arm and controlling the near shoulder with the over arm provides maximum security. The key is that both arms create opposing pressure that prevents separation during rotation."
+        "answer": "The strongest connection is an over-under grip: one arm under the far armpit gripping the far shoulder, the other over the near shoulder or head. This creates a clamp that locks your chest to their upper back. In gi, gripping the far collar with the under arm and controlling the near shoulder with the over arm provides maximum security. The key is that both arms create opposing pressure that prevents separation during rotation.",
+        "distractors": {
+          "plausible": [
+            "The strongest connection is a double-underhook body lock around the opponent's waist, chest glued to their lower back.",
+            "Clamping both arms over the top of the opponent's shoulders and neck gives the tightest lock for the roll."
+          ],
+          "trap": [
+            "Grip both of the opponent's wrists as you roll so they cannot post or frame during the rotation."
+          ]
+        }
       },
       {
         "question": "The roll stalls halfway through and you end up on your side with your opponent still turtled - what is your immediate recovery plan?",

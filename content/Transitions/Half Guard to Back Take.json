@@ -258,23 +258,68 @@
     "flashcards": [
       {
         "question": "What is the primary control point that enables the half guard to back take transition?",
-        "answer": "The underhook on opponent's far side is the primary control point, providing leverage for angle creation, preventing opponent's crossface pressure, and serving as the main anchor throughout the entire transition from half guard to full back control."
+        "answer": "The far-side underhook is the primary control point that anchors the entire transition from half guard to back control. It provides the leverage for angle creation, prevents the opponent's crossface pressure, and remains the main anchor from the initial half guard position all the way to full back control.",
+        "distractors": {
+          "plausible": [
+            "The knee shield across the opponent's torso is the primary control, creating the space needed to climb toward the back.",
+            "Controlling the opponent's near-side wrist is the main anchor, since it stops them posting as you angle out for the back."
+          ],
+          "trap": [
+            "The near-side overhook is the strongest anchor, since it pins their arm to your chest while you climb to the back."
+          ]
+        }
       },
       {
         "question": "When is the optimal timing to execute the climb to back control?",
-        "answer": "You should climb to back control after creating a perpendicular angle with the underhook, specifically when opponent's weight commits forward and their bottom hip is blocked by your knee, preventing their defensive turn-in or base recovery."
+        "answer": "Climb to back control once your underhook has created a perpendicular angle and the opponent's weight commits forward. Specifically, their bottom hip should be blocked by your knee at that moment, which prevents their defensive turn-in and stops them from recovering base as you climb.",
+        "distractors": {
+          "plausible": [
+            "Climb the moment you secure the underhook, before the opponent can settle their base or begin working a crossface.",
+            "Climb when the opponent's weight shifts backward, since a rear-loaded base leaves their hips light and easy to clear."
+          ],
+          "trap": [
+            "Wait until the opponent postures fully upright, then release the underhook and lunge for the back in one explosive burst."
+          ]
+        }
       },
       {
         "question": "What is the most common technical error when attempting this transition and how is it corrected?",
-        "answer": "The most common error is releasing the underhook too early during the transition, which results in loss of control and allows opponent to establish crossface and flatten you. The correction is to maintain underhook connection throughout the entire sequence until back control is fully established with both hooks inserted and secured."
+        "answer": "The most common error is releasing the underhook too early, which loses control and lets the opponent crossface and flatten you. The correction is to maintain the underhook connection throughout the entire sequence, keeping it until back control is fully established with both hooks inserted and secured.",
+        "distractors": {
+          "plausible": [
+            "The most common error is inserting the second hook too slowly, corrected by jumping both hooks in simultaneously.",
+            "The most common error is climbing before freeing your trapped bottom leg, corrected by extracting the leg first."
+          ],
+          "trap": [
+            "The fix is to trade the underhook for a headlock grip on the way up, since head control matters more than arm position."
+          ]
+        }
       },
       {
         "question": "How do you effectively counter an opponent's crossface pressure when attempting the back take?",
-        "answer": "Counter crossface pressure by using your inside arm to create a defensive frame against their neck or shoulder while simultaneously using the underhook to create the perpendicular angle anyway. If crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage."
+        "answer": "Frame against their neck or shoulder with your inside arm while the underhook still drives you to the perpendicular angle. The defensive frame blunts the crossface as you angle out anyway; if the crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage.",
+        "distractors": {
+          "plausible": [
+            "Swim the underhook out and re-pummel it deeper on the same side, resetting arm position before you address the crossface.",
+            "Turn your head toward the crossface and bite down on their arm, trapping it so they cannot apply shoulder pressure."
+          ],
+          "trap": [
+            "Accept the crossface and lie flat on your back to conserve energy, waiting for them to move before you re-attack."
+          ]
+        }
       },
       {
         "question": "Why is blocking the opponent's bottom hip critical to the success of this technique?",
-        "answer": "Blocking opponent's bottom hip with your top knee is critical because it prevents them from turning into you to recover guard and maintains your perpendicular angle during the climb. Without this hip block, opponents can easily rotate toward you and nullify the back take attempt, recovering to standard half guard or even passing to top position."
+        "answer": "Blocking the bottom hip with your top knee stops the opponent from turning into you to recover guard during the climb. It also maintains your perpendicular angle; without this hip block, opponents can easily rotate toward you and nullify the back take, recovering to standard half guard or even passing to top position.",
+        "distractors": {
+          "plausible": [
+            "The hip block mainly stops the opponent from standing up, since building to their feet is the primary counter to the climb.",
+            "The hip block matters because it pins their bottom leg in place, keeping your half guard entanglement locked longer."
+          ],
+          "trap": [
+            "You can skip the hip block whenever your underhook is deep, since arm control alone shuts down any turn-in defense."
+          ]
+        }
       },
       {
         "question": "How does the Kimura Grip variation differ from the standard underhook approach?",
@@ -298,7 +343,16 @@
       },
       {
         "question": "What conditions must exist before you release the half guard leg lock to begin hook insertion?",
-        "answer": "Before releasing the half guard lock, three conditions must be met: your perpendicular angle must be fully established with your torso facing their side, your top knee must be blocking their bottom hip to prevent the turn-in defense, and your underhook must be deep and secure with chest beginning to make contact with their side. Releasing the lock prematurely without these conditions results in losing the entanglement anchor without having established sufficient alternative control."
+        "answer": "Release the half guard lock only once your perpendicular angle, your knee's hip block, and a deep underhook are all established. Specifically: your torso must face their side, your top knee must block their bottom hip to prevent the turn-in defense, and the underhook must be secure with your chest beginning to contact their side. Releasing the lock prematurely without these conditions loses the entanglement anchor before sufficient alternative control exists.",
+        "distractors": {
+          "plausible": [
+            "Release the lock as soon as the underhook is deep, since the angle and hip block can be built after your legs are free.",
+            "Release the lock once your first hook is already in, using the new hook as the anchor that replaces the entanglement."
+          ],
+          "trap": [
+            "Release the lock first to free your hips, because staying entangled only slows the climb once you commit to the back."
+          ]
+        }
       },
       {
         "question": "Your opponent applies a strong whizzer as you establish the underhook - how does this affect your back take strategy?",

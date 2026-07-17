@@ -284,7 +284,16 @@
       },
       {
         "question": "Your opponent is defending the triangle effectively but staying square without turning. Should you attempt the back take?",
-        "answer": "No. The back take requires rotational exposure that only occurs when the opponent turns away or commits directional weight. If they maintain a square, neutral defense without rotating, you should continue attacking the triangle choke by adjusting your angle, pulling their head down, and working to break their grip defense. Alternatively, attack the armbar by shifting to an arm attack when they posture, or threaten the omoplata when they drive forward. Only transition to the back take when their defensive movement creates genuine back exposure."
+        "answer": "No — continue attacking the triangle, since the back take requires rotational exposure that only exists when the opponent turns or commits weight. Against a square, neutral defense with no rotation, keep working the choke by adjusting your angle, pulling their head down, and breaking their grip defense. Alternatively, shift to the armbar when they posture, or threaten the omoplata when they drive forward. Only transition to the back take when their defensive movement creates genuine back exposure.",
+        "distractors": {
+          "plausible": [
+            "Yes — attacking the back first forces them to turn, which creates the rotation you need to come back and finish the triangle.",
+            "Yes, but only after they fully defend the choke; a stalled triangle means the back is the highest-percentage option remaining."
+          ],
+          "trap": [
+            "Yes — open your triangle lock and swing your hips out toward their back before they can settle into their square base."
+          ]
+        }
       },
       {
         "question": "What grip configuration should you prioritize first on the opponent's upper body during the initial phase of this transition?",
@@ -300,7 +309,16 @@
       },
       {
         "question": "When during your opponent's triangle defense is the optimal moment to initiate the back take?",
-        "answer": "The optimal moment is when the opponent commits their weight and momentum to a directional escape, specifically when they begin rotating their shoulders away from the choking leg or when they drive forward aggressively to stack. The commitment must be genuine, not exploratory. Wait for the moment their center of gravity shifts past the point of easy reversal. Initiating too early when they are only testing the direction allows them to change course, while initiating too late after they have already created significant distance means you have lost the connection needed for the transition."
+        "answer": "Initiate the back take when the opponent genuinely commits their weight and momentum to a directional escape, past the point of easy reversal. This shows up when they begin rotating their shoulders away from the choking leg or drive forward aggressively to stack. The commitment must be genuine, not exploratory — wait for their center of gravity to shift beyond easy recovery. Initiating too early, while they are only testing the direction, lets them change course; initiating too late, after they have created significant distance, means you have lost the connection needed for the transition.",
+        "distractors": {
+          "plausible": [
+            "Initiate the moment they first test an escape direction, so you beat them to the back before they can build any momentum.",
+            "Wait until they have fully cleared the triangle, then chase the back as they disengage and turn away to recover posture."
+          ],
+          "trap": [
+            "Release the triangle lock early to free your hips, so you can spin to the back the instant any escape attempt begins."
+          ]
+        }
       }
     ],
     "safety_considerations": "The triangle to back transition involves dynamic rotational movement and rapid position changes that require careful progressive practice. Protect your own spine during the rotation by maintaining proper alignment and never allowing the opponent to stack your weight directly onto your neck or cervical spine. When practicing, begin with slow cooperative drilling to establish smooth movement patterns before adding any resistance. Partners must communicate clearly and stop immediately if either person feels compressed, twisted, or unstable in an unsafe way. Be particularly careful of your own ankles during the transition phase, as premature ankle crossing creates vulnerability to ankle lock attacks. The person being taken to back control should understand basic back escape principles to safely manage the position without panicking or making explosive defensive movements that could injure either partner. Control your descent throughout and never drop your full weight suddenly onto the training partner during the consolidation phase.",

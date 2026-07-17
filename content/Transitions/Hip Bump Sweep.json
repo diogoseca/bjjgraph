@@ -251,7 +251,16 @@
     "flashcards": [
       {
         "question": "What is the primary purpose of controlling your opponent's arm during the Hip Bump Sweep?",
-        "answer": "Controlling the opponent's arm serves two critical purposes: first, it prevents them from posting that arm to stop the sweep, and second, it creates the chain attack opportunity to Kimura if they post with their other arm. The arm control is the linchpin that makes the entire closed guard attack system work together."
+        "answer": "Arm control stops the opponent from posting to block the sweep and sets up the Kimura chain if they post with their other arm. These two purposes work together: denying the near-side post forces them to either concede the sweep or reach with the far arm, which feeds directly into the Kimura. The arm control is the linchpin that makes the entire closed guard attack system work together.",
+        "distractors": {
+          "plausible": [
+            "Arm control mainly stops them from gripping your collar or lapel to set up chokes while you sit up into the bump.",
+            "Arm control lets you pull them forward and down to break their posture before you begin the sit-up motion."
+          ],
+          "trap": [
+            "Release the arm just as you bump so both of your hands are free to post and drive the sit-up with maximum power."
+          ]
+        }
       },
       {
         "question": "Why must you create a 45-degree angle before executing the hip bump?",
@@ -279,11 +288,29 @@
       },
       {
         "question": "What conditions must exist before you should open your guard to attempt the Hip Bump Sweep?",
-        "answer": "Four conditions should be met: their posture must be broken with head below hip level, you must have firm control of their same-side wrist or sleeve, their weight should be distributed forward rather than sitting back on their heels, and you should have a clear path to plant your posting hand without obstruction. Opening the guard without these conditions exposes you to guard passes and gives up the defensive security of closed guard for a low-percentage sweep attempt."
+        "answer": "Open your guard only with posture broken, same-side wrist or sleeve controlled, their weight forward, and a clear path for your posting hand. All four conditions matter: head below hip level confirms broken posture, and their weight must be distributed forward rather than sitting back on their heels. Opening the guard without these conditions exposes you to guard passes and trades the defensive security of closed guard for a low-percentage sweep attempt.",
+        "distractors": {
+          "plausible": [
+            "Wait until they sit back on their heels, since a settled opponent's weight is easier to lift and tip with the bump.",
+            "Firm wrist control is the only true requirement; posture and weight position can be corrected after the guard is open."
+          ],
+          "trap": [
+            "Open your guard early and swing up fast before they settle, even without any grips, so the surprise beats their base."
+          ]
+        }
       },
       {
         "question": "Why is the Hip Bump Sweep particularly effective as a reaction to your opponent attempting to establish strong posture?",
-        "answer": "When the opponent drives upward to establish posture, they momentarily shift their weight onto their knees and back, creating a transitional moment where their base is not fully settled. The act of posturing up often requires them to release grips or shift hand position, giving you a window to control their arm. Their upward momentum also makes them vulnerable to being redirected laterally by your diagonal hip bump. The timing of catching them mid-posture-recovery is the highest-percentage window for this sweep."
+        "answer": "Posturing up puts the opponent in a transitional moment where their base is unsettled and their upward momentum can be redirected laterally. As they drive upward, their weight shifts onto their knees and back before their base fully settles, and the act of posturing often forces them to release grips or shift hand position, giving you a window to control their arm. Your diagonal hip bump then redirects that upward momentum sideways. Catching them mid-posture-recovery is the highest-percentage window for this sweep.",
+        "distractors": {
+          "plausible": [
+            "It works best once they finish posturing, because their weight then settles onto their heels where it is easiest to tip.",
+            "It is effective because posturing straightens their arms, and locked elbows cannot bend to post against the sweep."
+          ],
+          "trap": [
+            "Let their posture fully lock in first, then bump straight back into their strong base so your full power meets it head-on."
+          ]
+        }
       },
       {
         "question": "After completing the sweep and landing in mount, what are the first three things you should establish?",

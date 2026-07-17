@@ -224,7 +224,16 @@
       },
       {
         "question": "Your opponent has deep inside leg control—should you attempt this escape?",
-        "answer": "No. When the opponent's inside leg deeply controls your thigh, attempting turtle escape often results in them transitioning to saddle as you rotate. Deep control requires grip fighting to reduce entanglement depth first, or selecting alternative escapes like deep half guard entry that work with rather than against their leg positioning."
+        "answer": "No; when the opponent's inside leg deeply controls your thigh, rotating to turtle typically lets them transition straight into the saddle. Deep control requires grip fighting to reduce entanglement depth first, or selecting alternative escapes like deep half guard entry that work with rather than against their leg positioning.",
+        "distractors": {
+          "plausible": [
+            "Yes, provided you rotate quickly enough to beat their leg pummel before the saddle locks in.",
+            "Yes, as long as you rotate away from their inside leg so the entanglement unwinds during the spin."
+          ],
+          "trap": [
+            "Yes—first extend your trapped leg straight to create space, then spin out to turtle from there."
+          ]
+        }
       },
       {
         "question": "What role do your hands play before initiating the rotation?",
@@ -240,7 +249,16 @@
       },
       {
         "question": "When is the optimal moment to initiate this escape?",
-        "answer": "Initiate during the opponent's grip adjustment phase—when they release one hand to reposition for heel hook finishing, or when they shift their leg position to deepen control. These adjustment moments create brief control gaps where the rotation encounters minimal resistance. Attempting against fully consolidated control reduces success significantly."
+        "answer": "Initiate during the opponent's grip adjustments, when a hand releases to reposition or their legs shift to deepen control. These adjustment moments create brief control gaps where the rotation encounters minimal resistance. Attempting against fully consolidated control reduces success significantly.",
+        "distractors": {
+          "plausible": [
+            "Initiate once their control is fully consolidated, since a settled opponent reacts more slowly to rotation.",
+            "Initiate only after you have broken every grip completely, since any remaining connection dooms the rotation."
+          ],
+          "trap": [
+            "Wait until they lock their heel hook grip, then explosively spin out before they can finish the breaking mechanics."
+          ]
+        }
       },
       {
         "question": "How does your free leg contribute to the escape mechanics?",
@@ -248,7 +266,16 @@
       },
       {
         "question": "What turtle position attributes must you establish immediately upon completing rotation?",
-        "answer": "Establish tight defensive turtle with elbows pinned to knees creating a shell, chin tucked to protect the neck, and hips held low to prevent opponent from inserting hooks. This compact position prevents easy back takes and gives you time to assess follow-up options. Extended arms or elevated hips invite immediate back control."
+        "answer": "Immediately establish a tight defensive turtle: elbows pinned to knees as a shell, chin tucked, and hips held low to block hook insertion. This compact position prevents easy back takes and gives you time to assess follow-up options. Extended arms or elevated hips invite immediate back control.",
+        "distractors": {
+          "plausible": [
+            "Post your arms wide for a strong base first, so the opponent cannot flatten you out of turtle.",
+            "Raise your hips high right away so you can wrestle up before the opponent settles into position."
+          ],
+          "trap": [
+            "Reach back and grab the opponent's head or sleeve as you land to stop them circling toward your back."
+          ]
+        }
       },
       {
         "question": "If you feel the opponent's heel hook grip tightening during your rotation, should you stop?",

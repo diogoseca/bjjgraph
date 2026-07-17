@@ -332,28 +332,73 @@
       },
       {
         "question": "What are the four sequential control layers that must be established before committing to the heel hook finish?",
-        "answer": "The four layers in order are: (1) Entanglement structure - the figure-four leg configuration with outside leg crossing over inside leg, (2) Hip connection - tight hip-to-hip contact eliminating escape distance, (3) Knee line dominance - legs positioned to block defensive rotation of the opponent's knee past the barrier, and (4) Heel exposure - the opponent's heel facing toward your centerline with unobstructed access to the Achilles tendon. Skipping or inadequately securing any layer creates exploitable gaps.",
-        "safety_critical": false
+        "answer": "The four layers in order are entanglement structure, hip connection, knee line dominance, and heel exposure. Specifically: (1) Entanglement structure - the figure-four leg configuration with outside leg crossing over inside leg, (2) Hip connection - tight hip-to-hip contact eliminating escape distance, (3) Knee line dominance - legs positioned to block defensive rotation of the opponent's knee past the barrier, and (4) Heel exposure - the opponent's heel facing toward your centerline with unobstructed access to the Achilles tendon. Skipping or inadequately securing any layer creates exploitable gaps.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The four layers in order are heel exposure, entanglement structure, hip connection, and knee line dominance.",
+            "The four layers are entanglement structure, chest connection, ankle control, and toe exposure toward your centerline."
+          ],
+          "trap": [
+            "Secure the heel grip first, then build the entanglement and hip connection around it before they can react."
+          ]
+        }
       },
       {
         "question": "What indicates you have reached the point of no escape when finishing the heel hook from Inside Sankaku?",
-        "answer": "The point of no escape is reached when three conditions are simultaneously met: your blade grip is locked against the Achilles tendon with two-on-one reinforcement, the foot is clamped in your armpit with elbows tight to your body, and your torso has begun the rotational arc. At this point the defender cannot strip the grip, cannot rotate their leg to relieve pressure, and the mechanical advantage is entirely with the attacker. This is exactly when controlled pressure must be applied most carefully in training.",
-        "safety_critical": true
+        "answer": "No escape remains when the blade grip is locked on the Achilles, the foot is clamped in your armpit, and torso rotation has begun. All three conditions must be met simultaneously: the blade grip has two-on-one reinforcement, the elbows are tight to your body with the foot clamped in the armpit, and your torso has started its rotational arc. At this point the defender cannot strip the grip, cannot rotate their leg to relieve pressure, and the mechanical advantage is entirely with the attacker. This is exactly when controlled pressure must be applied most carefully in training.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "The point of no escape is reached the moment your figure-four entanglement is fully locked around their knee.",
+            "It is reached when the heel faces your centerline and your primary hand first makes contact with the Achilles."
+          ],
+          "trap": [
+            "Once past the point of no escape you can rotate explosively, since the tap is inevitable and speed prevents late defense."
+          ]
+        }
       },
       {
         "question": "Why must rotational force be applied slowly and progressively rather than explosively when finishing this submission?",
-        "answer": "The knee ligaments provide almost no proprioceptive warning before catastrophic failure, meaning the opponent often cannot feel the danger building until the ligament is already tearing. Explosive application can rupture the ACL in milliseconds, far faster than any tap signal can be communicated and recognized. Progressive application gives the defender time to register the pressure and tap before structural damage occurs. Additionally, controlled pressure maintains grip integrity while explosive force can cause grip slippage and position loss.",
-        "safety_critical": true
+        "answer": "Knee ligaments give almost no proprioceptive warning before failure, so slow pressure lets the opponent tap before damage occurs. The opponent often cannot feel the danger building until the ligament is already tearing, and explosive application can rupture the ACL in milliseconds - far faster than any tap signal can be communicated and recognized. Progressive application gives the defender time to register the pressure and tap before structural damage occurs. Additionally, controlled pressure maintains grip integrity while explosive force can cause grip slippage and position loss.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Slow rotation is mainly to conserve grip strength so you can re-attack immediately if the first finishing attempt fails.",
+            "Progressive pressure is needed because the knee ligaments must fatigue gradually before the joint will yield to rotation."
+          ],
+          "trap": [
+            "Explosive rotation is safer because it ends the exchange before the opponent can counter-rotate and injure your own legs."
+          ]
+        }
       },
       {
         "question": "Your opponent successfully hides their heel against their own hip using the boot defense - what submission chain do you employ?",
-        "answer": "Maintain hip pressure and inside leg elevation to fatigue the boot defense, but simultaneously begin transitioning your grip to attack the exposed forefoot for a toe hold. The heel-hiding position actually presents the top of the foot and toes for a toe hold grip. This creates a dilemma: if they maintain the boot to defend the heel hook, the toe hold becomes available; if they adjust to defend the toe hold, the heel becomes exposed again. Continue applying hip pressure throughout to prevent them from addressing both threats.",
-        "safety_critical": false
+        "answer": "Maintain hip pressure while transferring your grip to attack the exposed forefoot with a toe hold. Keep hip pressure and inside leg elevation working to fatigue the boot defense as you transition, because the heel-hiding position actually presents the top of the foot and toes for a toe hold grip. This creates a dilemma: if they maintain the boot to defend the heel hook, the toe hold becomes available; if they adjust to defend the toe hold, the heel becomes exposed again. Continue applying hip pressure throughout to prevent them from addressing both threats.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Release the entanglement and re-enter on the opposite leg, since the boot defense fully neutralizes that side.",
+            "Pry the boot open with both hands first to re-expose the heel, then resume the original heel hook grip."
+          ],
+          "trap": [
+            "Yank the hidden heel free with explosive arm strength before the opponent can fully settle into the boot defense."
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest mechanical advantage for finishing the inside heel hook?",
-        "answer": "The optimal configuration uses a two-on-one structure where the primary hand wraps around the ankle with the bony ulnar edge (blade) of the wrist positioned directly against the Achilles tendon at the heel insertion point. The secondary hand grabs the primary wrist from underneath to reinforce against grip stripping. Both elbows are pinched tight against the ribcage and the foot is clamped deep in the armpit. Rotational force comes from turning the entire torso, not from arm strength, using the armpit as a fixed pivot point.",
-        "safety_critical": false
+        "answer": "The strongest grip is a two-on-one with the wrist blade on the Achilles and the foot clamped deep in the armpit. The primary hand wraps around the ankle with the bony ulnar edge (blade) of the wrist positioned directly against the Achilles tendon at the heel insertion point, while the secondary hand grabs the primary wrist from underneath to reinforce against grip stripping. Both elbows are pinched tight against the ribcage. Rotational force comes from turning the entire torso, not from arm strength, using the armpit as a fixed pivot point.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The strongest grip is palm-to-palm around the ankle, generating the finishing rotation by pulling hard with both arms.",
+            "A gable grip over the toes gives the best leverage because it controls the longest lever arm of the foot."
+          ],
+          "trap": [
+            "Flare your elbows wide to maximize torque and keep the foot loose in your grip so you can adjust the angle mid-finish."
+          ]
+        }
       },
       {
         "question": "How should you immediately release the heel hook after your training partner taps?",

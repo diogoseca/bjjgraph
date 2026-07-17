@@ -245,7 +245,16 @@
     "flashcards": [
       {
         "question": "Why is the Kimura grip maintained throughout the entire transition to back control?",
-        "answer": "The Kimura grip serves multiple essential functions during the transition: it provides a secure connection point to the opponent that prevents separation during movement, it creates the initial submission threat that forces their defensive roll, it acts as a steering mechanism to control their rotation direction, and it prevents them from turning back into you once you begin taking the back. Releasing the grip prematurely eliminates all these control elements and typically results in losing position entirely."
+        "answer": "The Kimura grip keeps a constant connection that threatens the finish, steers the opponent's roll, and stops them turning back into you. It provides a secure connection point that prevents separation during movement, and the submission threat is what forces their defensive roll in the first place. As they rotate, the grip acts as a steering mechanism to control their direction, and once you begin taking the back it prevents them from turning back into you. Releasing the grip prematurely eliminates all of these control elements and typically results in losing position entirely.",
+        "distractors": {
+          "plausible": [
+            "The grip is kept mainly to finish the Kimura the instant the roll completes, since the back take is only a backup plan.",
+            "The grip mainly pins their shoulder flat to stop any rolling, so you can climb to the back while they stay still."
+          ],
+          "trap": [
+            "Release the Kimura grip as soon as their roll begins so both hands are free to chase the seatbelt and hooks."
+          ]
+        }
       },
       {
         "question": "What is the primary defensive reaction you are seeking to elicit from the opponent when applying Kimura pressure?",
@@ -261,11 +270,29 @@
       },
       {
         "question": "What adjustment should you make if your opponent posts aggressively and prevents the rolling motion necessary for the back take?",
-        "answer": "When opponent establishes strong base and posts to prevent rolling, you have several systematic options: First, threaten the Kimura finish more aggressively to break their structural base with submission pressure. Second, transition to alternative attacks such as arm triangle or north-south Kimura for different angles. Third, if they remain turtled, attack turtle directly with traditional back takes. The principle is that their commitment to one defense creates vulnerability to other attacks."
+        "answer": "Attack the Kimura finish harder to break their base, or switch attacks — arm triangle, north-south Kimura, or a direct turtle back take. Threatening the finish more aggressively uses submission pressure to compromise the structural base they are posting on. If that fails, transition to alternative attacks such as the arm triangle or north-south Kimura for different angles, and if they remain turtled, attack the turtle directly with traditional back takes. The principle is that their commitment to one defense creates vulnerability to other attacks.",
+        "distractors": {
+          "plausible": [
+            "Keep driving the roll harder in the same direction, since a strong enough push will eventually collapse their post.",
+            "Hold the grip and wait patiently for them to tire, because posting burns far more energy than maintaining the lock."
+          ],
+          "trap": [
+            "Release the Kimura and pull guard so you can reset to a familiar position and restart the attack cleanly."
+          ]
+        }
       },
       {
         "question": "Why is following the opponent's defensive motion superior to forcing them to roll?",
-        "answer": "Following their natural defensive movement is more effective because it conserves your energy, works with momentum rather than against it, maintains better control throughout the transition, and creates less opportunity for scrambles or reversals. When you force movement, the opponent feels the direction you are pushing and can brace or counter. When you apply pressure and follow their chosen defensive path, they are moving themselves into the position you want while believing they are defending."
+        "answer": "Following their defensive motion works with their momentum, saving energy and giving them nothing to brace against or counter. It conserves your energy, maintains better control throughout the transition, and creates less opportunity for scrambles or reversals. When you force movement, the opponent feels the direction you are pushing and can brace or counter. When you instead apply pressure and follow their chosen defensive path, they move themselves into the position you want while believing they are defending.",
+        "distractors": {
+          "plausible": [
+            "Following works mainly because it lulls the opponent into relaxing, so you can explode into the back take when they least expect it.",
+            "Following is superior chiefly because their roll is faster than any push you could generate, so you arrive at the back sooner."
+          ],
+          "trap": [
+            "Forcing the roll is better whenever you are stronger, since driving them over quickly beats waiting for them to move."
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the back take during the opponent's defensive roll?",
@@ -285,7 +312,16 @@
       },
       {
         "question": "What are the critical mechanical requirements for maintaining the Kimura grip during dynamic movement?",
-        "answer": "Three mechanical elements must be maintained: First, your grip hand must have thumb wrapped fully around your wrist, not just finger-gripping, preventing the grip from slipping under load. Second, your forearm threading under their arm must be positioned as close to their elbow as possible, because a shallow grip near the wrist allows them to extend and escape. Third, your elbows must stay tight to your body rather than flaring out, creating a closed mechanical system. Additionally, constant inward pressure toward your centerline keeps the figure-four locked during rotation."
+        "answer": "Wrap your thumb fully around your wrist, thread your forearm deep near their elbow, and keep your elbows tight to your body. The full thumb wrap — not just finger-gripping — prevents the grip from slipping under load. Threading as close to their elbow as possible matters because a shallow grip near the wrist allows them to extend and escape. Tight elbows create a closed mechanical system rather than a leaky one, and constant inward pressure toward your centerline keeps the figure-four locked during rotation.",
+        "distractors": {
+          "plausible": [
+            "Grip near their wrist rather than their elbow, since the longer lever gives you more rotational power on the shoulder.",
+            "Keep the thumb alongside your fingers in a monkey grip, because a thumbless grip is harder for them to peel open."
+          ],
+          "trap": [
+            "Extend your arms away from your body and flare the elbows during the roll to steer them with a longer, stronger lever."
+          ]
+        }
       },
       {
         "question": "How do you differentiate between an opponent who is genuinely defending versus setting up an escape when they turtle during the transition?",

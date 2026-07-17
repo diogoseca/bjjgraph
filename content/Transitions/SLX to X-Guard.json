@@ -259,7 +259,16 @@
       },
       {
         "question": "What conditions must already be in place before you commit to threading the outside leg into X-Guard?",
-        "answer": "You need a deep, active inside hook behind the trapped knee generating genuine elevation, the opponent's free leg within reach of your outside foot rather than stepped far back, at least one anchoring grip on the trapped-side ankle, and your hips scooted underneath their center of gravity at a perpendicular angle. If elevation and reach are not established first, removing your outside foot from the hip simply surrenders your distance frame with no replacement control, leaving you exposed to the pass."
+        "answer": "Commit only with a deep elevating inside hook, the free leg within reach, an anchoring ankle grip, and hips under their center of gravity. The inside hook must sit behind the trapped knee and generate genuine elevation, the opponent's free leg must be within reach of your outside foot rather than stepped far back, you need at least one grip on the trapped-side ankle, and your hips should be scooted underneath their center at a perpendicular angle. If elevation and reach are not established first, removing your outside foot from the hip simply surrenders your distance frame with no replacement control, leaving you exposed to the pass.",
+        "distractors": {
+          "plausible": [
+            "Commit once you have the inside hook and both ankle grips, even if their free leg has stepped back out of reach of your outside foot.",
+            "Secure control of both ankles first, then build elevation with the inside hook after the outside leg has finished threading."
+          ],
+          "trap": [
+            "Remove your outside foot from their hip early to free it for threading, then build elevation once the X is already in place."
+          ]
+        }
       },
       {
         "question": "What grip should your near hand maintain during the threading sequence and why?",
@@ -275,11 +284,29 @@
       },
       {
         "question": "Your opponent begins stepping their free leg backward as you start threading - how do you adapt?",
-        "answer": "If the opponent retreats their free leg before you complete the thread, immediately redirect to an SLX sweep or ashi garami entry rather than chasing the retreating leg. Their backward step often compromises their base on the trapped side, opening sweep opportunities that exploit their shifting weight distribution. Alternatively, follow their retreating hip by scooting forward, but only if you can maintain strong inside hook control during the pursuit without overextending."
+        "answer": "If the free leg retreats before you complete the thread, redirect immediately to an SLX sweep or ashi garami entry rather than chasing the leg. Their backward step often compromises their base on the trapped side, opening sweep opportunities that exploit their shifting weight distribution. Alternatively, follow their retreating hip by scooting forward, but only if you can maintain strong inside hook control during the pursuit without overextending.",
+        "distractors": {
+          "plausible": [
+            "Scoot forward aggressively to chase the retreating leg first, and only fall back to a sweep if you fail to reconnect the thread.",
+            "Extend your outside leg further and stretch to hook the retreating foot before it settles out of range."
+          ],
+          "trap": [
+            "Release the inside hook and sit up toward their body so you can pull the retreating leg back within threading range."
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that prevents your inside hook from slipping during the transition?",
-        "answer": "The inside hook must maintain active calf pressure against the opponent's hamstring throughout the thread, with your foot positioned past the back of their knee joint. The key detail is curling your toes and engaging your hamstring to create an active hooking action rather than relying on passive contact. If you relax this hook even momentarily during the threading motion, the opponent can extract their leg before you complete the X configuration, collapsing your entire guard."
+        "answer": "Keep active calf pressure on their hamstring with your foot hooked past the back of their knee, toes curled and hamstring engaged. This active hooking action — rather than passive contact — must be maintained throughout the entire threading motion. If you relax this hook even momentarily during the thread, the opponent can extract their leg before you complete the X configuration, collapsing your entire guard.",
+        "distractors": {
+          "plausible": [
+            "Point your toes and press the flat of your foot against their thigh to maximize the contact area during the thread.",
+            "Pinch your knee inward against their leg; the knee squeeze, not the foot hook, is what stops the extraction."
+          ],
+          "trap": [
+            "Relax the hook briefly mid-thread so your leg can slide into place freely, then re-tension it once the X is set."
+          ]
+        }
       },
       {
         "question": "If the opponent blocks your X-Guard attempt by driving forward with pressure, what chain attack becomes available?",
@@ -287,7 +314,16 @@
       },
       {
         "question": "What distinguishes a successful X-Guard configuration from one that is merely connected but ineffective?",
-        "answer": "A successful X-Guard configuration requires three simultaneous controls: a deep inside hook behind one knee creating elevation, an outside hook behind the other knee creating counter-pressure, and hand control on both ankles preventing extraction. Many practitioners connect both hooks but fail to position their hips directly underneath the opponent's center of gravity. Without this hip placement, the hooks create contact but not the structural leverage needed for high-percentage sweeps in multiple directions."
+        "answer": "Effective X-Guard pairs deep inside and outside hooks behind the knees with ankle control and hips directly under their center of gravity. All three controls must work simultaneously: the inside hook creating elevation, the outside hook creating counter-pressure, and hand control on both ankles preventing extraction. Many practitioners connect both hooks but fail to position their hips underneath the opponent's center — without this hip placement, the hooks create contact but not the structural leverage needed for high-percentage sweeps in multiple directions.",
+        "distractors": {
+          "plausible": [
+            "Hook depth alone defines success: once both hooks are set behind the knees, sweeps work regardless of where your hips sit.",
+            "Ankle grips matter most; with both ankles controlled, hip position underneath them is a secondary refinement."
+          ],
+          "trap": [
+            "Keep your hips out to the side of their base so you can sit up quickly into a single leg if the sweep attempt fails."
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves controlled leg manipulation and carries low injury risk when performed with proper technique. Avoid explosive hooking motions that could hyperextend your own knee or ankle during the threading sequence. When drilling, ensure the standing partner maintains safe balance and has adequate space to step or fall safely if swept unexpectedly during the transition. Communicate with training partners about knee sensitivity before practicing repeated hook insertions behind the knee joint, as the back of the knee can be sensitive to pressure from the hooking calf.",

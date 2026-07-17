@@ -315,13 +315,31 @@
       },
       {
         "question": "During the choking arm insertion, your opponent tucks their chin tightly to their chest — how do you create space to thread the arm underneath?",
-        "answer": "Apply forehead pressure with the supporting hand by placing your palm on their forehead and pushing back to tilt the head, creating a gap between chin and chest. Alternatively, use a windshield-wiper pummeling motion with the choking arm to swim underneath the chin through the narrow gap. A third option is to shift your hips to one side creating an angle change that opens the far side of the neck. If the chin tuck is extremely tight, threaten an alternative attack like a collar grip or arm attack to force them to address the new threat, momentarily opening the neck.",
-        "safety_critical": false
+        "answer": "Push their forehead back with your supporting palm to tilt the head and open a gap between chin and chest. Alternatively, use a windshield-wiper pummeling motion with the choking arm to swim underneath the chin through the narrow gap, or shift your hips to one side so the angle change opens the far side of the neck. If the chin tuck is extremely tight, threaten an alternative attack like a collar grip or arm attack to force them to address the new threat, momentarily opening the neck.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Dig your fingers under their chin and pry it upward off the chest before threading the choking arm through.",
+            "Clamp the choke over the chin and jaw first, then work the forearm down to the neck once they fatigue."
+          ],
+          "trap": [
+            "Release one hook and swing around toward their front to attack the neck from an angle the chin can't block."
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when applying the rear naked choke in training?",
-        "answer": "Apply the choke slowly and progressively over three to five seconds minimum, allowing your partner full awareness of building pressure and clear opportunity to tap. Never snap or jerk the choke into position. Ensure the forearm is against the carotid arteries and not the trachea. Always verify your partner has at least one hand free to tap, or listen for verbal tap signals. Release immediately upon any tap signal, going limp, or distress sound. Never hold a choke past the tap regardless of circumstances. Monitor your partner after release for thirty seconds to confirm full consciousness and normal breathing.",
-        "safety_critical": true
+        "answer": "Apply the choke slowly and progressively over at least three to five seconds, and release immediately at any tap, limpness, or distress signal. Never snap or jerk the choke into position, and ensure the forearm presses the carotid arteries rather than the trachea. Always verify your partner has at least one hand free to tap, or listen for verbal tap signals, and never hold a choke past the tap regardless of circumstances. Monitor your partner for thirty seconds after release to confirm full consciousness and normal breathing.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Sink the choke quickly to full pressure so your partner taps sooner and spends less total time under the choke.",
+            "Center the forearm across the front of the throat so both sides of the neck feel even, controlled pressure."
+          ],
+          "trap": [
+            "Hold the squeeze for a beat or two after the tap so your partner learns not to leave their neck exposed."
+          ]
+        }
       },
       {
         "question": "How should you release the rear naked choke after your partner taps, and what monitoring is required?",
@@ -330,8 +348,17 @@
       },
       {
         "question": "Your opponent begins sliding their hips downward toward your feet during the choke attempt — what adjustment prevents this escape?",
-        "answer": "Tighten your hooks by pressing your heels inward against their inner thighs and driving your hips forward into their lower back to close the gap they are creating. If using a body triangle, squeeze to prevent the downward slide. Simultaneously, increase chest-to-back pressure by driving your weight forward over their shoulders rather than allowing them to flatten you backward. If the slide has progressed significantly, consider re-establishing hooks at a higher position on their torso before continuing the choke attempt, as finishing from a compromised position is less likely than resecuring control first.",
-        "safety_critical": false
+        "answer": "Press your heels inward against their inner thighs and drive your hips forward into their lower back to close the gap they are creating. If using a body triangle, squeeze it to prevent the downward slide. Simultaneously, increase chest-to-back pressure by driving your weight forward over their shoulders rather than allowing them to flatten you backward. If the slide has progressed significantly, re-establish hooks at a higher position on their torso before continuing, as finishing from a compromised position is less likely than resecuring control first.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Lean backward and pull them down on top of you so gravity keeps their hips from sliding away.",
+            "Extend both legs straight and stretch them out so their hips lack the bend needed to slide lower."
+          ],
+          "trap": [
+            "Cross your ankles in front of their waist and squeeze downward hard to lock their hips in place."
+          ]
+        }
       },
       {
         "question": "What role do the hooks or body triangle play during the finishing squeeze of the rear naked choke?",
@@ -345,8 +372,17 @@
       },
       {
         "question": "What is the difference between generating finishing pressure through chest expansion versus bicep flexion, and why does it matter?",
-        "answer": "Chest expansion produces finishing pressure by driving your torso into the opponent's back while pulling your elbows toward your ribs and creating a slight backward arch, engaging the large muscles of the back and chest. Bicep flexion relies on squeezing the arms inward using only the bicep and forearm muscles. Chest expansion generates significantly more sustainable force because it engages larger muscle groups that fatigue much more slowly than the biceps. Bicep-driven squeezes tire within seconds, producing inconsistent pressure that an experienced opponent can outlast. The chest expansion method also creates more even bilateral pressure on both carotid arteries simultaneously, producing faster unconsciousness with less total effort.",
-        "safety_critical": false
+        "answer": "Chest expansion drives the torso into the opponent's back with the large back and chest muscles, giving far more sustainable pressure than bicep squeezing. It works by pulling your elbows toward your ribs and creating a slight backward arch, while bicep flexion relies on squeezing the arms inward using only the bicep and forearm muscles. Bicep-driven squeezes tire within seconds, producing inconsistent pressure that an experienced opponent can outlast, whereas the larger muscle groups fatigue much more slowly. Chest expansion also creates more even bilateral pressure on both carotid arteries simultaneously, producing faster unconsciousness with less total effort.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Bicep flexion finishes faster because the arms press the arteries directly, with chest expansion as a backup once the arms tire.",
+            "Both methods produce equal choking force; chest expansion simply conserves grip strength for later exchanges."
+          ],
+          "trap": [
+            "Squeeze the biceps in one explosive maximal burst, since a rear naked choke either finishes within seconds or not at all."
+          ]
+        }
       }
     ],
     "clips": [

@@ -895,7 +895,16 @@
   "flashcards_family": [
     {
       "question": "What structural feature defines every Half Guard variation and distinguishes it from symmetric guards?",
-      "answer": "Half Guard is fundamentally asymmetric: the bottom player traps exactly one of the top player's legs between both of their own, creating a one-leg-in, one-leg-out configuration rather than the both-legs-in or both-legs-out structure of closed or open guards. This single trapped leg becomes the shared anchor and fulcrum around which every variant operates, whether Deep Half, Knee Shield, Lockdown, or Z-Guard. Because control is concentrated on one limb rather than distributed across a symmetric frame, both players retain legitimate offense and defense simultaneously, which is why the position sits precisely at the boundary between guard retention and being passed. The asymmetry is what generates the unique leverage for sweeps and the unique passing vulnerabilities that no symmetric guard shares."
+      "answer": "Half Guard's defining structure is asymmetry: exactly one of the top player's legs is trapped between both of the bottom player's legs. This one-leg-in, one-leg-out configuration contrasts with the both-legs-in or both-legs-out structure of closed or open guards. The single trapped leg becomes the shared anchor and fulcrum around which every variant operates, whether Deep Half, Knee Shield, Lockdown, or Z-Guard. Because control is concentrated on one limb rather than distributed across a symmetric frame, both players retain legitimate offense and defense simultaneously, which is why the position sits precisely at the boundary between guard retention and being passed. The asymmetry is what generates the unique leverage for sweeps and the unique passing vulnerabilities that no symmetric guard shares.",
+      "distractors": {
+        "plausible": [
+          "Every Half Guard variant is defined by a knee shield frame across the torso that manages distance from the top player.",
+          "Every Half Guard variant is defined by trapping the opponent's leg and same-side arm to immobilize one side of their body."
+        ],
+        "trap": [
+          "Every Half Guard variant works by squeezing the trapped leg as hard as possible while lying flat to stall the pass."
+        ]
+      }
     },
     {
       "question": "Why does the battle for the underhook determine positional hierarchy across all Half Guard variants?",
@@ -903,11 +912,29 @@
     },
     {
       "question": "How does the trapped leg function as a mechanical fulcrum for the bottom player in any Half Guard?",
-      "answer": "The trapped leg anchors the top player's base to the bottom player, converting the bottom player's hip and torso movement into leverage that acts directly on the opponent's structure. By pinching, hooking, or entangling that leg, the bottom player can compromise the top player's ability to post and base, so that any elevation or rotation of the hips translates into off-balancing force rather than being absorbed. This fulcrum principle holds whether the entanglement is a simple knee pinch, a Lockdown figure-four, or the deep leg control of Deep Half. Without securing the trapped leg as a stable anchor, sweeps lose their leverage and become pushes that a based-out opponent easily resists."
+      "answer": "The trapped leg anchors the top player's base to the bottom player, turning hip and torso movement into leverage that acts directly on the opponent's structure. By pinching, hooking, or entangling that leg, the bottom player can compromise the top player's ability to post and base, so that any elevation or rotation of the hips translates into off-balancing force rather than being absorbed. This fulcrum principle holds whether the entanglement is a simple knee pinch, a Lockdown figure-four, or the deep leg control of Deep Half. Without securing the trapped leg as a stable anchor, sweeps lose their leverage and become pushes that a based-out opponent easily resists.",
+      "distractors": {
+        "plausible": [
+          "The trapped leg functions mainly as a barrier that slows the pass, buying time rather than generating sweeping leverage.",
+          "The trapped leg lets the bottom player push the top player away, working chiefly as a distance-creating frame."
+        ],
+        "trap": [
+          "The bottom player should release the trapped leg early in a sweep so the hips can swing freely into the finish."
+        ]
+      }
     },
     {
       "question": "Why is staying on the side rather than flat on the back a universal priority for the Half Guard bottom player?",
-      "answer": "Remaining on the side preserves the hip mobility that every Half Guard offensive sequence depends on, allowing the bottom player to shrimp, create angles, and enter sweeps or back takes. When flattened onto the back, the hips lose their capacity to rotate and the trapped leg's fulcrum is neutralized, letting the top player establish chest-to-chest pressure and crossface that lead directly toward the pass. Being on the side also keeps the shoulders angled toward the opponent, which is the prerequisite for winning the underhook battle. This is why flattening is the top player's core objective and staying on the side is the bottom player's core defensive imperative across all variants."
+      "answer": "Staying on the side preserves the hip mobility that every Half Guard offensive sequence depends on. From the side the bottom player can shrimp, create angles, and enter sweeps or back takes. When flattened onto the back, the hips lose their capacity to rotate and the trapped leg's fulcrum is neutralized, letting the top player establish chest-to-chest pressure and crossface that lead directly toward the pass. Being on the side also keeps the shoulders angled toward the opponent, which is the prerequisite for winning the underhook battle. This is why flattening is the top player's core objective and staying on the side is the bottom player's core defensive imperative across all variants.",
+      "distractors": {
+        "plausible": [
+          "Staying on the side matters chiefly because it hides the near arm and neck from crossface and choking attacks.",
+          "The side position matters mostly because it lets the bottom player extend both arms to push and create distance."
+        ],
+        "trap": [
+          "Lying flat is safer because it lets you frame with both arms and squeeze the trapped leg with maximum strength."
+        ]
+      }
     },
     {
       "question": "Why is Half Guard top considered an incomplete pass rather than a settled controlling position?",
@@ -929,7 +956,16 @@
   "flashcards_position": [
     {
       "question": "What structural feature fundamentally defines Half Guard and distinguishes it from other guards?",
-      "answer": "Half Guard is defined by its asymmetry: the bottom player traps a single one of the top player's legs between both of their own legs, typically at or below the knee. This one-leg-in, one-leg-out configuration contrasts with symmetric guards like closed or butterfly guard where both legs relate to the opponent identically. The trapped leg becomes a shared fulcrum and anchor point that both players fight to leverage, while the top player's free leg posts for base and mobility. This single-leg entanglement is what creates the position's distinctive mixture of offensive and defensive options for both sides."
+      "answer": "Half Guard is defined by asymmetry: the bottom player traps a single one of the top player's legs between both of their own legs. The trap typically sits at or below the knee, creating a one-leg-in, one-leg-out configuration that contrasts with symmetric guards like closed or butterfly guard where both legs relate to the opponent identically. The trapped leg becomes a shared fulcrum and anchor point that both players fight to leverage, while the top player's free leg posts for base and mobility. This single-leg entanglement is what creates the position's distinctive mixture of offensive and defensive options for both sides.",
+      "distractors": {
+        "plausible": [
+          "Half Guard is defined by hooking one foot inside the opponent's near thigh while the other leg frames across the hip.",
+          "Half Guard is defined by trapping the top player's leg between the bottom player's knee and same-side elbow."
+        ],
+        "trap": [
+          "Half Guard is defined by lying flat and clamping both knees around the opponent's waist to lock them in place."
+        ]
+      }
     },
     {
       "question": "Why is the upper body control battle so decisive in determining Half Guard hierarchy?",

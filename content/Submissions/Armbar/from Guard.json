@@ -337,23 +337,59 @@
       },
       {
         "question": "How does the leg position over opponent's head contribute to armbar control and what happens if this detail is neglected?",
-        "answer": "The leg over the head serves multiple critical functions: it prevents opponent from posturing back up, creates a base point for your rotation, helps maintain the perpendicular angle, and prevents opponent from turning into you to escape. If this leg position is not established or is lost, opponent can sit up, regain posture, turn toward you, and either escape the armbar entirely or pass to side control. This leg acts as both control and base, making it essential for successful finish.",
-        "safety_critical": false
+        "answer": "The leg over the head stops the opponent posturing up or turning into you, while giving you a base point for rotation and the perpendicular angle. It acts as both control and base simultaneously, making it essential for a successful finish. If it is never established or is lost, the opponent can sit up, regain posture, turn toward you, and either escape the armbar entirely or pass to side control.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The leg over the head is mainly for finishing pressure; posture control comes entirely from your two-handed grip on the wrist.",
+            "The head-side leg only needs to hover lightly over the face; the chest-side leg does all the real posture control."
+          ],
+          "trap": [
+            "You can skip the head-side leg and cross both ankles over their chest instead, since the squeeze there is stronger for the finish."
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their elbow outward during the finish attempt—what anatomical structure are they trying to protect and how do you counter?",
-        "answer": "They are attempting to rotate the elbow joint out of the hyperextension plane to protect the ulnar collateral ligament (UCL) and lateral collateral ligament (LCL). This hitchhiker escape removes the elbow from direct pressure. Counter by squeezing your knees together tightly to prevent rotation, keeping their wrist pulled toward your chest with both hands, and ensuring your hips remain elevated and tight to their shoulder. If rotation begins, you can follow it by transitioning to a belly-down armbar position, or switch to a wristlock or triangle attack.",
-        "safety_critical": false
+        "answer": "They are protecting the elbow's collateral ligaments (UCL and LCL) by rotating the joint out of the hyperextension plane; squeeze your knees to stop it. This hitchhiker escape removes the elbow from direct pressure. Counter by squeezing your knees together tightly to prevent rotation, keeping their wrist pulled toward your chest with both hands, and keeping your hips elevated and tight to their shoulder. If rotation begins, you can follow it by transitioning to a belly-down armbar position, or switch to a wristlock or triangle attack.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "They are relieving pressure on the shoulder capsule; counter by re-gripping higher on the upper arm and pulling toward your head.",
+            "They are shielding the wrist joint, so briefly release tension and re-grip the forearm before re-extending the arm."
+          ],
+          "trap": [
+            "Open your knees and sit up toward them to chase the rotating arm before it fully turns away from you."
+          ]
+        }
       },
       {
         "question": "What specific grip adjustment should you make when opponent begins to extract their arm during the finishing sequence?",
-        "answer": "Immediately transition from wrist control to a two-on-one grip on their forearm just above the wrist, pulling their arm tight to your chest while simultaneously clamping your knees together harder. If they're pulling the arm toward their body, angle your hips slightly toward their legs to create opposition force. You can also hook their tricep with one hand while the other controls the wrist, creating a figure-four grip configuration that makes extraction extremely difficult. The key is maintaining the arm across your centerline throughout any defensive movement.",
-        "safety_critical": false
+        "answer": "Switch immediately from wrist control to a two-on-one grip on their forearm just above the wrist, pulling the arm tight to your chest. Clamp your knees together harder at the same time. If they pull the arm toward their body, angle your hips slightly toward their legs to create opposition force. You can also hook their tricep with one hand while the other controls the wrist, creating a figure-four grip configuration that makes extraction extremely difficult. The key is maintaining the arm across your centerline throughout any defensive movement.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Move both hands to their upper arm near the elbow so you control the joint itself instead of the wrist.",
+            "Keep one hand on the wrist and post the other hand on the mat so you can lift your hips higher for the finish."
+          ],
+          "trap": [
+            "Release one hand to underhook their far leg so they cannot stack you while you reset your grips on the arm."
+          ]
+        }
       },
       {
         "question": "At what point during the armbar finish is the opponent past the point of no escape, and what indicators confirm this?",
-        "answer": "The point of no escape occurs when three conditions are met simultaneously: your hips are tight to their shoulder with your tailbone nearly touching their deltoid, both legs are locked down with the hamstring of one leg pressing firmly across their face while the other leg controls their chest, and their arm is fully extended across your hips with thumb pointing up. At this point, even minimal hip extension creates immediate submission pressure. Indicators include their free hand reaching toward their trapped arm (rather than toward your legs) and cessation of bridging or postural recovery attempts.",
-        "safety_critical": false
+        "answer": "Escape is gone once your hips are tight to their shoulder, both legs are locked down over face and chest, and their arm is fully extended thumb-up. Specifically, your tailbone is nearly touching their deltoid, one hamstring presses firmly across their face while the other leg controls their chest, and the arm lies fully extended across your hips with the thumb pointing up. At this point, even minimal hip extension creates immediate submission pressure. Indicators include their free hand reaching toward their trapped arm (rather than toward your legs) and cessation of bridging or postural recovery attempts.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The point of no escape is simply when their arm is fully straight, regardless of where your hips sit relative to their shoulder.",
+            "Once your ankles are crossed over their chest and the wrist is secured with both hands, the escape window has closed."
+          ],
+          "trap": [
+            "Once the arm is extended you can relax your knees and drop your hips to save energy, since the extension alone traps them."
+          ]
+        }
       },
       {
         "question": "How do you adjust your finishing mechanics when opponent stacks you during the armbar attempt?",

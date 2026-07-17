@@ -261,7 +261,16 @@
       },
       {
         "question": "Why is it critical to wait until the opponent is fully flattened before attempting to clear your trapped leg?",
-        "answer": "Attempting to clear your trapped leg before the opponent is properly flattened allows them to track your leg movement with their knees and hips, re-establishing half guard or transitioning to deep half. When the opponent is fully flattened with effective crossface and pressure, their ability to move their lower body is severely compromised. Their flattened structure prevents them from generating the hip movement necessary to follow your leg. Rushing leg extraction is the most common reason the X Pass fails against competent guard players."
+        "answer": "Clearing the leg early lets the opponent track it with their knees and hips to re-establish half guard or enter deep half. When the opponent is fully flattened with effective crossface and pressure, their ability to move their lower body is severely compromised; the flattened structure prevents them from generating the hip movement needed to follow your leg. Rushing leg extraction is the most common reason the X Pass fails against competent guard players.",
+        "distractors": {
+          "plausible": [
+            "You wait because the extraction only becomes safe once you trade the crossface for a far-side underhook.",
+            "Clearing early is risky mainly because it loosens your head control, so the priority is the crossface rather than pinning their hips flat."
+          ],
+          "trap": [
+            "It's fastest to turn your hips away from the opponent and explosively rip the trapped knee upward until the leg pops free."
+          ]
+        }
       },
       {
         "question": "Your opponent secures a deep underhook on the trapped side mid-pass. What is your immediate response?",
@@ -273,11 +282,29 @@
       },
       {
         "question": "What grip adjustments are necessary when executing the X Pass in no-gi versus gi?",
-        "answer": "In no-gi, the crossface relies entirely on shoulder-to-face pressure and arm threading behind the head for a grip on the far lat or neck, since collar and sleeve grips are unavailable. The free hand controls the opponent's knee or hip through cupping or hooking rather than gripping fabric. In gi, you can supplement the crossface with a grip on the far collar for additional control and you can grip the pants at the knee to assist with leg pinning. The fundamental angular mechanics remain identical; only the grip attachment points change."
+        "answer": "In no-gi the crossface uses shoulder-to-face pressure and an arm threaded behind the head to the far lat or neck, replacing collar and sleeve grips. The free hand controls the opponent's knee or hip by cupping or hooking rather than gripping fabric. In gi, you can supplement the crossface with a grip on the far collar for additional control and grip the pants at the knee to assist with leg pinning. The fundamental angular mechanics remain identical; only the grip attachment points change.",
+        "distractors": {
+          "plausible": [
+            "In no-gi you replace the collar grip with a two-on-one wrist grip on the far arm, since arm control substitutes for the crossface.",
+            "In no-gi the pass must run at a wider angle, because without fabric grips the same angular mechanics no longer hold."
+          ],
+          "trap": [
+            "In no-gi, skip the crossface and post both hands on the mat for base, letting your legs alone do the passing."
+          ]
+        }
       },
       {
         "question": "If your X Pass attempt is defended and opponent begins recovering to knee shield, what passing chain options do you have?",
-        "answer": "When the X Pass stalls against a recovering knee shield, you can chain into several options: switch to a knee cut pass by redirecting your pressure through their centerline, transition to a long step pass by stepping your free leg completely over their guard, or back step into a reverse passing position. You can also reset your crossface pressure and reattempt the X Pass from a different angle. The key is not committing to a single failed attempt but reading the defensive reaction and selecting the appropriate follow-up from your passing system."
+        "answer": "When the knee shield stalls your X Pass, chain to a knee cut, long step, or back step, or reset the crossface and re-attempt from a new angle. The knee cut redirects your pressure through their centerline; the long step steps your free leg completely over their guard; the back step enters a reverse passing position. The key is not committing to a single failed attempt but reading the defensive reaction and selecting the appropriate follow-up from your passing system.",
+        "distractors": {
+          "plausible": [
+            "The standard chain is to stand up and restart with a toreando, since pressure passes are dead once the knee shield appears.",
+            "The long step and back step are only available before the knee shield forms, so your realistic option is the knee cut alone."
+          ],
+          "trap": [
+            "Keep driving your weight forward and high into the knee shield until the frame eventually collapses under pressure."
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the X Pass from top half guard?",

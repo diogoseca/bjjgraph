@@ -262,11 +262,29 @@
       },
       {
         "question": "What is the optimal timing window for initiating the arm drag from butterfly guard?",
-        "answer": "The optimal window is when the opponent's weight shifts forward, either because they are pressuring into your guard, reaching for grips, or attempting to establish passing position. Forward weight commitment means their arms are extended and available for gripping, and their base is vulnerable to being pulled off-center. The moment just after they establish a grip on your collar or sleeve is particularly effective because their hand is occupied and they cannot retract quickly enough to defend the drag."
+        "answer": "The optimal window is when the opponent's weight shifts forward, whether pressuring into your guard, reaching for grips, or setting up a pass. Forward weight commitment means their arms are extended and available for gripping, and their base is vulnerable to being pulled off-center. The moment just after they establish a grip on your collar or sleeve is particularly effective because their hand is occupied and they cannot retract quickly enough to defend the drag.",
+        "distractors": {
+          "plausible": [
+            "The best window is when the opponent leans back to posture up, since their arms are lighter and easier to pull across.",
+            "Attempt the drag before the opponent makes any grips, because a hand already gripping your collar is too anchored to drag."
+          ],
+          "trap": [
+            "Wait until the opponent settles into a heavy static base, then lie back flat and out-pull them with pure arm strength."
+          ]
+        }
       },
       {
         "question": "What grip configuration must exist before you can execute the arm drag?",
-        "answer": "You need a two-point grip system: a same-side wrist grip with your hand wrapped around their wrist in a C-grip or monkey grip, and a cross-side grip on their triceps, lat, or upper arm. The wrist grip provides directional control to pull the arm across their centerline, while the triceps grip provides the pushing force that accelerates the arm across their body. Without both grip points, the drag lacks the mechanical advantage to turn their shoulders and create the angle. In gi, the collar can substitute for the triceps grip."
+        "answer": "You need a two-point grip: a same-side wrist grip in a C-grip or monkey grip, plus a cross-side grip on their triceps, lat, or upper arm. The wrist grip provides directional control to pull the arm across their centerline, while the triceps grip provides the pushing force that accelerates the arm across their body. Without both grip points, the drag lacks the mechanical advantage to turn their shoulders and create the angle. In gi, the collar can substitute for the triceps grip.",
+        "distractors": {
+          "plausible": [
+            "You need a cross-side wrist grip and a same-side triceps grip so both of your pulls converge on the near shoulder.",
+            "A single deep cross grip on the triceps is enough, since the drag's power comes from turning the shoulders, not the wrist."
+          ],
+          "trap": [
+            "Reach deep across their body for the far lat first, since your own arm crossing their centerline is what starts the drag."
+          ]
+        }
       },
       {
         "question": "How should you respond if the opponent whizzers your dragging arm immediately?",

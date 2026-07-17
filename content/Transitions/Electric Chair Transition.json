@@ -247,7 +247,16 @@
       },
       {
         "question": "What determines the correct timing to initiate the Electric Chair Transition?",
-        "answer": "Initiate when opponent's weight is committed forward (making them light for elevation), when they're distracted by defending your underhook or upper body attacks, or immediately after breaking their posture. Attempting against a well-postured opponent with good base typically fails. The transition works best when opponent is already reacting to your lockdown pressure rather than establishing defensive position."
+        "answer": "Initiate when the opponent's weight is committed forward, making them light enough to elevate with the lockdown. Other prime windows are when they are distracted defending your underhook or upper-body attacks, or immediately after you break their posture. Attempting against a well-postured opponent with good base typically fails. The transition works best when the opponent is already reacting to your lockdown pressure rather than establishing defensive position.",
+        "distractors": {
+          "plausible": [
+            "Initiate when the opponent sits back onto their heels, since their raised hips give you space to insert the lockdown.",
+            "Initiate only after the opponent has fully settled into a strong base, so their position is predictable and static."
+          ],
+          "trap": [
+            "Initiate by releasing the lockdown first to free your hips, then elevating before the opponent notices the open leg."
+          ]
+        }
       },
       {
         "question": "How deep must the underhook be before initiating hip elevation?",
@@ -259,7 +268,16 @@
       },
       {
         "question": "What three control points must work in coordination during the transition?",
-        "answer": "The three control points are: lockdown tension (controls the trapped leg and creates the lever), deep underhook (stretches upper body and prevents posture recovery), and ankle grip (pulls the near leg toward your hip creating the split). All three must work in coordination - losing any single control point compromises the entire transition and enables escape."
+        "answer": "The three coordinated control points are lockdown tension, a deep underhook, and an ankle grip on the near leg. Lockdown tension controls the trapped leg and creates the lever, the deep underhook stretches the upper body and prevents posture recovery, and the ankle grip pulls the near leg toward your hip creating the split. All three must work in coordination — losing any single control point compromises the entire transition and enables escape.",
+        "distractors": {
+          "plausible": [
+            "The three control points are lockdown tension, a collar or head tie, and a grip on the far-side wrist.",
+            "The three control points are a deep underhook, a butterfly hook on the free leg, and cross-face pressure."
+          ],
+          "trap": [
+            "The three control points are double underhooks and a body lock, since squeezing the torso matters more than controlling either leg."
+          ]
+        }
       },
       {
         "question": "How does the Electric Chair Transition create a dilemma for the defending player?",

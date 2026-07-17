@@ -268,7 +268,16 @@
       },
       {
         "question": "What is the proper response if your opponent successfully grabs your leg and drives forward as you attempt to circle?",
-        "answer": "If the opponent successfully prevents your circle by grabbing your leg and driving forward, you should switch to an anaconda choke by adjusting your arm position, or transition to a guillotine if they drive their head up. You can also sprawl your hips back while maintaining downward head pressure to counter their forward drive. The key is to maintain control and flow to alternative attacks rather than forcing a compromised Darce."
+        "answer": "If the opponent grabs your leg and drives forward, switch to an anaconda choke or guillotine instead of forcing the Darce. Adjust your arm position for the anaconda, or take the guillotine if they drive their head up. You can also sprawl your hips back while maintaining downward head pressure to counter their forward drive. The key is to maintain control and flow to alternative attacks rather than forcing a compromised Darce.",
+        "distractors": {
+          "plausible": [
+            "Release the front headlock and re-grip lower on their body so you can restart the circle from a stronger angle.",
+            "Drive forward into them to overpower the leg grab, then resume circling toward the choking side."
+          ],
+          "trap": [
+            "Let go of the neck and fight the leg grip with both hands, since the Darce is dead once they control your leg."
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use when speed of application is critical during a scramble?",
@@ -276,7 +285,16 @@
       },
       {
         "question": "Why is chest pressure on the opponent's shoulder important during the Darce transition?",
-        "answer": "Chest pressure on the opponent's trapped shoulder serves multiple purposes: it prevents them from creating frames and escaping, it keeps their body flat or turned into the choke rather than facing away, and it helps collapse their defensive structure. Heavy chest pressure also makes the final choke more effective by adding additional compression to the neck and restricting their ability to breathe or move defensively. Without it, the opponent retains enough mobility to extract their trapped arm."
+        "answer": "Chest pressure on the trapped shoulder collapses the opponent's frames and keeps them turned into the choke instead of facing away. It prevents them from creating frames and escaping, and it helps break down their defensive structure. Heavy chest pressure also makes the final choke more effective by adding additional compression to the neck and restricting their ability to breathe or move defensively. Without it, the opponent retains enough mobility to extract their trapped arm.",
+        "distractors": {
+          "plausible": [
+            "Chest pressure mainly pins their hips to the mat so they cannot stand up before the choke is fully locked.",
+            "Chest pressure matters chiefly because it fatigues the opponent's arms until they stop defending the neck."
+          ],
+          "trap": [
+            "Once the figure-four is locked you can release chest pressure, since the grip alone is enough to finish the choke."
+          ]
+        }
       },
       {
         "question": "Your opponent defends the Darce by pulling their trapped arm free just as you begin circling - what is your immediate chain attack?",
@@ -284,15 +302,42 @@
       },
       {
         "question": "What are the three main hand grip options for locking the figure-four in the Darce, and when would you use each?",
-        "answer": "The three main grip options are: 1) Bicep grip (hand grabs opposite bicep) - standard and most common, provides good balance of tightness and security, 2) Wrist grip (hand grabs own wrist) - provides deeper, tighter lock, useful against larger opponents or when maximum pressure is needed, and 3) Gable grip (palm-to-palm) - quickest to apply, useful when speed is critical or in scrambles, though slightly less tight than other options. Choice depends on situation, opponent size, and personal preference."
+        "answer": "The three grips are the bicep grip (standard), the wrist grip (deeper and tighter), and the gable grip (fastest, for scrambles). The bicep grip, where your hand grabs your opposite bicep, is the most common and provides a good balance of tightness and security. The wrist grip, grabbing your own wrist, gives a deeper, tighter lock that is useful against larger opponents or when maximum pressure is needed. The gable grip (palm-to-palm) is quickest to apply, useful when speed is critical or in scrambles, though slightly less tight than the other options. Choice depends on situation, opponent size, and personal preference.",
+        "distractors": {
+          "plausible": [
+            "The three grips are the gable grip, the S-grip, and the ball-and-socket grip, with the S-grip preferred against larger opponents.",
+            "The gable grip gives the deepest lock for big opponents, while the bicep grip is the fastest option for scrambles."
+          ],
+          "trap": [
+            "Lace your fingers together around their neck, since interlocked fingers create the strongest and most secure lock."
+          ]
+        }
       },
       {
         "question": "What specific entry conditions must exist before you should attempt the Front Headlock to Darce transition?",
-        "answer": "Three conditions must be present simultaneously: first, you need an established front headlock with your choking arm deep around the opponent's neck and their head controlled against your body. Second, the opponent must be in a compromised posture (turtle, scramble, or bent standing) where their near arm is accessible for the underhook. Third, you need enough space and base to begin circling toward the choking side. If the opponent's arms are tightly tucked against their body or they have strong upright posture, the underhook insertion will fail and you should use a different attack."
+        "answer": "You need a deep front headlock, a compromised posture exposing their near arm, and enough space and base to circle to the choking side. First, your choking arm must be deep around the opponent's neck with their head controlled against your body. Second, the opponent must be in a compromised posture (turtle, scramble, or bent standing) where their near arm is accessible for the underhook. Third, you need enough space and base to begin circling toward the choking side. If the opponent's arms are tightly tucked against their body or they have strong upright posture, the underhook insertion will fail and you should use a different attack.",
+        "distractors": {
+          "plausible": [
+            "You need the front headlock, a flattened opponent, and control of both of their wrists before inserting the underhook.",
+            "The only real requirement is that the opponent turtles; from turtle you can force the underhook even with tucked arms."
+          ],
+          "trap": [
+            "Attack the moment you touch the head, jumping on the Darce against an upright postured opponent before they settle."
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between the underhook insertion phase and the finishing phase of this transition?",
-        "answer": "During the underhook insertion phase, your primary force vector is downward and inward: you drive weight down through your chest into the opponent's shoulders while threading your arm under and across their body. During the finishing phase after circling, the force vector shifts to a lateral compression: your choking arm pulls inward toward your chest while your shoulder drives perpendicular to their spine, creating a pinching action on both carotid arteries. Understanding this shift is crucial because applying finishing-direction force during the setup phase, or setup-direction force during the finish, reduces effectiveness at both stages."
+        "answer": "The underhook insertion uses downward-inward force through your chest, while the finish shifts to lateral compression perpendicular to the spine. During insertion, you drive weight down through your chest into the opponent's shoulders while threading your arm under and across their body. During the finishing phase after circling, your choking arm pulls inward toward your chest while your shoulder drives perpendicular to their spine, creating a pinching action on both carotid arteries. Understanding this shift is crucial because applying finishing-direction force during the setup phase, or setup-direction force during the finish, reduces effectiveness at both stages.",
+        "distractors": {
+          "plausible": [
+            "Both phases use the same downward pressure; the finish simply adds a harder squeeze once the figure-four is locked.",
+            "Insertion uses lateral pull toward your chest, then the finish drives straight down through their shoulders."
+          ],
+          "trap": [
+            "Yank the choking arm upward toward their chin during insertion so the choke is already biting before you circle."
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the Front Headlock to Darce transition, controlled application is paramount as blood chokes can cause unconsciousness rapidly if the training partner does not tap. Always apply choking pressure gradually over 3-5 seconds minimum to allow your partner adequate time to recognize the choke and tap. Monitor your partner's breathing and color during drilling - any signs of distress should result in immediate release. Be especially mindful during the circling phase as this is when maximum pressure is often applied unintentionally. Ensure adequate mat space for the circling movement to avoid rolling your opponent into walls or other obstacles. During competition-level drilling with full resistance, establish clear tap protocols including verbal taps for situations where hand movement is restricted. Never apply sudden or explosive pressure to the neck. Build proficiency through slow, controlled drilling before attempting full-speed application. Both practitioners should understand proper release protocol before training this technique.",

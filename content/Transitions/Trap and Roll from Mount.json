@@ -257,11 +257,29 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the trap and roll bridge?",
-        "answer": "The optimal timing is when the opponent has just committed their arm forward (posting, attacking, or gripping) and their weight is either centered or slightly shifted toward the trapped side. Bridging during a weight shift amplifies the force needed to break their base. Bridging against a fully settled, centered opponent wastes energy because their balanced base can absorb the bridge force."
+        "answer": "Bridge just as the opponent commits an arm forward and their weight is centered or shifting toward the trapped side. Bridging during a weight shift amplifies the force needed to break their base. Bridging against a fully settled, centered opponent wastes energy because their balanced base can absorb the bridge force.",
+        "distractors": {
+          "plausible": [
+            "Bridge just as the opponent leans back to posture up, since their rising weight makes them easiest to roll over.",
+            "Bridge only once the opponent has fully settled their weight in the center, so their base position is predictable."
+          ],
+          "trap": [
+            "Bridge explosively and repeatedly from the moment mount is established to exhaust the opponent into a mistake."
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can successfully attempt the trap and roll?",
-        "answer": "Four conditions must be met: the opponent must have one arm committed forward and capturable, the corresponding foot on the same side must be hookable with your leg, your feet must be walked close to your hips for maximum bridge power, and the opponent should not be in high mount where your bridge leverage is severely compromised. Missing any one condition dramatically reduces success probability."
+        "answer": "You need a trapped arm, a hooked foot on the same side, feet walked close to your hips, and the opponent not in high mount. The committed arm must be capturable, and the corresponding same-side foot must be hookable with your leg; feet close to your hips give maximum bridge power, while high mount severely compromises your bridge leverage. Missing any one condition dramatically reduces success probability.",
+        "distractors": {
+          "plausible": [
+            "You need the arm trapped on one side and the foot hooked on the opposite side so the opponent twists over diagonally.",
+            "You need your feet extended far from your hips to create a long, stable platform before you bridge and roll."
+          ],
+          "trap": [
+            "Reach both arms up to grab the opponent's head and pull them down before worrying about their arms or feet."
+          ]
+        }
       },
       {
         "question": "Why must the bridge direction be at a 45-degree angle rather than straight upward?",
@@ -281,7 +299,16 @@
       },
       {
         "question": "Can you execute the trap and roll when the opponent is in high mount with knees near your armpits?",
-        "answer": "No, the trap and roll is not viable from high mount because your bridge leverage is severely compromised when the opponent's weight is positioned forward on your chest. With knees near your armpits, you cannot generate sufficient hip extension to break their balance. You must first address the high mount by walking your elbows inside their knees to push them back to standard mount, then attempt the trap and roll with restored bridge leverage."
+        "answer": "No, high mount destroys your bridge leverage; you must first push the opponent back to standard mount before rolling. With their weight positioned forward on your chest and knees near your armpits, you cannot generate sufficient hip extension to break their balance. Walk your elbows inside their knees to push them back down to standard mount, then attempt the trap and roll with restored bridge leverage.",
+        "distractors": {
+          "plausible": [
+            "Yes, but you must bridge higher and more explosively to compensate for the opponent's forward weight.",
+            "Yes, as long as the arm and foot are trapped on the same side, the roll works the same from high mount."
+          ],
+          "trap": [
+            "Yes, turn to your side and push their knees down with both hands to make space for the bridge."
+          ]
+        }
       },
       {
         "question": "If the trap and roll fails and the opponent begins transitioning to high mount, what should you do immediately?",

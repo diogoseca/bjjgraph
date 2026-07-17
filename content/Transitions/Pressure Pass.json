@@ -245,11 +245,29 @@
     "flashcards": [
       {
         "question": "What is the primary objective of pressure passing compared to speed passing?",
-        "answer": "The primary objective of pressure passing is to use controlled, heavy weight distribution to limit the opponent's mobility and progressively break down their guard structure, rather than trying to quickly bypass their legs. Pressure passing emphasizes control and methodical advancement over speed."
+        "answer": "Pressure passing uses controlled, heavy weight distribution to limit the opponent's mobility and progressively break down their guard structure. Unlike speed passing, it does not try to quickly bypass the legs; it emphasizes control and methodical advancement over speed.",
+        "distractors": {
+          "plausible": [
+            "Pressure passing aims to quickly bypass the opponent's legs before they can establish grips or frames.",
+            "Pressure passing works mainly by exhausting the opponent so you can finish the pass with one fast final burst."
+          ],
+          "trap": [
+            "Pressure passing means driving forward with maximum momentum so the opponent is flattened before they can frame."
+          ]
+        }
       },
       {
         "question": "Why is it important to keep your hips low during a pressure pass?",
-        "answer": "Keeping your hips low during a pressure pass maximizes the amount of weight you can drive through your chest onto the opponent, making it harder for them to move their hips or create defensive frames. Low hips also improve your base and prevent the opponent from using your high posture to create space underneath."
+        "answer": "Keeping your hips low maximizes the weight driven through your chest onto the opponent, making it harder for them to move their hips or build frames. Low hips also improve your base and prevent the opponent from exploiting high posture to create space underneath you.",
+        "distractors": {
+          "plausible": [
+            "Keeping your hips low mainly protects your legs from leg lock entries while you work through the guard.",
+            "Low hips matter chiefly because they let you rest and conserve energy while the opponent carries your weight."
+          ],
+          "trap": [
+            "Keep your hips high and posture tall so you can see the guard clearly and hop over the legs quickly."
+          ]
+        }
       },
       {
         "question": "Your opponent establishes strong frames on your hips and begins extending their legs - how do you adjust?",
@@ -265,11 +283,29 @@
       },
       {
         "question": "What grip configuration do you need before initiating the pressure pass from combat base?",
-        "answer": "You need at least one controlling grip on the opponent's lower body, typically on their pants at the knee or their belt/hip area, to anchor their hips and prevent hip escape. The second hand should control the opposite knee or prepare for crossface/underhook establishment. In no-gi, wrist control on the near hand combined with an elbow-to-knee connection serves the same function of limiting hip mobility."
+        "answer": "You need at least one controlling grip on the opponent's lower body — pants at the knee or the belt/hip area — to anchor their hips against hip escape. The second hand should control the opposite knee or prepare for crossface/underhook establishment. In no-gi, wrist control on the near hand combined with an elbow-to-knee connection serves the same function of limiting hip mobility.",
+        "distractors": {
+          "plausible": [
+            "You need double sleeve grips controlling both of the opponent's arms before you start driving into the pass.",
+            "You need a collar grip for posture plus one hand posted on the mat for balance before initiating the pass."
+          ],
+          "trap": [
+            "Reach deep under both legs and hug them to your chest so the opponent's hips cannot move at all."
+          ]
+        }
       },
       {
         "question": "Explain the concept of incremental advancement in pressure passing and why rushing the pass is counterproductive?",
-        "answer": "Incremental advancement means passing in controlled steps, consolidating each position before moving to the next, rather than trying to complete the pass in one motion. Rushing is counterproductive because it causes you to lose pressure and balance, giving the opponent opportunities to use your momentum against you for sweeps or guard recovery. Pressure passing requires patience and steady progression while maintaining constant heavy pressure throughout."
+        "answer": "Incremental advancement means passing in controlled steps, consolidating each position before moving to the next rather than finishing in one motion. Rushing is counterproductive because it costs you pressure and balance, handing the opponent your momentum to use for sweeps or guard recovery. Pressure passing requires patience and steady progression while maintaining constant heavy pressure throughout.",
+        "distractors": {
+          "plausible": [
+            "Incremental advancement means pausing your pressure at each stage to rest before the next explosive step.",
+            "Incremental advancement means moving only when the opponent moves first, waiting for them to open space for you."
+          ],
+          "trap": [
+            "Once you feel the guard weaken, explode through the rest of the pass in one motion before the opponent resets."
+          ]
+        }
       },
       {
         "question": "You have established crossface and are clearing the near leg, but your opponent posts their far foot on your hip and begins pushing - what do you do?",
@@ -281,7 +317,16 @@
       },
       {
         "question": "Your pressure pass is blocked and opponent retains half guard with a strong knee shield - should you continue the pressure pass or chain to another technique?",
-        "answer": "With a strong knee shield established, continuing pure forward pressure becomes inefficient because the knee shield creates a structural frame that increases with forward force. You should chain to a knee slice pass by angling your trapped knee across their thigh while maintaining crossface pressure, or switch to a leg weave by threading your leg over their knee shield. The key is recognizing the stall point early and transitioning before the opponent consolidates their defensive structure."
+        "answer": "Against a strong knee shield you should chain to another pass, such as a knee slice or leg weave, rather than continue pure forward pressure. Forward force is inefficient here because the knee shield is a structural frame that gets stronger the harder you drive into it. Chain to a knee slice by angling your trapped knee across their thigh while maintaining crossface pressure, or switch to a leg weave by threading your leg over their knee shield. The key is recognizing the stall point early and transitioning before the opponent consolidates their defensive structure.",
+        "distractors": {
+          "plausible": [
+            "Keep driving your chest forward into the knee shield; sustained pressure will eventually collapse the frame.",
+            "Back all the way out to standing and restart the pass from open guard to get a completely fresh angle."
+          ],
+          "trap": [
+            "Post your hands on the knee shield and jump over it to the far side while their leg is still occupied."
+          ]
+        }
       }
     ],
     "safety_considerations": "Pressure passing is generally safe when practiced with control, but be mindful of the amount of weight you apply, especially when training with significantly smaller or less experienced partners. Avoid dropping your full weight suddenly onto opponent's chest or ribs. When applying crossface pressure, ensure you're not driving your forearm directly into partner's throat or face with excessive force. Communicate with training partners about pressure tolerance. If you're on the receiving end and pressure becomes uncomfortable or affects breathing, tap early and communicate. When practicing stacking variations, be cautious of putting extreme pressure on partner's neck or spine. Always release pressure immediately if partner taps or indicates discomfort.",

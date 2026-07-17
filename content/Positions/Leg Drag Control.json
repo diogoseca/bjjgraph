@@ -97,7 +97,16 @@
       },
       {
         "question": "How do you shut down the opponent's primary escape when they try to hip escape and recover guard?",
-        "answer": "When the opponent attempts to hip escape, immediately increase pressure on their shoulder or head control while driving your hips forward to close the space they're creating. Follow their hip movement with your body, maintaining the crossed-leg configuration. If they create significant space, transition to knee on belly or switch your angle to re-establish control before they can insert a knee shield or hook."
+        "answer": "When the opponent hip escapes, immediately drive your hips forward and increase shoulder or head pressure to close the space they create. Follow their hip movement with your body, maintaining the crossed-leg configuration. If they create significant space, transition to knee on belly or switch your angle to re-establish control before they can insert a knee shield or hook.",
+        "distractors": {
+          "plausible": [
+            "When they hip escape, grip their dragged leg harder with both hands so their hips cannot generate escaping movement.",
+            "When they hip escape, back off slightly to reset your base, then re-drag the leg once their movement stalls out."
+          ],
+          "trap": [
+            "When they hip escape, sit your weight back onto their shins to trap their legs and anchor the position with your hips low."
+          ]
+        }
       },
       {
         "question": "What are your grip priorities when you feel your opponent starting to create space?",
@@ -736,11 +745,29 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines Leg Drag Control and distinguishes it from other guard-passing positions?",
-      "answer": "Leg Drag Control is defined by one of the bottom player's legs being dragged across the midline of their own body, so the thigh crosses in front of the top player's hips rather than framing against them. This crossed-leg position converts the bottom player's own limb into a barrier that pins their hips to one side and blocks re-guarding. Unlike stack or over-under passes that go around or through the guard, the leg drag redirects the leg laterally, forcing the bottom player onto their side and pre-loading back exposure. The signature is this diagonal, cross-body relationship between the dragged leg and the passer's hipline."
+      "answer": "Leg Drag Control is defined by the bottom player's leg being dragged across their own midline so it crosses in front of the passer's hips. This crossed-leg position converts the bottom player's own limb into a barrier that pins their hips to one side and blocks re-guarding. Unlike stack or over-under passes that go around or through the guard, the leg drag redirects the leg laterally, forcing the bottom player onto their side and pre-loading back exposure. The signature is this diagonal, cross-body relationship between the dragged leg and the passer's hipline.",
+      "distractors": {
+        "plausible": [
+          "Leg Drag Control is defined by pinning both of the bottom player's legs flat to the mat under heavy chest pressure.",
+          "Leg Drag Control is defined by stepping over the near leg and pinning the top knee to the mat with your shin."
+        ],
+        "trap": [
+          "Leg Drag Control is defined by dragging the leg and immediately stepping over it to jump straight into mount."
+        ]
+      }
     },
     {
       "question": "Why does the crossed leg function as the primary control point of this position rather than a grip?",
-      "answer": "A leg pulled across the centerline can no longer generate the outward frame or hook needed to recover guard, so it mechanically ties up the bottom player's hips. It acts as a lever pinning the pelvis onto one side, which is why simply pulling the leg straight back rarely frees it. Upper-body grips and pressure reinforce this, but the crossed leg is what removes the bottom player's most powerful retention tool, their legs. This is why the position is categorized by the leg configuration and not by a grip, unlike collar-and-sleeve or underhook-based controls."
+      "answer": "A leg pulled across the centerline can no longer frame or hook outward, so it mechanically ties up the bottom player's hips. It acts as a lever pinning the pelvis onto one side, which is why simply pulling the leg straight back rarely frees it. Upper-body grips and pressure reinforce this, but the crossed leg is what removes the bottom player's most powerful retention tool, their legs. This is why the position is categorized by the leg configuration and not by a grip, unlike collar-and-sleeve or underhook-based controls.",
+      "distractors": {
+        "plausible": [
+          "The crossed leg works mainly by stretching the hamstring, making the bottom player too uncomfortable to move their hips.",
+          "The crossed leg matters because it pins the knee to the mat, and a knee pinned flat stops all guard recovery."
+        ],
+        "trap": [
+          "Since the leg is the control point, keep both hands locked on the dragged leg throughout instead of advancing upper-body grips."
+        ]
+      }
     },
     {
       "question": "How is weight distributed in Leg Drag Control, and why is a diagonal angle emphasized over straight-on pressure?",

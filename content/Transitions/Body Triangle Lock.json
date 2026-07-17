@@ -206,15 +206,42 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Body Triangle Lock from Gift Wrap?",
-        "answer": "The primary goal is to establish the body triangle leg configuration while maintaining Gift Wrap arm control, creating a combined control position that eliminates both arm defense and hip escape capability. This maximizes positional dominance and creates optimal conditions for patient submission hunting."
+        "answer": "The primary goal is to lock the body triangle while keeping Gift Wrap arm control, eliminating both arm defense and hip escape. This combined control position maximizes positional dominance and creates optimal conditions for patient submission hunting.",
+        "distractors": {
+          "plausible": [
+            "The primary goal is to finish the rear naked choke immediately, before the opponent can bring their free hand to defend the neck.",
+            "The primary goal is to flatten the opponent face-down so you can step over into mount for higher-percentage attacks."
+          ],
+          "trap": [
+            "The primary goal is to release the Gift Wrap grip so both hands are free to hunt the neck while your legs hold position."
+          ]
+        }
       },
       {
         "question": "What position do you start Body Triangle Lock from?",
-        "answer": "This technique starts from Gift Wrap/Top position, where you have back control with one of opponent's arms trapped across their body and secured with your arm threading under their armpit."
+        "answer": "Body Triangle Lock starts from Gift Wrap/Top, where you have back control with the opponent's arm trapped across their body. That arm is secured by your arm threading under their armpit, giving you wrist or forearm control on the far side.",
+        "distractors": {
+          "plausible": [
+            "It starts from Back Control with both hooks in, where you trade your bottom hook for the triangle before trapping the arm.",
+            "It starts from Mount/Top with the opponent's arm pinned across their face, before you have taken the back."
+          ],
+          "trap": [
+            "It starts from Side Control by stepping your leg over the opponent's waist and reaching under the near armpit as they turn away."
+          ]
+        }
       },
       {
         "question": "What are the key grips and controls needed for Body Triangle Lock?",
-        "answer": "The key controls are: Gift Wrap arm control maintained throughout (arm threading under opponent's armpit with wrist/forearm control on far side), chest-to-back connection, and proper ankle positioning for the triangle lock. The locking ankle should be positioned behind the attacking leg's knee or ankle for mechanical advantage."
+        "answer": "The key controls are Gift Wrap arm control, chest-to-back connection, and the locking ankle tucked behind the attacking leg's knee. The Gift Wrap is maintained throughout — your arm threads under the opponent's armpit with wrist/forearm control on the far side — and placing the locking ankle behind the attacking leg's knee or ankle gives the triangle its mechanical advantage.",
+        "distractors": {
+          "plausible": [
+            "The key controls are a seatbelt grip with double underhooks, with the triangle locked low across the opponent's hips.",
+            "The key controls are Gift Wrap arm control plus the locking ankle stacked on top of the attacking leg's shin for a tighter squeeze."
+          ],
+          "trap": [
+            "The key controls are crossed feet in front of the opponent's hips so you can extend both legs and squeeze with full power."
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning toward you as you release your hook to thread the body triangle - how do you respond?",
@@ -222,7 +249,16 @@
       },
       {
         "question": "What is the optimal timing window to initiate the body triangle thread?",
-        "answer": "The optimal window is when opponent is settled and not actively escaping - typically after they exhale, after a failed escape attempt when they pause to recover, or when they are focused on defending their neck rather than hip movement. Initiating during explosive movement often results in lost position."
+        "answer": "The optimal window is when the opponent is settled and not actively escaping, such as after an exhale or a failed escape attempt. Other good moments are when they pause to recover or are focused on defending their neck rather than moving their hips. Initiating during explosive movement often results in lost position.",
+        "distractors": {
+          "plausible": [
+            "The optimal window is the instant you arrive on the back, before the opponent has any chance to settle or establish frames.",
+            "The optimal window is when the opponent starts escaping, since their turning motion opens space for your leg to slide through."
+          ],
+          "trap": [
+            "The optimal window is mid-scramble while the opponent explodes, so their own momentum swings your leg across their waist."
+          ]
+        }
       },
       {
         "question": "Where should the body triangle be positioned on your opponent's body for maximum effectiveness and safety?",

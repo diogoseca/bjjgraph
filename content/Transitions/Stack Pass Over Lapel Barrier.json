@@ -239,11 +239,29 @@
       },
       {
         "question": "What body positioning prevents your opponent from loading a sweep as you drive the stack forward?",
-        "answer": "Keep your hips low and heavy throughout the drive, with your weight distributing through your shoulder into the opponent's legs rather than through elevated hips. Spread your base wide with your feet providing lateral stability behind you. Your center of gravity must remain below the opponent's hip line—if your hips rise above this level, they can use the elevation to create angles and load sweep mechanics beneath you. The low, wide, heavy drive makes sweeps mechanically impossible because there is no space beneath you for the opponent to generate lifting force."
+        "answer": "Keep your hips low and heavy with your center of gravity below the opponent's hip line, driving weight through your shoulder into their legs. Spread your base wide with your feet providing lateral stability behind you. If your hips rise above the opponent's hip line, they can use the elevation to create angles and load sweep mechanics beneath you. The low, wide, heavy drive makes sweeps mechanically impossible because there is no space beneath you for the opponent to generate lifting force.",
+        "distractors": {
+          "plausible": [
+            "Keep your hips high and mobile so you can shift your weight quickly to whichever side the sweep attempt develops.",
+            "Narrow your feet directly behind you so all your driving force channels straight forward through the stack."
+          ],
+          "trap": [
+            "Rise up onto your toes and elevate your hips to maximize downward pressure onto the opponent's legs."
+          ]
+        }
       },
       {
         "question": "Your opponent successfully creates a 45-degree hip angle before you achieve full compression—should you continue the stack?",
-        "answer": "No. Once the opponent achieves significant hip angle, the stack becomes a low-percentage option because their angled hips create leverage points for sweeps and back takes. Abandon the stack and immediately transition to a complementary pass that exploits the angle they created—leg drag toward the open hip side or knee slice through the gap their rotation opened. The ability to recognize when the stack window has closed and chain to alternative passes is what separates effective lapel guard passing from stubborn single-technique attempts."
+        "answer": "No—once the opponent achieves a significant hip angle, abandon the stack and chain to a leg drag or knee slice that exploits the angle they created. Their angled hips create leverage points for sweeps and back takes, making the stack a low-percentage option. Transition immediately to the complementary pass: a leg drag toward the open hip side or a knee slice through the gap their rotation opened. Recognizing when the stack window has closed and chaining to alternative passes is what separates effective lapel guard passing from stubborn single-technique attempts.",
+        "distractors": {
+          "plausible": [
+            "Yes—pause and square their hips back to neutral first, then resume driving the stack once alignment is restored.",
+            "Yes, but switch your stacking pressure to the opposite shoulder to cancel out the angle they created."
+          ],
+          "trap": [
+            "Yes—drive the stack harder and faster, since your forward momentum will flatten their angle before they can use it."
+          ]
+        }
       },
       {
         "question": "How does head control affect the completion percentage of this pass?",
@@ -251,11 +269,29 @@
       },
       {
         "question": "When should you choose the stack pass over the backstep or long step against a lapel guard player?",
-        "answer": "Choose the stack when three conditions align: the opponent lacks strong upper body frames, you have already committed your weight forward making retreat costly, and the lapel configuration is optimized for distance control rather than close-range defense. The backstep is superior against worm guard specifically when you retain mobility and standing posture. The long step works better against complex ringworm configurations that require more distance to navigate. Read the opponent's frame strength and your own weight commitment to select the right tool—the stack punishes opponents who invested everything in the lapel system without developing complementary frame defense."
+        "answer": "Choose the stack when the opponent lacks strong upper body frames, your weight is already committed forward, and the lapel controls distance. When all three conditions align—weak frames, costly retreat, and a lapel configuration optimized for distance control rather than close-range defense—the stack punishes opponents who invested everything in the lapel system without developing complementary frame defense. The backstep is superior against worm guard specifically when you retain mobility and standing posture, while the long step works better against complex ringworm configurations that require more distance to navigate. Read the opponent's frame strength and your own weight commitment to select the right tool.",
+        "distractors": {
+          "plausible": [
+            "Choose the stack whenever you face worm guard, since stacking is the standard answer to worm guard configurations.",
+            "Choose the stack when you still have full standing mobility, so you can retreat safely if the compression stalls."
+          ],
+          "trap": [
+            "Choose the stack against opponents with strong upper body frames, because the stack is built to crush directly through frames."
+          ]
+        }
       },
       {
         "question": "What is the most dangerous moment during the stack pass where you are most vulnerable to counter-attack?",
-        "answer": "The highest-risk moment occurs when you are driving forward but have not yet achieved full compression—the intermediate range where you have committed your weight but the opponent's hips are still mobile. At this point, the opponent can load sweeps using your forward momentum, create angles for back takes, or lock closed guard around your waist. This is why full commitment is essential: hesitating in this intermediate range gives the opponent maximum leverage from their lapel configuration while you have already sacrificed your standing posture. Drive through this range as quickly as possible to reach the compressed position where your weight advantage takes over."
+        "answer": "The most dangerous moment is the intermediate range where your weight is committed forward but full compression is not yet achieved. In this range the opponent's hips are still mobile, so they can load sweeps using your forward momentum, create angles for back takes, or lock closed guard around your waist. This is why full commitment is essential: hesitating here gives the opponent maximum leverage from their lapel configuration while you have already sacrificed your standing posture. Drive through this range as quickly as possible to reach the compressed position where your weight advantage takes over.",
+        "distractors": {
+          "plausible": [
+            "The most dangerous moment is the initial grip exchange, before you have committed any forward weight into the stack.",
+            "The most dangerous moment comes after full compression, when the stacked opponent grows desperate and explodes into counters."
+          ],
+          "trap": [
+            "Mid-drive is actually the safest phase because your forward momentum smothers counters, so pausing there to reset grips is fine."
+          ]
+        }
       }
     ],
     "safety_considerations": "The stack pass compresses the opponent's spine significantly, which can cause discomfort or injury if applied excessively. During training, communicate with your partner and release pressure immediately if they tap or express discomfort. Avoid driving excessive weight onto opponents with pre-existing neck or back issues. The pass should fold them, not injure them. When drilling, start with controlled pressure and increase gradually as both partners become comfortable with the compression mechanics. In competition, be aware that fully compressed opponents may tap from discomfort rather than submission—this is a valid outcome but should not be the primary goal in training contexts where you want to develop passing mechanics.",

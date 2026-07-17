@@ -338,18 +338,45 @@
       },
       {
         "question": "When opponent grabs their own gi or belt to prevent the figure-four grip, what are three effective tactical responses?",
-        "answer": "First, recognize that their defensive grip significantly weakens their base and posture, making sweeps highly effective - execute hip bump sweep, scissor sweep, or other guard sweeps. Second, transition to alternative submissions that capitalize on their compromised structure, such as triangle choke or omoplata, while maintaining wrist control. Third, use your body weight and positioning to methodically break their defensive grip by creating angles that make holding their own gi mechanically disadvantageous. The key principle is that forcing the finish against strong defense is lower percentage than transitioning to attacks that their defense actually facilitates.",
-        "safety_critical": false
+        "answer": "When opponents grip their own gi to defend the Kimura, attack with sweeps, switch to other submissions, or create angles that break the grip. First, recognize that their defensive grip significantly weakens their base and posture, making sweeps highly effective — execute hip bump sweep, scissor sweep, or other guard sweeps. Second, transition to alternative submissions that capitalize on their compromised structure, such as triangle choke or omoplata, while maintaining wrist control. Third, use your body weight and positioning to methodically break their defensive grip by creating angles that make holding their own gi mechanically disadvantageous. The key principle is that forcing the finish against strong defense is lower percentage than transitioning to attacks that their defense actually facilitates.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Keep patiently prying at their gi grip with both hands until it breaks, since the Kimura is your highest-percentage attack.",
+            "Abandon the wrist entirely and reset to closed guard so you can restart the attack from a neutral position."
+          ],
+          "trap": [
+            "Posture up out of your guard and yank their arm free with explosive strength before they can consolidate the grip."
+          ]
+        }
       },
       {
         "question": "What are the primary anatomical structures at risk during Kimura application, and what are typical recovery times if damaged?",
-        "answer": "The primary structures at risk include: the rotator cuff muscles (supraspinatus, infraspinatus, teres minor) with tears requiring 3-6 months recovery and potentially surgery; the shoulder capsule and labrum with damage requiring 4-8 months including possible surgical repair; posterior shoulder dislocation (catastrophic injury) requiring 6-12 months with surgery; and in extreme cases, spiral fracture of the humerus requiring 6-12+ months with surgical fixation. These extended recovery times emphasize why controlled, progressive application is absolutely mandatory in training environments. Competition intensity is never appropriate during drilling or regular sparring.",
-        "safety_critical": true
+        "answer": "The Kimura mainly risks the rotator cuff, shoulder capsule and labrum, and posterior dislocation, with recoveries of 3 to 12+ months. Rotator cuff tears (supraspinatus, infraspinatus, teres minor) require 3-6 months recovery and potentially surgery; capsule and labrum damage requires 4-8 months including possible surgical repair; posterior shoulder dislocation is catastrophic, requiring 6-12 months with surgery; and in extreme cases a spiral fracture of the humerus requires 6-12+ months with surgical fixation. These extended recovery times emphasize why controlled, progressive application is absolutely mandatory in training environments. Competition intensity is never appropriate during drilling or regular sparring.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "The main risk is to the elbow ligaments, as with an armbar, and these strains typically heal in 4-6 weeks without surgery.",
+            "The Kimura mostly strains the biceps and forearm muscles, minor injuries that resolve with a few weeks of rest."
+          ],
+          "trap": [
+            "The shoulder's natural mobility absorbs the rotation safely, so applying the lock quickly just produces a faster tap."
+          ]
+        }
       },
       {
         "question": "Describe the Kimura trap concept and how it transforms a defended submission into offensive opportunities?",
-        "answer": "The Kimura trap recognizes that the figure-four grip itself is an extremely powerful control position that enables multiple attacking sequences beyond just the shoulder lock finish. When opponent defends the submission by rolling forward, you maintain the grip and take their back. When they defend by sitting up or posturing, you use the grip to execute sweeps to top position. When they turn into the lock, you can transition to armbars or other joint locks. The trap philosophy means you never lose the Kimura - you either finish it, sweep with it, take the back with it, or transition to other submissions from it. This makes the Kimura one of the most versatile control positions in BJJ.",
-        "safety_critical": false
+        "answer": "The Kimura trap treats the figure-four grip as a control position, converting defended locks into back takes, sweeps, and other submissions. When opponent defends the submission by rolling forward, you maintain the grip and take their back. When they defend by sitting up or posturing, you use the grip to execute sweeps to top position. When they turn into the lock, you can transition to armbars or other joint locks. The trap philosophy means you never lose the Kimura — you either finish it, sweep with it, take the back with it, or transition to other submissions from it. This makes the Kimura one of the most versatile control positions in BJJ.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The Kimura trap means baiting them to defend the shoulder so you can release the grip and attack the neck instead.",
+            "The Kimura trap is holding the figure-four as a stalling position until the opponent tires enough to force the finish."
+          ],
+          "trap": [
+            "If they roll forward to defend, release the grip immediately so their roll cannot drag you into bottom position."
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up while you have a partially secured Kimura grip - what adjustment prevents escape and maintains offensive pressure?",
@@ -358,23 +385,59 @@
       },
       {
         "question": "What specific grip adjustments maximize finishing pressure when the opponent's wrist begins slipping from your control during the final rotation?",
-        "answer": "When grip begins slipping, immediately reinforce by switching from wrist-on-wrist to a deeper four-finger grip around their wrist with your top hand, overlapping your fingers. Your bottom hand should grip your own wrist more deeply, creating a tighter figure-four configuration. Consider adjusting your elbow position to clamp more tightly against your ribs, creating additional friction. If slipping continues, you may need to pause the rotation, re-establish a secure grip position, then resume pressure rather than forcing through with compromised control. A lost grip during maximum rotation risks sudden release injuries to both practitioners.",
-        "safety_critical": true
+        "answer": "If the wrist slips, deepen to an overlapping four-finger grip, regrip your own wrist tighter, and clamp your elbows to your ribs. Switch your top hand from wrist-on-wrist to a deeper four-finger grip around their wrist, overlapping your fingers, while your bottom hand grips your own wrist more deeply for a tighter figure-four configuration. Adjusting your elbow position to clamp against your ribs creates additional friction. If slipping continues, pause the rotation, re-establish a secure grip position, then resume pressure rather than forcing through with compromised control. A lost grip during maximum rotation risks sudden release injuries to both practitioners.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Switch your top hand to a thumb-around monkey grip on their wrist, since the wrapped thumb adds squeezing power.",
+            "Extend your elbows away from your body to gain more leverage on the slipping wrist before it escapes."
+          ],
+          "trap": [
+            "Accelerate the rotation to beat their escape, finishing before the grip fails completely."
+          ]
+        }
       },
       {
         "question": "At what point during Kimura application does the shoulder reach the point of no escape, and what indicators tell you the submission is locked?",
-        "answer": "The point of no escape occurs when you have achieved: elbow pinned to centerline with no space for straightening, perpendicular hip angle established preventing roll-through, figure-four grip secured with no gaps, and rotation begun past 45 degrees driving the wrist toward their lower back. Physical indicators of a locked submission include feeling significant resistance increase in the shoulder joint, opponent's body beginning to rotate involuntarily following their arm, visible tension in their shoulder and neck muscles, and their free hand frantically searching for tap or escape rather than defending the grip. Once past approximately 60 degrees of internal rotation with proper elbow position, escape becomes extremely difficult without accepting significant shoulder damage.",
-        "safety_critical": false
+        "answer": "The Kimura locks once the elbow is pinned to centerline, hips are perpendicular, and internal rotation passes roughly 45-60 degrees. The point of no escape requires: elbow pinned to centerline with no space for straightening, perpendicular hip angle established preventing roll-through, figure-four grip secured with no gaps, and rotation begun past 45 degrees driving the wrist toward their lower back. Physical indicators of a locked submission include feeling significant resistance increase in the shoulder joint, opponent's body beginning to rotate involuntarily following their arm, visible tension in their shoulder and neck muscles, and their free hand frantically searching for tap or escape rather than defending the grip. Once past approximately 60 degrees of internal rotation with proper elbow position, escape becomes extremely difficult without accepting significant shoulder damage.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "The lock is secure the moment the figure-four grip closes, regardless of elbow position or hip angle.",
+            "The point of no escape comes when you sit up to a 90-degree angle, even if their elbow still floats away from centerline."
+          ],
+          "trap": [
+            "Once the figure-four is set you can relax elbow control, since the grip alone prevents any escape."
+          ]
+        }
       },
       {
         "question": "How do you distinguish between productive resistance and dangerous structural failure during Kimura application?",
-        "answer": "Productive resistance feels like consistent muscular tension opposing your rotation - the shoulder progressively gives way under sustained pressure as muscles fatigue. Dangerous structural failure presents as sudden changes: unexpected pops, clicks, or cracking sounds; sudden reduction in resistance where there was significant resistance before; opponent's body language shifting from active defense to passive acceptance or panic; any grinding sensations transmitted through the grip. If you experience any sudden changes in resistance quality, immediately stop all pressure and check with your partner. Progressive muscle fatigue is normal; sudden mechanical changes indicate potential injury in progress.",
-        "safety_critical": true
+        "answer": "Productive resistance is steady muscular tension that fades gradually; pops, clicks, grinding, or sudden give signal structural failure. Productive resistance feels like consistent muscular tension opposing your rotation — the shoulder progressively gives way under sustained pressure as muscles fatigue. Dangerous structural failure presents as sudden changes: unexpected pops, clicks, or cracking sounds; sudden reduction in resistance where there was significant resistance before; opponent's body language shifting from active defense to passive acceptance or panic; any grinding sensations transmitted through the grip. If you experience any sudden changes in resistance quality, immediately stop all pressure and check with your partner. Progressive muscle fatigue is normal; sudden mechanical changes indicate potential injury in progress.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Grinding sensations are normal gi friction and joint noise; you only need to stop if you hear a loud pop.",
+            "Steady strong resistance means the shoulder is in danger, so back off whenever the opponent keeps fighting the rotation."
+          ],
+          "trap": [
+            "A sudden drop in resistance means their defense finally collapsed, so accelerate the rotation to secure the tap."
+          ]
+        }
       },
       {
         "question": "When using the Kimura from guard in competition, what timing and pressure considerations differ from training application?",
-        "answer": "In competition, you may apply faster initial control and positioning to prevent defensive reactions, but the final rotational pressure should still be progressive to allow your opponent opportunity to tap. Competition finishing focuses on rapid grip establishment and angle creation (within 2-3 seconds) followed by controlled but determined pressure application. Key differences include: accepting that opponent will fight harder requiring stronger grip control, being prepared to transition immediately if they defend rather than forcing, and understanding that referees will stop the match if tap is not given but injury appears imminent. Even in competition, sudden jerking application is unnecessary and dangerous - controlled pressure with committed intent achieves the finish while maintaining safety standards.",
-        "safety_critical": false
+        "answer": "In competition, grips and angles are established faster (2-3 seconds), but final rotational pressure remains progressive and controlled. You may apply faster initial control and positioning to prevent defensive reactions, but the final rotation should still allow your opponent opportunity to tap. Key differences include: accepting that opponent will fight harder requiring stronger grip control, being prepared to transition immediately if they defend rather than forcing, and understanding that referees will stop the match if tap is not given but injury appears imminent. Even in competition, sudden jerking application is unnecessary and dangerous — controlled pressure with committed intent achieves the finish while maintaining safety standards.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Competition application is identical to training in every phase; only your grip strength should increase.",
+            "In competition you slow the entire sequence down, since holding the control position scores more reliably than finishing."
+          ],
+          "trap": [
+            "In competition, snap the final rotation explosively — the referee will stop the match before any injury occurs."
+          ]
+        }
       }
     ],
     "clips": [

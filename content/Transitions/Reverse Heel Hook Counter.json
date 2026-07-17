@@ -233,7 +233,16 @@
       },
       {
         "question": "Your opponent has a deep heel hook grip already established. Should you attempt the counter?",
-        "answer": "No. If their grip is already deep and secure, attempting the counter will likely fail and the movement may actually create space for them to finish. When facing an established grip, focus on systematic escape mechanics rather than counter-attack."
+        "answer": "No — against a deep, secure heel hook grip the counter will likely fail and can create the space they need to finish. When facing an established grip, focus on systematic escape mechanics rather than counter-attack.",
+        "distractors": {
+          "plausible": [
+            "Yes, but only if you counter immediately — speed of entry beats grip depth in leg lock exchanges.",
+            "No — stay completely still and wait for them to adjust their grip before doing anything."
+          ],
+          "trap": [
+            "Yes — explode into the counter and roll hard, since aggressive motion prevents them from settling the finish."
+          ]
+        }
       },
       {
         "question": "What grips do you need to establish for the inside heel hook finish after successful counter entry?",
@@ -387,7 +396,16 @@
       },
       {
         "question": "Your heel hook grip is shallow and your opponent has begun threading their leg between yours. Should you race to finish?",
-        "answer": "No. With a shallow grip, racing to finish is a losing strategy because the opponent's counter-entanglement will establish before your finish materializes. Instead, withdraw your attacking leg before they complete inside position, reset your ushiro control with tighter inside leg pressure, and re-attack with better grip establishment before adjusting again."
+        "answer": "No — with a shallow grip, withdraw your attacking leg and reset before their counter-entanglement completes. Racing to finish is a losing strategy because their counter will establish before your finish materializes. Reset your ushiro control with tighter inside leg pressure, and re-attack with better grip establishment before adjusting again.",
+        "distractors": {
+          "plausible": [
+            "No — keep your shallow grip locked and stall the entanglement until they give up on threading their leg.",
+            "Yes, but switch to a toe hold first since it finishes faster than completing the heel hook grip."
+          ],
+          "trap": [
+            "Yes — race to finish, since your grip came first and finishing speed beats their developing counter-entanglement."
+          ]
+        }
       },
       {
         "question": "What specific leg positioning prevents the counter-entry angle during your heel hook attempts?",
@@ -395,7 +413,16 @@
       },
       {
         "question": "How do you determine whether you have enough grip advantage to win a leg lock exchange if the counter is established?",
-        "answer": "Evaluate three factors: grip depth (is your heel hook grip past the point of no return or still establishing), positional timing (did you have your grip before they entered counter position), and finishing proximity (how many adjustments remain before your submission is complete). If you had deep grip before their counter began, your positional priority typically wins the exchange. If both grips are establishing simultaneously, the exchange is a coin flip."
+        "answer": "Evaluate grip depth, positional timing, and finishing proximity — if you had deep grip before their counter began, you typically win. Grip depth asks whether your heel hook grip is past the point of no return or still establishing; positional timing asks whether you had your grip before they entered counter position; finishing proximity asks how many adjustments remain before your submission is complete. If both grips are establishing simultaneously, the exchange is a coin flip.",
+        "distractors": {
+          "plausible": [
+            "Compare grip depth alone — whoever holds the deeper grip wins the exchange regardless of who entered first.",
+            "Count remaining adjustments only — if you need fewer moves to finish than they do, you win the exchange."
+          ],
+          "trap": [
+            "Ignore their counter entirely and crank the finish as hard as possible — commitment always beats an established counter."
+          ]
+        }
       },
       {
         "question": "Your opponent successfully establishes inside ashi-garami on your leg during the counter. What is the most dangerous mistake at this point?",

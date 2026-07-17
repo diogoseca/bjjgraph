@@ -604,7 +604,16 @@
       },
       {
         "question": "Your opponent starts driving forward with heavy crossface pressure - what adjustment do you make?",
-        "answer": "Use their forward drive against them by maintaining the Kimura grip and either executing a rolling Kimura (using their momentum to come on top) or transitioning to deep half guard by sliding underneath them. Their forward pressure creates momentum you can redirect. Additionally, use your free arm to frame on their shoulder or jaw to create distance and relieve the crossface pressure before they completely flatten you."
+        "answer": "Redirect their forward drive by keeping the Kimura grip and either rolling them over or sliding underneath into deep half guard. Their forward pressure creates momentum you can use against them: the rolling Kimura brings you on top, while sliding under converts the drive into deep half guard. At the same time, use your free arm to frame on their shoulder or jaw to create distance and relieve the crossface pressure before they completely flatten you.",
+        "distractors": {
+          "plausible": [
+            "Release the Kimura grip so you can use both arms to frame against their shoulders and stop the drive.",
+            "Bridge straight up into their forward pressure to push them backward and off of you."
+          ],
+          "trap": [
+            "Turn away from them onto your knees to escape the crossface before they can flatten you out."
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Kimura Trap Bottom position?",
@@ -628,7 +637,16 @@
       },
       {
         "question": "Your opponent partially passes but you maintain the Kimura grip - what is your recovery sequence?",
-        "answer": "Keep the Kimura grip as your anchor and immediately recover half guard by shrimping your hips and re-inserting your knee shield or lockdown on their trapped leg. The grip prevents them from consolidating the pass because their arm is compromised. If they continue to advance, use the grip to pull yourself onto your side and threaten the back take as they pass, converting their positional advancement into back exposure."
+        "answer": "Keep the Kimura grip as your anchor and shrimp your hips to recover half guard, re-inserting your knee shield or lockdown on their trapped leg. The grip prevents them from consolidating the pass because their arm is compromised. If they continue to advance, use the grip to pull yourself onto your side and threaten the back take as they pass, converting their positional advancement into back exposure.",
+        "distractors": {
+          "plausible": [
+            "Release the grip first so both hands are free to push their hip back and recover full guard.",
+            "Keep the grip but stay flat and lock your feet around their waist to stall the pass."
+          ],
+          "trap": [
+            "Abandon the grip and turn to turtle so you can rebuild your guard from your knees."
+          ]
+        }
       }
     ],
     "name": "Kimura Trap Bottom",
@@ -755,11 +773,29 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the Kimura Trap regardless of who is on top?",
-      "answer": "The position is defined by a figure-four grip on one of the opponent's arms: one hand grips the opponent's wrist while the same-side arm threads under their upper arm and the free hand grips your own wrist, forming a closed loop. This double-lever attachment isolates the opponent's shoulder girdle by controlling the bend of the elbow and the rotation of the shoulder independently of any pin. What makes it a distinct position rather than a passing grip is that this loop is the primary control point rather than weight or a pin. Both players orient everything they do around the state of this grip."
+      "answer": "A figure-four grip on one arm defines it: one hand grips their wrist while your other arm threads under their upper arm and grips your own wrist. This double-lever attachment isolates the opponent's shoulder girdle by controlling the bend of the elbow and the rotation of the shoulder independently of any pin. What makes it a distinct position rather than a passing grip is that this closed loop is the primary control point rather than weight or a pin. Both players orient everything they do around the state of this grip.",
+      "distractors": {
+        "plausible": [
+          "One hand grips the opponent's wrist while the other cups their elbow, pinning the whole arm to your chest.",
+          "A figure-four where your free arm threads over their upper arm and grips behind their far shoulder."
+        ],
+        "trap": [
+          "Both of your hands clamp onto the opponent's wrist, doubling your pulling power on the trapped arm."
+        ]
+      }
     },
     {
       "question": "Why does the Kimura grip invert the usual relationship between position and control?",
-      "answer": "In most positions, control flows from being on top and applying weight; the Kimura Trap instead derives control from mechanically owning the opponent's shoulder joint through the figure-four. Because a compromised shoulder cannot post, frame, or generate pushing power, the player holding the grip dictates the exchange even from underneath. This is why a bottom player with the grip can off-balance and sweep a top player who nominally has positional dominance. The grip, not the pin, is the currency of control, which is the position's defining paradigm shift."
+      "answer": "Control comes from mechanically owning the opponent's shoulder joint through the figure-four, not from top position or weight. In most positions, control flows from being on top and applying weight; here, because a compromised shoulder cannot post, frame, or generate pushing power, the player holding the grip dictates the exchange even from underneath. This is why a bottom player with the grip can off-balance and sweep a top player who nominally has positional dominance. The grip, not the pin, is the currency of control, which is the position's defining paradigm shift.",
+      "distractors": {
+        "plausible": [
+          "Control inverts because the grip forces the opponent to carry your weight, exhausting their upper body.",
+          "Control inverts because the grip anchors you to their torso, letting you pull them back into closed guard at will."
+        ],
+        "trap": [
+          "The grip makes position irrelevant, so you should abandon guard retention and crank the finish from anywhere."
+        ]
+      }
     },
     {
       "question": "Which of the opponent's capabilities does the figure-four grip specifically take away?",

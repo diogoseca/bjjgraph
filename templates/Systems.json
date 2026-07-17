@@ -60,7 +60,10 @@
       "type": "array",
       "description": "Strict synonyms — other names for THIS EXACT system. Examples: ['DDS', 'Modern Leg Locks'] for Danaher Leg Lock System. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
     "family": {
       "type": "string",
@@ -71,16 +74,26 @@
       "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
       "additionalProperties": true,
       "properties": {
-        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
-        "optimization_pass": { "type": "string" },
-        "last_improved_by": { "type": "string" }
+        "last_improved": {
+          "type": "string",
+          "description": "ISO date (YYYY-MM-DD) of the last bot edit"
+        },
+        "optimization_pass": {
+          "type": "string"
+        },
+        "last_improved_by": {
+          "type": "string"
+        }
       }
     },
     "sameAs": {
       "type": "array",
       "description": "Authoritative external URLs for THIS system (Wikipedia/Wikidata). schema.org sameAs. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "format": "uri" }
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
     },
     "disambiguations": {
       "type": "array",
@@ -89,10 +102,19 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "reason"],
+        "required": [
+          "name",
+          "reason"
+        ],
         "properties": {
-          "name": { "type": "string", "minLength": 1 },
-          "reason": { "type": "string", "minLength": 10 }
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 10
+          }
         }
       }
     },
@@ -352,6 +374,29 @@
             "type": "string",
             "minLength": 50,
             "description": "Detailed answer (50+ characters)"
+          },
+          "distractors": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Optional authored MC distractor tiers (graded options): plausible = nearly-right beginner beliefs, trap = dangerous misconceptions. Rendered by the Neural app's multiple-choice mode; runtime pooling is the fallback when absent.",
+            "properties": {
+              "plausible": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 15,
+                  "maxLength": 200
+                }
+              },
+              "trap": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 15,
+                  "maxLength": 200
+                }
+              }
+            }
           }
         }
       }

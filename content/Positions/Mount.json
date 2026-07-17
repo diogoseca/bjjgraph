@@ -773,7 +773,16 @@
   "flashcards_family": [
     {
       "question": "What single mechanical principle makes every variation of mount dominant?",
-      "answer": "Every mount variant places the top player's center of mass directly above the mounted player's torso, so gravity does the controlling work rather than muscular effort. Because the bottom player must generate force upward against that entire load just to breathe or move their hips, the position drains their energy while the top player expends almost none. Whether it is low mount pinning the solar plexus, high mount riding the chest, or technical mount on the side, the constant is that the top player's weight sits above the base of support the bottom player has been denied. This gravitational asymmetry is why mount converts to submissions at a higher rate than almost any other position and why it is scored so heavily."
+      "answer": "Every mount variant places the top player's center of mass directly above the opponent's torso, so gravity does the controlling work instead of muscle. Because the bottom player must generate force upward against that entire load just to breathe or move their hips, the position drains their energy while the top player expends almost none. Whether it is low mount pinning the solar plexus, high mount riding the chest, or technical mount on the side, the constant is that the top player's weight sits above the base of support the bottom player has been denied. This gravitational asymmetry is why mount converts to submissions at a higher rate than almost any other position and why it is scored so heavily.",
+      "distractors": {
+        "plausible": [
+          "Every mount variant works because the top player's legs squeeze the opponent's ribs hard enough to restrict their breathing and hip movement.",
+          "Mount is dominant because the top player's posted arms pin the opponent's shoulders flat, taking away their ability to turn."
+        ],
+        "trap": [
+          "Mount is most dominant when you sit your weight back over the opponent's thighs, trapping their legs so they can never bridge."
+        ]
+      }
     },
     {
       "question": "Why does every mounted player, in any mount variation, always retain the upa and elbow-escape as latent threats?",
@@ -803,7 +812,16 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the Mount position?",
-      "answer": "Mount exists when one player straddles a supine opponent's torso with a knee on either side of the body, the top player's hips settled over the opponent's midsection or chest and the bottom player's back flat on the mat. The defining feature is that the top player's weight is stacked vertically over the opponent's centerline, so gravity does the pinning work rather than muscular effort. Unlike side control, where the top player lies chest-to-chest and perpendicular with both legs to one side, Mount keeps the top player square and facing the opponent directly with legs split to both flanks. This vertical, weight-over-centerline relationship is what makes Mount worth 4 IBJJF points and the most decisive pin in the positional hierarchy."
+      "answer": "Mount is the top player straddling a supine opponent with a knee on each side and weight stacked vertically over the opponent's centerline. The top player's hips settle over the opponent's midsection or chest while the bottom player's back stays flat on the mat, so gravity does the pinning work rather than muscular effort. Unlike side control, where the top player lies chest-to-chest and perpendicular with both legs to one side, Mount keeps the top player square and facing the opponent directly with legs split to both flanks. This vertical, weight-over-centerline relationship is what makes Mount worth 4 IBJJF points and the most decisive pin in the positional hierarchy.",
+      "distractors": {
+        "plausible": [
+          "Mount is the top player lying chest-to-chest and perpendicular across the opponent, with both legs off to one side of the body.",
+          "Mount is defined by the top player sitting upright on the opponent's hips and squeezing the torso with leg strength to hold the pin."
+        ],
+        "trap": [
+          "Mount is strongest when you lean far forward and post both hands on the mat, keeping your weight ahead of the opponent's head."
+        ]
+      }
     },
     {
       "question": "Why is hip control the central battle that determines who dictates a Mount exchange?",
@@ -815,7 +833,16 @@
     },
     {
       "question": "What role does the bottom player's bridging and framing play in the shared dynamics of Mount?",
-      "answer": "Bridging and framing are the two levers by which the bottom player injects instability into an otherwise stable pin, and the top player's entire retention game is a response to them. A bridge lifts and displaces the top player's base, momentarily unstacking the vertical weight, while frames wedge skeletal structure between the two torsos to create incremental space. These forces are why the position is dynamic rather than static: the top player must continuously re-center over the bridge and collapse the frames, and the bottom player must chain small displacements together. The interplay of bridge, frame, and re-center is the shared rhythm that defines active Mount for both roles."
+      "answer": "Bridging and framing are the bottom player's two levers for injecting instability into Mount, and the top player's entire retention game answers them. A bridge lifts and displaces the top player's base, momentarily unstacking the vertical weight, while frames wedge skeletal structure between the two torsos to create incremental space. These forces are why the position is dynamic rather than static: the top player must continuously re-center over the bridge and collapse the frames, and the bottom player must chain small displacements together. The interplay of bridge, frame, and re-center is the shared rhythm that defines active Mount for both roles.",
+      "distractors": {
+        "plausible": [
+          "The bridge exists to throw the top player off in one explosive movement, rather than to create small displacements the frames can build on.",
+          "Frames work by pushing the top player upward with arm strength while the bridge holds their base in place underneath."
+        ],
+        "trap": [
+          "Extending both arms to press straight up on the top player's chest is the most reliable way to create escape space under Mount."
+        ]
+      }
     },
     {
       "question": "How does Mount differ mechanically from side control and knee-on-belly?",

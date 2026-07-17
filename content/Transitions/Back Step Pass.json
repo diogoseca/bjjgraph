@@ -235,11 +235,29 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Back Step Pass?",
-        "answer": "The primary goal is to extract your leg from an impending or established leg entanglement while simultaneously creating a passing angle that allows you to advance to side control. It converts a defensive necessity into an offensive passing opportunity."
+        "answer": "The primary goal is to extract your leg from a leg entanglement while creating a passing angle that advances you to side control. It works against both impending and established entanglements, and it converts a defensive necessity into an offensive passing opportunity in one motion.",
+        "distractors": {
+          "plausible": [
+            "The primary goal is to free your leg and reset to standing so you can restart your passing sequence from a safe distance.",
+            "The primary goal is to counter the leg entanglement by dropping into a leglock exchange of your own before they finish theirs."
+          ],
+          "trap": [
+            "The primary goal is to sit into the entanglement and yank your knee straight back out by force before the hooks fully connect."
+          ]
+        }
       },
       {
         "question": "What position do you start Back Step Pass from?",
-        "answer": "This technique starts from Grasshopper Guard/Top, specifically when the bottom player's inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your lower limbs."
+        "answer": "The Back Step Pass starts from Grasshopper Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs.",
+        "distractors": {
+          "plausible": [
+            "The Back Step Pass starts from Half Guard/Top, once the bottom player's knee shield begins threatening your trapped leg.",
+            "The Back Step Pass starts from De La Riva Guard/Top, as the bottom player's outside hook starts rotating underneath you."
+          ],
+          "trap": [
+            "The Back Step Pass starts from inside the opponent's Ashi Garami, after they have already locked both of their legs around your knee."
+          ]
+        }
       },
       {
         "question": "Why should you step at a 45-degree angle rather than straight backward?",
@@ -267,7 +285,16 @@
       },
       {
         "question": "Your opponent threads one leg deeply behind your knee while you are still in combat base - what determines whether you should back step or address the hook directly?",
-        "answer": "If the hook is shallow and the opponent has not yet secured a second control point such as an ankle grip or hip clamp, you can strip the hook directly with your hand. If the hook is deep and the opponent is beginning to rotate or secure additional control, the back step is necessary because direct stripping will be too slow and risks tightening the entanglement."
+        "answer": "Hook depth and secondary control decide it: strip a shallow, unsupported hook by hand, but back step once the hook is deep or reinforced. If the hook is shallow and the opponent has not yet secured a second control point such as an ankle grip or hip clamp, you can strip the hook directly with your hand. If the hook is deep and the opponent is beginning to rotate or secure additional control, the back step is necessary because direct stripping will be too slow and risks tightening the entanglement.",
+        "distractors": {
+          "plausible": [
+            "Strip the hook by hand whenever the opponent is still flat on their back, and back step only once they have fully inverted.",
+            "Your grips decide it: with an underhook you strip the hook by hand, and without one you back step regardless of hook depth."
+          ],
+          "trap": [
+            "Always try to strip the hook by hand first, since back stepping too early concedes your base and hands them the sweep."
+          ]
+        }
       },
       {
         "question": "What is the direction of force during the forward drive phase of the Back Step Pass?",
@@ -275,7 +302,16 @@
       },
       {
         "question": "If your back step clears the entanglement but the opponent recovers butterfly hooks, what chain attack should you use?",
-        "answer": "Transition immediately to a butterfly smash or over-under pass by driving your shoulder into their chest and pinning one of their butterfly hooks flat with your hip pressure. Alternatively, if they elevate with the hooks, backstep again or switch to a leg drag by controlling the ankle of their near leg and dragging it across your body."
+        "answer": "Chain immediately into a butterfly smash or over-under pass, driving your shoulder into their chest and pinning one butterfly hook flat with hip pressure. Alternatively, if they elevate with the hooks, back step again or switch to a leg drag by controlling the ankle of their near leg and dragging it across your body.",
+        "distractors": {
+          "plausible": [
+            "Chain into a knee cut pass by slicing your knee across their thighs before the butterfly hooks have time to elevate you.",
+            "Back away to standing and restart your pass from open guard so the butterfly hooks never get the chance to connect."
+          ],
+          "trap": [
+            "Post both hands on the mat and hop your hips over the hooks, keeping your chest upright so you stay mobile above them."
+          ]
+        }
       },
       {
         "question": "What grip on the opponent's legs is most effective during the clearing phase of the back step?",

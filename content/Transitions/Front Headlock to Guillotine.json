@@ -259,11 +259,29 @@
       },
       {
         "question": "Why is it important to time the guillotine transition when the opponent is moving rather than when they are static?",
-        "answer": "When the opponent is moving, particularly when trying to stand or drive forward, their neck naturally extends and their defensive awareness is divided between the movement and defending the choke. This creates a window where you can slide your arm deeper and establish the grip before they can react defensively. Additionally, their movement provides momentum that you can use to pull them into the guillotine position. A static opponent can focus entirely on defense, keeping their chin tucked and posture strong, making it much more difficult to secure proper grip depth."
+        "answer": "Attack when the opponent moves because motion extends their neck and splits their attention, opening the window to slide your grip deep. When they try to stand or drive forward, their neck naturally extends and their defensive awareness is divided between the movement and defending the choke, letting you slide your arm deeper and establish the grip before they can react. Their momentum also helps you pull them into the guillotine position. By contrast, a static opponent can focus entirely on defense, keeping their chin tucked and posture strong, making proper grip depth much more difficult to secure.",
+        "distractors": {
+          "plausible": [
+            "Attack when the opponent is static so you can set your grips carefully without their movement disrupting your hand placement.",
+            "Movement matters mainly because it tires the opponent out, so you should attack once they have exhausted themselves scrambling."
+          ],
+          "trap": [
+            "Pause and reset the front headlock until they stop moving, since attacking mid-scramble risks losing your head control."
+          ]
+        }
       },
       {
         "question": "What are the three primary body positions from which a guillotine choke can be finished, and what are the advantages of each?",
-        "answer": "The three primary finishing positions are: 1) Closed Guard - provides excellent control of opponent's hips and posture, prevents them from standing or creating distance, and allows you to use hip extension to add pressure; 2) Standing with legs wrapped - maximizes pressure by using your full body weight hanging on their neck, but requires good conditioning and may be defended if opponent has very strong base; 3) Standing with feet on ground - maintains mobility and allows quick transitions to other positions, useful in self-defense or MMA contexts where going to guard is risky, but provides less overall control. The choice depends on the situation, your physical attributes, and the opponent's defensive tendencies."
+        "answer": "The three primary guillotine finishing positions are closed guard, standing with legs wrapped, and standing with feet on the ground. Closed guard provides excellent control of the opponent's hips and posture, prevents them from standing or creating distance, and lets you use hip extension to add pressure. Standing with legs wrapped maximizes pressure by hanging your full body weight on their neck, but requires good conditioning and can be defended by an opponent with a very strong base. Standing with feet on the ground maintains mobility and allows quick transitions to other positions — useful in self-defense or MMA contexts where going to guard is risky — but provides less overall control. The choice depends on the situation, your physical attributes, and the opponent's defensive tendencies.",
+        "distractors": {
+          "plausible": [
+            "The three primary finishing positions are closed guard, half guard, and mount, each trading a degree of control for added pressure.",
+            "The three finishing positions are closed guard, side control, and north-south, ordered from least to most overall control."
+          ],
+          "trap": [
+            "The best finish is always to jump to full guard regardless of context, since leg control matters more than the choke grip itself."
+          ]
+        }
       },
       {
         "question": "How should you respond if the opponent successfully tucks their chin before you can secure deep hand positioning?",
@@ -275,7 +293,16 @@
       },
       {
         "question": "Describe the proper sequence of upper body movements when transitioning from front headlock to guillotine while pulling guard?",
-        "answer": "The sequence should be one fluid motion: 1) Maintain chest pressure on opponent's head while sliding your choking arm deeper around their neck until your wrist passes their throat; 2) Bring your free hand underneath their body and clasp it with your choking hand on the far side of their neck; 3) As your grip locks, simultaneously sit back and pull their upper body down into you while keeping your elbows tight to your sides; 4) Pull them into closed guard by wrapping your legs around their waist; 5) Once guard is closed, adjust your hips to come forward and under their chest while pulling their head down; 6) Finish by crunching your elbows together while lifting your wrist bone into their chin and extending your hips forward. The key is that each movement flows into the next without pauses, and chest-to-chest pressure is maintained throughout the entire sequence."
+        "answer": "Slide the choking arm deep, lock your grip under their body, sit back pulling them into closed guard, then crunch elbows and extend hips to finish. In detail, the sequence is one fluid motion: 1) Maintain chest pressure on the opponent's head while sliding your choking arm deeper around their neck until your wrist passes their throat; 2) Bring your free hand underneath their body and clasp it with your choking hand on the far side of their neck; 3) As the grip locks, simultaneously sit back and pull their upper body down into you while keeping your elbows tight to your sides; 4) Pull them into closed guard by wrapping your legs around their waist; 5) Once guard is closed, adjust your hips to come forward and under their chest while pulling their head down; 6) Finish by crunching your elbows together while lifting your wrist bone into their chin and extending your hips forward. Each movement flows into the next without pauses, and chest-to-chest pressure is maintained throughout the entire sequence.",
+        "distractors": {
+          "plausible": [
+            "Close your guard around their waist first, then work your choking arm deep and lock the grip once your legs control their hips.",
+            "Sit back to guard as soon as your choking arm touches their neck, then deepen the grip and lock your hands once you land on bottom."
+          ],
+          "trap": [
+            "Lean back and yank their head up with straight arms to force a fast tap before pulling guard, prioritizing speed over grip depth."
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip during the grip change - how do you adjust?",
@@ -283,7 +310,16 @@
       },
       {
         "question": "What grip configuration should you use when your arms are shorter relative to the opponent's neck circumference?",
-        "answer": "With shorter arms relative to neck size, the ten-finger guillotine (interlaced fingers) provides maximum compression with minimal reach requirement since your hands lock together at the earliest possible contact point. Alternatively, the palm-to-palm grip with your choking hand curled into a fist and your free hand capping the fist creates a compact but powerful configuration. Avoid the S-grip in this scenario because it requires additional arm length to achieve proper lock. You should also favor the high-elbow variation, which changes the angle of attack so that less arm circumference is needed to achieve arterial compression. Finally, consider pulling to closed guard immediately, as the leg pressure helps compensate for reduced arm leverage by driving the opponent's body into your choking structures."
+        "answer": "With shorter arms, use the ten-finger guillotine, since interlaced fingers lock at the earliest contact point for maximum compression. Alternatively, the palm-to-palm grip with your choking hand curled into a fist and your free hand capping the fist creates a compact but powerful configuration. Avoid the S-grip in this scenario because it requires additional arm length to achieve a proper lock. You should also favor the high-elbow variation, which changes the angle of attack so that less arm circumference is needed to achieve arterial compression. Finally, consider pulling to closed guard immediately, as the leg pressure helps compensate for reduced arm leverage by driving the opponent's body into your choking structures.",
+        "distractors": {
+          "plausible": [
+            "With shorter arms, use the S-grip because hooking the fingers together shortens the distance your hands must travel to lock.",
+            "Use a figure-four grip on your own biceps, as in a rear naked choke, to compensate for the limited reach of shorter arms."
+          ],
+          "trap": [
+            "Grab your own wrist and pull straight back on the windpipe, since shorter arms mean you should rely on a pain-based crank."
+          ]
+        }
       },
       {
         "question": "The guillotine attempt fails and your opponent begins to posture - what chain attacks are available?",
@@ -291,7 +327,16 @@
       },
       {
         "question": "What direction of force should you apply when finishing the guillotine from closed guard versus from standing?",
-        "answer": "From closed guard, the primary force direction is a crunch upward and inward - you lift your wrist bone into the chin while simultaneously pulling your elbows toward each other and extending your hips forward into the opponent's chest. The force vectors create a scissors effect: your arms pull up and in while your hips push forward and up, compressing the neck between two opposing forces. From standing, the force direction shifts to primarily downward and rotational - your body weight hangs on their neck creating downward traction, while you torque your upper body to drive your choking-side shoulder into one side of the neck and your forearm blade into the other. The standing finish relies more on gravity and body weight than muscular effort. In both cases, the choking arm should drive toward your opposite hip pocket rather than straight up, as this diagonal angle maximizes arterial compression."
+        "answer": "From closed guard you crunch upward and inward with hips extending forward; from standing you apply downward, rotational body-weight traction. From guard, you lift your wrist bone into the chin while pulling your elbows toward each other and extending your hips forward into the opponent's chest — the force vectors create a scissors effect, with your arms pulling up and in while your hips push forward and up, compressing the neck between two opposing forces. From standing, your body weight hangs on their neck creating downward traction while you torque your upper body to drive your choking-side shoulder into one side of the neck and your forearm blade into the other; this finish relies more on gravity and body weight than muscular effort. In both cases, the choking arm should drive toward your opposite hip pocket rather than straight up, as this diagonal angle maximizes arterial compression.",
+        "distractors": {
+          "plausible": [
+            "From closed guard you pull straight down on the head, while from standing you lift upward against the chin to extend the neck.",
+            "In both positions the force should drive straight up into the chin, since arterial compression comes only from vertical lift."
+          ],
+          "trap": [
+            "Squeeze as hard as possible with your arms alone in both positions, keeping your hips still so you never disturb the grip."
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the Front Headlock to Guillotine transition, both partners must maintain clear communication and respect tap signals immediately. The guillotine choke can cause loss of consciousness within 4-6 seconds when properly applied, so practitioners should tap early rather than risk injury. When drilling, apply pressure gradually and progressively, never jerking or slamming the choke on suddenly. Partners should be especially careful during the transition phase when the practitioner is adjusting their grip, as this is when the opponent's neck is most vulnerable to awkward pressure or cranking. Beginners should practice with very light pressure, focusing on positioning and mechanics rather than finishing the choke. When the choking partner feels a tap, they should release immediately and create space. The person being choked should tap on their partner's body, the mat, or verbally if their arms are controlled. Never attempt this technique with full force on training partners who are significantly smaller or less experienced, and always err on the side of caution when practicing. In competition scenarios, recognize that your opponent may not tap until unconsciousness is imminent, so be prepared to hold the position consistently but also to recognize when to release if a referee intervenes. Avoid practicing this technique when fatigued, as tired athletes are more likely to apply dangerous pressure or fail to recognize a tap in time.",
