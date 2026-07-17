@@ -1,10 +1,10 @@
 {
   "name": "bjjgraph",
-  "version": "1.64.2",
+  "version": "1.65.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
-    "serve": "npx serve -l 8080 source/public",
+    "serve": "node scripts/dev-serve.mjs",
     "dev:neural": "node neural/build/build.mjs && mkdir -p source/public/static/neural/app && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && python3 scripts/regenerate_neural_data.py && cp -r source/quartz/static/neural/. source/public/static/neural/ && echo 'neural refreshed (~seconds) — reload the browser'",
     "dev:neural:app": "node neural/build/build.mjs && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && echo 'app bundle refreshed (<1s) — reload the browser'",
     "dev": "npm run build && npm run serve",
@@ -46,6 +46,7 @@
     "pree2e": "bash scripts/check_no_raw_random.sh"
   },
   "devDependencies": {
-    "@playwright/test": "^1.61.1"
+    "@playwright/test": "^1.61.1",
+    "serve-handler": "^6.1.6"
   }
 }

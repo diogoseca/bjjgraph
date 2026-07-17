@@ -41,6 +41,7 @@ import RollSessionButton from "./RollSessionButton"
 import SystemProgress from "./SystemProgress"
 import AffiliateTracking from "./AffiliateTracking"
 import NeuralMount from "./NeuralMount"
+import SnapshotButton from "./SnapshotButton"
 
 export {
   ArticleTitle,
@@ -86,4 +87,5 @@ export {
   SystemProgress,
   AffiliateTracking,
   NeuralMount,
+  SnapshotButton,
 }

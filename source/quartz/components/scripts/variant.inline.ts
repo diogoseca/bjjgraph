@@ -82,6 +82,8 @@ function fireExposure(v: Variant): void {
 // to legacy (bundle missing, boot failure) instantly un-hides the full legacy page. The dark
 // body background covers the brief gap before the app's own loader paints. Client-side only —
 // the static HTML (what crawlers/no-JS get) never carries the attribute.
+// #dev-snapshot-btn is exempt: it is a dev-only overlay that must stay clickable over the
+// neural canvas (it only ever exists on localhost — see snapshotButton.inline.ts).
 const HIDE_STYLE_ID = "neural-hide-legacy"
 function setLegacyHidden(hide: boolean): void {
   const existing = document.getElementById(HIDE_STYLE_ID)
@@ -94,7 +96,7 @@ function setLegacyHidden(hide: boolean): void {
   st.id = HIDE_STYLE_ID
   st.setAttribute("spa-preserve", "") // survive head-patching across soft navs
   st.textContent =
-    'html[data-variant="neural"] body > *:not(#neural-root){display:none !important}' +
+    'html[data-variant="neural"] body > *:not(#neural-root):not(#dev-snapshot-btn){display:none !important}' +
     'html[data-variant="neural"] body{background:#0b0e1a}'
   document.head.appendChild(st)
 }

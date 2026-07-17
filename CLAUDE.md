@@ -402,6 +402,31 @@ cd source && npm run format  # Format code with prettier
 cd source && npm run test    # Run path and depgraph tests
 ```
 
+### Dev Snapshots (`<snapshot />`)
+
+`npm run serve` / `npm run dev` runs `scripts/dev-serve.mjs` — the built site on :8080 (same
+serve-handler engine `npx serve` used) plus a **localhost-only** snapshot receiver. A camera
+button (bottom-left, dev only) captures the tab as PNG + a JSON dump of client state (page
+identity, curated `window.__neural` gameplay/training fields, both web storages with `sb-*` auth
+keys redacted, auth summary, recent console errors, build info) into `tests/artifacts/snapshots/`
+(gitignored) and copies a one-liner to the clipboard:
+
+```
+<snapshot slug="Positions/Mount/Top" variant="neural" t="2026-07-17T14:23:05Z" json="tests/artifacts/snapshots/20260717-142305-positions-mount-top.json" png="tests/artifacts/snapshots/20260717-142305-positions-mount-top.png" />
+```
+
+**When the user pastes a `<snapshot />` line, Read both referenced files** (paths are
+repo-relative). The PNG is exactly what the user was looking at; the JSON is the client state and
+console errors at that instant. Treat them as ground truth for the report that follows — they
+beat any assumption about what the app "should" be showing. The `png` attribute is absent when
+capture degraded to JSON-only.
+
+Capture degrades rather than fails: tab capture (`getDisplayMedia`, one "Share this tab" confirm)
+→ neural-canvas `toDataURL` (no prompt, but misses DOM overlays) → JSON-only. Add `?snapshot=canvas`
+(or set `window.__snapshotCanvasOnly = true`) to skip the prompt and force the canvas path — needed
+for automation, since a headless browser leaves `getDisplayMedia` pending forever instead of
+rejecting it.
+
 ### Content Workflow
 
 ```bash

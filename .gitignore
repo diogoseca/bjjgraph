@@ -85,4 +85,8 @@ e2e/report/
 e2e/test-results/
 test-results/
 e2e/gallery/
+
+# Dev snapshot captures (written by scripts/dev-serve.mjs; see CLAUDE.md "Dev Snapshots").
+# Only this subdir — the rest of tests/artifacts/ is tracked.
+tests/artifacts/snapshots/
 node_modules/
