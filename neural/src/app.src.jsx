@@ -39,6 +39,8 @@ class Component extends DCLogic {
   dossierRef = React.createRef();
   dossierSheetRef = React.createRef();
   giToggleRef = React.createRef();
+  viewToggleRef = React.createRef();
+  _viewMode = "tree"; // "path" once a curriculum loads (stored override wins)
   nodeCardRef = React.createRef();
   transportRef = React.createRef();
   playPauseRef = React.createRef();
@@ -59,7 +61,7 @@ class Component extends DCLogic {
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctCtaRef: this.acctCtaRef, openSignup: () => this.openAuth("create"), chipMergeClass: this.deckShown ? "ng-chip-merged" : "", transportRef: this.transportRef, playPauseRef: this.playPauseRef,
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, giToggleRef: this.giToggleRef,
+      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, giToggleRef: this.giToggleRef, viewToggleRef: this.viewToggleRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
@@ -315,6 +317,11 @@ class Component extends DCLogic {
     fetch("flashcards.json", { cache: "no-cache" })
       .then((fr) => (fr.ok ? fr.json() : null))
       .then((j) => { if (j) { this.flashcards = j; this.onFlashcardsReady(); } })
+      .catch(() => { /* optional payload */ });
+    // curriculum (Belt Path) — tiny + optional: absence falls back to the tree explorer
+    fetch("curriculum.json", { cache: "no-cache" })
+      .then((cr) => (cr.ok ? cr.json() : null))
+      .then((c) => { if (c && c.belts && c.belts.length) { this.curriculum = c; this._onCurriculum(); } })
       .catch(() => { /* optional payload */ });
     if (this.loaderRef.current) this.loaderRef.current.style.display = "none";
     this.startLoop();
@@ -811,6 +818,7 @@ class Component extends DCLogic {
     const q = card && card.q;
     if (!q) return;
     this.bumpSharp(key); // sharpness refreshes on EVERY grade, even repeats of a mastered card
+    this._maybeLessonDone(key);
     this._saveProgress(); // persist prep bumps (debounced) even for repeat answers
     this.cardDone = this.cardDone || new Set();
     if (this.cardDone.has(q)) return;          // already credited everywhere
@@ -1051,12 +1059,20 @@ class Component extends DCLogic {
   // reload; this is the single blob the cloud sync (slice 6) pushes/pulls. ----------
   _dayKey(d) { const x = d || new Date(); return x.getFullYear() + "-" + String(x.getMonth() + 1).padStart(2, "0") + "-" + String(x.getDate()).padStart(2, "0"); }
   _loadProgress() {
+    this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} };
     try {
       const raw = localStorage.getItem("bjj-neural-progress"); if (!raw) return;
-      const p = JSON.parse(raw); if (!p || p.v !== 1) return;
+      const p = JSON.parse(raw); if (!p || (p.v !== 1 && p.v !== 2)) return;
       this.prep = Object.assign({}, p.prep || {});
       this._days = Object.assign({}, p.days || {});
       if (p.settings) this.settings = Object.assign({}, this.settings || {}, p.settings);
+      // v1 -> v2 migration: recall history didn't exist — grandfather rec = prep so nobody's
+      // mastery collapses on upgrade (Phase 2 gates NEW mastery on real recall grades).
+      this.rec = Object.assign({}, p.v === 2 ? (p.rec || {}) : (p.prep || {}));
+      this.stage = Object.assign({}, p.stage || {});
+      this.units = Object.assign({}, p.units || {});
+      this.belts = Object.assign({ won: {} }, p.belts || {});
+      this.belts.won = Object.assign({}, (p.belts || {}).won || {});
       this.cardsToday = this._days[this._dayKey()] || 0;
     } catch (e) { /* corrupt/absent — start fresh */ }
   }
@@ -1065,7 +1081,7 @@ class Component extends DCLogic {
     const trimmed = {};
     for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
     this._progressAt = Date.now();
-    return { v: 1, prep: this.prep || {}, days: trimmed, settings: this.settings || {}, updatedAt: this._progressAt };
+    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, days: trimmed, settings: this.settings || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -2194,11 +2210,20 @@ class Component extends DCLogic {
     const A = this._auth(); if (!A || !A.pullNeural) return;
     try {
       const cloud = await A.pullNeural();
-      if (cloud && cloud.v === 1) {
+      if (cloud && (cloud.v === 1 || cloud.v === 2)) {
         const prep = this.prep || {}, days = this._days || {};
         for (const k in (cloud.prep || {})) prep[k] = Math.max(prep[k] || 0, cloud.prep[k] || 0);
         for (const d in (cloud.days || {})) days[d] = Math.max(days[d] || 0, cloud.days[d] || 0);
         this.prep = prep; this._days = days;
+        // v2 fields: per-key MAX for rec/stage (monotonic), UNION for units/belts.won
+        const rec = this.rec || {}, stage = this.stage || {};
+        const cRec = cloud.v === 2 ? (cloud.rec || {}) : (cloud.prep || {}); // v1 cloud grandfathers
+        for (const k in cRec) rec[k] = Math.max(rec[k] || 0, cRec[k] || 0);
+        for (const dk in (cloud.stage || {})) { const s = (stage[dk] = stage[dk] || {}); const cs = cloud.stage[dk] || {}; for (const qh in cs) s[qh] = Math.max(s[qh] || 0, cs[qh] || 0); }
+        this.rec = rec; this.stage = stage;
+        this.units = Object.assign({}, cloud.units || {}, this.units || {});
+        const won = Object.assign({}, (cloud.belts || {}).won || {}, (this.belts || {}).won || {});
+        this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won });
         const localAt = this._progressAt || 0;
         if (cloud.settings && (cloud.updatedAt || 0) > localAt) this.settings = Object.assign({}, this.settings, cloud.settings);
         this.cardsToday = days[this._dayKey()] || 0;
@@ -2299,6 +2324,149 @@ class Component extends DCLogic {
   }
 
   // ---------- explorer + search ----------
+  // ═══ BELT PATH (P1): curated belts→units→lessons route over the graph ═══
+  _onCurriculum() {
+    const c = this.curriculum;
+    this._lessonIndex = {}; this._curriculumIdxSet = new Set();
+    for (const b of c.belts) {
+      for (const u of b.units) {
+        const uk = b.id + "/" + u.id;
+        const pi = this._idIndex ? this._idIndex.get(u.positionNodeId) : null;
+        if (pi != null) this._curriculumIdxSet.add(pi);
+        for (const l of u.lessons) {
+          this._lessonIndex[l.deckKey] = { belt: b.id, unit: uk, nodeId: l.nodeId, frames: l.frames || ["gi", "nogi"] };
+          const i = this._idIndex ? this._idIndex.get(l.nodeId) : null;
+          if (i != null) this._curriculumIdxSet.add(i);
+        }
+      }
+    }
+    let stored = null; try { stored = localStorage.getItem("bjj_view_mode"); } catch (e) {}
+    this._viewMode = stored === "tree" ? "tree" : "path"; // path is the default face of the explorer
+    this.styleViewToggle();
+    const list = this.explorerListRef.current;
+    if (list && this.explorerRef.current && this.explorerRef.current.style.display === "flex") this.renderExplorer();
+  }
+  setViewMode(m) {
+    if (m !== "path" && m !== "tree") return;
+    this._viewMode = m;
+    try { localStorage.setItem("bjj_view_mode", m); } catch (e) {}
+    this.styleViewToggle();
+    const el = this.explorerRef.current;
+    if (el && el.style.display === "flex") this.renderExplorer();
+  }
+  styleViewToggle() {
+    const vt = this.viewToggleRef.current; if (!vt) return;
+    vt.style.display = this.curriculum ? "flex" : "none";
+    vt.querySelectorAll("[data-view]").forEach((s) => {
+      const on = s.getAttribute("data-view") === this._viewMode;
+      s.style.background = on ? "#9fb0d8" : "transparent";
+      s.style.color = on ? "#0e1630" : "#8b97b0";
+    });
+  }
+  _deckGoal(key) { const d = this.flashcards && this.flashcards.decks ? this.flashcards.decks[key] : null; return Math.min(3, (d && d.cards && d.cards.length) || 3); }
+  lessonDone(key) { return ((this.prep && this.prep[key]) || 0) >= this._deckGoal(key); }
+  _lessonLive(l) { const fr = l.frames || ["gi", "nogi"]; return fr.indexOf(this._giMode === "nogi" ? "nogi" : "gi") >= 0; }
+  unitComplete(beltId, unit) {
+    const uk = beltId + "/" + unit.id;
+    const live = unit.lessons.filter((l) => this._lessonLive(l));
+    return live.length > 0 && live.every((l) => this.lessonDone(l.deckKey)) && !!(this.units && this.units[uk] && this.units[uk].checkpoint);
+  }
+  beltUnlocked(i) { if (i === 0) return true; const prev = this.curriculum.belts[i - 1]; return !!(this.belts && this.belts.won && this.belts.won[prev.id]); }
+  _lessonNodeIdx(deckKey) { const e = this._lessonIndex && this._lessonIndex[deckKey]; if (!e || !this._idIndex) return -1; const i = this._idIndex.get(e.nodeId); return i == null ? -1 : i; }
+  _maybeLessonDone(key) {
+    const e = this._lessonIndex && this._lessonIndex[key];
+    if (!e || !this.lessonDone(key)) return;
+    this._lessonBeatFired = this._lessonBeatFired || new Set();
+    if (this._lessonBeatFired.has(key)) return;
+    this._lessonBeatFired.add(key);
+    this.fx("lesson_done", { deckKey: key, unit: e.unit, belt: e.belt });
+  }
+  openLessonStudy(l, unit, belt) {
+    const keys = unit.lessons.filter((x) => this._lessonLive(x)).map((x) => x.deckKey);
+    this._session = { keys: keys, label: unit.name, idx: Math.max(0, keys.indexOf(l.deckKey)) };
+    this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
+    const idx = this._lessonNodeIdx(l.deckKey);
+    if (idx >= 0) this.locateNode(idx); // prezi flight; also closes the explorer
+    this.studyFromSession(l.deckKey);
+  }
+  completeCheckpoint(beltId, unit) {
+    // Phase 1 placeholder semantics (Phase 2 swaps in the MC quiz behind the SAME handle+beat):
+    // all live lessons done -> the checkpoint completes the unit.
+    const uk = beltId + "/" + unit.id;
+    const live = unit.lessons.filter((l) => this._lessonLive(l));
+    if (!live.every((l) => this.lessonDone(l.deckKey))) { this.setEvent("Checkpoint locked", "Finish the unit's lessons first", "bad"); return; }
+    this.units = this.units || {};
+    if (!this.units[uk] || !this.units[uk].checkpoint) {
+      this.units[uk] = Object.assign({}, this.units[uk] || {}, { checkpoint: true, t: Date.now() });
+      this.fx("unit_done", { unit: uk, belt: beltId });
+      this._saveProgress();
+    }
+    this.renderExplorer();
+  }
+  renderBeltPath(list, mk) {
+    this._pathDim = true;
+    if (!this._pathBeatFired) { this._pathBeatFired = true; this.fx("path_opened", { belts: this.curriculum.belts.length }); }
+    const belts = this.curriculum.belts;
+    for (let bi = 0; bi < belts.length; bi++) {
+      const b = belts[bi];
+      const unlocked = this.beltUnlocked(bi);
+      const done = b.units.filter((u) => this.unitComplete(b.id, u)).length;
+      const bRow = mk(
+        '<span style="width:14px;height:14px;border-radius:4px;background:' + b.color + ';box-shadow:0 0 10px ' + b.color + '55;flex:none;"></span>' +
+        '<span style="font-size:13.5px;font-weight:800;color:#eef1f6;">' + b.name + '</span>' +
+        (unlocked
+          ? '<span style="margin-left:auto;font-size:10.5px;color:#7e8aa3;">' + done + "/" + b.units.length + ' units</span>'
+          : '<span style="margin-left:auto;font-size:9.5px;color:#7e8aa3;">Win the ' + belts[bi - 1].name + ' test to unlock</span>'),
+        12);
+      bRow.setAttribute("data-belt", b.id);
+      if (!unlocked) { bRow.setAttribute("data-locked", "1"); bRow.style.opacity = "0.45"; bRow.style.cursor = "default"; }
+      if (bi) bRow.style.marginTop = "12px";
+      list.appendChild(bRow);
+      let prevUnitDone = true;
+      for (const u of b.units) {
+        const uk = b.id + "/" + u.id;
+        const uDone = this.unitComplete(b.id, u);
+        const uLocked = !unlocked || !prevUnitDone;
+        const uRow = mk('<span style="font-size:12.5px;font-weight:700;color:' + (uDone ? "#7ee0a8" : uLocked ? "#7e8aa3" : "#dbe2f0") + ';">' + (uDone ? "\u2713 " : "") + u.name + '</span>', 22);
+        uRow.setAttribute("data-unit", uk);
+        if (uDone) uRow.setAttribute("data-done", "1");
+        if (uLocked) { uRow.setAttribute("data-locked", "1"); uRow.style.opacity = "0.5"; }
+        list.appendChild(uRow);
+        for (const l of u.lessons) {
+          const live = this._lessonLive(l);
+          const ld = this.lessonDone(l.deckKey);
+          const parts = l.deckKey.split("|");
+          const row = mk(
+            '<span style="font-size:12px;color:' + (ld ? "#7ee0a8" : live && !uLocked ? "#c3cde0" : "#5d6a86") + ';">' + (ld ? "\u2713 " : "") + parts[0] + ' <span style="color:#6b7691;font-size:10.5px;">' + parts[1] + '</span></span>' +
+            (!live ? '<span style="margin-left:auto;font-size:9px;font-weight:800;color:#9fb0d8;border:1px solid rgba(150,170,210,.3);border-radius:5px;padding:1px 5px;">GI</span>' : ""),
+            34,
+            !uLocked && live ? () => this.openLessonStudy(l, u, b) : null);
+          row.setAttribute("data-lesson", l.deckKey);
+          if (ld) row.setAttribute("data-done", "1");
+          row.setAttribute("data-live", live ? "1" : "0");
+          if (!live) { row.setAttribute("aria-disabled", "true"); row.style.opacity = "0.45"; row.style.cursor = "default"; }
+          list.appendChild(row);
+        }
+        const cpDone = !!(this.units && this.units[uk] && this.units[uk].checkpoint);
+        const cpRow = mk('<span style="font-size:11.5px;font-weight:700;color:' + (cpDone ? "#7ee0a8" : uLocked ? "#5d6a86" : "#cbd24e") + ';">' + (cpDone ? "\u2713 Checkpoint" : "\u25c8 Checkpoint") + '</span>', 34, uLocked ? null : () => this.completeCheckpoint(b.id, u));
+        cpRow.setAttribute("data-checkpoint", uk);
+        if (cpDone) cpRow.setAttribute("data-done", "1");
+        if (uLocked) cpRow.style.opacity = "0.5";
+        list.appendChild(cpRow);
+        prevUnitDone = uDone;
+      }
+      if (b.test) {
+        const ready = unlocked && b.units.every((u) => this.unitComplete(b.id, u));
+        const won = !!(this.belts && this.belts.won && this.belts.won[b.id]);
+        const tRow = mk('<span style="font-size:12px;font-weight:800;color:' + (won ? "#e8c15a" : ready ? "#e8956b" : "#5d6a86") + ';">' + (won ? "\u2605 " : "\u2694 ") + b.test.name + '</span>', 22);
+        tRow.setAttribute("data-belt-test", b.id);
+        tRow.setAttribute("data-test-state", won ? "won" : ready ? "ready" : "locked"); // Phase 4 wires the click
+        if (!ready && !won) tRow.style.opacity = "0.5";
+        list.appendChild(tRow);
+      }
+    }
+  }
+
   buildExplorer() {
     if (this._explorer && this._explorerGi === (this._giMode || "gi")) return this._explorer;
     this._explorerGi = this._giMode || "gi";
@@ -2316,6 +2484,7 @@ class Component extends DCLogic {
     const el = this.explorerRef.current; if (!el) return;
     if (el.style.display === "flex") {
       el.style.display = "none"; this._dossierIdx = null;
+      this._pathDim = false; this._pathBeatFired = false;
       if (this._explorerAutoPaused) { this.setPaused(false); this._explorerAutoPaused = false; }
     }
     else {
@@ -2345,6 +2514,13 @@ class Component extends DCLogic {
       gt.querySelectorAll("[data-gi]").forEach((s) => s.addEventListener("click", () => this.setGiMode(s.getAttribute("data-gi"))));
     }
     this.styleGiToggle();
+    const vt = this.viewToggleRef.current;
+    if (vt && !vt._wired) {
+      vt._wired = true;
+      vt.addEventListener("pointerdown", (e) => e.stopPropagation());
+      vt.querySelectorAll("[data-view]").forEach((s) => s.addEventListener("click", () => this.setViewMode(s.getAttribute("data-view"))));
+    }
+    this.styleViewToggle();
   }
   setGiMode(m) {
     if (m !== "gi" && m !== "nogi") return;
@@ -2418,6 +2594,9 @@ class Component extends DCLogic {
       }
       return;
     }
+    // PATH mode: the Belt Path replaces the tree groups (search above stays global)
+    if (this._viewMode === "path" && this.curriculum) { this.renderBeltPath(list, mk); return; }
+    this._pathDim = false;
     // curated concept sections (authored on bjjgraph.org)
     const curatedMap = {
       Systems: ["#a98bff", [["Leg Lock System", "ashi"], ["Back Attack System", "back"], ["Pressure Passing", "pass"], ["Guard Retention", "guard"], ["Half Guard System", "half guard"], ["Mount Attacks", "mount"]]],
@@ -4468,9 +4647,11 @@ class Component extends DCLogic {
     const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
     const br = this.anim("idleBreath", 2) * 0.01;
     // (owner call: the original glyph NEVER hides — the dossier card renders on top of it)
+    const fogSet = this._pathDim ? this._curriculumIdxSet : null; // path view: non-curriculum territory dims
     for (const n of this.nodes) {
       const bk = br ? 1 + br * Math.sin(this.now * 1.4 + n.idx * 0.83) : 1;
-      ctx.fillStyle = this.rgba(n.col, 0.62 * A * dim);
+      const fogK = fogSet && !fogSet.has(n.idx) ? 0.3 : 1;
+      ctx.fillStyle = this.rgba(n.col, 0.62 * A * dim * fogK);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * nodeK * bk); ctx.fill();
     }
 

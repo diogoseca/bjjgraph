@@ -277,6 +277,30 @@ def deck_name(key: str) -> str:
     return key.rsplit("|", 1)[0]
 
 
+def build_curriculum(out_dir: Path) -> int:
+    """Validate then emit the Belt Path curriculum. Returns belt count (0 = no curriculum,
+    which is legal — the app falls back to tree view)."""
+    from _curriculum import CURRICULUM, compute_pools, lesson_frames, load_curriculum, load_graph_index
+    if not CURRICULUM.exists():
+        return 0
+    import validate_curriculum
+    if validate_curriculum.main() != 0:
+        print("ERROR: curriculum invalid — not emitted", file=sys.stderr)
+        sys.exit(1)
+    cur = load_curriculum()
+    nodes, _sizes = load_graph_index()
+    for bi, belt in enumerate(cur["belts"]):
+        for unit in belt["units"]:
+            for lesson in unit["lessons"]:
+                node = nodes.get(lesson["nodeId"])
+                lf = lesson_frames(lesson, node)
+                lesson["frames"] = [f for f in ("gi", "nogi") if lf[f]]
+        belt["pool"] = compute_pools(cur["belts"], bi, nodes)
+    (out_dir / "curriculum.json").write_text(
+        json.dumps(cur, ensure_ascii=False, separators=(",", ":")))
+    return len(cur["belts"])
+
+
 def main() -> None:
     if not LAYOUT.exists() or not GRAPH.exists():
         print(f"ERROR: need {LAYOUT} and {GRAPH} (run regenerate:graph first)", file=sys.stderr)
@@ -301,6 +325,13 @@ def main() -> None:
     from _neural_content import write_ng_content
     n_ng = write_ng_content(graph, OUT_DIR / "technique-content.js")
     print(f"technique-content.js: window.NG_CONTENT with {n_ng} node dossiers")
+
+    # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
+    # Validated first (a bad curriculum must never be emitted), then enriched with resolved
+    # per-lesson live frames + computed per-belt opponent pools (never authored).
+    n_belts = build_curriculum(OUT_DIR)
+    if n_belts:
+        print(f"curriculum.json: {n_belts} belts emitted")
 
     n_cal = sum(1 for n in gd["nodes"] if "cal" in n)
     print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload), "

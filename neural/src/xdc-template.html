@@ -113,6 +113,10 @@
 
   <!-- explorer sidebar (left, toggled by the logo) -->
   <div ref="{{ explorerRef }}" class="ng-explorer" style="display:none;position:absolute;top:0;left:0;bottom:0;width:330px;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.98),rgba(13,15,28,.98));border-right:1px solid rgba(130,150,190,.16);box-shadow:14px 0 44px rgba(0,0,0,.5);flex-direction:column;pointer-events:auto;">
+    <div ref="{{ viewToggleRef }}" style="position:absolute;top:27px;right:122px;z-index:2;display:none;align-items:center;border:1px solid rgba(150,170,210,.2);border-radius:999px;background:rgba(255,255,255,.03);overflow:hidden;">
+      <span data-view="path" style="cursor:pointer;font-size:9px;font-weight:800;letter-spacing:.08em;padding:5px 11px;color:#0e1630;background:#9fb0d8;">PATH</span>
+      <span data-view="tree" style="cursor:pointer;font-size:9px;font-weight:800;letter-spacing:.08em;padding:5px 11px;color:#8b97b0;background:transparent;">TREE</span>
+    </div>
     <div ref="{{ giToggleRef }}" style="position:absolute;top:27px;right:16px;z-index:2;display:flex;align-items:center;border:1px solid rgba(150,170,210,.2);border-radius:999px;background:rgba(255,255,255,.03);overflow:hidden;">
       <span data-gi="gi" style="cursor:pointer;font-size:9px;font-weight:800;letter-spacing:.08em;padding:5px 11px;color:#0e1630;background:#9fb0d8;">GI</span>
       <span data-gi="nogi" style="cursor:pointer;font-size:9px;font-weight:800;letter-spacing:.08em;padding:5px 11px;color:#8b97b0;background:transparent;">NO-GI</span>

@@ -29,6 +29,7 @@ let app = readFileSync(R("src/app.src.jsx"), "utf8")
 const patched = app
   .replaceAll('fetch("graph-data.json"', 'fetch((window.__NEURAL_DATA_BASE||"")+"graph-data.json"')
   .replaceAll('fetch("flashcards.json"', 'fetch((window.__NEURAL_DATA_BASE||"")+"flashcards.json"')
+  .replaceAll('fetch("curriculum.json"', 'fetch((window.__NEURAL_DATA_BASE||"")+"curriculum.json"')
 if (patched === app) console.warn("[build] WARNING: no fetch() patched — check app source")
 app = patched
 

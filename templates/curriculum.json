@@ -1,0 +1,1126 @@
+{
+  "version": 1,
+  "provisional": true,
+  "belts": [
+    {
+      "id": "white",
+      "name": "White Belt",
+      "color": "#e8e6df",
+      "units": [
+        {
+          "id": "mount-escapes",
+          "name": "Mount: Escapes",
+          "positionNodeId": "Positions/Mount",
+          "lessons": [
+            {
+              "nodeId": "Positions/Mount",
+              "deckKey": "Mount|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Upa-Escape",
+              "deckKey": "Upa Escape|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Trap-and-Roll-from-Mount",
+              "deckKey": "Trap and Roll from Mount|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Elbow-Escape-from-Mount",
+              "deckKey": "Elbow Escape from Mount|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Heel-Drag-Escape",
+              "deckKey": "Heel Drag Escape|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "side-control-escapes",
+          "name": "Side Control: Escapes",
+          "positionNodeId": "Positions/Side-Control",
+          "lessons": [
+            {
+              "nodeId": "Positions/Side-Control",
+              "deckKey": "Side Control|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Frame-from-Side-Control",
+              "deckKey": "Frame from Side Control|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Frame-and-Shrimp-to-Guard",
+              "deckKey": "Frame and Shrimp to Guard|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Elbow-Escape-to-Guard",
+              "deckKey": "Elbow Escape to Guard|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Bridge-and-Roll",
+              "deckKey": "Bridge and Roll|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Turtle-from-Side-Control-Bottom",
+              "deckKey": "Turtle from Side Control Bottom|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "closed-guard-bottom",
+          "name": "Closed Guard: Bottom",
+          "positionNodeId": "Positions/Closed-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Closed-Guard",
+              "deckKey": "Closed Guard|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Hip-Bump-Sweep",
+              "deckKey": "Hip Bump Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Scissor-Sweep",
+              "deckKey": "Scissor Sweep|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Kimura/from-Guard",
+              "deckKey": "Kimura from Guard|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Armbar/from-Guard",
+              "deckKey": "Armbar from Guard|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Triangle-Choke/from-Closed-Guard",
+              "deckKey": "Triangle Choke from Closed Guard|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "side-control-top",
+          "name": "Side Control: Top Control & Attacks",
+          "positionNodeId": "Positions/Side-Control",
+          "lessons": [
+            {
+              "nodeId": "Positions/Side-Control",
+              "deckKey": "Side Control|Top"
+            },
+            {
+              "nodeId": "Transitions/Side-Control-to-Mount",
+              "deckKey": "Side Control to Mount|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Knee-on-Belly",
+              "deckKey": "Knee on Belly|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Americana/from-Side-Control",
+              "deckKey": "Americana from Side Control|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Kimura/from-Side-Control",
+              "deckKey": "Kimura from Side Control|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "mount-top",
+          "name": "Mount: Top Control & Attacks",
+          "positionNodeId": "Positions/Mount",
+          "lessons": [
+            {
+              "nodeId": "Positions/Mount",
+              "deckKey": "Mount|Top"
+            },
+            {
+              "nodeId": "Transitions/Mount-Control",
+              "deckKey": "Mount Control|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Americana/from-Mount",
+              "deckKey": "Americana from Mount|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Armbar/from-Mount",
+              "deckKey": "Armbar from Mount|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Mount-to-Technical-Mount",
+              "deckKey": "Mount to Technical Mount|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "back-control-survival",
+          "name": "Back Control: Survival & Escapes",
+          "positionNodeId": "Positions/Back-Control",
+          "lessons": [
+            {
+              "nodeId": "Positions/Back-Control",
+              "deckKey": "Back Control|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Hand-Fighting-from-Back",
+              "deckKey": "Hand Fighting from Back|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Hip-Escape-from-Back-Control",
+              "deckKey": "Hip Escape from Back Control|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Elbow-Escape-to-Remove-Hooks",
+              "deckKey": "Elbow Escape to Remove Hooks|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Turn-In-and-Face",
+              "deckKey": "Turn In and Face|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        }
+      ],
+      "test": {
+        "name": "White Belt Test: Survive and Reverse",
+        "startNodeId": "Positions/Mount",
+        "startDeckKey": "Mount|Bottom",
+        "maxMoves": 14,
+        "pointsWinDominance": 0.35
+      }
+    },
+    {
+      "id": "blue",
+      "name": "Blue Belt",
+      "color": "#4a6cff",
+      "units": [
+        {
+          "id": "takedowns-and-standing",
+          "name": "Standing: Takedowns & Entries",
+          "positionNodeId": "Positions/Standing-Position",
+          "lessons": [
+            {
+              "nodeId": "Positions/Standing-Position",
+              "deckKey": "Standing Position|Top"
+            },
+            {
+              "nodeId": "Transitions/Double-Leg-Entry",
+              "deckKey": "Double Leg Entry|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Single-Leg-Entry",
+              "deckKey": "Single Leg Entry|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Snap-Down-to-Front-Headlock",
+              "deckKey": "Snap Down to Front Headlock|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Body-Lock-Takedown",
+              "deckKey": "Body Lock Takedown|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Guard-Pull",
+              "deckKey": "Guard Pull|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "closed-guard-top-opening",
+          "name": "Closed Guard: Posture & Opening",
+          "positionNodeId": "Positions/Closed-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Closed-Guard",
+              "deckKey": "Closed Guard|Top"
+            },
+            {
+              "nodeId": "Transitions/Posture-Recovery",
+              "deckKey": "Posture Recovery|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Guard-Opening-Sequence",
+              "deckKey": "Guard Opening Sequence|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Stand-Up-in-Closed-Guard",
+              "deckKey": "Stand Up in Closed Guard|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Knee-Slice-from-Closed-Guard",
+              "deckKey": "Knee Slice from Closed Guard|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Stack-Pass",
+              "deckKey": "Stack Pass|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "open-guard-passing",
+          "name": "Open Guard: Passing Fundamentals",
+          "positionNodeId": "Positions/Open-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Open-Guard",
+              "deckKey": "Open Guard|Top"
+            },
+            {
+              "nodeId": "Transitions/Toreando-Pass",
+              "deckKey": "Toreando Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Knee-Slice-Pass",
+              "deckKey": "Knee Slice Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Leg-Drag-Pass",
+              "deckKey": "Leg Drag Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Long-Step-Pass",
+              "deckKey": "Long Step Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Pressure-Pass",
+              "deckKey": "Pressure Pass|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "half-guard-passing",
+          "name": "Half Guard: Passing",
+          "positionNodeId": "Positions/Half-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Half-Guard",
+              "deckKey": "Half Guard|Top"
+            },
+            {
+              "nodeId": "Transitions/Crossface-Pass",
+              "deckKey": "Crossface Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Underhook-Pass",
+              "deckKey": "Underhook Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Smash-Pass",
+              "deckKey": "Smash Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Back-Step-Pass",
+              "deckKey": "Back Step Pass|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "half-guard-bottom-sweeps",
+          "name": "Half Guard: Bottom Sweeps",
+          "positionNodeId": "Positions/Half-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Half-Guard",
+              "deckKey": "Half Guard|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Knee-Shield-Retention",
+              "deckKey": "Knee Shield Retention|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Underhook-Sweep-from-Half",
+              "deckKey": "Underhook Sweep from Half|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Old-School-Sweep",
+              "deckKey": "Old School Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Half-Guard-to-Back-Take",
+              "deckKey": "Half Guard to Back Take|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "front-headlock-system",
+          "name": "Front Headlock: Attacks",
+          "positionNodeId": "Positions/Front-Headlock",
+          "lessons": [
+            {
+              "nodeId": "Positions/Front-Headlock",
+              "deckKey": "Front Headlock|Top"
+            },
+            {
+              "nodeId": "Transitions/Guillotine-Setup",
+              "deckKey": "Guillotine Setup|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Front-Headlock-to-Guillotine",
+              "deckKey": "Front Headlock to Guillotine|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Front-Headlock-to-Back",
+              "deckKey": "Front Headlock to Back|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Darce-Setup",
+              "deckKey": "Darce Setup|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Anaconda-Setup",
+              "deckKey": "Anaconda Setup|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        }
+      ],
+      "test": {
+        "name": "Blue Belt Test",
+        "startNodeId": "Positions/Closed-Guard",
+        "startDeckKey": "Closed Guard|Top",
+        "maxMoves": 14,
+        "pointsWinDominance": 0.35
+      }
+    },
+    {
+      "id": "purple",
+      "name": "Purple Belt",
+      "color": "#9a5cff",
+      "units": [
+        {
+          "id": "open-guard-bottom",
+          "name": "Open Guard: Bottom Attacks",
+          "positionNodeId": "Positions/Open-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Open-Guard",
+              "deckKey": "Open Guard|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Tripod-Sweep",
+              "deckKey": "Tripod Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Sickle-Sweep",
+              "deckKey": "Sickle Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Arm-Drag-to-Back",
+              "deckKey": "Arm Drag to Back|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Triangle-Choke/from-Open-Guard",
+              "deckKey": "Triangle Choke from Open Guard|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Open-Guard-to-De-La-Riva",
+              "deckKey": "Open Guard to De La Riva|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "butterfly-guard-bottom",
+          "name": "Butterfly Guard: Elevation System",
+          "positionNodeId": "Positions/Butterfly-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Butterfly-Guard",
+              "deckKey": "Butterfly Guard|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Butterfly-Sweep",
+              "deckKey": "Butterfly Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Elevator-Sweep",
+              "deckKey": "Elevator Sweep|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Guillotine-Choke/from-Butterfly-Guard",
+              "deckKey": "Guillotine Choke from Butterfly Guard|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Single-Leg-X-Entry",
+              "deckKey": "Single Leg X Entry|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Butterfly-Guard-to-X-Guard",
+              "deckKey": "Butterfly Guard to X-Guard|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "de-la-riva-bottom",
+          "name": "De La Riva Guard: Sweeps and Entries",
+          "positionNodeId": "Positions/De-La-Riva-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/De-La-Riva-Guard",
+              "deckKey": "De La Riva Guard|Bottom"
+            },
+            {
+              "nodeId": "Transitions/De-La-Riva-Sweep",
+              "deckKey": "De La Riva Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/De-La-Riva-to-X-Guard-Transition",
+              "deckKey": "De La Riva to X-Guard Transition|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Triangle-Setup-from-De-La-Riva",
+              "deckKey": "Triangle Setup from De La Riva|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Omoplata/from-De-La-Riva-Guard",
+              "deckKey": "Omoplata from De La Riva Guard|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Berimbolo-Entry",
+              "deckKey": "Berimbolo Entry|Attacker",
+              "frames": [
+                "gi"
+              ]
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "x-guard-bottom",
+          "name": "X-Guard: Off-Balancing System",
+          "positionNodeId": "Positions/X-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/X-Guard",
+              "deckKey": "X-Guard|Bottom"
+            },
+            {
+              "nodeId": "Transitions/X-Guard-Sweep",
+              "deckKey": "X-Guard Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Technical-Stand-Up-to-Single-Leg",
+              "deckKey": "Technical Stand Up to Single Leg|Attacker"
+            },
+            {
+              "nodeId": "Transitions/X-Guard-to-Single-Leg-X",
+              "deckKey": "X-Guard to Single Leg X|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Tomahawk-Sweep",
+              "deckKey": "Tomahawk Sweep|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Ankle-Lock/from-X-Guard",
+              "deckKey": "Ankle Lock from X-Guard|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "turtle-top-back-hunting",
+          "name": "Attacking the Turtle: Back Take Funnel",
+          "positionNodeId": "Positions/Turtle",
+          "lessons": [
+            {
+              "nodeId": "Positions/Turtle",
+              "deckKey": "Turtle|Top"
+            },
+            {
+              "nodeId": "Transitions/Turtle-Flatten-to-Side-Control",
+              "deckKey": "Turtle Flatten to Side Control|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Turtle-to-Back-Control",
+              "deckKey": "Turtle to Back Control|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Chair-Sit-to-Back",
+              "deckKey": "Chair Sit to Back|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Front-Headlock-to-Darce",
+              "deckKey": "Front Headlock to Darce|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Crucifix-from-Turtle",
+              "deckKey": "Crucifix from Turtle|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "back-control-top-attacks",
+          "name": "Back Control: Finishing System",
+          "positionNodeId": "Positions/Back-Control",
+          "lessons": [
+            {
+              "nodeId": "Positions/Back-Control",
+              "deckKey": "Back Control|Top"
+            },
+            {
+              "nodeId": "Transitions/Back-Control-Maintenance",
+              "deckKey": "Back Control Maintenance|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Body-Triangle-Lock",
+              "deckKey": "Body Triangle Lock|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Rear-Naked-Choke-Setup",
+              "deckKey": "Rear Naked Choke Setup|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Rear-Naked-Choke/from-Back-Control",
+              "deckKey": "Rear Naked Choke from Back Control|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Armbar/from-Back",
+              "deckKey": "Armbar from Back|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        }
+      ],
+      "test": {
+        "name": "Purple Belt Test",
+        "startNodeId": "Positions/Open-Guard",
+        "startDeckKey": "Open Guard|Bottom",
+        "maxMoves": 14,
+        "pointsWinDominance": 0.35
+      }
+    },
+    {
+      "id": "brown",
+      "name": "Brown Belt",
+      "color": "#8a5a2b",
+      "units": [
+        {
+          "id": "pressure-passing-butterfly-guard",
+          "name": "Butterfly Guard: Pressure Passing",
+          "positionNodeId": "Positions/Butterfly-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Butterfly-Guard",
+              "deckKey": "Butterfly Guard|Top"
+            },
+            {
+              "nodeId": "Transitions/Body-Lock-Pass",
+              "deckKey": "Body Lock Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Butterfly-Smash",
+              "deckKey": "Butterfly Smash|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Over-Under-Pass",
+              "deckKey": "Over-Under Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Butterfly-Pass",
+              "deckKey": "Butterfly Pass|Attacker"
+            },
+            {
+              "nodeId": "Transitions/X-Pass",
+              "deckKey": "X Pass|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "butterfly-half-passing-chains",
+          "name": "Butterfly Half Guard: Passing Chains",
+          "positionNodeId": "Positions/Half-Guard/Butterfly-Half-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Half-Guard/Butterfly-Half-Guard",
+              "deckKey": "Butterfly Half Guard|Top"
+            },
+            {
+              "nodeId": "Transitions/Half-Guard-to-Flattened-Half-Guard",
+              "deckKey": "Half Guard to Flattened Half Guard|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Knee-Slice-from-Butterfly-Half",
+              "deckKey": "Knee Slice from Butterfly Half|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Smash-from-Butterfly-Half",
+              "deckKey": "Smash from Butterfly Half|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Half-Guard-Pass",
+              "deckKey": "Half Guard Pass|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "single-leg-x-system",
+          "name": "Single Leg X: Entries & Sweeps",
+          "positionNodeId": "Positions/X-Guard/Single-Leg-X-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/X-Guard/Single-Leg-X-Guard",
+              "deckKey": "Single Leg X-Guard|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Single-Leg-X-Sweep",
+              "deckKey": "Single Leg X Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Heel-Grab-Sweep",
+              "deckKey": "Heel Grab Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/SLX-to-X-Guard",
+              "deckKey": "SLX to X-Guard|Attacker"
+            },
+            {
+              "nodeId": "Transitions/SLX-to-Ashi-Garami",
+              "deckKey": "SLX to Ashi Garami|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Single-Leg-X-Guard-to-Inside-Sankaku",
+              "deckKey": "Single Leg X-Guard to Inside Sankaku|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "ashi-garami-foundations",
+          "name": "Ashi Garami: Foundations",
+          "positionNodeId": "Positions/Ashi-Garami",
+          "lessons": [
+            {
+              "nodeId": "Positions/Ashi-Garami",
+              "deckKey": "Ashi Garami|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Ashi-Garami-Maintenance",
+              "deckKey": "Ashi Garami Maintenance|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Straight-Ankle-Lock-Entry",
+              "deckKey": "Straight Ankle Lock Entry|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Cross-Ashi-Transition",
+              "deckKey": "Cross Ashi Transition|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Toe-Hold/from-Ashi-Garami",
+              "deckKey": "Toe Hold from Ashi Garami|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Heel-Hook/from-Ashi-Garami",
+              "deckKey": "Heel Hook from Ashi Garami|Attacker",
+              "frames": [
+                "nogi"
+              ]
+            },
+            {
+              "nodeId": "Transitions/50-50-Entry",
+              "deckKey": "50-50 Entry|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "top-side-leg-attacks",
+          "name": "Leg Entanglements: Top-Side Attacks",
+          "positionNodeId": "Positions/Leg-Entanglement",
+          "lessons": [
+            {
+              "nodeId": "Positions/Leg-Entanglement",
+              "deckKey": "Leg Entanglement|Top"
+            },
+            {
+              "nodeId": "Transitions/Outside-Ashi-Entry",
+              "deckKey": "Outside Ashi Entry|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Saddle-Entry-from-Top",
+              "deckKey": "Saddle Entry from Top|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Ankle-Lock-Finish",
+              "deckKey": "Ankle Lock Finish|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Kneebar/from-Leg-Entanglement",
+              "deckKey": "Kneebar from Leg Entanglement|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Outside-Heel-Hook/from-Leg-Entanglement",
+              "deckKey": "Outside Heel Hook from Leg Entanglement|Attacker",
+              "frames": [
+                "nogi"
+              ]
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "inside-sankaku-saddle",
+          "name": "Inside Sankaku: The Saddle",
+          "positionNodeId": "Positions/Inside-Sankaku",
+          "lessons": [
+            {
+              "nodeId": "Positions/Inside-Sankaku",
+              "deckKey": "Inside Sankaku|Top"
+            },
+            {
+              "nodeId": "Transitions/Inside-Sankaku-to-Saddle",
+              "deckKey": "Inside Sankaku to Saddle|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Kneebar/from-Inside-Sankaku",
+              "deckKey": "Kneebar from Inside Sankaku|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Toe-Hold/from-Inside-Sankaku",
+              "deckKey": "Toe Hold from Inside Sankaku|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Heel-Hook/from-Inside-Sankaku",
+              "deckKey": "Heel Hook from Inside Sankaku|Attacker",
+              "frames": [
+                "nogi"
+              ]
+            },
+            {
+              "nodeId": "Transitions/Rolling-Back-Take",
+              "deckKey": "Rolling Back Take|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        }
+      ],
+      "test": {
+        "name": "Brown Belt Test",
+        "startNodeId": "Positions/Ashi-Garami",
+        "startDeckKey": "Ashi Garami|Bottom",
+        "maxMoves": 14,
+        "pointsWinDominance": 0.35
+      }
+    },
+    {
+      "id": "black",
+      "name": "Black Belt",
+      "color": "#20242f",
+      "units": [
+        {
+          "id": "black-leg-drag-control",
+          "name": "Leg Drag Control: Consolidation",
+          "positionNodeId": "Positions/Leg-Drag-Control",
+          "lessons": [
+            {
+              "nodeId": "Positions/Leg-Drag-Control",
+              "deckKey": "Leg Drag Control|Top"
+            },
+            {
+              "nodeId": "Transitions/Leg-Drag-Pass-to-Side-Control",
+              "deckKey": "Leg Drag Pass to Side Control|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Leg-Drag-to-Back-Take",
+              "deckKey": "Leg Drag to Back Take|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Leg-Drag-to-Mount",
+              "deckKey": "Leg Drag to Mount|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Leg-Drag-to-Inside-Ashi",
+              "deckKey": "Leg Drag to Inside Ashi|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Darce-Choke/from-Leg-Drag",
+              "deckKey": "Darce Choke from Leg Drag|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "black-guillotine-control",
+          "name": "Guillotine Control: Finishing System",
+          "positionNodeId": "Positions/Guillotine-Control",
+          "lessons": [
+            {
+              "nodeId": "Positions/Guillotine-Control",
+              "deckKey": "Guillotine Control|Top"
+            },
+            {
+              "nodeId": "Submissions/Guillotine-Choke/from-Guillotine-Control",
+              "deckKey": "Guillotine Choke from Guillotine Control|Attacker"
+            },
+            {
+              "nodeId": "Submissions/High-Elbow-Guillotine/from-Guillotine-Control",
+              "deckKey": "High Elbow Guillotine from Guillotine Control|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Arm-in-Guillotine/from-Guillotine-Control",
+              "deckKey": "Arm in Guillotine from Guillotine Control|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Ten-Finger-Guillotine/from-Guillotine-Control",
+              "deckKey": "Ten Finger Guillotine from Guillotine Control|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Pass-to-Side-Control",
+              "deckKey": "Pass to Side Control|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "black-gift-wrap",
+          "name": "Gift Wrap: Upper-Body Control",
+          "positionNodeId": "Positions/Gift-Wrap",
+          "lessons": [
+            {
+              "nodeId": "Positions/Gift-Wrap",
+              "deckKey": "Gift Wrap|Top"
+            },
+            {
+              "nodeId": "Transitions/Gift-Wrap-Maintenance",
+              "deckKey": "Gift Wrap Maintenance|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Gift-Wrap-to-Technical-Mount",
+              "deckKey": "Gift Wrap to Technical Mount|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Kimura/from-Gift-Wrap",
+              "deckKey": "Kimura from Gift Wrap|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Gift-Wrap-Armbar/from-Gift-Wrap",
+              "deckKey": "Gift Wrap Armbar from Gift Wrap|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Rear-Naked-Choke/from-Gift-Wrap",
+              "deckKey": "Rear Naked Choke from Gift Wrap|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "black-kimura-trap",
+          "name": "Kimura Trap: Bottom System",
+          "positionNodeId": "Positions/Kimura-Trap",
+          "lessons": [
+            {
+              "nodeId": "Positions/Kimura-Trap",
+              "deckKey": "Kimura Trap|Bottom"
+            },
+            {
+              "nodeId": "Transitions/Kimura-Sweep",
+              "deckKey": "Kimura Sweep|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Kimura-to-Back-Take",
+              "deckKey": "Kimura to Back Take|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Rolling-Kimura",
+              "deckKey": "Rolling Kimura|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Electric-Chair-Transition",
+              "deckKey": "Electric Chair Transition|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "black-worm-guard",
+          "name": "Worm Guard: Lapel System",
+          "positionNodeId": "Positions/Worm-Guard",
+          "lessons": [
+            {
+              "nodeId": "Positions/Worm-Guard",
+              "deckKey": "Worm Guard|Bottom",
+              "frames": [
+                "gi"
+              ]
+            },
+            {
+              "nodeId": "Transitions/Worm-Guard-Sweep",
+              "deckKey": "Worm Guard Sweep|Attacker",
+              "frames": [
+                "gi"
+              ]
+            },
+            {
+              "nodeId": "Transitions/Lapel-Elevator-Sweep",
+              "deckKey": "Lapel Elevator Sweep|Attacker",
+              "frames": [
+                "gi"
+              ]
+            },
+            {
+              "nodeId": "Transitions/Collar-Drag-from-Worm-Guard",
+              "deckKey": "Collar Drag from Worm Guard|Attacker",
+              "frames": [
+                "gi"
+              ]
+            },
+            {
+              "nodeId": "Transitions/Triangle-Setup",
+              "deckKey": "Triangle Setup|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Omoplata-to-Back",
+              "deckKey": "Omoplata to Back|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Bolo-Sweep",
+              "deckKey": "Bolo Sweep|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        },
+        {
+          "id": "black-truck-twister",
+          "name": "Truck & Twister: Expert Back System",
+          "positionNodeId": "Positions/Twister-Control/Truck",
+          "lessons": [
+            {
+              "nodeId": "Positions/Twister-Control/Truck",
+              "deckKey": "Truck|Top"
+            },
+            {
+              "nodeId": "Transitions/Truck-Maintenance",
+              "deckKey": "Truck Maintenance|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Truck-to-Back-Control",
+              "deckKey": "Truck to Back Control|Attacker"
+            },
+            {
+              "nodeId": "Transitions/Twister-Entry",
+              "deckKey": "Twister Entry|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Banana-Split/from-Truck",
+              "deckKey": "Banana Split from Truck|Attacker"
+            },
+            {
+              "nodeId": "Submissions/Calf-Slicer/from-Truck",
+              "deckKey": "Calf Slicer from Truck|Attacker"
+            }
+          ],
+          "checkpoint": {
+            "cards": 6,
+            "pass": 5
+          }
+        }
+      ],
+      "test": {
+        "name": "Black Belt Test",
+        "startNodeId": "Positions/Leg-Drag-Control",
+        "startDeckKey": "Leg Drag Control|Top",
+        "maxMoves": 14,
+        "pointsWinDominance": 0.35
+      }
+    }
+  ]
+}

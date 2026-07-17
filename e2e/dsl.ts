@@ -46,6 +46,8 @@ export class Journey {
       preserveStorage?: boolean
       /** synthetic bjj-neural-progress blob, applied post-wipe pre-app-read (hash-carried) */
       initialState?: Record<string, unknown>
+      /** force the curriculum fetch to 404 (fallback-path journeys) */
+      noCurriculum?: boolean
     } = {},
   ) {
     if (!(this.page as any).__ngInit) {
@@ -111,6 +113,13 @@ export class Journey {
         }
       })
       ;(this.page as any).__ngRouted = true
+    }
+    if (opts.noCurriculum && !(this.page as any).__ngNoCurriculum) {
+      // registered AFTER the default handler → matches first (Playwright routes are last-first)
+      ;(this.page as any).__ngNoCurriculum = true
+      await this.page.route("**/curriculum.json", (r) =>
+        r.fulfill({ status: 404, contentType: "application/json", body: "" }),
+      )
     }
     try {
       await this.page.goto(path, { waitUntil: "commit" })
@@ -245,21 +254,25 @@ export class Journey {
     }, technique)
   }
 
-  /** Drill n cards of the CURRENT position's deck via the same choke points the UI uses. */
-  async drill(n: number) {
+  /** Drill n cards via the same choke points the UI uses — the CURRENT position's deck by
+   *  default, or an explicit deckKey (lesson drilling in Belt Path journeys). */
+  async drill(n: number, deckKey?: string) {
     for (let i = 0; i < n; i++) {
-      await this.page.evaluate((idx) => {
-        const a = (window as W).__neural
-        const key = a.deckKeyFor(a.nodes[a.currentPos]).key
-        const deck = a.flashcards?.decks?.[key]
-        if (!deck || !deck.cards.length) throw new Error(`no deck for ${key}`)
-        const card = deck.cards[Math.min(idx, deck.cards.length - 1)]
-        if (!card) throw new Error(`no card ${idx} in ${key}`)
-        // drill rail: grade the card correct through the same choke the UI uses
-        a.prep[key] = (a.prep[key] || 0) + 1
-        a.noteCardDone(card, key)
-        a.refreshOptionOdds()
-      }, i)
+      await this.page.evaluate(
+        ([idx, dk]) => {
+          const a = (window as W).__neural
+          const key = (dk as string) || a.deckKeyFor(a.nodes[a.currentPos]).key
+          const deck = a.flashcards?.decks?.[key]
+          if (!deck || !deck.cards.length) throw new Error(`no deck for ${key}`)
+          const card = deck.cards[Math.min(idx as number, deck.cards.length - 1)]
+          if (!card) throw new Error(`no card ${idx} in ${key}`)
+          // drill rail: grade the card correct through the same choke the UI uses
+          a.prep[key] = (a.prep[key] || 0) + 1
+          a.noteCardDone(card, key)
+          a.refreshOptionOdds()
+        },
+        [i, deckKey ?? null] as const,
+      )
     }
     return this
   }
