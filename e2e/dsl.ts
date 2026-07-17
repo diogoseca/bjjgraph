@@ -34,6 +34,7 @@ type W = Window & { __neural?: any; NG_CONTENT?: any }
 
 export class Journey {
   constructor(private page: Page) {}
+  private bootSeq = 0
 
   /** Boot the app fresh on a route with the deterministic rails engaged.
    *  preserveStorage skips the localStorage wipe for THIS boot — for persistence journeys
@@ -71,8 +72,9 @@ export class Journey {
         try {
           const m = location.hash.match(/ngseed=([^&]+)/)
           if (m) {
+            // NOTE: the hash is left in place — history.replaceState here can wake the
+            // Quartz SPA router mid-boot and remount a fresh (pre-ingest) app instance
             localStorage.setItem("bjj-neural-progress", decodeURIComponent(m[1]))
-            history.replaceState(null, "", location.pathname + location.search)
           }
         } catch {}
       })
@@ -80,6 +82,9 @@ export class Journey {
     if (opts.preserveStorage) {
       await this.page.evaluate(() => sessionStorage.setItem("__ng_keep", "1")).catch(() => {})
     }
+    // unique URL per boot: a hash-only (or identical-URL) goto is a SAME-DOCUMENT navigation —
+    // no reload, no init scripts, no wipe/seed. The nonce forces a real navigation every time.
+    path += (path.includes("?") ? "&" : "?") + "ngb=" + ++this.bootSeq
     if (opts.initialState) {
       path += `#ngseed=${encodeURIComponent(JSON.stringify(opts.initialState))}`
     }

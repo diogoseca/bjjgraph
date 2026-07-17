@@ -173,6 +173,8 @@ class Component extends DCLogic {
   // you already left (ghost defeat + persisted ladder demotion), a dead defense can never
   // reroute odds refreshes to escape math, and a cancelled sweep never haunts the canvas.
   clearEngagement() {
+    // NOTE: _beltTest is deliberately ABSENT from this list — a belt test SURVIVES the
+    // rollFromPosition that starts it. Cancellation is explicit (startRoll / endRound).
     this._decision = null; this._optPick = null; this._optList = null;
     this._defendSub = null; this._panicKey = null;
     this._sweep = null; this._hitStop = null; this._shake = null;
@@ -1091,10 +1093,12 @@ class Component extends DCLogic {
   }
   _saveProgress() {
     clearTimeout(this._saveT);
-    this._saveT = setTimeout(() => {
+    const write = () => {
       try { localStorage.setItem("bjj-neural-progress", JSON.stringify(this._progressBlob())); } catch (e) { /* quota */ }
       if (this._pushCloud) this._pushCloud(); // cloud sync (slice 6) — no-op for guests
-    }, 400);
+    };
+    if (this.isTest()) { write(); return; } // journeys reload faster than a debounce
+    this._saveT = setTimeout(write, 400);
   }
   set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; this._saveProgress(); }
   // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
@@ -2235,7 +2239,10 @@ class Component extends DCLogic {
         this.rec = rec; this.stage = stage;
         this.units = Object.assign({}, cloud.units || {}, this.units || {});
         const won = Object.assign({}, (cloud.belts || {}).won || {}, (this.belts || {}).won || {});
-        this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won });
+        const att = Object.assign({}, (this.belts || {}).attempts || {});
+        const cAtt = (cloud.belts || {}).attempts || {};
+        for (const k in cAtt) att[k] = Math.max(att[k] || 0, cAtt[k] || 0);
+        this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won, attempts: att });
         const localAt = this._progressAt || 0;
         if (cloud.settings && (cloud.updatedAt || 0) > localAt) this.settings = Object.assign({}, this.settings, cloud.settings);
         this.cardsToday = days[this._dayKey()] || 0;
@@ -2470,13 +2477,62 @@ class Component extends DCLogic {
       if (b.test) {
         const ready = unlocked && b.units.every((u) => this.unitComplete(b.id, u));
         const won = !!(this.belts && this.belts.won && this.belts.won[b.id]);
-        const tRow = mk('<span style="font-size:12px;font-weight:800;color:' + (won ? "#e8c15a" : ready ? "#e8956b" : "#5d6a86") + ';">' + (won ? "\u2605 " : "\u2694 ") + b.test.name + '</span>', 22);
+        const attempts = (this.belts && this.belts.attempts && this.belts.attempts[b.id]) || 0;
+        const state = won ? "won" : !ready ? "locked" : attempts ? "retry" : "ready";
+        const tRow = mk(
+          '<span style="font-size:12px;font-weight:800;color:' + (won ? "#e8c15a" : state === "locked" ? "#5d6a86" : "#e8956b") + ';">' +
+            (won ? "\u2605 " : "\u2694 ") + b.test.name +
+            (state === "retry" ? ' <span style="font-size:9.5px;font-weight:600;color:#7e8aa3;">attempt ' + (attempts + 1) + '</span>' : "") +
+          '</span>',
+          22,
+          state === "ready" || state === "retry" ? () => this.startBeltTest(b.id) : null);
         tRow.setAttribute("data-belt-test", b.id);
-        tRow.setAttribute("data-test-state", won ? "won" : ready ? "ready" : "locked"); // Phase 4 wires the click
-        if (!ready && !won) tRow.style.opacity = "0.5";
+        tRow.setAttribute("data-test-state", state);
+        if (state === "locked") tRow.style.opacity = "0.5";
+        if (state === "ready") { tRow.style.animation = "ngBeacon 1.5s ease-in-out infinite"; tRow.style.borderRadius = "8px"; }
         list.appendChild(tRow);
       }
     }
+  }
+
+  // ═══ BELT PATH (P4): boss-battle belt tests ═══
+  _nextBeltId(beltId) {
+    const bs = (this.curriculum && this.curriculum.belts) || [];
+    const i = bs.findIndex((b) => b.id === beltId);
+    return i >= 0 && bs[i + 1] ? bs[i + 1].id : null;
+  }
+  _beltPoolAllows(n) {
+    const bt = this._beltTest; if (!bt) return true;
+    return bt.names.indexOf(this.splitName(n.t).main.toLowerCase()) >= 0;
+  }
+  startBeltTest(beltId) {
+    const bs = (this.curriculum && this.curriculum.belts) || [];
+    const bi = bs.findIndex((b) => b.id === beltId);
+    const belt = bs[bi];
+    if (!belt || !belt.test) return;
+    if (!this.beltUnlocked(bi) || !belt.units.every((u) => this.unitComplete(belt.id, u))) {
+      this.setEvent("Belt test locked", "Complete every unit first", "bad"); return;
+    }
+    const frame = this._giMode === "nogi" ? "nogi" : "gi";
+    // set BEFORE rollFromPosition: clearEngagement runs inside it and deliberately leaves
+    // _beltTest alone (see the note there). startRoll (manual reset) cancels it cleanly —
+    // no attempt is burned by bailing out.
+    this._beltTest = {
+      beltId: beltId,
+      names: ((belt.pool && belt.pool[frame]) || []).slice(), // computed pool, never authored
+      maxMoves: (belt.test && belt.test.maxMoves) || 14,
+      pointsWin: (belt.test && belt.test.pointsWinDominance) || 0.35,
+    };
+    this.fx("belt_test_start", { belt: beltId, maxMoves: this._beltTest.maxMoves });
+    const el = this.explorerRef.current;
+    if (el && el.style.display === "flex") this.toggleExplorer();
+    const posIdx = this._idIndex ? this._idIndex.get(belt.test.startNodeId) : null;
+    this.showCenter("BELT TEST", belt.test.name, this._beltTest.maxMoves + " moves \u00b7 win by tap or on points", "bad", true);
+    this.rollFromPosition(posIdx != null ? posIdx : this.currentPos);
+    // the authored budget + start role override the roll seeder's randomized defaults
+    this.maxMoves = this._beltTest.maxMoves;
+    const role = ((belt.test.startDeckKey || "").split("|")[1] || "").toLowerCase();
+    if (role) this.playerRole = role === "bottom" ? "bottom" : "top";
   }
 
   buildExplorer() {
@@ -3377,8 +3433,12 @@ class Component extends DCLogic {
     const cp = this._checkpoint; if (!cp) return;
     const pick = cp.picks[cp.i];
     const e = this._entryForKey(pick.key);
-    this.drillEntries = [{ info: e.info, cards: [pick.card] }];
-    this._posKey = pick.key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
+    // FULL deck, presented at the picked card: same-deck distractor pooling needs the
+    // siblings (a single-card synthetic deck forced pooling into unrigged category scans,
+    // which stochastically found <2 survivors — the CI flake of v1.62.0)
+    this.drillEntries = [e];
+    this._posKey = pick.key; this.activeDrill = 0; this.revealed = false;
+    this.deckIdx = Math.max(0, (e.cards || []).findIndex((c) => c.q === pick.card.q));
     this._inSession = true;
     this.setDrillHeader("Checkpoint", (cp.i + 1) + " of " + cp.picks.length + " \u00b7 " + cp.unit.name);
     this.renderDrill(); this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
@@ -3666,6 +3726,29 @@ class Component extends DCLogic {
 
   endRound(kind, name) {
     this.clearTimers(); this.clearOptions();
+    // ── belt test verdict FIRST (belt_test_won/lost must precede the generic beats; the
+    // generic win/lose paths still run after — the ladder rides along, dual-track) ──
+    if (this._beltTest) {
+      const bt = this._beltTest; this._beltTest = null;
+      const dominance = Math.round(this.myVal(this.nodes[this.currentPos]) * 100) / 100;
+      const wonByPoints = kind !== "win" && dominance >= bt.pointsWin;
+      if (kind === "win" || wonByPoints) {
+        this.belts.won = this.belts.won || {};
+        this.belts.won[bt.beltId] = { t: Date.now(), moves: this.moveCount || 0, byPoints: wonByPoints };
+        this.fx("belt_test_won", { belt: bt.beltId, moves: this.moveCount || 0, byPoints: wonByPoints, dominance: dominance });
+        const nextBelt = this._nextBeltId(bt.beltId);
+        if (nextBelt) this.fx("belt_unlocked", { belt: nextBelt });
+        this._saveProgress();
+        if (kind !== "win") { kind = "win"; name = name || "Won on points"; } // points wins celebrate like wins
+      } else {
+        this.belts.attempts = this.belts.attempts || {};
+        this.belts.attempts[bt.beltId] = (this.belts.attempts[bt.beltId] || 0) + 1;
+        this.fx("belt_test_lost", { belt: bt.beltId, moves: this.moveCount || 0, dominance: dominance, attempts: this.belts.attempts[bt.beltId] });
+        this._saveProgress();
+        if (kind === "reset") kind = "lose"; // the test ended in defeat, not a scramble
+        name = name || "Not yet \u2014 retry from the Path";
+      }
+    }
     if (kind === "win") {
       // victory cascade: flares hop the roll trail 110ms apart, hard-capped at 1.5s total
       const rows = (this.rollLog || []).slice(-13);
@@ -4038,6 +4121,7 @@ class Component extends DCLogic {
   }
   startRoll() {
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
+    this._beltTest = null; // a fresh normal roll is never a belt test (manual reset = clean cancel, no attempt burned)
     this.track("neural_roll_started", {});
     // archive the roll that just ended so the sidebar can show "Previous roll / Today / Yesterday"
     if (this.rollLog && this.rollLog.length > 1) {
@@ -4098,6 +4182,7 @@ class Component extends DCLogic {
     const pos = this.nodes[this.currentPos];
     this.fx("land", { position: pos ? pos.t : null, first: !!first });
     if (!first) this.decaySharp(); // sharpness fades as the roll moves on
+    if (this._beltTest) this.setEvent("Belt test", Math.max(0, (this.maxMoves || 0) - (this.moveCount || 0)) + " moves left", "info");
     this.focusIdx = this.currentPos; this.pulse = null;
     this._settleT = this.now;
     this.activeMove = null;
@@ -4484,10 +4569,17 @@ class Component extends DCLogic {
   }
   opponentDefend() {
     // gather the opponent's adjacent options, split into finishes vs positional counters
-    const subs = [], trans = []; const seen = new Set();
+    const subs = []; let trans = []; const seen = new Set();
     for (const k of this.adj[this.currentPos]) {
       const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t)) continue; seen.add(n.t);
-      if (n.ty === "submissions") subs.push(k); else trans.push(k);
+      // STRICT during a belt test: the opponent only goes for finishes in the belt's vocabulary
+      if (n.ty === "submissions") { if (this._beltPoolAllows(n)) subs.push(k); }
+      else trans.push(k);
+    }
+    if (this._beltTest) {
+      // SOFT for transitions: prefer pool moves, but never let the filter stall the roll
+      const pt = trans.filter((k) => this._beltPoolAllows(this.nodes[k]));
+      if (pt.length) trans = pt;
     }
     if (!subs.length && !trans.length) { this.endRound("reset"); return; }
     // the more dominant the opponent is here, the more likely they go for the finish
