@@ -127,14 +127,28 @@ test("honest economy: revealing a card is 'seen', only grading credits mastery",
   const mastered1 = await page.evaluate(() => (window as any).__neural.masteredCount())
   expect(mastered1).toBe(mastered0)
 
-  // grading through drillGrade(true) DOES credit — and mastery needs prep>=3
+  // P2 tightened the economy again: prep-style grading (JIT, MC) feeds ODDS but no longer
+  // mints mastery — masteredCount is RECALL-proven (rec >= 3). Assert both halves.
   await page.evaluate(() => {
     const a = (window as any).__neural
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key
     const deck = a.flashcards.decks[key]
     for (let i = 0; i < 3; i++) { a.prep[key] = (a.prep[key] || 0) + 1; a.noteCardDone(deck.cards[i], key) }
   })
+  const afterPrep = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const key = a.deckKeyFor(a.nodes[a.currentPos]).key
+    return { prep: a.prep[key] || 0, mastered: a.masteredCount() }
+  })
+  expect(afterPrep.prep).toBeGreaterThanOrEqual(3) // odds credit earned
+  expect(afterPrep.mastered).toBe(mastered0) // but mastery stays recall-gated
+
+  // recall grades mint it (the only path)
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    const key = a.deckKeyFor(a.nodes[a.currentPos]).key
+    a.rec[key] = (a.rec[key] || 0) + 3
+  })
   const mastered2 = await page.evaluate(() => (window as any).__neural.masteredCount())
-  // >=1: shared hierarchy cards legitimately propagate mastery to sibling variant decks
   expect(mastered2).toBeGreaterThanOrEqual(mastered0 + 1)
 })

@@ -116,19 +116,19 @@ test("drilling a lesson to goal emits lesson_done and marks the row", async ({ p
   ).toBe("1")
 })
 
-test("checkpoint (placeholder) completes the unit once all lessons are done", async ({ page }) => {
+test("checkpoint opens the MC quiz once all lessons are done (P2 semantics)", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", { initialState: unit1DoneBlob() })
   await j.land("Mount Top")
   await openPath(j, page)
 
+  // P1 shipped this row as a placeholder that completed instantly; P2 swapped in the real
+  // quiz behind the SAME handle — pass/fail behavior lives in mc-flashcards.spec.ts.
   await page.locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`).first().click()
-  await j.expectBeat("unit_done")
-  expect(
-    await page.locator(`[data-unit="${WHITE.id}/${UNIT1.id}"]`).first().getAttribute("data-done"),
-  ).toBe("1")
-  // completing unit 1 unlocks unit 2
-  expect(await page.locator(`[data-unit]`).nth(1).getAttribute("data-locked")).toBeNull()
+  await j.advance(400)
+  await j.expectBeat("checkpoint_start")
+  expect(await page.evaluate(() => !!(window as any).__neural._checkpoint)).toBe(true)
+  await expect(page.locator("[data-mc-opt]").first()).toBeVisible()
 })
 
 test("gi-only lesson is disabled in nogi and excluded from unit math", async ({ page }) => {

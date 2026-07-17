@@ -269,6 +269,10 @@ class Component extends DCLogic {
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
         else if (e.key === " " && this.deckShown && this._drillView === "home" && this._focusRow && this._miniReg && this._miniReg[this._focusRow]) { this._miniReg[this._focusRow].reveal(); }
         else this.setPaused(!this.paused);
+      } else if (!typing && /^[1-4]$/.test(e.key) && this._mc && this.deckShown) {
+        e.preventDefault();
+        const mbtns = this.drillListRef.current ? this.drillListRef.current.querySelectorAll("[data-mc-opt]") : [];
+        const mb = mbtns[parseInt(e.key) - 1]; if (mb) mb.click();
       } else if (!typing && /^[1-9]$/.test(e.key) && this._optPick && this._optList && this.get("cardNumbers", true)) {
         const opt = this._optList[parseInt(e.key) - 1];
         if (opt && !(this._detailCtx && this._detailCtx.opt === opt)) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.node === opt.node); this.expandOption(opt, this._optPick, oc && oc.card); }
@@ -1110,7 +1114,7 @@ class Component extends DCLogic {
     try { const ph = window.posthog; if (ph && ph.capture) ph.capture(event, Object.assign({ variant: "neural" }, props || {})); } catch (e) { /* analytics must never break the app */ }
   }
   get(k, d) { const v = (this.settings || {})[k]; return v == null ? d : v; }
-  masteredCount() { const p = this.prep || {}; return Object.keys(p).filter((k) => p[k] >= 3).length; } // mastery is EARNED: 3 graded cards
+  masteredCount() { const r = this.rec || {}; return Object.keys(r).filter((k) => r[k] >= 3).length; } // mastery is RECALL-proven: 3 recall grades (MC can never mint it)
   // reveal-only rail: seeing an answer is 'seen', never mastery credit (the honest economy)
   noteCardSeen(key, idx) {
     this._seen = this._seen || {};
@@ -1960,6 +1964,8 @@ class Component extends DCLogic {
       inp.addEventListener("change", () => { this.set("dailyGoal", Math.max(5, Math.min(200, parseInt(inp.value) || 30))); inp.value = this.get("dailyGoal", 30); });
       g.appendChild(inp); body.appendChild(g);
       // study order
+      body.appendChild(this.settingRow("Answer mode", "Fresh cards quiz as multiple-choice, then graduate to recall \u2014 mastery always requires recall",
+        [["Auto", "auto"], ["Multiple choice", "mc"], ["Classic recall", "classic"]], "mcMode", "auto"));
       body.appendChild(this.settingRow("Study order", "Which cards to surface first",
         [["Weakest spots", "weakest"], ["Newest", "new"], ["Due first", "due"]], "studyOrder", "weakest"));
       // focus
@@ -2448,7 +2454,7 @@ class Component extends DCLogic {
           list.appendChild(row);
         }
         const cpDone = !!(this.units && this.units[uk] && this.units[uk].checkpoint);
-        const cpRow = mk('<span style="font-size:11.5px;font-weight:700;color:' + (cpDone ? "#7ee0a8" : uLocked ? "#5d6a86" : "#cbd24e") + ';">' + (cpDone ? "\u2713 Checkpoint" : "\u25c8 Checkpoint") + '</span>', 34, uLocked ? null : () => this.completeCheckpoint(b.id, u));
+        const cpRow = mk('<span style="font-size:11.5px;font-weight:700;color:' + (cpDone ? "#7ee0a8" : uLocked ? "#5d6a86" : "#cbd24e") + ';">' + (cpDone ? "\u2713 Checkpoint" : "\u25c8 Checkpoint") + '</span>', 34, uLocked ? null : () => this.startCheckpoint(b.id, u));
         cpRow.setAttribute("data-checkpoint", uk);
         if (cpDone) cpRow.setAttribute("data-done", "1");
         if (uLocked) cpRow.style.opacity = "0.5";
@@ -3152,10 +3158,254 @@ class Component extends DCLogic {
     this.studyFromSession(key); return true;
   }
   drillReveal() { if (this.deck && !this.revealed && this.deckIdx < this.deck.length) { this.revealed = true; this.renderDrill(); } }
+  // ═══ P2: MC flashcards graduating to recall (owner's fusion rule) ═══
+  qhash(q) { // FNV-1a over the question text — the per-card stage key
+    let h = 0x811c9dc5;
+    const s = String(q || "");
+    for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
+    return ("0000000" + h.toString(16)).slice(-8);
+  }
+  cardStage(key, q) { const s = this.stage && this.stage[key]; return (s && s[this.qhash(q)]) || 0; }
+  _bumpStage(key, q, d, cap) {
+    const qh = this.qhash(q);
+    const s = (this.stage[key] = this.stage[key] || {});
+    s[qh] = Math.max(0, Math.min(cap == null ? 4 : cap, (s[qh] || 0) + d));
+    this._saveProgress();
+    return s[qh];
+  }
+  // first sentence, ≤160 chars — applied to the CORRECT answer too (no length tell).
+  // null = this text cannot be an MC option (the card falls back to classic recall).
+  mcClip(a) {
+    const m = String(a || "").match(/^[\s\S]*?[.!?]/);
+    const s = (m ? m[0] : String(a || "")).trim();
+    return s.length > 0 && s.length <= 160 ? s : null;
+  }
+  _mcNorm(s) { return String(s).toLowerCase().replace(/[^a-z0-9 ]+/g, "").replace(/\s+/g, " ").trim(); }
+  _mcSimilar(a, b) {
+    const A = new Set(this._mcNorm(a).split(" ")), B = new Set(this._mcNorm(b).split(" "));
+    let inter = 0; for (const w of A) if (B.has(w)) inter++;
+    const uni = A.size + B.size - inter;
+    return uni ? inter / uni > 0.8 : true;
+  }
+  // distractor pooling: authored graded tiers first, then same deck → graph neighbors →
+  // same category. Deterministic via rng("mc-pick")/rng("mc-shuffle"). <2 survivors → null.
+  mcDistractors(card, deckKey, n) {
+    n = n || 3;
+    const correct = this.mcClip(card.a);
+    if (!correct) return null;
+    const picked = [], tiers = [];
+    const tryAdd = (text, tier) => {
+      if (picked.length >= n || !text) return;
+      const t = this.mcClip(text); if (!t) return;
+      const ratio = t.length / correct.length;
+      if (ratio < 0.4 || ratio > 2.5) return;                 // no length tell
+      if (this._mcSimilar(t, correct)) return;                // accidental-correct guard
+      for (const p of picked) if (this._mcSimilar(t, p)) return;
+      picked.push(t); tiers.push(tier);
+    };
+    const d = card.distractors || null;                       // authored graded tiers win
+    if (d) {
+      (d.plausible || []).forEach((x) => tryAdd(x, "plausible"));
+      (d.trap || []).forEach((x) => tryAdd(x, "trap"));
+    }
+    const decks = (this.flashcards && this.flashcards.decks) || {};
+    const deck = decks[deckKey];
+    if (deck) {
+      const order = deck.cards.filter((c) => c.q !== card.q);
+      while (picked.length < n && order.length) tryAdd(order.splice((this.rng("mc-pick") * order.length) | 0, 1)[0].a, "pool");
+    }
+    if (picked.length < n) {                                  // graph-neighbor decks
+      const idx = this.nodeForKey(deckKey);
+      if (idx >= 0 && this.adj && this.adj[idx]) {
+        for (const k of this.adj[idx]) {
+          if (picked.length >= n) break;
+          const nd = decks[this.deckKeyFor(this.nodes[k]).key];
+          if (nd && nd.cards.length) tryAdd(nd.cards[(this.rng("mc-pick") * nd.cards.length) | 0].a, "pool");
+        }
+      }
+    }
+    if (picked.length < n) {                                  // same-category anywhere (bounded)
+      const keys = Object.keys(decks);
+      let guard = 0;
+      while (picked.length < n && guard++ < 60) {
+        const k = keys[(this.rng("mc-pick") * keys.length) | 0];
+        const dd = decks[k];
+        if (dd && dd.cards.length && k !== deckKey) tryAdd(dd.cards[(this.rng("mc-pick") * dd.cards.length) | 0].a, "pool");
+      }
+    }
+    if (picked.length < 2) return null;
+    const opts = [{ text: correct, tier: "correct" }].concat(picked.map((t, i) => ({ text: t, tier: tiers[i] })));
+    for (let i = opts.length - 1; i > 0; i--) {               // deterministic shuffle
+      const j = (this.rng("mc-shuffle") * (i + 1)) | 0;
+      const tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
+    }
+    return { options: opts, correctIdx: opts.findIndex((o) => o.tier === "correct") };
+  }
+  mcActive(key, card) {
+    if (this._checkpoint) return true;                        // the quiz is always MC
+    const mode = this.get("mcMode", "auto");
+    if (mode === "classic") return false;
+    if (mode === "mc") return true;
+    return this.cardStage(key, card.q) < 2;                   // auto: MC until graduated
+  }
+  // the shared MC renderer. Truth (correct index, tier map) lives ONLY on this._mc — never
+  // in a DOM attribute (cheat vector). Never calls setBeacon (one-beacon law).
+  _mcBlock(card, key, onDone) {
+    const mc = this.mcDistractors(card, key);
+    if (!mc) { this._mc = null; return null; }
+    const qh = this.qhash(card.q);
+    this._mc = { key: key, qhash: qh, correct: mc.correctIdx, tiers: mc.options.map((o) => o.tier) };
+    const wrap = document.createElement("div");
+    wrap.setAttribute("role", "radiogroup");
+    wrap.setAttribute("aria-label", "Answer options");
+    wrap.style.cssText = "position:relative;display:flex;flex-direction:column;gap:7px;";
+    const live = document.createElement("div");
+    live.setAttribute("aria-live", "polite");
+    live.style.cssText = "position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);";
+    wrap.appendChild(live);
+    let answered = false;
+    mc.options.forEach((o, i) => {
+      const b = document.createElement("button");
+      b.setAttribute("data-mc-opt", String(i));
+      b.setAttribute("role", "radio");
+      b.setAttribute("aria-checked", "false");
+      b.style.cssText = "cursor:pointer;font-family:inherit;text-align:left;font-size:12px;line-height:1.45;padding:9px 11px;border-radius:9px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#c8d2e4;transition:border-color .15s,background .15s;";
+      b.innerHTML = '<b style="color:#8094b4;font-weight:800;margin-right:7px;">' + (i + 1) + '</b>' + o.text;
+      b.addEventListener("click", () => { if (!answered) { answered = true; this._mcAnswer(i, card, key, wrap, live, onDone); } });
+      wrap.appendChild(b);
+    });
+    this.fx("mc_shown", { deckKey: key, qhash: qh, opts: mc.options.length });
+    return wrap;
+  }
+  _mcAnswer(i, card, key, wrap, live, onDone) {
+    const mc = this._mc; if (!mc) return;
+    const correct = i === mc.correct;
+    const tier = mc.tiers[i];
+    const btns = wrap.querySelectorAll("[data-mc-opt]");
+    btns.forEach((b) => { b.style.cursor = "default"; b.setAttribute("aria-disabled", "true"); });
+    const cbtn = btns[mc.correct];
+    if (cbtn) {
+      cbtn.setAttribute("data-mc-result", "correct");
+      cbtn.style.borderColor = "rgba(126,224,168,.6)"; cbtn.style.background = "rgba(126,224,168,.12)";
+    }
+    if (correct) {
+      btns[i].setAttribute("aria-checked", "true");
+      const stage = this._bumpStage(key, card.q, 1, 2);       // MC caps at the recall gate
+      this.prep[key] = (this.prep[key] || 0) + 1;             // MC is honest work: feeds odds/JIT
+      this.noteCardDone(card, key);
+      this.noteCardAnswered();
+      this.refreshOptionOdds();
+      this.fx("mc_correct", { deckKey: key, qhash: mc.qhash, stage: stage });
+      live.textContent = "Correct.";
+      cbtn.style.animation = "ngCardIn .3s ease";
+      if (!this.isTest() && !this._checkpoint) {
+        setTimeout(() => { if (this._mc && this._mc.qhash === mc.qhash) { this.deckIdx++; this.revealed = false; this.renderDrill(); } }, 600);
+        return;
+      }
+      if (onDone) onDone(true);
+    } else {
+      const btier = tier === "plausible" || tier === "trap" ? tier : "wrong";
+      btns[i].setAttribute("data-mc-result", btier);
+      btns[i].style.borderColor = btier === "trap" ? "rgba(255,80,80,.6)" : "rgba(255,150,110,.5)";
+      btns[i].style.background = "rgba(255,110,110,.07)";
+      if (btier === "trap") this._bumpStage(key, card.q, -1); // the trap costs a stage
+      this.fx("mc_wrong", { deckKey: key, qhash: mc.qhash, tier: btier, correct: mc.correct });
+      live.textContent = btier === "plausible"
+        ? "Close \u2014 compare your pick with the highlighted answer."
+        : btier === "trap"
+          ? "That one gets you in trouble \u2014 the correct answer is highlighted."
+          : "Not this one \u2014 the correct answer is highlighted.";
+      if (onDone) onDone(false);
+    }
+  }
+  // rails: re-present a specific card of the open deck by its qhash (journeys + weakest-link)
+  presentCard(qh) {
+    const deck = this.deck; if (!deck) return false;
+    for (let i = 0; i < deck.length; i++) {
+      if (this.qhash(deck[i].q) === qh) { this.deckIdx = i; this.revealed = false; this.renderDrill(); return true; }
+    }
+    return false;
+  }
+  // the recall grading choke (footer Got-it / Review-again, keyboard, journeys). Recall is the
+  // ONLY path that mints rec — MC can never reach it (mastered means recall-proven).
+  recallGrade(got) {
+    if (!this.deck || !this._deckInfo) return;
+    const key = this._deckInfo.key;
+    const card = this.deck[this.deckIdx];
+    if (got) {
+      this.prep[key] = (this.prep[key] || 0) + 1;
+      this.rec[key] = (this.rec[key] || 0) + 1;
+      if (card) this._bumpStage(key, card.q, 1);              // toward mastered (cap 4)
+      if (card) this.noteCardDone(card, key);
+      this.noteCardAnswered();
+      this.refreshOptionOdds();
+    } else if (card) {
+      this._bumpStage(key, card.q, -1);                       // Review-again drops a stage
+    }
+    this.deckIdx++; this.revealed = false; this.renderDrill();
+  }
+
+  // ═══ P2: checkpoint quiz (replaces the P1 placeholder behind the same handle + beats) ═══
+  startCheckpoint(beltId, unit) {
+    const uk = beltId + "/" + unit.id;
+    const live = unit.lessons.filter((l) => this._lessonLive(l));
+    if (!live.every((l) => this.lessonDone(l.deckKey))) { this.setEvent("Checkpoint locked", "Finish the unit's lessons first", "bad"); return; }
+    const decks = (this.flashcards && this.flashcards.decks) || {};
+    const pool = [];
+    for (const l of live) {
+      const d = decks[l.deckKey];
+      if (d) for (const c of d.cards) { if (this.mcClip(c.a)) pool.push({ card: c, key: l.deckKey }); }
+    }
+    const want = Math.min((unit.checkpoint && unit.checkpoint.cards) || 6, pool.length);
+    if (!want) { this.setEvent("Checkpoint unavailable", "No quizzable cards in this unit", "bad"); return; }
+    const picks = [];
+    const order = pool.slice();
+    while (picks.length < want && order.length) picks.push(order.splice((this.rng("checkpoint-pick") * order.length) | 0, 1)[0]);
+    this._checkpoint = { belt: beltId, unit: unit, uk: uk, picks: picks, i: 0, firstTry: 0, pass: (unit.checkpoint && unit.checkpoint.pass) || 5 };
+    const el = this.explorerRef.current;
+    if (el && el.style.display === "flex") this.toggleExplorer();
+    this.fx("checkpoint_start", { unit: uk, cards: picks.length });
+    this._checkpointShow();
+  }
+  _checkpointShow() {
+    const cp = this._checkpoint; if (!cp) return;
+    const pick = cp.picks[cp.i];
+    const e = this._entryForKey(pick.key);
+    this.drillEntries = [{ info: e.info, cards: [pick.card] }];
+    this._posKey = pick.key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
+    this._inSession = true;
+    this.setDrillHeader("Checkpoint", (cp.i + 1) + " of " + cp.picks.length + " \u00b7 " + cp.unit.name);
+    this.renderDrill(); this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
+  }
+  _checkpointAnswer(ok) {
+    const cp = this._checkpoint; if (!cp) return;
+    if (ok) cp.firstTry++;
+    cp.i++;
+    if (cp.i < cp.picks.length) { this._checkpointShow(); return; }
+    this._checkpoint = null;
+    const passed = cp.firstTry >= cp.pass;
+    if (passed) {
+      this.units[cp.uk] = Object.assign({}, this.units[cp.uk] || {}, { checkpoint: true, t: Date.now() });
+      this.fx("checkpoint_passed", { unit: cp.uk, firstTry: cp.firstTry, of: cp.picks.length });
+      this.fx("unit_done", { unit: cp.uk, belt: cp.belt });
+      this._saveProgress();
+      this.setEvent("Checkpoint passed", cp.firstTry + "/" + cp.picks.length + " first try \u2014 unit complete", "good");
+    } else {
+      let weakest = null, wv = Infinity;
+      for (const l of cp.unit.lessons) {
+        if (!this._lessonLive(l)) continue;
+        const v = ((this.prep && this.prep[l.deckKey]) || 0) + ((this.rec && this.rec[l.deckKey]) || 0);
+        if (v < wv) { wv = v; weakest = l.deckKey; }
+      }
+      this.fx("checkpoint_failed", { unit: cp.uk, firstTry: cp.firstTry, of: cp.picks.length, weakest: weakest });
+      this.setEvent("Not yet \u2014 " + cp.firstTry + "/" + cp.picks.length, "Revisit " + (weakest ? weakest.split("|")[0] : "the unit") + " and try again", "bad");
+    }
+    this.setDeckOpen(false);
+  }
+
   drillGrade(got) {
     if (!this.deck || !this.revealed) return;
-    if (got && this._deckInfo) { this.prep[this._deckInfo.key] = (this.prep[this._deckInfo.key] || 0) + 1; this.noteCardDone(this.deck[this.deckIdx], this._deckInfo.key); this.noteCardAnswered(); this.refreshOptionOdds(); }
-    this.deckIdx++; this.revealed = false; this.renderDrill();
+    this.recallGrade(got); // one choke: prep+rec+stage on Got-it, stage-drop on Review-again
   }
   isDrillOpen() { const el = this.drillRef.current; return el && el.style.opacity === "1" && !!this.deck; }
   renderDrill() {
@@ -3257,19 +3507,42 @@ class Component extends DCLogic {
       '<div style="display:flex;align-items:center;justify-content:center;gap:6px;margin-top:14px;">' + dots + '</div>';
     list.appendChild(host);
 
+    // MC stage: fresh cards answer as seeded multiple-choice, graduating to recall at stage 2
+    this._mc = null;
+    if (!this.revealed && this.flashcards && this.mcActive(info.key, card)) {
+      const onDone = this._checkpoint
+        ? (ok) => this._checkpointAnswer(ok)
+        : () => {
+            const f2 = this.drillFootRef.current;
+            if (f2) {
+              f2.style.display = "flex"; f2.innerHTML = "";
+              const cont = this.drillBtn("Continue", true);
+              cont.addEventListener("click", () => { this.deckIdx++; this.revealed = false; this.renderDrill(); });
+              f2.appendChild(cont);
+            }
+          };
+      const mcWrap = this._mcBlock(card, info.key, onDone);
+      if (mcWrap) {
+        const acts = host.querySelector(".acts");
+        if (acts) acts.appendChild(mcWrap);
+        return; // MC owns this card — no reveal footer
+      }
+    }
+
     // controls live in the pinned footer so they're always in the same place (and mobile-friendly)
     const foot = this.drillFootRef.current; if (foot) {
       foot.style.display = "flex"; foot.innerHTML = "";
       const acts = document.createElement("div"); acts.style.cssText = "display:flex;gap:8px;";
       if (!this.revealed) {
         const show = this.drillBtn("Reveal answer", true);
+        show.setAttribute("data-reveal", "1");
         show.addEventListener("click", () => { this.revealed = true; this.renderDrill(); });
         acts.appendChild(show);
       } else {
         const again = this.drillBtn("Review again", false);
         const got = this.drillBtn("Got it", true);
-        again.addEventListener("click", () => { this.deckIdx++; this.revealed = false; this.renderDrill(); });
-        got.addEventListener("click", () => { this.prep[info.key] = (this.prep[info.key] || 0) + 1; this.noteCardDone(this.deck[this.deckIdx], info.key); this.noteCardAnswered(); this.refreshOptionOdds(); this.deckIdx++; this.revealed = false; this.renderDrill(); });
+        again.addEventListener("click", () => this.recallGrade(false));
+        got.addEventListener("click", () => this.recallGrade(true));
         acts.appendChild(again); acts.appendChild(got);
       }
       foot.appendChild(acts);
