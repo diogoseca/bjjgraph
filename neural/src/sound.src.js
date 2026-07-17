@@ -56,9 +56,9 @@ class NGSound {
     this._active = 0;
     if (!app.isTest()) {
       // AudioContext must wait for a user gesture (autoplay policy); pre-unlock beats drop
-      const unlock = () => this._ensureCtx();
-      window.addEventListener("pointerdown", unlock, { once: true, passive: true });
-      window.addEventListener("keydown", unlock, { once: true });
+      this._unlock = () => this._ensureCtx();
+      window.addEventListener("pointerdown", this._unlock, { once: true, passive: true });
+      window.addEventListener("keydown", this._unlock, { once: true });
     }
   }
   enabled() { return this.app.get("sound", "on") !== "off"; }
@@ -70,8 +70,18 @@ class NGSound {
       if (AC) { this._ctx = new AC(); this._ctxCreated = true; }
     } catch (e) { /* no audio — stay silent */ }
   }
+  destroy() {
+    // SPA remount builds a fresh NGSound each visit; without this the old AudioContext + its
+    // window unlock listeners leak, and Chrome caps live contexts (~6) — audio silently dies.
+    this._destroyed = true;
+    try { if (this._unlock) { window.removeEventListener("pointerdown", this._unlock); window.removeEventListener("keydown", this._unlock); } } catch (e) {}
+    for (const id of this._voiceTimers || []) { try { clearTimeout(id); } catch (e) {} }
+    this._voiceTimers = [];
+    try { if (this._ctx) this._ctx.close(); } catch (e) {} // closing the context stops any scheduled oscillators (e.g. a mid-play fanfare)
+    this._ctx = null;
+  }
   beat(name, props) {
-    if (!this.enabled()) return;
+    if (this._destroyed || !this.enabled()) return;
     const patch = NG_PATCHES[name];
     if (!patch) return;
     const now = typeof performance !== "undefined" ? performance.now() : 0;
@@ -110,6 +120,7 @@ class NGSound {
       osc.stop(t0 + delay + dur + 0.05);
       longest = Math.max(longest, delay + dur);
     }
-    setTimeout(() => { this._active = Math.max(0, this._active - 1); }, (longest + 0.1) * 1000);
+    const vt = setTimeout(() => { this._active = Math.max(0, this._active - 1); this._voiceTimers = (this._voiceTimers || []).filter((x) => x !== vt); }, (longest + 0.1) * 1000);
+    (this._voiceTimers = this._voiceTimers || []).push(vt);
   }
 }

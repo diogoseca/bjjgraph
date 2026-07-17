@@ -131,18 +131,12 @@ export class Journey {
     } catch {
       await this.page.goto(path, { waitUntil: "commit" }) // one retry: teardown races are transient
     }
-    try {
-      await this.page.waitForFunction(
-        () => {
-          const a = (window as W).__neural
-          return !!(a && a.nodes && a.nodes.length && typeof a.advance === "function" && a.flashcards && a.flashcards.decks)
-        },
-        undefined,
-        { timeout: 120_000 }, // payloads are memory-fulfilled; generous headroom for loaded 2-core CI runners
-      )
-    } catch {
-      // enrich the timeout with a snapshot so a CI-only stall names its blocker in the log
-      const diag = await Promise.race([
+    const ready = () => {
+      const a = (window as W).__neural
+      return !!(a && a.nodes && a.nodes.length && typeof a.advance === "function" && a.flashcards && a.flashcards.decks)
+    }
+    const snapshot = async () =>
+      Promise.race([
         this.page.evaluate(() => ({
           readyState: document.readyState,
           hasNeural: !!(window as any).__neural,
@@ -158,7 +152,29 @@ export class Journey {
         })),
         new Promise((res) => setTimeout(() => res("diag-evaluate-hung"), 5000)),
       ]).catch((x) => String(x))
-      throw new Error(`boot readiness timeout; diagnostics: ${JSON.stringify(diag)}`)
+    try {
+      await this.page.waitForFunction(ready, undefined, { timeout: 120_000 })
+    } catch {
+      // BOOT-SCOPED RETRY: a readiness timeout is INFRA (CPU starvation on a contended 2-core
+      // CI runner — the page load itself stalls: readyState "interactive", nothing pending,
+      // app never ingests), never a gameplay regression. Reload ONCE and wait again — this
+      // retries the BOOT only, so retries=0 still catches real assertion bugs. preserveStorage
+      // is honored by re-arming __ng_keep before the reload (the first navigation consumed it).
+      const diag1 = await snapshot()
+      try {
+        if (opts.preserveStorage) {
+          await this.page.evaluate(() => sessionStorage.setItem("__ng_keep", "1")).catch(() => {})
+        }
+        await this.page.reload({ waitUntil: "commit" })
+        await this.page.waitForFunction(ready, undefined, { timeout: 120_000 })
+      } catch {
+        // still stuck after a reload — this is no longer plausibly a transient flake; fail
+        // for real, carrying BOTH snapshots so the log shows whether the reload changed anything
+        const diag2 = await snapshot()
+        throw new Error(
+          `boot readiness timeout (after 1 reload); before=${JSON.stringify(diag1)} after=${JSON.stringify(diag2)}`,
+        )
+      }
     }
     if (opts.seedRolls) {
       for (const [tag, values] of Object.entries(opts.seedRolls)) await this.rig(tag, values)

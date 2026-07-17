@@ -197,17 +197,20 @@ test("mastered only via recall: MC caps at the gate, recall mints rec", async ({
   expect(s.stage).toBe(2) // capped at the recall gate
   expect(s.rec).toBe(0) // MC can never mint recall credit
 
-  // 3 recall Got-its → rec 3 → the deck counts as mastered (rec-based masteredCount)
+  // rec counts DISTINCT cards proven by recall (v1.64.2 anti-inflation): recalling THREE
+  // distinct cards — not re-grading one — is the honest path to a mastered deck.
   const mastered0 = await page.evaluate(() => (window as any).__neural.masteredCount())
-  for (let i = 0; i < 3; i++) {
-    await page.evaluate((q) => {
-      const a = (window as any).__neural
-      a.presentCard(q) // stage ≥2 → renders recall
-      a.revealed = true // reveal is visual; grading goes through the choke either way
-      a.recallGrade(true)
-    }, qh)
-    await j.advance(400)
-  }
+  await page.evaluate((k) => {
+    const a = (window as any).__neural
+    const cards = a.deck.filter((c: any) => a.mcClip(c.a)).slice(0, 3)
+    for (const c of cards) {
+      const cqh = a.qhash(c.q)
+      ;(a.stage[k] = a.stage[k] || {})[cqh] = 2 // graduated to the recall gate
+      a.presentCard(cqh)
+      a.revealed = true
+      a.recallGrade(true) // crosses to stage 3 → recall-proven → rec += 1 (once per card)
+    }
+  }, LESSON1.deckKey)
   s = await page.evaluate(
     ([k, q]) => {
       const a = (window as any).__neural

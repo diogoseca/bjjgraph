@@ -73,6 +73,10 @@ class Component extends DCLogic {
   componentDidMount() { this.boot(); }
   componentWillUnmount() {
     try { this.clearClipLoops(); } catch (e) {}
+    try { if (this.sound && this.sound.destroy) this.sound.destroy(); } catch (e) {} // close AudioContext, stop voices, drop listeners
+    if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; }
+    if (this._onPageHide) window.removeEventListener("pagehide", this._onPageHide);
+    if (this._onVisHide) document.removeEventListener("visibilitychange", this._onVisHide);
     this._detailCtx = null;
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._ro) this._ro.disconnect();
@@ -332,6 +336,12 @@ class Component extends DCLogic {
       .then((c) => { if (c && c.belts && c.belts.length) { this.curriculum = c; this._onCurriculum(); } })
       .catch(() => { /* optional payload */ });
     if (this.loaderRef.current) this.loaderRef.current.style.display = "none";
+    // durability: flush the debounced save if the tab is closing/backgrounding (a quick reload
+    // right after a belt-win fanfare must not lose the milestone).
+    this._onPageHide = () => this._flushSave();
+    this._onVisHide = () => { if (document.visibilityState === "hidden") this._flushSave(); };
+    window.addEventListener("pagehide", this._onPageHide);
+    document.addEventListener("visibilitychange", this._onVisHide);
     this.startLoop();
   }
 
@@ -923,6 +933,10 @@ class Component extends DCLogic {
 
   setDeckOpen(open) {
     if (open && !this.deckOpen) this.track("neural_drill_opened", { deck_key: this._posKey || null });
+    if (!open) {
+      if (this._checkpoint) this._cancelCheckpoint(); // abandoning the quiz cancels it (natural completion nulled it first)
+      if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // a closed deck must not auto-advance
+    }
     this.deckOpen = !!open;       // sticky: once opened it stays open across lands until closed
     this.applyDeckVisibility();
     this.lastInteract = this.now;
@@ -995,6 +1009,7 @@ class Component extends DCLogic {
     this.openHomeToLatest();   // open the panel AND the current position's flashcard box
   }
   openMenu() {
+    if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     this._drillView = "home";
     this.deckReady = true; this.deckOpen = true;
     this.applyDeckVisibility();
@@ -1067,13 +1082,14 @@ class Component extends DCLogic {
   // reload; this is the single blob the cloud sync (slice 6) pushes/pulls. ----------
   _dayKey(d) { const x = d || new Date(); return x.getFullYear() + "-" + String(x.getMonth() + 1).padStart(2, "0") + "-" + String(x.getDate()).padStart(2, "0"); }
   _loadProgress() {
-    this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} };
+    this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {};
     try {
       const raw = localStorage.getItem("bjj-neural-progress"); if (!raw) return;
       const p = JSON.parse(raw); if (!p || (p.v !== 1 && p.v !== 2)) return;
       this.prep = Object.assign({}, p.prep || {});
       this._days = Object.assign({}, p.days || {});
       if (p.settings) this.settings = Object.assign({}, this.settings || {}, p.settings);
+      this._settingsAt = Object.assign({}, p.settingsAt || {});
       // v1 -> v2 migration: recall history didn't exist — grandfather rec = prep so nobody's
       // mastery collapses on upgrade (Phase 2 gates NEW mastery on real recall grades).
       this.rec = Object.assign({}, p.v === 2 ? (p.rec || {}) : (p.prep || {}));
@@ -1089,7 +1105,7 @@ class Component extends DCLogic {
     const trimmed = {};
     for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
     this._progressAt = Date.now();
-    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, days: trimmed, settings: this.settings || {}, updatedAt: this._progressAt };
+    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -1100,7 +1116,15 @@ class Component extends DCLogic {
     if (this.isTest()) { write(); return; } // journeys reload faster than a debounce
     this._saveT = setTimeout(write, 400);
   }
-  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; this._saveProgress(); }
+  // synchronous flush — the debounced write loses a belt win / checkpoint pass if the user
+  // reloads or closes the tab within 400ms of the fanfare. Called on the critical milestones
+  // AND on pagehide/visibility-hidden (registered in boot).
+  _flushSave() {
+    clearTimeout(this._saveT);
+    try { localStorage.setItem("bjj-neural-progress", JSON.stringify(this._progressBlob())); } catch (e) { /* quota */ }
+    if (this._pushCloud) this._pushCloud();
+  }
+  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); }
   // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
   onFlashcardsReady() {
     try {
@@ -2244,7 +2268,18 @@ class Component extends DCLogic {
         for (const k in cAtt) att[k] = Math.max(att[k] || 0, cAtt[k] || 0);
         this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won, attempts: att });
         const localAt = this._progressAt || 0;
-        if (cloud.settings && (cloud.updatedAt || 0) > localAt) this.settings = Object.assign({}, this.settings, cloud.settings);
+        if (cloud.settings) {
+          // per-KEY merge: a whole-blob LWW let one device's stale keys clobber another
+          // device's fresher settings. Each key keeps its most-recently-changed value.
+          const cAt = cloud.settingsAt || {}, lAt = this._settingsAt || {}, cBlob = cloud.updatedAt || 0;
+          const merged = Object.assign({}, this.settings), mAt = Object.assign({}, lAt);
+          for (const sk in cloud.settings) {
+            const ct = cAt[sk] != null ? cAt[sk] : cBlob;      // pre-per-key clouds fall back to the blob ts
+            const lt = lAt[sk] != null ? lAt[sk] : localAt;
+            if (!(sk in merged) || ct > lt) { merged[sk] = cloud.settings[sk]; mAt[sk] = ct; }
+          }
+          this.settings = merged; this._settingsAt = mAt;
+        }
         this.cardsToday = days[this._dayKey()] || 0;
       }
       this._pulled = true;          // a fresh device must pull before it may push (no cloud clobber)
@@ -3361,7 +3396,8 @@ class Component extends DCLogic {
       live.textContent = "Correct.";
       cbtn.style.animation = "ngCardIn .3s ease";
       if (!this.isTest() && !this._checkpoint) {
-        setTimeout(() => { if (this._mc && this._mc.qhash === mc.qhash) { this.deckIdx++; this.revealed = false; this.renderDrill(); } }, 600);
+        if (this._mcAdvT) clearTimeout(this._mcAdvT);
+        this._mcAdvT = setTimeout(() => { this._mcAdvT = null; if (this.deckShown && this._mc && this._mc.qhash === mc.qhash) { this.deckIdx++; this.revealed = false; this.renderDrill(); } }, 600);
         return;
       }
       if (onDone) onDone(true);
@@ -3396,9 +3432,15 @@ class Component extends DCLogic {
     const card = this.deck[this.deckIdx];
     if (got) {
       this.prep[key] = (this.prep[key] || 0) + 1;
-      this.rec[key] = (this.rec[key] || 0) + 1;
-      if (card) this._bumpStage(key, card.q, 1);              // toward mastered (cap 4)
-      if (card) this.noteCardDone(card, key);
+      if (card) {
+        const wasProven = this.cardStage(key, card.q) >= 3;
+        this._bumpStage(key, card.q, 1);                     // toward mastered (cap 4)
+        // rec = DISTINCT cards proven by recall (stage>=3): count each card ONCE, the first
+        // time it crosses. Re-grading a mastered card no longer inflates the deck's mastered
+        // status; MC caps stage at 2, so only recall can mint rec.
+        if (!wasProven && this.cardStage(key, card.q) >= 3) this.rec[key] = (this.rec[key] || 0) + 1;
+        this.noteCardDone(card, key);
+      }
       this.noteCardAnswered();
       this.refreshOptionOdds();
     } else if (card) {
@@ -3408,7 +3450,9 @@ class Component extends DCLogic {
   }
 
   // ═══ P2: checkpoint quiz (replaces the P1 placeholder behind the same handle + beats) ═══
+  _cancelCheckpoint() { if (this._checkpoint) { this._checkpoint = null; this.fx("checkpoint_abandoned", {}); } }
   startCheckpoint(beltId, unit) {
+    if (this._checkpoint) return; // a quiz is already in progress — don't discard it
     const uk = beltId + "/" + unit.id;
     const live = unit.lessons.filter((l) => this._lessonLive(l));
     if (!live.every((l) => this.lessonDone(l.deckKey))) { this.setEvent("Checkpoint locked", "Finish the unit's lessons first", "bad"); return; }
@@ -3454,7 +3498,7 @@ class Component extends DCLogic {
       this.units[cp.uk] = Object.assign({}, this.units[cp.uk] || {}, { checkpoint: true, t: Date.now() });
       this.fx("checkpoint_passed", { unit: cp.uk, firstTry: cp.firstTry, of: cp.picks.length });
       this.fx("unit_done", { unit: cp.uk, belt: cp.belt });
-      this._saveProgress();
+      this._flushSave();
       this.setEvent("Checkpoint passed", cp.firstTry + "/" + cp.picks.length + " first try \u2014 unit complete", "good");
     } else {
       let weakest = null, wv = Infinity;
@@ -3738,13 +3782,13 @@ class Component extends DCLogic {
         this.fx("belt_test_won", { belt: bt.beltId, moves: this.moveCount || 0, byPoints: wonByPoints, dominance: dominance });
         const nextBelt = this._nextBeltId(bt.beltId);
         if (nextBelt) this.fx("belt_unlocked", { belt: nextBelt });
-        this._saveProgress();
+        this._flushSave();
         if (kind !== "win") { kind = "win"; name = name || "Won on points"; } // points wins celebrate like wins
       } else {
         this.belts.attempts = this.belts.attempts || {};
         this.belts.attempts[bt.beltId] = (this.belts.attempts[bt.beltId] || 0) + 1;
         this.fx("belt_test_lost", { belt: bt.beltId, moves: this.moveCount || 0, dominance: dominance, attempts: this.belts.attempts[bt.beltId] });
-        this._saveProgress();
+        this._flushSave();
         if (kind === "reset") kind = "lose"; // the test ended in defeat, not a scramble
         name = name || "Not yet \u2014 retry from the Path";
       }
@@ -4093,7 +4137,7 @@ class Component extends DCLogic {
   // ---------- roll state machine ----------
   rollFromPosition(nodeIdx) {
     // start a NEW roll seeded at a chosen position; the current roll is archived into Previous rolls
-    this.clearTimers(); this.clearOptions(); this.clearEngagement();
+    this.clearTimers(); this.clearOptions(); this.clearEngagement(); this._cancelCheckpoint();
     let posIdx = nodeIdx;
     if (this.nodes[nodeIdx] && this.nodes[nodeIdx].ty !== "positions") {
       let p = -1; for (const k of this.adj[nodeIdx]) { if (this.nodes[k].ty === "positions") { p = k; break; } }
@@ -4122,6 +4166,7 @@ class Component extends DCLogic {
   startRoll() {
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
     this._beltTest = null; // a fresh normal roll is never a belt test (manual reset = clean cancel, no attempt burned)
+    this._cancelCheckpoint(); // and never a stale checkpoint quiz
     this.track("neural_roll_started", {});
     // archive the roll that just ended so the sidebar can show "Previous roll / Today / Yesterday"
     if (this.rollLog && this.rollLog.length > 1) {
