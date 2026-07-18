@@ -116,6 +116,8 @@ description: "Learn pressure passing from flattened half guard top. Complete you
   "@type": "WebPage",
   "name": "Flattened Half Guard Top",
   "description": "Learn pressure passing from flattened half guard top. Complete your passes with crossface control, weight distribution, and strategic positioning.",
+  "alternateName": ["Smashed Half Guard", "Flat Half Guard", "Pinned Half Guard"],
+  "disambiguatingDescription": "Often confused with Half Guard \u2014 standard half guard keeps active frames and hip mobility, while the flattened variation has the back pinned flat with frames collapsed. Often confused with Knee Shield Half Guard \u2014 the knee shield uses an active shin frame to hold distance, while flattened half guard has no shin barrier and chest-to-chest contact. Often confused with Quarter Guard \u2014 quarter guard traps only the opponent\u0027s foot with minimal control, while flattened half guard still traps the full leg under collapsed frames.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +157,12 @@ description: "Learn pressure passing from flattened half guard top. Complete you
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Smashed Half Guard</strong>, <strong>Flat Half Guard</strong>, <strong>Pinned Half Guard</strong> <span class="role-hint">(top)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Half Guard|Half Guard]]</strong> — standard half guard keeps active frames and hip mobility, while the flattened variation has the back pinned flat with frames collapsed</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]]</strong> — the knee shield uses an active shin frame to hold distance, while flattened half guard has no shin barrier and chest-to-chest contact</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Quarter Guard|Quarter Guard]]</strong> — quarter guard traps only the opponent&#39;s foot with minimal control, while flattened half guard still traps the full leg under collapsed frames</p>
+</aside>
 <section id="overview" class="content-section">
 
 Playing top in Flattened Half Guard represents the culmination of effective pressure passing and the critical decision point between maintaining control and completing the guard pass. When you successfully collapse your opponent's frames and settle your chest onto theirs with their leg still trapped in half guard, you've achieved significant positional dominance. Your opponent's back is flat against the mat, their breathing is compromised by your weight, and their offensive options are severely limited. However, this apparent advantage contains a subtle trap - becoming satisfied with the control position without actively working to complete the pass. The trapped leg remains a barrier that prevents scoring position and allows your opponent time to systematically recover their frames.

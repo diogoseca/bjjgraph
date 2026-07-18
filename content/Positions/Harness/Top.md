@@ -117,6 +117,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
   "name": "Harness Top",
   "description": "Master Harness Top Position in BJJ - dominant back control with seat belt grip. Learn retention strategies, submission paths, and counter-escapes with 85% advanced retention rate.",
   "alternateName": ["Seatbelt", "Seat Belt", "Seatbelt Control", "Seat Belt Control"],
+  "disambiguatingDescription": "Often confused with Back Control \u2014 back control is defined by both hooks being established, while the harness is defined by the seat belt grip and can exist with or without hooks. Often confused with Body Triangle \u2014 the body triangle locks the legs in a figure-four around the torso, while the harness is the upper-body seat belt grip at the chest. Often confused with Gift Wrap \u2014 the gift wrap traps the opponent\u0027s arm across their own neck, while the harness clasps both hands at the chest without trapping an arm.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -158,6 +159,9 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Seatbelt</strong>, <strong>Seat Belt</strong>, <strong>Seatbelt Control</strong>, <strong>Seat Belt Control</strong> <span class="role-hint">(top)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Back Control|Back Control]]</strong> — back control is defined by both hooks being established, while the harness is defined by the seat belt grip and can exist with or without hooks</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Back Control/Body Triangle|Body Triangle]]</strong> — the body triangle locks the legs in a figure-four around the torso, while the harness is the upper-body seat belt grip at the chest</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Gift Wrap|Gift Wrap]]</strong> — the gift wrap traps the opponent&#39;s arm across their own neck, while the harness clasps both hands at the chest without trapping an arm</p>
 </aside>
 <section id="overview" class="content-section">
 

@@ -116,6 +116,8 @@ description: "Learn defensive tactics for surviving and escaping flattened half 
   "@type": "WebPage",
   "name": "Flattened Half Guard Bottom",
   "description": "Learn defensive tactics for surviving and escaping flattened half guard. Step-by-step frame recovery techniques and pressure management strategies.",
+  "alternateName": ["Smashed Half Guard", "Flat Half Guard", "Pinned Half Guard"],
+  "disambiguatingDescription": "Often confused with Half Guard \u2014 standard half guard keeps active frames and hip mobility, while the flattened variation has the back pinned flat with frames collapsed. Often confused with Knee Shield Half Guard \u2014 the knee shield uses an active shin frame to hold distance, while flattened half guard has no shin barrier and chest-to-chest contact. Often confused with Quarter Guard \u2014 quarter guard traps only the opponent\u0027s foot with minimal control, while flattened half guard still traps the full leg under collapsed frames.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +157,12 @@ description: "Learn defensive tactics for surviving and escaping flattened half 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Smashed Half Guard</strong>, <strong>Flat Half Guard</strong>, <strong>Pinned Half Guard</strong> <span class="role-hint">(bottom)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Half Guard|Half Guard]]</strong> — standard half guard keeps active frames and hip mobility, while the flattened variation has the back pinned flat with frames collapsed</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]]</strong> — the knee shield uses an active shin frame to hold distance, while flattened half guard has no shin barrier and chest-to-chest contact</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Quarter Guard|Quarter Guard]]</strong> — quarter guard traps only the opponent&#39;s foot with minimal control, while flattened half guard still traps the full leg under collapsed frames</p>
+</aside>
 <section id="overview" class="content-section">
 
 Playing bottom in Flattened Half Guard requires a fundamental shift in mindset from offensive grappling to defensive survival and systematic recovery. When your frames collapse and your opponent's chest settles onto yours with the trapped leg still hooked, you enter one of the most uncomfortable positions in Brazilian Jiu-Jitsu. The weight on your chest restricts breathing, the crossface turns your head away from the action, and the constant forward pressure makes even small movements exhausting. This is precisely when technical knowledge becomes critical - understanding the specific sequences of movements that create space under pressure separates those who escape from those who get passed.
